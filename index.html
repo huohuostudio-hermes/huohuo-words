@@ -61,6 +61,8 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .stat .num{font-size:24px;font-weight:800;line-height:1}
 .stat .lbl{font-size:11px;color:var(--muted);margin-top:6px}
 .stat .num.accent{color:var(--accent2)}
+.stat.click{cursor:pointer}
+.stat.click:active{opacity:.7}
 .menu-card{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--border2);
   border-radius:24px;padding:26px;box-shadow:var(--shadow);margin-top:6px}
 .menu-card h2{margin:0 0 6px;font-size:20px}
@@ -158,6 +160,9 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .worditem .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
 .dot.new{background:var(--faint)} .dot.learn{background:var(--warn)} .dot.master{background:var(--good)}
 .empty{text-align:center;color:var(--faint);padding:40px 0;font-size:14px}
+.group-actions{display:flex;gap:10px;margin:2px 0 14px}
+.group-actions .btn{flex:1;width:auto}
+.group-actions .btn+.btn{margin-top:0}
 
 /* ===== 我的 ===== */
 .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;margin-bottom:12px}
@@ -251,6 +256,7 @@ function isMastered(w){const c=cardOf(w);return !!c && c.state==="mastered";}
 function masteredCount(){return WORDS.filter(isMastered).length;}
 function learningCount(){return WORDS.filter(isLearning).length;}
 function newCount(){return WORDS.filter(isNew).length;}
+function studiedCount(){return WORDS.filter(w=>cardOf(w)).length;}
 function todayLearned(){const t=todayStr();return WORDS.filter(w=>{const c=cardOf(w);return c&&c.learnedOn===t;}).length;}
 function todayMastered(){const t=todayStr();return WORDS.filter(w=>{const c=cardOf(w);return c&&c.masteredOn===t;}).length;}
 function pickNew(n){return WORDS.filter(isNew).slice(0,n||0);}
@@ -318,6 +324,7 @@ function renderStudy(){renderMenu();}
 function renderMenu(){
   const target=progress.settings.dailyNew||10;
   const learnedToday=todayLearned();
+  const studied=studiedCount();
   const pending=learningCount();
   const master=masteredCount();
   const remain=newCount();
@@ -325,8 +332,8 @@ function renderMenu(){
   $("#main").innerHTML=`
     <div class="overview">
       <div class="stat"><div class="num">${target}</div><div class="lbl">今日目标</div></div>
-      <div class="stat"><div class="num">${learnedToday}</div><div class="lbl">今日已学</div></div>
-      <div class="stat"><div class="num accent">${master}</div><div class="lbl">已掌握</div></div>
+      <div class="stat click" onclick="showGroup('learned')"><div class="num">${studied}</div><div class="lbl">已学习 ›</div></div>
+      <div class="stat click" onclick="showGroup('mastered')"><div class="num accent">${master}</div><div class="lbl">已掌握 ›</div></div>
     </div>
     <div class="menu-card">${menuCardHTML(target,learnedToday,pending,remain,master)}</div>`;
   updateBadge();
@@ -460,6 +467,9 @@ function renderSpell(){
       <div class="feedback" id="fb"></div>
       <button class="hintbtn" onclick="toggleHint()">💡 提示</button>
       <div class="hintbox" id="hintBox" style="display:none">
+        <div class="qword" style="font-size:26px;margin-top:4px">${esc(w.word)}</div>
+        <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
+        <div class="zh" style="font-size:18px">${esc(w.zh)}</div>
         <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
         ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
       </div>
@@ -572,15 +582,16 @@ function renderListItems(){
 }
 function setCat(c){curCat=c;renderList();}
 function onSearch(v){curQuery=v;renderListItems();}
-function openDetail(word){
+function openDetail(word, back){
   const w=WORDS.find(x=>x.word===word);if(!w)return;
+  const backFn=back||"renderList";
   const c=cardOf(w);
   const stTxt={new:"未学习",learning:"学习中",mastered:"已掌握"}[cardState(w)];
   const learnedOn=c&&c.learnedOn?c.learnedOn:"—";
   const masteredOn=c&&c.masteredOn?c.masteredOn:"—";
   $("#main").innerHTML=`
     <div class="topbar">
-      <button class="backbtn" onclick="renderList()">← 返回</button>
+      <button class="backbtn" onclick="${backFn}()">← 返回</button>
       <div class="t">单词详情</div>
     </div>
     <div class="qcard">
@@ -592,6 +603,57 @@ function openDetail(word){
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
       <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(w.category)} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
     </div>`;
+}
+
+/* ---------- 分组查看（已学习 / 已掌握） ---------- */
+let curGroupKind=null;
+function showGroup(kind){
+  curGroupKind=kind;
+  const words=kind==="mastered"?WORDS.filter(isMastered):WORDS.filter(w=>cardOf(w));
+  const title=kind==="mastered"?"已掌握":"已学习";
+  const actions=words.length>0?`
+    <div class="group-actions">
+      <button class="btn primary" onclick="beginSessionOnGroup('${kind}','learn')">再学一遍</button>
+      <button class="btn" onclick="beginSessionOnGroup('${kind}','review')">再复习一遍</button>
+    </div>`:"";
+  $("#main").innerHTML=`
+    <div class="topbar">
+      <button class="backbtn" onclick="renderMenu()">← 返回</button>
+      <div class="t">${title}</div>
+    </div>
+    ${actions}
+    <ul class="wordlist" id="list"></ul>`;
+  renderGroupItems(words);
+}
+function renderGroupItems(words){
+  const ul=$("#list");
+  if(words.length===0){ul.innerHTML='<div class="empty">这里还没有单词</div>';return;}
+  ul.innerHTML=words.map(w=>{
+    const st=cardState(w);
+    const dot={new:"new",learning:"learn",mastered:"master"}[st];
+    return `<li class="worditem" onclick="openDetail('${esc(w.word)}','renderGroupBack')">
+      <span class="dot ${dot}"></span>
+      <span class="w">${esc(w.word)}</span>
+      <span class="z">${esc(w.zh)}</span></li>`;
+  }).join("");
+}
+function renderGroupBack(){showGroup(curGroupKind);}
+function beginSessionOnGroup(kind, mode){
+  const words=kind==="mastered"?WORDS.filter(isMastered):WORDS.filter(w=>cardOf(w));
+  beginSessionOn(words, mode);
+}
+function beginSessionOn(words, mode){
+  const ws=(words||[]).slice();
+  session={
+    mcqQueue: mode==="learn"?[...ws]:[],
+    spellQueue:[],
+    pendingSpell:[...ws],
+    failQueue:[],
+    current:null,wordWrong:false,addedToFail:false
+  };
+  if(mode==="learn" && ws.length>0)renderMCQ();
+  else if(session.pendingSpell.length>0)buildSpellPhase();
+  else renderDone();
 }
 
 /* ---------- 我的 ---------- */

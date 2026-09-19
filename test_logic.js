@@ -112,6 +112,23 @@ ok(String(mainEl.innerHTML).indexOf("hintbtn")>=0, "复习页含提示按钮");
 // 9. 拼写解释
 renderOK("renderSpellExplain", ()=>renderSpellExplain());
 
+// 10. 分组查看（已学习/已掌握）
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+markLearned(WORDS[0]); markMastered(WORDS[1]);
+renderOK("showGroup(learned)", ()=>showGroup("learned"));
+renderOK("showGroup(mastered)", ()=>showGroup("mastered"));
+
+// 11. 分组再学/再复习会话
+beginSessionOn([WORDS[2],WORDS[3]], "review");
+ok(session.mcqQueue.length===0 && session.spellQueue.length===2, "review 模式：无MCQ、直接进拼写队列");
+beginSessionOn([WORDS[2],WORDS[3]], "learn");
+ok(session.mcqQueue.length===2 && session.pendingSpell.length===2, "learn 模式：MCQ=2 且待拼写=2");
+
+// 12. 提示框含英语单词
+session={mcqQueue:[],spellQueue:[],pendingSpell:[],failQueue:[],current:WORDS[0],wordWrong:false,addedToFail:false};
+renderSpell();
+ok(String(mainEl.innerHTML).indexOf(WORDS[0].word)>=0, "提示框含英语单词");
+
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;
 `;
