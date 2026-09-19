@@ -163,6 +163,11 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .group-actions{display:flex;gap:10px;margin:2px 0 14px}
 .group-actions .btn{flex:1;width:auto}
 .group-actions .btn+.btn{margin-top:0}
+.group-actions.selbar{align-items:center}
+.group-actions .btn.small{flex:0 0 auto;padding:10px 16px}
+.selcount{flex:1;font-size:14px;font-weight:700;color:var(--accent2)}
+.chk{width:22px;height:22px;border-radius:7px;border:1.5px solid var(--border2);flex:0 0 auto;display:grid;place-items:center;font-size:14px;font-weight:800;color:#0d1020}
+.chk.on{background:var(--accent);border-color:var(--accent)}
 
 /* ===== 我的 ===== */
 .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;margin-bottom:12px}
@@ -452,6 +457,8 @@ function startSpell(){
 }
 function renderSpell(){
   const w=session.current;
+  session.hintUsed=false;
+  session.hintLevel=0;
   $("#main").innerHTML=`
     <div class="qphase">· 拼写复习 ·</div>
     <div class="qcard">
@@ -465,28 +472,40 @@ function renderSpell(){
         <button class="submitbtn" onclick="submitSpell()">提交</button>
       </div>
       <div class="feedback" id="fb"></div>
-      <button class="hintbtn" onclick="toggleHint()">💡 提示</button>
-      <div class="hintbox" id="hintBox" style="display:none">
-        <div class="qword" style="font-size:26px;margin-top:4px">${esc(w.word)}</div>
-        <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
-        <div class="zh" style="font-size:18px">${esc(w.zh)}</div>
-        <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
-        ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
-      </div>
+      <button class="hintbtn" id="hintBtn" onclick="toggleHint()">💡 提示</button>
+      <div class="hintbox" id="hintBox" style="display:none"></div>
     </div>`;
   const inp=$("#spellInput");if(inp)inp.focus();
 }
 function toggleHint(){
+  const w=session.current;
   const b=$("#hintBox");
+  const btn=$("#hintBtn");
   if(!b)return;
-  b.style.display=(b.style.display==="none")?"block":"none";
+  session.hintUsed=true;
+  if(session.hintLevel===0){
+    session.hintLevel=1;
+    b.style.display="block";
+    b.innerHTML=`<div class="qipa" style="font-size:22px">${w.ipa?"/"+esc(w.ipa)+"/":"（无音标）"}</div>`;
+    if(btn)btn.textContent="继续提示";
+  }else{
+    session.hintLevel=2;
+    b.innerHTML=`
+      <div class="qipa" style="font-size:22px">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
+      <div class="qword" style="font-size:26px;margin-top:4px">${esc(w.word)}</div>
+      <div class="zh" style="font-size:18px">${esc(w.zh)}</div>
+      <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+      ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}`;
+    if(btn)btn.textContent="提示";
+  }
 }
 function submitSpell(){
   const w=session.current;
   const inp=$("#spellInput");
   const val=(inp.value||"").trim();
   if(!val)return;
-  if(val.toLowerCase()===w.word.toLowerCase()){
+  const spelledRight=val.toLowerCase()===w.word.toLowerCase();
+  if(spelledRight && !session.hintUsed){
     inp.classList.add("ok");
     const fb=$("#fb");fb.textContent="✓ 正确！"+w.word;fb.className="feedback ok";
     markMastered(w);
@@ -495,7 +514,9 @@ function submitSpell(){
     if(!session.addedToFail){session.failQueue.push(w);session.addedToFail=true;}
     session.wordWrong=true;
     inp.classList.add("no");
-    const fb=$("#fb");fb.textContent="✗ 不对";fb.className="feedback no";
+    const fb=$("#fb");
+    fb.textContent=(session.hintUsed&&spelledRight)?"💡 用了提示，需再拼一次":"✗ 不对";
+    fb.className="feedback no";
     setTimeout(renderSpellExplain,700);
   }
 }
@@ -607,15 +628,41 @@ function openDetail(word, back){
 
 /* ---------- 分组查看（已学习 / 已掌握） ---------- */
 let curGroupKind=null;
+let groupSelectMode=false;
+let groupSelected=new Set();
+function groupWordsOf(kind){
+  return kind==="mastered"?WORDS.filter(isMastered):WORDS.filter(w=>cardOf(w));
+}
 function showGroup(kind){
   curGroupKind=kind;
-  const words=kind==="mastered"?WORDS.filter(isMastered):WORDS.filter(w=>cardOf(w));
-  const title=kind==="mastered"?"已掌握":"已学习";
-  const actions=words.length>0?`
-    <div class="group-actions">
-      <button class="btn primary" onclick="beginSessionOnGroup('${kind}','learn')">再学一遍</button>
-      <button class="btn" onclick="beginSessionOnGroup('${kind}','review')">再复习一遍</button>
-    </div>`:"";
+  groupSelectMode=false;
+  groupSelected=new Set();
+  renderGroup(groupWordsOf(kind));
+}
+function renderGroup(words){
+  const title=curGroupKind==="mastered"?"已掌握":"已学习";
+  let actions="";
+  if(groupSelectMode){
+    actions=`
+      <div class="group-actions selbar">
+        <span class="selcount">已选 ${groupSelected.size} 个</span>
+        <button class="btn small" onclick="selectAll()">全选</button>
+        <button class="btn small" onclick="exitSelect()">完成</button>
+      </div>
+      <div class="group-actions">
+        <button class="btn primary" onclick="actSelected('learn')">再学所选</button>
+        <button class="btn" onclick="actSelected('review')">复习所选</button>
+      </div>`;
+  }else if(words.length>0){
+    actions=`
+      <div class="group-actions">
+        <button class="btn primary" onclick="beginSessionOnGroup('${curGroupKind}','learn')">再学一遍</button>
+        <button class="btn" onclick="beginSessionOnGroup('${curGroupKind}','review')">再复习一遍</button>
+      </div>
+      <div class="group-actions selbar">
+        <button class="btn small" onclick="enterSelect()">☑ 多选</button>
+      </div>`;
+  }
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="renderMenu()">← 返回</button>
@@ -629,6 +676,13 @@ function renderGroupItems(words){
   const ul=$("#list");
   if(words.length===0){ul.innerHTML='<div class="empty">这里还没有单词</div>';return;}
   ul.innerHTML=words.map(w=>{
+    if(groupSelectMode){
+      const on=groupSelected.has(w.word);
+      return `<li class="worditem" onclick="toggleSelectWord('${esc(w.word)}')">
+        <span class="chk ${on?"on":""}">${on?"✓":""}</span>
+        <span class="w">${esc(w.word)}</span>
+        <span class="z">${esc(w.zh)}</span></li>`;
+    }
     const st=cardState(w);
     const dot={new:"new",learning:"learn",mastered:"master"}[st];
     return `<li class="worditem" onclick="openDetail('${esc(w.word)}','renderGroupBack')">
@@ -638,6 +692,23 @@ function renderGroupItems(words){
   }).join("");
 }
 function renderGroupBack(){showGroup(curGroupKind);}
+function enterSelect(){groupSelectMode=true;groupSelected=new Set();renderGroup(groupWordsOf(curGroupKind));}
+function exitSelect(){groupSelectMode=false;groupSelected=new Set();renderGroup(groupWordsOf(curGroupKind));}
+function toggleSelectWord(word){
+  if(groupSelected.has(word))groupSelected.delete(word);else groupSelected.add(word);
+  renderGroup(groupWordsOf(curGroupKind));
+}
+function selectAll(){
+  const words=groupWordsOf(curGroupKind);
+  if(groupSelected.size===words.length)groupSelected=new Set();
+  else groupSelected=new Set(words.map(w=>w.word));
+  renderGroup(words);
+}
+function actSelected(mode){
+  if(groupSelected.size===0){alert("请先勾选要复习的单词");return;}
+  const words=groupWordsOf(curGroupKind).filter(w=>groupSelected.has(w.word));
+  beginSessionOn(words, mode);
+}
 function beginSessionOnGroup(kind, mode){
   const words=kind==="mastered"?WORDS.filter(isMastered):WORDS.filter(w=>cardOf(w));
   beginSessionOn(words, mode);
