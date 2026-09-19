@@ -303,7 +303,7 @@ window.WORDS = [
     "zh": "萨克斯管",
     "def": "一种单簧片木管乐器，通常由黄铜制成，音色介于木管与铜管之间，富有表现力。",
     "example": "例子：Kenny G 的《Going Home》中那段悠扬的萨克斯旋律。",
-    "category": "其他",
+    "category": "管乐",
     "source": "小赫转存",
     "id": 28
   },
@@ -314,7 +314,7 @@ window.WORDS = [
     "zh": "长号",
     "def": "一种铜管乐器，通过伸缩管改变管长来调节音高，音色庄严而饱满。",
     "example": "例子：爵士大乐队中长号声部的滑音演奏（glissando）。",
-    "category": "其他",
+    "category": "管乐",
     "source": "小赫转存",
     "id": 29
   },
@@ -336,7 +336,7 @@ window.WORDS = [
     "zh": "铺底音色 / 氛围音层",
     "def": "一种持续、柔和且通常带有合成性质的音色，用于填充和声背景，营造空间感与氛围。",
     "example": "听觉例子：环境音乐中那种绵延不断、如云雾般铺满整个声场的键盘音色。",
-    "category": "音效",
+    "category": "合成器",
     "source": "小赫转存",
     "id": 31
   },
@@ -347,7 +347,7 @@ window.WORDS = [
     "zh": "小号",
     "def": "一种高音铜管乐器，通过三个活塞阀改变音高，音色明亮、穿透力强。",
     "example": "例子：Miles Davis 在《So What》中用弱音器演奏的冷爵士小号。",
-    "category": "其他",
+    "category": "管乐",
     "source": "小赫转存",
     "id": 32
   },
@@ -358,7 +358,7 @@ window.WORDS = [
     "zh": "长笛",
     "def": "一种木管乐器，通过吹奏气流振动发声，音色清澈、空灵，音域较高。",
     "example": "例子：巴赫《B小调组曲》中的长笛独奏段落。",
-    "category": "其他",
+    "category": "管乐",
     "source": "小赫转存",
     "id": 33
   },
@@ -380,7 +380,7 @@ window.WORDS = [
     "zh": "口琴",
     "def": "一种小型自由簧片乐器，通过吹气和吸气使簧片振动发声，音色质朴、富有 blues 风味。",
     "example": "例子：Bob Dylan 在《Blowin' in the Wind》中演奏的口琴间奏。",
-    "category": "其他",
+    "category": "管乐",
     "source": "小赫转存",
     "id": 35
   },

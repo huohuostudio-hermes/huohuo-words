@@ -36,6 +36,8 @@ CATEGORY_RULES = [
                "analog", "saw", "模拟", "低频", "次低音"]),
     ("人声", ["人声", "vocal", "vocoder", "scream", "whisper", "dialogue",
              "spoken", "对白", "女声", "男声", "朗诵", "口语", "声码器", "尖叫", "耳语"]),
+    ("管乐", ["管乐", "铜管", "木管", "萨克斯", "长号", "小号", "长笛", "口琴",
+             "sax", "trumpet", "trombone", "flute", "harmonica", "wind", "brass", "woodwind"]),
     ("音效", ["音效", "riser", "sweep", "impact", "texture", "atmosphere",
              "downer", "reverse", "field recording", "氛围", "过渡", "反转", "实地录音", "织体"]),
 ]
@@ -54,6 +56,7 @@ WORD_CATEGORY = {
     # 合成器
     "synth": "合成器", "analog": "合成器", "saw": "合成器", "wobble": "合成器",
     "sub": "合成器", "acid": "合成器", "pulse": "合成器", "noise": "合成器",
+    "pads": "合成器",
     # 打击乐
     "shakers": "打击乐", "conga": "打击乐", "percussion": "打击乐", "grooves": "打击乐",
     "bongos": "打击乐", "woodblock": "打击乐", "djembe": "打击乐", "tambourine": "打击乐",
@@ -69,8 +72,11 @@ WORD_CATEGORY = {
     # 音效
     "downers": "音效", "impacts": "音效", "textures": "音效", "field recordings": "音效",
     "risers": "音效", "sweeps": "音效", "atmospheres": "音效", "reverse": "音效",
+    # 管乐
+    "saxophone": "管乐", "trombone": "管乐", "trumpet": "管乐", "flute": "管乐",
+    "harmonica": "管乐",
     # 其他
-    "camping": "其他", "classical": "其他",
+    "camping": "其他", "classical": "其他", "ensemble": "其他",
 }
 
 
