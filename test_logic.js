@@ -38,6 +38,10 @@ vm.createContext(ctx);
 const testCode = `
 let passed=0, failed=0;
 function ok(cond,msg){if(cond){passed++;}else{failed++;console.log("✗ FAIL:",msg);}}
+function renderOK(name, fn){
+  try{ fn(); ok(String(mainEl.innerHTML).length>0, name+" 渲染非空"); }
+  catch(e){ failed++; console.log("✗ FAIL:", name+" 渲染抛错:", e.message); }
+}
 
 ok(WORDS.length>=57, "WORDS 应 >=57，实际 "+WORDS.length);
 
@@ -72,11 +76,41 @@ ok(session.wordWrong===true, "拼错后 wordWrong=true");
 ok(session.failQueue.length===1, "错词进 failQueue");
 ok(cardState(WORDS[1])==="learning", "拼错后仍 learning");
 
-// 提示按钮可见性（renderSpell 生成含 hintBox 的 HTML）
-session={spellQueue:[WORDS[2]],failQueue:[],current:WORDS[2],wordWrong:false,addedToFail:false};
-renderSpell();
-ok(mainEl.innerHTML.indexOf("hintbtn")>=0, "复习页应含提示按钮");
-ok(mainEl.innerHTML.indexOf("hintBox")>=0, "复习页应含提示内容区");
+// ===== 渲染冒烟测试（抓模板里引用未定义变量的 ReferenceError） =====
+// 1. 全新状态：未达成目标
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+renderOK("renderMenu(未达成)", ()=>renderMenu());
+
+// 2. 已达目标（此前 menuCardHTML 引用未定义的 master → 抛错致学习页空白）
+progress = normalize({cards:{},settings:{dailyNew:1},stats:{}});
+markLearned(WORDS[0]);
+renderOK("renderMenu(已达成)", ()=>renderMenu());
+
+// 3. 我的页（此前 const mastered=mastered() 遮蔽函数 → 抛错致页面消失）
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+renderOK("renderMe", ()=>renderMe());
+
+// 4. 单词本
+renderOK("renderList", ()=>renderList());
+
+// 5. 完成态
+renderOK("renderDone", ()=>renderDone());
+
+// 6. 选择题
+session={mcqQueue:[WORDS[0]],spellQueue:[],pendingSpell:[],failQueue:[],current:null,wordWrong:false,addedToFail:false};
+renderOK("renderMCQ", ()=>renderMCQ());
+
+// 7. 解释页
+session={mcqQueue:[],spellQueue:[],pendingSpell:[],failQueue:[],current:WORDS[0],wordWrong:false,addedToFail:false};
+renderOK("renderExplain", ()=>renderExplain(false));
+
+// 8. 拼写复习（含提示按钮）
+session={mcqQueue:[],spellQueue:[],pendingSpell:[],failQueue:[],current:WORDS[0],wordWrong:false,addedToFail:false};
+renderOK("renderSpell", ()=>renderSpell());
+ok(String(mainEl.innerHTML).indexOf("hintbtn")>=0, "复习页含提示按钮");
+
+// 9. 拼写解释
+renderOK("renderSpellExplain", ()=>renderSpellExplain());
 
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;

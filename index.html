@@ -328,10 +328,10 @@ function renderMenu(){
       <div class="stat"><div class="num">${learnedToday}</div><div class="lbl">今日已学</div></div>
       <div class="stat"><div class="num accent">${master}</div><div class="lbl">已掌握</div></div>
     </div>
-    <div class="menu-card">${menuCardHTML(target,learnedToday,pending,remain)}</div>`;
+    <div class="menu-card">${menuCardHTML(target,learnedToday,pending,remain,master)}</div>`;
   updateBadge();
 }
-function menuCardHTML(target,learnedToday,pending,remain){
+function menuCardHTML(target,learnedToday,pending,remain,master){
   if(remain===0 && pending===0){
     return `<h2>全部单词已掌握 🎉</h2><p>共 ${masteredCount()} 个单词，没有更多要学的了。</p>`;
   }
