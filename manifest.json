@@ -1,0 +1,15 @@
+{
+  "name": "火火单词 · 音乐英语",
+  "short_name": "火火单词",
+  "description": "音乐制作英语词汇卡片，同步自 Obsidian 火火知识库",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1020",
+  "theme_color": "#0d1020",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
