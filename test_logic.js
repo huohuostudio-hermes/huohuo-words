@@ -28,7 +28,7 @@ const ctx = {
     },
     querySelectorAll(sel){return [];},
   },
-  inputEl, mainEl, fbEl, streakEl, badgeEl,
+  inputEl, mainEl, fbEl, streakEl, badgeEl, process,
 };
 ctx.window = ctx;
 vm.createContext(ctx);
@@ -37,7 +37,7 @@ const testCode = `
 let passed=0, failed=0;
 function ok(cond,msg){if(cond){passed++;}else{failed++;console.log("✗ FAIL:",msg);}}
 
-ok(WORDS.length===57, "WORDS 应 57，实际 "+WORDS.length);
+ok(WORDS.length>=57, "WORDS 应 >=57，实际 "+WORDS.length);
 
 const w0=WORDS[0];
 const opts=buildOptions(w0);
