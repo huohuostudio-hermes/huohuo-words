@@ -10,7 +10,8 @@ const appJs = '"use strict";' + m[1];
 function fakeEl(){return {innerHTML:"",textContent:"",value:"",className:"",
   classList:{add(){},remove(){},toggle(){},contains(){return false}},
   style:{},focus(){},addEventListener(){},dataset:{},onclick:null};}
-const mainEl = fakeEl(), inputEl = fakeEl(), fbEl = fakeEl(), streakEl = fakeEl(), badgeEl = fakeEl();
+const mainEl = fakeEl(), inputEl = fakeEl(), fbEl = fakeEl(), streakEl = fakeEl(),
+      badgeEl = fakeEl(), hintEl = fakeEl();
 
 const ctx = {
   console, Math, Date, JSON, Object, Array, String, Number, RegExp, Set, Map,
@@ -24,11 +25,12 @@ const ctx = {
       if(sel==="#fb")return fbEl;
       if(sel==="#streakNum")return streakEl;
       if(sel==="#badgeStudy")return badgeEl;
+      if(sel==="#hintBox")return hintEl;
       return mainEl;
     },
     querySelectorAll(sel){return [];},
   },
-  inputEl, mainEl, fbEl, streakEl, badgeEl, process,
+  inputEl, mainEl, fbEl, streakEl, badgeEl, hintEl, process,
 };
 ctx.window = ctx;
 vm.createContext(ctx);
@@ -45,38 +47,36 @@ ok(opts.length===4, "选项应 4 个，实际 "+opts.length);
 ok(opts.filter(o=>o===w0.zh).length===1, "应恰好 1 个正确选项");
 ok(new Set(opts).size===4, "选项应互不重复");
 
+// 初始状态
 ok(pickNew(10).length===10, "pickNew(10) 应 10 个");
-ok(pickDue().length===0, "初始应 0 个待复习");
+ok(learningCount()===0, "初始待复习=0");
+ok(masteredCount()===0, "初始已掌握=0");
 
-beginSession();
-ok(session.mcqQueue.length===10, "mcqQueue 应 10，实际 "+session.mcqQueue.length);
-ok(session.spellQueue.length===10, "spellQueue 应 10(新词)，实际 "+session.spellQueue.length);
+// 学习 → learning
+markLearned(WORDS[0]);
+ok(cardState(WORDS[0])==="learning", "学后状态=learning");
+ok(learningCount()===1, "学后待复习=1");
+ok(masteredCount()===0, "学后尚未掌握=0");
 
-// SRS 间隔
-const w=WORDS[0];
-updateSRS(w,true); ok(progress.cards[w.word].interval===1,"首次正确 interval=1");
-updateSRS(w,true); ok(progress.cards[w.word].interval===3,"二次正确 interval=3");
-updateSRS(w,true); ok(progress.cards[w.word].interval===7,"三次正确 interval=7");
-updateSRS(w,false); ok(progress.cards[w.word].interval===0,"答错 interval=0");
-
-// 拼写流程
-session.mcqQueue=[];
-session.spellQueue=[WORDS[0],WORDS[1]];
-session.failQueue=[];
-startSpell();
-ok(session.current.word===WORDS[0].word,"当前拼写词应为第一个");
+// 复习拼对 → mastered
+session={spellQueue:[WORDS[0]],failQueue:[],current:WORDS[0],wordWrong:false,addedToFail:false};
 inputEl.value=WORDS[0].word; submitSpell();
-ok(progress.cards[WORDS[0].word] && progress.cards[WORDS[0].word].interval>=1,"拼对后 interval>=1");
-ok(session.current.word===WORDS[1].word,"拼对后切到下一词");
+ok(cardState(WORDS[0])==="mastered", "拼对后状态=mastered");
+ok(masteredCount()===1, "拼对后已掌握=1");
 
+// 拼错 → 进 failQueue，仍 learning
+markLearned(WORDS[1]); markLearned(WORDS[2]);
+session={spellQueue:[WORDS[1],WORDS[2]],failQueue:[],current:WORDS[1],wordWrong:false,addedToFail:false};
 inputEl.value="wrongxxx"; submitSpell();
-ok(session.wordWrong===true,"拼错后 wordWrong=true");
-ok(session.failQueue.length===1,"拼错词进入 failQueue");
-ok(session.current.word===WORDS[1].word,"拼错后当前词不变待重拼");
+ok(session.wordWrong===true, "拼错后 wordWrong=true");
+ok(session.failQueue.length===1, "错词进 failQueue");
+ok(cardState(WORDS[1])==="learning", "拼错后仍 learning");
 
-inputEl.value=WORDS[1].word; submitSpell();
-ok(progress.cards[WORDS[1].word] && progress.cards[WORDS[1].word].interval===0,"曾拼错的词 interval 回 0");
-ok(session.spellQueue.length===1 && session.current.word===WORDS[1].word,"错词循环：稍后再次出现");
+// 提示按钮可见性（renderSpell 生成含 hintBox 的 HTML）
+session={spellQueue:[WORDS[2]],failQueue:[],current:WORDS[2],wordWrong:false,addedToFail:false};
+renderSpell();
+ok(mainEl.innerHTML.indexOf("hintbtn")>=0, "复习页应含提示按钮");
+ok(mainEl.innerHTML.indexOf("hintBox")>=0, "复习页应含提示内容区");
 
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;

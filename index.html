@@ -65,8 +65,10 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
   border-radius:24px;padding:26px;box-shadow:var(--shadow);margin-top:6px}
 .menu-card h2{margin:0 0 6px;font-size:20px}
 .menu-card p{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 20px}
+.menu-card .note{color:var(--warn);font-size:13px;margin:-10px 0 14px;font-weight:600}
 .btn{display:block;width:100%;border:1px solid var(--border2);background:var(--card2);color:var(--text);
   border-radius:14px;padding:14px;font-size:15px;font-weight:700;cursor:pointer;text-align:center;transition:.15s}
+.btn+.btn{margin-top:10px}
 .btn:active{opacity:.8}
 .btn.warn{color:var(--bad);border-color:rgba(248,113,113,.4)}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -109,6 +111,11 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
   font-size:15px;font-weight:700;cursor:pointer}
 .feedback{margin-top:12px;font-size:14px;font-weight:700;text-align:center;min-height:20px}
 .feedback.ok{color:var(--good)} .feedback.no{color:var(--bad)}
+.hintbtn{margin-top:14px;width:100%;background:rgba(251,191,36,.12);border:1px solid rgba(251,191,36,.35);
+  color:#fcd34d;border-radius:12px;padding:11px;font-size:14px;font-weight:700;cursor:pointer}
+.hintbtn:active{opacity:.7}
+.hintbox{margin-top:12px;text-align:left;animation:fadein .2s}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
 
 /* ===== 解释页 ===== */
 .explain{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--border2);
@@ -130,6 +137,7 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .done .emoji{font-size:56px;margin-bottom:14px}
 .done h2{margin:0 0 8px;font-size:22px}
 .done p{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 20px}
+.done .extend{color:var(--accent2);font-weight:800;font-size:17px;margin:4px 0 14px}
 
 /* ===== 单词本 ===== */
 .searchbar{display:flex;gap:8px;margin:6px 0 12px}
@@ -148,7 +156,7 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .worditem .w{font-size:16px;font-weight:700;flex:1;word-break:break-word}
 .worditem .z{font-size:12px;color:var(--muted);text-align:right;max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .worditem .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
-.dot.new{background:var(--faint)} .dot.learn{background:var(--warn)} .dot.review{background:var(--accent2)} .dot.master{background:var(--good)}
+.dot.new{background:var(--faint)} .dot.learn{background:var(--warn)} .dot.master{background:var(--good)}
 .empty{text-align:center;color:var(--faint);padding:40px 0;font-size:14px}
 
 /* ===== 我的 ===== */
@@ -156,10 +164,10 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .panel h3{margin:0 0 12px;font-size:14px;color:var(--muted);font-weight:600;letter-spacing:.5px}
 .setting{display:flex;align-items:center;justify-content:space-between;padding:9px 0}
 .setting .lbl{font-size:14px}
-.setting .val{display:flex;gap:7px}
-.seg{border:1px solid var(--border);background:rgba(255,255,255,.03);border-radius:10px;padding:6px 12px;
-  font-size:13px;color:var(--muted);cursor:pointer}
-.seg.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.setting .val{display:flex;gap:7px;align-items:center}
+#dailyInput{width:90px;background:var(--card2);border:1.5px solid var(--border2);border-radius:10px;
+  padding:8px 10px;font-size:15px;color:var(--text);text-align:center;font-weight:700;outline:none}
+#dailyInput:focus{border-color:var(--accent)}
 
 /* ===== 底部导航 ===== */
 nav{display:flex;border-top:1px solid var(--border);background:rgba(13,16,32,.85);
@@ -201,67 +209,172 @@ function todayStr(){const d=new Date();return d.getFullYear()+"-"+String(d.getMo
 function addDays(s,n){const d=new Date(s+"T00:00:00");d.setDate(d.getDate()+n);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
 function $(s){return document.querySelector(s);}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function speakArg(w){return "speak('" + String(w.word).replace(/\\/g,"\\\\").replace(/'/g,"\\'") + "')";}
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
 /* ---------- 进度持久化 ---------- */
+function normalize(p){
+  p = p || {};
+  p.cards = p.cards || {};
+  p.settings = p.settings || {};
+  if(!p.settings.dailyNew) p.settings.dailyNew = 10;
+  p.stats = p.stats || {};
+  const t = todayStr();
+  for(const k in p.cards){
+    const c = p.cards[k];
+    if(typeof c !== "object" || !c){ p.cards[k] = {state:"learning", learnedOn:t}; continue; }
+    if(!c.state){
+      // 旧版 SRS 卡迁移：interval>=1 表示拼对过 → 已掌握；否则学习中
+      if(c.interval && c.interval >= 1){ c.state = "mastered"; if(!c.masteredOn) c.masteredOn = t; }
+      else { c.state = "learning"; }
+    }
+    if(!c.learnedOn) c.learnedOn = t;
+  }
+  return p;
+}
 let progress = load();
-function load(){try{const p=JSON.parse(localStorage.getItem(LS_KEY));if(p&&p.cards)return p;}catch(e){}return {cards:{},settings:{dailyNew:10},stats:{}};}
-function save(){localStorage.setItem(LS_KEY,JSON.stringify(progress));}
+function load(){
+  try{
+    const raw = JSON.parse(localStorage.getItem(LS_KEY));
+    if(raw && raw.cards) return normalize(raw);
+  }catch(e){}
+  return normalize({cards:{}, settings:{dailyNew:10}, stats:{}});
+}
+function save(){localStorage.setItem(LS_KEY, JSON.stringify(progress));}
 function bumpStreak(){const s=progress.stats;const t=todayStr();if(s.lastDay===t)return;const y=addDays(t,-1);s.streak=(s.lastDay===y?(s.streak||0)+1:1);s.lastDay=t;}
-function cardState(w){const c=progress.cards[w.word];if(!c)return "new";if(c.interval===0)return "learn";if(c.due&&c.due<=todayStr())return "review";if(c.interval>=21)return "master";return "review";}
-function pickNew(n){return WORDS.filter(w=>!progress.cards[w.word]).slice(0,n||0);}
-function pickDue(){const t=todayStr();return WORDS.filter(w=>{const c=progress.cards[w.word];return c&&c.due&&c.due<=t;});}
+
+/* ---------- 卡片状态 ---------- */
+function cardOf(w){return progress.cards[w.word];}
+function isNew(w){return !cardOf(w);}
+function isLearning(w){const c=cardOf(w);return !!c && c.state==="learning";}
+function isMastered(w){const c=cardOf(w);return !!c && c.state==="mastered";}
+function masteredCount(){return WORDS.filter(isMastered).length;}
+function learningCount(){return WORDS.filter(isLearning).length;}
+function newCount(){return WORDS.filter(isNew).length;}
+function todayLearned(){const t=todayStr();return WORDS.filter(w=>{const c=cardOf(w);return c&&c.learnedOn===t;}).length;}
+function todayMastered(){const t=todayStr();return WORDS.filter(w=>{const c=cardOf(w);return c&&c.masteredOn===t;}).length;}
+function pickNew(n){return WORDS.filter(isNew).slice(0,n||0);}
+function pickLearning(){return WORDS.filter(isLearning);}
+function cardState(w){const c=cardOf(w);if(!c)return "new";return c.state==="mastered"?"mastered":"learning";}
+
+function markLearned(w){
+  const t = todayStr();
+  const c = cardOf(w) || {state:"learning"};
+  if(c.state !== "mastered") c.state = "learning";
+  if(!c.learnedOn) c.learnedOn = t;
+  progress.cards[w.word] = c;
+  bumpStreak();
+  save();
+  $("#streakNum").textContent = progress.stats.streak || 0;
+}
+function markMastered(w){
+  const t = todayStr();
+  const c = cardOf(w) || {state:"mastered"};
+  c.state = "mastered";
+  if(!c.learnedOn) c.learnedOn = t;
+  c.masteredOn = t;
+  progress.cards[w.word] = c;
+  bumpStreak();
+  save();
+  $("#streakNum").textContent = progress.stats.streak || 0;
+}
 
 /* ---------- 语音 ---------- */
 let voices=[];
-function initVoices(){voices=speechSynthesis.getVoices().filter(v=>v.lang.startsWith("en"));}
+function initVoices(){voices=speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang||""));}
 if("speechSynthesis" in window){initVoices();speechSynthesis.onvoiceschanged=initVoices;}
-function speak(word){if(!("speechSynthesis" in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(word);u.lang="en-US";u.rate=0.9;const en=voices.find(v=>v.lang==="en-US")||voices[0];if(en)u.voice=en;speechSynthesis.speak(u);}
+let audioEl=null;
+function speak(word){
+  const w=String(word||"").trim();
+  if(!w)return;
+  // 优先有道真人发音（音质好）；离线/失败回退系统 TTS
+  if(navigator.onLine===false){speakTTS(w);return;}
+  try{
+    if(!audioEl)audioEl=new Audio();
+    audioEl.onerror=function(){audioEl.onerror=null;speakTTS(w);};
+    audioEl.src="https://dict.youdao.com/dictvoice?audio="+encodeURIComponent(w)+"&type=1";
+    const p=audioEl.play();
+    if(p&&typeof p.catch==="function")p.catch(function(){speakTTS(w);});
+  }catch(e){speakTTS(w);}
+}
+function speakTTS(word){
+  if(!("speechSynthesis" in window))return;
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(word);
+  u.lang="en-US";u.rate=0.85;u.pitch=1;
+  const en=voices.filter(v=>/^en-US/i.test(v.lang||""));
+  const good=/samantha|google|natural|premium|enhanced|daniel|serena|allison|ava|susan|microsoft|karen|moira|tessa|fiona/i;
+  let pick=en.find(v=>!v.localService&&good.test(v.name||""))
+        ||en.find(v=>!v.localService)
+        ||en.find(v=>good.test(v.name||""))
+        ||en[0]||voices[0];
+  if(pick)u.voice=pick;
+  speechSynthesis.speak(u);
+}
 
 /* ---------- 学习会话状态机 ---------- */
 let session=null;
 function renderStudy(){renderMenu();}
 function renderMenu(){
-  const limit=progress.settings.dailyNew||10;
-  const newN=pickNew(limit).length, dueN=pickDue().length;
+  const target=progress.settings.dailyNew||10;
+  const learnedToday=todayLearned();
+  const pending=learningCount();
+  const master=masteredCount();
+  const remain=newCount();
   $("#streakNum").textContent=progress.stats.streak||0;
-  if(newN===0 && dueN===0){renderDone();return;}
   $("#main").innerHTML=`
     <div class="overview">
-      <div class="stat"><div class="num">${newN}</div><div class="lbl">今日新词</div></div>
-      <div class="stat"><div class="num accent">${dueN}</div><div class="lbl">待复习</div></div>
-      <div class="stat"><div class="num">${mastered()}</div><div class="lbl">已掌握</div></div>
+      <div class="stat"><div class="num">${target}</div><div class="lbl">今日目标</div></div>
+      <div class="stat"><div class="num">${learnedToday}</div><div class="lbl">今日已学</div></div>
+      <div class="stat"><div class="num accent">${master}</div><div class="lbl">已掌握</div></div>
     </div>
-    <div class="menu-card">
-      <h2>${newN>0?"今天学 ${newN} 个新词":"今日无新词，复习 ${dueN} 个"}</h2>
-      <p>新词用选择题学，学完进入拼写复习；拼错的词会反复出现，直到你全拼对。</p>
-      <button class="btn primary" onclick="beginSession()">开始学习</button>
-    </div>`;
+    <div class="menu-card">${menuCardHTML(target,learnedToday,pending,remain)}</div>`;
   updateBadge();
 }
-function mastered(){return WORDS.filter(w=>{const c=progress.cards[w.word];return c&&c.interval>=21;}).length;}
-
-function beginSession(){
-  const limit=progress.settings.dailyNew||10;
-  const newWords=pickNew(limit);
-  const due=pickDue();
-  session={mcqQueue:[...newWords],spellQueue:[...due,...newWords],failQueue:[],current:null,wordWrong:false,addedToFail:false};
+function menuCardHTML(target,learnedToday,pending,remain){
+  if(remain===0 && pending===0){
+    return `<h2>全部单词已掌握 🎉</h2><p>共 ${masteredCount()} 个单词，没有更多要学的了。</p>`;
+  }
+  const reached=learnedToday>=target && learnedToday>0;
+  if(!reached){
+    return `<h2>今日目标学习 ${target} 个单词</h2>
+      <p>新词用选择题学，学完进入拼写复习；拼错的词会反复出现，直到全会。</p>
+      ${pending>0?`<p class="note">另有 ${pending} 个已学未掌握，会一起复习</p>`:""}
+      <button class="btn primary" onclick="beginSession(true)">开始学习</button>`;
+  }
+  let html=`<h2>今日目标已达成 🎉</h2><p>今日已学 ${learnedToday} 个新词 · 已掌握 ${master} 个。</p>`;
+  if(remain>0)html+=`<button class="btn primary" onclick="beginSession(true)">拓展学习 ${target} 个</button>`;
+  if(pending>0)html+=`<button class="btn" onclick="beginSession(false)">复习待掌握 ${pending} 个</button>`;
+  return html;
+}
+function beginSession(learnNew){
+  const target=progress.settings.dailyNew||10;
+  const newWords=learnNew?pickNew(target):[];
+  const reviewWords=pickLearning();
+  session={
+    mcqQueue:[...newWords],
+    spellQueue:[],
+    pendingSpell:[...reviewWords,...newWords],
+    failQueue:[],
+    current:null,wordWrong:false,addedToFail:false
+  };
   if(newWords.length>0)renderMCQ();
-  else renderSpellIntro();
+  else if(session.pendingSpell.length>0)buildSpellPhase();
+  else renderDone();
 }
 
 /* ===== 选择题（学习新词） ===== */
 function renderMCQ(){
-  if(session.mcqQueue.length===0){renderSpellIntro();return;}
+  if(session.mcqQueue.length===0){buildSpellPhase();return;}
   const w=session.mcqQueue[0];session.current=w;session.wordWrong=false;
   const opts=buildOptions(w);
   const keys="ABCD";
   $("#main").innerHTML=`
     <div class="qphase">· 学习新词 ·</div>
     <div class="qcard">
-      <div class="qword" id="qword">${esc(w.word)}</div>
+      <div class="qword">${esc(w.word)}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
-      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="qhint">选出正确的中文意思</div>
       <div class="options" id="opts">${opts.map((o,i)=>`
         <button class="option" data-i="${i}" onclick="answerMCQ(${i})">
@@ -283,6 +396,7 @@ function answerMCQ(i){
   const correctText=w.zh;
   let correctIdx=-1;
   optsEl.forEach((el,idx)=>{if(el.querySelector(".val").textContent===correctText)correctIdx=idx;});
+  markLearned(w);
   if(i===correctIdx){
     optsEl[i].classList.add("correct");
     setTimeout(()=>{session.mcqQueue.shift();renderExplain(false);},350);
@@ -303,7 +417,7 @@ function renderExplain(wrong){
       ${wrong?'<div class="wrongnote">⚠️ 刚才选错了，记住它</div>':'<div class="rightnote">✓ 回答正确</div>'}
       <div class="qword" style="font-size:28px">${esc(w.word)}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
-      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="zh">${esc(w.zh)}</div>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
@@ -313,14 +427,12 @@ function renderExplain(wrong){
 function nextExplain(){renderMCQ();}
 
 /* ===== 拼写复习 ===== */
-function renderSpellIntro(){
-  $("#main").innerHTML=`
-    <div class="done" style="padding-top:60px">
-      <div class="emoji">✍️</div>
-      <h2>进入复习</h2>
-      <p>看中文意思，拼写出正确的英文单词<br>拼错的会反复出现，直到全会</p>
-      <button class="btn primary" onclick="startSpell()">开始复习</button>
-    </div>`;
+function buildSpellPhase(){
+  session.spellQueue=[...session.pendingSpell];
+  session.pendingSpell=[];
+  session.failQueue=[];
+  if(session.spellQueue.length===0){renderDone();return;}
+  startSpell();
 }
 function startSpell(){
   if(session.spellQueue.length===0){
@@ -337,8 +449,8 @@ function renderSpell(){
     <div class="qphase">· 拼写复习 ·</div>
     <div class="qcard">
       <div class="qzh">${esc(w.zh)}</div>
-      <div class="qipa" style="color:var(--muted)">${w.category||""}</div>
-      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <div class="qipa" style="color:var(--muted)">${esc(w.category||"")}</div>
+      <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="qhint">拼出这个单词的英文</div>
       <div class="spellbox">
         <input id="spellInput" type="text" autocapitalize="none" autocorrect="off" spellcheck="false"
@@ -346,8 +458,18 @@ function renderSpell(){
         <button class="submitbtn" onclick="submitSpell()">提交</button>
       </div>
       <div class="feedback" id="fb"></div>
+      <button class="hintbtn" onclick="toggleHint()">💡 提示</button>
+      <div class="hintbox" id="hintBox" style="display:none">
+        <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+        ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
+      </div>
     </div>`;
   const inp=$("#spellInput");if(inp)inp.focus();
+}
+function toggleHint(){
+  const b=$("#hintBox");
+  if(!b)return;
+  b.style.display=(b.style.display==="none")?"block":"none";
 }
 function submitSpell(){
   const w=session.current;
@@ -357,7 +479,7 @@ function submitSpell(){
   if(val.toLowerCase()===w.word.toLowerCase()){
     inp.classList.add("ok");
     const fb=$("#fb");fb.textContent="✓ 正确！"+w.word;fb.className="feedback ok";
-    updateSRS(w,!session.wordWrong);
+    markMastered(w);
     setTimeout(()=>{session.spellQueue.shift();nextSpell();},600);
   }else{
     if(!session.addedToFail){session.failQueue.push(w);session.addedToFail=true;}
@@ -384,45 +506,34 @@ function renderSpellExplain(){
       <div class="zh">${esc(w.zh)}</div>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
-      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <button class="btn primary" onclick="retrySpell()">再拼一次</button>
     </div>`;
 }
 function retrySpell(){renderSpell();}
 
-function updateSRS(w,correctFirstTry){
-  let c=progress.cards[w.word]||{interval:0,ease:2.5,reps:0,due:null,lapses:0};
-  const t=todayStr();
-  if(correctFirstTry){
-    if(c.reps===0)c.interval=1;else if(c.reps===1)c.interval=3;else if(c.reps===2)c.interval=7;else c.interval=Math.round(c.interval*c.ease);
-    c.ease=Math.min(3,c.ease+0.05);c.reps=(c.reps||0)+1;c.due=addDays(t,c.interval);
-  }else{
-    c.interval=0;c.ease=Math.max(1.3,c.ease-0.2);c.lapses=(c.lapses||0)+1;c.reps=0;c.due=t;
-  }
-  progress.cards[w.word]=c;
-  bumpStreak();
-  progress.stats.todayWords=progress.stats.todayWords||[];
-  if(!progress.stats.todayWords.includes(w.word))progress.stats.todayWords.push(w.word);
-  progress.stats.reviewedToday=(progress.stats.reviewedToday||0)+1;
-  save();
-  $("#streakNum").textContent=progress.stats.streak||0;
-}
-
 /* ===== 完成态 ===== */
 function renderDone(){
+  const target=progress.settings.dailyNew||10;
+  const learnedToday=todayLearned();
+  const master=masteredCount();
+  const remain=newCount();
+  const reached=learnedToday>=target && learnedToday>0;
   $("#main").innerHTML=`
     <div class="done">
       <div class="emoji">🎉</div>
-      <h2>今日任务完成</h2>
-      <p>新词 ${(progress.stats.todayWords||[]).length} 个 · 复习 ${progress.stats.reviewedToday||0} 个<br>明天再来巩固，记忆更牢</p>
-      <button class="btn primary" onclick="renderMenu()">查看今日计划</button>
+      <h2>${reached?"今日目标已达成":"本轮学习完成"}</h2>
+      <p>今日已学 ${learnedToday} 个新词 · 已掌握 ${master} 个</p>
+      ${reached?`<div class="extend">是否拓展？</div>`:""}
+      ${remain>0?`<button class="btn primary" onclick="beginSession(true)">${reached?"拓展学习":"继续学习"} ${Math.min(target,remain)} 个</button>`:""}
+      <button class="btn" onclick="renderMenu()">${remain>0?"先到这里":"返回首页"}</button>
     </div>`;
   updateBadge();
 }
 function updateBadge(){
-  const due=pickDue().length;
+  const p=learningCount();
   const b=$("#badgeStudy");
-  if(due>0){b.style.display="grid";b.textContent=due;}else{b.style.display="none";}
+  if(p>0){b.style.display="grid";b.textContent=p;}else{b.style.display="none";}
 }
 
 /* ---------- 单词本 ---------- */
@@ -431,6 +542,10 @@ function renderList(){
   const main=$("#main");
   const chips=CATS.map(c=>`<div class="chip ${c===curCat?"on":""}" onclick="setCat('${c}')">${c}</div>`).join("");
   main.innerHTML=`
+    <div class="topbar">
+      <button class="backbtn" onclick="switchTab('study')">← 返回</button>
+      <div class="t">单词本</div>
+    </div>
     <div class="searchbar"><input id="search" placeholder="搜索单词 / 释义…" value="${esc(curQuery)}" oninput="onSearch(this.value)"></div>
     <div class="chips">${chips}</div>
     <ul class="wordlist" id="list"></ul>`;
@@ -448,7 +563,7 @@ function renderListItems(){
   if(list.length===0){ul.innerHTML='<div class="empty">没有匹配的单词</div>';return;}
   ul.innerHTML=list.map(w=>{
     const st=cardState(w);
-    const dot={new:"new",learn:"learn",review:"review",master:"master"}[st];
+    const dot={new:"new",learning:"learn",mastered:"master"}[st];
     return `<li class="worditem" onclick="openDetail('${esc(w.word)}')">
       <span class="dot ${dot}"></span>
       <span class="w">${esc(w.word)}</span>
@@ -459,10 +574,10 @@ function setCat(c){curCat=c;renderList();}
 function onSearch(v){curQuery=v;renderListItems();}
 function openDetail(word){
   const w=WORDS.find(x=>x.word===word);if(!w)return;
-  const c=progress.cards[w.word];
-  const stTxt={new:"未学习",learn:"学习中",review:"待复习",master:"已掌握"}[cardState(w)];
-  const interval=c?c.interval:0;
-  const due=c&&c.due?c.due:"—";
+  const c=cardOf(w);
+  const stTxt={new:"未学习",learning:"学习中",mastered:"已掌握"}[cardState(w)];
+  const learnedOn=c&&c.learnedOn?c.learnedOn:"—";
+  const masteredOn=c&&c.masteredOn?c.masteredOn:"—";
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="renderList()">← 返回</button>
@@ -471,11 +586,11 @@ function openDetail(word){
     <div class="qcard">
       <div class="qword" style="font-size:30px">${esc(w.word)}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
-      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="zh">${esc(w.zh)}</div>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
-      <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(w.category)} · ${stTxt} · 间隔 ${interval} 天 · 下次 ${due}</div>
+      <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(w.category)} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
     </div>`;
 }
 
@@ -483,27 +598,33 @@ function openDetail(word){
 function renderMe(){
   const main=$("#main");
   const total=WORDS.length;
-  const studied=WORDS.filter(w=>progress.cards[w.word]).length;
-  const mastered=mastered();
-  const due=pickDue().length;
+  const studied=WORDS.filter(w=>cardOf(w)).length;
+  const masterN=masteredCount();
+  const pending=learningCount();
   const s=progress.settings.dailyNew||10;
-  const seg=(n)=>`<span class="seg ${s===n?"on":""}" onclick="setDaily(${n})">${n}</span>`;
   main.innerHTML=`
+    <div class="topbar">
+      <button class="backbtn" onclick="switchTab('study')">← 返回</button>
+      <div class="t">我的</div>
+    </div>
     <div class="overview" style="margin-top:6px">
       <div class="stat"><div class="num">${total}</div><div class="lbl">总词数</div></div>
       <div class="stat"><div class="num accent">${studied}</div><div class="lbl">已学习</div></div>
-      <div class="stat"><div class="num">${mastered}</div><div class="lbl">已掌握</div></div>
-      <div class="stat"><div class="num">${due}</div><div class="lbl">待复习</div></div>
+      <div class="stat"><div class="num">${masterN}</div><div class="lbl">已掌握</div></div>
+      <div class="stat"><div class="num">${pending}</div><div class="lbl">待复习</div></div>
     </div>
     <div class="panel">
-      <h3>每日新词量</h3>
-      <div class="setting"><span class="lbl">每天学新词</span><div class="val">${seg(5)}${seg(10)}${seg(15)}${seg(20)}</div></div>
+      <h3>每日学习目标</h3>
+      <div class="setting"><span class="lbl">每天学新词</span>
+        <div class="val"><input id="dailyInput" type="number" min="1" max="100" inputmode="numeric" value="${s}" onchange="setDailyInput(this.value)"></div>
+      </div>
+      <div class="setting" style="padding-top:2px"><span style="font-size:12px;color:var(--faint)">填 1–100，改完即生效</span></div>
     </div>
     <div class="panel">
       <h3>数据</h3>
       <div class="setting"><span class="lbl">连续学习</span><span style="color:#ffd58a;font-weight:700">🔥 ${progress.stats.streak||0} 天</span></div>
-      <div class="setting"><span class="lbl">今日新词</span><span>${(progress.stats.todayWords||[]).length} 个</span></div>
-      <div class="setting"><span class="lbl">今日复习</span><span>${progress.stats.reviewedToday||0} 个</span></div>
+      <div class="setting"><span class="lbl">今日新词</span><span>${todayLearned()} 个</span></div>
+      <div class="setting"><span class="lbl">今日掌握</span><span>${todayMastered()} 个</span></div>
     </div>
     <div class="panel">
       <h3>学习进度备份</h3>
@@ -513,10 +634,34 @@ function renderMe(){
     </div>
     <div style="color:var(--faint);font-size:12px;text-align:center;padding:10px 0 20px">单词来源：Obsidian 火火知识库 · 英语学习</div>`;
 }
-function setDaily(n){progress.settings.dailyNew=n;save();renderMe();}
+function setDailyInput(v){
+  let n=parseInt(v,10);
+  if(isNaN(n)||n<1)n=1;
+  if(n>100)n=100;
+  progress.settings.dailyNew=n;
+  save();
+  renderMe();
+}
 function exportData(){navigator.clipboard.writeText(JSON.stringify(progress)).then(()=>alert("已复制，可粘贴保存到笔记"));}
-function importData(){const t=prompt("粘贴导出的进度 JSON：");if(!t)return;try{const p=JSON.parse(t);if(!p.cards)throw 0;progress=p;save();renderMe();alert("导入成功");}catch(e){alert("格式不对");}}
-function resetData(){if(confirm("确定清空所有学习进度？单词数据不会丢。")){progress={cards:{},settings:{dailyNew:10},stats:{}};save();renderMe();}}
+function importData(){
+  const t=prompt("粘贴导出的进度 JSON：");
+  if(!t)return;
+  try{
+    const p=JSON.parse(t);
+    if(!p.cards)throw 0;
+    progress=normalize(p);
+    save();
+    renderMe();
+    alert("导入成功");
+  }catch(e){alert("格式不对");}
+}
+function resetData(){
+  if(confirm("确定清空所有学习进度？单词数据不会丢。")){
+    progress=normalize({cards:{},settings:{dailyNew:10},stats:{}});
+    save();
+    switchTab("study");
+  }
+}
 
 /* ---------- 导航 ---------- */
 let tab="study";

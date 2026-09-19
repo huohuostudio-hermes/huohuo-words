@@ -1,4 +1,4 @@
-const CACHE = "huohuo-words-v2";
+const CACHE = "huohuo-words-v3";
 const ASSETS = ["./", "./index.html", "./words.js", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => {
