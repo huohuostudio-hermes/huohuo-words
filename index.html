@@ -15,7 +15,7 @@
   --bg:#0d1020; --bg2:#12152c; --card:#1b2040; --card2:#232a50;
   --text:#eef0fb; --muted:#9aa0c0; --faint:#6b7196;
   --accent:#7c6cff; --accent2:#a78bfa;
-  --good:#34d399; --hard:#fbbf24; --again:#f87171;
+  --good:#34d399; --bad:#f87171; --warn:#fbbf24;
   --border:rgba(255,255,255,.08); --border2:rgba(255,255,255,.16);
   --radius:18px;
   --shadow:0 12px 40px rgba(0,0,0,.45);
@@ -36,10 +36,7 @@ body{
 #app{max-width:520px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column;position:relative}
 
 /* ===== 顶部 ===== */
-header{
-  padding:calc(14px + env(safe-area-inset-top)) 20px 10px;
-  display:flex;align-items:center;justify-content:space-between;
-}
+header{padding:calc(14px + env(safe-area-inset-top)) 20px 10px;display:flex;align-items:center;justify-content:space-between}
 .brand{display:flex;align-items:center;gap:10px}
 .logo{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-size:20px;
   background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 4px 16px rgba(124,108,255,.4)}
@@ -49,49 +46,84 @@ header{
   padding:7px 12px;border-radius:999px;font-size:13px;font-weight:600;color:#ffd58a}
 
 /* ===== 主内容 ===== */
-main{flex:1;padding:8px 20px 12px;display:flex;flex-direction:column}
+main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 
-/* ===== 概览卡片 ===== */
+/* ===== 顶栏(返回) ===== */
+.topbar{display:flex;align-items:center;gap:10px;margin:2px 0 14px}
+.backbtn{display:flex;align-items:center;gap:4px;background:var(--card);border:1px solid var(--border);
+  color:var(--text);padding:8px 14px;border-radius:999px;font-size:14px;font-weight:600;cursor:pointer}
+.backbtn:active{opacity:.7}
+.topbar .t{font-size:16px;font-weight:700;flex:1;text-align:center;margin-right:70px}
+
+/* ===== 概览/菜单 ===== */
 .overview{display:flex;gap:10px;margin:6px 0 16px}
-.stat{flex:1;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
-  padding:12px;text-align:center}
+.stat{flex:1;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:12px;text-align:center}
 .stat .num{font-size:24px;font-weight:800;line-height:1}
 .stat .lbl{font-size:11px;color:var(--muted);margin-top:6px}
 .stat .num.accent{color:var(--accent2)}
+.menu-card{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--border2);
+  border-radius:24px;padding:26px;box-shadow:var(--shadow);margin-top:6px}
+.menu-card h2{margin:0 0 6px;font-size:20px}
+.menu-card p{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 20px}
+.btn{display:block;width:100%;border:1px solid var(--border2);background:var(--card2);color:var(--text);
+  border-radius:14px;padding:14px;font-size:15px;font-weight:700;cursor:pointer;text-align:center;transition:.15s}
+.btn:active{opacity:.8}
+.btn.warn{color:var(--bad);border-color:rgba(248,113,113,.4)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.small{padding:11px;font-size:14px}
 
-/* ===== 卡片 ===== */
-.stage{perspective:1200px;flex:1;display:flex;align-items:center;justify-content:center;min-height:320px}
-.flipper{position:relative;width:100%;max-width:420px;transform-style:preserve-3d;
-  transition:transform .5s cubic-bezier(.2,.7,.3,1)}
-.flipper.flipped{transform:rotateY(180deg)}
-.face{width:100%;background:linear-gradient(160deg,var(--card),var(--card2));
-  border:1px solid var(--border2);border-radius:24px;padding:30px 26px;min-height:340px;
-  display:flex;flex-direction:column;backface-visibility:hidden;-webkit-backface-visibility:hidden;
-  box-shadow:var(--shadow)}
-.face.back{position:absolute;inset:0;transform:rotateY(180deg)}
-.cat-tag{align-self:flex-start;font-size:11px;font-weight:600;color:var(--accent2);
-  background:rgba(124,108,255,.14);padding:4px 10px;border-radius:999px;margin-bottom:18px}
-.word-row{display:flex;align-items:center;justify-content:center;gap:14px;flex:1}
-.word{font-size:38px;font-weight:800;text-align:center;letter-spacing:.5px;line-height:1.15;word-break:break-word}
-.ipa{font-size:16px;color:var(--muted);text-align:center;margin-top:14px;font-family:"SF Pro Text",Georgia,serif}
-.speak{width:48px;height:48px;border-radius:50%;border:1px solid var(--border2);background:rgba(124,108,255,.14);
-  color:var(--accent2);font-size:20px;display:grid;place-items:center;cursor:pointer;flex:0 0 auto;transition:.2s}
+/* ===== 题目卡片 ===== */
+.qcard{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--border2);
+  border-radius:24px;padding:26px 22px;box-shadow:var(--shadow)}
+.qword{font-size:34px;font-weight:800;text-align:center;letter-spacing:.5px;line-height:1.2;word-break:break-word;margin:8px 0 4px}
+.qipa{font-size:15px;color:var(--muted);text-align:center;margin-bottom:6px}
+.qzh{font-size:24px;font-weight:800;color:var(--accent2);text-align:center;line-height:1.4;margin:8px 0 4px}
+.speakrow{display:flex;justify-content:center;margin:6px 0}
+.speak{width:44px;height:44px;border-radius:50%;border:1px solid var(--border2);background:rgba(124,108,255,.14);
+  color:var(--accent2);font-size:19px;display:grid;place-items:center;cursor:pointer;transition:.2s}
 .speak:active{transform:scale(.92)}
-.hint{text-align:center;font-size:12px;color:var(--faint);margin-top:16px}
-.zh{font-size:24px;font-weight:700;color:var(--accent2);text-align:center;line-height:1.4;margin-bottom:16px}
-.detail{font-size:14px;line-height:1.65;color:var(--text);margin-bottom:12px}
+.qhint{text-align:center;font-size:12px;color:var(--faint);margin-top:4px}
+.qphase{text-align:center;font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;margin-bottom:10px}
+
+/* ===== 选项 A/B/C/D ===== */
+.options{display:flex;flex-direction:column;gap:10px;margin-top:18px}
+.option{display:flex;align-items:center;gap:12px;background:var(--card);border:1.5px solid var(--border);
+  border-radius:14px;padding:15px 16px;font-size:15px;cursor:pointer;transition:.15s;text-align:left;width:100%;color:var(--text)}
+.option .key{width:26px;height:26px;border-radius:8px;background:rgba(255,255,255,.06);border:1px solid var(--border2);
+  display:grid;place-items:center;font-size:13px;font-weight:800;flex:0 0 auto}
+.option .val{flex:1}
+.option:active{transform:scale(.98)}
+.option.correct{background:rgba(52,211,153,.16);border-color:var(--good)}
+.option.correct .key{background:var(--good);color:#0d1020;border-color:var(--good)}
+.option.wrong{background:rgba(248,113,113,.16);border-color:var(--bad)}
+.option.wrong .key{background:var(--bad);color:#0d1020;border-color:var(--bad)}
+
+/* ===== 拼写 ===== */
+.spellbox{display:flex;gap:10px;margin-top:18px}
+.spellbox input{flex:1;background:var(--card);border:1.5px solid var(--border2);border-radius:14px;
+  padding:15px 16px;font-size:18px;color:var(--text);outline:none;letter-spacing:1px;text-align:center;font-weight:700}
+.spellbox input:focus{border-color:var(--accent)}
+.spellbox input.ok{border-color:var(--good);background:rgba(52,211,153,.12)}
+.spellbox input.no{border-color:var(--bad);background:rgba(248,113,113,.12)}
+.submitbtn{flex:0 0 auto;background:var(--accent);border:none;color:#fff;border-radius:14px;padding:0 22px;
+  font-size:15px;font-weight:700;cursor:pointer}
+.feedback{margin-top:12px;font-size:14px;font-weight:700;text-align:center;min-height:20px}
+.feedback.ok{color:var(--good)} .feedback.no{color:var(--bad)}
+
+/* ===== 解释页 ===== */
+.explain{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--border2);
+  border-radius:24px;padding:24px 22px;box-shadow:var(--shadow)}
+.explain .zh{font-size:22px;font-weight:800;color:var(--accent2);text-align:center;line-height:1.4;margin:10px 0 14px}
+.detail{font-size:14px;line-height:1.7;color:var(--text);margin-bottom:12px}
 .detail .k{color:var(--muted);font-size:12px;font-weight:600;letter-spacing:1px;margin-bottom:3px;display:block}
 .example{font-size:13.5px;line-height:1.65;color:var(--muted);background:rgba(255,255,255,.03);
-  border-radius:12px;padding:12px 14px;margin-top:auto}
-.back .scroll{flex:1;overflow:auto;max-height:270px;margin-bottom:8px}
-
-/* ===== 答题按钮 ===== */
-.answers{display:flex;gap:10px;margin-top:18px}
-.ans{flex:1;border:none;border-radius:14px;padding:14px 6px;font-size:15px;font-weight:700;
-  cursor:pointer;color:#0d1020;transition:.15s}
-.ans:active{transform:scale(.95);opacity:.85}
-.ans.again{background:var(--again)} .ans.hard{background:var(--hard)} .ans.good{background:var(--good)}
-.answers.hidden{display:none}
+  border-radius:12px;padding:12px 14px;margin-bottom:14px}
+.wrongnote{background:rgba(248,113,113,.12);border:1px solid rgba(248,113,113,.35);color:#fca5a5;
+  border-radius:12px;padding:10px 14px;font-size:13px;font-weight:600;margin-bottom:12px;text-align:center}
+.rightnote{background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.35);color:#6ee7b7;
+  border-radius:12px;padding:10px 14px;font-size:13px;font-weight:600;margin-bottom:12px;text-align:center}
+.answerline{text-align:center;font-size:16px;margin-bottom:6px}
+.answerline b{color:var(--accent2);font-size:20px;letter-spacing:1px}
 
 /* ===== 完成态 ===== */
 .done{text-align:center;padding:30px 10px}
@@ -114,20 +146,10 @@ main{flex:1;padding:8px 20px 12px;display:flex;flex-direction:column}
   border-radius:14px;padding:13px 16px;cursor:pointer;transition:.15s}
 .worditem:active{background:var(--card2)}
 .worditem .w{font-size:16px;font-weight:700;flex:1;word-break:break-word}
-.worditem .z{font-size:12px;color:var(--muted);text-align:right;max-width:45%;overflow:hidden;
-  text-overflow:ellipsis;white-space:nowrap}
+.worditem .z{font-size:12px;color:var(--muted);text-align:right;max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .worditem .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
-.dot.new{background:var(--faint)} .dot.learn{background:var(--hard)} .dot.review{background:var(--accent2)} .dot.master{background:var(--good)}
+.dot.new{background:var(--faint)} .dot.learn{background:var(--warn)} .dot.review{background:var(--accent2)} .dot.master{background:var(--good)}
 .empty{text-align:center;color:var(--faint);padding:40px 0;font-size:14px}
-
-/* ===== 详情弹层 ===== */
-.modal{position:fixed;inset:0;background:rgba(5,7,16,.7);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
-  display:none;align-items:center;justify-content:center;z-index:50;padding:24px}
-.modal.show{display:flex}
-.modal-card{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--border2);
-  border-radius:24px;padding:26px;width:100%;max-width:420px;max-height:80dvh;overflow:auto;box-shadow:var(--shadow)}
-.modal-card .close{float:right;background:rgba(255,255,255,.08);border:none;color:var(--text);width:34px;height:34px;
-  border-radius:50%;font-size:16px;cursor:pointer}
 
 /* ===== 我的 ===== */
 .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;margin-bottom:12px}
@@ -138,21 +160,15 @@ main{flex:1;padding:8px 20px 12px;display:flex;flex-direction:column}
 .seg{border:1px solid var(--border);background:rgba(255,255,255,.03);border-radius:10px;padding:6px 12px;
   font-size:13px;color:var(--muted);cursor:pointer}
 .seg.on{background:var(--accent);color:#fff;border-color:var(--accent)}
-.btn{display:block;width:100%;border:1px solid var(--border2);background:var(--card2);color:var(--text);
-  border-radius:12px;padding:12px;font-size:14px;font-weight:600;cursor:pointer;margin-top:8px;transition:.15s}
-.btn:active{opacity:.8}
-.btn.warn{color:var(--again);border-color:rgba(248,113,113,.4)}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
 
 /* ===== 底部导航 ===== */
 nav{display:flex;border-top:1px solid var(--border);background:rgba(13,16,32,.85);
-  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-  padding:6px 0 calc(6px + env(safe-area-inset-bottom))}
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);padding:6px 0 calc(6px + env(safe-area-inset-bottom))}
 nav button{flex:1;background:none;border:none;color:var(--faint);font-size:11px;font-weight:600;
   padding:8px 0;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer}
 nav button .ic{font-size:21px;line-height:1}
 nav button.on{color:var(--accent2)}
-nav button .badge{position:absolute;transform:translate(14px,-4px);background:var(--again);color:#fff;
+nav button .badge{position:absolute;transform:translate(14px,-4px);background:var(--bad);color:#fff;
   font-size:10px;min-width:16px;height:16px;border-radius:8px;display:grid;place-items:center;padding:0 4px;font-weight:700}
 .navbtn{position:relative}
 </style>
@@ -174,10 +190,6 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
   </nav>
 </div>
 
-<div class="modal" id="modal">
-  <div class="modal-card" id="modalCard"></div>
-</div>
-
 <script src="words.js"></script>
 <script>
 "use strict";
@@ -189,166 +201,228 @@ function todayStr(){const d=new Date();return d.getFullYear()+"-"+String(d.getMo
 function addDays(s,n){const d=new Date(s+"T00:00:00");d.setDate(d.getDate()+n);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
 function $(s){return document.querySelector(s);}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
 /* ---------- 进度持久化 ---------- */
 let progress = load();
-function load(){
-  try{const p=JSON.parse(localStorage.getItem(LS_KEY));if(p&&p.cards)return p;}catch(e){}
-  return {cards:{}, settings:{dailyNew:10}, stats:{}};
-}
+function load(){try{const p=JSON.parse(localStorage.getItem(LS_KEY));if(p&&p.cards)return p;}catch(e){}return {cards:{},settings:{dailyNew:10},stats:{}};}
 function save(){localStorage.setItem(LS_KEY,JSON.stringify(progress));}
-function bumpStreak(){
-  const s=progress.stats;
-  const t=todayStr();
-  if(s.lastDay===t)return;
-  const y=addDays(t,-1);
-  s.streak=(s.lastDay===y?(s.streak||0)+1:1);
-  s.lastDay=t;
-}
-function cardState(w){
-  const c=progress.cards[w.word];
-  if(!c)return "new";
-  if(c.interval===0)return "learn";
-  if(c.due&&c.due<=todayStr())return "review";
-  if(c.interval>=21)return "master";
-  return "review"; // 已排期未到期，暂按已学展示
-}
-function buildQueue(){
-  const t=todayStr();
-  const learn=[],due=[],fresh=[];
-  const studiedToday=new Set(progress.stats.todayWords||[]);
-  for(const w of WORDS){
-    const c=progress.cards[w.word];
-    if(!c){ if(!studiedToday.has(w.word))fresh.push(w); }
-    else if(c.interval===0) learn.push(w);
-    else if(c.due&&c.due<=t) due.push(w);
-  }
-  const limit=progress.settings.dailyNew||10;
-  const newToday=fresh.slice(0,limit);
-  return [...learn,...due,...newToday];
-}
+function bumpStreak(){const s=progress.stats;const t=todayStr();if(s.lastDay===t)return;const y=addDays(t,-1);s.streak=(s.lastDay===y?(s.streak||0)+1:1);s.lastDay=t;}
+function cardState(w){const c=progress.cards[w.word];if(!c)return "new";if(c.interval===0)return "learn";if(c.due&&c.due<=todayStr())return "review";if(c.interval>=21)return "master";return "review";}
+function pickNew(n){return WORDS.filter(w=>!progress.cards[w.word]).slice(0,n||0);}
+function pickDue(){const t=todayStr();return WORDS.filter(w=>{const c=progress.cards[w.word];return c&&c.due&&c.due<=t;});}
 
 /* ---------- 语音 ---------- */
 let voices=[];
 function initVoices(){voices=speechSynthesis.getVoices().filter(v=>v.lang.startsWith("en"));}
 if("speechSynthesis" in window){initVoices();speechSynthesis.onvoiceschanged=initVoices;}
-function speak(word){
-  if(!("speechSynthesis" in window))return;
-  speechSynthesis.cancel();
-  const u=new SpeechSynthesisUtterance(word);
-  u.lang="en-US";u.rate=0.9;
-  const en=voices.find(v=>v.lang==="en-US")||voices[0];
-  if(en)u.voice=en;
-  speechSynthesis.speak(u);
+function speak(word){if(!("speechSynthesis" in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(word);u.lang="en-US";u.rate=0.9;const en=voices.find(v=>v.lang==="en-US")||voices[0];if(en)u.voice=en;speechSynthesis.speak(u);}
+
+/* ---------- 学习会话状态机 ---------- */
+let session=null;
+function renderStudy(){renderMenu();}
+function renderMenu(){
+  const limit=progress.settings.dailyNew||10;
+  const newN=pickNew(limit).length, dueN=pickDue().length;
+  $("#streakNum").textContent=progress.stats.streak||0;
+  if(newN===0 && dueN===0){renderDone();return;}
+  $("#main").innerHTML=`
+    <div class="overview">
+      <div class="stat"><div class="num">${newN}</div><div class="lbl">今日新词</div></div>
+      <div class="stat"><div class="num accent">${dueN}</div><div class="lbl">待复习</div></div>
+      <div class="stat"><div class="num">${mastered()}</div><div class="lbl">已掌握</div></div>
+    </div>
+    <div class="menu-card">
+      <h2>${newN>0?"今天学 ${newN} 个新词":"今日无新词，复习 ${dueN} 个"}</h2>
+      <p>新词用选择题学，学完进入拼写复习；拼错的词会反复出现，直到你全拼对。</p>
+      <button class="btn primary" onclick="beginSession()">开始学习</button>
+    </div>`;
+  updateBadge();
+}
+function mastered(){return WORDS.filter(w=>{const c=progress.cards[w.word];return c&&c.interval>=21;}).length;}
+
+function beginSession(){
+  const limit=progress.settings.dailyNew||10;
+  const newWords=pickNew(limit);
+  const due=pickDue();
+  session={mcqQueue:[...newWords],spellQueue:[...due,...newWords],failQueue:[],current:null,wordWrong:false,addedToFail:false};
+  if(newWords.length>0)renderMCQ();
+  else renderSpellIntro();
 }
 
-/* ---------- 学习卡片 ---------- */
-let queue=[],qi=0,current=null,flipped=false;
-function renderStudy(){
-  queue=buildQueue();
-  qi=0;
-  const main=$("#main");
-  const streak=progress.stats.streak||0;
-  $("#streakNum").textContent=streak;
-  if(queue.length===0){
-    main.innerHTML=`
-      <div class="done">
-        <div class="emoji">🎉</div>
-        <h2>今日任务完成</h2>
-        <p>新词 ${(progress.stats.todayWords||[]).length} 个 · 复习 ${(progress.stats.reviewedToday||0)} 个<br>明天再来巩固，记忆更牢</p>
-        <button class="btn primary" onclick="addMore()">再学一批新词</button>
-      </div>`;
-    updateBadge();
-    return;
-  }
-  main.innerHTML=`
-    <div class="overview">
-      <div class="stat"><div class="num" id="ovNew">0</div><div class="lbl">今日新词</div></div>
-      <div class="stat"><div class="num accent" id="ovReview">0</div><div class="lbl">待复习</div></div>
-      <div class="stat"><div class="num" id="ovTotal">0</div><div class="lbl">掌握中</div></div>
-    </div>
-    <div class="stage"><div class="flipper" id="flipper">
-      <div class="face front">
-        <div class="cat-tag" id="catTag"></div>
-        <div class="word-row"><div class="word" id="wordEl"></div>
-        <button class="speak" onclick="event.stopPropagation();speak(current.word)" title="发音">🔊</button></div>
-        <div class="ipa" id="ipaEl"></div>
-        <div class="hint">点击卡片查看释义</div>
-      </div>
-      <div class="face back">
-        <div class="scroll">
-          <div class="zh" id="zhEl"></div>
-          <div class="detail"><span class="k">定义</span><span id="defEl"></span></div>
-          <div class="example" id="exEl"></div>
-        </div>
-      </div>
-    </div></div>
-    <div class="answers hidden" id="answers">
-      <button class="ans again" onclick="answer('again')">忘记</button>
-      <button class="ans hard" onclick="answer('hard')">模糊</button>
-      <button class="ans good" onclick="answer('good')">认识</button>
+/* ===== 选择题（学习新词） ===== */
+function renderMCQ(){
+  if(session.mcqQueue.length===0){renderSpellIntro();return;}
+  const w=session.mcqQueue[0];session.current=w;session.wordWrong=false;
+  const opts=buildOptions(w);
+  const keys="ABCD";
+  $("#main").innerHTML=`
+    <div class="qphase">· 学习新词 ·</div>
+    <div class="qcard">
+      <div class="qword" id="qword">${esc(w.word)}</div>
+      <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
+      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <div class="qhint">选出正确的中文意思</div>
+      <div class="options" id="opts">${opts.map((o,i)=>`
+        <button class="option" data-i="${i}" onclick="answerMCQ(${i})">
+          <span class="key">${keys[i]}</span><span class="val">${esc(o)}</span>
+        </button>`).join("")}</div>
     </div>`;
-  updateOverview();
-  showCard();
-  const flipper=$("#flipper");
-  flipper.onclick=()=>{flipped=!flipped;flipper.classList.toggle("flipped",flipped);$("#answers").classList.toggle("hidden",!flipped);};
 }
-function showCard(){
-  if(qi>=queue.length){renderStudy();return;}
-  current=queue[qi];
-  flipped=false;
-  const f=$("#flipper");if(f)f.classList.remove("flipped");
-  $("#answers").classList.add("hidden");
-  $("#catTag").textContent=current.category;
-  $("#wordEl").textContent=current.word;
-  $("#ipaEl").textContent=current.ipa?("/"+current.ipa+"/"):"";
-  $("#zhEl").textContent=current.zh;
-  $("#defEl").textContent=current.def||"";
-  const ex=current.example||"";
-  $("#exEl").innerHTML=ex?('<span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span><br>'+esc(ex)):"";
-  $("#wordEl").style.fontSize = current.word.length>16?"26px":"38px";
+function buildOptions(w){
+  const correct=w.zh;
+  const pool=WORDS.filter(x=>x.word!==w.word&&x.zh&&x.zh!==correct);
+  const diff=shuffle(pool.filter(x=>x.category!==w.category));
+  const same=shuffle(pool.filter(x=>x.category===w.category));
+  const distractors=[...diff,...same].slice(0,3).map(x=>x.zh);
+  return shuffle([correct,...distractors]);
 }
-function answer(grade){
-  const w=current;
+function answerMCQ(i){
+  const w=session.current;
+  const optsEl=document.querySelectorAll(".option");
+  const correctText=w.zh;
+  let correctIdx=-1;
+  optsEl.forEach((el,idx)=>{if(el.querySelector(".val").textContent===correctText)correctIdx=idx;});
+  if(i===correctIdx){
+    optsEl[i].classList.add("correct");
+    setTimeout(()=>{session.mcqQueue.shift();renderExplain(false);},350);
+  }else{
+    session.wordWrong=true;
+    optsEl[i].classList.add("wrong");
+    optsEl[correctIdx].classList.add("correct");
+    setTimeout(()=>{session.mcqQueue.shift();renderExplain(true);},950);
+  }
+}
+
+/* ===== 解释页 ===== */
+function renderExplain(wrong){
+  const w=session.current;
+  $("#main").innerHTML=`
+    <div class="qphase">· 学习新词 ·</div>
+    <div class="explain">
+      ${wrong?'<div class="wrongnote">⚠️ 刚才选错了，记住它</div>':'<div class="rightnote">✓ 回答正确</div>'}
+      <div class="qword" style="font-size:28px">${esc(w.word)}</div>
+      <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
+      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <div class="zh">${esc(w.zh)}</div>
+      <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+      ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
+      <button class="btn primary" onclick="nextExplain()">下一个</button>
+    </div>`;
+}
+function nextExplain(){renderMCQ();}
+
+/* ===== 拼写复习 ===== */
+function renderSpellIntro(){
+  $("#main").innerHTML=`
+    <div class="done" style="padding-top:60px">
+      <div class="emoji">✍️</div>
+      <h2>进入复习</h2>
+      <p>看中文意思，拼写出正确的英文单词<br>拼错的会反复出现，直到全会</p>
+      <button class="btn primary" onclick="startSpell()">开始复习</button>
+    </div>`;
+}
+function startSpell(){
+  if(session.spellQueue.length===0){
+    if(session.failQueue.length>0){session.spellQueue=[...session.failQueue];session.failQueue=[];}
+    else {renderDone();return;}
+  }
+  session.current=session.spellQueue[0];
+  session.wordWrong=false;session.addedToFail=false;
+  renderSpell();
+}
+function renderSpell(){
+  const w=session.current;
+  $("#main").innerHTML=`
+    <div class="qphase">· 拼写复习 ·</div>
+    <div class="qcard">
+      <div class="qzh">${esc(w.zh)}</div>
+      <div class="qipa" style="color:var(--muted)">${w.category||""}</div>
+      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <div class="qhint">拼出这个单词的英文</div>
+      <div class="spellbox">
+        <input id="spellInput" type="text" autocapitalize="none" autocorrect="off" spellcheck="false"
+               placeholder="输入英文…" onkeydown="if(event.key==='Enter')submitSpell()">
+        <button class="submitbtn" onclick="submitSpell()">提交</button>
+      </div>
+      <div class="feedback" id="fb"></div>
+    </div>`;
+  const inp=$("#spellInput");if(inp)inp.focus();
+}
+function submitSpell(){
+  const w=session.current;
+  const inp=$("#spellInput");
+  const val=(inp.value||"").trim();
+  if(!val)return;
+  if(val.toLowerCase()===w.word.toLowerCase()){
+    inp.classList.add("ok");
+    const fb=$("#fb");fb.textContent="✓ 正确！"+w.word;fb.className="feedback ok";
+    updateSRS(w,!session.wordWrong);
+    setTimeout(()=>{session.spellQueue.shift();nextSpell();},600);
+  }else{
+    if(!session.addedToFail){session.failQueue.push(w);session.addedToFail=true;}
+    session.wordWrong=true;
+    inp.classList.add("no");
+    const fb=$("#fb");fb.textContent="✗ 不对";fb.className="feedback no";
+    setTimeout(renderSpellExplain,700);
+  }
+}
+function nextSpell(){
+  if(session.spellQueue.length===0&&session.failQueue.length>0){session.spellQueue=[...session.failQueue];session.failQueue=[];}
+  if(session.spellQueue.length===0){renderDone();return;}
+  session.current=session.spellQueue[0];
+  session.wordWrong=false;session.addedToFail=false;
+  renderSpell();
+}
+function renderSpellExplain(){
+  const w=session.current;
+  $("#main").innerHTML=`
+    <div class="qphase">· 拼写复习 ·</div>
+    <div class="explain">
+      <div class="wrongnote">✗ 正确答案：</div>
+      <div class="answerline"><b>${esc(w.word)}</b>　${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
+      <div class="zh">${esc(w.zh)}</div>
+      <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+      ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
+      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <button class="btn primary" onclick="retrySpell()">再拼一次</button>
+    </div>`;
+}
+function retrySpell(){renderSpell();}
+
+function updateSRS(w,correctFirstTry){
   let c=progress.cards[w.word]||{interval:0,ease:2.5,reps:0,due:null,lapses:0};
   const t=todayStr();
-  if(grade==="again"){
-    c.interval=0;c.ease=Math.max(1.3,c.ease-0.2);c.lapses=(c.lapses||0)+1;c.reps=0;c.due=t;
-  }else if(grade==="hard"){
-    c.interval=Math.max(1,Math.round((c.interval||1)*1.2));c.ease=Math.max(1.3,c.ease-0.15);c.reps=(c.reps||0)+1;c.due=addDays(t,c.interval);
-  }else{
-    if((c.reps||0)===0)c.interval=1;else if(c.reps===1)c.interval=3;else if(c.reps===2)c.interval=7;
-    else c.interval=Math.round(c.interval*c.ease);
+  if(correctFirstTry){
+    if(c.reps===0)c.interval=1;else if(c.reps===1)c.interval=3;else if(c.reps===2)c.interval=7;else c.interval=Math.round(c.interval*c.ease);
     c.ease=Math.min(3,c.ease+0.05);c.reps=(c.reps||0)+1;c.due=addDays(t,c.interval);
+  }else{
+    c.interval=0;c.ease=Math.max(1.3,c.ease-0.2);c.lapses=(c.lapses||0)+1;c.reps=0;c.due=t;
   }
   progress.cards[w.word]=c;
   bumpStreak();
   progress.stats.todayWords=progress.stats.todayWords||[];
   if(!progress.stats.todayWords.includes(w.word))progress.stats.todayWords.push(w.word);
-  if(grade!=="again")progress.stats.reviewedToday=(progress.stats.reviewedToday||0)+1;
+  progress.stats.reviewedToday=(progress.stats.reviewedToday||0)+1;
   save();
   $("#streakNum").textContent=progress.stats.streak||0;
-  qi++;
-  if(qi>=queue.length){renderStudy();return;}
-  showCard();
-  updateOverview();
 }
-function addMore(){
-  progress.settings.dailyNew=(progress.settings.dailyNew||10)+10;
-  save();renderStudy();
-}
-function updateOverview(){
-  const t=todayStr();
-  const reviewed=WORDS.filter(w=>{const c=progress.cards[w.word];return c&&c.due&&c.due<=t&&c.interval>0;}).length;
-  const mastered=WORDS.filter(w=>{const c=progress.cards[w.word];return c&&c.interval>=21;}).length;
-  $("#ovNew").textContent=(progress.stats.todayWords||[]).length;
-  $("#ovReview").textContent=reviewed;
-  $("#ovTotal").textContent=mastered;
+
+/* ===== 完成态 ===== */
+function renderDone(){
+  $("#main").innerHTML=`
+    <div class="done">
+      <div class="emoji">🎉</div>
+      <h2>今日任务完成</h2>
+      <p>新词 ${(progress.stats.todayWords||[]).length} 个 · 复习 ${progress.stats.reviewedToday||0} 个<br>明天再来巩固，记忆更牢</p>
+      <button class="btn primary" onclick="renderMenu()">查看今日计划</button>
+    </div>`;
+  updateBadge();
 }
 function updateBadge(){
-  const n=buildQueue().length;
+  const due=pickDue().length;
   const b=$("#badgeStudy");
-  if(n>0){b.style.display="grid";b.textContent=n;}else{b.style.display="none";}
+  if(due>0){b.style.display="grid";b.textContent=due;}else{b.style.display="none";}
 }
 
 /* ---------- 单词本 ---------- */
@@ -386,35 +460,32 @@ function onSearch(v){curQuery=v;renderListItems();}
 function openDetail(word){
   const w=WORDS.find(x=>x.word===word);if(!w)return;
   const c=progress.cards[w.word];
-  const state=cardState(w);
-  const stTxt={new:"未学习",learn:"学习中",review:"待复习",master:"已掌握"}[state];
+  const stTxt={new:"未学习",learn:"学习中",review:"待复习",master:"已掌握"}[cardState(w)];
   const interval=c?c.interval:0;
   const due=c&&c.due?c.due:"—";
-  $("#modalCard").innerHTML=`
-    <button class="close" onclick="closeModal()">✕</button>
-    <div class="cat-tag" style="margin-bottom:10px">${esc(w.category)} · ${stTxt}</div>
-    <div class="word-row" style="justify-content:flex-start;gap:12px">
-      <div class="word" style="font-size:30px">${esc(w.word)}</div>
-      <button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button>
+  $("#main").innerHTML=`
+    <div class="topbar">
+      <button class="backbtn" onclick="renderList()">← 返回</button>
+      <div class="t">单词详情</div>
     </div>
-    <div class="ipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
-    <div class="zh" style="margin-top:12px">${esc(w.zh)}</div>
-    <div class="detail" style="margin-top:8px"><span class="k">定义</span>${esc(w.def||"")}</div>
-    ${w.example?`<div class="example" style="margin-top:4px"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
-    <div style="color:var(--faint);font-size:12px;margin-top:14px">间隔 ${interval} 天 · 下次复习 ${due}</div>`;
-  $("#modal").classList.add("show");
+    <div class="qcard">
+      <div class="qword" style="font-size:30px">${esc(w.word)}</div>
+      <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
+      <div class="speakrow"><button class="speak" onclick="speak('${esc(w.word).replace(/'/g,"\\'")}')">🔊</button></div>
+      <div class="zh">${esc(w.zh)}</div>
+      <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+      ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
+      <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(w.category)} · ${stTxt} · 间隔 ${interval} 天 · 下次 ${due}</div>
+    </div>`;
 }
-function closeModal(){$("#modal").classList.remove("show");}
-$("#modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal();});
 
 /* ---------- 我的 ---------- */
 function renderMe(){
   const main=$("#main");
-  const t=todayStr();
   const total=WORDS.length;
   const studied=WORDS.filter(w=>progress.cards[w.word]).length;
-  const mastered=WORDS.filter(w=>{const c=progress.cards[w.word];return c&&c.interval>=21;}).length;
-  const due=buildQueue().length;
+  const mastered=mastered();
+  const due=pickDue().length;
   const s=progress.settings.dailyNew||10;
   const seg=(n)=>`<span class="seg ${s===n?"on":""}" onclick="setDaily(${n})">${n}</span>`;
   main.innerHTML=`
@@ -443,20 +514,9 @@ function renderMe(){
     <div style="color:var(--faint);font-size:12px;text-align:center;padding:10px 0 20px">单词来源：Obsidian 火火知识库 · 英语学习</div>`;
 }
 function setDaily(n){progress.settings.dailyNew=n;save();renderMe();}
-function exportData(){
-  navigator.clipboard.writeText(JSON.stringify(progress)).then(()=>alert("已复制，可粘贴保存到笔记"));
-}
-function importData(){
-  const t=prompt("粘贴导出的进度 JSON：");
-  if(!t)return;
-  try{const p=JSON.parse(t);if(!p.cards)throw 0;progress=p;save();renderMe();alert("导入成功");}
-  catch(e){alert("格式不对");}
-}
-function resetData(){
-  if(confirm("确定清空所有学习进度？单词数据不会丢。")){
-    progress={cards:{},settings:{dailyNew:10},stats:{}};save();renderMe();
-  }
-}
+function exportData(){navigator.clipboard.writeText(JSON.stringify(progress)).then(()=>alert("已复制，可粘贴保存到笔记"));}
+function importData(){const t=prompt("粘贴导出的进度 JSON：");if(!t)return;try{const p=JSON.parse(t);if(!p.cards)throw 0;progress=p;save();renderMe();alert("导入成功");}catch(e){alert("格式不对");}}
+function resetData(){if(confirm("确定清空所有学习进度？单词数据不会丢。")){progress={cards:{},settings:{dailyNew:10},stats:{}};save();renderMe();}}
 
 /* ---------- 导航 ---------- */
 let tab="study";
