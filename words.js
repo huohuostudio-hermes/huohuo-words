@@ -990,6 +990,17 @@ window.WORDS = [
     "id": 90
   },
   {
+    "word": "Spark",
+    "ipa": "spɑːrk",
+    "translit": "",
+    "zh": "火花 / 电火花",
+    "def": "指电流击穿空气或绝缘介质时产生的瞬间放电现象，伴随明亮的闪光和爆裂声。",
+    "example": "例子：拔下带电的插头时，插座处有时会迸出一个小火花。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 91
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -998,7 +1009,7 @@ window.WORDS = [
     "example": "听觉例子：拉丁或流行节奏里持续铺底的“沙沙沙”声，像细盐粒在木质或金属壳内跳动，给律动增加推动感。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 91
+    "id": 92
   },
   {
     "word": "Conga",
@@ -1009,7 +1020,7 @@ window.WORDS = [
     "example": "听觉例子：拉丁音乐中“咚—哒—啪”的节奏，低沉圆润的开放音配合清脆的掌击，既有身体感又有穿透力。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 92
+    "id": 93
   },
   {
     "word": "Percussion",
@@ -1020,7 +1031,7 @@ window.WORDS = [
     "example": "比如一首歌里那些“咚次哒次”的节奏部分，不负责旋律，但撑起整首歌的节奏感。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 93
+    "id": 94
   },
   {
     "word": "Grooves",
@@ -1031,7 +1042,7 @@ window.WORDS = [
     "example": "同样四个鼓点，有的听起来死板像节拍器，有的听起来让人忍不住点头抖腿——后者就是好律动。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 94
+    "id": 95
   },
   {
     "word": "Bongos",
@@ -1042,7 +1053,7 @@ window.WORDS = [
     "example": "听起来像“啪啪-咚咚”的清脆小鼓点，音头明亮，像雨点打在木桌上。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 95
+    "id": 96
   },
   {
     "word": "Woodblock",
@@ -1053,7 +1064,7 @@ window.WORDS = [
     "example": "听起来像“哒”的一声，干脆利落，像筷子敲在空心木头上。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 96
+    "id": 97
   },
   {
     "word": "Djembe",
@@ -1064,7 +1075,7 @@ window.WORDS = [
     "example": "低音像“咚”的胸腔共鸣，高音像“啪”的清脆拍击，一面鼓能打出好几种声音。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 97
+    "id": 98
   },
   {
     "word": "Tambourine",
@@ -1075,7 +1086,7 @@ window.WORDS = [
     "example": "听起来像“铃铃铃”的金属碰撞声，明亮清脆，像一串小铃铛在节奏中闪烁。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 98
+    "id": 99
   },
   {
     "word": "Cowbells",
@@ -1086,7 +1097,7 @@ window.WORDS = [
     "example": "听起来像“铛铛”的金属声，干硬而突出，像铁锤敲在铁砧上——你绝对忘不了这个声音。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 99
+    "id": 100
   },
   {
     "word": "Bells",
@@ -1097,7 +1108,7 @@ window.WORDS = [
     "example": "听起来像“叮——”的一声，清亮悠远，像教堂钟声或风铃在空气中回荡。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 100
+    "id": 101
   },
   {
     "word": "Timbales",
@@ -1108,7 +1119,7 @@ window.WORDS = [
     "example": "听起来像“叮啪-叮啪”的金属鼓声，比康加鼓更亮更脆，像铁皮鼓边被快速敲击。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 101
+    "id": 102
   },
   {
     "word": "Keys",
@@ -1119,7 +1130,7 @@ window.WORDS = [
     "example": "听觉例子：一首流行歌里铺在背景中那种\"弹出来的和声垫\"，不抢人声但撑起整首歌的骨架。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 102
+    "id": 103
   },
   {
     "word": "Piano",
@@ -1130,7 +1141,7 @@ window.WORDS = [
     "example": "听觉例子：经典情歌前奏中那种颗粒感清晰、余音自然衰减的\"叮咚\"声。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 103
+    "id": 104
   },
   {
     "word": "Wurlitzer",
@@ -1141,7 +1152,7 @@ window.WORDS = [
     "example": "听觉例子：像是一颗颗带电的糖果砸在耳朵上，温暖中带一点\"嗡嗡\"的毛刺感。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 104
+    "id": 105
   },
   {
     "word": "Electric Piano",
@@ -1152,7 +1163,7 @@ window.WORDS = [
     "example": "听觉例子：那种带一点\"叮\"的金属光泽、尾音微微颤动的温暖键盘声，像 Stevie Wonder 的经典音色。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 105
+    "id": 106
   },
   {
     "word": "Organ",
@@ -1163,7 +1174,7 @@ window.WORDS = [
     "example": "听觉例子：持续饱满的\"嗡嗡\"声墙，打开 Leslie 后声音像在空间中旋转，忽远忽近。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 106
+    "id": 107
   },
   {
     "word": "Clavinet",
@@ -1174,7 +1185,7 @@ window.WORDS = [
     "example": "听觉例子：像用拨片弹吉他一样\"咔咔\"作响的短促音符，节奏感极强，自带放克基因。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 107
+    "id": 108
   },
   {
     "word": "Keys Melody",
@@ -1185,7 +1196,7 @@ window.WORDS = [
     "example": "听觉例子：人声间隙中键盘\"唱\"出来的那条清晰旋律线，像在和歌手对话。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 108
+    "id": 109
   },
   {
     "word": "Classical",
@@ -1196,7 +1207,7 @@ window.WORDS = [
     "example": "听觉例子：弦乐四重奏或独奏钢琴那种无电子处理、自然空间混响的纯净音响。",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 109
+    "id": 110
   },
   {
     "word": "Female Vocals",
@@ -1207,7 +1218,7 @@ window.WORDS = [
     "example": "听觉例子：流行歌曲主歌中清亮、柔和的女声，带有自然的呼吸感和温暖的中频。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 110
+    "id": 111
   },
   {
     "word": "Vocal FX",
@@ -1218,7 +1229,7 @@ window.WORDS = [
     "example": "听觉例子：人声突然被拉远、带上巨大的教堂混响，或变成电话般的窄频带失真效果。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 111
+    "id": 112
   },
   {
     "word": "Vocoder",
@@ -1229,7 +1240,7 @@ window.WORDS = [
     "example": "听觉例子：Daft Punk 歌曲中那种金属感、合成器在\"说话\"的人声效果。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 112
+    "id": 113
   },
   {
     "word": "Screams",
@@ -1240,7 +1251,7 @@ window.WORDS = [
     "example": "听觉例子：金属核副歌前那种撕裂般的高频尖啸，带有强烈的攻击性和压迫感。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 113
+    "id": 114
   },
   {
     "word": "Whisper Vocals",
@@ -1251,7 +1262,7 @@ window.WORDS = [
     "example": "听觉例子：Billie Eilish 歌曲中贴近耳朵、几乎只有气流声的轻柔呢喃。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 114
+    "id": 115
   },
   {
     "word": "Male Vocals",
@@ -1262,7 +1273,7 @@ window.WORDS = [
     "example": "听觉例子：流行或摇滚歌曲中厚实、有力的男声主唱，胸腔共鸣明显。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 115
+    "id": 116
   },
   {
     "word": "Spoken Word",
@@ -1273,7 +1284,7 @@ window.WORDS = [
     "example": "听觉例子：歌曲中间一段平静的独白，像在耳边讲故事一样自然。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 116
+    "id": 117
   },
   {
     "word": "Vocal Phrases",
@@ -1284,7 +1295,7 @@ window.WORDS = [
     "example": "听觉例子：House 音乐中反复出现的短促\"嘿！\"或\"哦耶\"人声切片。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 117
+    "id": 118
   },
   {
     "word": "Vocal Shouts",
@@ -1295,7 +1306,7 @@ window.WORDS = [
     "example": "听觉例子：副歌前一声\"Go!\"或\"Hey!\"，像拳头一样砸在节奏重拍上。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 118
+    "id": 119
   },
   {
     "word": "Dialogue",
@@ -1306,6 +1317,6 @@ window.WORDS = [
     "example": "听觉例子：电影场景中两人对话清晰突出，背景音乐自动\"让路\"降低音量。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 119
+    "id": 120
   }
 ];
