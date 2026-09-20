@@ -616,6 +616,380 @@ window.WORDS = [
     "id": 56
   },
   {
+    "word": "Bookmark",
+    "ipa": "ˈbʊkmɑːrk",
+    "translit": "",
+    "zh": "书签",
+    "def": "浏览器中用于保存网页链接以便日后快速访问的功能，也可指保存的链接本身。",
+    "example": "例子：将哔哩哔哩的页面添加到书签栏，下次点击即可直接打开。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 57
+  },
+  {
+    "word": "Bookmark Bar",
+    "ipa": "ˈbʊkmɑːrk bɑːr",
+    "translit": "",
+    "zh": "书签栏",
+    "def": "浏览器中位于地址栏下方的一条横向工具栏，用于显示已保存的书签快捷方式。",
+    "example": "例子：书签栏（0）表示当前书签栏中没有已保存的书签。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 58
+  },
+  {
+    "word": "Add Current Tab",
+    "ipa": "",
+    "translit": "",
+    "zh": "添加当前标签页",
+    "def": "将当前正在浏览的网页标签保存为书签的操作。",
+    "example": "例子：点击\"+ 添加当前标签页\"即可将当前页面存入书签栏。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 59
+  },
+  {
+    "word": "Keychron",
+    "ipa": "",
+    "translit": "",
+    "zh": "Keychron",
+    "def": "一个专注于机械键盘和鼠标外设的品牌，以支持多设备连接和高度可定制化著称。",
+    "example": "例子：Keychron M6 8K 是该品牌推出的一款支持 8K 回报率的无线鼠标。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 60
+  },
+  {
+    "word": "Launcher",
+    "ipa": "",
+    "translit": "",
+    "zh": "启动器 / 配置工具",
+    "def": "用于管理和自定义设备参数（如按键映射、DPI、宏等）的软件界面。",
+    "example": "例子：Keychron Launcher 是 Keychron 外设的网页版配置工具。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 61
+  },
+  {
+    "word": "DPI",
+    "ipa": "ˌdiː piː ˈaɪ",
+    "translit": "",
+    "zh": "每英寸点数",
+    "def": "鼠标灵敏度单位，表示鼠标移动一英寸时光标在屏幕上移动的像素数，数值越高光标移动越快。",
+    "example": "例子：将 DPI 设置为 1600 时，鼠标移动一英寸光标移动 1600 像素。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 62
+  },
+  {
+    "word": "Polling Rate",
+    "ipa": "ˈpoʊlɪŋ reɪt",
+    "translit": "",
+    "zh": "回报率",
+    "def": "鼠标每秒向电脑报告位置的次数，单位为 Hz，数值越高响应越及时。",
+    "example": "例子：8K 回报率意味着鼠标每秒向电脑发送 8000 次位置数据。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 63
+  },
+  {
+    "word": "Macro",
+    "ipa": "ˈmækroʊ",
+    "translit": "",
+    "zh": "宏",
+    "def": "将一系列按键操作或鼠标动作录制并绑定到单个按键上，按下一次即可自动执行整组操作。",
+    "example": "例子：将\"复制+粘贴\"组合录制为宏并绑定到侧键，按一次即可完成两步操作。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 64
+  },
+  {
+    "word": "Scroll Wheel",
+    "ipa": "",
+    "translit": "",
+    "zh": "滚轮",
+    "def": "鼠标上用于上下滚动页面的滚轮，部分鼠标还支持左右倾斜滚动。",
+    "example": "例子：向上滚动、向下滚动、向左滚动、向右滚动均为滚轮的不同操作方向。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 65
+  },
+  {
+    "word": "Side Button",
+    "ipa": "",
+    "translit": "",
+    "zh": "侧键",
+    "def": "鼠标侧面附加的按键，通常用于前进/后退或自定义功能。",
+    "example": "例子：前侧键设为\"向左持续滚动\"，后侧键设为\"向右持续滚动\"。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 66
+  },
+  {
+    "word": "Middle Button",
+    "ipa": "ˈmɪdəl ˈbʌtən",
+    "translit": "",
+    "zh": "中键",
+    "def": "鼠标滚轮按下时触发的按键，常被设为双击或中键点击功能。",
+    "example": "例子：将中键设置为\"左键双击\"。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 67
+  },
+  {
+    "word": "Scroll Enhancement",
+    "ipa": "",
+    "translit": "",
+    "zh": "滚动增强",
+    "def": "对鼠标滚轮滚动行为进行额外优化或调整的功能选项。",
+    "example": "例子：开启滚动增强后，滚轮可以一次滚动更多行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 68
+  },
+  {
+    "word": "Angle Adjustment",
+    "ipa": "",
+    "translit": "",
+    "zh": "角度调整",
+    "def": "调整鼠标传感器角度以补偿手部握持倾斜，使光标移动方向与手部移动方向一致。",
+    "example": "例子：若手部习惯斜握鼠标，可通过角度调整让光标保持水平移动。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 69
+  },
+  {
+    "word": "Receiver Update",
+    "ipa": "",
+    "translit": "",
+    "zh": "接收器更新",
+    "def": "对鼠标无线接收器的固件进行升级，以改善性能或修复问题。",
+    "example": "例子：通过 Launcher 检查并安装接收器的最新固件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 70
+  },
+  {
+    "word": "2.4G Mode",
+    "ipa": "",
+    "translit": "",
+    "zh": "2.4G 模式",
+    "def": "鼠标通过 2.4GHz 无线频段与接收器连接的工作模式，延迟低、响应快。",
+    "example": "例子：状态栏显示\"2.4G Mode\"表示鼠标当前正通过 2.4GHz 无线连接。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 71
+  },
+  {
+    "word": "Multimedia Key",
+    "ipa": "",
+    "translit": "",
+    "zh": "多媒体键",
+    "def": "键盘上用于控制音量、播放/暂停、上一曲/下一曲等媒体功能的按键。",
+    "example": "例子：将 F 区某键设为多媒体键后，按下可直接切换歌曲。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 72
+  },
+  {
+    "word": "Game Enhancement Key",
+    "ipa": "",
+    "translit": "",
+    "zh": "游戏增强键",
+    "def": "专为游戏场景优化的按键功能，可禁用某些系统键或增强响应速度。",
+    "example": "例子：开启游戏增强键后可防止游戏中误触 Win 键导致弹出桌面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 73
+  },
+  {
+    "word": "Shortcut Key",
+    "ipa": "ˈʃɔːrtkʌt kiː",
+    "translit": "",
+    "zh": "快捷键",
+    "def": "通过组合按键快速触发某一功能的操作方式。",
+    "example": "例子：Ctrl+C 是复制的快捷键。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 74
+  },
+  {
+    "word": "Keyboard Combination",
+    "ipa": "",
+    "translit": "",
+    "zh": "键盘组合键",
+    "def": "同时按下两个或多个按键来触发特定功能的操作。",
+    "example": "例子：Ctrl+Shift+Esc 可打开任务管理器。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 75
+  },
+  {
+    "word": "Caps Lock",
+    "ipa": "ˈkæps lɒk",
+    "translit": "",
+    "zh": "大写锁定",
+    "def": "键盘上的一个锁定键，开启后输入的字母全部为大写。",
+    "example": "例子：按下 Caps Lock 后输入\"abc\"会显示为\"ABC\"。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 76
+  },
+  {
+    "word": "Scroll Lock",
+    "ipa": "ˈskroʊl lɒk",
+    "translit": "",
+    "zh": "滚动锁定",
+    "def": "键盘上的一个锁定键，在部分程序中用于锁定滚动行为。",
+    "example": "例子：在 Excel 中开启 Scroll Lock 后，方向键变为滚动页面而非移动单元格。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 77
+  },
+  {
+    "word": "Num Lock",
+    "ipa": "ˈnʌm lɒk",
+    "translit": "",
+    "zh": "数字锁定",
+    "def": "键盘上的一个锁定键，控制数字小键盘输入数字还是执行方向/编辑功能。",
+    "example": "例子：关闭 Num Lock 后，小键盘的 2/4/6/8 变为下/左/右/上方向键。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 78
+  },
+  {
+    "word": "Backspace",
+    "ipa": "ˈbækspeɪs",
+    "translit": "",
+    "zh": "退格键",
+    "def": "键盘上用于删除光标前一个字符的按键。",
+    "example": "例子：打字时按 Backspace 可删除刚输入的错字。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 79
+  },
+  {
+    "word": "Enter",
+    "ipa": "ˈentər",
+    "translit": "",
+    "zh": "回车键",
+    "def": "键盘上用于确认输入或换行的按键。",
+    "example": "例子：在搜索框输入关键词后按 Enter 开始搜索。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 80
+  },
+  {
+    "word": "Tab",
+    "ipa": "tæb",
+    "translit": "",
+    "zh": "制表键",
+    "def": "键盘上用于插入制表符或在界面元素间切换焦点的按键。",
+    "example": "例子：在表单中按 Tab 可跳到下一个输入框。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 81
+  },
+  {
+    "word": "Shift",
+    "ipa": "ʃɪft",
+    "translit": "",
+    "zh": "上档键",
+    "def": "键盘上用于输入大写字母或符号键上方字符的修饰键。",
+    "example": "例子：按住 Shift 再按数字键 1 可输入感叹号\"!\"。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 82
+  },
+  {
+    "word": "Ctrl",
+    "ipa": "kənˈtroʊl",
+    "translit": "",
+    "zh": "控制键",
+    "def": "键盘上的修饰键，常与其他键组合形成快捷键。",
+    "example": "例子：Ctrl+S 用于保存文件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 83
+  },
+  {
+    "word": "Alt",
+    "ipa": "ɔːlt",
+    "translit": "",
+    "zh": "替换键",
+    "def": "键盘上的修饰键，常与其他键组合使用，在 Mac 上对应 Option 键。",
+    "example": "例子：Alt+Tab 可在打开的窗口之间切换。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 84
+  },
+  {
+    "word": "Win",
+    "ipa": "wɪn",
+    "translit": "",
+    "zh": "Windows 键",
+    "def": "键盘上带有 Windows 徽标的按键，用于打开开始菜单或配合其他键形成系统快捷键。",
+    "example": "例子：Win+D 可快速显示桌面。",
+    "category": "管乐",
+    "source": "小赫转存",
+    "id": 85
+  },
+  {
+    "word": "Cmd",
+    "ipa": "kɒmænd",
+    "translit": "",
+    "zh": "命令键",
+    "def": "Mac 键盘上的修饰键，对应 Windows 键盘的 Win 键，用于形成系统快捷键。",
+    "example": "例子：Cmd+C 在 Mac 上执行复制操作。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 86
+  },
+  {
+    "word": "Option",
+    "ipa": "ˈɒpʃən",
+    "translit": "",
+    "zh": "选项键",
+    "def": "Mac 键盘上的修饰键，对应 Windows 键盘的 Alt 键。",
+    "example": "例子：Option+Command+Esc 可强制退出应用程序。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 87
+  },
+  {
+    "word": "Reset",
+    "ipa": "ˌriːˈset",
+    "translit": "",
+    "zh": "重置",
+    "def": "将设备或设置恢复到默认状态的操作。",
+    "example": "例子：点击\"重置\"按钮可将所有按键映射恢复为出厂默认值。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 88
+  },
+  {
+    "word": "Configuration",
+    "ipa": "kənˌfɪɡjəˈreɪʃən",
+    "translit": "",
+    "zh": "配置",
+    "def": "对设备各项参数进行设定和保存的方案。",
+    "example": "例子：可为不同游戏分别创建独立的按键配置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 89
+  },
+  {
+    "word": "Firmware",
+    "ipa": "ˈfɜːrmwer",
+    "translit": "",
+    "zh": "固件",
+    "def": "嵌入在硬件设备中的软件程序，控制设备的基本功能和操作。",
+    "example": "例子：通过接收器更新来升级鼠标接收器的固件版本。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 90
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -624,7 +998,7 @@ window.WORDS = [
     "example": "听觉例子：拉丁或流行节奏里持续铺底的“沙沙沙”声，像细盐粒在木质或金属壳内跳动，给律动增加推动感。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 57
+    "id": 91
   },
   {
     "word": "Conga",
@@ -635,7 +1009,7 @@ window.WORDS = [
     "example": "听觉例子：拉丁音乐中“咚—哒—啪”的节奏，低沉圆润的开放音配合清脆的掌击，既有身体感又有穿透力。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 58
+    "id": 92
   },
   {
     "word": "Percussion",
@@ -646,7 +1020,7 @@ window.WORDS = [
     "example": "比如一首歌里那些“咚次哒次”的节奏部分，不负责旋律，但撑起整首歌的节奏感。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 59
+    "id": 93
   },
   {
     "word": "Grooves",
@@ -657,7 +1031,7 @@ window.WORDS = [
     "example": "同样四个鼓点，有的听起来死板像节拍器，有的听起来让人忍不住点头抖腿——后者就是好律动。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 60
+    "id": 94
   },
   {
     "word": "Bongos",
@@ -668,7 +1042,7 @@ window.WORDS = [
     "example": "听起来像“啪啪-咚咚”的清脆小鼓点，音头明亮，像雨点打在木桌上。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 61
+    "id": 95
   },
   {
     "word": "Woodblock",
@@ -679,7 +1053,7 @@ window.WORDS = [
     "example": "听起来像“哒”的一声，干脆利落，像筷子敲在空心木头上。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 62
+    "id": 96
   },
   {
     "word": "Djembe",
@@ -690,7 +1064,7 @@ window.WORDS = [
     "example": "低音像“咚”的胸腔共鸣，高音像“啪”的清脆拍击，一面鼓能打出好几种声音。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 63
+    "id": 97
   },
   {
     "word": "Tambourine",
@@ -701,7 +1075,7 @@ window.WORDS = [
     "example": "听起来像“铃铃铃”的金属碰撞声，明亮清脆，像一串小铃铛在节奏中闪烁。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 64
+    "id": 98
   },
   {
     "word": "Cowbells",
@@ -712,7 +1086,7 @@ window.WORDS = [
     "example": "听起来像“铛铛”的金属声，干硬而突出，像铁锤敲在铁砧上——你绝对忘不了这个声音。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 65
+    "id": 99
   },
   {
     "word": "Bells",
@@ -723,7 +1097,7 @@ window.WORDS = [
     "example": "听起来像“叮——”的一声，清亮悠远，像教堂钟声或风铃在空气中回荡。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 66
+    "id": 100
   },
   {
     "word": "Timbales",
@@ -734,7 +1108,7 @@ window.WORDS = [
     "example": "听起来像“叮啪-叮啪”的金属鼓声，比康加鼓更亮更脆，像铁皮鼓边被快速敲击。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 67
+    "id": 101
   },
   {
     "word": "Keys",
@@ -745,7 +1119,7 @@ window.WORDS = [
     "example": "听觉例子：一首流行歌里铺在背景中那种\"弹出来的和声垫\"，不抢人声但撑起整首歌的骨架。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 68
+    "id": 102
   },
   {
     "word": "Piano",
@@ -756,7 +1130,7 @@ window.WORDS = [
     "example": "听觉例子：经典情歌前奏中那种颗粒感清晰、余音自然衰减的\"叮咚\"声。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 69
+    "id": 103
   },
   {
     "word": "Wurlitzer",
@@ -767,7 +1141,7 @@ window.WORDS = [
     "example": "听觉例子：像是一颗颗带电的糖果砸在耳朵上，温暖中带一点\"嗡嗡\"的毛刺感。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 70
+    "id": 104
   },
   {
     "word": "Electric Piano",
@@ -778,7 +1152,7 @@ window.WORDS = [
     "example": "听觉例子：那种带一点\"叮\"的金属光泽、尾音微微颤动的温暖键盘声，像 Stevie Wonder 的经典音色。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 71
+    "id": 105
   },
   {
     "word": "Organ",
@@ -789,7 +1163,7 @@ window.WORDS = [
     "example": "听觉例子：持续饱满的\"嗡嗡\"声墙，打开 Leslie 后声音像在空间中旋转，忽远忽近。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 72
+    "id": 106
   },
   {
     "word": "Clavinet",
@@ -800,7 +1174,7 @@ window.WORDS = [
     "example": "听觉例子：像用拨片弹吉他一样\"咔咔\"作响的短促音符，节奏感极强，自带放克基因。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 73
+    "id": 107
   },
   {
     "word": "Keys Melody",
@@ -811,7 +1185,7 @@ window.WORDS = [
     "example": "听觉例子：人声间隙中键盘\"唱\"出来的那条清晰旋律线，像在和歌手对话。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 74
+    "id": 108
   },
   {
     "word": "Classical",
@@ -822,7 +1196,7 @@ window.WORDS = [
     "example": "听觉例子：弦乐四重奏或独奏钢琴那种无电子处理、自然空间混响的纯净音响。",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 75
+    "id": 109
   },
   {
     "word": "Female Vocals",
@@ -833,7 +1207,7 @@ window.WORDS = [
     "example": "听觉例子：流行歌曲主歌中清亮、柔和的女声，带有自然的呼吸感和温暖的中频。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 76
+    "id": 110
   },
   {
     "word": "Vocal FX",
@@ -844,7 +1218,7 @@ window.WORDS = [
     "example": "听觉例子：人声突然被拉远、带上巨大的教堂混响，或变成电话般的窄频带失真效果。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 77
+    "id": 111
   },
   {
     "word": "Vocoder",
@@ -855,7 +1229,7 @@ window.WORDS = [
     "example": "听觉例子：Daft Punk 歌曲中那种金属感、合成器在\"说话\"的人声效果。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 78
+    "id": 112
   },
   {
     "word": "Screams",
@@ -866,7 +1240,7 @@ window.WORDS = [
     "example": "听觉例子：金属核副歌前那种撕裂般的高频尖啸，带有强烈的攻击性和压迫感。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 79
+    "id": 113
   },
   {
     "word": "Whisper Vocals",
@@ -877,7 +1251,7 @@ window.WORDS = [
     "example": "听觉例子：Billie Eilish 歌曲中贴近耳朵、几乎只有气流声的轻柔呢喃。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 80
+    "id": 114
   },
   {
     "word": "Male Vocals",
@@ -888,7 +1262,7 @@ window.WORDS = [
     "example": "听觉例子：流行或摇滚歌曲中厚实、有力的男声主唱，胸腔共鸣明显。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 81
+    "id": 115
   },
   {
     "word": "Spoken Word",
@@ -899,7 +1273,7 @@ window.WORDS = [
     "example": "听觉例子：歌曲中间一段平静的独白，像在耳边讲故事一样自然。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 82
+    "id": 116
   },
   {
     "word": "Vocal Phrases",
@@ -910,7 +1284,7 @@ window.WORDS = [
     "example": "听觉例子：House 音乐中反复出现的短促\"嘿！\"或\"哦耶\"人声切片。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 83
+    "id": 117
   },
   {
     "word": "Vocal Shouts",
@@ -921,7 +1295,7 @@ window.WORDS = [
     "example": "听觉例子：副歌前一声\"Go!\"或\"Hey!\"，像拳头一样砸在节奏重拍上。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 84
+    "id": 118
   },
   {
     "word": "Dialogue",
@@ -932,6 +1306,6 @@ window.WORDS = [
     "example": "听觉例子：电影场景中两人对话清晰突出，背景音乐自动\"让路\"降低音量。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 85
+    "id": 119
   }
 ];
