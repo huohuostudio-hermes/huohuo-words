@@ -1001,6 +1001,215 @@ window.WORDS = [
     "id": 91
   },
   {
+    "word": "Classic",
+    "ipa": "",
+    "translit": "",
+    "zh": "经典的",
+    "def": "指经过时间考验、被广泛认可为标杆或典范的事物，常用于描述风格、作品或乐器类型。",
+    "example": "例子：一台 Classic 钢琴音色通常指音色温暖、均衡、适合多种音乐风格的钢琴。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 92
+  },
+  {
+    "word": "Sixties",
+    "ipa": "",
+    "translit": "",
+    "zh": "六十年代",
+    "def": "指 1960 年至 1969 年这段时期，在音乐语境中常特指 1960 年代的流行、摇滚、灵魂乐等风格。",
+    "example": "例子：Sixties 风格的鼓组音色通常带有复古的磁带饱和感和较窄的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 93
+  },
+  {
+    "word": "Rock",
+    "ipa": "",
+    "translit": "",
+    "zh": "摇滚",
+    "def": "一种起源于 1950 年代中期的流行音乐类型，以强烈的节奏、电吉他、贝斯和鼓为核心，强调能量与表现力。",
+    "example": "例子：Rock 鼓组通常强调底鼓和军鼓的冲击力，适合高能量编曲。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 94
+  },
+  {
+    "word": "Session",
+    "ipa": "",
+    "translit": "",
+    "zh": "录音棚乐手 / 录音时段",
+    "def": "在音乐行业中，可指一次录音工作时段，也可指专门为录音或演出临时雇佣的职业乐手（session musician）。",
+    "example": "例子：一位 session 鼓手可能在一天内为三首不同歌手的歌曲录制鼓轨。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 95
+  },
+  {
+    "word": "Modern",
+    "ipa": "",
+    "translit": "",
+    "zh": "现代的",
+    "def": "指当代的、当前时期的风格或技术，在音色描述中通常意味着干净、精致、经过精细处理的声音。",
+    "example": "例子：Modern 钢琴音色通常高频清晰、低频紧实，适合流行和电子音乐制作。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 96
+  },
+  {
+    "word": "American Upright",
+    "ipa": "",
+    "translit": "",
+    "zh": "美式立式钢琴",
+    "def": "指美国制造的立式钢琴（upright piano），通常具有温暖、饱满、略带木质感的音色特征。",
+    "example": "例子：American Upright 音色常用于爵士、民谣和复古流行音乐中，营造亲切自然的键盘质感。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 97
+  },
+  {
+    "word": "Neck Volume",
+    "ipa": "",
+    "translit": "",
+    "zh": "琴颈拾音器音量",
+    "def": "控制吉他琴颈位置拾音器输出信号大小的旋钮或参数，影响该拾音器在整体混音中的响度。",
+    "example": "例子：在吉他音箱模拟插件中，将 Neck Volume 调低，使琴颈拾音器的声音更柔和、靠后。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 98
+  },
+  {
+    "word": "Bridge Volume",
+    "ipa": "",
+    "translit": "",
+    "zh": "琴桥拾音器音量",
+    "def": "控制吉他琴桥位置拾音器输出信号大小的旋钮或参数，决定该拾音器在整体声音中的响度。",
+    "example": "例子：将 Bridge Volume 调高，让琴桥拾音器的明亮音色在混音中更突出。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 99
+  },
+  {
+    "word": "Neck Tone",
+    "ipa": "",
+    "translit": "",
+    "zh": "琴颈拾音器音色",
+    "def": "调节吉他琴颈拾音器高频衰减程度的控制，影响该拾音器音色的明暗与温暖度。",
+    "example": "例子：将 Neck Tone 调低，琴颈拾音器的声音变得更暗、更温暖，适合爵士风格。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 100
+  },
+  {
+    "word": "Bridge Tone",
+    "ipa": "",
+    "translit": "",
+    "zh": "琴桥拾音器音色",
+    "def": "调节吉他琴桥拾音器高频衰减程度的控制，影响该拾音器音色的明亮度与穿透力。",
+    "example": "例子：将 Bridge Tone 调高，琴桥拾音器发出更明亮、更具穿透力的声音，适合摇滚主音。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 101
+  },
+  {
+    "word": "Main Volume",
+    "ipa": "",
+    "translit": "",
+    "zh": "主音量",
+    "def": "控制整体输出信号总电平的旋钮或参数，影响所有信号混合后的最终响度。",
+    "example": "例子：在吉他上，Main Volume 旋钮同时控制所有拾音器的总输出音量。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 102
+  },
+  {
+    "word": "Playing Style",
+    "ipa": "",
+    "translit": "",
+    "zh": "演奏风格",
+    "def": "指演奏者在节奏处理、音色控制、力度变化和乐句表达上的个人习惯与特征。",
+    "example": "例子：同一位吉他手用拨片靠近琴桥演奏时音色更尖锐，靠近琴颈时更温暖，这属于不同的演奏风格。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 103
+  },
+  {
+    "word": "Mute",
+    "ipa": "mjuːt",
+    "translit": "",
+    "zh": "闷音 / 弱音",
+    "def": "指通过物理方式抑制乐器振动，使声音变短、变弱或改变音色。",
+    "example": "例子：吉他手用手掌轻压琴弦后拨弦，产生短促的“闷音”效果。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 104
+  },
+  {
+    "word": "Definition",
+    "ipa": "",
+    "translit": "",
+    "zh": "定义",
+    "def": "指对某个术语、概念或现象作出的明确解释与界定。",
+    "example": "例子：在音乐制作中，“Mute”的定义是使某条音轨暂时不输出声音。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 105
+  },
+  {
+    "word": "Details",
+    "ipa": "ˈdiːteɪlz",
+    "translit": "",
+    "zh": "细节",
+    "def": "指音乐作品中细微的音响元素或编曲层次，如细微的乐器装饰音、混响尾音、背景氛围声等。",
+    "example": "例子：在一段人声录音中，歌手换气时的轻微呼吸声、手指滑过吉他琴弦的摩擦声都属于细节。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 106
+  },
+  {
+    "word": "Scrapes",
+    "ipa": "skreɪps",
+    "translit": "",
+    "zh": "刮擦声",
+    "def": "由物体表面摩擦产生的短促或不规则噪音，常见于弦乐换把、吉他滑弦或打击乐摩擦演奏中。",
+    "example": "例子：吉他手手指沿琴弦滑动时产生的粗糙摩擦声。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 107
+  },
+  {
+    "word": "String Noise",
+    "ipa": "strɪŋ nɔɪz",
+    "translit": "",
+    "zh": "弦噪",
+    "def": "弦乐器演奏时因手指按弦、换把或滑弦产生的非乐音杂音，通常集中在中高频段。",
+    "example": "例子：小提琴换把时弓毛与琴弦摩擦产生的细微\"吱\"声。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 108
+  },
+  {
+    "word": "Hum & Hiss",
+    "ipa": "hʌm ænd hɪs",
+    "translit": "",
+    "zh": "交流声与嘶声",
+    "def": "Hum 指电源或接地问题引起的低频嗡嗡声，Hiss 指电子设备产生的高频持续嘶嘶声，两者是录音中常见的底噪类型。",
+    "example": "例子：音频接口增益过高时，耳机中听到的\"嗡——\"和\"嘶——\"叠加底噪。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 109
+  },
+  {
+    "word": "Release Noise",
+    "ipa": "rɪˈliːs nɔɪz",
+    "translit": "",
+    "zh": "释放噪音",
+    "def": "乐器或发声体在停止激励瞬间产生的短暂噪音，如按键松开、琴弦离指或风箱释放时的声音。",
+    "example": "例子：钢琴踏板松开时制音器落回琴弦产生的轻微\"嗒\"声。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 110
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -1009,7 +1218,7 @@ window.WORDS = [
     "example": "听觉例子：拉丁或流行节奏里持续铺底的“沙沙沙”声，像细盐粒在木质或金属壳内跳动，给律动增加推动感。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 92
+    "id": 111
   },
   {
     "word": "Conga",
@@ -1020,7 +1229,7 @@ window.WORDS = [
     "example": "听觉例子：拉丁音乐中“咚—哒—啪”的节奏，低沉圆润的开放音配合清脆的掌击，既有身体感又有穿透力。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 93
+    "id": 112
   },
   {
     "word": "Percussion",
@@ -1031,7 +1240,7 @@ window.WORDS = [
     "example": "比如一首歌里那些“咚次哒次”的节奏部分，不负责旋律，但撑起整首歌的节奏感。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 94
+    "id": 113
   },
   {
     "word": "Grooves",
@@ -1042,7 +1251,7 @@ window.WORDS = [
     "example": "同样四个鼓点，有的听起来死板像节拍器，有的听起来让人忍不住点头抖腿——后者就是好律动。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 95
+    "id": 114
   },
   {
     "word": "Bongos",
@@ -1053,7 +1262,7 @@ window.WORDS = [
     "example": "听起来像“啪啪-咚咚”的清脆小鼓点，音头明亮，像雨点打在木桌上。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 96
+    "id": 115
   },
   {
     "word": "Woodblock",
@@ -1064,7 +1273,7 @@ window.WORDS = [
     "example": "听起来像“哒”的一声，干脆利落，像筷子敲在空心木头上。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 97
+    "id": 116
   },
   {
     "word": "Djembe",
@@ -1075,7 +1284,7 @@ window.WORDS = [
     "example": "低音像“咚”的胸腔共鸣，高音像“啪”的清脆拍击，一面鼓能打出好几种声音。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 98
+    "id": 117
   },
   {
     "word": "Tambourine",
@@ -1086,7 +1295,7 @@ window.WORDS = [
     "example": "听起来像“铃铃铃”的金属碰撞声，明亮清脆，像一串小铃铛在节奏中闪烁。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 99
+    "id": 118
   },
   {
     "word": "Cowbells",
@@ -1097,7 +1306,7 @@ window.WORDS = [
     "example": "听起来像“铛铛”的金属声，干硬而突出，像铁锤敲在铁砧上——你绝对忘不了这个声音。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 100
+    "id": 119
   },
   {
     "word": "Bells",
@@ -1108,7 +1317,7 @@ window.WORDS = [
     "example": "听起来像“叮——”的一声，清亮悠远，像教堂钟声或风铃在空气中回荡。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 101
+    "id": 120
   },
   {
     "word": "Timbales",
@@ -1119,7 +1328,7 @@ window.WORDS = [
     "example": "听起来像“叮啪-叮啪”的金属鼓声，比康加鼓更亮更脆，像铁皮鼓边被快速敲击。",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 102
+    "id": 121
   },
   {
     "word": "Keys",
@@ -1130,7 +1339,7 @@ window.WORDS = [
     "example": "听觉例子：一首流行歌里铺在背景中那种\"弹出来的和声垫\"，不抢人声但撑起整首歌的骨架。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 103
+    "id": 122
   },
   {
     "word": "Piano",
@@ -1141,7 +1350,7 @@ window.WORDS = [
     "example": "听觉例子：经典情歌前奏中那种颗粒感清晰、余音自然衰减的\"叮咚\"声。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 104
+    "id": 123
   },
   {
     "word": "Wurlitzer",
@@ -1152,7 +1361,7 @@ window.WORDS = [
     "example": "听觉例子：像是一颗颗带电的糖果砸在耳朵上，温暖中带一点\"嗡嗡\"的毛刺感。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 105
+    "id": 124
   },
   {
     "word": "Electric Piano",
@@ -1163,7 +1372,7 @@ window.WORDS = [
     "example": "听觉例子：那种带一点\"叮\"的金属光泽、尾音微微颤动的温暖键盘声，像 Stevie Wonder 的经典音色。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 106
+    "id": 125
   },
   {
     "word": "Organ",
@@ -1174,7 +1383,7 @@ window.WORDS = [
     "example": "听觉例子：持续饱满的\"嗡嗡\"声墙，打开 Leslie 后声音像在空间中旋转，忽远忽近。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 107
+    "id": 126
   },
   {
     "word": "Clavinet",
@@ -1185,7 +1394,7 @@ window.WORDS = [
     "example": "听觉例子：像用拨片弹吉他一样\"咔咔\"作响的短促音符，节奏感极强，自带放克基因。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 108
+    "id": 127
   },
   {
     "word": "Keys Melody",
@@ -1196,7 +1405,7 @@ window.WORDS = [
     "example": "听觉例子：人声间隙中键盘\"唱\"出来的那条清晰旋律线，像在和歌手对话。",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 109
+    "id": 128
   },
   {
     "word": "Classical",
@@ -1207,7 +1416,7 @@ window.WORDS = [
     "example": "听觉例子：弦乐四重奏或独奏钢琴那种无电子处理、自然空间混响的纯净音响。",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 110
+    "id": 129
   },
   {
     "word": "Female Vocals",
@@ -1218,7 +1427,7 @@ window.WORDS = [
     "example": "听觉例子：流行歌曲主歌中清亮、柔和的女声，带有自然的呼吸感和温暖的中频。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 111
+    "id": 130
   },
   {
     "word": "Vocal FX",
@@ -1229,7 +1438,7 @@ window.WORDS = [
     "example": "听觉例子：人声突然被拉远、带上巨大的教堂混响，或变成电话般的窄频带失真效果。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 112
+    "id": 131
   },
   {
     "word": "Vocoder",
@@ -1240,7 +1449,7 @@ window.WORDS = [
     "example": "听觉例子：Daft Punk 歌曲中那种金属感、合成器在\"说话\"的人声效果。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 113
+    "id": 132
   },
   {
     "word": "Screams",
@@ -1251,7 +1460,7 @@ window.WORDS = [
     "example": "听觉例子：金属核副歌前那种撕裂般的高频尖啸，带有强烈的攻击性和压迫感。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 114
+    "id": 133
   },
   {
     "word": "Whisper Vocals",
@@ -1262,7 +1471,7 @@ window.WORDS = [
     "example": "听觉例子：Billie Eilish 歌曲中贴近耳朵、几乎只有气流声的轻柔呢喃。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 115
+    "id": 134
   },
   {
     "word": "Male Vocals",
@@ -1273,7 +1482,7 @@ window.WORDS = [
     "example": "听觉例子：流行或摇滚歌曲中厚实、有力的男声主唱，胸腔共鸣明显。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 116
+    "id": 135
   },
   {
     "word": "Spoken Word",
@@ -1284,7 +1493,7 @@ window.WORDS = [
     "example": "听觉例子：歌曲中间一段平静的独白，像在耳边讲故事一样自然。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 117
+    "id": 136
   },
   {
     "word": "Vocal Phrases",
@@ -1295,7 +1504,7 @@ window.WORDS = [
     "example": "听觉例子：House 音乐中反复出现的短促\"嘿！\"或\"哦耶\"人声切片。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 118
+    "id": 137
   },
   {
     "word": "Vocal Shouts",
@@ -1306,7 +1515,7 @@ window.WORDS = [
     "example": "听觉例子：副歌前一声\"Go!\"或\"Hey!\"，像拳头一样砸在节奏重拍上。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 119
+    "id": 138
   },
   {
     "word": "Dialogue",
@@ -1317,6 +1526,6 @@ window.WORDS = [
     "example": "听觉例子：电影场景中两人对话清晰突出，背景音乐自动\"让路\"降低音量。",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 120
+    "id": 139
   }
 ];
