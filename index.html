@@ -208,6 +208,8 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .gcaption .cap-w{font-weight:800;color:var(--text)}
 .gcaption .cap-z{flex:1;color:var(--muted);font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .gcaption .cap-d{flex:0 0 auto;background:var(--accent);border:none;color:#fff;border-radius:8px;padding:5px 10px;font-size:12px;font-weight:700;cursor:pointer}
+.tagsec{margin-top:14px;border-top:1px solid var(--border);padding-top:12px}
+.tagsec .chips{flex-wrap:wrap;overflow-x:visible;padding-bottom:0;margin-bottom:0}
 
 /* ===== 滑动删除 / 拖拽 ===== */
 .witem-wrap{position:relative;overflow:hidden;border-radius:14px}
@@ -309,6 +311,7 @@ let gCache={key:null,words:null,edges:null,sph:null};
 let gpointers=new Map();
 let gDrag=null;
 let gPinch=null;
+let gRaf=null;
 const GF=3.2;
 const GRAPH_STOP=new Set("的了一是在中与和或及等为不有又都而其对这那之无高上下来去个种次用把被让向从里很更就也并或已地得么呢吧啊".split(""));
 const GRAPH_TSTOP=new Set(("the and for with that this from into when sound music audio used using which produce produces often also more than very like type types wave noise play played playing synth synthesizer drum drums make makes made one two can use via its are was has have not but you your all or in on of to a an as at by it be will would could should may might then them they their").split(" "));
@@ -448,6 +451,7 @@ function renderGraph(){
     gCtx.strokeStyle="rgba(124,108,255,"+(0.08+0.30*d).toFixed(3)+")";
     gCtx.beginPath();gCtx.moveTo(a.sx,a.sy);gCtx.lineTo(b.sx,b.sy);gCtx.stroke();
   }
+  const reveal=labelReveal(gWords.length, gK);
   const order=gWords.map((_,i)=>i).sort((a,b)=>P[a].depth-P[b].depth);
   for(const i of order){
     const w=gWords[i], p=P[i];
@@ -463,15 +467,29 @@ function renderGraph(){
       gCtx.strokeStyle="#fff";gCtx.lineWidth=2;
       gCtx.beginPath();gCtx.arc(p.sx,p.sy,r+4,0,Math.PI*2);gCtx.stroke();
     }
-    const fs=Math.max(9,Math.min(16,13*p.factor));
-    gCtx.font="600 "+fs.toFixed(1)+'px -apple-system,"PingFang SC",sans-serif';
-    gCtx.textAlign="center";gCtx.textBaseline="top";
-    gCtx.fillStyle=col;
-    gCtx.fillText(w.word, p.sx, p.sy+r+3);
+    const la = sel ? 1 : reveal*Math.max(0, Math.min(1, (p.depth-0.28)/0.5));
+    if(la>0.03){
+      const fs=Math.max(9,Math.min(16,13*p.factor));
+      gCtx.globalAlpha=Math.min(1, la);
+      gCtx.font="600 "+fs.toFixed(1)+'px -apple-system,"PingFang SC",sans-serif';
+      gCtx.textAlign="center";gCtx.textBaseline="top";
+      gCtx.fillStyle=col;
+      gCtx.fillText(w.word, p.sx, p.sy+r+3);
+    }
     gCtx.globalAlpha=1;
   }
 }
 function initGraph(){sizeCanvas();buildSphere(false);renderGraph();}
+function labelReveal(nWords, k){
+  if(nWords<=30)return 1;
+  return Math.max(0, Math.min(1, (k-1.1)/1.3));
+}
+function requestRender(){
+  if(typeof requestAnimationFrame==="function"){
+    if(gRaf)return;
+    gRaf=requestAnimationFrame(()=>{gRaf=null;renderGraph();});
+  }else{renderGraph();}
+}
 function hitTest(x,y){
   if(!gProj||!gWords)return null;
   const order=gWords.map((_,i)=>i).sort((a,b)=>gProj[b].depth-gProj[a].depth);
@@ -525,7 +543,7 @@ function graphCardInner(){
       <button class="fsbtn" id="fsBtn" onclick="toggleFullscreen()">${gFullscreen?"✕ 退出全屏":"⛶ 全屏"}</button>
     </div>
     <div class="chips">${chips}</div>
-    <div class="graphwrap"><div class="ghint">${words.length} 词 · 拖动旋转 · 双指缩放 · 点词设锚点</div><canvas id="graphcanvas" onpointerdown="gDown(event)"></canvas><div class="gcaption" id="gcaption"></div></div>`;
+    <div class="graphwrap"><div class="ghint">${words.length} 词 · 拖动旋转 · 双指缩放 · 放大看词</div><canvas id="graphcanvas" onpointerdown="gDown(event)"></canvas><div class="gcaption" id="gcaption"></div></div>`;
 }
 function setChainCat(c){chainCat=c;gK=1;const el=$("#graphCard");if(el)el.innerHTML=graphCardInner();scheduleGraph();}
 function scheduleGraph(){setTimeout(initGraph,0);}
@@ -564,12 +582,12 @@ function gMove(e){
       gRot=matMul(rotAxisAngle({x:ax.x/al,y:ax.y/al,z:ax.z/al},ang),gRot);
       gDrag.v0=v1;
     }
-    renderGraph();
+    requestRender();
   }else if(gpointers.size===2&&gPinch){
     const p=[...gpointers.values()];
     const d=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);
     gK=Math.min(3,Math.max(0.5,gPinch.k0*d/gPinch.d0));
-    renderGraph();
+    requestRender();
   }
 }
 function gUp(e){
@@ -1093,6 +1111,7 @@ function openDetail(word, back){
   const stTxt={new:"未学习",learning:"学习中",mastered:"已掌握"}[cardState(w)];
   const learnedOn=c&&c.learnedOn?c.learnedOn:"—";
   const masteredOn=c&&c.masteredOn?c.masteredOn:"—";
+  const tags=CATS.filter(x=>x!=="全部").map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="reTag('${esc(w.word)}','${x}','${backFn}')">${x}</div>`).join("");
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="${backFn}()">← 返回</button>
@@ -1106,8 +1125,23 @@ function openDetail(word, back){
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
       <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(catOf(w))} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
+      <div class="tagsec">
+        <div class="k" style="color:var(--muted);font-size:12px;margin-bottom:8px">🏷️ 标签 · 点按改分类</div>
+        <div class="chips">${tags}</div>
+      </div>
+    </div>
+    <div class="group-actions">
+      <button class="btn primary" onclick="learnThis('${esc(w.word)}')">📖 学习</button>
+      <button class="btn" onclick="reviewThis('${esc(w.word)}')">🔁 复习</button>
     </div>`;
 }
+function reTag(word, cat, back){
+  const w=WORDS.find(x=>x.word===word); if(!w)return;
+  if(catOf(w)===cat) resetWordCat(word); else setWordCat(word, cat);
+  openDetail(word, back);
+}
+function learnThis(word){ const w=WORDS.find(x=>x.word===word); if(w) beginSessionOn([w],"learn"); }
+function reviewThis(word){ const w=WORDS.find(x=>x.word===word); if(w) beginSessionOn([w],"review"); }
 
 /* ---------- 分组查看（已学习 / 已掌握） ---------- */
 let curGroupKind=null;

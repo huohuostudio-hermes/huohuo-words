@@ -179,6 +179,9 @@ buildSphere(true);
 focusWord(gwords[0].word);
 const fw=matVec(gRot,gSph[0]);
 ok(fw.z>0.999, "focusWord 后选中词移到正面(+z)");
+ok(labelReveal(144,1)===0, "密集(全部)最小缩放不显示标签");
+ok(labelReveal(144,2.5)===1, "密集放大到2.5显示标签");
+ok(labelReveal(14,1)===1, "稀疏(小分类)始终显示标签");
 
 // 16. 隐藏/恢复
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
@@ -194,6 +197,13 @@ setWordCat(WORDS[0].word,"键盘");
 ok(catOf(WORDS[0])==="键盘", "移标签后 catOf=键盘");
 resetWordCat(WORDS[0].word);
 ok(catOf(WORDS[0])===WORDS[0].category, "重置标签恢复原分类");
+reTag(WORDS[0].word,"吉他","renderList");
+ok(catOf(WORDS[0])==="吉他", "详情页 reTag 改分类=吉他");
+resetWordCat(WORDS[0].word);
+learnThis(WORDS[0].word);
+ok(session.mcqQueue.length===1, "learnThis 进学习队列1词");
+reviewThis(WORDS[1].word);
+ok(session.spellQueue.length===1, "reviewThis 进复习队列1词");
 
 // 18. 删除后列表渲染
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
