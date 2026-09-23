@@ -200,7 +200,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
   color:var(--text);font-size:14px;font-weight:700;cursor:pointer;line-height:1;display:grid;place-items:center}
 .zoombtns button:active{opacity:.7}
 .graphwrap{position:relative;overflow:hidden;border-radius:16px;background:radial-gradient(700px 400px at 50% 42%, rgba(124,108,255,.10), transparent 72%)}
-.graphwrap svg{display:block;width:100%;height:auto}
+.graphwrap svg{display:block;width:100%;height:auto;touch-action:none}
 .gedge{stroke:rgba(124,108,255,.30);stroke-width:1;pointer-events:none}
 .gnode{cursor:pointer}
 .gnode .gdot{fill:#3a4066;stroke:rgba(255,255,255,.25);stroke-width:1.2}
@@ -216,7 +216,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 
 /* ===== 滑动删除 / 拖拽 ===== */
 .witem-wrap{position:relative;overflow:hidden;border-radius:14px}
-.witem-del{position:absolute;left:0;top:0;bottom:0;width:82px;background:linear-gradient(135deg,#f87171,#ef4444);
+.witem-del{position:absolute;right:0;top:0;bottom:0;width:82px;background:linear-gradient(135deg,#f87171,#ef4444);
   color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;cursor:pointer}
 .witem-wrap .worditem{position:relative;z-index:1;background:var(--card);transition:transform .16s ease;touch-action:pan-y}
 .witem-wrap .worditem.swiping{transition:none}
@@ -227,6 +227,15 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .dropchip.on{outline:2px solid var(--good);outline-offset:2px}
 .ghost{position:fixed;z-index:199;pointer-events:none;background:var(--accent);color:#fff;font-weight:700;
   padding:10px 16px;border-radius:12px;font-size:15px;box-shadow:0 8px 24px rgba(0,0,0,.5);transform:translate(-50%,-120%)}
+.drag-handle{flex:0 0 auto;width:32px;height:32px;display:grid;place-items:center;color:var(--faint);
+  cursor:grab;touch-action:none;font-size:16px;border-radius:8px;margin-left:4px}
+.drag-handle:active{color:var(--accent2);background:rgba(124,108,255,.12)}
+.fsbtn{display:flex;align-items:center;gap:4px;background:var(--card);border:1px solid var(--border);
+  color:var(--text);padding:7px 12px;border-radius:999px;font-size:12px;font-weight:700;cursor:pointer}
+.fsbtn:active{opacity:.7}
+.graphcard.fullscreen{position:fixed;inset:0;z-index:300;margin:0;border-radius:0;overflow-y:auto;
+  background:var(--bg);padding:calc(12px + env(safe-area-inset-top)) 16px calc(16px + env(safe-area-inset-bottom));
+  box-shadow:none;border:0}
 </style>
 </head>
 <body>
@@ -286,7 +295,10 @@ function resetWordCat(word){
 
 /* ---------- 词网（关系图） ---------- */
 let chainCat="全部";
-let gstate={k:1};
+let gstate={tx:0,ty:0,k:1};
+let gpointers=new Map();
+let gpan=null;
+let gpinch=null;
 let gSize=600;
 const GRAPH_STOP=new Set("的了一是在中与和或及等为不有又都而其对这那之无高上下来去个种次用把被让向从里很更就也并或已地得么呢吧啊".split(""));
 const GRAPH_TSTOP=new Set(("the and for with that this from into when sound music audio used using which produce produces often also more than very like type types wave noise play played playing synth synthesizer drum drums make makes made one two can use via its are was has have not but you your all or in on of to a an as at by it be will would could should may might then them they their").split(" "));
@@ -385,7 +397,7 @@ function graphSVG(words){
     const w=words[i], st=cardState(w), hc=(i===hub)?" hub":"";
     nd+=`<g class="gnode ${st}${hc}" transform="translate(${L.pos[i].x.toFixed(1)},${L.pos[i].y.toFixed(1)})" onclick="openDetail('${esc(w.word)}','renderMenu')"><circle r="22" fill="transparent"/><circle r="6" class="gdot"/><text y="19" class="glabel" font-size="${fs}">${esc(w.word)}</text></g>`;
   }
-  return {svg:`<svg viewBox="0 0 ${L.size} ${L.size}"><g id="gview">${e}${nd}</g></svg>`, size:L.size};
+  return {svg:`<svg viewBox="0 0 ${L.size} ${L.size}" id="graphsvg" onpointerdown="gDown(event)"><g id="gview">${e}${nd}</g></svg>`, size:L.size};
 }
 function graphCardInner(){
   const cats=CATS;
@@ -396,15 +408,71 @@ function graphCardInner(){
   else{const g=graphSVG(words);gSize=g.size;body=g.svg;}
   return `<div class="graphhead">
       <div class="t2">📊 词网</div>
-      <div class="zoombtns"><button onclick="gZoom(1.35)">＋</button><button onclick="gZoom(0.74)">－</button><button onclick="gReset()">⟲</button></div>
+      <button class="fsbtn" id="fsBtn" onclick="toggleFullscreen()">${gFullscreen?"✕ 退出全屏":"⛶ 全屏"}</button>
     </div>
     <div class="chips" style="margin-bottom:10px">${chips}</div>
-    <div class="graphwrap"><div class="ghint">${words.length} 词 · 点单词看释义</div>${body}</div>`;
+    <div class="graphwrap"><div class="ghint">${words.length} 词 · 拖动平移 · 双指缩放 · 点词看释义</div>${body}</div>`;
 }
-function setChainCat(c){chainCat=c;gstate={k:1};const el=$("#graphCard");if(el)el.innerHTML=graphCardInner();}
-function applyG(){const v=document.querySelector("#gview");if(!v)return;const cc=gSize/2;v.setAttribute("transform",`translate(${cc} ${cc}) scale(${gstate.k}) translate(${-cc} ${-cc})`);}
-function gZoom(f){gstate.k=Math.min(3,Math.max(0.4,gstate.k*f));applyG();}
-function gReset(){gstate.k=1;applyG();}
+function setChainCat(c){chainCat=c;gstate={tx:0,ty:0,k:1};const el=$("#graphCard");if(el)el.innerHTML=graphCardInner();}
+function gSvgRect(){const svg=document.querySelector("#graphsvg");return svg?svg.getBoundingClientRect():null;}
+function screenToViewbox(cx,cy){
+  const r=gSvgRect();if(!r)return{x:0,y:0};
+  const s=r.width/gSize;
+  return {x:((cx-r.left)/s-gstate.tx)/gstate.k, y:((cy-r.top)/s-gstate.ty)/gstate.k};
+}
+function applyG(){const v=document.querySelector("#gview");if(!v)return;v.setAttribute("transform",`translate(${gstate.tx} ${gstate.ty}) scale(${gstate.k})`);}
+function gDown(e){
+  gpointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(gpointers.size===1){
+    const a=screenToViewbox(e.clientX,e.clientY);
+    gpan={ax:a.x,ay:a.y};gpinch=null;
+  }else if(gpointers.size===2){
+    const p=[...gpointers.values()];
+    const mx=(p[0].x+p[1].x)/2,my=(p[0].y+p[1].y)/2;
+    const a=screenToViewbox(mx,my);
+    gpinch={ax:a.x,ay:a.y,k:gstate.k,d:Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y)};
+    gpan=null;
+  }
+}
+function gMove(e){
+  if(!gpointers.has(e.pointerId))return;
+  gpointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  const r=gSvgRect();if(!r)return;
+  const s=r.width/gSize;
+  if(gpointers.size===1&&gpan){
+    suppressClickUntil=Date.now()+500;
+    const lx=(e.clientX-r.left)/s,ly=(e.clientY-r.top)/s;
+    gstate.tx=lx-gstate.k*gpan.ax;
+    gstate.ty=ly-gstate.k*gpan.ay;
+    applyG();
+  }else if(gpointers.size===2&&gpinch){
+    suppressClickUntil=Date.now()+500;
+    const p=[...gpointers.values()];
+    const mx=(p[0].x+p[1].x)/2,my=(p[0].y+p[1].y)/2;
+    const d=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);
+    const nk=Math.min(4,Math.max(0.35,gpinch.k*d/gpinch.d));
+    const lx=(mx-r.left)/s,ly=(my-r.top)/s;
+    gstate.k=nk;
+    gstate.tx=lx-nk*gpinch.ax;
+    gstate.ty=ly-nk*gpinch.ay;
+    applyG();
+  }
+}
+function gUp(e){
+  gpointers.delete(e.pointerId);
+  if(gpointers.size<2)gpinch=null;
+  if(gpointers.size===0)gpan=null;
+}
+let gFullscreen=false;
+function toggleFullscreen(){
+  gFullscreen=!gFullscreen;
+  const card=document.querySelector("#graphCard");
+  if(card)card.classList.toggle("fullscreen",gFullscreen);
+  const btn=document.querySelector("#fsBtn");
+  if(btn)btn.textContent=gFullscreen?"✕ 退出全屏":"⛶ 全屏";
+  gstate={tx:0,ty:0,k:1};
+  applyG();
+}
 
 /* ---------- 单词本：滑动删除 / 拖拽移标签 ---------- */
 let openSwipeWord=null;
@@ -416,35 +484,29 @@ function itemDown(e,word){
   if(e.pointerType==="mouse"&&e.button!==0)return;
   const el=e.currentTarget;
   if(el.setPointerCapture){try{el.setPointerCapture(e.pointerId);}catch(_){}}
-  itemState={word,el,sx:e.clientX,sy:e.clientY,mode:null,base:(openSwipeWord===word?82:0),
-    lp:setTimeout(()=>{if(itemState&&itemState.word===word){itemState.mode="drag";startItemDrag(e,word,el);}},400)};
+  itemState={word,el,sx:e.clientX,sy:e.clientY,mode:null,base:(openSwipeWord===word?-82:0)};
 }
 function itemMove(e,word){
   const s=itemState;if(!s||s.word!==word)return;
   const dx=e.clientX-s.sx,dy=e.clientY-s.sy;
   if(s.mode===null){
     if(Math.hypot(dx,dy)<8)return;
-    clearTimeout(s.lp);
     if(Math.abs(dx)>Math.abs(dy)){s.mode="swipe";s.el.classList.add("swiping");}
     else{s.mode="scroll";if(s.el.releasePointerCapture){try{s.el.releasePointerCapture(e.pointerId);}catch(_){}}return;}
   }
   if(s.mode==="swipe"){
-    let off=s.base+dx;if(off<0)off=0;if(off>90)off=90;
+    let off=s.base+dx;if(off>0)off=0;if(off<-90)off=-90;
     s.el.style.transform="translateX("+off+"px)";
     if(e.cancelable)e.preventDefault();
-  }else if(s.mode==="drag"){moveItemDrag(e);}
+  }
 }
 function itemUp(e,word){
   const s=itemState;if(!s||s.word!==word)return;
-  clearTimeout(s.lp);
   if(s.el.classList)s.el.classList.remove("swiping");
   if(s.mode==="swipe"){
-    const dx=e.clientX-s.sx, willOpen=(s.base+dx)>45;
+    const dx=e.clientX-s.sx, willOpen=(s.base+dx)<-45;
     openSwipeWord=willOpen?word:null;
-    s.el.style.transform="translateX("+(willOpen?82:0)+"px)";
-    suppressClickUntil=Date.now()+400;
-  }else if(s.mode==="drag"){
-    endItemDrag(e,word);
+    s.el.style.transform="translateX("+(willOpen?-82:0)+"px)";
     suppressClickUntil=Date.now()+400;
   }
   itemState=null;
@@ -455,27 +517,36 @@ function confirmDelete(word){
     hideWord(word);openSwipeWord=null;renderList();
   }
 }
-function startItemDrag(e,word,el){
+function handleDown(e,word){
+  e.stopPropagation();
+  if(e.pointerType==="mouse"&&e.button!==0)return;
+  const el=e.currentTarget;
+  if(el.setPointerCapture){try{el.setPointerCapture(e.pointerId);}catch(_){}}
   dragState={word,el};
   ghostEl=document.createElement("div");ghostEl.className="ghost";ghostEl.textContent=word;
   document.body.appendChild(ghostEl);positionGhost(e.clientX,e.clientY);
-  el.classList.add("dragging");showDropBar();
+  const it=el.closest(".worditem");if(it)it.classList.add("dragging");
+  showDropBar();
+  suppressClickUntil=Date.now()+600;
 }
-function positionGhost(x,y){if(ghostEl){ghostEl.style.left=x+"px";ghostEl.style.top=y+"px";}}
-function moveItemDrag(e){positionGhost(e.clientX,e.clientY);highlightDropChip(e.clientX,e.clientY);}
-function endItemDrag(e,word){
+function handleMove(e){
+  if(!dragState)return;
+  positionGhost(e.clientX,e.clientY);
+  highlightDropChip(e.clientX,e.clientY);
+  if(e.cancelable)e.preventDefault();
+}
+function handleUp(e){
+  if(!dragState)return;
   const chip=dropChipAt(e.clientX,e.clientY);
   if(ghostEl&&ghostEl.parentNode)ghostEl.parentNode.removeChild(ghostEl);
   ghostEl=null;
-  if(dragState&&dragState.el)dragState.el.classList.remove("dragging");
+  const it=dragState.el.closest(".worditem");if(it)it.classList.remove("dragging");
   hideDropBar();
-  if(chip){
-    const w=WORDS.find(x=>x.word===word);
-    if(w&&chip!==catOf(w))setWordCat(word,chip);
-    renderList();
-  }
+  const word=dragState.word;
+  if(chip){const w=WORDS.find(x=>x.word===word);if(w&&chip!==catOf(w))setWordCat(word,chip);renderList();}
   dragState=null;
 }
+function positionGhost(x,y){if(ghostEl){ghostEl.style.left=x+"px";ghostEl.style.top=y+"px";}}
 function showDropBar(){
   let bar=document.getElementById("dropbar");
   if(!bar){bar=document.createElement("div");bar.id="dropbar";document.body.appendChild(bar);}
@@ -739,7 +810,7 @@ function renderSpell(){
     <div class="qphase">· 拼写复习 ·</div>
     <div class="qcard">
       <div class="qzh">${esc(w.zh)}</div>
-      <div class="qipa" style="color:var(--muted)">${esc(w.category||"")}</div>
+      <div class="qipa" style="color:var(--muted)">${esc(catOf(w)||"")}</div>
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="qhint">拼出这个单词的英文</div>
       <div class="spellbox">
@@ -876,7 +947,7 @@ function renderListItems(){
     const opened=openSwipeWord===w.word;
     return `<div class="witem-wrap">
       <div class="witem-del" onclick="confirmDelete('${esc(w.word)}')">删除</div>
-      <div class="worditem" style="transform:translateX(${opened?82:0}px)"
+      <div class="worditem" style="transform:translateX(${opened?-82:0}px)"
            onpointerdown="itemDown(event,'${esc(w.word)}')"
            onpointermove="itemMove(event,'${esc(w.word)}')"
            onpointerup="itemUp(event,'${esc(w.word)}')"
@@ -885,6 +956,12 @@ function renderListItems(){
         <span class="dot ${dot}"></span>
         <span class="w">${esc(w.word)}</span>
         <span class="z">${esc(w.zh)}</span>
+        <span class="drag-handle" title="拖到其他单词本"
+              onpointerdown="handleDown(event,'${esc(w.word)}')"
+              onpointermove="handleMove(event)"
+              onpointerup="handleUp(event)"
+              onpointercancel="handleUp(event)"
+              onclick="event.stopPropagation()">⠿</span>
       </div>
     </div>`;
   }).join("");
@@ -1104,6 +1181,11 @@ function switchTab(t){
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>switchTab(b.dataset.tab));
 
 /* ---------- 启动 ---------- */
+if(document.addEventListener){
+  document.addEventListener("pointermove",gMove);
+  document.addEventListener("pointerup",gUp);
+  document.addEventListener("pointercancel",gUp);
+}
 if("serviceWorker" in navigator && location.protocol.startsWith("http")){
   navigator.serviceWorker.register("sw.js").catch(()=>{});
 }
