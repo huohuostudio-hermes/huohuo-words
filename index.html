@@ -276,23 +276,26 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .deck-head{position:absolute;top:calc(14px + env(safe-area-inset-top));left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:0 20px}
 .deck-count{font-size:13px;color:var(--muted);font-weight:600}
 .deck-close{width:36px;height:36px;border-radius:50%;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:16px;cursor:pointer;display:grid;place-items:center}
-.deck-stage{position:relative;width:100%;max-width:340px;height:470px;perspective:1200px}
-.pcard{position:absolute;inset:0;cursor:pointer}
+.deck-stage{position:relative;width:100%;max-width:340px;height:470px;perspective:1200px;touch-action:none}
+.pcard{position:absolute;inset:0;cursor:pointer;touch-action:none}
 .pcard-inner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.1,.2,1)}
 .pcard.flipped .pcard-inner{transform:rotateX(180deg)}
 .pcard-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;border:1.5px solid var(--accent);background:linear-gradient(160deg,#0d0d0e,#080808);box-shadow:0 0 26px rgba(230,184,74,.3), inset 0 0 0 5px rgba(230,184,74,.05);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;padding:20px}
 .pcard-back{transform:rotateX(180deg)}
 @keyframes deckIn{from{transform:translateX(46px);opacity:0}to{transform:translateX(0);opacity:1}}
 .pcard.in{animation:deckIn .28s ease-out}
-.pc-word{font-size:40px;font-weight:800;color:var(--accent2);letter-spacing:1px;text-shadow:0 0 14px rgba(230,184,74,.5)}
-.pc-ipa{font-size:16px;color:var(--muted);margin-top:12px}
+.pc-word{position:relative;z-index:1;font-size:34px;font-weight:800;color:var(--accent2);letter-spacing:1px;text-shadow:0 0 14px rgba(230,184,74,.5)}
+.pc-ipa{position:relative;z-index:1;font-size:16px;color:var(--muted);margin-top:12px}
+.pc-corner{position:absolute;top:10px;left:12px;display:flex;align-items:center;gap:2px;font-size:13px;color:var(--accent2);font-weight:700;z-index:2}
+.pc-corner.br{top:auto;bottom:10px;left:auto;right:12px;transform:rotate(180deg)}
+.pc-suit{font-size:15px}
+.pc-suit-bg{position:absolute;inset:0;display:grid;place-items:center;font-size:118px;color:var(--accent2);opacity:.13;pointer-events:none;z-index:0}
 .pc-backword{font-size:26px;font-weight:800;color:var(--accent2);text-shadow:0 0 12px rgba(230,184,74,.4)}
 .pc-backipa{font-size:14px;color:var(--muted);margin-top:4px}
 .pc-zh{font-size:16px;color:var(--text);margin-top:10px;font-weight:600}
 .pc-def{font-size:12px;color:var(--muted);margin-top:8px;text-align:center;line-height:1.55;max-height:74px;overflow:hidden}
 .pc-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;justify-content:center}
 .pc-actions .btn{font-size:12px;padding:7px 12px}
-.deck-hint{position:absolute;bottom:calc(18px + env(safe-area-inset-bottom));color:var(--faint);font-size:12px;letter-spacing:1px}
 
 </style>
 </head>
@@ -331,7 +334,6 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
     <button class="deck-close" onclick="closeDeck()">✕</button>
   </div>
   <div class="deck-stage" id="deckStage"></div>
-  <div class="deck-hint">← 左右滑动切牌 · 点击卡片翻面 →</div>
 </div>
 
 <script src="words.js"></script>
@@ -1900,6 +1902,8 @@ function toggleLibrary(){
 let cardDeck=null;
 let deckTapTime=0;
 let deckDownX=0, deckDownY=0, deckSuppressClick=0;
+const DECK_SUITS=["♠","♥","♦","♣","👑","🃏"];
+function pickSuit(){ return DECK_SUITS[Math.floor(Math.random()*DECK_SUITS.length)]; }
 function onWordCountTap(){
   const now=Date.now();
   if(now-deckTapTime<400){ deckTapTime=0; openDeck(); }
@@ -1909,7 +1913,7 @@ function openDeck(){
   const pool=shuffle(allWords());
   const n=Math.min(5, pool.length);
   if(n===0){ alert("还没有单词"); return; }
-  cardDeck={words:pool.slice(0,n), idx:0, flipped:false};
+  cardDeck={cards:pool.slice(0,n).map(w=>({w:w, suit:pickSuit()})), idx:0, flipped:false};
   const el=$("#cardDeck"); if(el)el.style.display="flex";
   renderDeckCard(false);
 }
@@ -1919,11 +1923,20 @@ function closeDeck(){
 }
 function renderDeckCard(animate){
   if(!cardDeck)return;
-  const w=cardDeck.words[cardDeck.idx];
+  const c=cardDeck.cards[cardDeck.idx];
   const stage=$("#deckStage");
-  if(!stage||!w)return;
-  const front=`<div class="pcard-face pcard-front"><div class="pc-word">${esc(w.word)}</div><div class="pc-ipa">${w.ipa?esc(w.ipa):""}</div></div>`;
+  if(!stage||!c)return;
+  const w=c.w, suit=c.suit;
+  const front=`<div class="pcard-face pcard-front">
+      <div class="pc-corner tl">🔥<span class="pc-suit">${suit}</span></div>
+      <div class="pc-corner br">🔥<span class="pc-suit">${suit}</span></div>
+      <div class="pc-suit-bg">${suit}</div>
+      <div class="pc-word">${esc(w.word)}</div>
+      <div class="pc-ipa">${w.ipa?esc(w.ipa):""}</div>
+    </div>`;
   const back=`<div class="pcard-face pcard-back">
+      <div class="pc-corner tl">🔥<span class="pc-suit">${suit}</span></div>
+      <div class="pc-corner br">🔥<span class="pc-suit">${suit}</span></div>
       <div class="pc-backword">${esc(w.word)}</div>
       <div class="pc-backipa">${w.ipa?esc(w.ipa):""}</div>
       <div class="speakrow" style="margin:8px 0 4px"><button class="speak" onclick="event.stopPropagation();${speakArg(w)}">🔊</button></div>
@@ -1936,7 +1949,7 @@ function renderDeckCard(animate){
       </div>
     </div>`;
   stage.innerHTML=`<div class="pcard ${cardDeck.flipped?"flipped":""}${animate?" in":""}" onpointerdown="deckDown(event)" onpointerup="deckUp(event)" onclick="deckTap()"><div class="pcard-inner">${front}${back}</div></div>`;
-  const cnt=$("#deckCount"); if(cnt)cnt.textContent=(cardDeck.idx+1)+" / "+cardDeck.words.length;
+  const cnt=$("#deckCount"); if(cnt)cnt.textContent=(cardDeck.idx+1)+" / "+cardDeck.cards.length;
 }
 function deckTap(){
   if(Date.now()<deckSuppressClick)return;
@@ -1948,14 +1961,14 @@ function deckDown(e){ deckDownX=e.clientX; deckDownY=e.clientY; if(e.currentTarg
 function deckUp(e){
   if(!cardDeck)return;
   const dx=e.clientX-deckDownX, dy=e.clientY-deckDownY;
-  if(Math.abs(dx)>50 && Math.abs(dx)>Math.abs(dy)*1.4){
-    deckSuppressClick=Date.now()+300;
+  if(Math.abs(dx)>40 && Math.abs(dx)>Math.abs(dy)*1.3){
+    deckSuppressClick=Date.now()+350;
     deckGo(dx<0?1:-1);
   }
 }
 function deckGo(dir){
   if(!cardDeck)return;
-  const n=cardDeck.words.length;
+  const n=cardDeck.cards.length;
   cardDeck.idx=(cardDeck.idx+dir+n)%n;
   cardDeck.flipped=false;
   renderDeckCard(true);
@@ -1966,9 +1979,9 @@ function delWordDeck(word){
   if(!confirm("删除这个单词？删除后可在「设置 → 已删除」中恢复"))return;
   hideWord(word);
   if(!cardDeck)return;
-  cardDeck.words=cardDeck.words.filter(x=>x.word!==word);
-  if(cardDeck.words.length===0){ closeDeck(); return; }
-  if(cardDeck.idx>=cardDeck.words.length)cardDeck.idx=0;
+  cardDeck.cards=cardDeck.cards.filter(x=>x.w.word!==word);
+  if(cardDeck.cards.length===0){ closeDeck(); return; }
+  if(cardDeck.idx>=cardDeck.cards.length)cardDeck.idx=0;
   cardDeck.flipped=false;
   renderDeckCard(false);
 }
