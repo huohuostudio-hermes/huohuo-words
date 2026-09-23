@@ -1898,6 +1898,97 @@ window.WORDS = [
     "id": 146
   },
   {
+    "word": "Brass and Woodwinds",
+    "ipa": "",
+    "translit": "",
+    "zh": "铜管与木管乐器",
+    "def": "管乐器两大类别的合称，铜管靠嘴唇振动吹奏，木管靠气流振动发声。",
+    "example": "例子：小号、长号属于铜管，长笛、萨克斯属于木管。",
+    "context": "Brass and Woodwinds Saxophone Trombone Ensemble Riffs Pads Trumpet Flute Synth Stabs Harmonica",
+    "contextZh": "铜管与木管乐器",
+    "category": "管乐",
+    "source": "小赫转存",
+    "id": 147
+  },
+  {
+    "word": "Ambience",
+    "ipa": "ˈæmbiəns",
+    "translit": "",
+    "zh": "氛围 / 环境音",
+    "def": "指某个空间的整体声音气氛或背景声，通常由多种细微声音混合而成，用于营造场所感。",
+    "example": "例子：咖啡馆里低声交谈、杯碟碰撞和背景音乐交织形成的整体声音氛围。",
+    "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
+    "contextZh": "氛围",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 148
+  },
+  {
+    "word": "Indoor",
+    "ipa": "ˈɪndɔːr",
+    "translit": "",
+    "zh": "室内的",
+    "def": "描述发生在建筑物内部的声音或场景，通常具有封闭空间的混响和反射特征。",
+    "example": "例子：在客厅、办公室或教堂内部录制的声音。",
+    "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
+    "contextZh": "氛围",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 149
+  },
+  {
+    "word": "Industry",
+    "ipa": "ˈɪndəstri",
+    "translit": "",
+    "zh": "工业 / 产业",
+    "def": "指与工厂、机械制造、重工业等相关的声音或领域，常用于音效分类中表示工业噪声。",
+    "example": "例子：工厂车间里机器轰鸣、金属撞击和传送带运转的声音。",
+    "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
+    "contextZh": "氛围",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 150
+  },
+  {
+    "word": "Outdoor",
+    "ipa": "ˈaʊtdɔːr",
+    "translit": "",
+    "zh": "室外的",
+    "def": "描述发生在建筑物外部的声音或场景，通常具有开阔空间、自然反射和远距离声源的特征。",
+    "example": "例子：街道、公园、森林或旷野中录制的声音。",
+    "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
+    "contextZh": "氛围",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 151
+  },
+  {
+    "word": "Environment",
+    "ipa": "ɪnˈvaɪrənmənt",
+    "translit": "",
+    "zh": "环境",
+    "def": "指周围的声音空间或整体声学条件，也可泛指自然环境或人工环境。",
+    "example": "例子：城市环境中的交通噪声、人声和建筑反射声的总和。",
+    "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
+    "contextZh": "氛围",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 152
+  },
+  {
+    "word": "Weather",
+    "ipa": "ˈweðər",
+    "translit": "",
+    "zh": "天气",
+    "def": "指与气象现象相关的声音，如风、雨、雷、雪等，常用于环境音效库的分类。",
+    "example": "例子：暴雨打在屋顶上的噼啪声、狂风呼啸声或远处雷声。",
+    "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
+    "contextZh": "氛围",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 153
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -1908,7 +1999,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 147
+    "id": 154
   },
   {
     "word": "Conga",
@@ -1921,7 +2012,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 148
+    "id": 155
   },
   {
     "word": "Percussion",
@@ -1934,7 +2025,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 149
+    "id": 156
   },
   {
     "word": "Grooves",
@@ -1947,7 +2038,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 150
+    "id": 157
   },
   {
     "word": "Bongos",
@@ -1960,7 +2051,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 151
+    "id": 158
   },
   {
     "word": "Woodblock",
@@ -1973,7 +2064,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 152
+    "id": 159
   },
   {
     "word": "Djembe",
@@ -1986,7 +2077,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 153
+    "id": 160
   },
   {
     "word": "Tambourine",
@@ -1999,7 +2090,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 154
+    "id": 161
   },
   {
     "word": "Cowbells",
@@ -2012,7 +2103,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 155
+    "id": 162
   },
   {
     "word": "Bells",
@@ -2025,7 +2116,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 156
+    "id": 163
   },
   {
     "word": "Timbales",
@@ -2038,7 +2129,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 157
+    "id": 164
   },
   {
     "word": "Keys",
@@ -2051,7 +2142,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 158
+    "id": 165
   },
   {
     "word": "Piano",
@@ -2064,7 +2155,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 159
+    "id": 166
   },
   {
     "word": "Wurlitzer",
@@ -2077,7 +2168,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 160
+    "id": 167
   },
   {
     "word": "Electric Piano",
@@ -2090,7 +2181,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 161
+    "id": 168
   },
   {
     "word": "Organ",
@@ -2103,7 +2194,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 162
+    "id": 169
   },
   {
     "word": "Clavinet",
@@ -2116,7 +2207,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 163
+    "id": 170
   },
   {
     "word": "Keys Melody",
@@ -2129,7 +2220,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 164
+    "id": 171
   },
   {
     "word": "Classical",
@@ -2142,7 +2233,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 165
+    "id": 172
   },
   {
     "word": "Female Vocals",
@@ -2155,7 +2246,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 166
+    "id": 173
   },
   {
     "word": "Vocal FX",
@@ -2168,7 +2259,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 167
+    "id": 174
   },
   {
     "word": "Vocoder",
@@ -2181,7 +2272,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 168
+    "id": 175
   },
   {
     "word": "Screams",
@@ -2194,7 +2285,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 169
+    "id": 176
   },
   {
     "word": "Whisper Vocals",
@@ -2207,7 +2298,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 170
+    "id": 177
   },
   {
     "word": "Male Vocals",
@@ -2220,7 +2311,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 171
+    "id": 178
   },
   {
     "word": "Spoken Word",
@@ -2233,7 +2324,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 172
+    "id": 179
   },
   {
     "word": "Vocal Phrases",
@@ -2246,7 +2337,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 173
+    "id": 180
   },
   {
     "word": "Vocal Shouts",
@@ -2259,7 +2350,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 174
+    "id": 181
   },
   {
     "word": "Dialogue",
@@ -2272,7 +2363,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 175
+    "id": 182
   }
 ];
 window.SOURCES = [
@@ -2385,6 +2476,92 @@ window.SOURCES = [
       {
         "word": "expression",
         "zh": "表达 / 表现力"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Brass and Woodwinds Saxophone Trombone Ensemble Riffs Pads Trumpet Flute Synth Stabs Harmonica",
+    "translation": "铜管与木管乐器",
+    "branches": [
+      {
+        "word": "Brass and Woodwinds",
+        "zh": "铜管与木管乐器"
+      },
+      {
+        "word": "Saxophone",
+        "zh": "萨克斯管"
+      },
+      {
+        "word": "Trombone",
+        "zh": "长号"
+      },
+      {
+        "word": "Ensemble",
+        "zh": "合奏 / 乐团"
+      },
+      {
+        "word": "Riffs",
+        "zh": "连复段 / 重复乐句"
+      },
+      {
+        "word": "Pads",
+        "zh": "铺底音色 / 衬底音"
+      },
+      {
+        "word": "Trumpet",
+        "zh": "小号"
+      },
+      {
+        "word": "Flute",
+        "zh": "长笛"
+      },
+      {
+        "word": "Synth",
+        "zh": "合成器"
+      },
+      {
+        "word": "Stabs",
+        "zh": "顿音和弦 / 短促重击音"
+      },
+      {
+        "word": "Harmonica",
+        "zh": "口琴"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
+    "translation": "氛围",
+    "branches": [
+      {
+        "word": "Ambience",
+        "zh": "氛围 / 环境音"
+      },
+      {
+        "word": "Indoor",
+        "zh": "室内的"
+      },
+      {
+        "word": "Industry",
+        "zh": "工业 / 产业"
+      },
+      {
+        "word": "Atmospheres",
+        "zh": "大气 / 气氛音景"
+      },
+      {
+        "word": "Outdoor",
+        "zh": "室外的"
+      },
+      {
+        "word": "Environment",
+        "zh": "环境"
+      },
+      {
+        "word": "Weather",
+        "zh": "天气"
       }
     ]
   }
