@@ -199,20 +199,15 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .zoombtns button{width:30px;height:30px;border-radius:9px;border:1px solid var(--border2);background:var(--card2);
   color:var(--text);font-size:14px;font-weight:700;cursor:pointer;line-height:1;display:grid;place-items:center}
 .zoombtns button:active{opacity:.7}
-.graphwrap{position:relative;overflow:hidden;border-radius:16px;background:radial-gradient(700px 400px at 50% 42%, rgba(124,108,255,.10), transparent 72%)}
-.graphwrap svg{display:block;width:100%;height:auto;touch-action:none}
-.gedge{stroke:rgba(124,108,255,.30);stroke-width:1;pointer-events:none}
-.gnode{cursor:pointer}
-.gnode .gdot{fill:#3a4066;stroke:rgba(255,255,255,.25);stroke-width:1.2}
-.gnode.new .gdot{fill:#3a4066}
-.gnode.learn .gdot{fill:#fbbf24}
-.gnode.master .gdot{fill:#34d399}
-.gnode.hub .gdot{stroke:var(--accent2);stroke-width:2.5}
-.gnode .glabel{fill:var(--muted);font-weight:600;text-anchor:middle;pointer-events:none}
-.gnode.learn .glabel{fill:#fcd34d}
-.gnode.master .glabel{fill:#6ee7b7}
-.gnode.hub .glabel{fill:#fff;font-weight:800}
+.graphwrap{position:relative;overflow:hidden;border-radius:16px;background:radial-gradient(700px 400px at 50% 42%, rgba(124,108,255,.12), transparent 72%);height:420px}
+#graphcanvas{display:block;width:100%;height:100%;touch-action:none}
 .ghint{position:absolute;top:9px;left:12px;font-size:11px;color:var(--faint);pointer-events:none;z-index:2}
+.gcaption{position:absolute;left:10px;right:10px;bottom:10px;z-index:3;display:none;align-items:center;gap:8px;
+  background:rgba(13,16,32,.85);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--border2);
+  border-radius:14px;padding:8px 12px;font-size:14px}
+.gcaption .cap-w{font-weight:800;color:var(--text)}
+.gcaption .cap-z{flex:1;color:var(--muted);font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gcaption .cap-d{flex:0 0 auto;background:var(--accent);border:none;color:#fff;border-radius:8px;padding:5px 10px;font-size:12px;font-weight:700;cursor:pointer}
 
 /* ===== 滑动删除 / 拖拽 ===== */
 .witem-wrap{position:relative;overflow:hidden;border-radius:14px}
@@ -233,9 +228,13 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .fsbtn{display:flex;align-items:center;gap:4px;background:var(--card);border:1px solid var(--border);
   color:var(--text);padding:7px 12px;border-radius:999px;font-size:12px;font-weight:700;cursor:pointer}
 .fsbtn:active{opacity:.7}
-.graphcard.fullscreen{position:fixed;inset:0;z-index:300;margin:0;border-radius:0;overflow-y:auto;
-  background:var(--bg);padding:calc(12px + env(safe-area-inset-top)) 16px calc(16px + env(safe-area-inset-bottom));
-  box-shadow:none;border:0}
+.graphcard.fullscreen{position:fixed;inset:0;z-index:300;margin:0;border-radius:0;overflow:hidden;
+  background:var(--bg);padding:0;box-shadow:none;border:0}
+.graphcard.fullscreen .graphwrap{position:absolute;inset:0;height:auto;border-radius:0}
+.graphcard.fullscreen .graphhead{position:absolute;top:calc(10px + env(safe-area-inset-top));right:14px;left:auto;z-index:10;margin:0}
+.graphcard.fullscreen .t2{display:none}
+.graphcard.fullscreen .chips{position:absolute;top:calc(12px + env(safe-area-inset-top));left:14px;right:64px;z-index:10;margin:0}
+.graphcard.fullscreen .ghint{top:calc(60px + env(safe-area-inset-top))}
 </style>
 </head>
 <body>
@@ -295,11 +294,22 @@ function resetWordCat(word){
 
 /* ---------- 词网（关系图） ---------- */
 let chainCat="全部";
-let gstate={tx:0,ty:0,k:1};
+let gRot=null;
+let gK=1;
+let gWords=[];
+let gEdges=[];
+let gSph=[];
+let gProj=null;
+let gSelWord=null;
+let gFullscreen=false;
+let gCtx=null;
+let gCanvasW=320;
+let gCanvasH=320;
+let gCache={key:null,words:null,edges:null,sph:null};
 let gpointers=new Map();
-let gpan=null;
-let gpinch=null;
-let gSize=600;
+let gDrag=null;
+let gPinch=null;
+const GF=3.2;
 const GRAPH_STOP=new Set("的了一是在中与和或及等为不有又都而其对这那之无高上下来去个种次用把被让向从里很更就也并或已地得么呢吧啊".split(""));
 const GRAPH_TSTOP=new Set(("the and for with that this from into when sound music audio used using which produce produces often also more than very like type types wave noise play played playing synth synthesizer drum drums make makes made one two can use via its are was has have not but you your all or in on of to a an as at by it be will would could should may might then them they their").split(" "));
 function wordSig(w){
@@ -382,96 +392,202 @@ function layoutGraph(words,edges){
   for(const p of pos){p.x=(p.x-minX)*s+70;p.y=(p.y-minY)*s+70;}
   return {pos,size};
 }
-function graphSVG(words){
-  const edges=buildEdges(words);
-  const L=layoutGraph(words,edges);
-  const deg=Array(words.length).fill(0);
-  for(const [i,j] of edges){deg[i]++;deg[j]++;}
-  let hub=-1,hd=-1;
-  for(let i=0;i<deg.length;i++)if(deg[i]>hd){hd=deg[i];hub=i;}
-  const fs=Math.min(15,Math.max(10,Math.round(200/Math.sqrt(words.length))));
-  let e="";
-  for(const [i,j] of edges)e+=`<line class="gedge" x1="${L.pos[i].x.toFixed(1)}" y1="${L.pos[i].y.toFixed(1)}" x2="${L.pos[j].x.toFixed(1)}" y2="${L.pos[j].y.toFixed(1)}"/>`;
-  let nd="";
-  for(let i=0;i<words.length;i++){
-    const w=words[i], st=cardState(w), hc=(i===hub)?" hub":"";
-    nd+=`<g class="gnode ${st}${hc}" transform="translate(${L.pos[i].x.toFixed(1)},${L.pos[i].y.toFixed(1)})" onclick="openDetail('${esc(w.word)}','renderMenu')"><circle r="22" fill="transparent"/><circle r="6" class="gdot"/><text y="19" class="glabel" font-size="${fs}">${esc(w.word)}</text></g>`;
+function matIdentity(){return [[1,0,0],[0,1,0],[0,0,1]];}
+function matVec(m,v){return {x:m[0][0]*v.x+m[0][1]*v.y+m[0][2]*v.z, y:m[1][0]*v.x+m[1][1]*v.y+m[1][2]*v.z, z:m[2][0]*v.x+m[2][1]*v.y+m[2][2]*v.z};}
+function matMul(a,b){const r=[[0,0,0],[0,0,0],[0,0,0]];for(let i=0;i<3;i++)for(let j=0;j<3;j++)for(let k=0;k<3;k++)r[i][j]+=a[i][k]*b[k][j];return r;}
+function cross(a,b){return {x:a.y*b.z-a.z*b.y, y:a.z*b.x-a.x*b.z, z:a.x*b.y-a.y*b.x};}
+function rotAxisAngle(ax,ang){const x=ax.x,y=ax.y,z=ax.z,c=Math.cos(ang),s=Math.sin(ang),t=1-c;
+  return [[t*x*x+c,t*x*y-s*z,t*x*z+s*y],[t*x*y+s*z,t*y*y+c,t*y*z-s*x],[t*x*z-s*y,t*y*z+s*x,t*z*z+c]];}
+function buildSphere(force){
+  gWords = chainCat==="全部" ? allWords() : allWords().filter(w=>catOf(w)===chainCat);
+  const key = chainCat + "|" + gWords.map(w=>w.word).join(",");
+  if(!force && gCache.key===key){
+    gWords=gCache.words; gEdges=gCache.edges; gSph=gCache.sph;
+    if(!gRot) gRot = rotAxisAngle({x:1,y:0,z:0},-0.3);
+    if(gSelWord && !gWords.some(w=>w.word===gSelWord)) gSelWord=null;
+    return;
   }
-  return {svg:`<svg viewBox="0 0 ${L.size} ${L.size}" id="graphsvg" onpointerdown="gDown(event)"><g id="gview">${e}${nd}</g></svg>`, size:L.size};
+  gEdges = buildEdges(gWords);
+  const L = layoutGraph(gWords, gEdges);
+  gSph = gWords.map((w,i)=>{
+    const th=(L.pos[i].x/L.size)*2*Math.PI;
+    const ph=(L.pos[i].y/L.size)*Math.PI;
+    return {x:Math.sin(ph)*Math.cos(th), y:Math.cos(ph), z:Math.sin(ph)*Math.sin(th)};
+  });
+  gRot = rotAxisAngle({x:1,y:0,z:0}, -0.3);
+  gSelWord = null;
+  gCache = {key, words:gWords.slice(), edges:gEdges, sph:gSph};
+}
+function sizeCanvas(){
+  const c=document.querySelector("#graphcanvas");
+  if(!c||!c.getContext)return;
+  const wrap=c.parentElement;
+  const dpr=(typeof window!=="undefined"&&window.devicePixelRatio)||1;
+  const w=wrap.clientWidth||320, h=wrap.clientHeight||320;
+  c.width=Math.round(w*dpr); c.height=Math.round(h*dpr);
+  c.style.width=w+"px"; c.style.height=h+"px";
+  gCtx=c.getContext("2d");
+  gCtx.setTransform(dpr,0,0,dpr,0,0);
+  gCanvasW=w; gCanvasH=h;
+}
+function renderGraph(){
+  if(!gCtx||!gWords||gWords.length===0)return;
+  const w=gCanvasW,h=gCanvasH;
+  gCtx.clearRect(0,0,w,h);
+  const cx=w/2, cy=h/2;
+  const Rpx=Math.min(w,h)*0.36*gK;
+  const P=gSph.map(p=>{
+    const q=matVec(gRot,p);
+    const f=GF/(GF-q.z);
+    return {sx:cx+q.x*Rpx*f, sy:cy-q.y*Rpx*f, factor:f, depth:(q.z+1)/2};
+  });
+  gProj=P;
+  gCtx.lineWidth=1;
+  for(const e of gEdges){
+    const a=P[e[0]],b=P[e[1]],d=(a.depth+b.depth)/2;
+    gCtx.strokeStyle="rgba(124,108,255,"+(0.08+0.30*d).toFixed(3)+")";
+    gCtx.beginPath();gCtx.moveTo(a.sx,a.sy);gCtx.lineTo(b.sx,b.sy);gCtx.stroke();
+  }
+  const order=gWords.map((_,i)=>i).sort((a,b)=>P[a].depth-P[b].depth);
+  for(const i of order){
+    const w=gWords[i], p=P[i];
+    const st=cardState(w);
+    const col=st==="mastered"?"#6ee7b7":st==="learning"?"#fcd34d":"#aab0d0";
+    const sel=gSelWord===w.word;
+    const alpha=0.35+0.65*p.depth;
+    const r=(sel?8:5.5)*p.factor;
+    gCtx.globalAlpha=alpha;
+    gCtx.fillStyle=col;
+    gCtx.beginPath();gCtx.arc(p.sx,p.sy,r,0,Math.PI*2);gCtx.fill();
+    if(sel){
+      gCtx.strokeStyle="#fff";gCtx.lineWidth=2;
+      gCtx.beginPath();gCtx.arc(p.sx,p.sy,r+4,0,Math.PI*2);gCtx.stroke();
+    }
+    const fs=Math.max(9,Math.min(16,13*p.factor));
+    gCtx.font="600 "+fs.toFixed(1)+'px -apple-system,"PingFang SC",sans-serif';
+    gCtx.textAlign="center";gCtx.textBaseline="top";
+    gCtx.fillStyle=col;
+    gCtx.fillText(w.word, p.sx, p.sy+r+3);
+    gCtx.globalAlpha=1;
+  }
+}
+function initGraph(){sizeCanvas();buildSphere(false);renderGraph();}
+function hitTest(x,y){
+  if(!gProj||!gWords)return null;
+  const order=gWords.map((_,i)=>i).sort((a,b)=>gProj[b].depth-gProj[a].depth);
+  for(const i of order){
+    const p=gProj[i];
+    const r=Math.max(16, 7*p.factor*1.8);
+    if(Math.hypot(x-p.sx,y-p.sy)<r)return gWords[i].word;
+  }
+  return null;
+}
+function focusWord(word){
+  const i=gWords.findIndex(w=>w.word===word); if(i<0)return;
+  const p=gSph[i];
+  const ax=cross(p,{x:0,y:0,z:1});
+  const al=Math.hypot(ax.x,ax.y,ax.z);
+  if(al<1e-5){ gRot = p.z<0 ? rotAxisAngle({x:1,y:0,z:0},Math.PI) : matIdentity(); }
+  else { gRot = rotAxisAngle({x:ax.x/al,y:ax.y/al,z:ax.z/al}, Math.acos(Math.min(1,Math.max(-1,p.z)))); }
+}
+function selectWord(word){
+  if(gSelWord===word){ gSelWord=null; }
+  else { gSelWord=word; focusWord(word); }
+  renderGraph();
+  updateCaption();
+}
+function updateCaption(){
+  const cap=document.querySelector("#gcaption"); if(!cap)return;
+  if(gSelWord){
+    const w=gWords.find(x=>x.word===gSelWord);
+    if(w){
+      cap.style.display="flex";
+      cap.innerHTML=`<span class="cap-w">${esc(w.word)}</span><span class="cap-z">${esc(w.zh||"")}</span><button class="cap-d" onclick="openDetail('${esc(w.word)}','renderMenu')">详情 ›</button>`;
+      return;
+    }
+  }
+  cap.style.display="none";
+}
+function trackballVec(x,y){
+  const cx=gCanvasW/2, cy=gCanvasH/2;
+  const Rpx=Math.min(gCanvasW,gCanvasH)*0.36;
+  let tx=(x-cx)/Rpx, ty=-(y-cy)/Rpx;
+  const d2=tx*tx+ty*ty; let tz;
+  if(d2<=1)tz=Math.sqrt(1-d2); else {const d=Math.sqrt(d2);tx/=d;ty/=d;tz=0;}
+  return {x:tx,y:ty,z:tz};
 }
 function graphCardInner(){
   const cats=CATS;
   const chips=cats.map(c=>`<div class="chip ${c===chainCat?"on":""}" onclick="setChainCat('${c}')">${c}</div>`).join("");
   const words=chainCat==="全部"?allWords():allWords().filter(w=>catOf(w)===chainCat);
-  let body;
-  if(words.length===0){body='<div class="empty">这个单词本还没有单词</div>';}
-  else{const g=graphSVG(words);gSize=g.size;body=g.svg;}
   return `<div class="graphhead">
       <div class="t2">📊 词网</div>
       <button class="fsbtn" id="fsBtn" onclick="toggleFullscreen()">${gFullscreen?"✕ 退出全屏":"⛶ 全屏"}</button>
     </div>
-    <div class="chips" style="margin-bottom:10px">${chips}</div>
-    <div class="graphwrap"><div class="ghint">${words.length} 词 · 拖动平移 · 双指缩放 · 点词看释义</div>${body}</div>`;
+    <div class="chips">${chips}</div>
+    <div class="graphwrap"><div class="ghint">${words.length} 词 · 拖动旋转 · 双指缩放 · 点词设锚点</div><canvas id="graphcanvas" onpointerdown="gDown(event)"></canvas><div class="gcaption" id="gcaption"></div></div>`;
 }
-function setChainCat(c){chainCat=c;gstate={tx:0,ty:0,k:1};const el=$("#graphCard");if(el)el.innerHTML=graphCardInner();}
-function gSvgRect(){const svg=document.querySelector("#graphsvg");return svg?svg.getBoundingClientRect():null;}
-function screenToViewbox(cx,cy){
-  const r=gSvgRect();if(!r)return{x:0,y:0};
-  const s=r.width/gSize;
-  return {x:((cx-r.left)/s-gstate.tx)/gstate.k, y:((cy-r.top)/s-gstate.ty)/gstate.k};
-}
-function applyG(){const v=document.querySelector("#gview");if(!v)return;v.setAttribute("transform",`translate(${gstate.tx} ${gstate.ty}) scale(${gstate.k})`);}
+function setChainCat(c){chainCat=c;gK=1;const el=$("#graphCard");if(el)el.innerHTML=graphCardInner();scheduleGraph();}
+function scheduleGraph(){setTimeout(initGraph,0);}
 function gDown(e){
   gpointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
   if(gpointers.size===1){
-    const a=screenToViewbox(e.clientX,e.clientY);
-    gpan={ax:a.x,ay:a.y};gpinch=null;
+    const c=document.querySelector("#graphcanvas");
+    if(c){
+      const r=c.getBoundingClientRect();
+      const x=e.clientX-r.left, y=e.clientY-r.top;
+      gDrag={v0:trackballVec(x,y), sx:e.clientX, sy:e.clientY, moved:false, hitWord:hitTest(x,y)};
+    }
+    gPinch=null;
   }else if(gpointers.size===2){
     const p=[...gpointers.values()];
-    const mx=(p[0].x+p[1].x)/2,my=(p[0].y+p[1].y)/2;
-    const a=screenToViewbox(mx,my);
-    gpinch={ax:a.x,ay:a.y,k:gstate.k,d:Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y)};
-    gpan=null;
+    gPinch={d0:Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y), k0:gK};
+    gDrag=null;
   }
 }
 function gMove(e){
   if(!gpointers.has(e.pointerId))return;
   gpointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
-  const r=gSvgRect();if(!r)return;
-  const s=r.width/gSize;
-  if(gpointers.size===1&&gpan){
-    suppressClickUntil=Date.now()+500;
-    const lx=(e.clientX-r.left)/s,ly=(e.clientY-r.top)/s;
-    gstate.tx=lx-gstate.k*gpan.ax;
-    gstate.ty=ly-gstate.k*gpan.ay;
-    applyG();
-  }else if(gpointers.size===2&&gpinch){
-    suppressClickUntil=Date.now()+500;
+  const c=document.querySelector("#graphcanvas"); if(!c)return;
+  const r=c.getBoundingClientRect();
+  if(gpointers.size===1&&gDrag){
+    const mx=e.clientX-gDrag.sx, my=e.clientY-gDrag.sy;
+    if(!gDrag.moved&&Math.hypot(mx,my)<4)return;
+    gDrag.moved=true;
+    suppressClickUntil=Date.now()+400;
+    const x=e.clientX-r.left, y=e.clientY-r.top;
+    const v1=trackballVec(x,y);
+    const ax=cross(gDrag.v0,v1);
+    const al=Math.hypot(ax.x,ax.y,ax.z);
+    if(al>1e-5){
+      const ang=Math.asin(Math.min(1,al));
+      gRot=matMul(rotAxisAngle({x:ax.x/al,y:ax.y/al,z:ax.z/al},ang),gRot);
+      gDrag.v0=v1;
+    }
+    renderGraph();
+  }else if(gpointers.size===2&&gPinch){
     const p=[...gpointers.values()];
-    const mx=(p[0].x+p[1].x)/2,my=(p[0].y+p[1].y)/2;
     const d=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);
-    const nk=Math.min(4,Math.max(0.35,gpinch.k*d/gpinch.d));
-    const lx=(mx-r.left)/s,ly=(my-r.top)/s;
-    gstate.k=nk;
-    gstate.tx=lx-nk*gpinch.ax;
-    gstate.ty=ly-nk*gpinch.ay;
-    applyG();
+    gK=Math.min(3,Math.max(0.5,gPinch.k0*d/gPinch.d0));
+    renderGraph();
   }
 }
 function gUp(e){
+  const d=gDrag;
   gpointers.delete(e.pointerId);
-  if(gpointers.size<2)gpinch=null;
-  if(gpointers.size===0)gpan=null;
+  if(gpointers.size<2)gPinch=null;
+  if(gpointers.size===0){
+    if(d&&!d.moved&&d.hitWord)selectWord(d.hitWord);
+    gDrag=null;
+  }
 }
-let gFullscreen=false;
 function toggleFullscreen(){
   gFullscreen=!gFullscreen;
   const card=document.querySelector("#graphCard");
   if(card)card.classList.toggle("fullscreen",gFullscreen);
   const btn=document.querySelector("#fsBtn");
   if(btn)btn.textContent=gFullscreen?"✕ 退出全屏":"⛶ 全屏";
-  gstate={tx:0,ty:0,k:1};
-  applyG();
+  setTimeout(()=>{sizeCanvas();renderGraph();},0);
 }
 
 /* ---------- 单词本：滑动删除 / 拖拽移标签 ---------- */
@@ -689,6 +805,7 @@ function renderMenu(){
     <div class="graphcard" id="graphCard">${graphCardInner()}</div>
     <div class="menu-card">${menuCardHTML(target,learnedToday,pending,remain,master)}</div>`;
   updateBadge();
+  scheduleGraph();
 }
 function menuCardHTML(target,learnedToday,pending,remain,master){
   if(remain===0 && pending===0){

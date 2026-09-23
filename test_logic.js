@@ -165,6 +165,20 @@ const gwords=allWords().filter(w=>catOf(w)==="打击乐");
 const gedges=buildEdges(gwords);
 ok(gedges.length>0, "打击乐词网应有边");
 ok(layoutGraph(gwords,gedges).pos.length===gwords.length, "布局节点数一致");
+// 3D 球面 + 旋转数学
+buildSphere(true);
+ok(gSph.length===gwords.length, "球面点数=词数");
+ok(gSph.every(p=>Math.abs(Math.hypot(p.x,p.y,p.z)-1)<1e-6), "球面点为单位向量");
+const id=matIdentity();
+ok(matVec(id,{x:1,y:2,z:3}).x===1 && matVec(id,{x:1,y:2,z:3}).z===3, "单位矩阵作用向量");
+const r90=rotAxisAngle({x:0,y:0,z:1}, Math.PI/2);
+const rz=matVec(r90,{x:1,y:0,z:0});
+ok(Math.abs(rz.x)<1e-9 && Math.abs(rz.y-1)<1e-9, "绕Z轴90°旋转(1,0,0)→(0,1,0)");
+ok(matVec(r90,{x:0,y:0,z:1}).z===1, "绕Z轴旋转保Z分量");
+buildSphere(true);
+focusWord(gwords[0].word);
+const fw=matVec(gRot,gSph[0]);
+ok(fw.z>0.999, "focusWord 后选中词移到正面(+z)");
 
 // 16. 隐藏/恢复
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
