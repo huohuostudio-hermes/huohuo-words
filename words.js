@@ -2366,6 +2366,370 @@ window.WORDS = [
     "id": 182
   },
   {
+    "word": "Science Fiction",
+    "ipa": "",
+    "translit": "",
+    "zh": "科幻 / 科幻小说",
+    "def": "一种以科学幻想为基础的文学、影视或艺术类型，常涉及未来科技、外星文明、太空探索等主题。",
+    "example": "例子：《星际穿越》《银翼杀手》都是经典的科幻作品。",
+    "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
+    "contextZh": "科幻小说",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 183
+  },
+  {
+    "word": "Drones",
+    "ipa": "droʊnz",
+    "translit": "",
+    "zh": "无人机 / 持续低音",
+    "def": "可指无人驾驶飞行器，也可指音乐中持续不断的长音或低频嗡鸣声。",
+    "example": "例子：科幻配乐中常用合成器制造低沉的持续音来营造紧张氛围。",
+    "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
+    "contextZh": "科幻小说",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 184
+  },
+  {
+    "word": "Alien",
+    "ipa": "ˈeɪliən",
+    "translit": "",
+    "zh": "外星人 / 异形的 / 陌生的",
+    "def": "指来自地球以外的生物，也可作形容词表示“外来的、陌生的”。",
+    "example": "例子：电影《异形》中的外星生物是科幻作品的经典形象。",
+    "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
+    "contextZh": "科幻小说",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 185
+  },
+  {
+    "word": "Voice",
+    "ipa": "vɔɪs",
+    "translit": "",
+    "zh": "声音 / 人声 / 嗓音",
+    "def": "人或生物发出的声音，在音乐中指人声部分，在科幻语境中也可指人工智能或外星生物的发声。",
+    "example": "例子：科幻电影中常对机器人角色进行人声处理，使其听起来机械而冰冷。",
+    "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
+    "contextZh": "科幻小说",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 186
+  },
+  {
+    "word": "Lasers",
+    "ipa": "ˈleɪzərz",
+    "translit": "",
+    "zh": "激光 / 激光器",
+    "def": "通过受激辐射产生的聚焦光束，在科幻中常作为武器或科技装置出现。",
+    "example": "例子：科幻片中太空战舰互相发射激光束交战的场景非常常见。",
+    "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
+    "contextZh": "科幻小说",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 187
+  },
+  {
+    "word": "Spaceship",
+    "ipa": "ˈspeɪsʃɪp",
+    "translit": "",
+    "zh": "宇宙飞船 / 太空船",
+    "def": "用于在太空环境中航行和运输的载具，是科幻作品的核心元素之一。",
+    "example": "例子：《星球大战》中的“千年隼号”是一艘著名的宇宙飞船。",
+    "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
+    "contextZh": "科幻小说",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 188
+  },
+  {
+    "word": "Data",
+    "ipa": "ˈdeɪtə",
+    "translit": "",
+    "zh": "数据 / 资料",
+    "def": "以结构化或非结构化形式存储的信息，在科幻中常涉及人工智能处理数据的情节。",
+    "example": "例子：《星际迷航》中的角色 Data 是一名人形机器人，名字本身就取自“数据”一词。",
+    "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
+    "contextZh": "科幻小说",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 189
+  },
+  {
+    "word": "Machines and Devices",
+    "ipa": "",
+    "translit": "",
+    "zh": "机器与设备",
+    "def": "指由机械结构或电子元件组成、用于执行特定功能的装置总称。",
+    "example": "例子：工厂里的发动机和家用洗衣机都属于机器与设备。",
+    "context": "Machines and Devices Tools Switch Bells Phone Electronics",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 190
+  },
+  {
+    "word": "Tools",
+    "ipa": "tuːlz",
+    "translit": "",
+    "zh": "工具",
+    "def": "指用来完成某项操作或任务的器具，通常由人手操作。",
+    "example": "例子：锤子、螺丝刀、扳手都是常见工具。",
+    "context": "Machines and Devices Tools Switch Bells Phone Electronics",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 191
+  },
+  {
+    "word": "Switch",
+    "ipa": "swɪtʃ",
+    "translit": "",
+    "zh": "开关",
+    "def": "用来接通或断开电路的装置，也可泛指切换状态的控制件。",
+    "example": "例子：按一下墙上的开关，灯就亮了。",
+    "context": "Machines and Devices Tools Switch Bells Phone Electronics",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 192
+  },
+  {
+    "word": "Phone",
+    "ipa": "foʊn",
+    "translit": "",
+    "zh": "电话",
+    "def": "用于远距离传递语音或信息的通信设备，现多指移动电话。",
+    "example": "例子：他用手机给家人打了一个电话。",
+    "context": "Machines and Devices Tools Switch Bells Phone Electronics",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 193
+  },
+  {
+    "word": "Electronics",
+    "ipa": "ɪˌlekˈtrɑːnɪks",
+    "translit": "",
+    "zh": "电子学 / 电子设备",
+    "def": "研究电子运动及其应用的技术领域，也可指电子器件和产品的总称。",
+    "example": "例子：电视、电脑和手机都属于电子设备。",
+    "context": "Machines and Devices Tools Switch Bells Phone Electronics",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 194
+  },
+  {
+    "word": "Transportation",
+    "ipa": "ˌtrænspɔːrˈteɪʃən",
+    "translit": "",
+    "zh": "运输 / 交通",
+    "def": "指人或货物从一个地点移动到另一个地点的过程与系统。",
+    "example": "例子：城市地铁系统每天运送数百万乘客。",
+    "context": "Transportation Trains Watercraft Car Aircraft Traffic",
+    "contextZh": "交通",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 195
+  },
+  {
+    "word": "Trains",
+    "ipa": "treɪnz",
+    "translit": "",
+    "zh": "火车 / 列车",
+    "def": "在轨道上行驶的交通工具，通常由机车牵引多节车厢组成。",
+    "example": "例子：高铁以每小时300公里以上的速度连接两座城市。",
+    "context": "Transportation Trains Watercraft Car Aircraft Traffic",
+    "contextZh": "交通",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 196
+  },
+  {
+    "word": "Watercraft",
+    "ipa": "ˈwɔːtərkræft",
+    "translit": "",
+    "zh": "船舶 / 水上交通工具",
+    "def": "泛指一切在水面上航行或漂浮的载具，包括船、艇、筏等。",
+    "example": "例子：渡轮是岛屿与大陆之间最常见的客运水运工具。",
+    "context": "Transportation Trains Watercraft Car Aircraft Traffic",
+    "contextZh": "交通",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 197
+  },
+  {
+    "word": "Car",
+    "ipa": "kɑːr",
+    "translit": "",
+    "zh": "汽车",
+    "def": "以自身动力驱动、在道路上行驶的四轮机动车辆，主要用于载人或载货。",
+    "example": "例子：她每天开汽车通勤上班。",
+    "context": "Transportation Trains Watercraft Car Aircraft Traffic",
+    "contextZh": "交通",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 198
+  },
+  {
+    "word": "Aircraft",
+    "ipa": "ˈerkræft",
+    "translit": "",
+    "zh": "航空器 / 飞机",
+    "def": "在大气层中飞行的各类载具的总称，包括飞机、直升机、飞艇等。",
+    "example": "例子：喷气式飞机跨越大西洋只需约七小时。",
+    "context": "Transportation Trains Watercraft Car Aircraft Traffic",
+    "contextZh": "交通",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 199
+  },
+  {
+    "word": "Traffic",
+    "ipa": "ˈtræfɪk",
+    "translit": "",
+    "zh": "交通 / 车流",
+    "def": "道路上车辆与行人的往来流动状况，也指这一流动的整体系统。",
+    "example": "例子：早高峰时段市中心交通非常拥堵。",
+    "context": "Transportation Trains Watercraft Car Aircraft Traffic",
+    "contextZh": "交通",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 200
+  },
+  {
+    "word": "Warfare",
+    "ipa": "ˈwɔːrfer",
+    "translit": "",
+    "zh": "战争 / 作战",
+    "def": "指使用武力进行的大规模武装冲突，涵盖战略、战术和军事行动等方面。",
+    "example": "例子：两国因领土争端爆发了持续数年的战争。",
+    "context": "Warfare Gun Sword Weapon Knife Military Bullet",
+    "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 201
+  },
+  {
+    "word": "Gun",
+    "ipa": "ɡʌn",
+    "translit": "",
+    "zh": "枪 / 火炮",
+    "def": "利用火药等推进剂发射弹丸的管形射击武器，包括手枪、步枪、机枪等。",
+    "example": "例子：士兵们举起枪向目标射击。",
+    "context": "Warfare Gun Sword Weapon Knife Military Bullet",
+    "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 202
+  },
+  {
+    "word": "Sword",
+    "ipa": "sɔːrd",
+    "translit": "",
+    "zh": "剑 / 刀剑",
+    "def": "一种有长刃和手柄的冷兵器，可用于劈砍或刺击，历史悠久。",
+    "example": "例子：骑士拔出剑，准备迎战敌人。",
+    "context": "Warfare Gun Sword Weapon Knife Military Bullet",
+    "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 203
+  },
+  {
+    "word": "Weapon",
+    "ipa": "ˈwepən",
+    "translit": "",
+    "zh": "武器 / 兵器",
+    "def": "泛指用于攻击、防御或作战的任何工具或装置，包括冷兵器和热兵器。",
+    "example": "例子：核武器是当今世界上最具破坏力的武器之一。",
+    "context": "Warfare Gun Sword Weapon Knife Military Bullet",
+    "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 204
+  },
+  {
+    "word": "Knife",
+    "ipa": "naɪf",
+    "translit": "",
+    "zh": "刀 / 匕首",
+    "def": "一种有刃口的切割工具，既可用于日常生活，也可作为近战武器使用。",
+    "example": "例子：他用刀切开了绳子。",
+    "context": "Warfare Gun Sword Weapon Knife Military Bullet",
+    "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 205
+  },
+  {
+    "word": "Military",
+    "ipa": "ˈmɪləteri",
+    "translit": "",
+    "zh": "军事的 / 军队",
+    "def": "与武装力量、战争或国防相关的，也可指一个国家的军队整体。",
+    "example": "例子：该国进行了大规模的军事演习。",
+    "context": "Warfare Gun Sword Weapon Knife Military Bullet",
+    "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 206
+  },
+  {
+    "word": "Bullet",
+    "ipa": "ˈbʊlɪt",
+    "translit": "",
+    "zh": "子弹 / 弹丸",
+    "def": "由枪械发射的金属弹头，通过火药爆炸产生的推力高速射出，用于杀伤目标。",
+    "example": "例子：子弹击中了靶心。",
+    "context": "Warfare Gun Sword Weapon Knife Military Bullet",
+    "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 207
+  },
+  {
+    "word": "5.1 Surround",
+    "ipa": "",
+    "translit": "",
+    "zh": "5.1 环绕声",
+    "def": "一种多声道音频格式，使用六个声道（前左、前右、中置、后左、后右和低音炮）来营造环绕听感。",
+    "example": "例子：家庭影院系统中，子弹从后方飞过的声音通过后置声道播放。",
+    "context": "5.1 Surround Synth Fantasy Electrical Ambience Environment",
+    "contextZh": "5.1 环绕声 合成器 幻想 电的 环境氛围 环境",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 208
+  },
+  {
+    "word": "Fantasy",
+    "ipa": "ˈfæntəsi",
+    "translit": "",
+    "zh": "幻想 / 奇幻",
+    "def": "一种以魔法、神话或超自然元素为核心的虚构题材类型。",
+    "example": "例子：《指环王》中的中土世界就是典型的奇幻设定。",
+    "context": "5.1 Surround Synth Fantasy Electrical Ambience Environment",
+    "contextZh": "5.1 环绕声 合成器 幻想 电的 环境氛围 环境",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 209
+  },
+  {
+    "word": "Electrical",
+    "ipa": "ɪˈlektrɪkəl",
+    "translit": "",
+    "zh": "电的 / 电气",
+    "def": "与电或电力系统相关的形容词，常用于描述设备、工程或现象。",
+    "example": "例子：电气工程师负责设计和维护电力系统。",
+    "context": "5.1 Surround Synth Fantasy Electrical Ambience Environment",
+    "contextZh": "5.1 环绕声 合成器 幻想 电的 环境氛围 环境",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 210
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -2376,7 +2740,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 183
+    "id": 211
   },
   {
     "word": "Conga",
@@ -2389,7 +2753,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 184
+    "id": 212
   },
   {
     "word": "Percussion",
@@ -2402,7 +2766,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 185
+    "id": 213
   },
   {
     "word": "Grooves",
@@ -2415,7 +2779,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 186
+    "id": 214
   },
   {
     "word": "Bongos",
@@ -2428,7 +2792,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 187
+    "id": 215
   },
   {
     "word": "Woodblock",
@@ -2441,7 +2805,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 188
+    "id": 216
   },
   {
     "word": "Djembe",
@@ -2454,7 +2818,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 189
+    "id": 217
   },
   {
     "word": "Tambourine",
@@ -2467,7 +2831,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 190
+    "id": 218
   },
   {
     "word": "Cowbells",
@@ -2480,7 +2844,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 191
+    "id": 219
   },
   {
     "word": "Bells",
@@ -2493,7 +2857,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 192
+    "id": 220
   },
   {
     "word": "Timbales",
@@ -2506,7 +2870,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 193
+    "id": 221
   },
   {
     "word": "Keys",
@@ -2519,7 +2883,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 194
+    "id": 222
   },
   {
     "word": "Piano",
@@ -2532,7 +2896,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 195
+    "id": 223
   },
   {
     "word": "Wurlitzer",
@@ -2545,7 +2909,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 196
+    "id": 224
   },
   {
     "word": "Electric Piano",
@@ -2558,7 +2922,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 197
+    "id": 225
   },
   {
     "word": "Organ",
@@ -2571,7 +2935,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 198
+    "id": 226
   },
   {
     "word": "Clavinet",
@@ -2584,7 +2948,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 199
+    "id": 227
   },
   {
     "word": "Keys Melody",
@@ -2597,7 +2961,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 200
+    "id": 228
   },
   {
     "word": "Classical",
@@ -2610,7 +2974,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 201
+    "id": 229
   },
   {
     "word": "Female Vocals",
@@ -2623,7 +2987,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 202
+    "id": 230
   },
   {
     "word": "Vocal FX",
@@ -2636,7 +3000,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 203
+    "id": 231
   },
   {
     "word": "Vocoder",
@@ -2649,7 +3013,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 204
+    "id": 232
   },
   {
     "word": "Screams",
@@ -2662,7 +3026,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 205
+    "id": 233
   },
   {
     "word": "Whisper Vocals",
@@ -2675,7 +3039,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 206
+    "id": 234
   },
   {
     "word": "Male Vocals",
@@ -2688,7 +3052,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 207
+    "id": 235
   },
   {
     "word": "Spoken Word",
@@ -2701,7 +3065,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 208
+    "id": 236
   },
   {
     "word": "Vocal Phrases",
@@ -2714,7 +3078,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 209
+    "id": 237
   },
   {
     "word": "Vocal Shouts",
@@ -2727,7 +3091,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 210
+    "id": 238
   },
   {
     "word": "Dialogue",
@@ -2740,7 +3104,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 211
+    "id": 239
   }
 ];
 window.SOURCES = [
@@ -3094,6 +3458,169 @@ window.SOURCES = [
       {
         "word": "Body Sounds",
         "zh": "身体音效"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
+    "translation": "科幻小说",
+    "branches": [
+      {
+        "word": "Science Fiction",
+        "zh": "科幻 / 科幻小说"
+      },
+      {
+        "word": "Drones",
+        "zh": "无人机 / 持续低音"
+      },
+      {
+        "word": "Alien",
+        "zh": "外星人 / 异形的 / 陌生的"
+      },
+      {
+        "word": "Voice",
+        "zh": "声音 / 人声 / 嗓音"
+      },
+      {
+        "word": "Lasers",
+        "zh": "激光 / 激光器"
+      },
+      {
+        "word": "Spaceship",
+        "zh": "宇宙飞船 / 太空船"
+      },
+      {
+        "word": "Data",
+        "zh": "数据 / 资料"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Machines and Devices Tools Switch Bells Phone Electronics",
+    "translation": "",
+    "branches": [
+      {
+        "word": "Machines and Devices",
+        "zh": "机器与设备"
+      },
+      {
+        "word": "Tools",
+        "zh": "工具"
+      },
+      {
+        "word": "Switch",
+        "zh": "开关"
+      },
+      {
+        "word": "Bells",
+        "zh": "铃 / 钟"
+      },
+      {
+        "word": "Phone",
+        "zh": "电话"
+      },
+      {
+        "word": "Electronics",
+        "zh": "电子学 / 电子设备"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Transportation Trains Watercraft Car Aircraft Traffic",
+    "translation": "交通",
+    "branches": [
+      {
+        "word": "Transportation",
+        "zh": "运输 / 交通"
+      },
+      {
+        "word": "Trains",
+        "zh": "火车 / 列车"
+      },
+      {
+        "word": "Watercraft",
+        "zh": "船舶 / 水上交通工具"
+      },
+      {
+        "word": "Car",
+        "zh": "汽车"
+      },
+      {
+        "word": "Aircraft",
+        "zh": "航空器 / 飞机"
+      },
+      {
+        "word": "Traffic",
+        "zh": "交通 / 车流"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Warfare Gun Sword Weapon Knife Military Bullet",
+    "translation": "战争、枪、剑、武器、刀、军事、子弹",
+    "branches": [
+      {
+        "word": "Warfare",
+        "zh": "战争 / 作战"
+      },
+      {
+        "word": "Gun",
+        "zh": "枪 / 火炮"
+      },
+      {
+        "word": "Sword",
+        "zh": "剑 / 刀剑"
+      },
+      {
+        "word": "Weapon",
+        "zh": "武器 / 兵器"
+      },
+      {
+        "word": "Knife",
+        "zh": "刀 / 匕首"
+      },
+      {
+        "word": "Military",
+        "zh": "军事的 / 军队"
+      },
+      {
+        "word": "Bullet",
+        "zh": "子弹 / 弹丸"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "5.1 Surround Synth Fantasy Electrical Ambience Environment",
+    "translation": "5.1 环绕声 合成器 幻想 电的 环境氛围 环境",
+    "branches": [
+      {
+        "word": "5.1 Surround",
+        "zh": "5.1 环绕声"
+      },
+      {
+        "word": "Synth",
+        "zh": "合成器"
+      },
+      {
+        "word": "Fantasy",
+        "zh": "幻想 / 奇幻"
+      },
+      {
+        "word": "Electrical",
+        "zh": "电的 / 电气"
+      },
+      {
+        "word": "Ambience",
+        "zh": "环境氛围 / 氛围音"
+      },
+      {
+        "word": "Environment",
+        "zh": "环境"
       }
     ]
   }
