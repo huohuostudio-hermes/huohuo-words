@@ -1281,7 +1281,7 @@ function openDetail(word, back){
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${w.context?`<div class="detail"><span class="k">源自</span>${esc(w.context)}</div>`:""}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
-      ${srcCount>0?`<button class="btn" style="margin:4px 0 10px" onclick="renderSources('${esc(w.word)}','${backFn}')">📚 其他源自 · ${srcCount} 处语境</button>`:""}
+      <button class="btn" style="margin:4px 0 10px" onclick="renderSources('${esc(w.word)}','${backFn}')">📚 其他源自${srcCount>0?` · ${srcCount} 处语境`:""}</button>
       <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(catOf(w))} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
       <div class="tagsec">
         <div class="k" style="color:var(--muted);font-size:12px;margin-bottom:8px">🏷️ 标签 · 点按改分类</div>
