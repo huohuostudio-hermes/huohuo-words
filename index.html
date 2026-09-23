@@ -277,12 +277,12 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .deck-head{position:absolute;top:calc(14px + env(safe-area-inset-top));left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:0 20px}
 .deck-count{font-size:13px;color:var(--muted);font-weight:600}
 .deck-close{width:36px;height:36px;border-radius:50%;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:16px;cursor:pointer;display:grid;place-items:center}
-.deck-stage{position:relative;width:100%;max-width:340px;height:470px;perspective:1200px;touch-action:none}
+.deck-stage{position:relative;width:100%;max-width:340px;height:560px;perspective:1200px;touch-action:none}
 .pcard{position:absolute;inset:0;cursor:pointer;touch-action:none;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}
 .pcard-inner{position:absolute;inset:0;transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.1,.2,1)}
 .pcard.flipped .pcard-inner{transform:rotateY(180deg)}
 .pcard-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;border:1.5px solid var(--accent);background:linear-gradient(160deg,#0d0d0e,#080808);box-shadow:0 0 26px rgba(230,184,74,.3), inset 0 0 0 5px rgba(230,184,74,.05);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px}
-.pcard-back{transform:rotateY(180deg)}
+.pcard-back{transform:rotateY(180deg);padding-bottom:54px}
 .pcard .pcard-front{visibility:visible;transition:visibility 0s linear 0s}
 .pcard .pcard-back{visibility:hidden;transition:visibility 0s linear 0s}
 .pcard.flipped .pcard-front{visibility:hidden;transition:visibility 0s linear .3s}
@@ -303,8 +303,8 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .pc-backipa{font-size:14px;color:var(--muted);margin-top:4px}
 .pc-zh{font-size:16px;color:var(--text);margin-top:10px;font-weight:600}
 .pc-def{font-size:12px;color:var(--muted);margin-top:8px;text-align:center;line-height:1.55;max-height:74px;overflow:hidden}
-.pc-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;justify-content:center}
-.pc-actions .btn{font-size:12px;padding:7px 12px}
+.pc-actions{position:absolute;left:14px;right:14px;bottom:14px;display:flex;gap:6px;justify-content:center}
+.pc-actions .btn{font-size:10.5px;padding:7px 6px;flex:1;min-width:0}
 .pc-actions .btn.fav-on{color:var(--accent2);border-color:var(--accent);background:rgba(230,184,74,.12)}
 
 </style>
