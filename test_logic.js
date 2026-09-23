@@ -182,6 +182,13 @@ ok(fw.z>0.999, "focusWord 后选中词移到正面(+z)");
 ok(labelReveal(144,1)===0, "密集(全部)最小缩放不显示标签");
 ok(labelReveal(144,2.5)===1, "密集放大到2.5显示标签");
 ok(labelReveal(14,1)===1, "稀疏(小分类)始终显示标签");
+const rt=[{x:1,y:0,z:0},{x:0.999,y:0.045,z:0},{x:0,y:1,z:0}];
+const angB=(a,b)=>Math.acos(Math.min(1,Math.max(-1,a.x*b.x+a.y*b.y+a.z*b.z)));
+const bmin=Math.min(angB(rt[0],rt[1]),angB(rt[0],rt[2]),angB(rt[1],rt[2]));
+relaxSphere(rt, rt.length);
+const amin=Math.min(angB(rt[0],rt[1]),angB(rt[0],rt[2]),angB(rt[1],rt[2]));
+ok(amin>bmin, "relaxSphere 增大最小角距");
+ok(rt.every(p=>Math.abs(Math.hypot(p.x,p.y,p.z)-1)<1e-6), "relaxSphere 保持单位向量");
 
 // 16. 隐藏/恢复
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
@@ -191,6 +198,9 @@ ok(isHidden(WORDS[0]), "隐藏后 isHidden=true");
 ok(allWords().length===totalBefore-1, "隐藏后总词数-1");
 unhideWord(WORDS[0].word);
 ok(!isHidden(WORDS[0]), "恢复后 isHidden=false");
+delWord(WORDS[0].word, "renderList");
+ok(isHidden(WORDS[0]), "详情页 delWord 删除后 isHidden=true");
+unhideWord(WORDS[0].word);
 
 // 17. 移标签/重置
 setWordCat(WORDS[0].word,"键盘");

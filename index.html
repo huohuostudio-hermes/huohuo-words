@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-<meta name="theme-color" content="#0d1020">
+<meta name="theme-color" content="#000000">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="火火单词">
@@ -12,13 +12,13 @@
 <title>火火单词 · 音乐英语</title>
 <style>
 :root{
-  --bg:#0d1020; --bg2:#12152c; --card:#1b2040; --card2:#232a50;
-  --text:#eef0fb; --muted:#9aa0c0; --faint:#6b7196;
-  --accent:#7c6cff; --accent2:#a78bfa;
+  --bg:#000000; --bg2:#070708; --card:#0e0e10; --card2:#17171a;
+  --text:#f3eee1; --muted:#9b9381; --faint:#6a6250;
+  --accent:#e6b84a; --accent2:#ffd98a;
   --good:#34d399; --bad:#f87171; --warn:#fbbf24;
-  --border:rgba(255,255,255,.08); --border2:rgba(255,255,255,.16);
+  --border:rgba(230,184,74,.22); --border2:rgba(230,184,74,.38);
   --radius:18px;
-  --shadow:0 12px 40px rgba(0,0,0,.45);
+  --shadow:0 14px 44px rgba(0,0,0,.7);
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;padding:0}
@@ -26,9 +26,9 @@ body{
   font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","SF Pro Text",Segoe UI,Roboto,sans-serif;
   color:var(--text); background:var(--bg);
   background-image:
-    radial-gradient(900px 500px at 85% -10%, rgba(124,108,255,.28), transparent 60%),
-    radial-gradient(700px 500px at -10% 20%, rgba(167,139,250,.16), transparent 55%),
-    radial-gradient(600px 400px at 50% 110%, rgba(251,146,60,.10), transparent 60%);
+    radial-gradient(900px 520px at 85% -10%, rgba(230,184,74,.14), transparent 60%),
+    radial-gradient(700px 500px at -10% 18%, rgba(255,217,138,.07), transparent 55%),
+    radial-gradient(640px 440px at 50% 112%, rgba(230,184,74,.05), transparent 60%);
   background-attachment:fixed;
   min-height:100dvh; -webkit-user-select:none; user-select:none;
   padding-bottom:env(safe-area-inset-bottom);
@@ -39,7 +39,7 @@ body{
 header{padding:calc(14px + env(safe-area-inset-top)) 20px 10px;display:flex;align-items:center;justify-content:space-between}
 .brand{display:flex;align-items:center;gap:10px}
 .logo{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-size:20px;
-  background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 4px 16px rgba(124,108,255,.4)}
+  background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 0 16px rgba(230,184,74,.5)}
 .brand h1{font-size:19px;margin:0;font-weight:700;letter-spacing:.5px}
 .brand p{margin:0;font-size:11px;color:var(--muted);margin-top:1px}
 .streak{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--border);
@@ -73,7 +73,7 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .btn+.btn{margin-top:10px}
 .btn:active{opacity:.8}
 .btn.warn{color:var(--bad);border-color:rgba(248,113,113,.4)}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary{background:linear-gradient(135deg,var(--accent2),var(--accent));border-color:var(--accent);color:#1a1206;box-shadow:0 4px 18px rgba(230,184,74,.30)}
 .btn.small{padding:11px;font-size:14px}
 
 /* ===== 题目卡片 ===== */
@@ -83,7 +83,7 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .qipa{font-size:15px;color:var(--muted);text-align:center;margin-bottom:6px}
 .qzh{font-size:24px;font-weight:800;color:var(--accent2);text-align:center;line-height:1.4;margin:8px 0 4px}
 .speakrow{display:flex;justify-content:center;margin:6px 0}
-.speak{width:44px;height:44px;border-radius:50%;border:1px solid var(--border2);background:rgba(124,108,255,.14);
+.speak{width:44px;height:44px;border-radius:50%;border:1px solid var(--border2);background:rgba(230,184,74,.12);
   color:var(--accent2);font-size:19px;display:grid;place-items:center;cursor:pointer;transition:.2s}
 .speak:active{transform:scale(.92)}
 .qhint{text-align:center;font-size:12px;color:var(--faint);margin-top:4px}
@@ -98,9 +98,9 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .option .val{flex:1}
 .option:active{transform:scale(.98)}
 .option.correct{background:rgba(52,211,153,.16);border-color:var(--good)}
-.option.correct .key{background:var(--good);color:#0d1020;border-color:var(--good)}
+.option.correct .key{background:var(--good);color:#000;border-color:var(--good)}
 .option.wrong{background:rgba(248,113,113,.16);border-color:var(--bad)}
-.option.wrong .key{background:var(--bad);color:#0d1020;border-color:var(--bad)}
+.option.wrong .key{background:var(--bad);color:#000;border-color:var(--bad)}
 
 /* ===== 拼写 ===== */
 .spellbox{display:flex;gap:10px;margin-top:18px}
@@ -150,7 +150,7 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .chips::-webkit-scrollbar{display:none}
 .chip{flex:0 0 auto;padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;
   border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;transition:.15s}
-.chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.chip.on{background:linear-gradient(135deg,var(--accent2),var(--accent));color:#1a1206;border-color:var(--accent);box-shadow:0 0 10px rgba(230,184,74,.28)}
 .wordlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
 .worditem{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--border);
   border-radius:14px;padding:13px 16px;cursor:pointer;transition:.15s}
@@ -166,7 +166,7 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .group-actions.selbar{align-items:center}
 .group-actions .btn.small{flex:0 0 auto;padding:10px 16px}
 .selcount{flex:1;font-size:14px;font-weight:700;color:var(--accent2)}
-.chk{width:22px;height:22px;border-radius:7px;border:1.5px solid var(--border2);flex:0 0 auto;display:grid;place-items:center;font-size:14px;font-weight:800;color:#0d1020}
+.chk{width:22px;height:22px;border-radius:7px;border:1.5px solid var(--border2);flex:0 0 auto;display:grid;place-items:center;font-size:14px;font-weight:800;color:#000}
 .chk.on{background:var(--accent);border-color:var(--accent)}
 
 /* ===== 我的 ===== */
@@ -199,7 +199,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .zoombtns button{width:30px;height:30px;border-radius:9px;border:1px solid var(--border2);background:var(--card2);
   color:var(--text);font-size:14px;font-weight:700;cursor:pointer;line-height:1;display:grid;place-items:center}
 .zoombtns button:active{opacity:.7}
-.graphwrap{position:relative;overflow:hidden;border-radius:16px;background:radial-gradient(700px 400px at 50% 42%, rgba(124,108,255,.12), transparent 72%);height:420px}
+.graphwrap{position:relative;overflow:hidden;border-radius:16px;background:radial-gradient(700px 400px at 50% 42%, rgba(230,184,74,.10), transparent 72%);height:420px}
 #graphcanvas{display:block;width:100%;height:100%;touch-action:none}
 .ghint{position:absolute;top:9px;left:12px;font-size:11px;color:var(--faint);pointer-events:none;z-index:2}
 .gcaption{position:absolute;left:10px;right:10px;bottom:10px;z-index:3;display:none;align-items:center;gap:8px;
@@ -226,15 +226,16 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
   padding:10px 16px;border-radius:12px;font-size:15px;box-shadow:0 8px 24px rgba(0,0,0,.5);transform:translate(-50%,-120%)}
 .drag-handle{flex:0 0 auto;width:32px;height:32px;display:grid;place-items:center;color:var(--faint);
   cursor:grab;touch-action:none;font-size:16px;border-radius:8px;margin-left:4px}
-.drag-handle:active{color:var(--accent2);background:rgba(124,108,255,.12)}
+.drag-handle:active{color:var(--accent2);background:rgba(230,184,74,.14)}
 .fsbtn{display:flex;align-items:center;gap:4px;background:var(--card);border:1px solid var(--border);
   color:var(--text);padding:7px 12px;border-radius:999px;font-size:12px;font-weight:700;cursor:pointer}
 .fsbtn:active{opacity:.7}
 .graphcard.fullscreen{position:fixed;inset:0;z-index:300;margin:0;border-radius:0;overflow:hidden;
   background:var(--bg);padding:0;box-shadow:none;border:0}
 .graphcard.fullscreen .graphwrap{position:absolute;inset:0;height:auto;border-radius:0}
-.graphcard.fullscreen .graphhead{position:absolute;top:calc(10px + env(safe-area-inset-top));right:14px;left:auto;z-index:10;margin:0}
+.graphcard.fullscreen .graphhead{position:absolute;top:calc(10px + env(safe-area-inset-top));right:14px;left:auto;z-index:20;margin:0}
 .graphcard.fullscreen .t2{display:none}
+.graphcard.fullscreen .fsbtn{width:38px;height:38px;border-radius:50%;padding:0;justify-content:center;font-size:17px;box-shadow:0 2px 12px rgba(0,0,0,.5)}
 .graphcard.fullscreen .chips{position:absolute;top:calc(12px + env(safe-area-inset-top));left:14px;right:64px;z-index:10;margin:0}
 .graphcard.fullscreen .ghint{top:calc(60px + env(safe-area-inset-top))}
 </style>
@@ -369,7 +370,7 @@ function layoutGraph(words,edges){
   const adj=Array.from({length:n},()=>[]);
   for(const [i,j] of edges){adj[i].push(j);adj[j].push(i);}
   const K=Math.max(150,70*Math.sqrt(n));
-  const iter=Math.max(120,Math.min(300,Math.round(22000/n)));
+  const iter=Math.max(60,Math.min(180,Math.round(14000/n)));
   const repel=K*K;
   for(let it=0;it<iter;it++){
     for(let i=0;i<n;i++){let fx=0,fy=0;
@@ -401,6 +402,31 @@ function matMul(a,b){const r=[[0,0,0],[0,0,0],[0,0,0]];for(let i=0;i<3;i++)for(l
 function cross(a,b){return {x:a.y*b.z-a.z*b.y, y:a.z*b.x-a.x*b.z, z:a.x*b.y-a.y*b.x};}
 function rotAxisAngle(ax,ang){const x=ax.x,y=ax.y,z=ax.z,c=Math.cos(ang),s=Math.sin(ang),t=1-c;
   return [[t*x*x+c,t*x*y-s*z,t*x*z+s*y],[t*x*y+s*z,t*y*y+c,t*y*z-s*x],[t*x*z-s*y,t*y*z+s*x,t*z*z+c]];}
+function relaxSphere(pts, n){
+  const minAng = Math.max(0.10, Math.min(0.24, 1.7/Math.sqrt(n)));
+  for(let it=0; it<24; it++){
+    for(let i=0;i<pts.length;i++){
+      const a=pts[i];
+      for(let j=0;j<pts.length;j++){
+        if(j===i)continue;
+        const b=pts[j];
+        const dx=a.x-b.x, dy=a.y-b.y, dz=a.z-b.z;
+        const d2=dx*dx+dy*dy+dz*dz;
+        const d=Math.sqrt(d2);
+        if(d<1e-6)continue;
+        const ang=2*Math.asin(Math.min(1,d/2));
+        if(ang<minAng){
+          const f=(minAng-ang)*0.5;
+          a.x+=dx/d*f; a.y+=dy/d*f; a.z+=dz/d*f;
+        }
+      }
+    }
+    for(let i=0;i<pts.length;i++){
+      const m=Math.hypot(pts[i].x,pts[i].y,pts[i].z)||1;
+      pts[i].x/=m; pts[i].y/=m; pts[i].z/=m;
+    }
+  }
+}
 function buildSphere(force){
   gWords = chainCat==="全部" ? allWords() : allWords().filter(w=>catOf(w)===chainCat);
   const key = chainCat + "|" + gWords.map(w=>w.word).join(",");
@@ -417,6 +443,7 @@ function buildSphere(force){
     const ph=(L.pos[i].y/L.size)*Math.PI;
     return {x:Math.sin(ph)*Math.cos(th), y:Math.cos(ph), z:Math.sin(ph)*Math.sin(th)};
   });
+  relaxSphere(gSph, gWords.length);
   gRot = rotAxisAngle({x:1,y:0,z:0}, -0.3);
   gSelWord = null;
   gCache = {key, words:gWords.slice(), edges:gEdges, sph:gSph};
@@ -448,7 +475,7 @@ function renderGraph(){
   gCtx.lineWidth=1;
   for(const e of gEdges){
     const a=P[e[0]],b=P[e[1]],d=(a.depth+b.depth)/2;
-    gCtx.strokeStyle="rgba(124,108,255,"+(0.08+0.30*d).toFixed(3)+")";
+    gCtx.strokeStyle="rgba(230,184,74,"+(0.08+0.32*d).toFixed(3)+")";
     gCtx.beginPath();gCtx.moveTo(a.sx,a.sy);gCtx.lineTo(b.sx,b.sy);gCtx.stroke();
   }
   const reveal=labelReveal(gWords.length, gK);
@@ -456,7 +483,7 @@ function renderGraph(){
   for(const i of order){
     const w=gWords[i], p=P[i];
     const st=cardState(w);
-    const col=st==="mastered"?"#6ee7b7":st==="learning"?"#fcd34d":"#aab0d0";
+    const col=st==="mastered"?"#6ee7b7":st==="learning"?"#fcd34d":"#a9a396";
     const sel=gSelWord===w.word;
     const alpha=0.35+0.65*p.depth;
     const r=(sel?8:5.5)*p.factor;
@@ -604,7 +631,7 @@ function toggleFullscreen(){
   const card=document.querySelector("#graphCard");
   if(card)card.classList.toggle("fullscreen",gFullscreen);
   const btn=document.querySelector("#fsBtn");
-  if(btn)btn.textContent=gFullscreen?"✕ 退出全屏":"⛶ 全屏";
+  if(btn)btn.textContent=gFullscreen?"✕":"⛶ 全屏";
   setTimeout(()=>{sizeCanvas();renderGraph();},0);
 }
 
@@ -1133,7 +1160,15 @@ function openDetail(word, back){
     <div class="group-actions">
       <button class="btn primary" onclick="learnThis('${esc(w.word)}')">📖 学习</button>
       <button class="btn" onclick="reviewThis('${esc(w.word)}')">🔁 复习</button>
+    </div>
+    <div class="group-actions">
+      <button class="btn warn" onclick="delWord('${esc(w.word)}','${backFn}')">🗑️ 删除单词</button>
     </div>`;
+}
+function delWord(word, back){
+  if(!confirm("删除这个单词？删除后可在「我的 → 已删除」中恢复"))return;
+  hideWord(word);
+  if(back==="renderMenu")renderMenu(); else renderList();
 }
 function reTag(word, cat, back){
   const w=WORDS.find(x=>x.word===word); if(!w)return;
