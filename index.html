@@ -151,6 +151,7 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 .chip{flex:0 0 auto;padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;
   border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;transition:.15s}
 .chip.on{background:linear-gradient(135deg,var(--accent2),var(--accent));color:#1a1206;border-color:var(--accent);box-shadow:0 0 10px rgba(230,184,74,.28)}
+mark,.hl{background:rgba(230,184,74,.22);color:var(--accent2);padding:1px 3px;border-radius:4px;font-weight:600}
 .wordlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
 .worditem{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--border);
   border-radius:14px;padding:13px 16px;cursor:pointer;transition:.15s}
@@ -1103,6 +1104,13 @@ function updateBadge(){
 let curCat="全部",curQuery="";
 let listSelectMode=false;
 let listSelected=new Set();
+let listScrollY=0,restoreListScroll=false;
+function getScrollY(){return window.pageYOffset||document.documentElement.scrollTop||document.body.scrollTop||0;}
+function openDetailFromList(word){
+  listScrollY=getScrollY();
+  restoreListScroll=true;
+  openDetail(word,"renderList");
+}
 function renderList(){
   const main=$("#main");
   const chips=CATS.map(c=>`<div class="chip ${c===curCat?"on":""}" onclick="setCat('${c}')">${c}</div>`).join("");
@@ -1124,6 +1132,10 @@ function renderList(){
     <div class="wordlist" id="list"></div>`;
   openSwipeWord=null;
   renderListItems();
+  if(restoreListScroll){
+    restoreListScroll=false;
+    requestAnimationFrame(()=>window.scrollTo(0,listScrollY));
+  }
 }
 function renderListItems(){
   const q=curQuery.trim().toLowerCase();
@@ -1160,7 +1172,7 @@ function renderListItems(){
            onpointermove="itemMove(event,'${esc(w.word)}')"
            onpointerup="itemUp(event,'${esc(w.word)}')"
            onpointercancel="itemUp(event,'${esc(w.word)}')"
-           onclick="openDetail('${esc(w.word)}')">
+           onclick="openDetailFromList('${esc(w.word)}')">
         <span class="dot ${dot}"></span>
         <span class="w">${esc(w.word)}</span>
         <span class="z">${esc(w.zh)}</span>
@@ -1204,11 +1216,54 @@ function currentListWords(){
 }
 function setCat(c){curCat=c;renderList();}
 function onSearch(v){curQuery=v;renderListItems();}
+function escapeRe(s){return String(s).replace(/[.*+?^${}()|[\]\\]/g,"\\$&");}
+function sourcesOf(w){
+  const key=(w.word||"").toLowerCase();
+  if(!key)return [];
+  return (window.SOURCES||[]).filter(s=>
+    (s.branches||[]).some(b=>{
+      const bw=(b.word||"").toLowerCase();
+      return bw===key || new RegExp("\\b"+escapeRe(key)+"\\b","i").test(bw);
+    })
+  );
+}
+function hlText(text, word){
+  const escText=esc(text||"");
+  if(!word)return escText;
+  return escText.replace(new RegExp("("+escapeRe(word)+")","gi"),'<mark class="hl">$1</mark>');
+}
+function sourceCard(s,w){
+  const branches=(s.branches||[]).map(b=>`<span class="chip">${esc(b.word)}${b.zh?" · "+esc(b.zh):""}</span>`).join("");
+  return `<div class="menu-card" style="padding:18px;margin-top:12px">
+    <div style="font-size:14.5px;line-height:1.7">${hlText(s.text,w.word)}</div>
+    ${s.translation?`<div style="color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6">${esc(s.translation)}</div>`:""}
+    ${branches?`<div class="chips" style="margin-top:10px">${branches}</div>`:""}
+    <div style="color:var(--faint);font-size:11px;margin-top:8px">${esc(s.date||"")}</div>
+  </div>`;
+}
+function renderSources(word, back){
+  const w=WORDS.find(x=>x.word===word);if(!w)return;
+  const list=sourcesOf(w);
+  const backFn=back||"renderList";
+  $("#main").innerHTML=`
+    <div class="topbar">
+      <button class="backbtn" onclick="openDetail('${esc(w.word)}','${backFn}')">← 返回</button>
+      <div class="t">其他源自</div>
+    </div>
+    <div class="qcard" style="padding-bottom:14px">
+      <div class="qword" style="font-size:24px">${esc(w.word)}</div>
+      <div class="zh">${esc(w.zh)}</div>
+      <div class="detail" style="margin-top:6px;margin-bottom:0"><span class="k">共 ${list.length} 处语境</span></div>
+    </div>
+    ${list.length?list.map(s=>sourceCard(s,w)).join(""):`<div class="empty">还没有其他语境</div>`}
+  `;
+}
 function openDetail(word, back){
   if(Date.now()<suppressClickUntil)return;
   const w=WORDS.find(x=>x.word===word);if(!w)return;
   const backFn=back||"renderList";
   const c=cardOf(w);
+  const srcCount=sourcesOf(w).length;
   const stTxt={new:"未学习",learning:"学习中",mastered:"已掌握"}[cardState(w)];
   const learnedOn=c&&c.learnedOn?c.learnedOn:"—";
   const masteredOn=c&&c.masteredOn?c.masteredOn:"—";
@@ -1226,6 +1281,7 @@ function openDetail(word, back){
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${w.context?`<div class="detail"><span class="k">源自</span>${esc(w.context)}</div>`:""}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
+      ${srcCount>0?`<button class="btn" style="margin:4px 0 10px" onclick="renderSources('${esc(w.word)}','${backFn}')">📚 其他源自 · ${srcCount} 处语境</button>`:""}
       <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(catOf(w))} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
       <div class="tagsec">
         <div class="k" style="color:var(--muted);font-size:12px;margin-bottom:8px">🏷️ 标签 · 点按改分类</div>

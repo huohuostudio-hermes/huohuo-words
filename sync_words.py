@@ -16,6 +16,7 @@ import re
 
 VAULT = "/Users/xingyan/Library/Mobile Documents/iCloud~md~obsidian/Documents/火火知识库"
 WORD_DIR = os.path.join(VAULT, "英语学习")
+SOURCE_DIR = os.path.join(WORD_DIR, "原文语境")
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "words.js")
 
 MARK_RE = re.compile(r"</?mark[^>]*>", re.IGNORECASE)
@@ -148,12 +149,60 @@ def parse_file(path: str) -> list:
     return words
 
 
+def parse_source_file(path: str) -> list:
+    """解析「原文语境」目录下的长句记录文件。
+
+    格式：
+        > [!source]- 1. <mark>原文</mark>
+        > - 翻译：整段中文
+        > - 分支：why ｜ 为什么
+    """
+    with open(path, "r", encoding="utf-8") as f:
+        lines = f.read().splitlines()
+    date = os.path.basename(path).replace(".md", "")
+    sources = []
+    cur = None
+    for line in lines:
+        if line.startswith("> [!source]"):
+            if cur is not None:
+                sources.append(cur)
+            cur = {"date": date, "text": "", "translation": "", "branches": []}
+            plain = clean(line)
+            plain = re.sub(r"^>\s*\[!source\]-\s*\d+\.\s*", "", plain)
+            cur["text"] = plain.strip()
+            continue
+        if cur is not None and line.startswith("> - "):
+            bullet = clean(line[4:])
+            if bullet.startswith("翻译："):
+                cur["translation"] = bullet[len("翻译："):].strip()
+            elif bullet.startswith("分支："):
+                b = bullet[len("分支："):].strip()
+                if "｜" in b:
+                    w, zh = b.split("｜", 1)
+                    cur["branches"].append({"word": w.strip(), "zh": zh.strip()})
+                else:
+                    cur["branches"].append({"word": b.strip(), "zh": ""})
+            continue
+    if cur is not None:
+        sources.append(cur)
+    return sources
+
+
 def main():
     all_words = []
     for root, dirs, files in os.walk(WORD_DIR):
+        # 「原文语境」是长句记录，不是词条，跳过（由 parse_source_file 单独解析）
+        dirs[:] = [d for d in dirs if d != "原文语境"]
         for fn in sorted(files):
             if fn.endswith(".md"):
                 all_words.extend(parse_file(os.path.join(root, fn)))
+
+    sources = []
+    if os.path.isdir(SOURCE_DIR):
+        for root, dirs, files in os.walk(SOURCE_DIR):
+            for fn in sorted(files):
+                if fn.endswith(".md"):
+                    sources.extend(parse_source_file(os.path.join(root, fn)))
 
     # 去重：按小写单词去重，保留第一条
     seen = set()
@@ -174,6 +223,7 @@ def main():
         w["id"] = i + 1
 
     js = "window.WORDS = " + json.dumps(unique, ensure_ascii=False, indent=2) + ";\n"
+    js += "window.SOURCES = " + json.dumps(sources, ensure_ascii=False, indent=2) + ";\n"
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(js)
 
@@ -181,6 +231,7 @@ def main():
     from collections import Counter
     cats = Counter(w["category"] for w in unique)
     print(f"解析到 {len(all_words)} 条，去重后 {len(unique)} 条（跳过重复 {skipped} 条）")
+    print(f"解析到 {len(sources)} 条长句记录")
     print("分类统计：", dict(cats))
     print("输出：", OUT)
 
