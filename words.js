@@ -1989,6 +1989,383 @@ window.WORDS = [
     "id": 153
   },
   {
+    "word": "Cinematic FX",
+    "ipa": "",
+    "translit": "",
+    "zh": "电影音效",
+    "def": "指用于营造电影感、画面感和戏剧张力的音效素材，常用于预告片、配乐和氛围铺垫。",
+    "example": "例子：低频轰鸣（braam）、上升音效（riser）、冲击音（impact）等，用来增强画面的紧张感与史诗感。",
+    "context": "Cinematic FX",
+    "contextZh": "电影音效",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 154
+  },
+  {
+    "word": "Animals",
+    "ipa": "ˈænɪməlz",
+    "translit": "",
+    "zh": "动物",
+    "def": "指自然界中非植物的生物，包括哺乳动物、鸟类、爬行动物、鱼类等。",
+    "example": "例子：狮子、大象、兔子都是常见的动物。",
+    "context": "Animals Farm Insects Large Birds Dogs",
+    "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 155
+  },
+  {
+    "word": "Farm",
+    "ipa": "fɑːrm",
+    "translit": "",
+    "zh": "农场",
+    "def": "用于种植农作物或饲养牲畜的土地及设施。",
+    "example": "例子：他家在乡下有一个养鸡和种玉米的农场。",
+    "context": "Animals Farm Insects Large Birds Dogs",
+    "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 156
+  },
+  {
+    "word": "Insects",
+    "ipa": "ˈɪnsɛkts",
+    "translit": "",
+    "zh": "昆虫",
+    "def": "属于节肢动物门昆虫纲的生物，通常有六条腿和分节的身体。",
+    "example": "例子：蚂蚁、蜜蜂和蝴蝶都是常见的昆虫。",
+    "context": "Animals Farm Insects Large Birds Dogs",
+    "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 157
+  },
+  {
+    "word": "Large",
+    "ipa": "lɑːrdʒ",
+    "translit": "",
+    "zh": "大的",
+    "def": "形容体积、面积、数量或规模超过一般水平。",
+    "example": "例子：一头大象是一种体型很大的动物。",
+    "context": "Animals Farm Insects Large Birds Dogs",
+    "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 158
+  },
+  {
+    "word": "Birds",
+    "ipa": "bɜːrdz",
+    "translit": "",
+    "zh": "鸟类",
+    "def": "有羽毛、翅膀和喙的恒温脊椎动物，大多数能飞行。",
+    "example": "例子：麻雀、老鹰和鹦鹉都属于鸟类。",
+    "context": "Animals Farm Insects Large Birds Dogs",
+    "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 159
+  },
+  {
+    "word": "Dogs",
+    "ipa": "dɔːɡz",
+    "translit": "",
+    "zh": "狗",
+    "def": "一种被人类驯化的犬科哺乳动物，常作为宠物或工作动物。",
+    "example": "例子：金毛寻回犬是一种温顺的狗。",
+    "context": "Animals Farm Insects Large Birds Dogs",
+    "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 160
+  },
+  {
+    "word": "Foley",
+    "ipa": "ˈfoʊli",
+    "translit": "",
+    "zh": "拟音 / Foley音效",
+    "def": "在影视后期制作中，用日常道具模拟并录制与画面同步的声音效果，如脚步声、开门声等。",
+    "example": "例子：用椰子壳敲击地面来模拟马蹄声。",
+    "context": "Foley Paper Plastic Concrete Wood Metal Fire",
+    "contextZh": "",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 161
+  },
+  {
+    "word": "Paper",
+    "ipa": "ˈpeɪpər",
+    "translit": "",
+    "zh": "纸",
+    "def": "一种由植物纤维制成的薄片材料，常用于书写、包装等。",
+    "example": "例子：揉搓纸张发出的沙沙声常用于拟音中模拟火焰或翻页声。",
+    "context": "Foley Paper Plastic Concrete Wood Metal Fire",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 162
+  },
+  {
+    "word": "Plastic",
+    "ipa": "ˈplæstɪk",
+    "translit": "",
+    "zh": "塑料",
+    "def": "一种人工合成的高分子材料，可塑性强，广泛用于制造各种日常用品。",
+    "example": "例子：捏塑料瓶发出的咔嗒声可用于模拟科幻武器或关节活动声。",
+    "context": "Foley Paper Plastic Concrete Wood Metal Fire",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 163
+  },
+  {
+    "word": "Concrete",
+    "ipa": "ˈkɒŋkriːt",
+    "translit": "",
+    "zh": "混凝土",
+    "def": "由水泥、砂、石和水混合硬化而成的一种建筑材料，坚固耐用。",
+    "example": "例子：在混凝土墙面上摩擦鞋子可模拟粗糙地面的脚步声。",
+    "context": "Foley Paper Plastic Concrete Wood Metal Fire",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 164
+  },
+  {
+    "word": "Wood",
+    "ipa": "wʊd",
+    "translit": "",
+    "zh": "木头 / 木材",
+    "def": "来源于树木的天然材料，质地坚硬，常用于建筑、家具和乐器制造。",
+    "example": "例子：敲击木块可模拟敲门声或马蹄踏在硬地上的声音。",
+    "context": "Foley Paper Plastic Concrete Wood Metal Fire",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 165
+  },
+  {
+    "word": "Metal",
+    "ipa": "ˈmɛtəl",
+    "translit": "",
+    "zh": "金属",
+    "def": "一类具有光泽、导电导热性好的元素或合金材料，常用于制造工具和结构件。",
+    "example": "例子：抖动铁皮可模拟雷声或金属碰撞的尖锐音效。",
+    "context": "Foley Paper Plastic Concrete Wood Metal Fire",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 166
+  },
+  {
+    "word": "Fire",
+    "ipa": "ˈfaɪər",
+    "translit": "",
+    "zh": "火",
+    "def": "物质燃烧时产生的光和热的现象，在拟音中常用揉搓玻璃纸或塑料袋来模拟。",
+    "example": "例子：揉搓塑料袋发出的噼啪声可模拟篝火燃烧的声音。",
+    "context": "Foley Paper Plastic Concrete Wood Metal Fire",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 167
+  },
+  {
+    "word": "Household",
+    "ipa": "ˈhaʊshoʊld",
+    "translit": "",
+    "zh": "家庭 / 家务",
+    "def": "指与家庭生活相关的事物，也可指同住在一户人家的全体成员。",
+    "example": "例子：household chores（家务活）、household items（家庭用品）。",
+    "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
+    "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 168
+  },
+  {
+    "word": "Doors",
+    "ipa": "dɔːrz",
+    "translit": "",
+    "zh": "门",
+    "def": "建筑物或房间的出入口处可开合的装置，用于通行、隔离或防护。",
+    "example": "例子：Please close the doors.（请把门关上。）",
+    "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
+    "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 169
+  },
+  {
+    "word": "Kitchen",
+    "ipa": "ˈkɪtʃɪn",
+    "translit": "",
+    "zh": "厨房",
+    "def": "住宅中用于烹饪、备餐和存放食物的房间。",
+    "example": "例子：She is cooking in the kitchen.（她正在厨房做饭。）",
+    "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
+    "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 170
+  },
+  {
+    "word": "Cleaning",
+    "ipa": "ˈkliːnɪŋ",
+    "translit": "",
+    "zh": "清洁 / 打扫",
+    "def": "去除污垢、灰尘或杂物使环境或物品变干净的行为或过程。",
+    "example": "例子：I do the cleaning every weekend.（我每个周末打扫卫生。）",
+    "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
+    "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 171
+  },
+  {
+    "word": "Bathroom",
+    "ipa": "ˈbæθruːm",
+    "translit": "",
+    "zh": "浴室 / 卫生间",
+    "def": "住宅中用于洗澡、如厕和洗漱的房间，通常配有浴缸或淋浴、马桶和洗手池。",
+    "example": "例子：The bathroom is down the hall.（卫生间在走廊尽头。）",
+    "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
+    "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 172
+  },
+  {
+    "word": "Dining",
+    "ipa": "ˈdaɪnɪŋ",
+    "translit": "",
+    "zh": "用餐 / 进餐",
+    "def": "指吃饭的行为或与用餐相关的活动，常构成 dining room（餐厅）等词组。",
+    "example": "例子：The dining area seats six people.（用餐区可坐六个人。）",
+    "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
+    "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 173
+  },
+  {
+    "word": "Leisure",
+    "ipa": "ˈliːʒər",
+    "translit": "",
+    "zh": "休闲 / 闲暇",
+    "def": "指工作或必要事务之外可自由支配的时间，或与放松娱乐相关的活动。",
+    "example": "例子：She enjoys reading in her leisure time.（她闲暇时喜欢读书。）",
+    "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
+    "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 174
+  },
+  {
+    "word": "Human",
+    "ipa": "ˈhjuːmən",
+    "translit": "",
+    "zh": "人类 / 人声",
+    "def": "指人类发出的声音，如说话、呼吸、喊叫等，常用于影视或游戏音效中增加真实感。",
+    "example": "例子：一个人在远处喊叫的声音。",
+    "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
+    "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 175
+  },
+  {
+    "word": "Crowd",
+    "ipa": "kraʊd",
+    "translit": "",
+    "zh": "人群",
+    "def": "指多人聚集时产生的嘈杂声，如交谈、欢呼、鼓掌等混合环境声。",
+    "example": "例子：体育场里观众的欢呼声。",
+    "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
+    "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 176
+  },
+  {
+    "word": "Fight",
+    "ipa": "faɪt",
+    "translit": "",
+    "zh": "打斗 / 战斗",
+    "def": "指搏斗、冲突时产生的音效，包括拳击、撞击、喊叫等声音。",
+    "example": "例子：两个人拳拳到肉的打击声和喘息声。",
+    "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
+    "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 177
+  },
+  {
+    "word": "Movement",
+    "ipa": "ˈmuːvmənt",
+    "translit": "",
+    "zh": "动作 / 移动",
+    "def": "指人物或物体移动时产生的声音，如衣物摩擦、脚步移动等。",
+    "example": "例子：角色转身时衣服摩擦的细微声响。",
+    "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
+    "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 178
+  },
+  {
+    "word": "View all",
+    "ipa": "",
+    "translit": "",
+    "zh": "查看全部",
+    "def": "界面选项，用于展开或浏览所有可用项目。",
+    "example": "例子：点击「查看全部」以浏览完整音效列表。",
+    "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
+    "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 179
+  },
+  {
+    "word": "Footsteps",
+    "ipa": "ˈfʊtsteps",
+    "translit": "",
+    "zh": "脚步声",
+    "def": "指人行走或奔跑时脚与地面接触产生的声音，可根据地面材质变化。",
+    "example": "例子：皮鞋踩在木地板上的\"咚咚\"声。",
+    "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
+    "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 180
+  },
+  {
+    "word": "Gore",
+    "ipa": "ɡɔːr",
+    "translit": "",
+    "zh": "血腥 / 血腥音效",
+    "def": "指与血液、伤口、撕裂等相关的令人不适的音效，常用于恐怖或动作影视。",
+    "example": "例子：液体飞溅和骨骼碎裂的声响。",
+    "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
+    "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 181
+  },
+  {
+    "word": "Body Sounds",
+    "ipa": "",
+    "translit": "",
+    "zh": "身体音效",
+    "def": "指人体发出的各类声音，如心跳、呼吸、关节响动、咀嚼等。",
+    "example": "例子：紧张场景中放大的心跳声。",
+    "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
+    "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 182
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -1999,7 +2376,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 154
+    "id": 183
   },
   {
     "word": "Conga",
@@ -2012,7 +2389,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 155
+    "id": 184
   },
   {
     "word": "Percussion",
@@ -2025,7 +2402,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 156
+    "id": 185
   },
   {
     "word": "Grooves",
@@ -2038,7 +2415,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 157
+    "id": 186
   },
   {
     "word": "Bongos",
@@ -2051,7 +2428,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 158
+    "id": 187
   },
   {
     "word": "Woodblock",
@@ -2064,7 +2441,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 159
+    "id": 188
   },
   {
     "word": "Djembe",
@@ -2077,7 +2454,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 160
+    "id": 189
   },
   {
     "word": "Tambourine",
@@ -2090,7 +2467,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 161
+    "id": 190
   },
   {
     "word": "Cowbells",
@@ -2103,7 +2480,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 162
+    "id": 191
   },
   {
     "word": "Bells",
@@ -2116,7 +2493,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 163
+    "id": 192
   },
   {
     "word": "Timbales",
@@ -2129,7 +2506,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 164
+    "id": 193
   },
   {
     "word": "Keys",
@@ -2142,7 +2519,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 165
+    "id": 194
   },
   {
     "word": "Piano",
@@ -2155,7 +2532,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 166
+    "id": 195
   },
   {
     "word": "Wurlitzer",
@@ -2168,7 +2545,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 167
+    "id": 196
   },
   {
     "word": "Electric Piano",
@@ -2181,7 +2558,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 168
+    "id": 197
   },
   {
     "word": "Organ",
@@ -2194,7 +2571,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 169
+    "id": 198
   },
   {
     "word": "Clavinet",
@@ -2207,7 +2584,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 170
+    "id": 199
   },
   {
     "word": "Keys Melody",
@@ -2220,7 +2597,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 171
+    "id": 200
   },
   {
     "word": "Classical",
@@ -2233,7 +2610,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 172
+    "id": 201
   },
   {
     "word": "Female Vocals",
@@ -2246,7 +2623,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 173
+    "id": 202
   },
   {
     "word": "Vocal FX",
@@ -2259,7 +2636,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 174
+    "id": 203
   },
   {
     "word": "Vocoder",
@@ -2272,7 +2649,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 175
+    "id": 204
   },
   {
     "word": "Screams",
@@ -2285,7 +2662,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 176
+    "id": 205
   },
   {
     "word": "Whisper Vocals",
@@ -2298,7 +2675,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 177
+    "id": 206
   },
   {
     "word": "Male Vocals",
@@ -2311,7 +2688,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 178
+    "id": 207
   },
   {
     "word": "Spoken Word",
@@ -2324,7 +2701,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 179
+    "id": 208
   },
   {
     "word": "Vocal Phrases",
@@ -2337,7 +2714,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 180
+    "id": 209
   },
   {
     "word": "Vocal Shouts",
@@ -2350,7 +2727,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 181
+    "id": 210
   },
   {
     "word": "Dialogue",
@@ -2363,7 +2740,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 182
+    "id": 211
   }
 ];
 window.SOURCES = [
@@ -2562,6 +2939,161 @@ window.SOURCES = [
       {
         "word": "Weather",
         "zh": "天气"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Cinematic FX",
+    "translation": "电影音效",
+    "branches": [
+      {
+        "word": "Cinematic FX",
+        "zh": "电影音效"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Animals Farm Insects Large Birds Dogs",
+    "translation": "动物 农场 昆虫 大的 鸟类 狗",
+    "branches": [
+      {
+        "word": "Animals",
+        "zh": "动物"
+      },
+      {
+        "word": "Farm",
+        "zh": "农场"
+      },
+      {
+        "word": "Insects",
+        "zh": "昆虫"
+      },
+      {
+        "word": "Large",
+        "zh": "大的"
+      },
+      {
+        "word": "Birds",
+        "zh": "鸟类"
+      },
+      {
+        "word": "Dogs",
+        "zh": "狗"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Foley Paper Plastic Concrete Wood Metal Fire",
+    "translation": "",
+    "branches": [
+      {
+        "word": "Foley",
+        "zh": "拟音 / Foley音效"
+      },
+      {
+        "word": "Paper",
+        "zh": "纸"
+      },
+      {
+        "word": "Plastic",
+        "zh": "塑料"
+      },
+      {
+        "word": "Concrete",
+        "zh": "混凝土"
+      },
+      {
+        "word": "Wood",
+        "zh": "木头 / 木材"
+      },
+      {
+        "word": "Metal",
+        "zh": "金属"
+      },
+      {
+        "word": "Fire",
+        "zh": "火"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
+    "translation": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
+    "branches": [
+      {
+        "word": "Household",
+        "zh": "家庭 / 家务"
+      },
+      {
+        "word": "Doors",
+        "zh": "门"
+      },
+      {
+        "word": "Kitchen",
+        "zh": "厨房"
+      },
+      {
+        "word": "Cleaning",
+        "zh": "清洁 / 打扫"
+      },
+      {
+        "word": "Bathroom",
+        "zh": "浴室 / 卫生间"
+      },
+      {
+        "word": "Dining",
+        "zh": "用餐 / 进餐"
+      },
+      {
+        "word": "Leisure",
+        "zh": "休闲 / 闲暇"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
+    "translation": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "branches": [
+      {
+        "word": "Human",
+        "zh": "人类 / 人声"
+      },
+      {
+        "word": "Crowd",
+        "zh": "人群"
+      },
+      {
+        "word": "Fight",
+        "zh": "打斗 / 战斗"
+      },
+      {
+        "word": "Movement",
+        "zh": "动作 / 移动"
+      },
+      {
+        "word": "View all",
+        "zh": "查看全部"
+      },
+      {
+        "word": "Footsteps",
+        "zh": "脚步声"
+      },
+      {
+        "word": "Gore",
+        "zh": "血腥 / 血腥音效"
+      },
+      {
+        "word": "Cinematic FX",
+        "zh": "电影级特效音"
+      },
+      {
+        "word": "Body Sounds",
+        "zh": "身体音效"
       }
     ]
   }
