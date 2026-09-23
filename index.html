@@ -270,7 +270,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 <body>
 <div id="lock" class="lock" style="display:none">
   <div class="lock-card">
-    <div class="lock-logo">火</div>
+    <div class="lock-logo">🔥</div>
     <div class="lock-title">火火的英语库</div>
     <div class="lock-sub">输入密码解锁</div>
     <input id="lockInput" class="lock-input" type="password" inputmode="numeric" autocomplete="off" placeholder="••••••" onkeydown="if(event.key==='Enter')tryUnlock()">
@@ -281,7 +281,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 <div id="app">
   <header>
     <div class="brand">
-      <div class="logo">火</div>
+      <div class="logo">🔥</div>
       <div><h1>火火的英语库</h1></div>
     </div>
     <div class="streak">🔥 <span id="streakNum">0</span> 天</div>
@@ -1266,14 +1266,19 @@ let curCat="全部",curQuery="";
 let listSelectMode=false;
 let listSelected=new Set();
 let listScrollY=0,restoreListScroll=false;
+let chipsScrollX=0;
 function getScrollY(){return window.pageYOffset||document.documentElement.scrollTop||document.body.scrollTop||0;}
+function raf(fn){if(typeof requestAnimationFrame==="function")requestAnimationFrame(fn);else fn();}
+function saveChipsScroll(){const el=document.querySelector('#main .chips');if(el)chipsScrollX=el.scrollLeft;}
 function openDetailFromList(word){
   listScrollY=getScrollY();
   restoreListScroll=true;
+  saveChipsScroll();
   openDetail(word,"renderList");
 }
 function renderList(){
   if(curCat!=="全部" && !catsList().includes(curCat))curCat="全部";
+  saveChipsScroll();
   const main=$("#main");
   const chips=["全部",...catsList()].map(c=>`<div class="chip ${c===curCat?"on":""}" onclick="setCat('${esc(c)}')">${esc(c)}</div>`).join("")+`<div class="chip newtag" onclick="renderCatManager()">⚙️ 管理</div>`;
   main.innerHTML=`
@@ -1294,10 +1299,11 @@ function renderList(){
     <div class="wordlist" id="list"></div>`;
   openSwipeWord=null;
   renderListItems();
-  if(restoreListScroll){
-    restoreListScroll=false;
-    requestAnimationFrame(()=>window.scrollTo(0,listScrollY));
-  }
+  raf(()=>{
+    if(restoreListScroll){restoreListScroll=false;window.scrollTo(0,listScrollY);}
+    const cc=document.querySelector('#main .chips');
+    if(cc)cc.scrollLeft=chipsScrollX;
+  });
 }
 function renderListItems(){
   const q=curQuery.trim().toLowerCase();
@@ -1405,11 +1411,12 @@ function sourceCard(s,w){
   return `<div class="menu-card" style="padding:18px;margin-top:12px">
     <div style="font-size:14.5px;line-height:1.7">${hlText(s.text,w.word)}</div>
     ${s.translation?`<div style="color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6">${esc(s.translation)}</div>`:""}
-    ${branches?`<div class="chips" style="margin-top:10px">${branches}</div>`:""}
+    ${branches?`<div class="chips" style="margin-top:10px;flex-wrap:wrap">${branches}</div>`:""}
     <div style="color:var(--faint);font-size:11px;margin-top:8px">${esc(s.date||"")}</div>
   </div>`;
 }
 let srcCtx=null;
+let srcScrollY=0, restoreSrcScroll=false;
 function renderSources(word, back){
   const w=WORDS.find(x=>x.word===word);if(!w)return;
   srcCtx={word:word, back:back||"renderList"};
@@ -1427,12 +1434,20 @@ function renderSources(word, back){
     </div>
     ${list.length?list.map(s=>sourceCard(s,w)).join(""):`<div class="empty">还没有其他语境</div>`}
   `;
+  if(restoreSrcScroll){
+    restoreSrcScroll=false;
+    raf(()=>window.scrollTo(0,srcScrollY));
+  }
 }
 function backToSources(){
   if(srcCtx && srcCtx.word)renderSources(srcCtx.word, srcCtx.back);
   else renderList();
 }
-function openBranchWord(bw){openDetail(bw, "backToSources");}
+function openBranchWord(bw){
+  srcScrollY=getScrollY();
+  restoreSrcScroll=true;
+  openDetail(bw, "backToSources");
+}
 function contextBlock(w){
   if(!w.context)return "";
   let h=`<div class="detail"><span class="k">源自</span>${esc(w.context)}</div>`;
