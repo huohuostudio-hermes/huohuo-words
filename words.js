@@ -1488,6 +1488,66 @@ window.WORDS = [
     "id": 124
   },
   {
+    "word": "I don't know",
+    "ipa": "aɪ doʊnt noʊ",
+    "translit": "",
+    "zh": "我不知道",
+    "def": "表示对某事缺乏了解或感到困惑。",
+    "example": "例子：I don't know why she left.（我不知道她为什么离开了。）",
+    "context": "I don't know why he sounds like an advertisement",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 125
+  },
+  {
+    "word": "why",
+    "ipa": "waɪ",
+    "translit": "",
+    "zh": "为什么",
+    "def": "用于询问原因或理由。",
+    "example": "例子：Why are you late?（你为什么迟到？）",
+    "context": "I don't know why he sounds like an advertisement",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 126
+  },
+  {
+    "word": "he",
+    "ipa": "hiː",
+    "translit": "",
+    "zh": "他",
+    "def": "第三人称单数男性代词，指代前文提到的男性。",
+    "example": "例子：He is my brother.（他是我哥哥。）",
+    "context": "I don't know why he sounds like an advertisement",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 127
+  },
+  {
+    "word": "sounds like",
+    "ipa": "saʊndz laɪk",
+    "translit": "",
+    "zh": "听起来像",
+    "def": "表示根据听觉印象做出的判断或比喻。",
+    "example": "例子：That sounds like a good idea.（那听起来是个好主意。）",
+    "context": "I don't know why he sounds like an advertisement",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 128
+  },
+  {
+    "word": "an advertisement",
+    "ipa": "ən ˌædvərˈtaɪzmənt",
+    "translit": "",
+    "zh": "一则广告",
+    "def": "指宣传商品、服务或观点的公开信息，此处用作比喻，形容某人的语气像在推销。",
+    "example": "例子：His speech sounded like an advertisement.（他的讲话听起来像广告。）",
+    "context": "I don't know why he sounds like an advertisement",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 129
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -1497,7 +1557,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 125
+    "id": 130
   },
   {
     "word": "Conga",
@@ -1509,7 +1569,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 126
+    "id": 131
   },
   {
     "word": "Percussion",
@@ -1521,7 +1581,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 127
+    "id": 132
   },
   {
     "word": "Grooves",
@@ -1533,7 +1593,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 128
+    "id": 133
   },
   {
     "word": "Bongos",
@@ -1545,7 +1605,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 129
+    "id": 134
   },
   {
     "word": "Woodblock",
@@ -1557,7 +1617,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 130
+    "id": 135
   },
   {
     "word": "Djembe",
@@ -1569,7 +1629,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 131
+    "id": 136
   },
   {
     "word": "Tambourine",
@@ -1581,7 +1641,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 132
+    "id": 137
   },
   {
     "word": "Cowbells",
@@ -1593,7 +1653,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 133
+    "id": 138
   },
   {
     "word": "Bells",
@@ -1605,7 +1665,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 134
+    "id": 139
   },
   {
     "word": "Timbales",
@@ -1617,7 +1677,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 135
+    "id": 140
   },
   {
     "word": "Keys",
@@ -1629,7 +1689,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 136
+    "id": 141
   },
   {
     "word": "Piano",
@@ -1641,7 +1701,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 137
+    "id": 142
   },
   {
     "word": "Wurlitzer",
@@ -1653,7 +1713,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 138
+    "id": 143
   },
   {
     "word": "Electric Piano",
@@ -1665,7 +1725,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 139
+    "id": 144
   },
   {
     "word": "Organ",
@@ -1677,7 +1737,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 140
+    "id": 145
   },
   {
     "word": "Clavinet",
@@ -1689,7 +1749,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 141
+    "id": 146
   },
   {
     "word": "Keys Melody",
@@ -1701,7 +1761,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 142
+    "id": 147
   },
   {
     "word": "Classical",
@@ -1713,7 +1773,7 @@ window.WORDS = [
     "context": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 143
+    "id": 148
   },
   {
     "word": "Female Vocals",
@@ -1725,7 +1785,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 144
+    "id": 149
   },
   {
     "word": "Vocal FX",
@@ -1737,7 +1797,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 145
+    "id": 150
   },
   {
     "word": "Vocoder",
@@ -1749,7 +1809,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 146
+    "id": 151
   },
   {
     "word": "Screams",
@@ -1761,7 +1821,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 147
+    "id": 152
   },
   {
     "word": "Whisper Vocals",
@@ -1773,7 +1833,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 148
+    "id": 153
   },
   {
     "word": "Male Vocals",
@@ -1785,7 +1845,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 149
+    "id": 154
   },
   {
     "word": "Spoken Word",
@@ -1797,7 +1857,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 150
+    "id": 155
   },
   {
     "word": "Vocal Phrases",
@@ -1809,7 +1869,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 151
+    "id": 156
   },
   {
     "word": "Vocal Shouts",
@@ -1821,7 +1881,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 152
+    "id": 157
   },
   {
     "word": "Dialogue",
@@ -1833,6 +1893,6 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 153
+    "id": 158
   }
 ];
