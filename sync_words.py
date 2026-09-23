@@ -106,7 +106,8 @@ def parse_file(path: str) -> list:
             if cur is not None:
                 words.append(cur)
             cur = {"word": "", "ipa": "", "translit": "", "zh": "",
-                   "def": "", "example": "", "category": "音乐英语", "source": source}
+                   "def": "", "example": "", "context": "",
+                   "category": "音乐英语", "source": source}
             plain = clean(line)
             plain = re.sub(r"^>\s*\[!quote\]-\s*", "", plain)
             plain = NUM_RE.sub("", plain)
@@ -130,7 +131,11 @@ def parse_file(path: str) -> list:
 
         if cur is not None and line.startswith("> - "):
             bullet = clean(line[4:])
-            if not cur["def"]:
+            if bullet.startswith("原文："):
+                cur["context"] = bullet[len("原文："):].strip()
+            elif re.match(r"^(?:听觉)?例子", bullet):
+                cur["example"] = bullet
+            elif not cur["def"]:
                 cur["def"] = bullet
             else:
                 cur["example"] = bullet

@@ -961,6 +961,7 @@ function renderExplain(wrong){
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="zh">${esc(w.zh)}</div>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+      ${w.context?`<div class="detail"><span class="k">源自</span>${esc(w.context)}</div>`:""}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
       <button class="btn primary" onclick="nextExplain()">下一个</button>
     </div>`;
@@ -1024,6 +1025,7 @@ function toggleHint(){
       <div class="qword" style="font-size:26px;margin-top:4px">${esc(w.word)}</div>
       <div class="zh" style="font-size:18px">${esc(w.zh)}</div>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+      ${w.context?`<div class="detail"><span class="k">源自</span>${esc(w.context)}</div>`:""}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}`;
     if(btn)btn.textContent="提示";
   }
@@ -1065,6 +1067,7 @@ function renderSpellExplain(){
       <div class="answerline"><b>${esc(w.word)}</b>　${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="zh">${esc(w.zh)}</div>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+      ${w.context?`<div class="detail"><span class="k">源自</span>${esc(w.context)}</div>`:""}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <button class="btn primary" onclick="retrySpell()">再拼一次</button>
@@ -1221,6 +1224,7 @@ function openDetail(word, back){
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="zh">${esc(w.zh)}</div>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+      ${w.context?`<div class="detail"><span class="k">源自</span>${esc(w.context)}</div>`:""}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
       <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(catOf(w))} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
       <div class="tagsec">
