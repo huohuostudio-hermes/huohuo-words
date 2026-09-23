@@ -38,8 +38,8 @@ body{
 /* ===== 顶部 ===== */
 header{padding:calc(14px + env(safe-area-inset-top)) 20px 10px;display:flex;align-items:center;justify-content:space-between}
 .brand{display:flex;align-items:center;gap:10px}
-.logo{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-size:20px;
-  background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 0 16px rgba(230,184,74,.5)}
+.logo{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-size:22px;font-weight:800;
+  background:#0a0a0a;border:1.5px solid var(--accent);box-shadow:0 0 16px rgba(230,184,74,.45);color:var(--accent2);text-shadow:0 0 10px rgba(230,184,74,.7)}
 .brand h1{font-size:19px;margin:0;font-weight:700;letter-spacing:.5px}
 .brand p{margin:0;font-size:11px;color:var(--muted);margin-top:1px}
 .streak{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--border);
@@ -212,7 +212,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .tagsec .chips{flex-wrap:wrap;overflow-x:visible;padding-bottom:0;margin-bottom:0}
 .lock{position:fixed;inset:0;z-index:9999;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px}
 .lock-card{width:100%;max-width:320px;text-align:center}
-.lock-logo{font-size:56px;margin-bottom:8px;filter:drop-shadow(0 0 18px rgba(230,184,74,.55))}
+.lock-logo{font-size:56px;margin-bottom:8px;color:var(--accent2);filter:drop-shadow(0 0 18px rgba(230,184,74,.55))}
 .lock-title{font-size:24px;font-weight:800;color:var(--text);letter-spacing:1px}
 .lock-sub{font-size:13px;color:var(--muted);margin:6px 0 20px}
 .lock-input{width:100%;background:var(--card);border:1px solid var(--border2);color:var(--text);
@@ -255,7 +255,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 <body>
 <div id="lock" class="lock" style="display:none">
   <div class="lock-card">
-    <div class="lock-logo">🔥</div>
+    <div class="lock-logo">火</div>
     <div class="lock-title">火火单词</div>
     <div class="lock-sub">输入密码解锁</div>
     <input id="lockInput" class="lock-input" type="password" inputmode="numeric" autocomplete="off" placeholder="••••••" onkeydown="if(event.key==='Enter')tryUnlock()">
@@ -266,8 +266,8 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 <div id="app">
   <header>
     <div class="brand">
-      <div class="logo">🔥</div>
-      <div><h1>火火单词</h1><p>音乐制作 · 英语词汇</p></div>
+      <div class="logo">火</div>
+      <div><h1>火火单词</h1></div>
     </div>
     <div class="streak">🔥 <span id="streakNum">0</span> 天</div>
   </header>
@@ -592,7 +592,7 @@ function graphCardInner(){
       <button class="fsbtn" id="fsBtn" onclick="toggleFullscreen()">${gFullscreen?"✕ 退出全屏":"⛶ 全屏"}</button>
     </div>
     <div class="chips">${chips}</div>
-    <div class="graphwrap"><div class="ghint">${words.length} 词 · 拖动旋转 · 双指缩放 · 放大看词</div><canvas id="graphcanvas" onpointerdown="gDown(event)"></canvas><div class="gcaption" id="gcaption"></div></div>`;
+    <div class="graphwrap"><div class="ghint">${words.length} 词</div><canvas id="graphcanvas" onpointerdown="gDown(event)"></canvas><div class="gcaption" id="gcaption"></div></div>`;
 }
 function setChainCat(c){chainCat=c;gK=1;const el=$("#graphCard");if(el)el.innerHTML=graphCardInner();scheduleGraph();}
 function scheduleGraph(){setTimeout(initGraph,0);}
@@ -880,9 +880,7 @@ function menuCardHTML(target,learnedToday,pending,remain,master){
   }
   const reached=learnedToday>=target && learnedToday>0;
   if(!reached){
-    return `<h2>今日目标学习 ${target} 个单词</h2>
-      <p>新词用选择题学，学完进入拼写复习；拼错的词会反复出现，直到全会。</p>
-      ${pending>0?`<p class="note">另有 ${pending} 个已学未掌握，会一起复习</p>`:""}
+    return `${pending>0?`<p class="note">另有 ${pending} 个已学未掌握，会一起复习</p>`:""}
       <button class="btn primary" onclick="beginSession(true)">开始学习</button>`;
   }
   let html=`<h2>今日目标已达成 🎉</h2><p>今日已学 ${learnedToday} 个新词 · 已掌握 ${master} 个。</p>`;
@@ -1340,10 +1338,6 @@ function renderMe(){
         <button class="btn small" style="flex:0 0 auto;width:auto;padding:8px 12px" onclick="unhideWord('${esc(wd)}');renderMe()">恢复</button>
       </div>`).join("")}</div>
     </div>`:""}
-    <div class="panel">
-      <h3>隐私</h3>
-      <button class="btn" onclick="lockNow()">🔒 锁定 App（下次打开需密码）</button>
-    </div>
     <div class="panel">
       <h3>学习进度备份</h3>
       <button class="btn" onclick="exportData()">导出进度（复制到剪贴板）</button>
