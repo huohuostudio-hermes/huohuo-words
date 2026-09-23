@@ -1548,6 +1548,90 @@ window.WORDS = [
     "id": 129
   },
   {
+    "word": "forgot",
+    "ipa": "",
+    "translit": "",
+    "zh": "忘记了",
+    "def": "forget 的过去式，表示过去没有记住或没有做某事。",
+    "example": "例子：She forgot to lock the door.（她忘记锁门了。）",
+    "context": "I don't know why he forgot to buy milk",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 130
+  },
+  {
+    "word": "to buy",
+    "ipa": "",
+    "translit": "",
+    "zh": "去买",
+    "def": "不定式结构，表示忘记要执行的动作。",
+    "example": "例子：I forgot to buy tickets.（我忘记买票了。）",
+    "context": "I don't know why he forgot to buy milk",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 131
+  },
+  {
+    "word": "milk",
+    "ipa": "",
+    "translit": "",
+    "zh": "牛奶",
+    "def": "一种常见的白色饮品，由奶牛等动物产出。",
+    "example": "例子：He drinks a glass of milk every morning.（他每天早上喝一杯牛奶。）",
+    "context": "I don't know why he forgot to buy milk",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 132
+  },
+  {
+    "word": "why he forgot to buy milk",
+    "ipa": "",
+    "translit": "",
+    "zh": "他为什么忘了买牛奶",
+    "def": "这是一个宾语从句，表示对“他忘记买牛奶”这一行为的原因感到疑惑。",
+    "example": "例子：She asked why he forgot to buy milk. 她问他为什么忘了买牛奶。",
+    "context": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 133
+  },
+  {
+    "word": "Why did he leave his keys on the table?",
+    "ipa": "",
+    "translit": "",
+    "zh": "他为什么把钥匙留在桌子上？",
+    "def": "这是一个特殊疑问句，询问他把钥匙留在桌子上的原因。",
+    "example": "例子：Why did he leave his bag on the chair? 他为什么把包留在椅子上？",
+    "context": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 134
+  },
+  {
+    "word": "Do you know",
+    "ipa": "",
+    "translit": "",
+    "zh": "你知道",
+    "def": "用于引出间接疑问句，询问对方是否知道某事。",
+    "example": "例子：Do you know where the station is? 你知道车站在哪里吗？",
+    "context": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 135
+  },
+  {
+    "word": "why he is so tired today?",
+    "ipa": "",
+    "translit": "",
+    "zh": "他今天为什么这么累？",
+    "def": "这是一个间接疑问句，询问他今天如此疲惫的原因。",
+    "example": "例子：Do you know why she is so upset today? 你知道她今天为什么这么难过吗？",
+    "context": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 136
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -1557,7 +1641,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 130
+    "id": 137
   },
   {
     "word": "Conga",
@@ -1569,7 +1653,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 131
+    "id": 138
   },
   {
     "word": "Percussion",
@@ -1581,7 +1665,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 132
+    "id": 139
   },
   {
     "word": "Grooves",
@@ -1593,7 +1677,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 133
+    "id": 140
   },
   {
     "word": "Bongos",
@@ -1605,7 +1689,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 134
+    "id": 141
   },
   {
     "word": "Woodblock",
@@ -1617,7 +1701,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 135
+    "id": 142
   },
   {
     "word": "Djembe",
@@ -1629,7 +1713,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 136
+    "id": 143
   },
   {
     "word": "Tambourine",
@@ -1641,7 +1725,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 137
+    "id": 144
   },
   {
     "word": "Cowbells",
@@ -1653,7 +1737,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 138
+    "id": 145
   },
   {
     "word": "Bells",
@@ -1665,7 +1749,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 139
+    "id": 146
   },
   {
     "word": "Timbales",
@@ -1677,7 +1761,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 140
+    "id": 147
   },
   {
     "word": "Keys",
@@ -1689,7 +1773,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 141
+    "id": 148
   },
   {
     "word": "Piano",
@@ -1701,7 +1785,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 142
+    "id": 149
   },
   {
     "word": "Wurlitzer",
@@ -1713,7 +1797,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 143
+    "id": 150
   },
   {
     "word": "Electric Piano",
@@ -1725,7 +1809,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 144
+    "id": 151
   },
   {
     "word": "Organ",
@@ -1737,7 +1821,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 145
+    "id": 152
   },
   {
     "word": "Clavinet",
@@ -1749,7 +1833,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 146
+    "id": 153
   },
   {
     "word": "Keys Melody",
@@ -1761,7 +1845,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 147
+    "id": 154
   },
   {
     "word": "Classical",
@@ -1773,7 +1857,7 @@ window.WORDS = [
     "context": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 148
+    "id": 155
   },
   {
     "word": "Female Vocals",
@@ -1785,7 +1869,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 149
+    "id": 156
   },
   {
     "word": "Vocal FX",
@@ -1797,7 +1881,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 150
+    "id": 157
   },
   {
     "word": "Vocoder",
@@ -1809,7 +1893,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 151
+    "id": 158
   },
   {
     "word": "Screams",
@@ -1821,7 +1905,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 152
+    "id": 159
   },
   {
     "word": "Whisper Vocals",
@@ -1833,7 +1917,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 153
+    "id": 160
   },
   {
     "word": "Male Vocals",
@@ -1845,7 +1929,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 154
+    "id": 161
   },
   {
     "word": "Spoken Word",
@@ -1857,7 +1941,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 155
+    "id": 162
   },
   {
     "word": "Vocal Phrases",
@@ -1869,7 +1953,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 156
+    "id": 163
   },
   {
     "word": "Vocal Shouts",
@@ -1881,7 +1965,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 157
+    "id": 164
   },
   {
     "word": "Dialogue",
@@ -1893,7 +1977,66 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 158
+    "id": 165
   }
 ];
-window.SOURCES = [];
+window.SOURCES = [
+  {
+    "date": "2026-09-23",
+    "text": "I don't know why he forgot to buy milk",
+    "translation": "我不知道他为什么忘了买牛奶。",
+    "branches": [
+      {
+        "word": "I don't know",
+        "zh": "我不知道"
+      },
+      {
+        "word": "why",
+        "zh": "为什么"
+      },
+      {
+        "word": "he",
+        "zh": "他"
+      },
+      {
+        "word": "forgot",
+        "zh": "忘记了"
+      },
+      {
+        "word": "to buy",
+        "zh": "去买"
+      },
+      {
+        "word": "milk",
+        "zh": "牛奶"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
+    "translation": "我不知道他为什么忘了买牛奶。他为什么把钥匙留在桌子上？你知道他今天为什么这么累吗？",
+    "branches": [
+      {
+        "word": "I don't know",
+        "zh": "我不知道"
+      },
+      {
+        "word": "why he forgot to buy milk",
+        "zh": "他为什么忘了买牛奶"
+      },
+      {
+        "word": "Why did he leave his keys on the table?",
+        "zh": "他为什么把钥匙留在桌子上？"
+      },
+      {
+        "word": "Do you know",
+        "zh": "你知道"
+      },
+      {
+        "word": "why he is so tired today?",
+        "zh": "他今天为什么这么累？"
+      }
+    ]
+  }
+];
