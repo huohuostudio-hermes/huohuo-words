@@ -1632,6 +1632,42 @@ window.WORDS = [
     "id": 136
   },
   {
+    "word": "An hour of focused practice",
+    "ipa": "",
+    "translit": "",
+    "zh": "一小时专注的练习",
+    "def": "指每天投入一段固定时间进行有明确目标的练习，而非随意弹奏。",
+    "example": "例子：每天用一小时专门练习音阶和换和弦，而不是边看视频边随便弹。",
+    "context": "An hour of focused practice every day turns the fretboard from a puzzle into a second language.（每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.）",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 137
+  },
+  {
+    "word": "every day",
+    "ipa": "",
+    "translit": "",
+    "zh": "每天",
+    "def": "表示频率，强调持续性而非一次性投入。",
+    "example": "例子：与其周末练七小时，不如每天练一小时。",
+    "context": "An hour of focused practice every day turns the fretboard from a puzzle into a second language.（每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.）",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 138
+  },
+  {
+    "word": "turns the fretboard from a puzzle into a second language",
+    "ipa": "",
+    "translit": "",
+    "zh": "让指板从一个谜题变成你的第二语言",
+    "def": "比喻经过长期练习后，指板上的音位和指法不再需要刻意思考，而能像母语一样自然反应。",
+    "example": "例子：初学者找和弦要盯着指板数格子，熟练后手指自动到位，就像说母语不用想语法。",
+    "context": "An hour of focused practice every day turns the fretboard from a puzzle into a second language.（每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.）",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 139
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -1641,7 +1677,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 137
+    "id": 140
   },
   {
     "word": "Conga",
@@ -1653,7 +1689,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 138
+    "id": 141
   },
   {
     "word": "Percussion",
@@ -1665,7 +1701,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 139
+    "id": 142
   },
   {
     "word": "Grooves",
@@ -1677,7 +1713,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 140
+    "id": 143
   },
   {
     "word": "Bongos",
@@ -1689,7 +1725,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 141
+    "id": 144
   },
   {
     "word": "Woodblock",
@@ -1701,7 +1737,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 142
+    "id": 145
   },
   {
     "word": "Djembe",
@@ -1713,7 +1749,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 143
+    "id": 146
   },
   {
     "word": "Tambourine",
@@ -1725,7 +1761,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 144
+    "id": 147
   },
   {
     "word": "Cowbells",
@@ -1737,7 +1773,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 145
+    "id": 148
   },
   {
     "word": "Bells",
@@ -1749,7 +1785,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 146
+    "id": 149
   },
   {
     "word": "Timbales",
@@ -1761,7 +1797,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 147
+    "id": 150
   },
   {
     "word": "Keys",
@@ -1773,7 +1809,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 148
+    "id": 151
   },
   {
     "word": "Piano",
@@ -1785,7 +1821,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 149
+    "id": 152
   },
   {
     "word": "Wurlitzer",
@@ -1797,7 +1833,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 150
+    "id": 153
   },
   {
     "word": "Electric Piano",
@@ -1809,7 +1845,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 151
+    "id": 154
   },
   {
     "word": "Organ",
@@ -1821,7 +1857,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 152
+    "id": 155
   },
   {
     "word": "Clavinet",
@@ -1833,7 +1869,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 153
+    "id": 156
   },
   {
     "word": "Keys Melody",
@@ -1845,7 +1881,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 154
+    "id": 157
   },
   {
     "word": "Classical",
@@ -1857,7 +1893,7 @@ window.WORDS = [
     "context": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 155
+    "id": 158
   },
   {
     "word": "Female Vocals",
@@ -1869,7 +1905,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 156
+    "id": 159
   },
   {
     "word": "Vocal FX",
@@ -1881,7 +1917,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 157
+    "id": 160
   },
   {
     "word": "Vocoder",
@@ -1893,7 +1929,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 158
+    "id": 161
   },
   {
     "word": "Screams",
@@ -1905,7 +1941,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 159
+    "id": 162
   },
   {
     "word": "Whisper Vocals",
@@ -1917,7 +1953,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 160
+    "id": 163
   },
   {
     "word": "Male Vocals",
@@ -1929,7 +1965,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 161
+    "id": 164
   },
   {
     "word": "Spoken Word",
@@ -1941,7 +1977,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 162
+    "id": 165
   },
   {
     "word": "Vocal Phrases",
@@ -1953,7 +1989,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 163
+    "id": 166
   },
   {
     "word": "Vocal Shouts",
@@ -1965,7 +2001,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 164
+    "id": 167
   },
   {
     "word": "Dialogue",
@@ -1977,7 +2013,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 165
+    "id": 168
   }
 ];
 window.SOURCES = [
@@ -2036,6 +2072,25 @@ window.SOURCES = [
       {
         "word": "why he is so tired today?",
         "zh": "他今天为什么这么累？"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "An hour of focused practice every day turns the fretboard from a puzzle into a second language.（每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.）",
+    "translation": "每天一小时专注的练习，能让指板从一个谜题变成你的第二语言。",
+    "branches": [
+      {
+        "word": "An hour of focused practice",
+        "zh": "一小时专注的练习"
+      },
+      {
+        "word": "every day",
+        "zh": "每天"
+      },
+      {
+        "word": "turns the fretboard from a puzzle into a second language",
+        "zh": "让指板从一个谜题变成你的第二语言"
       }
     ]
   }
