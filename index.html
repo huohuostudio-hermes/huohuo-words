@@ -6,10 +6,10 @@
 <meta name="theme-color" content="#000000">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="火火的单词本">
+<meta name="apple-mobile-web-app-title" content="火火的英语库">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-180.png">
-<title>火火的单词本</title>
+<title>火火的英语库</title>
 <style>
 :root{
   --bg:#000000; --bg2:#070708; --card:#0e0e10; --card2:#17171a;
@@ -275,7 +275,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 <div id="lock" class="lock" style="display:none">
   <div class="lock-card">
     <div class="lock-logo">🔥</div>
-    <div class="lock-title">火火的单词本</div>
+    <div class="lock-title">火火的英语库</div>
     <div class="lock-sub">输入密码解锁</div>
     <input id="lockInput" class="lock-input" type="password" inputmode="numeric" autocomplete="off" placeholder="••••••" onkeydown="if(event.key==='Enter')tryUnlock()">
     <button class="btn primary" onclick="tryUnlock()">解锁</button>
@@ -285,8 +285,8 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 <div id="app">
   <header>
     <div class="brand">
-      <div class="logo" onclick="renderList()" title="单词本">🔥</div>
-      <div><h1>火火的单词本</h1></div>
+      <div class="logo" onclick="toggleLibrary()" title="单词本">🔥</div>
+      <div><h1 id="brandTitle">火火的英语库</h1></div>
     </div>
     <div class="hdr-right">
       <div class="streak">🔥 <span id="streakNum">0</span> 天</div>
@@ -1316,8 +1316,8 @@ function renderList(){
   const chips=["全部",...catsList()].map(c=>`<div class="chip ${c===curCat?"on":""}" onclick="setCat('${esc(c)}')">${esc(c)}</div>`).join("")+`<div class="chip newtag" onclick="renderCatManager()">⚙️ 管理</div>`;
   main.innerHTML=`
     <div class="topbar">
-      <button class="backbtn" onclick="${listSelectMode?"exitListSelect()":"switchTab('study')"}">${listSelectMode?"完成":"← 返回"}</button>
-      <div class="t">单词本${listSelectMode?" · 已选 "+listSelected.size:""}</div>
+      ${listSelectMode?`<button class="backbtn" onclick="exitListSelect()">完成</button>`:""}
+      <div class="t" style="${listSelectMode?"":"margin-right:0"}">单词本${listSelectMode?" · 已选 "+listSelected.size:""}</div>
     </div>
     ${listSelectMode?`<div class="group-actions selbar">
       <span class="selcount">已选 ${listSelected.size} 个</span>
@@ -1834,12 +1834,19 @@ function checkLock(){
 let tab="study";
 function switchTab(t){
   tab=t;
-  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.tab===t));
+  updateBrand(t);
   if(t==="study")renderStudy();
   else if(t==="list")renderList();
   else renderMe();
 }
-document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>switchTab(b.dataset.tab));
+function updateBrand(t){
+  const b=$("#brandTitle");
+  if(b)b.textContent = (t==="list") ? "火火的单词本" : "火火的英语库";
+}
+function toggleLibrary(){
+  if(tab==="list")switchTab("study");
+  else switchTab("list");
+}
 
 /* ---------- 启动 ---------- */
 if(document.addEventListener){
