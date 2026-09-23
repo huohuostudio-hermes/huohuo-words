@@ -1668,6 +1668,90 @@ window.WORDS = [
     "id": 139
   },
   {
+    "word": "daily hour",
+    "ipa": "",
+    "translit": "",
+    "zh": "每天一小时",
+    "def": "指每天固定投入的一段时间，这里特指练习时长。",
+    "example": "例子：每天练琴一小时，比周末突击五小时更有效。",
+    "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 140
+  },
+  {
+    "word": "guitar",
+    "ipa": "ɡɪˈtɑːr",
+    "translit": "",
+    "zh": "吉他",
+    "def": "一种六弦弹拨乐器，广泛用于流行、摇滚、民谣等风格。",
+    "example": "例子：他每天抱着吉他练音阶。",
+    "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 141
+  },
+  {
+    "word": "builds",
+    "ipa": "",
+    "translit": "",
+    "zh": "建立 / 培养",
+    "def": "表示通过持续积累逐步形成某种能力或习惯。",
+    "example": "例子：反复练习能培养稳定的节奏感。",
+    "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 142
+  },
+  {
+    "word": "muscle memory",
+    "ipa": "ˈmʌsəl ˈmeməri",
+    "translit": "",
+    "zh": "肌肉记忆",
+    "def": "指通过反复练习让动作变成本能反应，无需刻意思考即可完成。",
+    "example": "例子：熟练的吉他手换和弦时几乎不用看指板。",
+    "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 143
+  },
+  {
+    "word": "needed",
+    "ipa": "",
+    "translit": "",
+    "zh": "所需的",
+    "def": "表示某事物为实现特定目的而必需。",
+    "example": "例子：流畅演奏所需的协调性来自长期练习。",
+    "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 144
+  },
+  {
+    "word": "effortless",
+    "ipa": "ˈefərtləs",
+    "translit": "",
+    "zh": "轻松自如的 / 毫不费力的",
+    "def": "形容动作或表现看起来自然流畅，没有明显用力感。",
+    "example": "例子：他弹奏那段独奏时显得轻松自如。",
+    "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 145
+  },
+  {
+    "word": "expression",
+    "ipa": "ɪkˈspreʃən",
+    "translit": "",
+    "zh": "表达 / 表现力",
+    "def": "指在演奏中传递情感与音乐意图的能力。",
+    "example": "例子：技巧只是基础，真正的音乐在于表达。",
+    "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 146
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -1677,7 +1761,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 140
+    "id": 147
   },
   {
     "word": "Conga",
@@ -1689,7 +1773,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 141
+    "id": 148
   },
   {
     "word": "Percussion",
@@ -1701,7 +1785,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 142
+    "id": 149
   },
   {
     "word": "Grooves",
@@ -1713,7 +1797,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 143
+    "id": 150
   },
   {
     "word": "Bongos",
@@ -1725,7 +1809,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 144
+    "id": 151
   },
   {
     "word": "Woodblock",
@@ -1737,7 +1821,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 145
+    "id": 152
   },
   {
     "word": "Djembe",
@@ -1749,7 +1833,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 146
+    "id": 153
   },
   {
     "word": "Tambourine",
@@ -1761,7 +1845,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 147
+    "id": 154
   },
   {
     "word": "Cowbells",
@@ -1773,7 +1857,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 148
+    "id": 155
   },
   {
     "word": "Bells",
@@ -1785,7 +1869,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 149
+    "id": 156
   },
   {
     "word": "Timbales",
@@ -1797,7 +1881,7 @@ window.WORDS = [
     "context": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 150
+    "id": 157
   },
   {
     "word": "Keys",
@@ -1809,7 +1893,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 151
+    "id": 158
   },
   {
     "word": "Piano",
@@ -1821,7 +1905,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 152
+    "id": 159
   },
   {
     "word": "Wurlitzer",
@@ -1833,7 +1917,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 153
+    "id": 160
   },
   {
     "word": "Electric Piano",
@@ -1845,7 +1929,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 154
+    "id": 161
   },
   {
     "word": "Organ",
@@ -1857,7 +1941,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 155
+    "id": 162
   },
   {
     "word": "Clavinet",
@@ -1869,7 +1953,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 156
+    "id": 163
   },
   {
     "word": "Keys Melody",
@@ -1881,7 +1965,7 @@ window.WORDS = [
     "context": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 157
+    "id": 164
   },
   {
     "word": "Classical",
@@ -1893,7 +1977,7 @@ window.WORDS = [
     "context": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 158
+    "id": 165
   },
   {
     "word": "Female Vocals",
@@ -1905,7 +1989,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 159
+    "id": 166
   },
   {
     "word": "Vocal FX",
@@ -1917,7 +2001,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 160
+    "id": 167
   },
   {
     "word": "Vocoder",
@@ -1929,7 +2013,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 161
+    "id": 168
   },
   {
     "word": "Screams",
@@ -1941,7 +2025,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 162
+    "id": 169
   },
   {
     "word": "Whisper Vocals",
@@ -1953,7 +2037,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 163
+    "id": 170
   },
   {
     "word": "Male Vocals",
@@ -1965,7 +2049,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 164
+    "id": 171
   },
   {
     "word": "Spoken Word",
@@ -1977,7 +2061,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 165
+    "id": 172
   },
   {
     "word": "Vocal Phrases",
@@ -1989,7 +2073,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 166
+    "id": 173
   },
   {
     "word": "Vocal Shouts",
@@ -2001,7 +2085,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 167
+    "id": 174
   },
   {
     "word": "Dialogue",
@@ -2013,7 +2097,7 @@ window.WORDS = [
     "context": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 168
+    "id": 175
   }
 ];
 window.SOURCES = [
@@ -2091,6 +2175,41 @@ window.SOURCES = [
       {
         "word": "turns the fretboard from a puzzle into a second language",
         "zh": "让指板从一个谜题变成你的第二语言"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "text": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
+    "translation": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
+    "branches": [
+      {
+        "word": "daily hour",
+        "zh": "每天一小时"
+      },
+      {
+        "word": "guitar",
+        "zh": "吉他"
+      },
+      {
+        "word": "builds",
+        "zh": "建立 / 培养"
+      },
+      {
+        "word": "muscle memory",
+        "zh": "肌肉记忆"
+      },
+      {
+        "word": "needed",
+        "zh": "所需的"
+      },
+      {
+        "word": "effortless",
+        "zh": "轻松自如的 / 毫不费力的"
+      },
+      {
+        "word": "expression",
+        "zh": "表达 / 表现力"
       }
     ]
   }
