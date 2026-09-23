@@ -107,7 +107,7 @@ def parse_file(path: str) -> list:
             if cur is not None:
                 words.append(cur)
             cur = {"word": "", "ipa": "", "translit": "", "zh": "",
-                   "def": "", "example": "", "context": "",
+                   "def": "", "example": "", "context": "", "contextZh": "",
                    "category": "音乐英语", "source": source}
             plain = clean(line)
             plain = re.sub(r"^>\s*\[!quote\]-\s*", "", plain)
@@ -134,6 +134,8 @@ def parse_file(path: str) -> list:
             bullet = clean(line[4:])
             if bullet.startswith("原文："):
                 cur["context"] = bullet[len("原文："):].strip()
+            elif bullet.startswith("翻译："):
+                cur["contextZh"] = bullet[len("翻译："):].strip()
             elif re.match(r"^(?:听觉)?例子", bullet):
                 cur["example"] = bullet
             elif not cur["def"]:
@@ -188,6 +190,14 @@ def parse_source_file(path: str) -> list:
     return sources
 
 
+def split_inline_translation(text):
+    """把结尾括号里的中文翻译拆出来，返回 (剩余原文, 翻译)。"""
+    m = re.search(r"[（(]([^（()）]*[\u4e00-\u9fa5][^（()）]*)[)）]\s*$", text)
+    if m:
+        return text[:m.start()].strip(), m.group(1).strip()
+    return text.strip(), ""
+
+
 def main():
     all_words = []
     for root, dirs, files in os.walk(WORD_DIR):
@@ -221,6 +231,25 @@ def main():
 
     for i, w in enumerate(unique):
         w["id"] = i + 1
+
+    # 给「源自」补译文：先拆内联括号中文，再匹配「原文语境」的整句翻译
+    trans_map = {}
+    for src in sources:
+        key = re.sub(r"\s+", " ", src.get("text", "")).strip().lower()
+        if key and src.get("translation"):
+            trans_map[key] = src["translation"]
+    for w in unique:
+        ctx = (w.get("context") or "").strip()
+        if not ctx or (w.get("contextZh") or "").strip():
+            continue
+        rest, inline = split_inline_translation(ctx)
+        if inline:
+            w["context"] = rest
+            w["contextZh"] = inline
+        else:
+            key = re.sub(r"\s+", " ", ctx).strip().lower()
+            if key in trans_map:
+                w["contextZh"] = trans_map[key]
 
     js = "window.WORDS = " + json.dumps(unique, ensure_ascii=False, indent=2) + ";\n"
     js += "window.SOURCES = " + json.dumps(sources, ensure_ascii=False, indent=2) + ";\n"

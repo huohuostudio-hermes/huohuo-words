@@ -240,6 +240,55 @@ ok(session.mcqQueue.length===currentListWords().length, "actListSelected(learn) 
 renderOK("renderList(退出多选)", ()=>{ exitListSelect(); });
 ok(listSelectMode===false, "exitListSelect 后 listSelectMode=false");
 
+
+// 21. 收藏
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+ok(isFav(WORDS[0])===false, "初始未收藏");
+toggleFav(WORDS[0].word);
+ok(isFav(WORDS[0])===true, "收藏后 isFav=true");
+ok(favCount()===1, "favCount=1");
+toggleFav(WORDS[0].word);
+ok(favCount()===0, "取消收藏 favCount=0");
+toggleFav(WORDS[1].word);
+renderOK("renderFavs(有收藏)", ()=>renderFavs());
+enterFavSelect();
+toggleFavWord(WORDS[1].word);
+ok(favSelected.size===1, "收藏多选勾选1");
+actFavSelected("review");
+ok(session.spellQueue.length===1, "收藏复习所选1词");
+exitFavSelect();
+
+// 22. 自定义标签
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+addTag("女朋友的歌");
+ok(allTags().includes("女朋友的歌"), "addTag 后 allTags 含新标签");
+ok(allTags().length===1, "allTags.length=1");
+toggleWordTag(WORDS[0].word, "女朋友的歌");
+ok(tagsOf(WORDS[0]).includes("女朋友的歌"), "toggleWordTag 打标签");
+toggleWordTag(WORDS[0].word, "女朋友的歌");
+ok(!tagsOf(WORDS[0]).includes("女朋友的歌"), "再 toggle 取消标签");
+toggleWordTag(WORDS[1].word, "女朋友的歌");
+removeTag("女朋友的歌");
+ok(allTags().length===0, "removeTag 后标签清空");
+ok(tagsOf(WORDS[1]).length===0, "removeTag 同时清掉词上的标签");
+curTag=null;
+renderOK("renderList(含标签栏)", ()=>renderList());
+
+// 23. 词网收起
+graphCollapsed=true;
+let ghtml=graphCardInner();
+ok(String(ghtml).indexOf("已收起")>=0, "收起态含「已收起」");
+ok(String(ghtml).indexOf("graphwrap")<0, "收起态不含 graphwrap");
+graphCollapsed=false;
+ghtml=graphCardInner();
+ok(String(ghtml).indexOf("graphwrap")>=0, "展开态含 graphwrap");
+ok(String(ghtml).indexOf("已收起")<0, "展开态不含「已收起」");
+
+// 24. contextBlock 译文
+ok(contextBlock({context:"I don't know why he forgot to buy milk", contextZh:"我不知道他为什么忘了买牛奶。"}).indexOf("译文")>=0, "有 contextZh 时含译文");
+ok(contextBlock({context:"x", contextZh:""}).indexOf("译文")<0, "无 contextZh 时不显示译文");
+ok(contextBlock({context:""})==="", "无 context 时返回空");
+
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;
 `;
