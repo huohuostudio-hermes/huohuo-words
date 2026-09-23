@@ -1240,7 +1240,14 @@ function submitSpell(){
     session.wordWrong=true;
     inp.classList.add("no");
     const fb=$("#fb");
-    fb.textContent=(session.hintUsed&&spelledRight)?"💡 用了提示，需再拼一次":"✗ 不对";
+    if(spelledRight && session.hintUsed){
+      const twoHints=session.hintLevel>=2;
+      session.spellExplainNote=twoHints?"hint2":"hint1";
+      fb.textContent=twoHints?"用了两次提示，请重新拼写":"用了提示，请重新拼写";
+    }else{
+      session.spellExplainNote="wrong";
+      fb.textContent="✗ 不对";
+    }
     fb.className="feedback no";
     setTimeout(renderSpellExplain,700);
   }
@@ -1254,10 +1261,13 @@ function nextSpell(){
 }
 function renderSpellExplain(){
   const w=session.current;
-  $("#main").innerHTML=`
+  const note=session.spellExplainNote==="hint1"||session.spellExplainNote==="hint2"
+    ? `<div class="rightnote">✓ 正确　${session.spellExplainNote==="hint2"?"用了两次提示，请重新拼写":"用了提示，请重新拼写"}</div>`
+    : `<div class="wrongnote">✗ 正确答案：</div>`;
+  $("main").innerHTML=`
     <div class="qphase">· 拼写复习 ·</div>
     <div class="explain">
-      <div class="wrongnote">✗ 正确答案：</div>
+      ${note}
       <div class="answerline"><b>${esc(w.word)}</b>　${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="zh">${esc(w.zh)}</div>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
