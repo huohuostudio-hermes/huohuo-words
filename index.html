@@ -278,11 +278,15 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .deck-count{font-size:13px;color:var(--muted);font-weight:600}
 .deck-close{width:36px;height:36px;border-radius:50%;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:16px;cursor:pointer;display:grid;place-items:center}
 .deck-stage{position:relative;width:100%;max-width:340px;height:470px;perspective:1200px;touch-action:none}
-.pcard{position:absolute;inset:0;cursor:pointer;touch-action:none;transform-style:preserve-3d}
-.pcard-inner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.1,.2,1)}
+.pcard{position:absolute;inset:0;cursor:pointer;touch-action:none;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}
+.pcard-inner{position:absolute;inset:0;transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.1,.2,1)}
 .pcard.flipped .pcard-inner{transform:rotateY(180deg)}
-.pcard-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;border:1.5px solid var(--accent);background:linear-gradient(160deg,#0d0d0e,#080808);box-shadow:0 0 26px rgba(230,184,74,.3), inset 0 0 0 5px rgba(230,184,74,.05);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;padding:20px}
+.pcard-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;border:1.5px solid var(--accent);background:linear-gradient(160deg,#0d0d0e,#080808);box-shadow:0 0 26px rgba(230,184,74,.3), inset 0 0 0 5px rgba(230,184,74,.05);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px}
 .pcard-back{transform:rotateY(180deg)}
+.pcard .pcard-front{visibility:visible;transition:visibility 0s linear 0s}
+.pcard .pcard-back{visibility:hidden;transition:visibility 0s linear 0s}
+.pcard.flipped .pcard-front{visibility:hidden;transition:visibility 0s linear .3s}
+.pcard.flipped .pcard-back{visibility:visible;transition:visibility 0s linear .3s}
 @keyframes deckIn{from{transform:translateX(46px);opacity:0}to{transform:translateX(0);opacity:1}}
 .pcard.in{animation:deckIn .28s ease-out}
 .pc-word{position:relative;z-index:1;font-size:34px;font-weight:800;color:var(--accent2);letter-spacing:1px;text-shadow:0 0 14px rgba(230,184,74,.5)}
@@ -294,6 +298,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .pc-corner.bl{bottom:12px;left:14px}
 .pc-suit{font-size:22px}
 .pc-suit-bg{position:absolute;inset:0;display:grid;place-items:center;font-size:118px;color:var(--accent2);opacity:.13;pointer-events:none;z-index:0}
+.pcard-back .pc-backword,.pcard-back .pc-backipa,.pcard-back .pc-zh,.pcard-back .pc-def,.pcard-back .pc-actions,.pcard-back .speakrow{position:relative;z-index:1}
 .pc-backword{font-size:26px;font-weight:800;color:var(--accent2);text-shadow:0 0 12px rgba(230,184,74,.4)}
 .pc-backipa{font-size:14px;color:var(--muted);margin-top:4px}
 .pc-zh{font-size:16px;color:var(--text);margin-top:10px;font-weight:600}
@@ -1941,6 +1946,7 @@ function renderDeckCard(animate){
   const back=`<div class="pcard-face pcard-back">
       <div class="pc-corner tr">🔥<span class="pc-suit">${suit}</span></div>
       <div class="pc-corner bl">🔥<span class="pc-suit">${suit}</span></div>
+      <div class="pc-suit-bg">${suit}</div>
       <div class="pc-backword">${esc(w.word)}</div>
       <div class="pc-backipa">${w.ipa?esc(w.ipa):""}</div>
       <div class="speakrow" style="margin:8px 0 4px"><button class="speak" onclick="event.stopPropagation();${speakArg(w)}">🔊</button></div>
