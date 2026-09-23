@@ -258,23 +258,34 @@ actFavSelected("review");
 ok(session.spellQueue.length===1, "收藏复习所选1词");
 exitFavSelect();
 
-// 22. 自定义标签
+// 22. 单词本（分类）管理：改名 / 新建 / 删除
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
-addTag("女朋友的歌");
-ok(allTags().includes("女朋友的歌"), "addTag 后 allTags 含新标签");
-ok(allTags().length===1, "allTags.length=1");
-toggleWordTag(WORDS[0].word, "女朋友的歌");
-ok(tagsOf(WORDS[0]).includes("女朋友的歌"), "toggleWordTag 打标签");
-toggleWordTag(WORDS[0].word, "女朋友的歌");
-ok(!tagsOf(WORDS[0]).includes("女朋友的歌"), "再 toggle 取消标签");
-toggleWordTag(WORDS[1].word, "女朋友的歌");
-removeTag("女朋友的歌");
-ok(allTags().length===0, "removeTag 后标签清空");
-ok(tagsOf(WORDS[1]).length===0, "removeTag 同时清掉词上的标签");
-curTag=null;
-renderOK("renderList(含标签栏)", ()=>renderList());
+ok(catName("打击乐")==="打击乐", "未改名 catName 返回原名");
+ok(catsList().includes("打击乐"), "catsList 含基础分类");
+progress.catNames={"打击乐":"鼓组"};
+ok(catName("打击乐")==="鼓组", "改名后 catName=鼓组");
+ok(catsList().includes("鼓组") && !catsList().includes("打击乐"), "catsList 显示新名");
+const _drum=WORDS.find(w=>w.category==="打击乐");
+ok(_drum && catOf(_drum)==="鼓组", "改名后 catOf 返回新名");
+progress.catNames={};
+ok(addCat("女朋友的歌")===true, "addCat 新增自定义单词本");
+ok(progress.customCats.includes("女朋友的歌"), "customCats 含新单词本");
+ok(catsList().includes("女朋友的歌"), "catsList 含自定义");
+addCat("女朋友的歌"); // 重复应拒绝
+ok(progress.customCats.length===1, "重复 addCat 被拒绝");
+setWordCat(WORDS[0].word, "女朋友的歌");
+delCat("女朋友的歌");
+ok(!catsList().includes("女朋友的歌"), "delCat 后不在列表");
+ok(!progress.catOverride[WORDS[0].word], "delCat 清掉该分类下的 catOverride");
+renderOK("renderCatManager", ()=>renderCatManager());
+progress.catNames={}; progress.customCats=[]; curCat="全部";
+renderOK("renderList(带管理chip)", ()=>renderList());
 
-// 23. 词网收起
+// 23. 其他源自分支可点（openBranchWord/backToSources 存在且不抛错）
+renderOK("renderSources", ()=>renderSources(WORDS[0].word, "renderList"));
+ok(typeof openBranchWord==="function" && typeof backToSources==="function", "openBranchWord/backToSources 已定义");
+
+// 24. 词网收起
 graphCollapsed=true;
 let ghtml=graphCardInner();
 ok(String(ghtml).indexOf("已收起")>=0, "收起态含「已收起」");
@@ -284,7 +295,7 @@ ghtml=graphCardInner();
 ok(String(ghtml).indexOf("graphwrap")>=0, "展开态含 graphwrap");
 ok(String(ghtml).indexOf("已收起")<0, "展开态不含「已收起」");
 
-// 24. contextBlock 译文
+// 25. contextBlock 译文
 ok(contextBlock({context:"I don't know why he forgot to buy milk", contextZh:"我不知道他为什么忘了买牛奶。"}).indexOf("译文")>=0, "有 contextZh 时含译文");
 ok(contextBlock({context:"x", contextZh:""}).indexOf("译文")<0, "无 contextZh 时不显示译文");
 ok(contextBlock({context:""})==="", "无 context 时返回空");

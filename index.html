@@ -252,16 +252,19 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .graphcard.fullscreen .chips{position:absolute;top:calc(12px + env(safe-area-inset-top));left:14px;right:64px;z-index:10;margin:0}
 .graphcard.fullscreen .ghint{top:calc(60px + env(safe-area-inset-top))}
 
-/* ===== 收藏 / 自定义标签 / 词网收起 ===== */
+/* ===== 收藏 / 词网收起 / 单词本管理 ===== */
 .favbtn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--border2);background:var(--card);color:var(--faint);font-size:20px;cursor:pointer;display:grid;place-items:center;transition:.15s}
 .favbtn.on{color:#ffd98a;border-color:var(--accent);background:rgba(230,184,74,.15);box-shadow:0 0 12px rgba(230,184,74,.25)}
 .favbtn:active{transform:scale(.92)}
-.tagbar{display:flex;align-items:center;gap:8px;margin:0 0 8px}
-.tagbar-lbl{font-size:11px;color:var(--faint);font-weight:700;letter-spacing:.5px;flex:0 0 auto}
-.tagbar .chips{flex:1;min-width:0;margin:0;padding-bottom:0}
 .chip.newtag{border-style:dashed;color:var(--accent2);border-color:var(--border2)}
-.tagx{margin-left:6px;padding:0 4px;color:var(--faint);font-weight:800;cursor:pointer;font-size:13px}
 .detail.trans{font-size:13.5px;line-height:1.6;color:var(--muted);background:rgba(230,184,74,.05);border-left:2px solid var(--border2);border-radius:0 10px 10px 0;padding:8px 12px;margin:-6px 0 12px}
+.graphcard.fullscreen .collbtn{display:none}
+.catrow{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:10px 12px;margin-bottom:8px}
+.catrow .catname{flex:1;font-size:14px;font-weight:600;word-break:break-word}
+.catrow .btn{flex:0 0 auto;width:auto;padding:8px 12px;font-size:13px}
+.catrow .btn+.btn{margin-top:0;margin-left:6px}
+.catinput{flex:1;background:var(--card2);border:1.5px solid var(--border2);border-radius:10px;padding:10px 12px;font-size:14px;color:var(--text);outline:none}
+.catinput:focus{border-color:var(--accent)}
 </style>
 </head>
 <body>
@@ -307,7 +310,7 @@ function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor
 
 /* ---------- 用户自定义（隐藏/移标签） ---------- */
 function isHidden(w){return (progress.hidden||[]).includes(w.word);}
-function catOf(w){return (progress.catOverride||{})[w.word]||w.category;}
+function catOf(w){return catName((progress.catOverride||{})[w.word]||w.category);}
 function allWords(){return WORDS.filter(w=>!isHidden(w));}
 function hideWord(word){
   if(!progress.hidden)progress.hidden=[];
@@ -339,50 +342,116 @@ function toggleFav(word){
   save();
 }
 
-/* ---------- 自定义标签 ---------- */
-let curTag=null;
-function allTags(){return progress.tags||[];}
-function tagsOf(w){return (progress.wordTags||{})[w.word]||[];}
-function addTag(name){
-  name=String(name||"").trim();if(!name)return;
-  if(!progress.tags)progress.tags=[];
-  if(progress.tags.includes(name)){alert("标签已存在");return;}
-  progress.tags.push(name);save();
+/* ---------- 单词本（分类）管理：改名 / 新建 / 删除 ---------- */
+function catName(c){return (progress.catNames||{})[c]||c;}
+function catsList(){
+  const base=CATS.filter(c=>c!=="全部").map(catName);
+  const custom=(progress.customCats||[]).slice();
+  return [...new Set([...base,...custom])];
 }
-function removeTag(name){
-  if(!progress.tags)return;
-  progress.tags=progress.tags.filter(t=>t!==name);
-  if(progress.wordTags){
-    for(const k in progress.wordTags){
-      progress.wordTags[k]=progress.wordTags[k].filter(t=>t!==name);
-      if(progress.wordTags[k].length===0)delete progress.wordTags[k];
+function renameCat(oldName){
+  const cur=catName(oldName);
+  const v=prompt("把「"+cur+"」改成：", cur);
+  if(v==null)return;
+  const n=String(v).trim();
+  if(!n||n===cur)return;
+  if(n==="全部"){alert("「全部」是保留名，不能用");return;}
+  if(catsList().includes(n)){alert("已有同名单词本");return;}
+  if(CATS.includes(oldName)){
+    if(!progress.catNames)progress.catNames={};
+    progress.catNames[oldName]=n;
+    if(progress.catOverride){
+      for(const k in progress.catOverride){
+        if(progress.catOverride[k]===cur)progress.catOverride[k]=n;
+      }
+    }
+  }else{
+    if(progress.customCats){
+      const i=progress.customCats.indexOf(oldName);
+      if(i>=0)progress.customCats[i]=n;
+    }
+    if(progress.catOverride){
+      for(const k in progress.catOverride){
+        if(progress.catOverride[k]===oldName)progress.catOverride[k]=n;
+      }
     }
   }
-  if(curTag===name)curTag=null;
   save();
+  renderCatManager();
 }
-function toggleWordTag(word,tag){
-  if(!progress.wordTags)progress.wordTags={};
-  const cur=progress.wordTags[word]||[];
-  const next=cur.includes(tag)?cur.filter(t=>t!==tag):cur.concat(tag);
-  if(next.length===0)delete progress.wordTags[word];else progress.wordTags[word]=next;
-  save();
-}
-function setTag(t){curTag=(curTag===t?null:t);if(curTag)curCat="全部";renderList();}
-function promptNewTag(){
-  const name=prompt("输入新标签名：");
-  if(!name)return;
-  const n=String(name).trim();
-  if(!n)return;
-  if(allTags().includes(n)){alert("标签已存在");return;}
-  addTag(n);renderList();
-}
-function tagBarHTML(){
-  let html=`<div class="chip newtag" onclick="promptNewTag()">＋ 新建标签</div>`;
-  for(const t of allTags()){
-    html+=`<div class="chip ${curTag===t?"on":""}" onclick="setTag('${esc(t)}')">🏷️ ${esc(t)}<span class="tagx" onclick="event.stopPropagation();removeTag('${esc(t)}');renderList()">×</span></div>`;
+function resetCatName(oldName){
+  const renamed=(progress.catNames||{})[oldName];
+  if(renamed){
+    delete progress.catNames[oldName];
+    if(progress.catOverride){
+      for(const k in progress.catOverride){
+        if(progress.catOverride[k]===renamed)progress.catOverride[k]=oldName;
+      }
+    }
+    save();
   }
-  return html;
+  renderCatManager();
+}
+function addCat(name){
+  name=String(name||"").trim();
+  if(!name)return false;
+  if(name==="全部"){alert("「全部」是保留名，不能用");return false;}
+  if(catsList().includes(name)){alert("已有同名单词本");return false;}
+  if(!progress.customCats)progress.customCats=[];
+  progress.customCats.push(name);
+  save();
+  return true;
+}
+function addCatFromInput(){
+  const inp=$("#newCatInput");
+  const v=inp&&inp.value?inp.value:"";
+  if(addCat(v))renderCatManager();
+}
+function delCat(name){
+  if(!progress.customCats)return;
+  progress.customCats=progress.customCats.filter(c=>c!==name);
+  if(progress.catOverride){
+    for(const k in progress.catOverride){
+      if(progress.catOverride[k]===name)delete progress.catOverride[k];
+    }
+  }
+  save();
+  renderCatManager();
+}
+function renderCatManager(){
+  const base=CATS.filter(c=>c!=="全部");
+  const custom=(progress.customCats||[]).slice();
+  const baseRows=base.map(c=>{
+    const shown=catName(c);
+    const renamed=(progress.catNames||{})[c];
+    return `<div class="catrow">
+      <span class="catname">${esc(shown)}${renamed?`<span style="color:var(--faint);font-size:11px">（原名 ${esc(c)}）</span>`:""}</span>
+      <button class="btn" onclick="renameCat('${esc(c)}')">改名</button>
+      ${renamed?`<button class="btn" onclick="resetCatName('${esc(c)}')">还原</button>`:""}
+    </div>`;
+  }).join("");
+  const customRows=custom.map(c=>`<div class="catrow">
+    <span class="catname">${esc(c)}</span>
+    <button class="btn" onclick="renameCat('${esc(c)}')">改名</button>
+    <button class="btn warn" onclick="delCat('${esc(c)}')">删除</button>
+  </div>`).join("");
+  $("#main").innerHTML=`
+    <div class="topbar">
+      <button class="backbtn" onclick="renderList()">← 返回</button>
+      <div class="t">管理单词本</div>
+    </div>
+    <div class="panel">
+      <h3>自动生成的单词本（可改名）</h3>
+      ${baseRows||'<div class="empty">无</div>'}
+    </div>
+    <div class="panel">
+      <h3>我的单词本</h3>
+      ${customRows||'<div class="empty" style="padding:16px 0">还没有自定义单词本</div>'}
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <input id="newCatInput" class="catinput" placeholder="新建单词本名字…" onkeydown="if(event.key==='Enter')addCatFromInput()">
+        <button class="btn primary" style="flex:0 0 auto;width:auto;padding:0 18px" onclick="addCatFromInput()">＋ 新建</button>
+      </div>
+    </div>`;
 }
 
 /* ---------- 词网（关系图） ---------- */
@@ -652,8 +721,8 @@ function trackballVec(x,y){
   return {x:tx,y:ty,z:tz};
 }
 function graphCardInner(){
-  const cats=CATS;
-  const chips=cats.map(c=>`<div class="chip ${c===chainCat?"on":""}" onclick="setChainCat('${c}')">${c}</div>`).join("");
+  const cats=["全部",...catsList()];
+  const chips=cats.map(c=>`<div class="chip ${c===chainCat?"on":""}" onclick="setChainCat('${esc(c)}')">${esc(c)}</div>`).join("");
   const words=chainCat==="全部"?allWords():allWords().filter(w=>catOf(w)===chainCat);
   if(graphCollapsed){
     return `<div class="graphhead" style="cursor:pointer" onclick="toggleGraph()">
@@ -664,7 +733,7 @@ function graphCardInner(){
   return `<div class="graphhead">
       <div class="t2">📊 词网</div>
       <div style="display:flex;gap:6px">
-        <button class="fsbtn" onclick="toggleGraph()">▴ 收起</button>
+        <button class="fsbtn collbtn" onclick="toggleGraph()">▴ 收起</button>
         <button class="fsbtn" id="fsBtn" onclick="toggleFullscreen()">${gFullscreen?"✕ 退出全屏":"⛶ 全屏"}</button>
       </div>
     </div>
@@ -821,7 +890,7 @@ function positionGhost(x,y){if(ghostEl){ghostEl.style.left=x+"px";ghostEl.style.
 function showDropBar(){
   let bar=document.getElementById("dropbar");
   if(!bar){bar=document.createElement("div");bar.id="dropbar";document.body.appendChild(bar);}
-  bar.innerHTML=`<div class="db-title">拖到目标单词本</div><div class="chips">${CATS.filter(c=>c!=="全部").map(c=>`<div class="chip dropchip" data-cat="${c}">${c}</div>`).join("")}</div>`;
+  bar.innerHTML=`<div class="db-title">拖到目标单词本</div><div class="chips">${catsList().map(c=>`<div class="chip dropchip" data-cat="${esc(c)}">${esc(c)}</div>`).join("")}</div>`;
   bar.style.display="block";
 }
 function hideDropBar(){const bar=document.getElementById("dropbar");if(bar)bar.style.display="none";}
@@ -847,8 +916,8 @@ function normalize(p){
   p.hidden = p.hidden || [];
   p.catOverride = p.catOverride || {};
   p.favs = p.favs || [];
-  p.tags = p.tags || [];
-  p.wordTags = p.wordTags || {};
+  p.catNames = p.catNames || {};
+  p.customCats = p.customCats || [];
   const t = todayStr();
   for(const k in p.cards){
     const c = p.cards[k];
@@ -947,6 +1016,7 @@ function speakTTS(word){
 let session=null;
 function renderStudy(){renderMenu();}
 function renderMenu(){
+  if(chainCat!=="全部" && !catsList().includes(chainCat))chainCat="全部";
   const target=progress.settings.dailyNew||10;
   const learnedToday=todayLearned();
   const studied=studiedCount();
@@ -1203,8 +1273,9 @@ function openDetailFromList(word){
   openDetail(word,"renderList");
 }
 function renderList(){
+  if(curCat!=="全部" && !catsList().includes(curCat))curCat="全部";
   const main=$("#main");
-  const chips=CATS.map(c=>`<div class="chip ${c===curCat?"on":""}" onclick="setCat('${c}')">${c}</div>`).join("");
+  const chips=["全部",...catsList()].map(c=>`<div class="chip ${c===curCat?"on":""}" onclick="setCat('${esc(c)}')">${esc(c)}</div>`).join("")+`<div class="chip newtag" onclick="renderCatManager()">⚙️ 管理</div>`;
   main.innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="${listSelectMode?"exitListSelect()":"switchTab('study')"}">${listSelectMode?"完成":"← 返回"}</button>
@@ -1219,7 +1290,6 @@ function renderList(){
       <button class="btn" onclick="actListSelected('review')">🔁 复习所选</button>
     </div>`:`<div class="searchbar"><input id="search" placeholder="搜索单词 / 释义…" value="${esc(curQuery)}" oninput="onSearch(this.value)"></div>
     <div class="chips">${chips}</div>
-    <div class="tagbar"><span class="tagbar-lbl">🏷️ 自定义</span><div class="chips">${tagBarHTML()}</div></div>
     <div class="group-actions selbar"><button class="btn small" onclick="openFavs('renderList')">⭐ 收藏</button><button class="btn small" onclick="enterListSelect()">☑ 多选</button></div>`}
     <div class="wordlist" id="list"></div>`;
   openSwipeWord=null;
@@ -1235,7 +1305,6 @@ function renderListItems(){
   for(const w of WORDS){
     if(isHidden(w))continue;
     if(curCat!=="全部"&&catOf(w)!==curCat)continue;
-    if(curTag&&!tagsOf(w).includes(curTag))continue;
     if(q&&!(w.word.toLowerCase().includes(q)||w.zh.includes(q)||(w.def||"").toLowerCase().includes(q)))continue;
     list.push(w);
   }
@@ -1302,13 +1371,12 @@ function currentListWords(){
   for(const w of WORDS){
     if(isHidden(w))continue;
     if(curCat!=="全部"&&catOf(w)!==curCat)continue;
-    if(curTag&&!tagsOf(w).includes(curTag))continue;
     if(q&&!(w.word.toLowerCase().includes(q)||w.zh.includes(q)||(w.def||"").toLowerCase().includes(q)))continue;
     list.push(w);
   }
   return list;
 }
-function setCat(c){curCat=c;curTag=null;renderList();}
+function setCat(c){curCat=c;renderList();}
 function onSearch(v){curQuery=v;renderListItems();}
 function escapeRe(s){return String(s).replace(/[.*+?^${}()|[\]\\]/g,"\\$&");}
 function sourcesOf(w){
@@ -1327,7 +1395,13 @@ function hlText(text, word){
   return escText.replace(new RegExp("("+escapeRe(word)+")","gi"),'<mark class="hl">$1</mark>');
 }
 function sourceCard(s,w){
-  const branches=(s.branches||[]).map(b=>`<span class="chip">${esc(b.word)}${b.zh?" · "+esc(b.zh):""}</span>`).join("");
+  const branches=(s.branches||[]).map(b=>{
+    const kw=String(b.word||"");
+    const exists=WORDS.some(x=>String(x.word||"").toLowerCase()===kw.toLowerCase());
+    const lbl=esc(kw)+(b.zh?" · "+esc(b.zh):"");
+    if(exists)return `<span class="chip" style="cursor:pointer" onclick="openBranchWord('${esc(kw)}')">${lbl}</span>`;
+    return `<span class="chip">${lbl}</span>`;
+  }).join("");
   return `<div class="menu-card" style="padding:18px;margin-top:12px">
     <div style="font-size:14.5px;line-height:1.7">${hlText(s.text,w.word)}</div>
     ${s.translation?`<div style="color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6">${esc(s.translation)}</div>`:""}
@@ -1335,8 +1409,10 @@ function sourceCard(s,w){
     <div style="color:var(--faint);font-size:11px;margin-top:8px">${esc(s.date||"")}</div>
   </div>`;
 }
+let srcCtx=null;
 function renderSources(word, back){
   const w=WORDS.find(x=>x.word===word);if(!w)return;
+  srcCtx={word:word, back:back||"renderList"};
   const list=sourcesOf(w);
   const backFn=back||"renderList";
   $("#main").innerHTML=`
@@ -1352,6 +1428,11 @@ function renderSources(word, back){
     ${list.length?list.map(s=>sourceCard(s,w)).join(""):`<div class="empty">还没有其他语境</div>`}
   `;
 }
+function backToSources(){
+  if(srcCtx && srcCtx.word)renderSources(srcCtx.word, srcCtx.back);
+  else renderList();
+}
+function openBranchWord(bw){openDetail(bw, "backToSources");}
 function contextBlock(w){
   if(!w.context)return "";
   let h=`<div class="detail"><span class="k">源自</span>${esc(w.context)}</div>`;
@@ -1367,11 +1448,8 @@ function openDetail(word, back){
   const stTxt={new:"未学习",learning:"学习中",mastered:"已掌握"}[cardState(w)];
   const learnedOn=c&&c.learnedOn?c.learnedOn:"—";
   const masteredOn=c&&c.masteredOn?c.masteredOn:"—";
-  const tags=CATS.filter(x=>x!=="全部").map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="reTag('${esc(w.word)}','${x}','${backFn}')">${x}</div>`).join("");
+  const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="reTag('${esc(w.word)}','${esc(x)}','${backFn}')">${esc(x)}</div>`).join("");
   const fav=isFav(w);
-  const customTags=allTags().length
-    ? allTags().map(t=>{const on=tagsOf(w).includes(t);return `<div class="chip ${on?"on":""}" onclick="toggleWordTag('${esc(w.word)}','${esc(t)}');openDetail('${esc(w.word)}','${backFn}')">${on?"✓ ":""}${esc(t)}</div>`;}).join("")
-    : `<span style="font-size:12px;color:var(--faint)">暂无自定义标签，去单词本新建</span>`;
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="${backFn}()">← 返回</button>
@@ -1389,12 +1467,8 @@ function openDetail(word, back){
       <button class="btn" style="margin:4px 0 10px" onclick="renderSources('${esc(w.word)}','${backFn}')">📚 其他源自${srcCount>0?` · ${srcCount} 处语境`:""}</button>
       <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(catOf(w))} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
       <div class="tagsec">
-        <div class="k" style="color:var(--muted);font-size:12px;margin-bottom:8px">🏷️ 标签 · 点按改分类</div>
+        <div class="k" style="color:var(--muted);font-size:12px;margin-bottom:8px">🏷️ 单词本 · 点按改分类</div>
         <div class="chips">${tags}</div>
-      </div>
-      <div class="tagsec" style="border-top:none;padding-top:4px">
-        <div class="k" style="color:var(--muted);font-size:12px;margin-bottom:8px">🏷️ 自定义标签 · 点按添加/移除</div>
-        <div class="chips">${customTags}</div>
       </div>
     </div>
     <div class="group-actions">
