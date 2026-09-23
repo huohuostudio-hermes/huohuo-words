@@ -1719,21 +1719,11 @@ function actFavSelected(mode){
 /* ---------- 我的 ---------- */
 function renderMe(){
   const main=$("#main");
-  const total=allWords().length;
-  const studied=allWords().filter(w=>cardOf(w)).length;
-  const masterN=masteredCount();
-  const pending=learningCount();
   const s=progress.settings.dailyNew||10;
   main.innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="switchTab('study')">← 返回</button>
       <div class="t">设置</div>
-    </div>
-    <div class="overview" style="margin-top:6px">
-      <div class="stat"><div class="num">${total}</div><div class="lbl">总词数</div></div>
-      <div class="stat"><div class="num accent">${studied}</div><div class="lbl">已学习</div></div>
-      <div class="stat"><div class="num">${masterN}</div><div class="lbl">已掌握</div></div>
-      <div class="stat"><div class="num">${pending}</div><div class="lbl">待复习</div></div>
     </div>
     <div class="panel">
       <h3>每日学习目标</h3>
