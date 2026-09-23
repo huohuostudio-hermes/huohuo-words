@@ -1098,16 +1098,26 @@ function updateBadge(){
 
 /* ---------- 单词本 ---------- */
 let curCat="全部",curQuery="";
+let listSelectMode=false;
+let listSelected=new Set();
 function renderList(){
   const main=$("#main");
   const chips=CATS.map(c=>`<div class="chip ${c===curCat?"on":""}" onclick="setCat('${c}')">${c}</div>`).join("");
   main.innerHTML=`
     <div class="topbar">
-      <button class="backbtn" onclick="switchTab('study')">← 返回</button>
-      <div class="t">单词本</div>
+      <button class="backbtn" onclick="${listSelectMode?"exitListSelect()":"switchTab('study')"}">${listSelectMode?"完成":"← 返回"}</button>
+      <div class="t">单词本${listSelectMode?" · 已选 "+listSelected.size:""}</div>
     </div>
-    <div class="searchbar"><input id="search" placeholder="搜索单词 / 释义…" value="${esc(curQuery)}" oninput="onSearch(this.value)"></div>
+    ${listSelectMode?`<div class="group-actions selbar">
+      <span class="selcount">已选 ${listSelected.size} 个</span>
+      <button class="btn small" onclick="listSelectAll()">全选</button>
+    </div>
+    <div class="group-actions">
+      <button class="btn primary" onclick="actListSelected('learn')">📖 学习所选</button>
+      <button class="btn" onclick="actListSelected('review')">🔁 复习所选</button>
+    </div>`:`<div class="searchbar"><input id="search" placeholder="搜索单词 / 释义…" value="${esc(curQuery)}" oninput="onSearch(this.value)"></div>
     <div class="chips">${chips}</div>
+    <div class="group-actions selbar"><button class="btn small" onclick="enterListSelect()">☑ 多选</button></div>`}
     <div class="wordlist" id="list"></div>`;
   openSwipeWord=null;
   renderListItems();
@@ -1123,6 +1133,19 @@ function renderListItems(){
   }
   const box=$("#list");
   if(list.length===0){box.innerHTML='<div class="empty">没有匹配的单词</div>';return;}
+  if(listSelectMode){
+    box.innerHTML=list.map(w=>{
+      const on=listSelected.has(w.word);
+      const st=cardState(w);
+      const dot={new:"new",learning:"learn",mastered:"master"}[st];
+      return `<li class="worditem" onclick="toggleListWord('${esc(w.word)}')">
+        <span class="chk ${on?"on":""}">${on?"✓":""}</span>
+        <span class="dot ${dot}"></span>
+        <span class="w">${esc(w.word)}</span>
+        <span class="z">${esc(w.zh)}</span></li>`;
+    }).join("");
+    return;
+  }
   box.innerHTML=list.map(w=>{
     const st=cardState(w);
     const dot={new:"new",learning:"learn",mastered:"master"}[st];
@@ -1147,6 +1170,34 @@ function renderListItems(){
       </div>
     </div>`;
   }).join("");
+}
+function enterListSelect(){listSelectMode=true;listSelected=new Set();renderList();}
+function exitListSelect(){listSelectMode=false;listSelected=new Set();renderList();}
+function toggleListWord(word){
+  if(listSelected.has(word))listSelected.delete(word);else listSelected.add(word);
+  renderList();
+}
+function listSelectAll(){
+  const ws=currentListWords();
+  if(listSelected.size===ws.length)listSelected=new Set();
+  else listSelected=new Set(ws.map(w=>w.word));
+  renderList();
+}
+function actListSelected(mode){
+  if(listSelected.size===0){alert("请先勾选单词");return;}
+  const ws=currentListWords().filter(w=>listSelected.has(w.word));
+  beginSessionOn(ws, mode);
+}
+function currentListWords(){
+  const q=curQuery.trim().toLowerCase();
+  const list=[];
+  for(const w of WORDS){
+    if(isHidden(w))continue;
+    if(curCat!=="全部"&&catOf(w)!==curCat)continue;
+    if(q&&!(w.word.toLowerCase().includes(q)||w.zh.includes(q)||(w.def||"").toLowerCase().includes(q)))continue;
+    list.push(w);
+  }
+  return list;
 }
 function setCat(c){curCat=c;renderList();}
 function onSearch(v){curQuery=v;renderListItems();}

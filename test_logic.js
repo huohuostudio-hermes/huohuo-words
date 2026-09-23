@@ -226,6 +226,20 @@ ok(typeof PW_HASH==="string" && PW_HASH.length===64, "PW_HASH 是 64 位十六�
 let lt=false; try{ checkLock(); lockNow(); }catch(e){ lt=true; }
 ok(!lt, "checkLock/lockNow 不抛错");
 
+// 20. 单词本多选
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+curCat="全部"; curQuery="";
+renderOK("renderList(进入多选)", ()=>{ enterListSelect(); });
+ok(listSelectMode===true, "enterListSelect 后 listSelectMode=true");
+renderOK("renderList(勾选2词)", ()=>{ toggleListWord(WORDS[0].word); toggleListWord(WORDS[1].word); });
+ok(listSelected.size===2, "勾选2词后 listSelected.size=2");
+renderOK("renderList(全选)", ()=>{ listSelectAll(); });
+ok(listSelected.size===currentListWords().length, "全选后选中数=当前词表数");
+actListSelected("learn");
+ok(session.mcqQueue.length===currentListWords().length, "actListSelected(learn) 进队列=词表数");
+renderOK("renderList(退出多选)", ()=>{ exitListSelect(); });
+ok(listSelectMode===false, "exitListSelect 后 listSelectMode=false");
+
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;
 `;
