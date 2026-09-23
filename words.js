@@ -1896,3 +1896,4 @@ window.WORDS = [
     "id": 158
   }
 ];
+window.SOURCES = [];
