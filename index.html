@@ -210,6 +210,18 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .gcaption .cap-d{flex:0 0 auto;background:var(--accent);border:none;color:#fff;border-radius:8px;padding:5px 10px;font-size:12px;font-weight:700;cursor:pointer}
 .tagsec{margin-top:14px;border-top:1px solid var(--border);padding-top:12px}
 .tagsec .chips{flex-wrap:wrap;overflow-x:visible;padding-bottom:0;margin-bottom:0}
+.lock{position:fixed;inset:0;z-index:9999;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px}
+.lock-card{width:100%;max-width:320px;text-align:center}
+.lock-logo{font-size:56px;margin-bottom:8px;filter:drop-shadow(0 0 18px rgba(230,184,74,.55))}
+.lock-title{font-size:24px;font-weight:800;color:var(--text);letter-spacing:1px}
+.lock-sub{font-size:13px;color:var(--muted);margin:6px 0 20px}
+.lock-input{width:100%;background:var(--card);border:1px solid var(--border2);color:var(--text);
+  border-radius:14px;padding:14px 16px;font-size:20px;text-align:center;letter-spacing:8px;
+  margin-bottom:12px;outline:none;box-sizing:border-box}
+.lock-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(230,184,74,.15)}
+.lock-err{color:var(--bad);font-size:13px;min-height:20px;margin-top:10px}
+.lock.shake{animation:lockshake .4s}
+@keyframes lockshake{0%,100%{transform:translateX(0)}20%,60%{transform:translateX(-10px)}40%,80%{transform:translateX(10px)}}
 
 /* ===== 滑动删除 / 拖拽 ===== */
 .witem-wrap{position:relative;overflow:hidden;border-radius:14px}
@@ -241,6 +253,16 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 </style>
 </head>
 <body>
+<div id="lock" class="lock" style="display:none">
+  <div class="lock-card">
+    <div class="lock-logo">🔥</div>
+    <div class="lock-title">火火单词</div>
+    <div class="lock-sub">输入密码解锁</div>
+    <input id="lockInput" class="lock-input" type="password" inputmode="numeric" autocomplete="off" placeholder="••••••" onkeydown="if(event.key==='Enter')tryUnlock()">
+    <button class="btn primary" onclick="tryUnlock()">解锁</button>
+    <div id="lockErr" class="lock-err"></div>
+  </div>
+</div>
 <div id="app">
   <header>
     <div class="brand">
@@ -1319,6 +1341,10 @@ function renderMe(){
       </div>`).join("")}</div>
     </div>`:""}
     <div class="panel">
+      <h3>隐私</h3>
+      <button class="btn" onclick="lockNow()">🔒 锁定 App（下次打开需密码）</button>
+    </div>
+    <div class="panel">
       <h3>学习进度备份</h3>
       <button class="btn" onclick="exportData()">导出进度（复制到剪贴板）</button>
       <button class="btn" onclick="importData()">导入进度</button>
@@ -1355,6 +1381,54 @@ function resetData(){
   }
 }
 
+/* ---------- 密码锁 ---------- */
+const PW_HASH="896b93192bfd6cfd261d04a6427c062b447e1762337c9b8054129d9053b938ee";
+const UNLOCK_KEY="huohuo-words-unlocked";
+async function sha256Hex(s){
+  if(typeof crypto!=="undefined" && crypto.subtle){
+    const b=await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+    return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+  }
+  let h=0x811c9dc5;
+  for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,0x01000193)>>>0;}
+  return "fnv_"+h.toString(16);
+}
+function showLock(){
+  const l=$("#lock"); if(l)l.style.display="flex";
+  const app=$("#app"); if(app)app.style.display="none";
+  const inp=$("#lockInput"); if(inp)setTimeout(()=>inp.focus(),50);
+}
+function hideLock(){
+  const l=$("#lock"); if(l)l.style.display="none";
+  const app=$("#app"); if(app)app.style.display="";
+}
+async function tryUnlock(){
+  const inp=$("#lockInput"), err=$("#lockErr");
+  const v=(inp&&inp.value)||"";
+  if(!v){ if(err)err.textContent="请输入密码"; return; }
+  const h=await sha256Hex(v);
+  if(h===PW_HASH){
+    try{localStorage.setItem(UNLOCK_KEY,"1");}catch(e){}
+    if(inp)inp.value="";
+    hideLock();
+    switchTab("study");
+  }else{
+    if(err)err.textContent="密码不对，再试一次";
+    const l=$("#lock"); if(l){l.classList.remove("shake");void l.offsetWidth;l.classList.add("shake");}
+    if(inp){inp.value="";inp.focus();}
+  }
+}
+function lockNow(){
+  try{localStorage.removeItem(UNLOCK_KEY);}catch(e){}
+  showLock();
+}
+function checkLock(){
+  let unlocked=false;
+  try{unlocked=localStorage.getItem(UNLOCK_KEY)==="1";}catch(e){}
+  if(unlocked){ switchTab("study"); }
+  else{ showLock(); }
+}
+
 /* ---------- 导航 ---------- */
 let tab="study";
 function switchTab(t){
@@ -1376,7 +1450,7 @@ if("serviceWorker" in navigator && location.protocol.startsWith("http")){
   navigator.serviceWorker.register("sw.js").catch(()=>{});
 }
 save();
-switchTab("study");
+checkLock();
 </script>
 </body>
 </html>

@@ -221,6 +221,11 @@ hideWord(WORDS[0].word);
 renderOK("renderList(含隐藏)", ()=>renderList());
 renderOK("renderMe(含已删除面板)", ()=>renderMe());
 
+// 19. 密码锁
+ok(typeof PW_HASH==="string" && PW_HASH.length===64, "PW_HASH 是 64 位十六进制");
+let lt=false; try{ checkLock(); lockNow(); }catch(e){ lt=true; }
+ok(!lt, "checkLock/lockNow 不抛错");
+
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;
 `;
