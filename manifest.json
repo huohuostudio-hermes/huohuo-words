@@ -1,6 +1,6 @@
 {
-  "name": "火火单词 · 音乐英语",
-  "short_name": "火火单词",
+  "name": "火火的英语库",
+  "short_name": "火火的英语库",
   "description": "音乐制作英语词汇卡片，同步自 Obsidian 火火知识库",
   "start_url": ".",
   "scope": ".",
