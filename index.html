@@ -305,6 +305,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .pc-def{font-size:12px;color:var(--muted);margin-top:8px;text-align:center;line-height:1.55;max-height:74px;overflow:hidden}
 .pc-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;justify-content:center}
 .pc-actions .btn{font-size:12px;padding:7px 12px}
+.pc-actions .btn.fav-on{color:var(--accent2);border-color:var(--accent);background:rgba(230,184,74,.12)}
 
 </style>
 </head>
@@ -1935,7 +1936,7 @@ function renderDeckCard(animate){
   const c=cardDeck.cards[cardDeck.idx];
   const stage=$("#deckStage");
   if(!stage||!c)return;
-  const w=c.w, suit=c.suit;
+  const w=c.w, suit=c.suit, fav=isFav(w);
   const front=`<div class="pcard-face pcard-front">
       <div class="pc-corner tl">🔥<span class="pc-suit">${suit}</span></div>
       <div class="pc-corner br">🔥<span class="pc-suit">${suit}</span></div>
@@ -1955,6 +1956,7 @@ function renderDeckCard(animate){
       <div class="pc-actions">
         <button class="btn primary" onclick="event.stopPropagation();deckLearn('${esc(w.word)}')">📖 学习</button>
         <button class="btn" onclick="event.stopPropagation();deckReview('${esc(w.word)}')">🔁 复习</button>
+        <button class="btn ${fav?"fav-on":""}" onclick="event.stopPropagation();deckFav('${esc(w.word)}')">${fav?"★ 收藏":"☆ 收藏"}</button>
         <button class="btn warn" onclick="event.stopPropagation();delWordDeck('${esc(w.word)}')">🗑️ 删除</button>
       </div>
     </div>`;
@@ -1984,6 +1986,7 @@ function deckGo(dir){
   renderDeckCard(true);
 }
 function deckLearn(word){ closeDeck(); learnThis(word); }
+function deckFav(word){ toggleFav(word); if(cardDeck)renderDeckCard(false); }
 function deckReview(word){ closeDeck(); reviewThis(word); }
 function delWordDeck(word){
   if(!confirm("删除这个单词？删除后可在「设置 → 已删除」中恢复"))return;
