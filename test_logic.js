@@ -156,6 +156,37 @@ ok(groupSelected.size===2, "多选勾选 2 个");
 actSelected("review");
 ok(session.spellQueue.length===2, "复习所选 2 个进队列");
 
+// 15. 词网渲染冒烟 + 边/布局
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+chainCat="打击乐";
+renderOK("graphCardInner(打击乐)", ()=>graphCardInner());
+renderOK("renderMenu含词网", ()=>renderMenu());
+const gwords=allWords().filter(w=>catOf(w)==="打击乐");
+const gedges=buildEdges(gwords);
+ok(gedges.length>0, "打击乐词网应有边");
+ok(layoutGraph(gwords,gedges).pos.length===gwords.length, "布局节点数一致");
+
+// 16. 隐藏/恢复
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+const totalBefore=allWords().length;
+hideWord(WORDS[0].word);
+ok(isHidden(WORDS[0]), "隐藏后 isHidden=true");
+ok(allWords().length===totalBefore-1, "隐藏后总词数-1");
+unhideWord(WORDS[0].word);
+ok(!isHidden(WORDS[0]), "恢复后 isHidden=false");
+
+// 17. 移标签/重置
+setWordCat(WORDS[0].word,"键盘");
+ok(catOf(WORDS[0])==="键盘", "移标签后 catOf=键盘");
+resetWordCat(WORDS[0].word);
+ok(catOf(WORDS[0])===WORDS[0].category, "重置标签恢复原分类");
+
+// 18. 删除后列表渲染
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+hideWord(WORDS[0].word);
+renderOK("renderList(含隐藏)", ()=>renderList());
+renderOK("renderMe(含已删除面板)", ()=>renderMe());
+
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;
 `;

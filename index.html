@@ -189,6 +189,44 @@ nav button.on{color:var(--accent2)}
 nav button .badge{position:absolute;transform:translate(14px,-4px);background:var(--bad);color:#fff;
   font-size:10px;min-width:16px;height:16px;border-radius:8px;display:grid;place-items:center;padding:0 4px;font-weight:700}
 .navbtn{position:relative}
+
+/* ===== 词网 ===== */
+.graphcard{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--border2);
+  border-radius:24px;padding:14px;box-shadow:var(--shadow);margin:4px 0 14px}
+.graphhead{display:flex;align-items:center;justify-content:space-between;margin:2px 2px 6px}
+.graphhead .t2{font-size:15px;font-weight:700}
+.zoombtns{display:flex;gap:6px}
+.zoombtns button{width:30px;height:30px;border-radius:9px;border:1px solid var(--border2);background:var(--card2);
+  color:var(--text);font-size:14px;font-weight:700;cursor:pointer;line-height:1;display:grid;place-items:center}
+.zoombtns button:active{opacity:.7}
+.graphwrap{position:relative;overflow:hidden;border-radius:16px;background:radial-gradient(700px 400px at 50% 42%, rgba(124,108,255,.10), transparent 72%)}
+.graphwrap svg{display:block;width:100%;height:auto}
+.gedge{stroke:rgba(124,108,255,.30);stroke-width:1;pointer-events:none}
+.gnode{cursor:pointer}
+.gnode .gdot{fill:#3a4066;stroke:rgba(255,255,255,.25);stroke-width:1.2}
+.gnode.new .gdot{fill:#3a4066}
+.gnode.learn .gdot{fill:#fbbf24}
+.gnode.master .gdot{fill:#34d399}
+.gnode.hub .gdot{stroke:var(--accent2);stroke-width:2.5}
+.gnode .glabel{fill:var(--muted);font-weight:600;text-anchor:middle;pointer-events:none}
+.gnode.learn .glabel{fill:#fcd34d}
+.gnode.master .glabel{fill:#6ee7b7}
+.gnode.hub .glabel{fill:#fff;font-weight:800}
+.ghint{position:absolute;top:9px;left:12px;font-size:11px;color:var(--faint);pointer-events:none;z-index:2}
+
+/* ===== 滑动删除 / 拖拽 ===== */
+.witem-wrap{position:relative;overflow:hidden;border-radius:14px}
+.witem-del{position:absolute;left:0;top:0;bottom:0;width:82px;background:linear-gradient(135deg,#f87171,#ef4444);
+  color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;cursor:pointer}
+.witem-wrap .worditem{position:relative;z-index:1;background:var(--card);transition:transform .16s ease;touch-action:pan-y}
+.witem-wrap .worditem.swiping{transition:none}
+.witem-wrap .worditem.dragging{opacity:.4}
+#dropbar{position:fixed;left:12px;right:12px;bottom:calc(78px + env(safe-area-inset-bottom));z-index:200;
+  background:rgba(18,21,44,.97);border:1px solid var(--border2);border-radius:18px;padding:10px 12px;box-shadow:var(--shadow)}
+#dropbar .db-title{font-size:11px;color:var(--muted);font-weight:700;letter-spacing:.5px;margin:0 2px 8px}
+.dropchip.on{outline:2px solid var(--good);outline-offset:2px}
+.ghost{position:fixed;z-index:199;pointer-events:none;background:var(--accent);color:#fff;font-weight:700;
+  padding:10px 16px;border-radius:12px;font-size:15px;box-shadow:0 8px 24px rgba(0,0,0,.5);transform:translate(-50%,-120%)}
 </style>
 </head>
 <body>
@@ -222,6 +260,241 @@ function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&l
 function speakArg(w){return "speak('" + String(w.word).replace(/\\/g,"\\\\").replace(/'/g,"\\'") + "')";}
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
+/* ---------- 用户自定义（隐藏/移标签） ---------- */
+function isHidden(w){return (progress.hidden||[]).includes(w.word);}
+function catOf(w){return (progress.catOverride||{})[w.word]||w.category;}
+function allWords(){return WORDS.filter(w=>!isHidden(w));}
+function hideWord(word){
+  if(!progress.hidden)progress.hidden=[];
+  if(!progress.hidden.includes(word))progress.hidden.push(word);
+  if(progress.cards[word])delete progress.cards[word];
+  save();
+}
+function unhideWord(word){
+  if(progress.hidden)progress.hidden=progress.hidden.filter(x=>x!==word);
+  save();
+}
+function setWordCat(word,cat){
+  if(!progress.catOverride)progress.catOverride={};
+  progress.catOverride[word]=cat;
+  save();
+}
+function resetWordCat(word){
+  if(progress.catOverride)delete progress.catOverride[word];
+  save();
+}
+
+/* ---------- 词网（关系图） ---------- */
+let chainCat="全部";
+let gstate={k:1};
+let gSize=600;
+const GRAPH_STOP=new Set("的了一是在中与和或及等为不有又都而其对这那之无高上下来去个种次用把被让向从里很更就也并或已地得么呢吧啊".split(""));
+const GRAPH_TSTOP=new Set(("the and for with that this from into when sound music audio used using which produce produces often also more than very like type types wave noise play played playing synth synthesizer drum drums make makes made one two can use via its are was has have not but you your all or in on of to a an as at by it be will would could should may might then them they their").split(" "));
+function wordSig(w){
+  const txt=(w.zh||"")+(w.def||"");
+  const c=new Set();
+  for(const ch of txt){ if(ch>="\u4e00"&&ch<="\u9fa5"&&!GRAPH_STOP.has(ch)) c.add(ch); }
+  const t=new Set();
+  const toks=(((w.word||"")+" "+(w.def||"")).toLowerCase().match(/[a-z][a-z0-9\-]{2,}/g)||[]);
+  for(let k of toks){ k=k.replace(/[^a-z0-9]/g,""); if(k.length>=3&&!GRAPH_TSTOP.has(k)) t.add(k); }
+  return {c,t};
+}
+function edgeScore(a,b){
+  let s=0;
+  for(const ch of a.c) if(b.c.has(ch)) s+=1;
+  for(const k of a.t) if(b.t.has(k)) s+=3;
+  return s;
+}
+function buildEdges(words){
+  const n=words.length, sigs=words.map(wordSig), map=new Map();
+  for(let i=0;i<n;i++){
+    const best=[];
+    for(let j=0;j<n;j++){
+      if(i===j)continue;
+      const s=edgeScore(sigs[i],sigs[j]);
+      if(s>0)best.push({j,s});
+    }
+    best.sort((x,y)=>y.s-x.s);
+    for(const b of best.slice(0,3)){
+      if(b.s>=2){ const a=Math.min(i,b.j),bb=Math.max(i,b.j), key=a+"|"+bb;
+        if(!map.has(key)||map.get(key)<b.s) map.set(key,b.s); }
+    }
+  }
+  const edges=[...map].map(([k,s])=>{const p=k.split("|");return [Number(p[0]),Number(p[1]),s];});
+  const par=Array.from({length:n},(_,i)=>i);
+  const find=x=>{while(par[x]!==x){par[x]=par[par[x]];x=par[x];}return x;};
+  const uni=(a,b)=>{const ra=find(a),rb=find(b);if(ra!==rb)par[ra]=rb;};
+  for(const [i,j] of edges)uni(i,j);
+  const comp=new Map();
+  for(let i=0;i<n;i++){const r=find(i);if(!comp.has(r))comp.set(r,[]);comp.get(r).push(i);}
+  const comps=[...comp.values()];
+  for(let ci=1;ci<comps.length;ci++){
+    let bi=-1,bj=-1,bs=-1;
+    for(const i of comps[0])for(const j of comps[ci]){
+      const s=edgeScore(sigs[i],sigs[j]);
+      if(s>bs){bs=s;bi=i;bj=j;}
+    }
+    if(bi>=0)edges.push([bi,bj,bs]);
+  }
+  return edges;
+}
+function layoutGraph(words,edges){
+  const n=words.length;
+  const pos=words.map(()=>{const a=Math.random()*Math.PI*2,r=Math.sqrt(Math.random())*240;return {x:500+Math.cos(a)*r,y:500+Math.sin(a)*r};});
+  const adj=Array.from({length:n},()=>[]);
+  for(const [i,j] of edges){adj[i].push(j);adj[j].push(i);}
+  const K=Math.max(150,70*Math.sqrt(n));
+  const iter=Math.max(120,Math.min(300,Math.round(22000/n)));
+  const repel=K*K;
+  for(let it=0;it<iter;it++){
+    for(let i=0;i<n;i++){let fx=0,fy=0;
+      for(let j=0;j<n;j++){if(i===j)continue;
+        let dx=pos[i].x-pos[j].x,dy=pos[i].y-pos[j].y;
+        let d2=dx*dx+dy*dy;if(d2<1)d2=1;
+        const f=repel/d2, d=Math.sqrt(d2);
+        fx+=dx/d*f; fy+=dy/d*f;}
+      pos[i].fx=fx;pos[i].fy=fy;}
+    for(let i=0;i<n;i++){let fx=pos[i].fx,fy=pos[i].fy;
+      for(const j of adj[i]){const dx=pos[j].x-pos[i].x,dy=pos[j].y-pos[i].y,d=Math.sqrt(dx*dx+dy*dy)||1,f=(d-95)*0.02;fx+=dx/d*f;fy+=dy/d*f;}
+      fx+=(500-pos[i].x)*0.012;fy+=(500-pos[i].y)*0.012;
+      pos[i].fx=fx;pos[i].fy=fy;}
+    const cool=Math.max(0.06,0.5*(1-it/iter));
+    for(let i=0;i<n;i++){pos[i].x+=pos[i].fx*cool*0.35;pos[i].y+=pos[i].fy*cool*0.35;
+      pos[i].x=Math.max(20,Math.min(980,pos[i].x));pos[i].y=Math.max(20,Math.min(980,pos[i].y));}
+  }
+  let minX=1e9,minY=1e9,maxX=-1e9,maxY=-1e9;
+  for(const p of pos){if(p.x<minX)minX=p.x;if(p.y<minY)minY=p.y;if(p.x>maxX)maxX=p.x;if(p.y>maxY)maxY=p.y;}
+  const spanX=maxX-minX||1,spanY=maxY-minY||1;
+  const size=Math.max(560,Math.ceil(Math.sqrt(n))*150);
+  const s=Math.min((size-140)/spanX,(size-140)/spanY);
+  for(const p of pos){p.x=(p.x-minX)*s+70;p.y=(p.y-minY)*s+70;}
+  return {pos,size};
+}
+function graphSVG(words){
+  const edges=buildEdges(words);
+  const L=layoutGraph(words,edges);
+  const deg=Array(words.length).fill(0);
+  for(const [i,j] of edges){deg[i]++;deg[j]++;}
+  let hub=-1,hd=-1;
+  for(let i=0;i<deg.length;i++)if(deg[i]>hd){hd=deg[i];hub=i;}
+  const fs=Math.min(15,Math.max(10,Math.round(200/Math.sqrt(words.length))));
+  let e="";
+  for(const [i,j] of edges)e+=`<line class="gedge" x1="${L.pos[i].x.toFixed(1)}" y1="${L.pos[i].y.toFixed(1)}" x2="${L.pos[j].x.toFixed(1)}" y2="${L.pos[j].y.toFixed(1)}"/>`;
+  let nd="";
+  for(let i=0;i<words.length;i++){
+    const w=words[i], st=cardState(w), hc=(i===hub)?" hub":"";
+    nd+=`<g class="gnode ${st}${hc}" transform="translate(${L.pos[i].x.toFixed(1)},${L.pos[i].y.toFixed(1)})" onclick="openDetail('${esc(w.word)}','renderMenu')"><circle r="22" fill="transparent"/><circle r="6" class="gdot"/><text y="19" class="glabel" font-size="${fs}">${esc(w.word)}</text></g>`;
+  }
+  return {svg:`<svg viewBox="0 0 ${L.size} ${L.size}"><g id="gview">${e}${nd}</g></svg>`, size:L.size};
+}
+function graphCardInner(){
+  const cats=CATS;
+  const chips=cats.map(c=>`<div class="chip ${c===chainCat?"on":""}" onclick="setChainCat('${c}')">${c}</div>`).join("");
+  const words=chainCat==="全部"?allWords():allWords().filter(w=>catOf(w)===chainCat);
+  let body;
+  if(words.length===0){body='<div class="empty">这个单词本还没有单词</div>';}
+  else{const g=graphSVG(words);gSize=g.size;body=g.svg;}
+  return `<div class="graphhead">
+      <div class="t2">📊 词网</div>
+      <div class="zoombtns"><button onclick="gZoom(1.35)">＋</button><button onclick="gZoom(0.74)">－</button><button onclick="gReset()">⟲</button></div>
+    </div>
+    <div class="chips" style="margin-bottom:10px">${chips}</div>
+    <div class="graphwrap"><div class="ghint">${words.length} 词 · 点单词看释义</div>${body}</div>`;
+}
+function setChainCat(c){chainCat=c;gstate={k:1};const el=$("#graphCard");if(el)el.innerHTML=graphCardInner();}
+function applyG(){const v=document.querySelector("#gview");if(!v)return;const cc=gSize/2;v.setAttribute("transform",`translate(${cc} ${cc}) scale(${gstate.k}) translate(${-cc} ${-cc})`);}
+function gZoom(f){gstate.k=Math.min(3,Math.max(0.4,gstate.k*f));applyG();}
+function gReset(){gstate.k=1;applyG();}
+
+/* ---------- 单词本：滑动删除 / 拖拽移标签 ---------- */
+let openSwipeWord=null;
+let itemState=null;
+let dragState=null;
+let ghostEl=null;
+let suppressClickUntil=0;
+function itemDown(e,word){
+  if(e.pointerType==="mouse"&&e.button!==0)return;
+  const el=e.currentTarget;
+  if(el.setPointerCapture){try{el.setPointerCapture(e.pointerId);}catch(_){}}
+  itemState={word,el,sx:e.clientX,sy:e.clientY,mode:null,base:(openSwipeWord===word?82:0),
+    lp:setTimeout(()=>{if(itemState&&itemState.word===word){itemState.mode="drag";startItemDrag(e,word,el);}},400)};
+}
+function itemMove(e,word){
+  const s=itemState;if(!s||s.word!==word)return;
+  const dx=e.clientX-s.sx,dy=e.clientY-s.sy;
+  if(s.mode===null){
+    if(Math.hypot(dx,dy)<8)return;
+    clearTimeout(s.lp);
+    if(Math.abs(dx)>Math.abs(dy)){s.mode="swipe";s.el.classList.add("swiping");}
+    else{s.mode="scroll";if(s.el.releasePointerCapture){try{s.el.releasePointerCapture(e.pointerId);}catch(_){}}return;}
+  }
+  if(s.mode==="swipe"){
+    let off=s.base+dx;if(off<0)off=0;if(off>90)off=90;
+    s.el.style.transform="translateX("+off+"px)";
+    if(e.cancelable)e.preventDefault();
+  }else if(s.mode==="drag"){moveItemDrag(e);}
+}
+function itemUp(e,word){
+  const s=itemState;if(!s||s.word!==word)return;
+  clearTimeout(s.lp);
+  if(s.el.classList)s.el.classList.remove("swiping");
+  if(s.mode==="swipe"){
+    const dx=e.clientX-s.sx, willOpen=(s.base+dx)>45;
+    openSwipeWord=willOpen?word:null;
+    s.el.style.transform="translateX("+(willOpen?82:0)+"px)";
+    suppressClickUntil=Date.now()+400;
+  }else if(s.mode==="drag"){
+    endItemDrag(e,word);
+    suppressClickUntil=Date.now()+400;
+  }
+  itemState=null;
+}
+function confirmDelete(word){
+  const w=WORDS.find(x=>x.word===word);if(!w)return;
+  if(confirm("删除「"+w.word+"」？会从单词本移除，可在「我的 → 已删除」恢复。")){
+    hideWord(word);openSwipeWord=null;renderList();
+  }
+}
+function startItemDrag(e,word,el){
+  dragState={word,el};
+  ghostEl=document.createElement("div");ghostEl.className="ghost";ghostEl.textContent=word;
+  document.body.appendChild(ghostEl);positionGhost(e.clientX,e.clientY);
+  el.classList.add("dragging");showDropBar();
+}
+function positionGhost(x,y){if(ghostEl){ghostEl.style.left=x+"px";ghostEl.style.top=y+"px";}}
+function moveItemDrag(e){positionGhost(e.clientX,e.clientY);highlightDropChip(e.clientX,e.clientY);}
+function endItemDrag(e,word){
+  const chip=dropChipAt(e.clientX,e.clientY);
+  if(ghostEl&&ghostEl.parentNode)ghostEl.parentNode.removeChild(ghostEl);
+  ghostEl=null;
+  if(dragState&&dragState.el)dragState.el.classList.remove("dragging");
+  hideDropBar();
+  if(chip){
+    const w=WORDS.find(x=>x.word===word);
+    if(w&&chip!==catOf(w))setWordCat(word,chip);
+    renderList();
+  }
+  dragState=null;
+}
+function showDropBar(){
+  let bar=document.getElementById("dropbar");
+  if(!bar){bar=document.createElement("div");bar.id="dropbar";document.body.appendChild(bar);}
+  bar.innerHTML=`<div class="db-title">拖到目标单词本</div><div class="chips">${CATS.filter(c=>c!=="全部").map(c=>`<div class="chip dropchip" data-cat="${c}">${c}</div>`).join("")}</div>`;
+  bar.style.display="block";
+}
+function hideDropBar(){const bar=document.getElementById("dropbar");if(bar)bar.style.display="none";}
+function dropChipAt(x,y){
+  const bar=document.getElementById("dropbar");if(!bar||bar.style.display==="none")return null;
+  const chips=bar.querySelectorAll(".dropchip");
+  for(const c of chips){const r=c.getBoundingClientRect();if(x>=r.left&&x<=r.right&&y>=r.top&&y<=r.bottom)return c.dataset.cat;}
+  return null;
+}
+function highlightDropChip(x,y){
+  const bar=document.getElementById("dropbar");if(!bar)return;
+  const cur=dropChipAt(x,y);
+  bar.querySelectorAll(".dropchip").forEach(c=>c.classList.toggle("on",c.dataset.cat===cur));
+}
+
 /* ---------- 进度持久化 ---------- */
 function normalize(p){
   p = p || {};
@@ -229,6 +502,8 @@ function normalize(p){
   p.settings = p.settings || {};
   if(!p.settings.dailyNew) p.settings.dailyNew = 10;
   p.stats = p.stats || {};
+  p.hidden = p.hidden || [];
+  p.catOverride = p.catOverride || {};
   const t = todayStr();
   for(const k in p.cards){
     const c = p.cards[k];
@@ -258,14 +533,14 @@ function cardOf(w){return progress.cards[w.word];}
 function isNew(w){return !cardOf(w);}
 function isLearning(w){const c=cardOf(w);return !!c && c.state==="learning";}
 function isMastered(w){const c=cardOf(w);return !!c && c.state==="mastered";}
-function masteredCount(){return WORDS.filter(isMastered).length;}
-function learningCount(){return WORDS.filter(isLearning).length;}
-function newCount(){return WORDS.filter(isNew).length;}
-function studiedCount(){return WORDS.filter(w=>cardOf(w)).length;}
-function todayLearned(){const t=todayStr();return WORDS.filter(w=>{const c=cardOf(w);return c&&c.learnedOn===t;}).length;}
-function todayMastered(){const t=todayStr();return WORDS.filter(w=>{const c=cardOf(w);return c&&c.masteredOn===t;}).length;}
-function pickNew(n){return WORDS.filter(isNew).slice(0,n||0);}
-function pickLearning(){return WORDS.filter(isLearning);}
+function masteredCount(){return allWords().filter(isMastered).length;}
+function learningCount(){return allWords().filter(isLearning).length;}
+function newCount(){return allWords().filter(isNew).length;}
+function studiedCount(){return allWords().filter(w=>cardOf(w)).length;}
+function todayLearned(){const t=todayStr();return allWords().filter(w=>{const c=cardOf(w);return c&&c.learnedOn===t;}).length;}
+function todayMastered(){const t=todayStr();return allWords().filter(w=>{const c=cardOf(w);return c&&c.masteredOn===t;}).length;}
+function pickNew(n){return allWords().filter(isNew).slice(0,n||0);}
+function pickLearning(){return allWords().filter(isLearning);}
 function cardState(w){const c=cardOf(w);if(!c)return "new";return c.state==="mastered"?"mastered":"learning";}
 
 function markLearned(w){
@@ -340,6 +615,7 @@ function renderMenu(){
       <div class="stat click" onclick="showGroup('learned')"><div class="num">${studied}</div><div class="lbl">已学习 ›</div></div>
       <div class="stat click" onclick="showGroup('mastered')"><div class="num accent">${master}</div><div class="lbl">已掌握 ›</div></div>
     </div>
+    <div class="graphcard" id="graphCard">${graphCardInner()}</div>
     <div class="menu-card">${menuCardHTML(target,learnedToday,pending,remain,master)}</div>`;
   updateBadge();
 }
@@ -396,9 +672,9 @@ function renderMCQ(){
 }
 function buildOptions(w){
   const correct=w.zh;
-  const pool=WORDS.filter(x=>x.word!==w.word&&x.zh&&x.zh!==correct);
-  const diff=shuffle(pool.filter(x=>x.category!==w.category));
-  const same=shuffle(pool.filter(x=>x.category===w.category));
+  const pool=allWords().filter(x=>x.word!==w.word&&x.zh&&x.zh!==correct);
+  const diff=shuffle(pool.filter(x=>catOf(x)!==catOf(w)));
+  const same=shuffle(pool.filter(x=>catOf(x)===catOf(w)));
   const distractors=[...diff,...same].slice(0,3).map(x=>x.zh);
   return shuffle([correct,...distractors]);
 }
@@ -579,31 +855,44 @@ function renderList(){
     </div>
     <div class="searchbar"><input id="search" placeholder="搜索单词 / 释义…" value="${esc(curQuery)}" oninput="onSearch(this.value)"></div>
     <div class="chips">${chips}</div>
-    <ul class="wordlist" id="list"></ul>`;
+    <div class="wordlist" id="list"></div>`;
+  openSwipeWord=null;
   renderListItems();
 }
 function renderListItems(){
   const q=curQuery.trim().toLowerCase();
   const list=[];
   for(const w of WORDS){
-    if(curCat!=="全部"&&w.category!==curCat)continue;
+    if(isHidden(w))continue;
+    if(curCat!=="全部"&&catOf(w)!==curCat)continue;
     if(q&&!(w.word.toLowerCase().includes(q)||w.zh.includes(q)||(w.def||"").toLowerCase().includes(q)))continue;
     list.push(w);
   }
-  const ul=$("#list");
-  if(list.length===0){ul.innerHTML='<div class="empty">没有匹配的单词</div>';return;}
-  ul.innerHTML=list.map(w=>{
+  const box=$("#list");
+  if(list.length===0){box.innerHTML='<div class="empty">没有匹配的单词</div>';return;}
+  box.innerHTML=list.map(w=>{
     const st=cardState(w);
     const dot={new:"new",learning:"learn",mastered:"master"}[st];
-    return `<li class="worditem" onclick="openDetail('${esc(w.word)}')">
-      <span class="dot ${dot}"></span>
-      <span class="w">${esc(w.word)}</span>
-      <span class="z">${esc(w.zh)}</span></li>`;
+    const opened=openSwipeWord===w.word;
+    return `<div class="witem-wrap">
+      <div class="witem-del" onclick="confirmDelete('${esc(w.word)}')">删除</div>
+      <div class="worditem" style="transform:translateX(${opened?82:0}px)"
+           onpointerdown="itemDown(event,'${esc(w.word)}')"
+           onpointermove="itemMove(event,'${esc(w.word)}')"
+           onpointerup="itemUp(event,'${esc(w.word)}')"
+           onpointercancel="itemUp(event,'${esc(w.word)}')"
+           onclick="openDetail('${esc(w.word)}')">
+        <span class="dot ${dot}"></span>
+        <span class="w">${esc(w.word)}</span>
+        <span class="z">${esc(w.zh)}</span>
+      </div>
+    </div>`;
   }).join("");
 }
 function setCat(c){curCat=c;renderList();}
 function onSearch(v){curQuery=v;renderListItems();}
 function openDetail(word, back){
+  if(Date.now()<suppressClickUntil)return;
   const w=WORDS.find(x=>x.word===word);if(!w)return;
   const backFn=back||"renderList";
   const c=cardOf(w);
@@ -622,7 +911,7 @@ function openDetail(word, back){
       <div class="zh">${esc(w.zh)}</div>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
-      <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(w.category)} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
+      <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(catOf(w))} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
     </div>`;
 }
 
@@ -631,7 +920,7 @@ let curGroupKind=null;
 let groupSelectMode=false;
 let groupSelected=new Set();
 function groupWordsOf(kind){
-  return kind==="mastered"?WORDS.filter(isMastered):WORDS.filter(w=>cardOf(w));
+  return kind==="mastered"?allWords().filter(isMastered):allWords().filter(w=>cardOf(w));
 }
 function showGroup(kind){
   curGroupKind=kind;
@@ -710,7 +999,7 @@ function actSelected(mode){
   beginSessionOn(words, mode);
 }
 function beginSessionOnGroup(kind, mode){
-  const words=kind==="mastered"?WORDS.filter(isMastered):WORDS.filter(w=>cardOf(w));
+  const words=kind==="mastered"?allWords().filter(isMastered):allWords().filter(w=>cardOf(w));
   beginSessionOn(words, mode);
 }
 function beginSessionOn(words, mode){
@@ -730,8 +1019,8 @@ function beginSessionOn(words, mode){
 /* ---------- 我的 ---------- */
 function renderMe(){
   const main=$("#main");
-  const total=WORDS.length;
-  const studied=WORDS.filter(w=>cardOf(w)).length;
+  const total=allWords().length;
+  const studied=allWords().filter(w=>cardOf(w)).length;
   const masterN=masteredCount();
   const pending=learningCount();
   const s=progress.settings.dailyNew||10;
@@ -759,6 +1048,13 @@ function renderMe(){
       <div class="setting"><span class="lbl">今日新词</span><span>${todayLearned()} 个</span></div>
       <div class="setting"><span class="lbl">今日掌握</span><span>${todayMastered()} 个</span></div>
     </div>
+    ${(progress.hidden||[]).length>0?`<div class="panel">
+      <h3>已删除的单词（${progress.hidden.length}）</h3>
+      <div class="wordlist">${progress.hidden.map(wd=>`<div class="worditem" style="cursor:default">
+        <span class="w">${esc(wd)}</span>
+        <button class="btn small" style="flex:0 0 auto;width:auto;padding:8px 12px" onclick="unhideWord('${esc(wd)}');renderMe()">恢复</button>
+      </div>`).join("")}</div>
+    </div>`:""}
     <div class="panel">
       <h3>学习进度备份</h3>
       <button class="btn" onclick="exportData()">导出进度（复制到剪贴板）</button>
