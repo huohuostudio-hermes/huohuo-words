@@ -740,7 +740,18 @@ function graphCardInner(){
     <div class="chips">${chips}</div>
     <div class="graphwrap"><div class="ghint">${words.length} 词</div><canvas id="graphcanvas" onpointerdown="gDown(event)"></canvas><div class="gcaption" id="gcaption"></div></div>`;
 }
-function setChainCat(c){chainCat=c;gK=1;const el=$("#graphCard");if(el)el.innerHTML=graphCardInner();scheduleGraph();}
+let graphChipsScrollX=0;
+function saveGraphChipsScroll(){const el=document.querySelector('#graphCard .chips');if(el)graphChipsScrollX=el.scrollLeft;}
+function setChainCat(c){
+  chainCat=c;gK=1;
+  saveGraphChipsScroll();
+  const el=$("#graphCard");
+  if(el){
+    el.innerHTML=graphCardInner();
+    raf(()=>{const cc=document.querySelector('#graphCard .chips');if(cc)cc.scrollLeft=graphChipsScrollX;});
+  }
+  scheduleGraph();
+}
 function scheduleGraph(){setTimeout(initGraph,0);}
 function gDown(e){
   gpointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
@@ -857,26 +868,45 @@ function confirmDelete(word){
     hideWord(word);openSwipeWord=null;renderList();
   }
 }
+let dropScrollTimer=null;
+function startDropScroll(){stopDropScroll();dropScrollTimer=setInterval(autoScrollTick,16);}
+function stopDropScroll(){if(dropScrollTimer){clearInterval(dropScrollTimer);dropScrollTimer=null;}}
+function autoScrollTick(){
+  if(!dragState)return;
+  const bar=document.getElementById("dropbar");
+  if(!bar||bar.style.display==="none")return;
+  const chips=bar.querySelector(".chips");
+  if(!chips)return;
+  const r=chips.getBoundingClientRect();
+  const x=dragState.x, y=dragState.y;
+  if(y<r.top||y>r.bottom)return;
+  const edge=64, speed=13;
+  if(x<r.left+edge)chips.scrollLeft-=speed;
+  else if(x>r.right-edge)chips.scrollLeft+=speed;
+}
 function handleDown(e,word){
   e.stopPropagation();
   if(e.pointerType==="mouse"&&e.button!==0)return;
   const el=e.currentTarget;
   if(el.setPointerCapture){try{el.setPointerCapture(e.pointerId);}catch(_){}}
-  dragState={word,el};
+  dragState={word,el,x:e.clientX,y:e.clientY};
   ghostEl=document.createElement("div");ghostEl.className="ghost";ghostEl.textContent=word;
   document.body.appendChild(ghostEl);positionGhost(e.clientX,e.clientY);
   const it=el.closest(".worditem");if(it)it.classList.add("dragging");
   showDropBar();
+  startDropScroll();
   suppressClickUntil=Date.now()+600;
 }
 function handleMove(e){
   if(!dragState)return;
+  dragState.x=e.clientX;dragState.y=e.clientY;
   positionGhost(e.clientX,e.clientY);
   highlightDropChip(e.clientX,e.clientY);
   if(e.cancelable)e.preventDefault();
 }
 function handleUp(e){
   if(!dragState)return;
+  stopDropScroll();
   const chip=dropChipAt(e.clientX,e.clientY);
   if(ghostEl&&ghostEl.parentNode)ghostEl.parentNode.removeChild(ghostEl);
   ghostEl=null;
@@ -1411,12 +1441,13 @@ function sourceCard(s,w){
   return `<div class="menu-card" style="padding:18px;margin-top:12px">
     <div style="font-size:14.5px;line-height:1.7">${hlText(s.text,w.word)}</div>
     ${s.translation?`<div style="color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6">${esc(s.translation)}</div>`:""}
-    ${branches?`<div class="chips" style="margin-top:10px;flex-wrap:wrap">${branches}</div>`:""}
+    ${branches?`<div class="chips" style="margin-top:10px">${branches}</div>`:""}
     <div style="color:var(--faint);font-size:11px;margin-top:8px">${esc(s.date||"")}</div>
   </div>`;
 }
 let srcCtx=null;
 let srcScrollY=0, restoreSrcScroll=false;
+let srcChipsScroll=[];
 function renderSources(word, back){
   const w=WORDS.find(x=>x.word===word);if(!w)return;
   srcCtx={word:word, back:back||"renderList"};
@@ -1436,7 +1467,10 @@ function renderSources(word, back){
   `;
   if(restoreSrcScroll){
     restoreSrcScroll=false;
-    raf(()=>window.scrollTo(0,srcScrollY));
+    raf(()=>{
+      window.scrollTo(0,srcScrollY);
+      document.querySelectorAll('#main .chips').forEach((el,i)=>{if(srcChipsScroll[i]!==undefined)el.scrollLeft=srcChipsScroll[i];});
+    });
   }
 }
 function backToSources(){
@@ -1446,6 +1480,7 @@ function backToSources(){
 function openBranchWord(bw){
   srcScrollY=getScrollY();
   restoreSrcScroll=true;
+  srcChipsScroll=Array.from(document.querySelectorAll('#main .chips')).map(el=>el.scrollLeft||0);
   openDetail(bw, "backToSources");
 }
 function contextBlock(w){
