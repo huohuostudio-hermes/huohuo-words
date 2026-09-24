@@ -41,6 +41,10 @@ ctx.pageYOffset = 0;
 ctx.WORDS = [
   {word:"why", ipa:"/waɪ/", zh:"为什么", def:"疑问副词", example:"", context:"I don't know why he sounds like an advertisement", category:"其他"},
   {word:"advertisement", ipa:"/ˌædvərˈtaɪzmənt/", zh:"广告", def:"宣传内容", example:"", context:"", category:"其他"},
+  {word:"clean", ipa:"", zh:"清音", def:"", example:"", context:"", category:"吉他"},
+  {word:"guitar", ipa:"", zh:"吉他", def:"", example:"", context:"", category:"吉他"},
+  {word:"chords", ipa:"", zh:"和弦", def:"", example:"", context:"", category:"键盘"},
+  {word:"spacious", ipa:"", zh:"宽敞", def:"", example:"", context:"", category:"其他"},
 ];
 ctx.SOURCES = [
   {date:"2026-09-23", text:"I don't know why he sounds like an advertisement", translation:"我不知道为什么他听起来像一个广告。", branches:[{word:"why",zh:"为什么"},{word:"advertisement",zh:"广告"}]},
@@ -93,6 +97,18 @@ try{
   ctx.renderList();
   ok(ctx._scrolledTo===-1, "复位后再次 renderList 不应再恢复滚动");
 }catch(e){failed++;console.log("✗ FAIL 滚动修复:",e.message);}
+
+// ===== 其他源自 → 分支词详情可左右滑动（backToSources 上下文）=====
+try{
+  ctx.SOURCES=[{date:"2026-09-24", text:"clean guitar chords spacious", translation:"", branches:[{word:"clean",zh:"清音"},{word:"guitar",zh:"吉他"},{word:"chords",zh:"和弦"},{word:"spacious",zh:"宽敞"}]}];
+  ctx.window.SOURCES=ctx.SOURCES;
+  ctx.openBranchWord("guitar","吉他",["clean","guitar","chords","spacious"]);
+  ok(String(mainEl.innerHTML).includes("guitar"), "点分支词后详情应显示 guitar");
+  ctx.swipeDetail(1);
+  ok(String(mainEl.innerHTML).includes("chords"), "右滑后详情应显示 chords（backToSources 可滑动）");
+  ctx.swipeDetail(-1);
+  ok(String(mainEl.innerHTML).includes("guitar"), "左滑应回到 guitar");
+}catch(e){failed++;console.log("✗ FAIL 其他源自滑动:",e.message);}
 
 console.log(`\n===== 通过 ${passed} / 失败 ${failed} =====`);
 process.exit(failed?1:0);
