@@ -3120,6 +3120,45 @@ window.WORDS = [
     "id": 240
   },
   {
+    "word": "going camping",
+    "ipa": "",
+    "translit": "",
+    "zh": "去露营",
+    "def": "指前往户外搭帐篷、过夜的活动，通常远离城市。",
+    "example": "例子：We are going camping by the lake this summer.",
+    "context": "We are going camping in the mountains this weekend.",
+    "contextZh": "这个周末我们要去山里露营。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 241
+  },
+  {
+    "word": "in the mountains",
+    "ipa": "",
+    "translit": "",
+    "zh": "在山里",
+    "def": "表示地点位于山区或多山地带。",
+    "example": "例子：They built a cabin in the mountains.",
+    "context": "We are going camping in the mountains this weekend.",
+    "contextZh": "这个周末我们要去山里露营。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 242
+  },
+  {
+    "word": "this weekend",
+    "ipa": "",
+    "translit": "",
+    "zh": "这个周末",
+    "def": "指即将到来的周六和周日。",
+    "example": "例子：Let's meet up this weekend.",
+    "context": "We are going camping in the mountains this weekend.",
+    "contextZh": "这个周末我们要去山里露营。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 243
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3130,7 +3169,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 241
+    "id": 244
   },
   {
     "word": "Conga",
@@ -3143,7 +3182,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 242
+    "id": 245
   },
   {
     "word": "Percussion",
@@ -3156,7 +3195,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 243
+    "id": 246
   },
   {
     "word": "Grooves",
@@ -3169,7 +3208,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 244
+    "id": 247
   },
   {
     "word": "Bongos",
@@ -3182,7 +3221,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 245
+    "id": 248
   },
   {
     "word": "Woodblock",
@@ -3195,7 +3234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 246
+    "id": 249
   },
   {
     "word": "Djembe",
@@ -3208,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 247
+    "id": 250
   },
   {
     "word": "Tambourine",
@@ -3221,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 248
+    "id": 251
   },
   {
     "word": "Cowbells",
@@ -3234,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 249
+    "id": 252
   },
   {
     "word": "Bells",
@@ -3247,7 +3286,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 250
+    "id": 253
   },
   {
     "word": "Timbales",
@@ -3260,7 +3299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 251
+    "id": 254
   },
   {
     "word": "Keys",
@@ -3273,7 +3312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 252
+    "id": 255
   },
   {
     "word": "Piano",
@@ -3286,7 +3325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 253
+    "id": 256
   },
   {
     "word": "Wurlitzer",
@@ -3299,7 +3338,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 254
+    "id": 257
   },
   {
     "word": "Electric Piano",
@@ -3312,7 +3351,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 255
+    "id": 258
   },
   {
     "word": "Organ",
@@ -3325,7 +3364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 256
+    "id": 259
   },
   {
     "word": "Clavinet",
@@ -3338,7 +3377,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 257
+    "id": 260
   },
   {
     "word": "Keys Melody",
@@ -3351,7 +3390,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 258
+    "id": 261
   },
   {
     "word": "Classical",
@@ -3364,7 +3403,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 259
+    "id": 262
   },
   {
     "word": "Female Vocals",
@@ -3377,7 +3416,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 260
+    "id": 263
   },
   {
     "word": "Vocal FX",
@@ -3390,7 +3429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 261
+    "id": 264
   },
   {
     "word": "Vocoder",
@@ -3403,7 +3442,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 262
+    "id": 265
   },
   {
     "word": "Screams",
@@ -3416,7 +3455,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 263
+    "id": 266
   },
   {
     "word": "Whisper Vocals",
@@ -3429,7 +3468,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 264
+    "id": 267
   },
   {
     "word": "Male Vocals",
@@ -3442,7 +3481,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 265
+    "id": 268
   },
   {
     "word": "Spoken Word",
@@ -3455,7 +3494,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 266
+    "id": 269
   },
   {
     "word": "Vocal Phrases",
@@ -3468,7 +3507,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 267
+    "id": 270
   },
   {
     "word": "Vocal Shouts",
@@ -3481,7 +3520,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 268
+    "id": 271
   },
   {
     "word": "Dialogue",
@@ -3494,7 +3533,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 269
+    "id": 272
   }
 ];
 window.SOURCES = [
@@ -4215,6 +4254,26 @@ window.SOURCES = [
       {
         "word": "Smooth With Cream",
         "zh": "丝滑加奶油 / 柔滑带奶香"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "We are going camping in the mountains this weekend.",
+    "translation": "这个周末我们要去山里露营。",
+    "category": "",
+    "branches": [
+      {
+        "word": "going camping",
+        "zh": "去露营"
+      },
+      {
+        "word": "in the mountains",
+        "zh": "在山里"
+      },
+      {
+        "word": "this weekend",
+        "zh": "这个周末"
       }
     ]
   }
