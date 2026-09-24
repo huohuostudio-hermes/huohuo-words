@@ -3107,6 +3107,19 @@ window.WORDS = [
     "id": 239
   },
   {
+    "word": "prompt",
+    "ipa": "prɒmpt",
+    "translit": "",
+    "zh": "提示词 / 提示",
+    "def": "指输入给人工智能模型的指令或文本，用来引导模型生成相应的回答或内容。",
+    "example": "例子：在聊天机器人中输入“帮我写一首关于春天的诗”，这就是一个 prompt。",
+    "context": "prompt",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 240
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3117,7 +3130,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 240
+    "id": 241
   },
   {
     "word": "Conga",
@@ -3130,7 +3143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 241
+    "id": 242
   },
   {
     "word": "Percussion",
@@ -3143,7 +3156,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 242
+    "id": 243
   },
   {
     "word": "Grooves",
@@ -3156,7 +3169,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 243
+    "id": 244
   },
   {
     "word": "Bongos",
@@ -3169,7 +3182,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 244
+    "id": 245
   },
   {
     "word": "Woodblock",
@@ -3182,7 +3195,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 245
+    "id": 246
   },
   {
     "word": "Djembe",
@@ -3195,7 +3208,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 246
+    "id": 247
   },
   {
     "word": "Tambourine",
@@ -3208,7 +3221,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 247
+    "id": 248
   },
   {
     "word": "Cowbells",
@@ -3221,7 +3234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 248
+    "id": 249
   },
   {
     "word": "Bells",
@@ -3234,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 249
+    "id": 250
   },
   {
     "word": "Timbales",
@@ -3247,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 250
+    "id": 251
   },
   {
     "word": "Keys",
@@ -3260,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 251
+    "id": 252
   },
   {
     "word": "Piano",
@@ -3273,7 +3286,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 252
+    "id": 253
   },
   {
     "word": "Wurlitzer",
@@ -3286,7 +3299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 253
+    "id": 254
   },
   {
     "word": "Electric Piano",
@@ -3299,7 +3312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 254
+    "id": 255
   },
   {
     "word": "Organ",
@@ -3312,7 +3325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 255
+    "id": 256
   },
   {
     "word": "Clavinet",
@@ -3325,7 +3338,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 256
+    "id": 257
   },
   {
     "word": "Keys Melody",
@@ -3338,7 +3351,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 257
+    "id": 258
   },
   {
     "word": "Classical",
@@ -3351,7 +3364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 258
+    "id": 259
   },
   {
     "word": "Female Vocals",
@@ -3364,7 +3377,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 259
+    "id": 260
   },
   {
     "word": "Vocal FX",
@@ -3377,7 +3390,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 260
+    "id": 261
   },
   {
     "word": "Vocoder",
@@ -3390,7 +3403,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 261
+    "id": 262
   },
   {
     "word": "Screams",
@@ -3403,7 +3416,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 262
+    "id": 263
   },
   {
     "word": "Whisper Vocals",
@@ -3416,7 +3429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 263
+    "id": 264
   },
   {
     "word": "Male Vocals",
@@ -3429,7 +3442,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 264
+    "id": 265
   },
   {
     "word": "Spoken Word",
@@ -3442,7 +3455,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 265
+    "id": 266
   },
   {
     "word": "Vocal Phrases",
@@ -3455,7 +3468,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 266
+    "id": 267
   },
   {
     "word": "Vocal Shouts",
@@ -3468,7 +3481,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 267
+    "id": 268
   },
   {
     "word": "Dialogue",
@@ -3481,7 +3494,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 268
+    "id": 269
   }
 ];
 window.SOURCES = [
