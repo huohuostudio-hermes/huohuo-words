@@ -3237,6 +3237,188 @@ window.WORDS = [
     "id": 249
   },
   {
+    "word": "intricate process",
+    "ipa": "",
+    "translit": "",
+    "zh": "复杂过程",
+    "def": "指包含许多相互关联步骤、需要细致处理的流程。",
+    "example": "例子：混音中同时处理均衡、压缩和空间效果就是一个复杂过程。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 250
+  },
+  {
+    "word": "modern music production",
+    "ipa": "",
+    "translit": "",
+    "zh": "现代音乐制作",
+    "def": "指当代使用数字音频工作站、插件和合成技术进行音乐创作与制作的方式。",
+    "example": "例子：在 DAW 中编曲、录音、编辑和混音。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 251
+  },
+  {
+    "word": "mixing",
+    "ipa": "",
+    "translit": "",
+    "zh": "混音",
+    "def": "将多轨音频素材进行音量、声像、动态和效果处理，使其融合为一个完整作品的过程。",
+    "example": "例子：把人声、鼓组和贝斯调整到彼此平衡。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 252
+  },
+  {
+    "word": "skillfully layering",
+    "ipa": "",
+    "translit": "",
+    "zh": "熟练地叠加",
+    "def": "指有技巧地把多个声音或音色分层组合在一起，以形成更丰富的听感。",
+    "example": "例子：在 pad 音色上再叠加弦乐和氛围声。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 253
+  },
+  {
+    "word": "ambient textures",
+    "ipa": "",
+    "translit": "",
+    "zh": "氛围织体 / 环境音色层",
+    "def": "指具有空间感、铺底感和情绪渲染作用的持续性声音材料。",
+    "example": "听觉例子：缓慢起伏的合成器 pad 和远处混响噪声。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 254
+  },
+  {
+    "word": "aligning",
+    "ipa": "",
+    "translit": "",
+    "zh": "对齐",
+    "def": "指把音频事件在时间轴上精确放置到指定位置，使其节奏同步。",
+    "example": "例子：把鼓点对齐到网格。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 255
+  },
+  {
+    "word": "transient-rich impacts",
+    "ipa": "",
+    "translit": "",
+    "zh": "瞬态丰富的冲击声",
+    "def": "指起音极快、瞬态信息明显、具有强烈打击感的声响。",
+    "example": "听觉例子：军鼓、拍手和电影打击乐的尖锐起音。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 256
+  },
+  {
+    "word": "to the grid",
+    "ipa": "",
+    "translit": "",
+    "zh": "对齐到网格",
+    "def": "指按照 DAW 的节拍网格位置进行时间校正或量化。",
+    "example": "例子：把采样切片吸附到 1/16 音符网格。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 257
+  },
+  {
+    "word": "automating",
+    "ipa": "",
+    "translit": "",
+    "zh": "自动化",
+    "def": "指通过参数自动化随时间控制音量、滤波、声像等变化。",
+    "example": "例子：让滤波器截止频率在段落中逐渐下降。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 258
+  },
+  {
+    "word": "frequency decay",
+    "ipa": "",
+    "translit": "",
+    "zh": "频率衰减",
+    "def": "指声音中高频或特定频段随时间减弱的过程。",
+    "example": "听觉例子：镲片敲击后高频迅速消退。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 259
+  },
+  {
+    "word": "essential techniques",
+    "ipa": "",
+    "translit": "",
+    "zh": "关键技术",
+    "def": "指在特定工作中不可缺少、决定效果质量的重要方法。",
+    "example": "例子：压缩和均衡是混音中的关键技术。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 260
+  },
+  {
+    "word": "maintain sonic clarity",
+    "ipa": "",
+    "translit": "",
+    "zh": "保持声音清晰度",
+    "def": "指让各声音元素在频谱和空间上彼此区分、不浑浊。",
+    "example": "例子：减少低频堆积以保持人声清晰。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 261
+  },
+  {
+    "word": "emotional dynamics",
+    "ipa": "",
+    "translit": "",
+    "zh": "情绪动态",
+    "def": "指音乐在强弱、张弛和起伏上的情绪变化。",
+    "example": "例子：主歌克制、副歌爆发形成情绪动态。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 262
+  },
+  {
+    "word": "across the master bus",
+    "ipa": "",
+    "translit": "",
+    "zh": "贯穿主总线",
+    "def": "指作用于最终总输出通道上的整体处理与效果。",
+    "example": "例子：在 master bus 上做总线压缩和限幅。",
+    "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 263
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3247,7 +3429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 250
+    "id": 264
   },
   {
     "word": "Conga",
@@ -3260,7 +3442,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 251
+    "id": 265
   },
   {
     "word": "Percussion",
@@ -3273,7 +3455,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 252
+    "id": 266
   },
   {
     "word": "Grooves",
@@ -3286,7 +3468,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 253
+    "id": 267
   },
   {
     "word": "Bongos",
@@ -3299,7 +3481,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 254
+    "id": 268
   },
   {
     "word": "Woodblock",
@@ -3312,7 +3494,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 255
+    "id": 269
   },
   {
     "word": "Djembe",
@@ -3325,7 +3507,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 256
+    "id": 270
   },
   {
     "word": "Tambourine",
@@ -3338,7 +3520,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 257
+    "id": 271
   },
   {
     "word": "Cowbells",
@@ -3351,7 +3533,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 258
+    "id": 272
   },
   {
     "word": "Bells",
@@ -3364,7 +3546,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 259
+    "id": 273
   },
   {
     "word": "Timbales",
@@ -3377,7 +3559,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 260
+    "id": 274
   },
   {
     "word": "Keys",
@@ -3390,7 +3572,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 261
+    "id": 275
   },
   {
     "word": "Piano",
@@ -3403,7 +3585,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 262
+    "id": 276
   },
   {
     "word": "Wurlitzer",
@@ -3416,7 +3598,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 263
+    "id": 277
   },
   {
     "word": "Electric Piano",
@@ -3429,7 +3611,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 264
+    "id": 278
   },
   {
     "word": "Organ",
@@ -3442,7 +3624,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 265
+    "id": 279
   },
   {
     "word": "Clavinet",
@@ -3455,7 +3637,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 266
+    "id": 280
   },
   {
     "word": "Keys Melody",
@@ -3468,7 +3650,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 267
+    "id": 281
   },
   {
     "word": "Classical",
@@ -3481,7 +3663,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 268
+    "id": 282
   },
   {
     "word": "Female Vocals",
@@ -3494,7 +3676,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 269
+    "id": 283
   },
   {
     "word": "Vocal FX",
@@ -3507,7 +3689,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 270
+    "id": 284
   },
   {
     "word": "Vocoder",
@@ -3520,7 +3702,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 271
+    "id": 285
   },
   {
     "word": "Screams",
@@ -3533,7 +3715,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 272
+    "id": 286
   },
   {
     "word": "Whisper Vocals",
@@ -3546,7 +3728,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 273
+    "id": 287
   },
   {
     "word": "Male Vocals",
@@ -3559,7 +3741,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 274
+    "id": 288
   },
   {
     "word": "Spoken Word",
@@ -3572,7 +3754,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 275
+    "id": 289
   },
   {
     "word": "Vocal Phrases",
@@ -3585,7 +3767,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 276
+    "id": 290
   },
   {
     "word": "Vocal Shouts",
@@ -3598,7 +3780,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 277
+    "id": 291
   },
   {
     "word": "Dialogue",
@@ -3611,7 +3793,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 278
+    "id": 292
   }
 ];
 window.SOURCES = [
@@ -4404,6 +4586,74 @@ window.SOURCES = [
       {
         "word": "go camping",
         "zh": "去露营"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
+    "translation": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
+    "category": "",
+    "branches": [
+      {
+        "word": "intricate process",
+        "zh": "复杂过程"
+      },
+      {
+        "word": "modern music production",
+        "zh": "现代音乐制作"
+      },
+      {
+        "word": "mixing",
+        "zh": "混音"
+      },
+      {
+        "word": "skillfully layering",
+        "zh": "熟练地叠加"
+      },
+      {
+        "word": "ambient textures",
+        "zh": "氛围织体 / 环境音色层"
+      },
+      {
+        "word": "aligning",
+        "zh": "对齐"
+      },
+      {
+        "word": "transient-rich impacts",
+        "zh": "瞬态丰富的冲击声"
+      },
+      {
+        "word": "to the grid",
+        "zh": "对齐到网格"
+      },
+      {
+        "word": "automating",
+        "zh": "自动化"
+      },
+      {
+        "word": "frequency decay",
+        "zh": "频率衰减"
+      },
+      {
+        "word": "downers",
+        "zh": "下坠音 / 下坠效果"
+      },
+      {
+        "word": "essential techniques",
+        "zh": "关键技术"
+      },
+      {
+        "word": "maintain sonic clarity",
+        "zh": "保持声音清晰度"
+      },
+      {
+        "word": "emotional dynamics",
+        "zh": "情绪动态"
+      },
+      {
+        "word": "across the master bus",
+        "zh": "贯穿主总线"
       }
     ]
   }
