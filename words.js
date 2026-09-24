@@ -3159,6 +3159,58 @@ window.WORDS = [
     "id": 243
   },
   {
+    "word": "camping gear",
+    "ipa": "ˈkæmpɪŋ ɡɪr",
+    "translit": "",
+    "zh": "露营装备",
+    "def": "指露营时所需的全套设备和用品，如帐篷、睡袋、炊具等。",
+    "example": "例子：出发前检查帐篷、睡袋和炉具是否齐全。",
+    "context": "Do you have all the camping gear ready?",
+    "contextZh": "你的露营装备都准备好了吗？",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 244
+  },
+  {
+    "word": "have ready",
+    "ipa": "",
+    "translit": "",
+    "zh": "准备好",
+    "def": "表示某物已经处于可使用的状态，随时可以取用。",
+    "example": "例子：出发前把所有行李准备好放在门口。",
+    "context": "Do you have all the camping gear ready?",
+    "contextZh": "你的露营装备都准备好了吗？",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 245
+  },
+  {
+    "word": "disconnect",
+    "ipa": "ˌdɪskəˈnɛkt",
+    "translit": "",
+    "zh": "断开连接 / 脱离",
+    "def": "主动停止使用电子设备或网络，使自己从数字世界中抽离出来。",
+    "example": "例子：关掉手机和电脑，一整天不看社交媒体。",
+    "context": "I love camping because it helps me disconnect from technology.",
+    "contextZh": "我喜欢露营，因为它帮助我脱离科技。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 246
+  },
+  {
+    "word": "technology",
+    "ipa": "tɛkˈnɒlədʒi",
+    "translit": "",
+    "zh": "科技 / 技术",
+    "def": "指手机、电脑、互联网等电子设备和数字工具。",
+    "example": "例子：智能手机、笔记本电脑、平板等日常电子设备。",
+    "context": "I love camping because it helps me disconnect from technology.",
+    "contextZh": "我喜欢露营，因为它帮助我脱离科技。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 247
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3169,7 +3221,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 244
+    "id": 248
   },
   {
     "word": "Conga",
@@ -3182,7 +3234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 245
+    "id": 249
   },
   {
     "word": "Percussion",
@@ -3195,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 246
+    "id": 250
   },
   {
     "word": "Grooves",
@@ -3208,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 247
+    "id": 251
   },
   {
     "word": "Bongos",
@@ -3221,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 248
+    "id": 252
   },
   {
     "word": "Woodblock",
@@ -3234,7 +3286,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 249
+    "id": 253
   },
   {
     "word": "Djembe",
@@ -3247,7 +3299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 250
+    "id": 254
   },
   {
     "word": "Tambourine",
@@ -3260,7 +3312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 251
+    "id": 255
   },
   {
     "word": "Cowbells",
@@ -3273,7 +3325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 252
+    "id": 256
   },
   {
     "word": "Bells",
@@ -3286,7 +3338,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 253
+    "id": 257
   },
   {
     "word": "Timbales",
@@ -3299,7 +3351,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 254
+    "id": 258
   },
   {
     "word": "Keys",
@@ -3312,7 +3364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 255
+    "id": 259
   },
   {
     "word": "Piano",
@@ -3325,7 +3377,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 256
+    "id": 260
   },
   {
     "word": "Wurlitzer",
@@ -3338,7 +3390,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 257
+    "id": 261
   },
   {
     "word": "Electric Piano",
@@ -3351,7 +3403,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 258
+    "id": 262
   },
   {
     "word": "Organ",
@@ -3364,7 +3416,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 259
+    "id": 263
   },
   {
     "word": "Clavinet",
@@ -3377,7 +3429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 260
+    "id": 264
   },
   {
     "word": "Keys Melody",
@@ -3390,7 +3442,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 261
+    "id": 265
   },
   {
     "word": "Classical",
@@ -3403,7 +3455,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 262
+    "id": 266
   },
   {
     "word": "Female Vocals",
@@ -3416,7 +3468,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 263
+    "id": 267
   },
   {
     "word": "Vocal FX",
@@ -3429,7 +3481,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 264
+    "id": 268
   },
   {
     "word": "Vocoder",
@@ -3442,7 +3494,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 265
+    "id": 269
   },
   {
     "word": "Screams",
@@ -3455,7 +3507,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 266
+    "id": 270
   },
   {
     "word": "Whisper Vocals",
@@ -3468,7 +3520,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 267
+    "id": 271
   },
   {
     "word": "Male Vocals",
@@ -3481,7 +3533,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 268
+    "id": 272
   },
   {
     "word": "Spoken Word",
@@ -3494,7 +3546,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 269
+    "id": 273
   },
   {
     "word": "Vocal Phrases",
@@ -3507,7 +3559,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 270
+    "id": 274
   },
   {
     "word": "Vocal Shouts",
@@ -3520,7 +3572,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 271
+    "id": 275
   },
   {
     "word": "Dialogue",
@@ -3533,7 +3585,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 272
+    "id": 276
   }
 ];
 window.SOURCES = [
@@ -4274,6 +4326,42 @@ window.SOURCES = [
       {
         "word": "this weekend",
         "zh": "这个周末"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Do you have all the camping gear ready?",
+    "translation": "你的露营装备都准备好了吗？",
+    "category": "",
+    "branches": [
+      {
+        "word": "camping gear",
+        "zh": "露营装备"
+      },
+      {
+        "word": "have ready",
+        "zh": "准备好"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "I love camping because it helps me disconnect from technology.",
+    "translation": "我喜欢露营，因为它帮助我脱离科技。",
+    "category": "",
+    "branches": [
+      {
+        "word": "camping",
+        "zh": "露营"
+      },
+      {
+        "word": "disconnect",
+        "zh": "断开连接 / 脱离"
+      },
+      {
+        "word": "technology",
+        "zh": "科技 / 技术"
       }
     ]
   }
