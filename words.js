@@ -3640,6 +3640,123 @@ window.WORDS = [
     "id": 280
   },
   {
+    "word": "Layering",
+    "ipa": "ˈleɪərɪŋ",
+    "translit": "",
+    "zh": "叠加 / 分层",
+    "def": "将多个声音元素叠放在一起，使整体音色更丰富、更有层次感。",
+    "example": "例子：在电子底鼓上叠加一段原声鼓采样，让低频更有冲击力。",
+    "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
+    "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 281
+  },
+  {
+    "word": "organic shakers",
+    "ipa": "",
+    "translit": "",
+    "zh": "原声沙锤",
+    "def": "指用天然材质（如葫芦、木头、种子壳）制作的沙锤，音色温暖自然。",
+    "example": "例子：在拉丁音乐中，乐手手持原声沙锤为节奏增添细腻的高频律动。",
+    "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
+    "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
+    "category": "打击乐",
+    "source": "小赫转存",
+    "id": 282
+  },
+  {
+    "word": "electronic hi-hats",
+    "ipa": "",
+    "translit": "",
+    "zh": "电子踩镲",
+    "def": "由合成器或鼓机生成的踩镲音色，通常干净、精准且可高度调控。",
+    "example": "例子：在电子舞曲中，电子踩镲常用于标记八分音符的节奏骨架。",
+    "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
+    "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 283
+  },
+  {
+    "word": "human feel",
+    "ipa": "ˈhjuːmən fiːl",
+    "translit": "",
+    "zh": "人性化感觉",
+    "def": "指音乐中带有自然、不机械的律动感，仿佛真人演奏般有细微起伏。",
+    "example": "例子：鼓手略微提前或延后击打，让节奏听起来更生动自然。",
+    "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
+    "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 284
+  },
+  {
+    "word": "rhythm section",
+    "ipa": "ˈrɪðəm sekʃən",
+    "translit": "",
+    "zh": "节奏声部",
+    "def": "乐队中负责节奏与和声基础的部分，通常包括鼓、贝斯和节奏吉他等。",
+    "example": "例子：爵士乐队中的节奏声部为独奏者提供稳定的律动与和声支撑。",
+    "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
+    "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 285
+  },
+  {
+    "word": "sample libraries",
+    "ipa": "",
+    "translit": "",
+    "zh": "采样库",
+    "def": "指收录预制音频采样（如鼓组、乐器、音效）的资源库，供音乐制作人检索和调用。",
+    "example": "例子：在 Splice 或 Loopcloud 中搜索鼓组、贝斯、人声等素材。",
+    "context": "When browsing sample libraries, typing \"shakers loop\" alongside specific groove keywords yields more precise results.",
+    "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 286
+  },
+  {
+    "word": "shakers loop",
+    "ipa": "",
+    "translit": "",
+    "zh": "沙锤循环",
+    "def": "指一段可循环播放的沙锤演奏音频片段，常用于为节奏增添高频律动。",
+    "example": "听觉例子：连续均匀的\"嚓嚓\"声循环铺底，为歌曲提供细碎的节奏纹理。",
+    "context": "When browsing sample libraries, typing \"shakers loop\" alongside specific groove keywords yields more precise results.",
+    "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
+    "category": "打击乐",
+    "source": "小赫转存",
+    "id": 287
+  },
+  {
+    "word": "groove keywords",
+    "ipa": "",
+    "translit": "",
+    "zh": "律动关键词",
+    "def": "指用于描述节奏风格或律动感觉的搜索词，如 funk、swing、shuffle 等。",
+    "example": "例子：搜索时输入 \"funk groove\" 或 \"swing feel\" 来缩小结果范围。",
+    "context": "When browsing sample libraries, typing \"shakers loop\" alongside specific groove keywords yields more precise results.",
+    "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 288
+  },
+  {
+    "word": "more precise results",
+    "ipa": "",
+    "translit": "",
+    "zh": "更精确的结果",
+    "def": "指通过更具体的关键词组合，使搜索结果更贴合实际需求，减少无关内容。",
+    "example": "例子：同时输入 \"shakers loop\" 和 \"afrobeat\" 比只搜 \"shakers\" 得到的结果更准确。",
+    "context": "When browsing sample libraries, typing \"shakers loop\" alongside specific groove keywords yields more precise results.",
+    "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 289
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3650,7 +3767,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 281
+    "id": 290
   },
   {
     "word": "Conga",
@@ -3663,7 +3780,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 282
+    "id": 291
   },
   {
     "word": "Percussion",
@@ -3676,7 +3793,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 283
+    "id": 292
   },
   {
     "word": "Grooves",
@@ -3689,7 +3806,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 284
+    "id": 293
   },
   {
     "word": "Bongos",
@@ -3702,7 +3819,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 285
+    "id": 294
   },
   {
     "word": "Woodblock",
@@ -3715,7 +3832,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 286
+    "id": 295
   },
   {
     "word": "Djembe",
@@ -3728,7 +3845,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 287
+    "id": 296
   },
   {
     "word": "Tambourine",
@@ -3741,7 +3858,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 288
+    "id": 297
   },
   {
     "word": "Cowbells",
@@ -3754,7 +3871,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 289
+    "id": 298
   },
   {
     "word": "Bells",
@@ -3767,7 +3884,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 290
+    "id": 299
   },
   {
     "word": "Timbales",
@@ -3780,7 +3897,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 291
+    "id": 300
   },
   {
     "word": "Keys",
@@ -3793,7 +3910,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 292
+    "id": 301
   },
   {
     "word": "Piano",
@@ -3806,7 +3923,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 293
+    "id": 302
   },
   {
     "word": "Wurlitzer",
@@ -3819,7 +3936,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 294
+    "id": 303
   },
   {
     "word": "Electric Piano",
@@ -3832,7 +3949,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 295
+    "id": 304
   },
   {
     "word": "Organ",
@@ -3845,7 +3962,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 296
+    "id": 305
   },
   {
     "word": "Clavinet",
@@ -3858,7 +3975,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 297
+    "id": 306
   },
   {
     "word": "Keys Melody",
@@ -3871,7 +3988,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 298
+    "id": 307
   },
   {
     "word": "Classical",
@@ -3884,7 +4001,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 299
+    "id": 308
   },
   {
     "word": "Female Vocals",
@@ -3897,7 +4014,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 300
+    "id": 309
   },
   {
     "word": "Vocal FX",
@@ -3910,7 +4027,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 301
+    "id": 310
   },
   {
     "word": "Vocoder",
@@ -3923,7 +4040,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 302
+    "id": 311
   },
   {
     "word": "Screams",
@@ -3936,7 +4053,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 303
+    "id": 312
   },
   {
     "word": "Whisper Vocals",
@@ -3949,7 +4066,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 304
+    "id": 313
   },
   {
     "word": "Male Vocals",
@@ -3962,7 +4079,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 305
+    "id": 314
   },
   {
     "word": "Spoken Word",
@@ -3975,7 +4092,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 306
+    "id": 315
   },
   {
     "word": "Vocal Phrases",
@@ -3988,7 +4105,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 307
+    "id": 316
   },
   {
     "word": "Vocal Shouts",
@@ -4001,7 +4118,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 308
+    "id": 317
   },
   {
     "word": "Dialogue",
@@ -4014,7 +4131,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 309
+    "id": 318
   }
 ];
 window.SOURCES = [
@@ -5007,6 +5124,86 @@ window.SOURCES = [
       {
         "word": "without",
         "zh": "而不 / 无需"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
+    "translation": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Layering",
+        "zh": "叠加 / 分层"
+      },
+      {
+        "word": "organic shakers",
+        "zh": "原声沙锤"
+      },
+      {
+        "word": "electronic hi-hats",
+        "zh": "电子踩镲"
+      },
+      {
+        "word": "human feel",
+        "zh": "人性化感觉"
+      },
+      {
+        "word": "rhythm section",
+        "zh": "节奏声部"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
+    "translation": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Layering",
+        "zh": "叠加 / 分层"
+      },
+      {
+        "word": "organic shakers",
+        "zh": "原声沙锤 / 自然沙锤"
+      },
+      {
+        "word": "electronic hi-hats",
+        "zh": "电子踩镲 / 电子高帽"
+      },
+      {
+        "word": "human feel",
+        "zh": "人性化感觉 / 人味"
+      },
+      {
+        "word": "rhythm section",
+        "zh": "节奏声部 / 节奏组"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "When browsing sample libraries, typing \"shakers loop\" alongside specific groove keywords yields more precise results.",
+    "translation": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
+    "category": "",
+    "branches": [
+      {
+        "word": "sample libraries",
+        "zh": "采样库"
+      },
+      {
+        "word": "shakers loop",
+        "zh": "沙锤循环"
+      },
+      {
+        "word": "groove keywords",
+        "zh": "律动关键词"
+      },
+      {
+        "word": "more precise results",
+        "zh": "更精确的结果"
       }
     ]
   }
