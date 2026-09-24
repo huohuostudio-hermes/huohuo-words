@@ -637,8 +637,11 @@ function cross(a,b){return {x:a.y*b.z-a.z*b.y, y:a.z*b.x-a.x*b.z, z:a.x*b.y-a.y*
 function rotAxisAngle(ax,ang){const x=ax.x,y=ax.y,z=ax.z,c=Math.cos(ang),s=Math.sin(ang),t=1-c;
   return [[t*x*x+c,t*x*y-s*z,t*x*z+s*y],[t*x*y+s*z,t*y*y+c,t*y*z-s*x],[t*x*z-s*y,t*y*z+s*x,t*z*z+c]];}
 function relaxSphere(pts, n){
-  const minAng = Math.max(0.10, Math.min(0.24, 1.7/Math.sqrt(n)));
-  for(let it=0; it<24; it++){
+  // 目标角距 = 球面 N 点均匀分布的理论角距（2*acos(1-2/n)），
+  // 取 0.85 倍留出收敛余地，间距比旧的 1.7/√n 大得多 → 词更分散、完整铺满球面
+  const ideal = 2*Math.acos(Math.max(-1, Math.min(1, 1 - 2/n)));
+  const minAng = Math.max(0.05, Math.min(0.26, ideal*0.85));
+  for(let it=0; it<40; it++){
     for(let i=0;i<pts.length;i++){
       const a=pts[i];
       for(let j=0;j<pts.length;j++){
@@ -661,6 +664,19 @@ function relaxSphere(pts, n){
     }
   }
 }
+function fibSphere(n){
+  // 黄金角螺旋：任何词数都均匀铺满球面（Fibonacci 球体），
+  // 避免力导向布局把词推到两极/边界造成的"上下拥挤"
+  const pts = [];
+  const golden = Math.PI * (3 - Math.sqrt(5));
+  for(let i=0;i<n;i++){
+    const y = n>1 ? 1 - (i/(n-1))*2 : 0;
+    const r = Math.sqrt(1-y*y);
+    const th = golden*i;
+    pts.push({x:Math.cos(th)*r, y:y, z:Math.sin(th)*r});
+  }
+  return pts;
+}
 function buildSphere(force){
   gWords = chainCat==="全部" ? allWords() : allWords().filter(w=>catOf(w)===chainCat);
   const key = chainCat + "|" + gWords.map(w=>w.word).join(",");
@@ -671,12 +687,7 @@ function buildSphere(force){
     return;
   }
   gEdges = buildEdges(gWords);
-  const L = layoutGraph(gWords, gEdges);
-  gSph = gWords.map((w,i)=>{
-    const th=(L.pos[i].x/L.size)*2*Math.PI;
-    const ph=(L.pos[i].y/L.size)*Math.PI;
-    return {x:Math.sin(ph)*Math.cos(th), y:Math.cos(ph), z:Math.sin(ph)*Math.sin(th)};
-  });
+  gSph = fibSphere(gWords.length);
   relaxSphere(gSph, gWords.length);
   gRot = rotAxisAngle({x:1,y:0,z:0}, -0.3);
   gSelWord = null;
@@ -730,7 +741,7 @@ function renderGraph(){
     }
     const la = sel ? 1 : reveal*Math.max(0, Math.min(1, (p.depth-0.28)/0.5));
     if(la>0.03){
-      const fs=Math.max(9,Math.min(16,13*p.factor));
+      const fs=Math.max(9,Math.min(26,13*p.factor*Math.sqrt(gK)));
       gCtx.globalAlpha=Math.min(1, la);
       gCtx.font="600 "+fs.toFixed(1)+'px -apple-system,"PingFang SC",sans-serif';
       gCtx.textAlign="center";gCtx.textBaseline="top";
@@ -867,7 +878,7 @@ function gMove(e){
   }else if(gpointers.size===2&&gPinch){
     const p=[...gpointers.values()];
     const d=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);
-    gK=Math.min(3,Math.max(0.5,gPinch.k0*d/gPinch.d0));
+    gK=Math.min(5,Math.max(0.5,gPinch.k0*d/gPinch.d0));
     requestRender();
   }
 }
