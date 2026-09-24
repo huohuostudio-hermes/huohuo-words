@@ -4134,6 +4134,266 @@ window.WORDS = [
     "id": 318
   },
   {
+    "word": "sub bass",
+    "ipa": "ˈsʌb ˌbeɪs",
+    "translit": "",
+    "zh": "超低频 / 次低音",
+    "def": "指约 20–60 Hz 的极低频段，是电子音乐中负责身体震动感与低频重量的部分。",
+    "example": "听觉例子：舞曲里那种让胸口发闷、几乎听不出音高的低沉轰鸣。",
+    "context": "A powerful sub bass is the foundation of any heavy electronic track, but it needs careful EQing to avoid muddying the low end.",
+    "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 319
+  },
+  {
+    "word": "heavy electronic track",
+    "ipa": "",
+    "translit": "",
+    "zh": "重型电子曲目",
+    "def": "指音色厚重、低频强劲、能量感强的电子音乐作品。",
+    "example": "例子：硬核 Techno、Dubstep 等风格中低频密集的曲子。",
+    "context": "A powerful sub bass is the foundation of any heavy electronic track, but it needs careful EQing to avoid muddying the low end.",
+    "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 320
+  },
+  {
+    "word": "careful EQing",
+    "ipa": "",
+    "translit": "",
+    "zh": "细致的均衡处理",
+    "def": "指用均衡器对各个频段做精细的增减，以解决频段冲突。",
+    "example": "例子：把 200 Hz 附近略微衰减，让低频听起来更干净。",
+    "context": "A powerful sub bass is the foundation of any heavy electronic track, but it needs careful EQing to avoid muddying the low end.",
+    "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 321
+  },
+  {
+    "word": "muddying the low end",
+    "ipa": "",
+    "translit": "",
+    "zh": "使低频浑浊",
+    "def": "指多个低频声源频段重叠，导致低音失去清晰度、变得糊成一团。",
+    "example": "例子：底鼓和贝斯同时占据 60 Hz，听上去低音又闷又乱。",
+    "context": "A powerful sub bass is the foundation of any heavy electronic track, but it needs careful EQing to avoid muddying the low end.",
+    "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 322
+  },
+  {
+    "word": "Cinematic",
+    "ipa": "ˌsɪnəˈmætɪk",
+    "translit": "",
+    "zh": "电影感的 / 电影配乐风格的",
+    "def": "指具有电影画面感、宏大叙事氛围的音乐风格，常用于影视配乐。",
+    "example": "例子：Hans Zimmer 风格的宏大弦乐与铜管铺底。",
+    "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
+    "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 323
+  },
+  {
+    "word": "Ambient",
+    "ipa": "ˈæmbiənt",
+    "translit": "",
+    "zh": "氛围音乐",
+    "def": "一种注重音色质感与空间感、弱化节奏与旋律的音乐类型。",
+    "example": "例子：Brian Eno 的《Music for Airports》。",
+    "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
+    "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 324
+  },
+  {
+    "word": "routing",
+    "ipa": "ˈruːtɪŋ",
+    "translit": "",
+    "zh": "信号路由 / 信号分配",
+    "def": "指在音频系统中将信号从一处发送到另一处的路径设定。",
+    "example": "例子：把弦乐轨道的输出指定发送到弦乐编组总线。",
+    "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
+    "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 325
+  },
+  {
+    "word": "orchestral elements",
+    "ipa": "",
+    "translit": "",
+    "zh": "管弦乐元素",
+    "def": "指编曲中属于管弦乐器的声部，如弦乐、木管、铜管、打击乐等。",
+    "example": "例子：弦乐铺底、铜管齐奏、竖琴滑音等。",
+    "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
+    "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 326
+  },
+  {
+    "word": "dedicated sub group",
+    "ipa": "",
+    "translit": "",
+    "zh": "专用编组 / 专用子总线",
+    "def": "在调音台或 DAW 中为某一类音源单独建立的编组通道，便于统一处理。",
+    "example": "例子：把所有弦乐轨道统一送入一个名为「Strings」的编组。",
+    "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
+    "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 327
+  },
+  {
+    "word": "automation",
+    "ipa": "ˌɔːtəˈmeɪʃn",
+    "translit": "",
+    "zh": "自动化 / 自动化控制",
+    "def": "在 DAW 中记录并回放参数随时间变化的操作，如音量、声像、效果量等。",
+    "example": "例子：让弦乐音量在副歌处自动渐强。",
+    "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
+    "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 328
+  },
+  {
+    "word": "manageable",
+    "ipa": "ˈmænɪdʒəbl",
+    "translit": "",
+    "zh": "易于管理的 / 可控的",
+    "def": "指操作起来不复杂、便于掌控和调整。",
+    "example": "例子：把轨道归入编组后，只需调整一条推子即可控制整体音量。",
+    "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
+    "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 329
+  },
+  {
+    "word": "sine wave",
+    "ipa": "saɪn weɪv",
+    "translit": "",
+    "zh": "正弦波",
+    "def": "一种最基本的周期性波形，只有单一频率、没有泛音，声音非常纯净。",
+    "example": "例子：低频正弦波常被用来做超低频（sub）层，几乎只感觉到震动而不易听出音高。",
+    "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 330
+  },
+  {
+    "word": "oscillator",
+    "ipa": "ˈɑːsɪleɪtər",
+    "translit": "",
+    "zh": "振荡器",
+    "def": "合成器中产生基础波形的核心部件，可生成正弦波、方波、锯齿波等。",
+    "example": "例子：把振荡器设为正弦波，就能得到没有谐波的纯音。",
+    "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 331
+  },
+  {
+    "word": "synthesizer",
+    "ipa": "ˈsɪnθəsaɪzər",
+    "translit": "",
+    "zh": "合成器",
+    "def": "通过电子方式生成并塑造声音的乐器或软件，可叠加、滤波、调制各种波形。",
+    "example": "例子：用合成器里的正弦波振荡器做低频层。",
+    "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 332
+  },
+  {
+    "word": "punchy",
+    "ipa": "ˈpʌntʃi",
+    "translit": "",
+    "zh": "有冲击力的 / 结实有力的",
+    "def": "形容声音瞬态强、听起来有力度和“打击感”。",
+    "example": "例子：结实有力的低频让鼓组更有推动力。",
+    "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 333
+  },
+  {
+    "word": "sub frequency",
+    "ipa": "sʌb ˈfriːkwənsi",
+    "translit": "",
+    "zh": "超低频",
+    "def": "通常指约 20–60 Hz 的极低频段，更多是被身体感受到而非清晰听到。",
+    "example": "例子：超低频层给主贝斯增加下潜和重量感。",
+    "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 334
+  },
+  {
+    "word": "layer",
+    "ipa": "ˈleɪər",
+    "translit": "",
+    "zh": "层 / 音层",
+    "def": "叠加在已有声音之上、共同构成整体音色的一层声音。",
+    "example": "例子：在主贝斯下面再加一层超低频。",
+    "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 335
+  },
+  {
+    "word": "beneath",
+    "ipa": "bɪˈniːθ",
+    "translit": "",
+    "zh": "在……下面",
+    "def": "表示位置或层次上处于某物之下，这里指频率上低于主贝斯。",
+    "example": "例子：在主贝斯下方铺一层超低频。",
+    "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 336
+  },
+  {
+    "word": "main bass",
+    "ipa": "meɪn beɪs",
+    "translit": "",
+    "zh": "主贝斯",
+    "def": "混音中承担主要低频线条的贝斯声部。",
+    "example": "例子：主贝斯负责音高和律动，超低频层负责下潜。",
+    "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 337
+  },
+  {
+    "word": "generate",
+    "ipa": "ˈdʒenəreɪt",
+    "translit": "",
+    "zh": "生成 / 产生",
+    "def": "指通过设备或软件制造出声音、信号或波形。",
+    "example": "例子：用振荡器生成一个正弦波。",
+    "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 338
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -4144,7 +4404,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 319
+    "id": 339
   },
   {
     "word": "Conga",
@@ -4157,7 +4417,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 320
+    "id": 340
   },
   {
     "word": "Percussion",
@@ -4170,7 +4430,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 321
+    "id": 341
   },
   {
     "word": "Grooves",
@@ -4183,7 +4443,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 322
+    "id": 342
   },
   {
     "word": "Bongos",
@@ -4196,7 +4456,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 323
+    "id": 343
   },
   {
     "word": "Woodblock",
@@ -4209,7 +4469,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 324
+    "id": 344
   },
   {
     "word": "Djembe",
@@ -4222,7 +4482,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 325
+    "id": 345
   },
   {
     "word": "Tambourine",
@@ -4235,7 +4495,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 326
+    "id": 346
   },
   {
     "word": "Cowbells",
@@ -4248,7 +4508,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 327
+    "id": 347
   },
   {
     "word": "Bells",
@@ -4261,7 +4521,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 328
+    "id": 348
   },
   {
     "word": "Timbales",
@@ -4274,7 +4534,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 329
+    "id": 349
   },
   {
     "word": "Keys",
@@ -4287,7 +4547,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 330
+    "id": 350
   },
   {
     "word": "Piano",
@@ -4300,7 +4560,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 331
+    "id": 351
   },
   {
     "word": "Wurlitzer",
@@ -4313,7 +4573,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 332
+    "id": 352
   },
   {
     "word": "Electric Piano",
@@ -4326,7 +4586,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 333
+    "id": 353
   },
   {
     "word": "Organ",
@@ -4339,7 +4599,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 334
+    "id": 354
   },
   {
     "word": "Clavinet",
@@ -4352,7 +4612,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 335
+    "id": 355
   },
   {
     "word": "Keys Melody",
@@ -4365,7 +4625,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 336
+    "id": 356
   },
   {
     "word": "Classical",
@@ -4378,7 +4638,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 337
+    "id": 357
   },
   {
     "word": "Female Vocals",
@@ -4391,7 +4651,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 338
+    "id": 358
   },
   {
     "word": "Vocal FX",
@@ -4404,7 +4664,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 339
+    "id": 359
   },
   {
     "word": "Vocoder",
@@ -4417,7 +4677,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 340
+    "id": 360
   },
   {
     "word": "Screams",
@@ -4430,7 +4690,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 341
+    "id": 361
   },
   {
     "word": "Whisper Vocals",
@@ -4443,7 +4703,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 342
+    "id": 362
   },
   {
     "word": "Male Vocals",
@@ -4456,7 +4716,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 343
+    "id": 363
   },
   {
     "word": "Spoken Word",
@@ -4469,7 +4729,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 344
+    "id": 364
   },
   {
     "word": "Vocal Phrases",
@@ -4482,7 +4742,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 345
+    "id": 365
   },
   {
     "word": "Vocal Shouts",
@@ -4495,7 +4755,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 346
+    "id": 366
   },
   {
     "word": "Dialogue",
@@ -4508,7 +4768,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 347
+    "id": 367
   }
 ];
 window.SOURCES = [
@@ -5745,6 +6005,122 @@ window.SOURCES = [
       {
         "word": "Electronic tracks",
         "zh": "电子音乐曲目"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "A powerful sub bass is the foundation of any heavy electronic track, but it needs careful EQing to avoid muddying the low end.",
+    "translation": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
+    "category": "",
+    "branches": [
+      {
+        "word": "sub bass",
+        "zh": "超低频 / 次低音"
+      },
+      {
+        "word": "foundation",
+        "zh": "基础 / 根基"
+      },
+      {
+        "word": "heavy electronic track",
+        "zh": "重型电子曲目"
+      },
+      {
+        "word": "careful EQing",
+        "zh": "细致的均衡处理"
+      },
+      {
+        "word": "muddying the low end",
+        "zh": "使低频浑浊"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
+    "translation": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Cinematic",
+        "zh": "电影感的 / 电影配乐风格的"
+      },
+      {
+        "word": "Ambient",
+        "zh": "氛围音乐"
+      },
+      {
+        "word": "mixing",
+        "zh": "混音"
+      },
+      {
+        "word": "routing",
+        "zh": "信号路由 / 信号分配"
+      },
+      {
+        "word": "orchestral elements",
+        "zh": "管弦乐元素"
+      },
+      {
+        "word": "dedicated sub group",
+        "zh": "专用编组 / 专用子总线"
+      },
+      {
+        "word": "automation",
+        "zh": "自动化 / 自动化控制"
+      },
+      {
+        "word": "manageable",
+        "zh": "易于管理的 / 可控的"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
+    "translation": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
+    "category": "",
+    "branches": [
+      {
+        "word": "sine wave",
+        "zh": "正弦波"
+      },
+      {
+        "word": "oscillator",
+        "zh": "振荡器"
+      },
+      {
+        "word": "synthesizer",
+        "zh": "合成器"
+      },
+      {
+        "word": "clean",
+        "zh": "干净的 / 清音"
+      },
+      {
+        "word": "punchy",
+        "zh": "有冲击力的 / 结实有力的"
+      },
+      {
+        "word": "sub frequency",
+        "zh": "超低频"
+      },
+      {
+        "word": "layer",
+        "zh": "层 / 音层"
+      },
+      {
+        "word": "beneath",
+        "zh": "在……下面"
+      },
+      {
+        "word": "main bass",
+        "zh": "主贝斯"
+      },
+      {
+        "word": "generate",
+        "zh": "生成 / 产生"
       }
     ]
   }
