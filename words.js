@@ -3913,5 +3913,233 @@ window.SOURCES = [
         "zh": "清音吉他音色"
       }
     ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness.",
+    "translation": "压缩有各种不同的格式、风格、设计和奇特程度。",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "compression",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "FabFilter Pro-C 2 is not just a good sounding compressor.",
+    "translation": "FabFilter Pro-C 2 不仅仅是一个音质出色的压缩器。",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "compressor",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need.",
+    "translation": "FabFilter Pro-C 2 是一款出色的立体声压缩器，拥有你所需的所有技巧。",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "compressor",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way.",
+    "translation": "凭借其不同的压缩风格和选项，如中侧压缩和可选的EQ滤波侧链，它可以以任何所需的方式工作。",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "compression",
+        "zh": ""
+      },
+      {
+        "word": "side-chaining",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Whether mastering or mixing, Pro-C 2 will do the job with lots of style.",
+    "translation": "无论是母带处理还是混音，Pro-C 2 都能以多种风格完成任务。",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "mastering",
+        "zh": ""
+      },
+      {
+        "word": "mixing",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "With its gorgeous, resizable interface, optional level display, knee display and side-chain EQ controller, it can either take the form of a classic, straightforward analog compressor, or present itself as a modern allround compressor with extensive metering and controls.",
+    "translation": "凭借其漂亮的可调整界面、可选的电平显示、拐点显示和侧链EQ控制器，它可以呈现经典的简单模拟压缩器形态，也可以作为具有详细表头和控制功能的现代全能压缩器。",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "compressor",
+        "zh": ""
+      },
+      {
+        "word": "side-chain",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Most importantly, FabFilter Pro-C 2 introduces five brand new compression styles, in addition to the three original v1 styles.",
+    "translation": "最重要的是，FabFilter Pro-C 2 在原有的三种压缩风格基础上，新增了五种全新的压缩风格。",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "compression",
+        "zh": ""
+      },
+      {
+        "word": "style",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "With their unique characteristics, it's like getting five brand new compressors!",
+    "translation": "凭借其独特的特性，这就像拥有了五台全新的压缩器！",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "compressor",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Vocal - Very effective algorithm to bring vocals to the front of your mix.",
+    "translation": "人声 - 非常有效的算法，将人声置于混音的前端。",
+    "category": "人声",
+    "branches": [
+      {
+        "word": "vocal",
+        "zh": ""
+      },
+      {
+        "word": "algorithm",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "It works with automatic knee and ratio settings, so compressing your lead vocal is as easy as choosing the right threshold.",
+    "translation": "它具有自动拐点和比率设置，因此压缩主唱就像选择合适的阈值一样简单。",
+    "category": "人声",
+    "branches": [
+      {
+        "word": "compressing",
+        "zh": ""
+      },
+      {
+        "word": "lead vocal",
+        "zh": ""
+      },
+      {
+        "word": "threshold",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Mastering - Designed to be as transparent as possible, introducing as little harmonic distortion as possible, while still being able to catch those fast transients.",
+    "translation": "母带处理 - 设计为尽可能透明，引入尽可能少的谐波失真，同时仍然能够捕捉快速的瞬态。",
+    "category": "母带声学",
+    "branches": [
+      {
+        "word": "mastering",
+        "zh": ""
+      },
+      {
+        "word": "transient",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Bus - Especially great for bus processing, or for adding a pleasant glue to your drums, mixes or tracks.",
+    "translation": "总线 - 特别适合总线处理，或者为你的鼓组、混音或音轨添加一种愉悦的粘合效果。",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "bus processing",
+        "zh": ""
+      },
+      {
+        "word": "drum",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Punch - Traditional, analog-like compression behavior, sounds good on anything!",
+    "translation": "打击感 - 传统、类似模拟的压缩行为，适用于任何东西！",
+    "category": "混音动态",
+    "branches": [
+      {
+        "word": "compression",
+        "zh": ""
+      },
+      {
+        "word": "analog",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "3 Pumping - Deep and over-the-top pumping, great for drum processing or EDM.",
+    "translation": "3 泵动 - 深度且夸张的泵动效果，非常适合处理鼓组或电子舞曲。",
+    "category": "打击乐",
+    "branches": [
+      {
+        "word": "pumping",
+        "zh": ""
+      },
+      {
+        "word": "drum",
+        "zh": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "We've implemented a ton of other improvements: Introducing Lookahead (up to 20 ms), which can be enabled/disabled as well to ensure zero latency processing.",
+    "translation": "我们还实现了很多其他改进：引入前置时间（最多 20 毫秒），可以开启或关闭以确保零延迟处理。",
+    "category": "工作流",
+    "branches": [
+      {
+        "word": "lookahead",
+        "zh": ""
+      },
+      {
+        "word": "latency",
+        "zh": ""
+      }
+    ]
   }
 ];
