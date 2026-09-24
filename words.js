@@ -5694,6 +5694,279 @@ window.WORDS = [
     "id": 438
   },
   {
+    "word": "solo violin",
+    "ipa": "",
+    "translit": "",
+    "zh": "独奏小提琴",
+    "def": "由单把小提琴单独演奏的声部，音色突出、线条清晰。",
+    "example": "例子：一段只有一把小提琴演奏的旋律，没有其他弦乐伴奏。",
+    "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
+    "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 439
+  },
+  {
+    "word": "over",
+    "ipa": "ˈoʊvər",
+    "translit": "",
+    "zh": "在……之上 / 叠加于",
+    "def": "表示某一声音层位于另一声音层之上，形成上下叠置关系。",
+    "example": "例子：把小提琴声部放在合成器铺底之上。",
+    "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
+    "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 440
+  },
+  {
+    "word": "dense synthesizer pad",
+    "ipa": "",
+    "translit": "",
+    "zh": "密集的合成器铺底",
+    "def": "由合成器产生的持续、厚实且占据较宽频段的和声背景层。",
+    "example": "例子：一大片缓慢铺开、充满空间的电子和声垫。",
+    "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
+    "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 441
+  },
+  {
+    "word": "creates",
+    "ipa": "kriˈeɪts",
+    "translit": "",
+    "zh": "创造 / 产生",
+    "def": "表示某种声音组合带来或形成特定的听觉效果。",
+    "example": "例子：这种搭配产生出强烈的听感反差。",
+    "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
+    "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 442
+  },
+  {
+    "word": "striking contrast",
+    "ipa": "",
+    "translit": "",
+    "zh": "鲜明对比",
+    "def": "两种元素之间差异显著、容易被听辨出的强烈反差。",
+    "example": "例子：温暖自然的琴声与冰冷电子音色之间的明显差别。",
+    "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
+    "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 443
+  },
+  {
+    "word": "organic acoustic textures",
+    "ipa": "",
+    "translit": "",
+    "zh": "有机的声学织体",
+    "def": "由真实乐器或自然声源产生的、带有自然细节与生命感的音响质感。",
+    "example": "例子：小提琴运弓时细微的摩擦声与共鸣。",
+    "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
+    "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 444
+  },
+  {
+    "word": "electronic soundscapes",
+    "ipa": "",
+    "translit": "",
+    "zh": "电子音景",
+    "def": "由电子设备或软件合成、营造出整体氛围与空间感的电子声音环境。",
+    "example": "例子：合成器铺底形成的宽广、持续变化的电子声场。",
+    "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
+    "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 445
+  },
+  {
+    "word": "Programming",
+    "ipa": "ˈproʊɡræmɪŋ",
+    "translit": "",
+    "zh": "编程 / 编写（MIDI 制作）",
+    "def": "在音乐制作中，指通过软件或 MIDI 数据来编排、设定乐器演奏的过程。",
+    "example": "例子：在钢琴卷帘窗里逐个音符地编写弦乐声部。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 446
+  },
+  {
+    "word": "realistic",
+    "ipa": "ˌriːəˈlɪstɪk",
+    "translit": "",
+    "zh": "逼真的 / 真实的",
+    "def": "形容音色或演奏效果听起来接近真实乐器，而非机械、生硬。",
+    "example": "例子：用采样库调出听起来像真小提琴的连奏。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 447
+  },
+  {
+    "word": "legatos",
+    "ipa": "lɪˈɡɑːtoʊz",
+    "translit": "",
+    "zh": "连奏",
+    "def": "音符之间平滑连接、无明显断开的演奏方式，弦乐中靠一弓多音实现。",
+    "example": "听觉例子：旋律线条如歌唱般连贯，音符之间没有停顿。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 448
+  },
+  {
+    "word": "Logic Pro",
+    "ipa": "",
+    "translit": "",
+    "zh": "Logic Pro（苹果专业音乐制作软件）",
+    "def": "苹果公司开发的专业数字音频工作站（DAW），广泛用于编曲、混音与 MIDI 制作。",
+    "example": "例子：在 Logic Pro 中加载弦乐音源并绘制控制器曲线。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 449
+  },
+  {
+    "word": "requires",
+    "ipa": "rɪˈkwaɪərz",
+    "translit": "",
+    "zh": "需要 / 要求",
+    "def": "表示某事必须依赖特定条件或操作才能达成。",
+    "example": "例子：逼真的连奏需要精细的控制器调整。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 450
+  },
+  {
+    "word": "careful",
+    "ipa": "ˈkerfl",
+    "translit": "",
+    "zh": "仔细的 / 小心的",
+    "def": "形容操作精细、注意力集中，避免出错。",
+    "example": "例子：仔细地逐点绘制力度曲线。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 451
+  },
+  {
+    "word": "manipulation",
+    "ipa": "məˌnɪpjuˈleɪʃn",
+    "translit": "",
+    "zh": "操控 / 调整",
+    "def": "指对参数或数据进行有目的的控制与修改。",
+    "example": "例子：对控制器数值进行细致调整以改变音色表现。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 452
+  },
+  {
+    "word": "MIDI",
+    "ipa": "ˈmɪdi",
+    "translit": "",
+    "zh": "MIDI（乐器数字接口）",
+    "def": "一种让电子乐器与计算机交换演奏数据的标准协议，记录音高、力度、控制器等信息。",
+    "example": "例子：用 MIDI 数据控制虚拟乐器的演奏细节。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 453
+  },
+  {
+    "word": "CC11",
+    "ipa": "ˌsiː siː ɪˈlevn",
+    "translit": "",
+    "zh": "表情控制器（CC11）",
+    "def": "MIDI 连续控制器编号 11，通常用于实时控制音量表情，模拟演奏中的强弱起伏。",
+    "example": "例子：在长音上画 CC11 曲线，让音量随乐句渐强渐弱。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 454
+  },
+  {
+    "word": "CC1",
+    "ipa": "ˌsiː siː wʌn",
+    "translit": "",
+    "zh": "调制控制器（CC1）",
+    "def": "MIDI 连续控制器编号 1，常用于控制颤音深度或音色调制。",
+    "example": "例子：用 CC1 增加弦乐的颤音，使长音更富表情。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 455
+  },
+  {
+    "word": "simulate",
+    "ipa": "ˈsɪmjuleɪt",
+    "translit": "",
+    "zh": "模拟 / 仿真",
+    "def": "用技术手段模仿真实乐器的物理演奏行为。",
+    "example": "例子：用控制器数据模拟弓压变化。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 456
+  },
+  {
+    "word": "physical",
+    "ipa": "ˈfɪzɪkl",
+    "translit": "",
+    "zh": "物理的 / 实际的",
+    "def": "指真实世界中物体的力学行为，此处指真实运弓的力度。",
+    "example": "例子：模拟真实琴弓施加在琴弦上的物理压力。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 457
+  },
+  {
+    "word": "bowing",
+    "ipa": "ˈboʊɪŋ",
+    "translit": "",
+    "zh": "运弓 / 弓法",
+    "def": "小提琴等弓弦乐器用弓摩擦琴弦发声的演奏动作。",
+    "example": "例子：上弓与下弓交替的运弓方式。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 458
+  },
+  {
+    "word": "pressure",
+    "ipa": "ˈpreʃər",
+    "translit": "",
+    "zh": "压力 / 力度",
+    "def": "弓毛压在琴弦上的力度，影响音量与音色。",
+    "example": "例子：加大弓压使音色更饱满响亮。",
+    "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 459
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -5704,7 +5977,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 439
+    "id": 460
   },
   {
     "word": "Conga",
@@ -5717,7 +5990,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 440
+    "id": 461
   },
   {
     "word": "Percussion",
@@ -5730,7 +6003,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 441
+    "id": 462
   },
   {
     "word": "Grooves",
@@ -5743,7 +6016,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 442
+    "id": 463
   },
   {
     "word": "Bongos",
@@ -5756,7 +6029,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 443
+    "id": 464
   },
   {
     "word": "Woodblock",
@@ -5769,7 +6042,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 444
+    "id": 465
   },
   {
     "word": "Djembe",
@@ -5782,7 +6055,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 445
+    "id": 466
   },
   {
     "word": "Tambourine",
@@ -5795,7 +6068,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 446
+    "id": 467
   },
   {
     "word": "Cowbells",
@@ -5808,7 +6081,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 447
+    "id": 468
   },
   {
     "word": "Bells",
@@ -5821,7 +6094,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 448
+    "id": 469
   },
   {
     "word": "Timbales",
@@ -5834,7 +6107,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 449
+    "id": 470
   },
   {
     "word": "Keys",
@@ -5847,7 +6120,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 450
+    "id": 471
   },
   {
     "word": "Piano",
@@ -5860,7 +6133,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 451
+    "id": 472
   },
   {
     "word": "Wurlitzer",
@@ -5873,7 +6146,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 452
+    "id": 473
   },
   {
     "word": "Electric Piano",
@@ -5886,7 +6159,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 453
+    "id": 474
   },
   {
     "word": "Organ",
@@ -5899,7 +6172,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 454
+    "id": 475
   },
   {
     "word": "Clavinet",
@@ -5912,7 +6185,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 455
+    "id": 476
   },
   {
     "word": "Keys Melody",
@@ -5925,7 +6198,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 456
+    "id": 477
   },
   {
     "word": "Classical",
@@ -5938,7 +6211,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 457
+    "id": 478
   },
   {
     "word": "Female Vocals",
@@ -5951,7 +6224,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 458
+    "id": 479
   },
   {
     "word": "Vocoder",
@@ -5964,7 +6237,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 459
+    "id": 480
   },
   {
     "word": "Screams",
@@ -5977,7 +6250,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 460
+    "id": 481
   },
   {
     "word": "Whisper Vocals",
@@ -5990,7 +6263,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 461
+    "id": 482
   },
   {
     "word": "Spoken Word",
@@ -6003,7 +6276,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 462
+    "id": 483
   },
   {
     "word": "Vocal Phrases",
@@ -6016,7 +6289,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 463
+    "id": 484
   },
   {
     "word": "Vocal Shouts",
@@ -6029,7 +6302,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 464
+    "id": 485
   },
   {
     "word": "Dialogue",
@@ -6042,7 +6315,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 465
+    "id": 486
   }
 ];
 window.SOURCES = [
@@ -8011,6 +8284,114 @@ window.SOURCES = [
       {
         "word": "prevent",
         "zh": "防止 / 避免"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
+    "translation": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Layering",
+        "zh": "叠加 / 分层"
+      },
+      {
+        "word": "solo violin",
+        "zh": "独奏小提琴"
+      },
+      {
+        "word": "over",
+        "zh": "在……之上 / 叠加于"
+      },
+      {
+        "word": "dense synthesizer pad",
+        "zh": "密集的合成器铺底"
+      },
+      {
+        "word": "creates",
+        "zh": "创造 / 产生"
+      },
+      {
+        "word": "striking contrast",
+        "zh": "鲜明对比"
+      },
+      {
+        "word": "organic acoustic textures",
+        "zh": "有机的声学织体"
+      },
+      {
+        "word": "electronic soundscapes",
+        "zh": "电子音景"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
+    "translation": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Programming",
+        "zh": "编程 / 编写（MIDI 制作）"
+      },
+      {
+        "word": "realistic",
+        "zh": "逼真的 / 真实的"
+      },
+      {
+        "word": "violin",
+        "zh": "小提琴"
+      },
+      {
+        "word": "legatos",
+        "zh": "连奏"
+      },
+      {
+        "word": "Logic Pro",
+        "zh": "Logic Pro（苹果专业音乐制作软件）"
+      },
+      {
+        "word": "requires",
+        "zh": "需要 / 要求"
+      },
+      {
+        "word": "careful",
+        "zh": "仔细的 / 小心的"
+      },
+      {
+        "word": "manipulation",
+        "zh": "操控 / 调整"
+      },
+      {
+        "word": "MIDI",
+        "zh": "MIDI（乐器数字接口）"
+      },
+      {
+        "word": "CC11",
+        "zh": "表情控制器（CC11）"
+      },
+      {
+        "word": "CC1",
+        "zh": "调制控制器（CC1）"
+      },
+      {
+        "word": "simulate",
+        "zh": "模拟 / 仿真"
+      },
+      {
+        "word": "physical",
+        "zh": "物理的 / 实际的"
+      },
+      {
+        "word": "bowing",
+        "zh": "运弓 / 弓法"
+      },
+      {
+        "word": "pressure",
+        "zh": "压力 / 力度"
       }
     ]
   }
