@@ -2899,6 +2899,19 @@ window.WORDS = [
     "id": 223
   },
   {
+    "word": "Lexicon",
+    "ipa": "ˈleksɪkɒn",
+    "translit": "",
+    "zh": "词典 / 词汇表；专业术语总汇",
+    "def": "指某一语言、领域或学科中所使用的全部词汇的集合，也可指按字母顺序排列的词典本身。",
+    "example": "例子：在语言学中，英语的 lexicon 包含数十万个词条；在音乐制作领域，Lexicon 也是一个著名的音频效果器品牌。",
+    "context": "Lexicon",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 224
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -2909,7 +2922,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 224
+    "id": 225
   },
   {
     "word": "Conga",
@@ -2922,7 +2935,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 225
+    "id": 226
   },
   {
     "word": "Percussion",
@@ -2935,7 +2948,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 226
+    "id": 227
   },
   {
     "word": "Grooves",
@@ -2948,7 +2961,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 227
+    "id": 228
   },
   {
     "word": "Bongos",
@@ -2961,7 +2974,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 228
+    "id": 229
   },
   {
     "word": "Woodblock",
@@ -2974,7 +2987,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 229
+    "id": 230
   },
   {
     "word": "Djembe",
@@ -2987,7 +3000,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 230
+    "id": 231
   },
   {
     "word": "Tambourine",
@@ -3000,7 +3013,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 231
+    "id": 232
   },
   {
     "word": "Cowbells",
@@ -3013,7 +3026,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 232
+    "id": 233
   },
   {
     "word": "Bells",
@@ -3026,7 +3039,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 233
+    "id": 234
   },
   {
     "word": "Timbales",
@@ -3039,7 +3052,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 234
+    "id": 235
   },
   {
     "word": "Keys",
@@ -3052,7 +3065,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 235
+    "id": 236
   },
   {
     "word": "Piano",
@@ -3065,7 +3078,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 236
+    "id": 237
   },
   {
     "word": "Wurlitzer",
@@ -3078,7 +3091,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 237
+    "id": 238
   },
   {
     "word": "Electric Piano",
@@ -3091,7 +3104,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 238
+    "id": 239
   },
   {
     "word": "Organ",
@@ -3104,7 +3117,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 239
+    "id": 240
   },
   {
     "word": "Clavinet",
@@ -3117,7 +3130,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 240
+    "id": 241
   },
   {
     "word": "Keys Melody",
@@ -3130,7 +3143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 241
+    "id": 242
   },
   {
     "word": "Classical",
@@ -3143,7 +3156,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 242
+    "id": 243
   },
   {
     "word": "Female Vocals",
@@ -3156,7 +3169,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 243
+    "id": 244
   },
   {
     "word": "Vocal FX",
@@ -3169,7 +3182,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 244
+    "id": 245
   },
   {
     "word": "Vocoder",
@@ -3182,7 +3195,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 245
+    "id": 246
   },
   {
     "word": "Screams",
@@ -3195,7 +3208,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 246
+    "id": 247
   },
   {
     "word": "Whisper Vocals",
@@ -3208,7 +3221,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 247
+    "id": 248
   },
   {
     "word": "Male Vocals",
@@ -3221,7 +3234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 248
+    "id": 249
   },
   {
     "word": "Spoken Word",
@@ -3234,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 249
+    "id": 250
   },
   {
     "word": "Vocal Phrases",
@@ -3247,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 250
+    "id": 251
   },
   {
     "word": "Vocal Shouts",
@@ -3260,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 251
+    "id": 252
   },
   {
     "word": "Dialogue",
@@ -3273,7 +3286,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 252
+    "id": 253
   }
 ];
 window.SOURCES = [
