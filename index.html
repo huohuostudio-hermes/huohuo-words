@@ -1943,6 +1943,11 @@ function renderMe(){
       </div>`).join("")}</div>
     </div>`:""}
     <div class="panel">
+      <h3>更新</h3>
+      <button class="btn" onclick="updateApp(this)">🔄 立即更新</button>
+      <div class="setting" style="padding-top:2px"><span style="font-size:12px;color:var(--faint)">小赫修好 bug 推送后，点一下拉最新，无需退出重进</span></div>
+    </div>
+    <div class="panel">
       <h3>学习进度备份</h3>
       <button class="btn" onclick="exportData()">导出进度（复制到剪贴板）</button>
       <button class="btn" onclick="importData()">导入进度</button>
@@ -1977,6 +1982,31 @@ function resetData(){
     save();
     switchTab("study");
   }
+}
+async function updateApp(btn){
+  if(btn){btn.disabled=true;btn.textContent="更新中…";}
+  try{
+    // 1. 更新 Service Worker（拉到最新 sw.js，skipWaiting 立即接管）
+    if(navigator.serviceWorker && navigator.serviceWorker.getRegistration){
+      const reg=await navigator.serviceWorker.getRegistration();
+      if(reg){
+        await reg.update();
+        if(reg.waiting && reg.waiting.postMessage){
+          reg.waiting.postMessage({type:"SKIP_WAITING"});
+        }
+      }
+    }
+    // 2. 清空所有旧缓存
+    if(typeof caches!=="undefined"){
+      try{
+        const keys=await caches.keys();
+        await Promise.all(keys.map(k=>caches.delete(k)));
+      }catch(e){}
+    }
+  }catch(e){}
+  // 3. 带时间戳强制绕过浏览器 HTTP 缓存重载
+  const base=location.href.split("#")[0].split("?")[0];
+  location.href=base+"?t="+Date.now();
 }
 
 /* ---------- 密码锁 ---------- */
