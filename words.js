@@ -4940,6 +4940,188 @@ window.WORDS = [
     "id": 380
   },
   {
+    "word": "thick",
+    "ipa": "θɪk",
+    "translit": "",
+    "zh": "厚实的",
+    "def": "形容声音饱满、有分量，频段充实且不单薄。",
+    "example": "例子：加了低频和声的合唱听起来很厚实。",
+    "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
+    "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 381
+  },
+  {
+    "word": "wide",
+    "ipa": "waɪd",
+    "translit": "",
+    "zh": "宽广的",
+    "def": "形容声场横向铺展，左右空间感开阔。",
+    "example": "例子：立体声混音中声场铺得很开的合唱。",
+    "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
+    "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 382
+  },
+  {
+    "word": "choruses",
+    "ipa": "ˈkɔːrəsɪz",
+    "translit": "",
+    "zh": "副歌 / 合唱段",
+    "def": "歌曲中反复出现、情绪最强烈的段落，通常由多人或叠加声部演唱。",
+    "example": "例子：流行歌曲高潮部分众人齐唱的段落。",
+    "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
+    "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 383
+  },
+  {
+    "word": "double-tracking",
+    "ipa": "ˈdʌbl ˈtrækɪŋ",
+    "translit": "",
+    "zh": "双轨录制 / 叠录",
+    "def": "将同一演唱录两遍并叠加播放，制造更厚、更宽的声音效果。",
+    "example": "例子：主唱录两遍人声，叠在一起播放。",
+    "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
+    "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 384
+  },
+  {
+    "word": "lead male vocals",
+    "ipa": "",
+    "translit": "",
+    "zh": "主唱男声",
+    "def": "歌曲中担任主旋律的男性人声部分。",
+    "example": "例子：乐队中男歌手演唱的主旋律声部。",
+    "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
+    "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 385
+  },
+  {
+    "word": "slightly off-center",
+    "ipa": "",
+    "translit": "",
+    "zh": "略微偏离中央",
+    "def": "将声音稍微偏向左右某一侧，而非完全居中。",
+    "example": "例子：人声稍微偏左放置，避免与中央乐器重叠。",
+    "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
+    "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 386
+  },
+  {
+    "word": "massive stereo image",
+    "ipa": "",
+    "translit": "",
+    "zh": "宏大的立体声像",
+    "def": "声音在左右声道中呈现出的宽广、饱满的空间感。",
+    "example": "例子：多层人声叠加后形成的宽阔立体声效果。",
+    "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
+    "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 387
+  },
+  {
+    "word": "de-esser",
+    "ipa": "diːˈɛsər",
+    "translit": "",
+    "zh": "齿音消除器",
+    "def": "一种专门用于抑制人声中齿音（如“s”“sh”“z”等高频刺耳声）的动态处理器。",
+    "example": "例子：当歌手唱出“sunshine”时，齿音消除器会瞬间衰减该频段，避免刺耳。",
+    "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
+    "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 388
+  },
+  {
+    "word": "ensures",
+    "ipa": "",
+    "translit": "",
+    "zh": "确保",
+    "def": "表示通过某种手段使得某一结果必然发生或得到保证。",
+    "example": "例子：使用自动化确保每个段落的人声电平一致。",
+    "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
+    "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 389
+  },
+  {
+    "word": "sibilance",
+    "ipa": "ˈsɪbɪləns",
+    "translit": "",
+    "zh": "齿音",
+    "def": "指人声或乐器中因发“s”“sh”等音而产生的高频能量过强、听感刺耳的现象。",
+    "example": "听觉例子：歌手唱“s”时那种尖锐的“嘶嘶”声。",
+    "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
+    "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 390
+  },
+  {
+    "word": "tightly controlled",
+    "ipa": "",
+    "translit": "",
+    "zh": "严格控制",
+    "def": "指对某一参数或效果进行精确、紧密的调节，使其变化范围很小。",
+    "example": "例子：将压缩器的阈值和比率设置得很紧，使动态几乎不变。",
+    "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
+    "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 391
+  },
+  {
+    "word": "only when necessary",
+    "ipa": "",
+    "translit": "",
+    "zh": "仅在必要时",
+    "def": "表示处理动作只在需要的时候触发，避免过度处理。",
+    "example": "例子：齿音消除器只在检测到齿音时工作，其他时间不衰减高频。",
+    "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
+    "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 392
+  },
+  {
+    "word": "preserving",
+    "ipa": "",
+    "translit": "",
+    "zh": "保留 / 保持",
+    "def": "指在处理过程中不破坏或丢失原有的良好特性。",
+    "example": "例子：降噪时保留人声的温暖感。",
+    "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
+    "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 393
+  },
+  {
+    "word": "natural high-frequency air",
+    "ipa": "",
+    "translit": "",
+    "zh": "自然的高频空气感",
+    "def": "指人声中高频段（通常 10kHz 以上）那种通透、细腻、开放的空间感。",
+    "example": "听觉例子：歌手嗓音中像呼吸一样轻柔的“嘶嘶”空气声，使声音显得生动。",
+    "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
+    "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 394
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -4950,7 +5132,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 381
+    "id": 395
   },
   {
     "word": "Conga",
@@ -4963,7 +5145,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 382
+    "id": 396
   },
   {
     "word": "Percussion",
@@ -4976,7 +5158,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 383
+    "id": 397
   },
   {
     "word": "Grooves",
@@ -4989,7 +5171,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 384
+    "id": 398
   },
   {
     "word": "Bongos",
@@ -5002,7 +5184,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 385
+    "id": 399
   },
   {
     "word": "Woodblock",
@@ -5015,7 +5197,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 386
+    "id": 400
   },
   {
     "word": "Djembe",
@@ -5028,7 +5210,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 387
+    "id": 401
   },
   {
     "word": "Tambourine",
@@ -5041,7 +5223,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 388
+    "id": 402
   },
   {
     "word": "Cowbells",
@@ -5054,7 +5236,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 389
+    "id": 403
   },
   {
     "word": "Bells",
@@ -5067,7 +5249,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 390
+    "id": 404
   },
   {
     "word": "Timbales",
@@ -5080,7 +5262,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 391
+    "id": 405
   },
   {
     "word": "Keys",
@@ -5093,7 +5275,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 392
+    "id": 406
   },
   {
     "word": "Piano",
@@ -5106,7 +5288,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 393
+    "id": 407
   },
   {
     "word": "Wurlitzer",
@@ -5119,7 +5301,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 394
+    "id": 408
   },
   {
     "word": "Electric Piano",
@@ -5132,7 +5314,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 395
+    "id": 409
   },
   {
     "word": "Organ",
@@ -5145,7 +5327,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 396
+    "id": 410
   },
   {
     "word": "Clavinet",
@@ -5158,7 +5340,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 397
+    "id": 411
   },
   {
     "word": "Keys Melody",
@@ -5171,7 +5353,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 398
+    "id": 412
   },
   {
     "word": "Classical",
@@ -5184,7 +5366,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 399
+    "id": 413
   },
   {
     "word": "Female Vocals",
@@ -5197,7 +5379,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 400
+    "id": 414
   },
   {
     "word": "Vocal FX",
@@ -5210,7 +5392,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 401
+    "id": 415
   },
   {
     "word": "Vocoder",
@@ -5223,7 +5405,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 402
+    "id": 416
   },
   {
     "word": "Screams",
@@ -5236,7 +5418,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 403
+    "id": 417
   },
   {
     "word": "Whisper Vocals",
@@ -5249,7 +5431,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 404
+    "id": 418
   },
   {
     "word": "Spoken Word",
@@ -5262,7 +5444,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 405
+    "id": 419
   },
   {
     "word": "Vocal Phrases",
@@ -5275,7 +5457,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 406
+    "id": 420
   },
   {
     "word": "Vocal Shouts",
@@ -5288,7 +5470,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 407
+    "id": 421
   },
   {
     "word": "Dialogue",
@@ -5301,7 +5483,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 408
+    "id": 422
   }
 ];
 window.SOURCES = [
@@ -6910,6 +7092,90 @@ window.SOURCES = [
       {
         "word": "maintain a consistent dynamic level",
         "zh": "保持一致的动态电平"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
+    "translation": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
+    "category": "",
+    "branches": [
+      {
+        "word": "thick",
+        "zh": "厚实的"
+      },
+      {
+        "word": "wide",
+        "zh": "宽广的"
+      },
+      {
+        "word": "choruses",
+        "zh": "副歌 / 合唱段"
+      },
+      {
+        "word": "double-tracking",
+        "zh": "双轨录制 / 叠录"
+      },
+      {
+        "word": "lead male vocals",
+        "zh": "主唱男声"
+      },
+      {
+        "word": "panning",
+        "zh": "声像定位 / 声像调节"
+      },
+      {
+        "word": "slightly off-center",
+        "zh": "略微偏离中央"
+      },
+      {
+        "word": "massive stereo image",
+        "zh": "宏大的立体声像"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
+    "translation": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Automating",
+        "zh": "自动化处理"
+      },
+      {
+        "word": "de-esser",
+        "zh": "齿音消除器"
+      },
+      {
+        "word": "lead male vocals",
+        "zh": "主唱男声"
+      },
+      {
+        "word": "ensures",
+        "zh": "确保"
+      },
+      {
+        "word": "sibilance",
+        "zh": "齿音"
+      },
+      {
+        "word": "tightly controlled",
+        "zh": "严格控制"
+      },
+      {
+        "word": "only when necessary",
+        "zh": "仅在必要时"
+      },
+      {
+        "word": "preserving",
+        "zh": "保留 / 保持"
+      },
+      {
+        "word": "natural high-frequency air",
+        "zh": "自然的高频空气感"
       }
     ]
   }
