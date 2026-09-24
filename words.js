@@ -3757,6 +3757,71 @@ window.WORDS = [
     "id": 289
   },
   {
+    "word": "Panning",
+    "ipa": "",
+    "translit": "",
+    "zh": "声像定位",
+    "def": "将音频信号分配到立体声场左右声道的过程，用于控制声音在空间中的位置。",
+    "example": "例子：把吉他声像偏左 30%，让它听起来在左前方。",
+    "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
+    "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 290
+  },
+  {
+    "word": "Slightly different",
+    "ipa": "",
+    "translit": "",
+    "zh": "略有不同的",
+    "def": "指两个声音在音色、时值或力度上存在细微差异，而非完全相同。",
+    "example": "例子：两个沙锤一个颗粒感稍粗，一个稍细。",
+    "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
+    "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 291
+  },
+  {
+    "word": "Hard left",
+    "ipa": "",
+    "translit": "",
+    "zh": "完全偏左",
+    "def": "将声像推至立体声场最左端，即左声道满音量、右声道无输出。",
+    "example": "例子：把沙锤 A 的声像旋钮拧到最左边。",
+    "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
+    "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 292
+  },
+  {
+    "word": "Hard right",
+    "ipa": "",
+    "translit": "",
+    "zh": "完全偏右",
+    "def": "将声像推至立体声场最右端，即右声道满音量、左声道无输出。",
+    "example": "例子：把沙锤 B 的声像旋钮拧到最右边。",
+    "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
+    "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 293
+  },
+  {
+    "word": "Wider stereo image",
+    "ipa": "",
+    "translit": "",
+    "zh": "更宽的立体声像",
+    "def": "指声音在左右声道之间占据更大的空间范围，听感上更具包围感和分离度。",
+    "example": "例子：左右各放一个沙锤后，整体声场比单声道时明显变宽。",
+    "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
+    "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 294
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3767,7 +3832,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 290
+    "id": 295
   },
   {
     "word": "Conga",
@@ -3780,7 +3845,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 291
+    "id": 296
   },
   {
     "word": "Percussion",
@@ -3793,7 +3858,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 292
+    "id": 297
   },
   {
     "word": "Grooves",
@@ -3806,7 +3871,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 293
+    "id": 298
   },
   {
     "word": "Bongos",
@@ -3819,7 +3884,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 294
+    "id": 299
   },
   {
     "word": "Woodblock",
@@ -3832,7 +3897,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 295
+    "id": 300
   },
   {
     "word": "Djembe",
@@ -3845,7 +3910,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 296
+    "id": 301
   },
   {
     "word": "Tambourine",
@@ -3858,7 +3923,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 297
+    "id": 302
   },
   {
     "word": "Cowbells",
@@ -3871,7 +3936,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 298
+    "id": 303
   },
   {
     "word": "Bells",
@@ -3884,7 +3949,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 299
+    "id": 304
   },
   {
     "word": "Timbales",
@@ -3897,7 +3962,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 300
+    "id": 305
   },
   {
     "word": "Keys",
@@ -3910,7 +3975,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 301
+    "id": 306
   },
   {
     "word": "Piano",
@@ -3923,7 +3988,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 302
+    "id": 307
   },
   {
     "word": "Wurlitzer",
@@ -3936,7 +4001,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 303
+    "id": 308
   },
   {
     "word": "Electric Piano",
@@ -3949,7 +4014,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 304
+    "id": 309
   },
   {
     "word": "Organ",
@@ -3962,7 +4027,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 305
+    "id": 310
   },
   {
     "word": "Clavinet",
@@ -3975,7 +4040,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 306
+    "id": 311
   },
   {
     "word": "Keys Melody",
@@ -3988,7 +4053,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 307
+    "id": 312
   },
   {
     "word": "Classical",
@@ -4001,7 +4066,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 308
+    "id": 313
   },
   {
     "word": "Female Vocals",
@@ -4014,7 +4079,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 309
+    "id": 314
   },
   {
     "word": "Vocal FX",
@@ -4027,7 +4092,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 310
+    "id": 315
   },
   {
     "word": "Vocoder",
@@ -4040,7 +4105,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 311
+    "id": 316
   },
   {
     "word": "Screams",
@@ -4053,7 +4118,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 312
+    "id": 317
   },
   {
     "word": "Whisper Vocals",
@@ -4066,7 +4131,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 313
+    "id": 318
   },
   {
     "word": "Male Vocals",
@@ -4079,7 +4144,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 314
+    "id": 319
   },
   {
     "word": "Spoken Word",
@@ -4092,7 +4157,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 315
+    "id": 320
   },
   {
     "word": "Vocal Phrases",
@@ -4105,7 +4170,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 316
+    "id": 321
   },
   {
     "word": "Vocal Shouts",
@@ -4118,7 +4183,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 317
+    "id": 322
   },
   {
     "word": "Dialogue",
@@ -4131,7 +4196,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 318
+    "id": 323
   }
 ];
 window.SOURCES = [
@@ -5204,6 +5269,38 @@ window.SOURCES = [
       {
         "word": "more precise results",
         "zh": "更精确的结果"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
+    "translation": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Panning",
+        "zh": "声像定位"
+      },
+      {
+        "word": "Slightly different",
+        "zh": "略有不同的"
+      },
+      {
+        "word": "Shakers",
+        "zh": "沙锤 / 摇响器"
+      },
+      {
+        "word": "Hard left",
+        "zh": "完全偏左"
+      },
+      {
+        "word": "Hard right",
+        "zh": "完全偏右"
+      },
+      {
+        "word": "Wider stereo image",
+        "zh": "更宽的立体声像"
       }
     ]
   }
