@@ -15,7 +15,7 @@
   --bg:#000000; --bg2:#070708; --card:#0e0e10; --card2:#17171a;
   --text:#f3eee1; --muted:#9b9381; --faint:#6a6250;
   --accent:#e6b84a; --accent2:#ffd98a;
-  --good:#34d399; --bad:#f87171; --warn:#fbbf24;
+  --good:#34d399; --bad:#f87171; --warn:#fbbf24; --blue:#5aa0ff;
   --border:rgba(230,184,74,.22); --border2:rgba(230,184,74,.38);
   --radius:18px;
   --shadow:0 14px 44px rgba(0,0,0,.7);
@@ -137,6 +137,8 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
   border-radius:12px;padding:10px 14px;font-size:13px;font-weight:600;margin-bottom:12px;text-align:center}
 .answerline{text-align:center;font-size:16px;margin-bottom:6px}
 .answerline b{color:var(--accent2);font-size:20px;letter-spacing:1px}
+.detailbtn{display:block;margin:0 auto 14px;border:1px solid var(--border2);background:rgba(230,184,74,.08);color:var(--accent2);border-radius:999px;padding:8px 20px;font-size:13px;font-weight:700;cursor:pointer;transition:.15s}
+.detailbtn:active{opacity:.7}
 
 /* ===== 完成态 ===== */
 .done{text-align:center;padding:30px 10px}
@@ -163,7 +165,7 @@ mark,.hl{background:rgba(230,184,74,.22);color:var(--accent2);padding:1px 3px;bo
 .worditem .w{font-size:16px;font-weight:700;flex:1;word-break:break-word}
 .worditem .z{font-size:12px;color:var(--muted);text-align:right;max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .worditem .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
-.dot.new{background:var(--faint)} .dot.learn{background:var(--warn)} .dot.master{background:var(--good)}
+.dot.new{background:var(--faint)} .dot.learn{background:var(--warn)} .dot.master{background:var(--blue)}
 .empty{text-align:center;color:var(--faint);padding:40px 0;font-size:14px}
 .group-actions{display:flex;gap:10px;margin:2px 0 14px}
 .group-actions .btn{flex:1;width:auto}
@@ -696,7 +698,7 @@ function renderGraph(){
   for(const i of order){
     const w=gWords[i], p=P[i];
     const st=cardState(w);
-    const col=st==="mastered"?"#6ee7b7":st==="learning"?"#fcd34d":"#a9a396";
+    const col=st==="mastered"?"#7fb4ff":st==="learning"?"#fcd34d":"#a9a396";
     const sel=gSelWord===w.word;
     const alpha=0.35+0.65*p.depth;
     const r=(sel?8:5.5)*p.factor;
@@ -1099,6 +1101,9 @@ function speakTTS(word){
 /* ---------- 学习会话状态机 ---------- */
 let session=null;
 function renderStudy(){renderMenu();}
+function exitSession(){ session=null; switchTab("study"); }
+function backToExplain(){ if(!session)return switchTab("study"); renderExplain(session.explainWrong); }
+function backToSpellExplain(){ if(!session)return switchTab("study"); renderSpellExplain(); }
 function renderMenu(){
   if(chainCat!=="全部" && !catsList().includes(chainCat))chainCat="全部";
   const target=progress.settings.dailyNew||10;
@@ -1157,7 +1162,10 @@ function renderMCQ(){
   const opts=buildOptions(w);
   const keys="ABCD";
   $("#main").innerHTML=`
-    <div class="qphase">· 学习新词 ·</div>
+    <div class="topbar">
+      <button class="backbtn" onclick="exitSession()">← 返回</button>
+      <div class="t">学习新词</div>
+    </div>
     <div class="qcard">
       <div class="qword">${esc(w.word)}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
@@ -1198,14 +1206,19 @@ function answerMCQ(i){
 /* ===== 解释页 ===== */
 function renderExplain(wrong){
   const w=session.current;
+  session.explainWrong=wrong;
   $("#main").innerHTML=`
-    <div class="qphase">· 学习新词 ·</div>
+    <div class="topbar">
+      <button class="backbtn" onclick="exitSession()">← 返回</button>
+      <div class="t">学习新词</div>
+    </div>
     <div class="explain">
       ${wrong?'<div class="wrongnote">⚠️ 刚才选错了，记住它</div>':'<div class="rightnote">✓ 回答正确</div>'}
       <div class="qword" style="font-size:28px">${esc(w.word)}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="zh">${esc(w.zh)}</div>
+      ${wrong?`<button class="detailbtn" onclick="openDetail('${esc(w.word)}','backToExplain')">📖 详情</button>`:""}
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${contextBlock(w)}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
@@ -1236,7 +1249,10 @@ function renderSpell(){
   session.hintUsed=false;
   session.hintLevel=0;
   $("#main").innerHTML=`
-    <div class="qphase">· 拼写复习 ·</div>
+    <div class="topbar">
+      <button class="backbtn" onclick="exitSession()">← 返回</button>
+      <div class="t">拼写复习</div>
+    </div>
     <div class="qcard">
       <div class="qzh">${esc(w.zh)}</div>
       <div class="qipa" style="color:var(--muted)">${esc(catOf(w)||"")}</div>
@@ -1317,11 +1333,15 @@ function renderSpellExplain(){
     ? `<div class="rightnote">✓ 正确　${session.spellExplainNote==="hint2"?"用了两次提示，请重新拼写":"用了提示，请重新拼写"}</div>`
     : `<div class="wrongnote">✗ 正确答案：</div>`;
   $("main").innerHTML=`
-    <div class="qphase">· 拼写复习 ·</div>
+    <div class="topbar">
+      <button class="backbtn" onclick="exitSession()">← 返回</button>
+      <div class="t">拼写复习</div>
+    </div>
     <div class="explain">
       ${note}
       <div class="answerline"><b>${esc(w.word)}</b>　${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="zh">${esc(w.zh)}</div>
+      ${session.spellExplainNote==="wrong"?`<button class="detailbtn" onclick="openDetail('${esc(w.word)}','backToSpellExplain')">📖 详情</button>`:""}
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${contextBlock(w)}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
