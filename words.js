@@ -12415,6 +12415,7104 @@ window.WORDS = [
     "id": 955
   },
   {
+    "word": "A/B switch",
+    "ipa": "",
+    "translit": "",
+    "zh": "A/B 切换",
+    "def": "允许在两个不同的插件状态之间快速切换，便于对比两种参数设置的效果。",
+    "example": "例子：将压缩器的阈值和比率调成两种不同设置，通过 A/B 切换按钮即时对比听感差异。",
+    "context": "Next: Undo, redo, A/B switch Undo, redo, A/B switch The Undo and Redo buttons at the top of the FabFilter Pro-C 2 interface enable you to easily undo changes you made to the plug-in. With the A/B feature, you can quickly switch between two different states of the plug-in. The Undo button at the left will undo the last change. Every change to the plug-in (such as dragging a knob or selecting a new preset) creates a new state in the undo history. The Undo button steps back through the history to restore the previous states of the plug-in.",
+    "contextZh": "接下来：撤销、重做、A/B 切换。撤销、重做、A/B 切换。FabFilter Pro-C 2 界面顶部的撤销和重做按钮让你可以轻松撤销对插件所做的更改。通过 A/B 功能，你可以在插件的两种不同状态之间快速切换。左侧的撤销按钮将撤销上一次更改。对插件的每一次更改（例如拖动旋钮或选择新预设）都会在撤销历史中创建一个新状态。撤销按钮会在历史中逐步回退，以恢复插件之前的状态。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 956
+  },
+  {
+    "word": "Undo button",
+    "ipa": "",
+    "translit": "",
+    "zh": "撤销按钮",
+    "def": "界面上的一个按钮，点击后撤销最近一次对插件的更改。",
+    "example": "例子：点击左侧的 Undo 按钮，即可撤销上一次操作。",
+    "context": "Next: Undo, redo, A/B switch Undo, redo, A/B switch The Undo and Redo buttons at the top of the FabFilter Pro-C 2 interface enable you to easily undo changes you made to the plug-in. With the A/B feature, you can quickly switch between two different states of the plug-in. The Undo button at the left will undo the last change. Every change to the plug-in (such as dragging a knob or selecting a new preset) creates a new state in the undo history. The Undo button steps back through the history to restore the previous states of the plug-in.",
+    "contextZh": "接下来：撤销、重做、A/B 切换。撤销、重做、A/B 切换。FabFilter Pro-C 2 界面顶部的撤销和重做按钮让你可以轻松撤销对插件所做的更改。通过 A/B 功能，你可以在插件的两种不同状态之间快速切换。左侧的撤销按钮将撤销上一次更改。对插件的每一次更改（例如拖动旋钮或选择新预设）都会在撤销历史中创建一个新状态。撤销按钮会在历史中逐步回退，以恢复插件之前的状态。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 957
+  },
+  {
+    "word": "undo history",
+    "ipa": "",
+    "translit": "",
+    "zh": "撤销历史",
+    "def": "记录对插件所做每一次更改的列表，每次更改都会创建一个新状态，便于逐步回退。",
+    "example": "例子：拖动旋钮或选择新预设都会在撤销历史中生成一个新状态。",
+    "context": "Next: Undo, redo, A/B switch Undo, redo, A/B switch The Undo and Redo buttons at the top of the FabFilter Pro-C 2 interface enable you to easily undo changes you made to the plug-in. With the A/B feature, you can quickly switch between two different states of the plug-in. The Undo button at the left will undo the last change. Every change to the plug-in (such as dragging a knob or selecting a new preset) creates a new state in the undo history. The Undo button steps back through the history to restore the previous states of the plug-in.",
+    "contextZh": "接下来：撤销、重做、A/B 切换。撤销、重做、A/B 切换。FabFilter Pro-C 2 界面顶部的撤销和重做按钮让你可以轻松撤销对插件所做的更改。通过 A/B 功能，你可以在插件的两种不同状态之间快速切换。左侧的撤销按钮将撤销上一次更改。对插件的每一次更改（例如拖动旋钮或选择新预设）都会在撤销历史中创建一个新状态。撤销按钮会在历史中逐步回退，以恢复插件之前的状态。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 958
+  },
+  {
+    "word": "preset",
+    "ipa": "ˈpriːset",
+    "translit": "",
+    "zh": "预设",
+    "def": "预先保存的一组参数设置，用户可以快速调用，无需手动调整每个参数。",
+    "example": "例子：在压缩器插件中选择一个“人声压缩”预设，即可快速获得适合人声的参数配置。",
+    "context": "Next: Undo, redo, A/B switch Undo, redo, A/B switch The Undo and Redo buttons at the top of the FabFilter Pro-C 2 interface enable you to easily undo changes you made to the plug-in. With the A/B feature, you can quickly switch between two different states of the plug-in. The Undo button at the left will undo the last change. Every change to the plug-in (such as dragging a knob or selecting a new preset) creates a new state in the undo history. The Undo button steps back through the history to restore the previous states of the plug-in.",
+    "contextZh": "接下来：撤销、重做、A/B 切换。撤销、重做、A/B 切换。FabFilter Pro-C 2 界面顶部的撤销和重做按钮让你可以轻松撤销对插件所做的更改。通过 A/B 功能，你可以在插件的两种不同状态之间快速切换。左侧的撤销按钮将撤销上一次更改。对插件的每一次更改（例如拖动旋钮或选择新预设）都会在撤销历史中创建一个新状态。撤销按钮会在历史中逐步回退，以恢复插件之前的状态。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 959
+  },
+  {
+    "word": "state",
+    "ipa": "steɪt",
+    "translit": "",
+    "zh": "状态",
+    "def": "指插件在某一时刻的全部参数设置情况。撤销和 A/B 功能都基于不同状态之间的切换。",
+    "example": "例子：每次调整参数后，插件都会保存一个新的状态，供撤销或 A/B 对比使用。",
+    "context": "Next: Undo, redo, A/B switch Undo, redo, A/B switch The Undo and Redo buttons at the top of the FabFilter Pro-C 2 interface enable you to easily undo changes you made to the plug-in. With the A/B feature, you can quickly switch between two different states of the plug-in. The Undo button at the left will undo the last change. Every change to the plug-in (such as dragging a knob or selecting a new preset) creates a new state in the undo history. The Undo button steps back through the history to restore the previous states of the plug-in.",
+    "contextZh": "接下来：撤销、重做、A/B 切换。撤销、重做、A/B 切换。FabFilter Pro-C 2 界面顶部的撤销和重做按钮让你可以轻松撤销对插件所做的更改。通过 A/B 功能，你可以在插件的两种不同状态之间快速切换。左侧的撤销按钮将撤销上一次更改。对插件的每一次更改（例如拖动旋钮或选择新预设）都会在撤销历史中创建一个新状态。撤销按钮会在历史中逐步回退，以恢复插件之前的状态。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 960
+  },
+  {
+    "word": "This marks the current state of the plug-in",
+    "ipa": "",
+    "translit": "",
+    "zh": "这会标记插件的当前状态",
+    "def": "表示将当前插件的参数设置记录为一个可回溯的状态点。",
+    "example": "例子：调整完均衡器参数后，点击标记按钮保存当前状态。",
+    "context": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "contextZh": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 961
+  },
+  {
+    "word": "and allows you to go back to it easily with the A/B button",
+    "ipa": "",
+    "translit": "",
+    "zh": "并让你可以通过 A/B 按钮轻松回到该状态",
+    "def": "说明标记状态后，可通过 A/B 对比按钮快速切换回之前保存的设置。",
+    "example": "例子：在调整前后音色之间用 A/B 按钮反复对比。",
+    "context": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "contextZh": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 962
+  },
+  {
+    "word": "After clicking Copy, the button disables itself to show that both states are equal",
+    "ipa": "",
+    "translit": "",
+    "zh": "点击复制后，该按钮会自动禁用，表示两个状态已经相同",
+    "def": "当两个对比状态一致时，复制操作不再有意义，因此按钮自动变灰禁用。",
+    "example": "例子：A 状态和 B 状态参数完全一致时，复制按钮变为不可点击。",
+    "context": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "contextZh": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 963
+  },
+  {
+    "word": "so there is nothing to copy anymore",
+    "ipa": "",
+    "translit": "",
+    "zh": "因此没有可复制的内容了",
+    "def": "解释按钮禁用的原因：两个状态已完全相同，无需再复制。",
+    "example": "例子：A/B 两个槽位参数一致，复制操作无意义。",
+    "context": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "contextZh": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 964
+  },
+  {
+    "word": "Notes",
+    "ipa": "",
+    "translit": "",
+    "zh": "注意事项",
+    "def": "用于引出需要特别留意的补充说明。",
+    "example": "例子：说明书中的注意事项章节。",
+    "context": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "contextZh": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 965
+  },
+  {
+    "word": "If the plug-in parameters are changed without using the plug-in interface",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果未通过插件界面更改插件参数",
+    "def": "指参数变更不是由用户在插件界面上手动操作触发的。",
+    "example": "例子：通过外部控制器发送 MIDI 信号来改变参数。",
+    "context": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "contextZh": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 966
+  },
+  {
+    "word": "for example with MIDI or automation",
+    "ipa": "",
+    "translit": "",
+    "zh": "例如通过 MIDI 或自动化",
+    "def": "列举两种不经过插件界面即可改变参数的方式。",
+    "example": "例子：在宿主软件中绘制自动化曲线来改变插件参数。",
+    "context": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "contextZh": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 967
+  },
+  {
+    "word": "no new undo states are recorded",
+    "ipa": "",
+    "translit": "",
+    "zh": "不会记录新的撤销状态",
+    "def": "说明通过非界面方式修改参数时，撤销历史中不会新增记录。",
+    "example": "例子：用自动化控制滤波器截止频率后，按撤销键无法回到之前的值。",
+    "context": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "contextZh": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 968
+  },
+  {
+    "word": "The Undo and Redo buttons will disable themselves if there is nothing to undo or redo",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用",
+    "def": "当撤销/重做历史为空时，对应按钮自动变灰不可点击。",
+    "example": "例子：刚打开插件尚未做任何操作时，撤销按钮为灰色。",
+    "context": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "contextZh": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 969
+  },
+  {
+    "word": "arrow buttons",
+    "ipa": "",
+    "translit": "",
+    "zh": "箭头按钮",
+    "def": "界面上用于切换或导航的小型方向按钮。",
+    "example": "例子：点击左右箭头按钮可以浏览不同的选项。",
+    "context": "To explore the presets one by one, click on the little arrow buttons to the left and right of the main preset button. This will load the previous or next preset in the menu. The preset button shows the name of the current preset. If you have changed the preset by adjusting one or more parameters, the name is dimmed to indicate that this is not the original preset anymore. Tips The Default Setting preset is loaded automatically when FabFilter Pro-C 2 is started.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 970
+  },
+  {
+    "word": "main preset button",
+    "ipa": "",
+    "translit": "",
+    "zh": "主预设按钮",
+    "def": "界面上显示当前预设名称并用于打开预设菜单的主要按钮。",
+    "example": "例子：点击主预设按钮会弹出所有可用预设的列表。",
+    "context": "To explore the presets one by one, click on the little arrow buttons to the left and right of the main preset button. This will load the previous or next preset in the menu. The preset button shows the name of the current preset. If you have changed the preset by adjusting one or more parameters, the name is dimmed to indicate that this is not the original preset anymore. Tips The Default Setting preset is loaded automatically when FabFilter Pro-C 2 is started.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 971
+  },
+  {
+    "word": "load",
+    "ipa": "",
+    "translit": "",
+    "zh": "加载",
+    "def": "将选定的预设或数据读入当前会话中使其生效。",
+    "example": "例子：加载上一个预设会恢复之前的参数设置。",
+    "context": "To explore the presets one by one, click on the little arrow buttons to the left and right of the main preset button. This will load the previous or next preset in the menu. The preset button shows the name of the current preset. If you have changed the preset by adjusting one or more parameters, the name is dimmed to indicate that this is not the original preset anymore. Tips The Default Setting preset is loaded automatically when FabFilter Pro-C 2 is started.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 972
+  },
+  {
+    "word": "dimmed",
+    "ipa": "dɪmd",
+    "translit": "",
+    "zh": "变暗的",
+    "def": "界面元素颜色变淡，表示状态已改变或不可用。",
+    "example": "例子：修改预设后名称变暗，提示已偏离原始预设。",
+    "context": "To explore the presets one by one, click on the little arrow buttons to the left and right of the main preset button. This will load the previous or next preset in the menu. The preset button shows the name of the current preset. If you have changed the preset by adjusting one or more parameters, the name is dimmed to indicate that this is not the original preset anymore. Tips The Default Setting preset is loaded automatically when FabFilter Pro-C 2 is started.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 973
+  },
+  {
+    "word": "Default Setting",
+    "ipa": "",
+    "translit": "",
+    "zh": "默认设置",
+    "def": "软件初始状态下的预设配置。",
+    "example": "例子：启动软件时自动加载默认设置预设。",
+    "context": "To explore the presets one by one, click on the little arrow buttons to the left and right of the main preset button. This will load the previous or next preset in the menu. The preset button shows the name of the current preset. If you have changed the preset by adjusting one or more parameters, the name is dimmed to indicate that this is not the original preset anymore. Tips The Default Setting preset is loaded automatically when FabFilter Pro-C 2 is started.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 974
+  },
+  {
+    "word": "Plenty of presets are provided with FabFilter Pro-C 2, giving a good idea of what you can do.",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C 2 提供了大量预设，让你能很好地了解它可以实现的效果。",
+    "def": "说明该插件附带许多预设，帮助用户理解其功能范围。",
+    "example": "例子：打开插件后浏览预设列表，可以听到不同的压缩风格。",
+    "context": "Next: Loading presets See Also Using FabFilter Pro-C 2 Loading presets Plenty of presets are provided with FabFilter Pro-C 2, giving a good idea of what you can do. You can either use the presets as they are, or tweak them further to create your own unique settings. To load a preset, click the preset button. The presets menu will appear with all available presets. Click a menu item to load that preset. The currently selected preset is highlighted with check marks.",
+    "contextZh": "下一步：加载预设 另请参阅 使用 FabFilter Pro-C 2 加载预设 FabFilter Pro-C 2 提供了大量预设，让你能很好地了解它可以实现的效果。你可以直接使用这些预设，也可以进一步调整它们来创建自己独特的设置。要加载预设，请点击预设按钮。预设菜单会出现，显示所有可用的预设。点击菜单项即可加载该预设。当前选中的预设会用对勾标记高亮显示。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 975
+  },
+  {
+    "word": "You can either use the presets as they are, or tweak them further to create your own unique settings.",
+    "ipa": "",
+    "translit": "",
+    "zh": "你可以直接使用这些预设，也可以进一步调整它们来创建自己独特的设置。",
+    "def": "说明用户有两种选择：直接使用预设或在此基础上修改。",
+    "example": "例子：先加载一个预设，再调整阈值和比率来适应自己的混音。",
+    "context": "Next: Loading presets See Also Using FabFilter Pro-C 2 Loading presets Plenty of presets are provided with FabFilter Pro-C 2, giving a good idea of what you can do. You can either use the presets as they are, or tweak them further to create your own unique settings. To load a preset, click the preset button. The presets menu will appear with all available presets. Click a menu item to load that preset. The currently selected preset is highlighted with check marks.",
+    "contextZh": "下一步：加载预设 另请参阅 使用 FabFilter Pro-C 2 加载预设 FabFilter Pro-C 2 提供了大量预设，让你能很好地了解它可以实现的效果。你可以直接使用这些预设，也可以进一步调整它们来创建自己独特的设置。要加载预设，请点击预设按钮。预设菜单会出现，显示所有可用的预设。点击菜单项即可加载该预设。当前选中的预设会用对勾标记高亮显示。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 976
+  },
+  {
+    "word": "To load a preset, click the preset button.",
+    "ipa": "",
+    "translit": "",
+    "zh": "要加载预设，请点击预设按钮。",
+    "def": "说明加载预设的操作步骤。",
+    "example": "例子：在插件界面左上角找到预设按钮并点击。",
+    "context": "Next: Loading presets See Also Using FabFilter Pro-C 2 Loading presets Plenty of presets are provided with FabFilter Pro-C 2, giving a good idea of what you can do. You can either use the presets as they are, or tweak them further to create your own unique settings. To load a preset, click the preset button. The presets menu will appear with all available presets. Click a menu item to load that preset. The currently selected preset is highlighted with check marks.",
+    "contextZh": "下一步：加载预设 另请参阅 使用 FabFilter Pro-C 2 加载预设 FabFilter Pro-C 2 提供了大量预设，让你能很好地了解它可以实现的效果。你可以直接使用这些预设，也可以进一步调整它们来创建自己独特的设置。要加载预设，请点击预设按钮。预设菜单会出现，显示所有可用的预设。点击菜单项即可加载该预设。当前选中的预设会用对勾标记高亮显示。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 977
+  },
+  {
+    "word": "The presets menu will appear with all available presets.",
+    "ipa": "",
+    "translit": "",
+    "zh": "预设菜单会出现，显示所有可用的预设。",
+    "def": "说明点击预设按钮后会出现一个包含所有预设的菜单。",
+    "example": "例子：菜单中按类别列出人声、鼓、总线等预设。",
+    "context": "Next: Loading presets See Also Using FabFilter Pro-C 2 Loading presets Plenty of presets are provided with FabFilter Pro-C 2, giving a good idea of what you can do. You can either use the presets as they are, or tweak them further to create your own unique settings. To load a preset, click the preset button. The presets menu will appear with all available presets. Click a menu item to load that preset. The currently selected preset is highlighted with check marks.",
+    "contextZh": "下一步：加载预设 另请参阅 使用 FabFilter Pro-C 2 加载预设 FabFilter Pro-C 2 提供了大量预设，让你能很好地了解它可以实现的效果。你可以直接使用这些预设，也可以进一步调整它们来创建自己独特的设置。要加载预设，请点击预设按钮。预设菜单会出现，显示所有可用的预设。点击菜单项即可加载该预设。当前选中的预设会用对勾标记高亮显示。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 978
+  },
+  {
+    "word": "Click a menu item to load that preset.",
+    "ipa": "",
+    "translit": "",
+    "zh": "点击菜单项即可加载该预设。",
+    "def": "说明从菜单中选择一个预设并加载的操作。",
+    "example": "例子：点击“Vocal Compressor”预设，插件参数立即更新。",
+    "context": "Next: Loading presets See Also Using FabFilter Pro-C 2 Loading presets Plenty of presets are provided with FabFilter Pro-C 2, giving a good idea of what you can do. You can either use the presets as they are, or tweak them further to create your own unique settings. To load a preset, click the preset button. The presets menu will appear with all available presets. Click a menu item to load that preset. The currently selected preset is highlighted with check marks.",
+    "contextZh": "下一步：加载预设 另请参阅 使用 FabFilter Pro-C 2 加载预设 FabFilter Pro-C 2 提供了大量预设，让你能很好地了解它可以实现的效果。你可以直接使用这些预设，也可以进一步调整它们来创建自己独特的设置。要加载预设，请点击预设按钮。预设菜单会出现，显示所有可用的预设。点击菜单项即可加载该预设。当前选中的预设会用对勾标记高亮显示。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 979
+  },
+  {
+    "word": "The currently selected preset is highlighted with check marks.",
+    "ipa": "",
+    "translit": "",
+    "zh": "当前选中的预设会用对勾标记高亮显示。",
+    "def": "说明菜单中当前激活的预设会有视觉标记。",
+    "example": "例子：已加载的预设名称旁边显示一个对勾。",
+    "context": "Next: Loading presets See Also Using FabFilter Pro-C 2 Loading presets Plenty of presets are provided with FabFilter Pro-C 2, giving a good idea of what you can do. You can either use the presets as they are, or tweak them further to create your own unique settings. To load a preset, click the preset button. The presets menu will appear with all available presets. Click a menu item to load that preset. The currently selected preset is highlighted with check marks.",
+    "contextZh": "下一步：加载预设 另请参阅 使用 FabFilter Pro-C 2 加载预设 FabFilter Pro-C 2 提供了大量预设，让你能很好地了解它可以实现的效果。你可以直接使用这些预设，也可以进一步调整它们来创建自己独特的设置。要加载预设，请点击预设按钮。预设菜单会出现，显示所有可用的预设。点击菜单项即可加载该预设。当前选中的预设会用对勾标记高亮显示。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 980
+  },
+  {
+    "word": "default settings",
+    "ipa": "",
+    "translit": "",
+    "zh": "默认设置",
+    "def": "指软件或设备在未做任何自定义修改时预先设定好的参数状态。",
+    "example": "例子：新安装的软件打开后音量默认是 80%，这就是默认设置。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 981
+  },
+  {
+    "word": "overwrite",
+    "ipa": "",
+    "translit": "",
+    "zh": "覆盖",
+    "def": "用新的内容替换原有的内容，使原有内容被取代。",
+    "example": "例子：保存文件时选择覆盖，原有的旧版本就被新版本替换了。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 982
+  },
+  {
+    "word": "Options",
+    "ipa": "",
+    "translit": "",
+    "zh": "选项",
+    "def": "软件菜单中用于调整设置或执行特定操作的功能入口。",
+    "example": "例子：点击菜单栏中的 Options 可以打开设置面板。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 983
+  },
+  {
+    "word": "Save As Default",
+    "ipa": "",
+    "translit": "",
+    "zh": "保存为默认",
+    "def": "将当前设置保存下来，作为以后新建或启动时的默认状态。",
+    "example": "例子：把当前音色参数保存为默认后，下次打开软件会自动加载这套参数。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 984
+  },
+  {
+    "word": "presets menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "预设菜单",
+    "def": "列出所有可用预设的菜单，用户可以从中选择、保存或管理预设。",
+    "example": "例子：在预设菜单中可以看到 Factory、User 等分类下的所有预设。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 985
+  },
+  {
+    "word": "presets folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "预设文件夹",
+    "def": "存放预设文件的目录，软件通常默认从此文件夹读取预设。",
+    "example": "例子：把下载的预设文件放入预设文件夹后，就能在软件中直接调用。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 986
+  },
+  {
+    "word": "Open Other Preset",
+    "ipa": "",
+    "translit": "",
+    "zh": "打开其他预设",
+    "def": "用于从预设文件夹以外的位置加载预设文件的功能。",
+    "example": "例子：朋友通过邮件发来一个预设文件，可以用此功能从桌面打开它。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 987
+  },
+  {
+    "word": "Restore Factory Presets",
+    "ipa": "",
+    "translit": "",
+    "zh": "恢复出厂预设",
+    "def": "将预设恢复到出厂时的初始状态，用于修复丢失或被修改的预设。",
+    "example": "例子：如果不小心删除了出厂预设，可以用此功能将它们恢复。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 988
+  },
+  {
+    "word": "Program Change",
+    "ipa": "",
+    "translit": "",
+    "zh": "程序变更",
+    "def": "MIDI 消息的一种，用于切换音色或预设编号。",
+    "example": "例子：发送 Program Change 编号 5，音源就切换到第 5 号音色。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 989
+  },
+  {
+    "word": "Bank Select",
+    "ipa": "",
+    "translit": "",
+    "zh": "音色库选择",
+    "def": "MIDI 消息的一种，用于在切换音色前先选择音色库，以扩展可选的音色数量。",
+    "example": "例子：先发送 Bank Select 选择第 2 号库，再发送 Program Change 选择该库中的第 10 号音色。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 990
+  },
+  {
+    "word": "Loading a preset",
+    "ipa": "",
+    "translit": "",
+    "zh": "加载预设",
+    "def": "将预设文件读取到软件或设备中，使其参数生效。",
+    "example": "例子：加载一个预设后，合成器的所有参数会立即变为该预设所保存的状态。",
+    "context": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "contextZh": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 991
+  },
+  {
+    "word": "To save the current setting as a preset",
+    "ipa": "",
+    "translit": "",
+    "zh": "要将当前设置保存为预设",
+    "def": "说明把当前调整好的参数存成一个可重复调用的预设。",
+    "example": "例子：调好均衡器后，把它保存为预设，方便下次直接调用。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 992
+  },
+  {
+    "word": "click the preset button",
+    "ipa": "",
+    "translit": "",
+    "zh": "点击预设按钮",
+    "def": "说明操作的第一步是点击界面上的预设按钮。",
+    "example": "例子：在软件界面中找到并点击“预设”按钮。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 993
+  },
+  {
+    "word": "and then click Save As",
+    "ipa": "",
+    "translit": "",
+    "zh": "然后点击“另存为”",
+    "def": "说明接着选择“另存为”命令。",
+    "example": "例子：在弹出的菜单中点击“另存为”。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 994
+  },
+  {
+    "word": "A standard Save dialog will appear",
+    "ipa": "",
+    "translit": "",
+    "zh": "会出现一个标准的保存对话框",
+    "def": "说明系统会弹出常见的保存窗口。",
+    "example": "例子：屏幕上会显示与普通软件相同的保存对话框。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 995
+  },
+  {
+    "word": "Type a name for the new preset",
+    "ipa": "",
+    "translit": "",
+    "zh": "为新预设输入一个名称",
+    "def": "说明需要给预设起名。",
+    "example": "例子：在名称栏中输入“人声均衡”。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 996
+  },
+  {
+    "word": "and click Save to finish",
+    "ipa": "",
+    "translit": "",
+    "zh": "然后点击“保存”完成",
+    "def": "说明最后点击保存按钮即可结束操作。",
+    "example": "例子：输入名称后点击“保存”，预设就创建好了。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 997
+  },
+  {
+    "word": "In the Save dialog, you can also rename and delete existing presets",
+    "ipa": "",
+    "translit": "",
+    "zh": "在保存对话框中，你还可以重命名和删除已有的预设",
+    "def": "说明该对话框不仅能新建，也能管理旧预设。",
+    "example": "例子：选中一个旧预设，点击重命名或删除。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 998
+  },
+  {
+    "word": "and create a new folder to store presets in",
+    "ipa": "",
+    "translit": "",
+    "zh": "并可以新建文件夹来存放预设",
+    "def": "说明可以建立文件夹对预设进行分类管理。",
+    "example": "例子：新建一个名为“混音预设”的文件夹。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 999
+  },
+  {
+    "word": "New folders will show up as new categories in the preset menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "新建的文件夹会作为新分类显示在预设菜单中",
+    "def": "说明文件夹会自动变成预设菜单里的分类项。",
+    "example": "例子：新建文件夹后，预设菜单里会多出一个同名分类。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1000
+  },
+  {
+    "word": "(On macOS, this should be done with the Finder.)",
+    "ipa": "",
+    "translit": "",
+    "zh": "（在 macOS 上，应使用“访达”来完成此操作。）",
+    "def": "说明在苹果系统中，文件夹管理要通过访达进行。",
+    "example": "例子：在 macOS 上打开访达来新建或整理预设文件夹。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1001
+  },
+  {
+    "word": "See How presets are stored to determine the preset folder location",
+    "ipa": "",
+    "translit": "",
+    "zh": "请参阅“预设的存储方式”来确定预设文件夹的位置",
+    "def": "说明可查看相关说明来找到预设存放路径。",
+    "example": "例子：点击帮助文档中的“预设的存储方式”了解路径。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1002
+  },
+  {
+    "word": "and learn more about factory presets",
+    "ipa": "",
+    "translit": "",
+    "zh": "并了解更多关于出厂预设的信息",
+    "def": "说明还可以进一步了解软件自带的预设。",
+    "example": "例子：阅读该说明可知道出厂预设有哪些。",
+    "context": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "contextZh": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1003
+  },
+  {
+    "word": "bank/program numbers",
+    "ipa": "",
+    "translit": "",
+    "zh": "音色库/程序编号",
+    "def": "用于标识 MIDI 设备中特定音色库和程序的数字编号，常用于切换音色。",
+    "example": "例子：在 MIDI 音源中，音色库编号 1、程序编号 5 对应钢琴音色。",
+    "context": "However, this also means that when you add new presets to the menu, bank/program numbers of other presets might change. Be aware of this when recording program changes in a session! Next: Saving presets See Also Undo, Redo, A/B switch Using FabFilter Pro-C Acknowledgements Saving presets You can easily extend the included presets with new settings to build your own library of presets for FabFilter Pro-C 2 that you can reuse in various projects. This is also a good way to copy settings across multiple instances of FabFilter Pro-C 2 in a session.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1004
+  },
+  {
+    "word": "recording program changes",
+    "ipa": "",
+    "translit": "",
+    "zh": "录制程序变更",
+    "def": "在数字音频工作站中记录 MIDI 程序切换事件，以便在回放时自动切换音色。",
+    "example": "例子：在录音时记录从钢琴切换到弦乐的程序变更信息。",
+    "context": "However, this also means that when you add new presets to the menu, bank/program numbers of other presets might change. Be aware of this when recording program changes in a session! Next: Saving presets See Also Undo, Redo, A/B switch Using FabFilter Pro-C Acknowledgements Saving presets You can easily extend the included presets with new settings to build your own library of presets for FabFilter Pro-C 2 that you can reuse in various projects. This is also a good way to copy settings across multiple instances of FabFilter Pro-C 2 in a session.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1005
+  },
+  {
+    "word": "Saving presets",
+    "ipa": "",
+    "translit": "",
+    "zh": "保存预设",
+    "def": "将当前参数设置存储为预设，以便日后调用。",
+    "example": "例子：将调整好的压缩器设置保存为预设，方便在其他工程中使用。",
+    "context": "However, this also means that when you add new presets to the menu, bank/program numbers of other presets might change. Be aware of this when recording program changes in a session! Next: Saving presets See Also Undo, Redo, A/B switch Using FabFilter Pro-C Acknowledgements Saving presets You can easily extend the included presets with new settings to build your own library of presets for FabFilter Pro-C 2 that you can reuse in various projects. This is also a good way to copy settings across multiple instances of FabFilter Pro-C 2 in a session.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1006
+  },
+  {
+    "word": "FabFilter Pro-C",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C",
+    "def": "一款由 FabFilter 公司开发的压缩器插件，广泛用于音频处理。",
+    "example": "例子：在混音中使用 FabFilter Pro-C 2 控制人声的动态范围。",
+    "context": "However, this also means that when you add new presets to the menu, bank/program numbers of other presets might change. Be aware of this when recording program changes in a session! Next: Saving presets See Also Undo, Redo, A/B switch Using FabFilter Pro-C Acknowledgements Saving presets You can easily extend the included presets with new settings to build your own library of presets for FabFilter Pro-C 2 that you can reuse in various projects. This is also a good way to copy settings across multiple instances of FabFilter Pro-C 2 in a session.",
+    "contextZh": "",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1007
+  },
+  {
+    "word": "Acknowledgements",
+    "ipa": "",
+    "translit": "",
+    "zh": "致谢",
+    "def": "对贡献者、合作伙伴或使用的第三方资源表示感谢的部分。",
+    "example": "例子：在软件文档中列出致谢名单，感谢测试人员和音色设计师。",
+    "context": "However, this also means that when you add new presets to the menu, bank/program numbers of other presets might change. Be aware of this when recording program changes in a session! Next: Saving presets See Also Undo, Redo, A/B switch Using FabFilter Pro-C Acknowledgements Saving presets You can easily extend the included presets with new settings to build your own library of presets for FabFilter Pro-C 2 that you can reuse in various projects. This is also a good way to copy settings across multiple instances of FabFilter Pro-C 2 in a session.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1008
+  },
+  {
+    "word": "library",
+    "ipa": "ˈlaɪbrɛri",
+    "translit": "",
+    "zh": "库",
+    "def": "一组预设、音色或资源的集合，便于用户管理和调用。",
+    "example": "例子：建立一个个人预设库，包含常用的压缩器设置。",
+    "context": "However, this also means that when you add new presets to the menu, bank/program numbers of other presets might change. Be aware of this when recording program changes in a session! Next: Saving presets See Also Undo, Redo, A/B switch Using FabFilter Pro-C Acknowledgements Saving presets You can easily extend the included presets with new settings to build your own library of presets for FabFilter Pro-C 2 that you can reuse in various projects. This is also a good way to copy settings across multiple instances of FabFilter Pro-C 2 in a session.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1009
+  },
+  {
+    "word": "Click Options",
+    "ipa": "",
+    "translit": "",
+    "zh": "点击选项",
+    "def": "指示用户点击界面上的“选项”菜单。",
+    "example": "例子：在软件顶部菜单栏中找到并点击“选项”。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1010
+  },
+  {
+    "word": "Enable MIDI Program Changes",
+    "ipa": "",
+    "translit": "",
+    "zh": "启用 MIDI 程序变更",
+    "def": "一个功能选项，允许通过 MIDI 消息切换预设。",
+    "example": "例子：勾选此选项后，可通过外部 MIDI 设备发送程序变更消息来切换音色预设。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1011
+  },
+  {
+    "word": "in the preset menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "在预设菜单中",
+    "def": "指明该选项所在的位置。",
+    "example": "例子：打开预设菜单即可看到该选项。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1012
+  },
+  {
+    "word": "to enable or disable this feature",
+    "ipa": "",
+    "translit": "",
+    "zh": "以启用或禁用此功能",
+    "def": "说明该操作的目的，即打开或关闭上述功能。",
+    "example": "例子：根据需要勾选或取消勾选来开启或关闭该功能。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1013
+  },
+  {
+    "word": "When enabled",
+    "ipa": "",
+    "translit": "",
+    "zh": "启用后",
+    "def": "表示当该功能被打开时的情况。",
+    "example": "例子：启用后，预设名称前会显示编号。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1014
+  },
+  {
+    "word": "the corresponding bank/program numbers",
+    "ipa": "",
+    "translit": "",
+    "zh": "对应的音色库/程序编号",
+    "def": "指与预设关联的 MIDI 音色库编号和程序编号。",
+    "example": "例子：编号 (2/65) 表示音色库 2、程序 65。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1015
+  },
+  {
+    "word": "are shown in front of the preset name",
+    "ipa": "",
+    "translit": "",
+    "zh": "显示在预设名称前面",
+    "def": "描述编号在界面上的显示位置。",
+    "example": "例子：(2/65) My Preset 中编号显示在名称之前。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1016
+  },
+  {
+    "word": "for example: (2/65) My Preset",
+    "ipa": "",
+    "translit": "",
+    "zh": "例如：(2/65) 我的预设",
+    "def": "给出编号显示格式的具体示例。",
+    "example": "例子：预设名称“我的预设”前显示“(2/65)”。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1017
+  },
+  {
+    "word": "This means that",
+    "ipa": "",
+    "translit": "",
+    "zh": "这意味着",
+    "def": "引出对上述信息的解释。",
+    "example": "例子：这意味着你可以通过 MIDI 消息加载该预设。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1018
+  },
+  {
+    "word": "you can load that preset",
+    "ipa": "",
+    "translit": "",
+    "zh": "你可以加载该预设",
+    "def": "说明用户能够执行的操作。",
+    "example": "例子：发送正确的 MIDI 消息后即可加载目标预设。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1019
+  },
+  {
+    "word": "by first sending a Bank Select message",
+    "ipa": "",
+    "translit": "",
+    "zh": "通过首先发送音色库选择消息",
+    "def": "描述加载预设的第一步操作。",
+    "example": "例子：先发送 Bank Select 消息选择音色库 2。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1020
+  },
+  {
+    "word": "to select bank 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "以选择音色库 2",
+    "def": "说明第一步操作的目的。",
+    "example": "例子：发送 Bank Select 消息将音色库设为 2。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1021
+  },
+  {
+    "word": "and then sending a Program Change message",
+    "ipa": "",
+    "translit": "",
+    "zh": "然后发送程序变更消息",
+    "def": "描述加载预设的第二步操作。",
+    "example": "例子：选择音色库后，再发送 Program Change 消息。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1022
+  },
+  {
+    "word": "to select program 65",
+    "ipa": "",
+    "translit": "",
+    "zh": "以选择程序 65",
+    "def": "说明第二步操作的目的。",
+    "example": "例子：发送 Program Change 消息将程序号设为 65。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1023
+  },
+  {
+    "word": "Important",
+    "ipa": "",
+    "translit": "",
+    "zh": "重要",
+    "def": "提示接下来是重要信息。",
+    "example": "例子：此处标注“重要”以引起用户注意。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1024
+  },
+  {
+    "word": "All the presets in your preset folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "你预设文件夹中的所有预设",
+    "def": "指用户预设文件夹内的全部预设。",
+    "example": "例子：预设文件夹中保存的所有音色预设。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1025
+  },
+  {
+    "word": "are numbered automatically",
+    "ipa": "",
+    "translit": "",
+    "zh": "会被自动编号",
+    "def": "说明预设编号是系统自动分配的。",
+    "example": "例子：无需手动编号，软件会自动为每个预设分配编号。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1026
+  },
+  {
+    "word": "starting with bank 0 and program 0",
+    "ipa": "",
+    "translit": "",
+    "zh": "从音色库 0 和程序 0 开始",
+    "def": "说明自动编号的起始值。",
+    "example": "例子：第一个预设的编号为音色库 0、程序 0。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1027
+  },
+  {
+    "word": "This way",
+    "ipa": "",
+    "translit": "",
+    "zh": "这样",
+    "def": "引出上述机制带来的结果。",
+    "example": "例子：通过这种编号方式，可以方便地访问预设。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1028
+  },
+  {
+    "word": "you are able to access any of the presets via MIDI",
+    "ipa": "",
+    "translit": "",
+    "zh": "你能够通过 MIDI 访问任意预设",
+    "def": "说明自动编号的最终目的和效果。",
+    "example": "例子：通过发送对应的 MIDI 消息即可调用任意一个预设。",
+    "context": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "contextZh": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1029
+  },
+  {
+    "word": "How presets are stored",
+    "ipa": "",
+    "translit": "",
+    "zh": "预设的存储方式",
+    "def": "说明预设文件在软件中的保存位置和格式。",
+    "example": "例子：帮助文档中介绍预设存储方式的章节标题。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1030
+  },
+  {
+    "word": "Using FabFilter Pro-C",
+    "ipa": "",
+    "translit": "",
+    "zh": "使用 FabFilter Pro-C",
+    "def": "关于如何使用 FabFilter Pro-C 这款压缩器插件的说明。",
+    "example": "例子：帮助文档中介绍 Pro-C 操作方法的章节。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1031
+  },
+  {
+    "word": "Presets for FabFilter Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C 2 的预设",
+    "def": "指专为 FabFilter Pro-C 2 压缩器插件创建的预设文件。",
+    "example": "例子：用户下载的第三方 Pro-C 2 预设包。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1032
+  },
+  {
+    "word": "are stored in separate files with the .ffp extension",
+    "ipa": "",
+    "translit": "",
+    "zh": "存储在扩展名为 .ffp 的独立文件中",
+    "def": "说明预设以单独文件形式保存，文件后缀为 .ffp。",
+    "example": "例子：在文件夹中看到一个名为“Vocal Comp.ffp”的文件。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1033
+  },
+  {
+    "word": "(for FabFilter Preset)",
+    "ipa": "",
+    "translit": "",
+    "zh": "（代表 FabFilter 预设）",
+    "def": "解释 .ffp 扩展名的含义。",
+    "example": "例子：.ffp 即 FabFilter Preset 的缩写。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1034
+  },
+  {
+    "word": "All presets reside in subfolders in the main preset folder.",
+    "ipa": "",
+    "translit": "",
+    "zh": "所有预设都存放在主预设文件夹下的子文件夹中。",
+    "def": "说明预设文件的目录结构。",
+    "example": "例子：主预设文件夹路径为 Documents/FabFilter/Presets。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1035
+  },
+  {
+    "word": "The subfolders will show up as separate categories in the preset menu.",
+    "ipa": "",
+    "translit": "",
+    "zh": "这些子文件夹会在预设菜单中显示为独立的分类。",
+    "def": "说明子文件夹与预设菜单分类的对应关系。",
+    "example": "例子：子文件夹“Compression”在菜单中显示为“Compression”分类。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1036
+  },
+  {
+    "word": "You can also further divide the subfolders into categories.",
+    "ipa": "",
+    "translit": "",
+    "zh": "你还可以将子文件夹进一步划分为多个分类。",
+    "def": "说明支持多层级的分类组织方式。",
+    "example": "例子：在“Compression”子文件夹下再建“Vocal”和“Drum”子文件夹。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1037
+  },
+  {
+    "word": "You can manage the preset files just like other files on your computer.",
+    "ipa": "",
+    "translit": "",
+    "zh": "你可以像管理电脑上的其他文件一样管理预设文件。",
+    "def": "说明预设文件可以通过操作系统的文件管理器进行管理。",
+    "example": "例子：在 Finder 或资源管理器中复制、移动或删除 .ffp 文件。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1038
+  },
+  {
+    "word": "The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "ipa": "",
+    "translit": "",
+    "zh": "最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "def": "建议用户通过保存预设时的对话框来管理预设文件。",
+    "example": "例子：点击“保存预设”后，在弹出的对话框中新建子文件夹并保存。",
+    "context": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "contextZh": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1039
+  },
+  {
+    "word": "To change this location",
+    "ipa": "",
+    "translit": "",
+    "zh": "要更改此位置",
+    "def": "表示用户希望修改当前预设文件所存放的路径。",
+    "example": "例子：如果预设默认保存在 C 盘，你想改到 D 盘，就需要执行此操作。",
+    "context": "To change this location, first copy all presets to the desired new location, and then click Options > Change Preset Folder in the preset menu and select the new folder. Restoring factory presets If you have accidentally lost the factory presets, you can easily restore them by clicking Options > Restore Factory Presets in the preset menu. This will install all factory presets again.",
+    "contextZh": "要更改此位置，首先将所有预设复制到所需的新位置，然后在预设菜单中点击「选项 > 更改预设文件夹」并选择新文件夹。恢复出厂预设：如果您不小心丢失了出厂预设，可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们。这将重新安装所有出厂预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1040
+  },
+  {
+    "word": "first copy all presets to the desired new location",
+    "ipa": "",
+    "translit": "",
+    "zh": "首先将所有预设复制到所需的新位置",
+    "def": "指在更改路径之前，先把现有的预设文件手动复制到目标文件夹。",
+    "example": "例子：把旧文件夹里的所有预设文件复制到 D:\\Music\\Presets。",
+    "context": "To change this location, first copy all presets to the desired new location, and then click Options > Change Preset Folder in the preset menu and select the new folder. Restoring factory presets If you have accidentally lost the factory presets, you can easily restore them by clicking Options > Restore Factory Presets in the preset menu. This will install all factory presets again.",
+    "contextZh": "要更改此位置，首先将所有预设复制到所需的新位置，然后在预设菜单中点击「选项 > 更改预设文件夹」并选择新文件夹。恢复出厂预设：如果您不小心丢失了出厂预设，可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们。这将重新安装所有出厂预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1041
+  },
+  {
+    "word": "and then click Options > Change Preset Folder in the preset menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "然后在预设菜单中点击「选项 > 更改预设文件夹」",
+    "def": "说明完成复制后，通过软件菜单中的指定命令来切换预设文件夹路径。",
+    "example": "例子：在软件顶部菜单栏找到预设菜单，依次点击 Options 和 Change Preset Folder。",
+    "context": "To change this location, first copy all presets to the desired new location, and then click Options > Change Preset Folder in the preset menu and select the new folder. Restoring factory presets If you have accidentally lost the factory presets, you can easily restore them by clicking Options > Restore Factory Presets in the preset menu. This will install all factory presets again.",
+    "contextZh": "要更改此位置，首先将所有预设复制到所需的新位置，然后在预设菜单中点击「选项 > 更改预设文件夹」并选择新文件夹。恢复出厂预设：如果您不小心丢失了出厂预设，可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们。这将重新安装所有出厂预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1042
+  },
+  {
+    "word": "and select the new folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "并选择新文件夹",
+    "def": "指在弹出的文件浏览窗口中选中刚才复制预设的目标文件夹。",
+    "example": "例子：在弹窗中定位到 D:\\Music\\Presets 并确认。",
+    "context": "To change this location, first copy all presets to the desired new location, and then click Options > Change Preset Folder in the preset menu and select the new folder. Restoring factory presets If you have accidentally lost the factory presets, you can easily restore them by clicking Options > Restore Factory Presets in the preset menu. This will install all factory presets again.",
+    "contextZh": "要更改此位置，首先将所有预设复制到所需的新位置，然后在预设菜单中点击「选项 > 更改预设文件夹」并选择新文件夹。恢复出厂预设：如果您不小心丢失了出厂预设，可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们。这将重新安装所有出厂预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1043
+  },
+  {
+    "word": "Restoring factory presets",
+    "ipa": "",
+    "translit": "",
+    "zh": "恢复出厂预设",
+    "def": "指将软件自带的原始预设重新安装或还原的操作。",
+    "example": "例子：当你误删了出厂预设后，可以通过此功能找回。",
+    "context": "To change this location, first copy all presets to the desired new location, and then click Options > Change Preset Folder in the preset menu and select the new folder. Restoring factory presets If you have accidentally lost the factory presets, you can easily restore them by clicking Options > Restore Factory Presets in the preset menu. This will install all factory presets again.",
+    "contextZh": "要更改此位置，首先将所有预设复制到所需的新位置，然后在预设菜单中点击「选项 > 更改预设文件夹」并选择新文件夹。恢复出厂预设：如果您不小心丢失了出厂预设，可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们。这将重新安装所有出厂预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1044
+  },
+  {
+    "word": "If you have accidentally lost the factory presets",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果您不小心丢失了出厂预设",
+    "def": "描述一种常见情况：用户因误操作导致自带预设文件被删除或损坏。",
+    "example": "例子：清理磁盘时误删了预设文件夹，导致出厂预设消失。",
+    "context": "To change this location, first copy all presets to the desired new location, and then click Options > Change Preset Folder in the preset menu and select the new folder. Restoring factory presets If you have accidentally lost the factory presets, you can easily restore them by clicking Options > Restore Factory Presets in the preset menu. This will install all factory presets again.",
+    "contextZh": "要更改此位置，首先将所有预设复制到所需的新位置，然后在预设菜单中点击「选项 > 更改预设文件夹」并选择新文件夹。恢复出厂预设：如果您不小心丢失了出厂预设，可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们。这将重新安装所有出厂预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1045
+  },
+  {
+    "word": "you can easily restore them by clicking Options > Restore Factory Presets in the preset menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "您可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们",
+    "def": "说明恢复出厂预设的具体操作路径。",
+    "example": "例子：打开预设菜单，依次点击 Options 和 Restore Factory Presets。",
+    "context": "To change this location, first copy all presets to the desired new location, and then click Options > Change Preset Folder in the preset menu and select the new folder. Restoring factory presets If you have accidentally lost the factory presets, you can easily restore them by clicking Options > Restore Factory Presets in the preset menu. This will install all factory presets again.",
+    "contextZh": "要更改此位置，首先将所有预设复制到所需的新位置，然后在预设菜单中点击「选项 > 更改预设文件夹」并选择新文件夹。恢复出厂预设：如果您不小心丢失了出厂预设，可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们。这将重新安装所有出厂预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1046
+  },
+  {
+    "word": "This will install all factory presets again",
+    "ipa": "",
+    "translit": "",
+    "zh": "这将重新安装所有出厂预设",
+    "def": "说明执行上述操作后的结果：所有原始预设会被重新写入。",
+    "example": "例子：点击后软件会自动把全部出厂预设恢复到默认文件夹中。",
+    "context": "To change this location, first copy all presets to the desired new location, and then click Options > Change Preset Folder in the preset menu and select the new folder. Restoring factory presets If you have accidentally lost the factory presets, you can easily restore them by clicking Options > Restore Factory Presets in the preset menu. This will install all factory presets again.",
+    "contextZh": "要更改此位置，首先将所有预设复制到所需的新位置，然后在预设菜单中点击「选项 > 更改预设文件夹」并选择新文件夹。恢复出厂预设：如果您不小心丢失了出厂预设，可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们。这将重新安装所有出厂预设。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1047
+  },
+  {
+    "word": "Purchasing FabFilter Pro C",
+    "ipa": "",
+    "translit": "",
+    "zh": "购买 FabFilter Pro C",
+    "def": "指购买 FabFilter Pro C 这款压缩器插件的正式授权。",
+    "example": "例子：用户在评估期结束后，通过官方商店购买该插件。",
+    "context": "Next: Purchasing FabFilter Pro C See Also Saving presets Using FabFilter Pro C Purchasing FabFilter Pro-C Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days. Every time you start the plug-in, you will see the following dialog: While there are still days left, you can click Evaluate to start working with the plugin. If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+    "contextZh": "购买 FabFilter Pro C 另请参阅 保存预设 使用 FabFilter Pro C 购买 FabFilter Pro-C 下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。每次启动该插件时，您都会看到以下对话框：在仍有剩余天数时，您可以点击「评估」开始使用该插件。如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1048
+  },
+  {
+    "word": "Using FabFilter Pro C",
+    "ipa": "",
+    "translit": "",
+    "zh": "使用 FabFilter Pro C",
+    "def": "指介绍如何操作和应用 FabFilter Pro C 插件的章节。",
+    "example": "例子：手册中该章节讲解插件的各项功能与操作方法。",
+    "context": "Next: Purchasing FabFilter Pro C See Also Saving presets Using FabFilter Pro C Purchasing FabFilter Pro-C Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days. Every time you start the plug-in, you will see the following dialog: While there are still days left, you can click Evaluate to start working with the plugin. If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+    "contextZh": "购买 FabFilter Pro C 另请参阅 保存预设 使用 FabFilter Pro C 购买 FabFilter Pro-C 下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。每次启动该插件时，您都会看到以下对话框：在仍有剩余天数时，您可以点击「评估」开始使用该插件。如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1049
+  },
+  {
+    "word": "Purchasing FabFilter Pro-C",
+    "ipa": "",
+    "translit": "",
+    "zh": "购买 FabFilter Pro-C",
+    "def": "指购买 FabFilter Pro-C 插件的正式版本。",
+    "example": "例子：用户在试用后决定购买，以获得长期使用权限。",
+    "context": "Next: Purchasing FabFilter Pro C See Also Saving presets Using FabFilter Pro C Purchasing FabFilter Pro-C Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days. Every time you start the plug-in, you will see the following dialog: While there are still days left, you can click Evaluate to start working with the plugin. If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+    "contextZh": "购买 FabFilter Pro C 另请参阅 保存预设 使用 FabFilter Pro C 购买 FabFilter Pro-C 下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。每次启动该插件时，您都会看到以下对话框：在仍有剩余天数时，您可以点击「评估」开始使用该插件。如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1050
+  },
+  {
+    "word": "Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days.",
+    "ipa": "",
+    "translit": "",
+    "zh": "下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。",
+    "def": "说明评估版的使用期限为 30 天。",
+    "example": "例子：用户安装评估版后，可在 30 天内免费试用。",
+    "context": "Next: Purchasing FabFilter Pro C See Also Saving presets Using FabFilter Pro C Purchasing FabFilter Pro-C Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days. Every time you start the plug-in, you will see the following dialog: While there are still days left, you can click Evaluate to start working with the plugin. If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+    "contextZh": "购买 FabFilter Pro C 另请参阅 保存预设 使用 FabFilter Pro C 购买 FabFilter Pro-C 下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。每次启动该插件时，您都会看到以下对话框：在仍有剩余天数时，您可以点击「评估」开始使用该插件。如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1051
+  },
+  {
+    "word": "Every time you start the plug-in, you will see the following dialog:",
+    "ipa": "",
+    "translit": "",
+    "zh": "每次启动该插件时，您都会看到以下对话框：",
+    "def": "说明每次启动插件都会弹出评估对话框。",
+    "example": "例子：用户打开插件时，评估对话框随即出现。",
+    "context": "Next: Purchasing FabFilter Pro C See Also Saving presets Using FabFilter Pro C Purchasing FabFilter Pro-C Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days. Every time you start the plug-in, you will see the following dialog: While there are still days left, you can click Evaluate to start working with the plugin. If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+    "contextZh": "购买 FabFilter Pro C 另请参阅 保存预设 使用 FabFilter Pro C 购买 FabFilter Pro-C 下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。每次启动该插件时，您都会看到以下对话框：在仍有剩余天数时，您可以点击「评估」开始使用该插件。如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1052
+  },
+  {
+    "word": "While there are still days left, you can click Evaluate to start working with the plugin.",
+    "ipa": "",
+    "translit": "",
+    "zh": "在仍有剩余天数时，您可以点击「评估」开始使用该插件。",
+    "def": "说明在评估期内点击评估按钮即可继续使用。",
+    "example": "例子：用户点击 Evaluate 按钮后即可正常使用插件。",
+    "context": "Next: Purchasing FabFilter Pro C See Also Saving presets Using FabFilter Pro C Purchasing FabFilter Pro-C Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days. Every time you start the plug-in, you will see the following dialog: While there are still days left, you can click Evaluate to start working with the plugin. If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+    "contextZh": "购买 FabFilter Pro C 另请参阅 保存预设 使用 FabFilter Pro C 购买 FabFilter Pro-C 下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。每次启动该插件时，您都会看到以下对话框：在仍有剩余天数时，您可以点击「评估」开始使用该插件。如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1053
+  },
+  {
+    "word": "If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。",
+    "def": "说明评估期结束后继续使用需购买正式授权。",
+    "example": "例子：用户点击 Buy Now 按钮进入在线商店完成购买。",
+    "context": "Next: Purchasing FabFilter Pro C See Also Saving presets Using FabFilter Pro C Purchasing FabFilter Pro-C Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days. Every time you start the plug-in, you will see the following dialog: While there are still days left, you can click Evaluate to start working with the plugin. If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+    "contextZh": "购买 FabFilter Pro C 另请参阅 保存预设 使用 FabFilter Pro C 购买 FabFilter Pro-C 下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。每次启动该插件时，您都会看到以下对话框：在仍有剩余天数时，您可以点击「评估」开始使用该插件。如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1054
+  },
+  {
+    "word": "preset menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "预设菜单",
+    "def": "软件中用于浏览、选择和管理预设的菜单界面。",
+    "example": "例子：在 FabFilter Pro-C 2 中点击顶部栏的预设名称即可展开预设菜单。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1055
+  },
+  {
+    "word": "automatically reload",
+    "ipa": "",
+    "translit": "",
+    "zh": "自动重新加载",
+    "def": "系统在特定操作后无需用户手动干预，自行刷新内容。",
+    "example": "例子：关闭对话框后，预设菜单会自动重新加载以显示最新的更改。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1056
+  },
+  {
+    "word": "dialog",
+    "ipa": "",
+    "translit": "",
+    "zh": "对话框",
+    "def": "软件中弹出的用于输入信息或确认操作的窗口。",
+    "example": "例子：在插件中点击「Save As」会弹出一个对话框，让用户输入预设名称。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1057
+  },
+  {
+    "word": "share",
+    "ipa": "",
+    "translit": "",
+    "zh": "分享",
+    "def": "将自己创建的内容传递给其他用户使用。",
+    "example": "例子：把自己调好的压缩器预设文件发给朋友，朋友导入后即可使用。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1058
+  },
+  {
+    "word": "file format",
+    "ipa": "",
+    "translit": "",
+    "zh": "文件格式",
+    "def": "计算机存储数据时采用的结构规范，决定文件能否被特定软件识别。",
+    "example": "例子：FabFilter 预设使用同一种文件格式，因此在 Windows 和 macOS 之间可以互相通用。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1059
+  },
+  {
+    "word": "macOS",
+    "ipa": "",
+    "translit": "",
+    "zh": "macOS 操作系统",
+    "def": "苹果公司开发的桌面操作系统，运行于 Mac 电脑。",
+    "example": "例子：在 macOS 上，主预设文件夹的默认路径为「~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2」。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1060
+  },
+  {
+    "word": "default location",
+    "ipa": "",
+    "translit": "",
+    "zh": "默认位置",
+    "def": "软件在未指定其他路径时自动使用的存储目录。",
+    "example": "例子：如果不手动更改，FabFilter 预设会保存在默认位置中。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1061
+  },
+  {
+    "word": "main preset folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "主预设文件夹",
+    "def": "存放所有预设文件的根目录，软件启动时从此处读取预设列表。",
+    "example": "例子：Windows 下主预设文件夹位于「My Documents\\FabFilter\\Pro-C 2」。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1062
+  },
+  {
+    "word": "My Documents",
+    "ipa": "",
+    "translit": "",
+    "zh": "我的文档",
+    "def": "Windows 系统中用于存放用户个人文件的默认文件夹。",
+    "example": "例子：路径「My Documents\\FabFilter\\Pro-C 2」表示在「我的文档」下找到 FabFilter 的 Pro-C 2 预设目录。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1063
+  },
+  {
+    "word": "~",
+    "ipa": "Library",
+    "translit": "Audio/Presets",
+    "zh": "用户资源库中的音频预设目录",
+    "def": "macOS 系统中存放音频插件预设的标准路径。",
+    "example": "例子：在 Finder 中按「前往文件夹」并输入「~/Library/Audio/Presets」即可到达该目录。",
+    "context": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "contextZh": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1064
+  },
+  {
+    "word": "FabFilter Shop",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 商店",
+    "def": "FabFilter 官方在线销售平台，用于购买其音频插件产品。",
+    "example": "例子：用户可在 FabFilter Shop 中选购 Pro-C 2 等插件。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1065
+  },
+  {
+    "word": "credit cards",
+    "ipa": "",
+    "translit": "",
+    "zh": "信用卡",
+    "def": "一种基于银行授信的支付方式，可在线完成交易。",
+    "example": "例子：使用 Visa 或 Mastercard 信用卡付款。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1066
+  },
+  {
+    "word": "check payments",
+    "ipa": "",
+    "translit": "",
+    "zh": "支票付款",
+    "def": "通过银行支票进行支付的方式。",
+    "example": "例子：客户邮寄支票完成付款。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1067
+  },
+  {
+    "word": "wire payments",
+    "ipa": "",
+    "translit": "",
+    "zh": "电汇付款",
+    "def": "通过银行电子转账系统进行的付款方式。",
+    "example": "例子：通过银行电汇将款项转入商家账户。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1068
+  },
+  {
+    "word": "PayPal",
+    "ipa": "",
+    "translit": "",
+    "zh": "PayPal",
+    "def": "一种国际通用的在线支付平台。",
+    "example": "例子：结账时选择 PayPal 完成支付。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1069
+  },
+  {
+    "word": "secure connections",
+    "ipa": "",
+    "translit": "",
+    "zh": "安全连接",
+    "def": "使用加密协议保护数据传输的网络连接方式。",
+    "example": "例子：网站通过 HTTPS 提供安全连接。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1070
+  },
+  {
+    "word": "encryption",
+    "ipa": "",
+    "translit": "",
+    "zh": "加密",
+    "def": "将数据转换为密文以防止未授权访问的技术。",
+    "example": "例子：支付信息在传输过程中经过加密处理。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1071
+  },
+  {
+    "word": "personal information",
+    "ipa": "",
+    "translit": "",
+    "zh": "个人信息",
+    "def": "与个人身份相关的数据，如姓名、地址、支付信息等。",
+    "example": "例子：商家承诺不泄露用户的个人信息。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1072
+  },
+  {
+    "word": "license key",
+    "ipa": "",
+    "translit": "",
+    "zh": "许可证密钥",
+    "def": "用于激活软件正式版本的一串唯一代码。",
+    "example": "例子：购买后通过邮件收到许可证密钥。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1073
+  },
+  {
+    "word": "evaluation copy",
+    "ipa": "",
+    "translit": "",
+    "zh": "评估版",
+    "def": "功能受限、用于试用目的的软件版本。",
+    "example": "例子：评估版通常有使用期限或功能限制。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1074
+  },
+  {
+    "word": "fully registered version",
+    "ipa": "",
+    "translit": "",
+    "zh": "完整注册版",
+    "def": "已通过许可证密钥激活、无试用限制的正式版本。",
+    "example": "例子：输入密钥后软件变为完整注册版。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1075
+  },
+  {
+    "word": "evaluation dialog",
+    "ipa": "",
+    "translit": "",
+    "zh": "评估提示对话框",
+    "def": "评估版软件中反复弹出的提醒购买或注册的窗口。",
+    "example": "例子：注册后不再出现评估提示对话框。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1076
+  },
+  {
+    "word": "30-day trial restriction",
+    "ipa": "",
+    "translit": "",
+    "zh": "30 天试用限制",
+    "def": "评估版软件在 30 天后失效或功能受限的规定。",
+    "example": "例子：超过 30 天试用限制后需购买许可证。",
+    "context": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "contextZh": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1077
+  },
+  {
+    "word": "evaluation period",
+    "ipa": "",
+    "translit": "",
+    "zh": "评估期",
+    "def": "指软件允许用户免费试用的时间段，在此期间可以使用插件的全部功能。",
+    "example": "例子：FabFilter 插件通常提供 30 天的评估期。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1078
+  },
+  {
+    "word": "request",
+    "ipa": "",
+    "translit": "",
+    "zh": "申请 / 请求",
+    "def": "指向对方提出要求，希望获得某种许可或资源。",
+    "example": "例子：你可以发邮件申请新的评估期。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1079
+  },
+  {
+    "word": "contacting",
+    "ipa": "",
+    "translit": "",
+    "zh": "联系",
+    "def": "指通过邮件、电话等方式与某人或某机构取得沟通。",
+    "example": "例子：请联系 info@fabfilter.com 获取帮助。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1080
+  },
+  {
+    "word": "Entering your license key",
+    "ipa": "",
+    "translit": "",
+    "zh": "输入你的许可证密钥",
+    "def": "指在软件界面中填入许可证密钥以完成激活的操作步骤。",
+    "example": "例子：安装插件后，打开界面输入许可证密钥即可解锁完整版。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1081
+  },
+  {
+    "word": "License agreement",
+    "ipa": "",
+    "translit": "",
+    "zh": "许可协议",
+    "def": "规定软件使用条款和条件的法律文件，用户需同意后才能使用软件。",
+    "example": "例子：安装软件时通常需要先阅读并接受许可协议。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1082
+  },
+  {
+    "word": "purchased",
+    "ipa": "",
+    "translit": "",
+    "zh": "购买",
+    "def": "指通过支付费用获得软件的合法使用权。",
+    "example": "例子：在 FabFilter 在线商店购买 Pro-C 2。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1083
+  },
+  {
+    "word": "online FabFilter Shop",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 在线商店",
+    "def": "FabFilter 官方运营的网络销售平台，用户可在此购买其软件产品。",
+    "example": "例子：在 FabFilter 在线商店完成购买后即可获得许可证密钥。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1084
+  },
+  {
+    "word": "immediately",
+    "ipa": "",
+    "translit": "",
+    "zh": "立即 / 马上",
+    "def": "表示某动作在极短时间内发生，没有延迟。",
+    "example": "例子：购买完成后会立即收到包含许可证密钥的邮件。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1085
+  },
+  {
+    "word": "personal license key",
+    "ipa": "",
+    "translit": "",
+    "zh": "个人许可证密钥",
+    "def": "专属于某位用户的许可证密钥，不可转让给他人使用。",
+    "example": "例子：邮件中会包含你的个人许可证密钥。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1086
+  },
+  {
+    "word": "evaluation version",
+    "ipa": "",
+    "translit": "",
+    "zh": "评估版",
+    "def": "功能完整但有时间限制的软件版本，用于让用户试用后再决定是否购买。",
+    "example": "例子：输入许可证密钥后，评估版会变成完整注册版。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1087
+  },
+  {
+    "word": "fully registered",
+    "ipa": "",
+    "translit": "",
+    "zh": "完全注册的",
+    "def": "指软件已通过许可证密钥激活，不再受试用限制。",
+    "example": "例子：激活后插件变为完全注册版本，可无限期使用。",
+    "context": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "contextZh": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1088
+  },
+  {
+    "word": "temporarily",
+    "ipa": "ˈtɛmpərɛrəli",
+    "translit": "",
+    "zh": "暂时地",
+    "def": "表示某种行为或状态只在有限时间内发生，不是永久的。",
+    "example": "例子：你暂时需要在另一台电脑上安装许可证。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1089
+  },
+  {
+    "word": "install",
+    "ipa": "ɪnˈstɔːl",
+    "translit": "",
+    "zh": "安装",
+    "def": "将软件或许可证配置到计算机上，使其可以运行或生效。",
+    "example": "例子：在另一台电脑上安装你的许可证。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1090
+  },
+  {
+    "word": "license",
+    "ipa": "ˈlaɪsəns",
+    "translit": "",
+    "zh": "许可证",
+    "def": "授权用户合法使用软件的凭证或密钥。",
+    "example": "例子：你的个人许可证密钥。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1091
+  },
+  {
+    "word": "transferred",
+    "ipa": "",
+    "translit": "",
+    "zh": "转移",
+    "def": "将某物从一个人或一个地方移到另一个人或另一个地方。",
+    "example": "例子：你已经将许可证转移给了别人。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1092
+  },
+  {
+    "word": "deinstall",
+    "ipa": "ˌdiːɪnˈstɔːl",
+    "translit": "",
+    "zh": "卸载 / 移除安装",
+    "def": "将已安装的软件或许可证从计算机中安全地移除。",
+    "example": "例子：安全地卸载你的个人许可证密钥。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1093
+  },
+  {
+    "word": "personal",
+    "ipa": "ˈpɜːrsənəl",
+    "translit": "",
+    "zh": "个人的",
+    "def": "属于特定个人而非公共或共享的。",
+    "example": "例子：你的个人许可证密钥。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1094
+  },
+  {
+    "word": "safely",
+    "ipa": "ˈseɪfli",
+    "translit": "",
+    "zh": "安全地",
+    "def": "以不会造成损害或问题的方式进行。",
+    "example": "例子：安全地卸载你的个人许可证密钥。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1095
+  },
+  {
+    "word": "Purchasing",
+    "ipa": "",
+    "translit": "",
+    "zh": "购买",
+    "def": "获取软件许可证或产品的行为。",
+    "example": "例子：购买 FabFilter Pro-C。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1096
+  },
+  {
+    "word": "help file",
+    "ipa": "",
+    "translit": "",
+    "zh": "帮助文件",
+    "def": "软件自带的文档，用于解答常见问题和提供操作指导。",
+    "example": "例子：如果帮助文件没有提供答案。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1097
+  },
+  {
+    "word": "support pages",
+    "ipa": "",
+    "translit": "",
+    "zh": "支持页面",
+    "def": "网站上专门提供技术支持和问题解答的网页。",
+    "example": "例子：请访问我们网站上的支持页面。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1098
+  },
+  {
+    "word": "web site",
+    "ipa": "",
+    "translit": "",
+    "zh": "网站",
+    "def": "在互联网上由一组相关网页组成的集合。",
+    "example": "例子：请访问我们网站上的支持页面。",
+    "context": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "contextZh": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1099
+  },
+  {
+    "word": "Go to FabFilter Support",
+    "ipa": "",
+    "translit": "",
+    "zh": "前往 FabFilter 支持页面",
+    "def": "引导用户进入 FabFilter 的官方支持页面。",
+    "example": "例子：在软件界面中点击该链接即可跳转到支持页面。",
+    "context": "Go to FabFilter Support From here, you have direct access to the customer support forum, very useful tutorial videos for all FabFilter plug-ins, online and PDF versions of all our help files, and a section with extra downloads (such as presets, controller templates, older plug-in versions). For sales-related questions and technical support, you can also contact FabFilter directly at info@fabfilter.com.",
+    "contextZh": "前往 FabFilter 支持页面。从这里，你可以直接访问客户支持论坛、适用于所有 FabFilter 插件的实用教程视频、我们所有帮助文件的在线版和 PDF 版，以及一个额外下载专区（如预设、控制器模板、旧版插件）。如需销售相关问题和技术支持，你也可以直接通过 info@fabfilter.com 联系 FabFilter。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1100
+  },
+  {
+    "word": "From here, you have direct access to the customer support forum",
+    "ipa": "",
+    "translit": "",
+    "zh": "从这里，你可以直接访问客户支持论坛",
+    "def": "说明在该页面可以直接进入用户支持论坛。",
+    "example": "例子：点击论坛链接即可查看其他用户的问题与解答。",
+    "context": "Go to FabFilter Support From here, you have direct access to the customer support forum, very useful tutorial videos for all FabFilter plug-ins, online and PDF versions of all our help files, and a section with extra downloads (such as presets, controller templates, older plug-in versions). For sales-related questions and technical support, you can also contact FabFilter directly at info@fabfilter.com.",
+    "contextZh": "前往 FabFilter 支持页面。从这里，你可以直接访问客户支持论坛、适用于所有 FabFilter 插件的实用教程视频、我们所有帮助文件的在线版和 PDF 版，以及一个额外下载专区（如预设、控制器模板、旧版插件）。如需销售相关问题和技术支持，你也可以直接通过 info@fabfilter.com 联系 FabFilter。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1101
+  },
+  {
+    "word": "very useful tutorial videos for all FabFilter plug-ins",
+    "ipa": "",
+    "translit": "",
+    "zh": "适用于所有 FabFilter 插件的实用教程视频",
+    "def": "提供针对 FabFilter 全部插件的教学视频资源。",
+    "example": "例子：观看教程视频学习如何使用 Pro-Q 3 进行均衡处理。",
+    "context": "Go to FabFilter Support From here, you have direct access to the customer support forum, very useful tutorial videos for all FabFilter plug-ins, online and PDF versions of all our help files, and a section with extra downloads (such as presets, controller templates, older plug-in versions). For sales-related questions and technical support, you can also contact FabFilter directly at info@fabfilter.com.",
+    "contextZh": "前往 FabFilter 支持页面。从这里，你可以直接访问客户支持论坛、适用于所有 FabFilter 插件的实用教程视频、我们所有帮助文件的在线版和 PDF 版，以及一个额外下载专区（如预设、控制器模板、旧版插件）。如需销售相关问题和技术支持，你也可以直接通过 info@fabfilter.com 联系 FabFilter。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1102
+  },
+  {
+    "word": "online and PDF versions of all our help files",
+    "ipa": "",
+    "translit": "",
+    "zh": "我们所有帮助文件的在线版和 PDF 版",
+    "def": "提供全部帮助文档的网页版和可下载的 PDF 版本。",
+    "example": "例子：下载 PDF 版帮助文件以便离线查阅。",
+    "context": "Go to FabFilter Support From here, you have direct access to the customer support forum, very useful tutorial videos for all FabFilter plug-ins, online and PDF versions of all our help files, and a section with extra downloads (such as presets, controller templates, older plug-in versions). For sales-related questions and technical support, you can also contact FabFilter directly at info@fabfilter.com.",
+    "contextZh": "前往 FabFilter 支持页面。从这里，你可以直接访问客户支持论坛、适用于所有 FabFilter 插件的实用教程视频、我们所有帮助文件的在线版和 PDF 版，以及一个额外下载专区（如预设、控制器模板、旧版插件）。如需销售相关问题和技术支持，你也可以直接通过 info@fabfilter.com 联系 FabFilter。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1103
+  },
+  {
+    "word": "and a section with extra downloads (such as presets, controller templates, older plug-in versions)",
+    "ipa": "",
+    "translit": "",
+    "zh": "以及额外下载专区（如预设、控制器模板、旧版插件）",
+    "def": "该专区提供预设、控制器模板和历史版本插件等附加资源。",
+    "example": "例子：从额外下载专区获取适用于特定控制器的映射模板。",
+    "context": "Go to FabFilter Support From here, you have direct access to the customer support forum, very useful tutorial videos for all FabFilter plug-ins, online and PDF versions of all our help files, and a section with extra downloads (such as presets, controller templates, older plug-in versions). For sales-related questions and technical support, you can also contact FabFilter directly at info@fabfilter.com.",
+    "contextZh": "前往 FabFilter 支持页面。从这里，你可以直接访问客户支持论坛、适用于所有 FabFilter 插件的实用教程视频、我们所有帮助文件的在线版和 PDF 版，以及一个额外下载专区（如预设、控制器模板、旧版插件）。如需销售相关问题和技术支持，你也可以直接通过 info@fabfilter.com 联系 FabFilter。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1104
+  },
+  {
+    "word": "For sales-related questions and technical support",
+    "ipa": "",
+    "translit": "",
+    "zh": "如需销售相关问题和技术支持",
+    "def": "引出联系官方进行销售咨询和技术支持的途径。",
+    "example": "例子：购买前对授权方式有疑问时可通过此途径咨询。",
+    "context": "Go to FabFilter Support From here, you have direct access to the customer support forum, very useful tutorial videos for all FabFilter plug-ins, online and PDF versions of all our help files, and a section with extra downloads (such as presets, controller templates, older plug-in versions). For sales-related questions and technical support, you can also contact FabFilter directly at info@fabfilter.com.",
+    "contextZh": "前往 FabFilter 支持页面。从这里，你可以直接访问客户支持论坛、适用于所有 FabFilter 插件的实用教程视频、我们所有帮助文件的在线版和 PDF 版，以及一个额外下载专区（如预设、控制器模板、旧版插件）。如需销售相关问题和技术支持，你也可以直接通过 info@fabfilter.com 联系 FabFilter。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1105
+  },
+  {
+    "word": "you can also contact FabFilter directly at info@fabfilter.com",
+    "ipa": "",
+    "translit": "",
+    "zh": "你也可以直接通过 info@fabfilter.com 联系 FabFilter",
+    "def": "提供官方联系邮箱，方便用户直接沟通。",
+    "example": "例子：发送邮件至 info@fabfilter.com 咨询插件兼容性问题。",
+    "context": "Go to FabFilter Support From here, you have direct access to the customer support forum, very useful tutorial videos for all FabFilter plug-ins, online and PDF versions of all our help files, and a section with extra downloads (such as presets, controller templates, older plug-in versions). For sales-related questions and technical support, you can also contact FabFilter directly at info@fabfilter.com.",
+    "contextZh": "前往 FabFilter 支持页面。从这里，你可以直接访问客户支持论坛、适用于所有 FabFilter 插件的实用教程视频、我们所有帮助文件的在线版和 PDF 版，以及一个额外下载专区（如预设、控制器模板、旧版插件）。如需销售相关问题和技术支持，你也可以直接通过 info@fabfilter.com 联系 FabFilter。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1106
+  },
+  {
+    "word": "Start FabFilter Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "启动 FabFilter Pro-C 2",
+    "def": "打开 FabFilter Pro-C 2 这款插件程序。",
+    "example": "例子：在数字音频工作站中加载并打开 FabFilter Pro-C 2 插件。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1107
+  },
+  {
+    "word": "click Enter License in the evaluation dialog",
+    "ipa": "",
+    "translit": "",
+    "zh": "在评估对话框中点击“输入许可证”",
+    "def": "在插件试用版弹出的评估对话框里，点击“输入许可证”按钮。",
+    "example": "例子：首次打开未授权的插件时，会弹出评估对话框，点击其中的“输入许可证”选项。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1108
+  },
+  {
+    "word": "or click Enter License on the Help menu if the plug-in is already running",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果插件已在运行，则点击“帮助”菜单中的“输入许可证”",
+    "def": "如果插件已经处于运行状态，则改为在“帮助”菜单里点击“输入许可证”。",
+    "example": "例子：插件已打开时，从顶部菜单栏的“帮助”下拉菜单中选择“输入许可证”。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1109
+  },
+  {
+    "word": "Copy the license information from the email you have received",
+    "ipa": "",
+    "translit": "",
+    "zh": "从您收到的电子邮件中复制许可证信息",
+    "def": "将购买后收到的邮件里的许可证信息复制下来。",
+    "example": "例子：打开厂商发送的授权邮件，选中其中的许可证内容并复制。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1110
+  },
+  {
+    "word": "and paste it into the text field",
+    "ipa": "",
+    "translit": "",
+    "zh": "并将其粘贴到文本框中",
+    "def": "把复制好的许可证信息粘贴到插件界面提供的文本框内。",
+    "example": "例子：在插件的许可证输入框中按 Ctrl+V 粘贴内容。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1111
+  },
+  {
+    "word": "Make sure that you are copying the entire license key including the Product and Licensee lines!",
+    "ipa": "",
+    "translit": "",
+    "zh": "请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！",
+    "def": "提醒用户必须复制全部许可证密钥内容，不能遗漏“产品”和“被许可人”这两行信息。",
+    "example": "例子：许可证密钥通常包含产品名称行和被许可人姓名行，两行都要一并复制。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1112
+  },
+  {
+    "word": "If you are not sure what text to copy, just copy and paste the whole e-mail.",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。",
+    "def": "当用户无法确定需要复制哪部分内容时，可以把整封邮件全部复制粘贴进去。",
+    "example": "例子：将授权邮件的全部正文内容选中复制，然后粘贴到文本框中。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1113
+  },
+  {
+    "word": "After you have entered your license information",
+    "ipa": "",
+    "translit": "",
+    "zh": "输入许可证信息之后",
+    "def": "在完成许可证信息的填写之后。",
+    "example": "例子：粘贴完许可证密钥并确认无误后，进入下一步操作。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1114
+  },
+  {
+    "word": "you will need to restart the plug-in host",
+    "ipa": "",
+    "translit": "",
+    "zh": "您需要重启插件宿主程序",
+    "def": "必须重新启动承载该插件的宿主软件，使授权生效。",
+    "example": "例子：关闭并重新打开数字音频工作站等宿主程序。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1115
+  },
+  {
+    "word": "so make sure you save your settings if needed",
+    "ipa": "",
+    "translit": "",
+    "zh": "因此如有需要，请务必先保存您的设置",
+    "def": "在重启宿主程序之前，如果有未保存的设置，请先保存以免丢失。",
+    "example": "例子：重启前先保存当前工程文件，避免未保存的调整丢失。",
+    "context": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "contextZh": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1116
+  },
+  {
+    "word": "unlimited period of time",
+    "ipa": "",
+    "translit": "",
+    "zh": "无限期",
+    "def": "表示没有时间限制，可以永久使用。",
+    "example": "例子：购买后，你可以无限期使用该软件。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1117
+  },
+  {
+    "word": "full support via email",
+    "ipa": "",
+    "translit": "",
+    "zh": "通过电子邮件提供全面支持",
+    "def": "指通过邮件方式获得完整的技术支持和客户服务。",
+    "example": "例子：如果遇到问题，可以通过电子邮件获得全面支持。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1118
+  },
+  {
+    "word": "purchase",
+    "ipa": "",
+    "translit": "",
+    "zh": "购买",
+    "def": "指完成交易获得产品或服务的行为。",
+    "example": "例子：购买后，你会收到许可证密钥。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1119
+  },
+  {
+    "word": "retrieve",
+    "ipa": "",
+    "translit": "",
+    "zh": "找回 / 获取",
+    "def": "指重新获得或取回某物。",
+    "example": "例子：你可以登录账户找回许可证密钥。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1120
+  },
+  {
+    "word": "logging into",
+    "ipa": "",
+    "translit": "",
+    "zh": "登录",
+    "def": "指输入用户名和密码进入系统或账户。",
+    "example": "例子：通过登录你的个人账户来管理订单。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1121
+  },
+  {
+    "word": "personal FabFilter account",
+    "ipa": "",
+    "translit": "",
+    "zh": "个人 FabFilter 账户",
+    "def": "用户在 FabFilter 官网注册的专属账户，用于管理购买和许可证。",
+    "example": "例子：登录个人 FabFilter 账户查看订单历史。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1122
+  },
+  {
+    "word": "keep track of",
+    "ipa": "",
+    "translit": "",
+    "zh": "跟踪 / 管理",
+    "def": "指持续关注或记录某事物的状态或进展。",
+    "example": "例子：你可以跟踪所有订单的状态。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1123
+  },
+  {
+    "word": "orders",
+    "ipa": "",
+    "translit": "",
+    "zh": "订单",
+    "def": "指购买产品或服务的交易记录。",
+    "example": "例子：在账户中查看你的所有订单。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1124
+  },
+  {
+    "word": "take advantage of",
+    "ipa": "",
+    "translit": "",
+    "zh": "利用",
+    "def": "指使用或受益于某个机会或优惠。",
+    "example": "例子：利用折扣购买其他插件。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1125
+  },
+  {
+    "word": "discounts",
+    "ipa": "",
+    "translit": "",
+    "zh": "折扣",
+    "def": "指价格上的减免优惠。",
+    "example": "例子：购买其他 FabFilter 插件时可享受大幅折扣。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1126
+  },
+  {
+    "word": "FabFilter plug-ins",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 插件",
+    "def": "FabFilter 公司开发的各种音频处理软件插件。",
+    "example": "例子：FabFilter 插件包括均衡器、压缩器等。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1127
+  },
+  {
+    "word": "deauthorize",
+    "ipa": "",
+    "translit": "",
+    "zh": "取消授权",
+    "def": "指撤销软件在某台计算机上的激活状态。",
+    "example": "例子：在帮助菜单中选择取消授权以移除许可证。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1128
+  },
+  {
+    "word": "remove",
+    "ipa": "",
+    "translit": "",
+    "zh": "移除",
+    "def": "指将某物从当前位置删除或移走。",
+    "example": "例子：从计算机中移除许可证密钥。",
+    "context": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "contextZh": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1129
+  },
+  {
+    "word": "Reporting a bug",
+    "ipa": "",
+    "translit": "",
+    "zh": "报告错误",
+    "def": "指向软件开发者反馈程序中出现的问题或异常行为。",
+    "example": "例子：用户在使用插件时发现崩溃，向官方提交错误报告。",
+    "context": "Reporting a bug If you have encountered a bug in FabFilter Pro-C 2, first of all make sure that you are using the latest version of the plug-in, which you can find at www.fabfilter.com/download . You can easily check the version of FabFilter Pro-C 2 that you are using by clicking Help > About in the plug-in interface.",
+    "contextZh": "报告错误。如果您在 FabFilter Pro-C 2 中遇到了错误，首先请确认您使用的是该插件的最新版本，您可以在 www.fabfilter.com/download 找到它。您可以通过在插件界面中点击 Help > About 来轻松查看您正在使用的 FabFilter Pro-C 2 版本。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1130
+  },
+  {
+    "word": "If you have encountered a bug in FabFilter Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果您在 FabFilter Pro-C 2 中遇到了错误",
+    "def": "这是一个条件句，用于引导用户在遇到特定软件问题时该如何处理。",
+    "example": "例子：用户在论坛发帖说遇到了问题，客服回复时引用此句作为开头。",
+    "context": "Reporting a bug If you have encountered a bug in FabFilter Pro-C 2, first of all make sure that you are using the latest version of the plug-in, which you can find at www.fabfilter.com/download . You can easily check the version of FabFilter Pro-C 2 that you are using by clicking Help > About in the plug-in interface.",
+    "contextZh": "报告错误。如果您在 FabFilter Pro-C 2 中遇到了错误，首先请确认您使用的是该插件的最新版本，您可以在 www.fabfilter.com/download 找到它。您可以通过在插件界面中点击 Help > About 来轻松查看您正在使用的 FabFilter Pro-C 2 版本。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1131
+  },
+  {
+    "word": "first of all make sure that you are using the latest version of the plug-in",
+    "ipa": "",
+    "translit": "",
+    "zh": "首先请确认您使用的是该插件的最新版本",
+    "def": "建议用户排查问题的第一步是检查软件版本是否为最新。",
+    "example": "例子：技术支持人员在回复邮件中首先提醒用户更新到最新版再试。",
+    "context": "Reporting a bug If you have encountered a bug in FabFilter Pro-C 2, first of all make sure that you are using the latest version of the plug-in, which you can find at www.fabfilter.com/download . You can easily check the version of FabFilter Pro-C 2 that you are using by clicking Help > About in the plug-in interface.",
+    "contextZh": "报告错误。如果您在 FabFilter Pro-C 2 中遇到了错误，首先请确认您使用的是该插件的最新版本，您可以在 www.fabfilter.com/download 找到它。您可以通过在插件界面中点击 Help > About 来轻松查看您正在使用的 FabFilter Pro-C 2 版本。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1132
+  },
+  {
+    "word": "which you can find at www.fabfilter.com/download",
+    "ipa": "",
+    "translit": "",
+    "zh": "您可以在 www.fabfilter.com/download 找到它",
+    "def": "说明获取最新版本插件的具体网址。",
+    "example": "例子：用户点击该链接即可进入下载页面获取最新安装包。",
+    "context": "Reporting a bug If you have encountered a bug in FabFilter Pro-C 2, first of all make sure that you are using the latest version of the plug-in, which you can find at www.fabfilter.com/download . You can easily check the version of FabFilter Pro-C 2 that you are using by clicking Help > About in the plug-in interface.",
+    "contextZh": "报告错误。如果您在 FabFilter Pro-C 2 中遇到了错误，首先请确认您使用的是该插件的最新版本，您可以在 www.fabfilter.com/download 找到它。您可以通过在插件界面中点击 Help > About 来轻松查看您正在使用的 FabFilter Pro-C 2 版本。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1133
+  },
+  {
+    "word": "You can easily check the version of FabFilter Pro-C 2 that you are using",
+    "ipa": "",
+    "translit": "",
+    "zh": "您可以轻松查看您正在使用的 FabFilter Pro-C 2 版本",
+    "def": "告知用户可以通过某种方式确认当前安装的插件版本号。",
+    "example": "例子：用户想知道自己是否已更新，按此提示操作即可查看。",
+    "context": "Reporting a bug If you have encountered a bug in FabFilter Pro-C 2, first of all make sure that you are using the latest version of the plug-in, which you can find at www.fabfilter.com/download . You can easily check the version of FabFilter Pro-C 2 that you are using by clicking Help > About in the plug-in interface.",
+    "contextZh": "报告错误。如果您在 FabFilter Pro-C 2 中遇到了错误，首先请确认您使用的是该插件的最新版本，您可以在 www.fabfilter.com/download 找到它。您可以通过在插件界面中点击 Help > About 来轻松查看您正在使用的 FabFilter Pro-C 2 版本。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1134
+  },
+  {
+    "word": "by clicking Help > About in the plug-in interface",
+    "ipa": "",
+    "translit": "",
+    "zh": "通过在插件界面中点击 Help > About",
+    "def": "说明查看版本号的具体操作路径。",
+    "example": "例子：打开插件后，依次点击菜单栏的 Help 和 About，即可看到版本信息。",
+    "context": "Reporting a bug If you have encountered a bug in FabFilter Pro-C 2, first of all make sure that you are using the latest version of the plug-in, which you can find at www.fabfilter.com/download . You can easily check the version of FabFilter Pro-C 2 that you are using by clicking Help > About in the plug-in interface.",
+    "contextZh": "报告错误。如果您在 FabFilter Pro-C 2 中遇到了错误，首先请确认您使用的是该插件的最新版本，您可以在 www.fabfilter.com/download 找到它。您可以通过在插件界面中点击 Help > About 来轻松查看您正在使用的 FabFilter Pro-C 2 版本。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1135
+  },
+  {
+    "word": "Replacing a Pro-C 1 instance by Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "用 Pro-C 2 替换 Pro-C 1 实例",
+    "def": "指在工程中将旧版 Pro-C 1 插件替换为新版 Pro-C 2 的操作。",
+    "example": "例子：在混音工程中，把某个音轨上的 Pro-C 1 换成 Pro-C 2。",
+    "context": "Replacing a Pro-C 1 instance by Pro-C 2 If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2, we advise you to do the following: First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder. Then, remove the Pro-C 1 instance and add Pro-C 2 in its place. Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu.",
+    "contextZh": "用 Pro-C 2 替换 Pro-C 1 实例。如果你正在制作一首歌，并想用新的 Pro-C 2 替换某个 Pro-C 1 实例，我们建议你按以下步骤操作：首先，将当前 Pro-C 1 实例的设置保存为 FabFilter 预设，存放在 Pro-C 1 预设文件夹中。然后，移除 Pro-C 1 实例，并在原位置添加 Pro-C 2。最后，通过预设菜单中的 V1 Preset Folder 子菜单，将你刚创建的 V1 预设加载到 Pro-C 2 中。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1136
+  },
+  {
+    "word": "If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果你正在制作一首歌，并想用新的 Pro-C 2 替换某个 Pro-C 1 实例",
+    "def": "说明该操作的使用场景，即已有工程中需要升级插件版本。",
+    "example": "例子：你打开一个旧工程，发现某轨仍在使用 Pro-C 1，想改用 Pro-C 2。",
+    "context": "Replacing a Pro-C 1 instance by Pro-C 2 If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2, we advise you to do the following: First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder. Then, remove the Pro-C 1 instance and add Pro-C 2 in its place. Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu.",
+    "contextZh": "用 Pro-C 2 替换 Pro-C 1 实例。如果你正在制作一首歌，并想用新的 Pro-C 2 替换某个 Pro-C 1 实例，我们建议你按以下步骤操作：首先，将当前 Pro-C 1 实例的设置保存为 FabFilter 预设，存放在 Pro-C 1 预设文件夹中。然后，移除 Pro-C 1 实例，并在原位置添加 Pro-C 2。最后，通过预设菜单中的 V1 Preset Folder 子菜单，将你刚创建的 V1 预设加载到 Pro-C 2 中。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1137
+  },
+  {
+    "word": "we advise you to do the following",
+    "ipa": "",
+    "translit": "",
+    "zh": "我们建议你按以下步骤操作",
+    "def": "引出后续的具体操作说明。",
+    "example": "例子：官方文档中常见的引导语句。",
+    "context": "Replacing a Pro-C 1 instance by Pro-C 2 If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2, we advise you to do the following: First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder. Then, remove the Pro-C 1 instance and add Pro-C 2 in its place. Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu.",
+    "contextZh": "用 Pro-C 2 替换 Pro-C 1 实例。如果你正在制作一首歌，并想用新的 Pro-C 2 替换某个 Pro-C 1 实例，我们建议你按以下步骤操作：首先，将当前 Pro-C 1 实例的设置保存为 FabFilter 预设，存放在 Pro-C 1 预设文件夹中。然后，移除 Pro-C 1 实例，并在原位置添加 Pro-C 2。最后，通过预设菜单中的 V1 Preset Folder 子菜单，将你刚创建的 V1 预设加载到 Pro-C 2 中。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1138
+  },
+  {
+    "word": "First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "首先，将当前 Pro-C 1 实例的设置保存为 FabFilter 预设，存放在 Pro-C 1 预设文件夹中",
+    "def": "第一步是备份旧插件的参数设置，以便后续迁移。",
+    "example": "例子：在 Pro-C 1 界面中点击保存预设，选择 Pro-C 1 预设文件夹。",
+    "context": "Replacing a Pro-C 1 instance by Pro-C 2 If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2, we advise you to do the following: First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder. Then, remove the Pro-C 1 instance and add Pro-C 2 in its place. Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu.",
+    "contextZh": "用 Pro-C 2 替换 Pro-C 1 实例。如果你正在制作一首歌，并想用新的 Pro-C 2 替换某个 Pro-C 1 实例，我们建议你按以下步骤操作：首先，将当前 Pro-C 1 实例的设置保存为 FabFilter 预设，存放在 Pro-C 1 预设文件夹中。然后，移除 Pro-C 1 实例，并在原位置添加 Pro-C 2。最后，通过预设菜单中的 V1 Preset Folder 子菜单，将你刚创建的 V1 预设加载到 Pro-C 2 中。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1139
+  },
+  {
+    "word": "Then, remove the Pro-C 1 instance and add Pro-C 2 in its place",
+    "ipa": "",
+    "translit": "",
+    "zh": "然后，移除 Pro-C 1 实例，并在原位置添加 Pro-C 2",
+    "def": "第二步是替换插件本体，保持音轨位置不变。",
+    "example": "例子：删除音轨上的 Pro-C 1，再插入 Pro-C 2。",
+    "context": "Replacing a Pro-C 1 instance by Pro-C 2 If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2, we advise you to do the following: First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder. Then, remove the Pro-C 1 instance and add Pro-C 2 in its place. Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu.",
+    "contextZh": "用 Pro-C 2 替换 Pro-C 1 实例。如果你正在制作一首歌，并想用新的 Pro-C 2 替换某个 Pro-C 1 实例，我们建议你按以下步骤操作：首先，将当前 Pro-C 1 实例的设置保存为 FabFilter 预设，存放在 Pro-C 1 预设文件夹中。然后，移除 Pro-C 1 实例，并在原位置添加 Pro-C 2。最后，通过预设菜单中的 V1 Preset Folder 子菜单，将你刚创建的 V1 预设加载到 Pro-C 2 中。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1140
+  },
+  {
+    "word": "Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "最后，通过预设菜单中的 V1 Preset Folder 子菜单，将你刚创建的 V1 预设加载到 Pro-C 2 中",
+    "def": "第三步是把之前保存的旧版预设导入到新插件中，完成参数迁移。",
+    "example": "例子：在 Pro-C 2 的预设菜单里选择 V1 Preset Folder，找到刚保存的预设并加载。",
+    "context": "Replacing a Pro-C 1 instance by Pro-C 2 If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2, we advise you to do the following: First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder. Then, remove the Pro-C 1 instance and add Pro-C 2 in its place. Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu.",
+    "contextZh": "用 Pro-C 2 替换 Pro-C 1 实例。如果你正在制作一首歌，并想用新的 Pro-C 2 替换某个 Pro-C 1 实例，我们建议你按以下步骤操作：首先，将当前 Pro-C 1 实例的设置保存为 FabFilter 预设，存放在 Pro-C 1 预设文件夹中。然后，移除 Pro-C 1 实例，并在原位置添加 Pro-C 2。最后，通过预设菜单中的 V1 Preset Folder 子菜单，将你刚创建的 V1 预设加载到 Pro-C 2 中。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1141
+  },
+  {
+    "word": "This ensures that you can open old songs that use Pro-C 1 without problems",
+    "ipa": "",
+    "translit": "",
+    "zh": "这确保你可以毫无问题地打开使用 Pro-C 1 的旧歌曲工程",
+    "def": "说明保留旧版本的目的，是为了兼容旧工程文件。",
+    "example": "例子：你以前用 Pro-C 1 做的歌曲工程，现在依然能正常打开，不会报错。",
+    "context": "Both versions will co-exist and can both be used at the same time. This ensures that you can open old songs that use Pro-C 1 without problems! Pro-C 1 presets Presets created with Pro-C 1 can be loaded in Pro-C 2. If you upgraded from Pro-C 1 to the new version, your original Pro-C 1 presets will be accessible via the V1 Preset Folder item in the preset menu. See also Loading presets. Note: Because we've implemented quite some changes and improvements in Pro-C 2, it's possible that a Pro-C 1 preset loaded into Pro-C 2 sounds different!",
+    "contextZh": "两个版本将共存，并且可以同时使用。这确保你可以毫无问题地打开使用 Pro-C 1 的旧歌曲工程！Pro-C 1 预设——用 Pro-C 1 创建的预设可以加载到 Pro-C 2 中。如果你从 Pro-C 1 升级到了新版本，你原来的 Pro-C 1 预设可以通过预设菜单中的「V1 Preset Folder」项来访问。另请参阅「加载预设」。注意：由于我们在 Pro-C 2 中做了相当多的改动和改进，加载到 Pro-C 2 中的 Pro-C 1 预设听起来可能会有所不同！",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1142
+  },
+  {
+    "word": "Pro-C 1 presets",
+    "ipa": "",
+    "translit": "",
+    "zh": "Pro-C 1 预设",
+    "def": "指在 Pro-C 1 中创建和保存的预设参数配置。",
+    "example": "例子：你在 Pro-C 1 里调好的一组压缩器参数，就是一个 Pro-C 1 预设。",
+    "context": "Both versions will co-exist and can both be used at the same time. This ensures that you can open old songs that use Pro-C 1 without problems! Pro-C 1 presets Presets created with Pro-C 1 can be loaded in Pro-C 2. If you upgraded from Pro-C 1 to the new version, your original Pro-C 1 presets will be accessible via the V1 Preset Folder item in the preset menu. See also Loading presets. Note: Because we've implemented quite some changes and improvements in Pro-C 2, it's possible that a Pro-C 1 preset loaded into Pro-C 2 sounds different!",
+    "contextZh": "两个版本将共存，并且可以同时使用。这确保你可以毫无问题地打开使用 Pro-C 1 的旧歌曲工程！Pro-C 1 预设——用 Pro-C 1 创建的预设可以加载到 Pro-C 2 中。如果你从 Pro-C 1 升级到了新版本，你原来的 Pro-C 1 预设可以通过预设菜单中的「V1 Preset Folder」项来访问。另请参阅「加载预设」。注意：由于我们在 Pro-C 2 中做了相当多的改动和改进，加载到 Pro-C 2 中的 Pro-C 1 预设听起来可能会有所不同！",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1143
+  },
+  {
+    "word": "Presets created with Pro-C 1 can be loaded in Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "用 Pro-C 1 创建的预设可以加载到 Pro-C 2 中",
+    "def": "说明新版本向下兼容旧版本的预设文件。",
+    "example": "例子：你把以前在 Pro-C 1 里保存的预设直接拖进 Pro-C 2 里使用。",
+    "context": "Both versions will co-exist and can both be used at the same time. This ensures that you can open old songs that use Pro-C 1 without problems! Pro-C 1 presets Presets created with Pro-C 1 can be loaded in Pro-C 2. If you upgraded from Pro-C 1 to the new version, your original Pro-C 1 presets will be accessible via the V1 Preset Folder item in the preset menu. See also Loading presets. Note: Because we've implemented quite some changes and improvements in Pro-C 2, it's possible that a Pro-C 1 preset loaded into Pro-C 2 sounds different!",
+    "contextZh": "两个版本将共存，并且可以同时使用。这确保你可以毫无问题地打开使用 Pro-C 1 的旧歌曲工程！Pro-C 1 预设——用 Pro-C 1 创建的预设可以加载到 Pro-C 2 中。如果你从 Pro-C 1 升级到了新版本，你原来的 Pro-C 1 预设可以通过预设菜单中的「V1 Preset Folder」项来访问。另请参阅「加载预设」。注意：由于我们在 Pro-C 2 中做了相当多的改动和改进，加载到 Pro-C 2 中的 Pro-C 1 预设听起来可能会有所不同！",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1144
+  },
+  {
+    "word": "If you upgraded from Pro-C 1 to the new version, your original Pro-C 1 presets will be accessible via the V1 Preset Folder item in the preset menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果你从 Pro-C 1 升级到了新版本，你原来的 Pro-C 1 预设可以通过预设菜单中的「V1 Preset Folder」项来访问",
+    "def": "说明升级后如何找到旧预设，即通过菜单中的特定文件夹入口。",
+    "example": "例子：升级到 Pro-C 2 后，打开预设菜单，点击「V1 Preset Folder」就能看到你之前的 Pro-C 1 预设。",
+    "context": "Both versions will co-exist and can both be used at the same time. This ensures that you can open old songs that use Pro-C 1 without problems! Pro-C 1 presets Presets created with Pro-C 1 can be loaded in Pro-C 2. If you upgraded from Pro-C 1 to the new version, your original Pro-C 1 presets will be accessible via the V1 Preset Folder item in the preset menu. See also Loading presets. Note: Because we've implemented quite some changes and improvements in Pro-C 2, it's possible that a Pro-C 1 preset loaded into Pro-C 2 sounds different!",
+    "contextZh": "两个版本将共存，并且可以同时使用。这确保你可以毫无问题地打开使用 Pro-C 1 的旧歌曲工程！Pro-C 1 预设——用 Pro-C 1 创建的预设可以加载到 Pro-C 2 中。如果你从 Pro-C 1 升级到了新版本，你原来的 Pro-C 1 预设可以通过预设菜单中的「V1 Preset Folder」项来访问。另请参阅「加载预设」。注意：由于我们在 Pro-C 2 中做了相当多的改动和改进，加载到 Pro-C 2 中的 Pro-C 1 预设听起来可能会有所不同！",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1145
+  },
+  {
+    "word": "See also Loading presets",
+    "ipa": "",
+    "translit": "",
+    "zh": "另请参阅「加载预设」",
+    "def": "引导用户查看相关章节以了解更多关于加载预设的操作。",
+    "example": "例子：如果你想了解如何加载预设，请参考手册中的「加载预设」部分。",
+    "context": "Both versions will co-exist and can both be used at the same time. This ensures that you can open old songs that use Pro-C 1 without problems! Pro-C 1 presets Presets created with Pro-C 1 can be loaded in Pro-C 2. If you upgraded from Pro-C 1 to the new version, your original Pro-C 1 presets will be accessible via the V1 Preset Folder item in the preset menu. See also Loading presets. Note: Because we've implemented quite some changes and improvements in Pro-C 2, it's possible that a Pro-C 1 preset loaded into Pro-C 2 sounds different!",
+    "contextZh": "两个版本将共存，并且可以同时使用。这确保你可以毫无问题地打开使用 Pro-C 1 的旧歌曲工程！Pro-C 1 预设——用 Pro-C 1 创建的预设可以加载到 Pro-C 2 中。如果你从 Pro-C 1 升级到了新版本，你原来的 Pro-C 1 预设可以通过预设菜单中的「V1 Preset Folder」项来访问。另请参阅「加载预设」。注意：由于我们在 Pro-C 2 中做了相当多的改动和改进，加载到 Pro-C 2 中的 Pro-C 1 预设听起来可能会有所不同！",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1146
+  },
+  {
+    "word": "Note: Because we've implemented quite some changes and improvements in Pro-C 2, it's possible that a Pro-C 1 preset loaded into Pro-C 2 sounds different!",
+    "ipa": "",
+    "translit": "",
+    "zh": "注意：由于我们在 Pro-C 2 中做了相当多的改动和改进，加载到 Pro-C 2 中的 Pro-C 1 预设听起来可能会有所不同！",
+    "def": "提醒用户新旧版本之间存在差异，旧预设在新版本中可能产生不同的声音效果。",
+    "example": "例子：同一个 Pro-C 1 预设，在 Pro-C 1 里听起来是一种效果，加载到 Pro-C 2 后可能音色会有变化。",
+    "context": "Both versions will co-exist and can both be used at the same time. This ensures that you can open old songs that use Pro-C 1 without problems! Pro-C 1 presets Presets created with Pro-C 1 can be loaded in Pro-C 2. If you upgraded from Pro-C 1 to the new version, your original Pro-C 1 presets will be accessible via the V1 Preset Folder item in the preset menu. See also Loading presets. Note: Because we've implemented quite some changes and improvements in Pro-C 2, it's possible that a Pro-C 1 preset loaded into Pro-C 2 sounds different!",
+    "contextZh": "两个版本将共存，并且可以同时使用。这确保你可以毫无问题地打开使用 Pro-C 1 的旧歌曲工程！Pro-C 1 预设——用 Pro-C 1 创建的预设可以加载到 Pro-C 2 中。如果你从 Pro-C 1 升级到了新版本，你原来的 Pro-C 1 预设可以通过预设菜单中的「V1 Preset Folder」项来访问。另请参阅「加载预设」。注意：由于我们在 Pro-C 2 中做了相当多的改动和改进，加载到 Pro-C 2 中的 Pro-C 1 预设听起来可能会有所不同！",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1147
+  },
+  {
+    "word": "bug",
+    "ipa": "bʌɡ",
+    "translit": "",
+    "zh": "缺陷 / 程序错误",
+    "def": "指软件中存在的错误或异常行为，可能导致功能无法正常运作。",
+    "example": "例子：插件在特定宿主软件中崩溃，就是一个 bug。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1148
+  },
+  {
+    "word": "latest version",
+    "ipa": "",
+    "translit": "",
+    "zh": "最新版本",
+    "def": "指软件最近发布的版本，通常包含修复和改进。",
+    "example": "例子：如果问题在最新版本中仍然存在，说明尚未被修复。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1149
+  },
+  {
+    "word": "e-mail",
+    "ipa": "ˈiːmeɪl",
+    "translit": "",
+    "zh": "电子邮件",
+    "def": "通过互联网发送的电子信件，常用于技术支持沟通。",
+    "example": "例子：将问题描述发送到 info@fabfilter.com。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1150
+  },
+  {
+    "word": "technical information",
+    "ipa": "",
+    "translit": "",
+    "zh": "技术信息",
+    "def": "描述问题所需的详细技术细节，帮助开发者定位和修复缺陷。",
+    "example": "例子：操作系统版本、宿主软件版本等。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1151
+  },
+  {
+    "word": "operation system",
+    "ipa": "",
+    "translit": "",
+    "zh": "操作系统",
+    "def": "计算机运行的基础软件平台，如 Windows 或 macOS。",
+    "example": "例子：Windows 11 或 macOS Sonoma。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1152
+  },
+  {
+    "word": "steps to reproduce",
+    "ipa": "",
+    "translit": "",
+    "zh": "复现步骤",
+    "def": "按顺序描述如何操作以重现该缺陷的具体过程。",
+    "example": "例子：打开插件 → 调整某个参数 → 程序崩溃。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1153
+  },
+  {
+    "word": "Thanks in advance!",
+    "ipa": "",
+    "translit": "",
+    "zh": "提前致谢！",
+    "def": "在请求帮助时提前表达感谢的礼貌用语。",
+    "example": "例子：发送问题报告时附上这句话表示谢意。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1154
+  },
+  {
+    "word": "Upgrading to Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "升级到 Pro-C 2",
+    "def": "指从旧版本升级到 Pro-C 2 版本的操作。",
+    "example": "例子：从 Pro-C 1 升级到 Pro-C 2。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1155
+  },
+  {
+    "word": "About FabFilter",
+    "ipa": "",
+    "translit": "",
+    "zh": "关于 FabFilter",
+    "def": "介绍 FabFilter 公司或品牌信息的章节。",
+    "example": "例子：包含公司简介、联系方式等内容。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1156
+  },
+  {
+    "word": "Upgrading from Pro-C version 1 to the new Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "从 Pro-C 第 1 版升级到新的 Pro-C 2",
+    "def": "描述从旧版本迁移到新版本的过程。",
+    "example": "例子：安装 Pro-C 2 后即可使用新版本功能。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1157
+  },
+  {
+    "word": "safe and easy",
+    "ipa": "",
+    "translit": "",
+    "zh": "安全且简便",
+    "def": "形容升级过程不会造成风险且操作简单。",
+    "example": "例子：升级不会影响现有工程文件。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1158
+  },
+  {
+    "word": "installing Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "安装 Pro-C 2",
+    "def": "指将 Pro-C 2 插件安装到系统中的操作。",
+    "example": "例子：运行安装程序完成安装。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1159
+  },
+  {
+    "word": "previous Pro-C 1 plug-in",
+    "ipa": "",
+    "translit": "",
+    "zh": "之前的 Pro-C 1 插件",
+    "def": "指升级前已安装的旧版本插件。",
+    "example": "例子：Pro-C 1 仍然保留在插件列表中。",
+    "context": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "contextZh": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1160
+  },
+  {
+    "word": "plug-ins folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "插件文件夹",
+    "def": "宿主程序用来扫描和加载插件的目录路径。",
+    "example": "例子：将 DLL 文件复制到插件文件夹后，宿主才能识别该插件。",
+    "context": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "contextZh": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1161
+  },
+  {
+    "word": "Preferences",
+    "ipa": "",
+    "translit": "",
+    "zh": "首选项 / 偏好设置",
+    "def": "软件中用于配置各项参数的设置菜单。",
+    "example": "例子：在首选项中可以查看或修改插件扫描路径。",
+    "context": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "contextZh": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1162
+  },
+  {
+    "word": "FabFilter Pro-C 2.dll",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C 2 动态链接库文件",
+    "def": "Windows 平台上插件的可执行文件格式，宿主通过加载 DLL 来使用插件。",
+    "example": "例子：该文件通常位于 C:\\Program Files\\FabFilter\\Pro-C 2 目录下。",
+    "context": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "contextZh": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1163
+  },
+  {
+    "word": "C:\\Program Files\\FabFilter\\Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "默认安装路径（64 位）",
+    "def": "64 位 Windows 系统上 FabFilter Pro-C 2 的默认安装目录。",
+    "example": "例子：在 64 位宿主中使用时，从这里复制 DLL 文件。",
+    "context": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "contextZh": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1164
+  },
+  {
+    "word": "C:\\Program Files (x86)\\FabFilter\\Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "默认安装路径（32 位）",
+    "def": "32 位程序在 64 位 Windows 上的默认安装目录。",
+    "example": "例子：如果宿主是 32 位的，应从此路径复制 DLL 文件。",
+    "context": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "contextZh": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1165
+  },
+  {
+    "word": "32-bit host",
+    "ipa": "",
+    "translit": "",
+    "zh": "32 位宿主程序",
+    "def": "以 32 位架构运行的主程序，只能加载 32 位插件。",
+    "example": "例子：32 位宿主需要从 Program Files (x86) 目录获取插件文件。",
+    "context": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "contextZh": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1166
+  },
+  {
+    "word": "64-bit Windows",
+    "ipa": "",
+    "translit": "",
+    "zh": "64 位 Windows 系统",
+    "def": "支持更大内存寻址的 Windows 操作系统版本。",
+    "example": "例子：在 64 位 Windows 上运行 32 位宿主时，插件安装在 x86 目录下。",
+    "context": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "contextZh": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "管乐",
+    "source": "小赫转存",
+    "id": 1167
+  },
+  {
+    "word": "restart the host",
+    "ipa": "",
+    "translit": "",
+    "zh": "重启宿主程序",
+    "def": "关闭并重新打开宿主软件，使其重新扫描和加载插件。",
+    "example": "例子：复制完 DLL 文件后，重启宿主才能识别新插件。",
+    "context": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "contextZh": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1168
+  },
+  {
+    "word": "reload all its plug-ins",
+    "ipa": "",
+    "translit": "",
+    "zh": "重新加载所有插件",
+    "def": "宿主程序启动时重新扫描插件目录并载入所有可用插件。",
+    "example": "例子：重启后宿主会自动重新加载所有插件，包括新复制的 Pro-C 2。",
+    "context": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "contextZh": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1169
+  },
+  {
+    "word": "Automation",
+    "ipa": "ˌɔːtəˈmeɪʃn",
+    "translit": "",
+    "zh": "自动化",
+    "def": "指在数字音频工作站（DAW）中记录和回放参数变化的功能，例如音量、滤波器截止频率等随时间的变化。",
+    "example": "例子：在 DAW 中录制旋钮的实时移动，使压缩器的阈值在歌曲进行中逐渐变化。",
+    "context": "Automation Because the feature set of Pro-C 2 has changed fundamentally, any automation data that has been written by a Pro-C 1 instance cannot be read correctly by Pro-C 2. Next: Manual installation See Also Overview Support Manual installation When installing FabFilter Pro-C 2, the installation program will try to copy the plug-in into the appropriate plugins folders, and in most cases your host will recognize FabFilter Pro-C 2 automatically. Otherwise, please follow these instructions: Windows On Windows, most hosts have their own VST plug-ins folder.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1170
+  },
+  {
+    "word": "feature set",
+    "ipa": "",
+    "translit": "",
+    "zh": "功能集",
+    "def": "指一个软件或插件所提供的全部功能和特性的集合。",
+    "example": "例子：Pro-C 2 的功能集包括侧链滤波、外部触发等新特性。",
+    "context": "Automation Because the feature set of Pro-C 2 has changed fundamentally, any automation data that has been written by a Pro-C 1 instance cannot be read correctly by Pro-C 2. Next: Manual installation See Also Overview Support Manual installation When installing FabFilter Pro-C 2, the installation program will try to copy the plug-in into the appropriate plugins folders, and in most cases your host will recognize FabFilter Pro-C 2 automatically. Otherwise, please follow these instructions: Windows On Windows, most hosts have their own VST plug-ins folder.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1171
+  },
+  {
+    "word": "Pro-C 1",
+    "ipa": "",
+    "translit": "",
+    "zh": "Pro-C 1",
+    "def": "FabFilter 公司推出的第一代专业压缩器插件，是 Pro-C 2 的前代版本。",
+    "example": "例子：旧工程文件中使用的 Pro-C 1 实例在升级后需要替换为 Pro-C 2。",
+    "context": "Automation Because the feature set of Pro-C 2 has changed fundamentally, any automation data that has been written by a Pro-C 1 instance cannot be read correctly by Pro-C 2. Next: Manual installation See Also Overview Support Manual installation When installing FabFilter Pro-C 2, the installation program will try to copy the plug-in into the appropriate plugins folders, and in most cases your host will recognize FabFilter Pro-C 2 automatically. Otherwise, please follow these instructions: Windows On Windows, most hosts have their own VST plug-ins folder.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1172
+  },
+  {
+    "word": "automation data",
+    "ipa": "",
+    "translit": "",
+    "zh": "自动化数据",
+    "def": "记录参数随时间变化的数据，通常以包络线或控制点的形式存储在工程文件中。",
+    "example": "例子：一段包含阈值和比率变化的自动化数据，用于让压缩量随歌曲段落变化。",
+    "context": "Automation Because the feature set of Pro-C 2 has changed fundamentally, any automation data that has been written by a Pro-C 1 instance cannot be read correctly by Pro-C 2. Next: Manual installation See Also Overview Support Manual installation When installing FabFilter Pro-C 2, the installation program will try to copy the plug-in into the appropriate plugins folders, and in most cases your host will recognize FabFilter Pro-C 2 automatically. Otherwise, please follow these instructions: Windows On Windows, most hosts have their own VST plug-ins folder.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1173
+  },
+  {
+    "word": "installation program",
+    "ipa": "",
+    "translit": "",
+    "zh": "安装程序",
+    "def": "负责将软件文件复制到目标位置并完成配置的可执行程序。",
+    "example": "例子：运行安装程序后，插件会被自动放入 VST 插件文件夹。",
+    "context": "Automation Because the feature set of Pro-C 2 has changed fundamentally, any automation data that has been written by a Pro-C 1 instance cannot be read correctly by Pro-C 2. Next: Manual installation See Also Overview Support Manual installation When installing FabFilter Pro-C 2, the installation program will try to copy the plug-in into the appropriate plugins folders, and in most cases your host will recognize FabFilter Pro-C 2 automatically. Otherwise, please follow these instructions: Windows On Windows, most hosts have their own VST plug-ins folder.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1174
+  },
+  {
+    "word": "plugins folders",
+    "ipa": "",
+    "translit": "",
+    "zh": "插件文件夹",
+    "def": "宿主软件用来扫描和加载插件的指定目录。",
+    "example": "例子：Windows 上常见的 VST 插件文件夹路径为 C:\\Program Files\\VstPlugins。",
+    "context": "Automation Because the feature set of Pro-C 2 has changed fundamentally, any automation data that has been written by a Pro-C 1 instance cannot be read correctly by Pro-C 2. Next: Manual installation See Also Overview Support Manual installation When installing FabFilter Pro-C 2, the installation program will try to copy the plug-in into the appropriate plugins folders, and in most cases your host will recognize FabFilter Pro-C 2 automatically. Otherwise, please follow these instructions: Windows On Windows, most hosts have their own VST plug-ins folder.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1175
+  },
+  {
+    "word": "VST plug-ins folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "VST 插件文件夹",
+    "def": "专门用于存放 VST 格式插件的目录，宿主软件会从此处扫描加载插件。",
+    "example": "例子：将 Pro-C 2 的 .dll 文件放入 VST 插件文件夹后，宿主即可识别。",
+    "context": "Automation Because the feature set of Pro-C 2 has changed fundamentally, any automation data that has been written by a Pro-C 1 instance cannot be read correctly by Pro-C 2. Next: Manual installation See Also Overview Support Manual installation When installing FabFilter Pro-C 2, the installation program will try to copy the plug-in into the appropriate plugins folders, and in most cases your host will recognize FabFilter Pro-C 2 automatically. Otherwise, please follow these instructions: Windows On Windows, most hosts have their own VST plug-ins folder.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1176
+  },
+  {
+    "word": "Finally",
+    "ipa": "",
+    "translit": "",
+    "zh": "最后",
+    "def": "用于引出最后一步操作或总结性说明。",
+    "example": "例子：最后，如果你确实想删除所有数据，可以按以下步骤操作。",
+    "context": "Finally, if you really want to delete all data written by our plug-ins, you can remove the following folders/files from the user Library folder as well: /Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 /Users/<username>/Library/Application Support/FabFilter/Pro-C 2 /Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist Note: Since OS X 10.7 (Lion), the system and user Library folders are marked as hidden by default.",
+    "contextZh": "最后，如果你确实想删除我们的插件写入的所有数据，你也可以从用户资源库文件夹中移除以下文件夹/文件：/Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2、/Users/<username>/Library/Application Support/FabFilter/Pro-C 2、/Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist。注意：自 OS X 10.7（Lion）起，系统和用户资源库文件夹默认被标记为隐藏。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1177
+  },
+  {
+    "word": "if you really want to delete all data written by our plug-ins",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果你确实想删除我们的插件写入的所有数据",
+    "def": "表示一个条件从句，说明只有在用户确实需要彻底清除插件数据时才执行后续操作。",
+    "example": "例子：如果你确实想删除我们的插件写入的所有数据，请继续阅读。",
+    "context": "Finally, if you really want to delete all data written by our plug-ins, you can remove the following folders/files from the user Library folder as well: /Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 /Users/<username>/Library/Application Support/FabFilter/Pro-C 2 /Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist Note: Since OS X 10.7 (Lion), the system and user Library folders are marked as hidden by default.",
+    "contextZh": "最后，如果你确实想删除我们的插件写入的所有数据，你也可以从用户资源库文件夹中移除以下文件夹/文件：/Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2、/Users/<username>/Library/Application Support/FabFilter/Pro-C 2、/Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist。注意：自 OS X 10.7（Lion）起，系统和用户资源库文件夹默认被标记为隐藏。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1178
+  },
+  {
+    "word": "you can remove the following folders/files from the user Library folder as well",
+    "ipa": "",
+    "translit": "",
+    "zh": "你也可以从用户资源库文件夹中移除以下文件夹/文件",
+    "def": "说明用户可以额外删除列出的文件夹和文件，以彻底清除插件相关数据。",
+    "example": "例子：你也可以从用户资源库文件夹中移除以下文件夹/文件。",
+    "context": "Finally, if you really want to delete all data written by our plug-ins, you can remove the following folders/files from the user Library folder as well: /Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 /Users/<username>/Library/Application Support/FabFilter/Pro-C 2 /Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist Note: Since OS X 10.7 (Lion), the system and user Library folders are marked as hidden by default.",
+    "contextZh": "最后，如果你确实想删除我们的插件写入的所有数据，你也可以从用户资源库文件夹中移除以下文件夹/文件：/Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2、/Users/<username>/Library/Application Support/FabFilter/Pro-C 2、/Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist。注意：自 OS X 10.7（Lion）起，系统和用户资源库文件夹默认被标记为隐藏。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1179
+  },
+  {
+    "word": "Note: Since OS X 10.7 (Lion), the system and user Library folders are marked as hidden by default.",
+    "ipa": "",
+    "translit": "",
+    "zh": "注意：自 OS X 10.7（Lion）起，系统和用户资源库文件夹默认被标记为隐藏。",
+    "def": "提醒用户这些资源库文件夹在默认情况下不可见，需要特殊操作才能访问。",
+    "example": "例子：在 Finder 中按住 Option 键点击「前往」菜单，即可看到被隐藏的资源库文件夹。",
+    "context": "Finally, if you really want to delete all data written by our plug-ins, you can remove the following folders/files from the user Library folder as well: /Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 /Users/<username>/Library/Application Support/FabFilter/Pro-C 2 /Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist Note: Since OS X 10.7 (Lion), the system and user Library folders are marked as hidden by default.",
+    "contextZh": "最后，如果你确实想删除我们的插件写入的所有数据，你也可以从用户资源库文件夹中移除以下文件夹/文件：/Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2、/Users/<username>/Library/Application Support/FabFilter/Pro-C 2、/Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist。注意：自 OS X 10.7（Lion）起，系统和用户资源库文件夹默认被标记为隐藏。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1180
+  },
+  {
+    "word": "AAX version",
+    "ipa": "",
+    "translit": "",
+    "zh": "AAX 版本",
+    "def": "指 Pro Tools 使用的 AAX 插件格式版本，适用于较新版本的 Pro Tools。",
+    "example": "例子：在 Pro Tools 10 及更高版本中，AAX 插件是主要的插件格式。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1181
+  },
+  {
+    "word": "FabFilter Pro-C 2.aaxplugin folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C 2.aaxplugin 文件夹",
+    "def": "这是 AAX 格式插件的安装文件夹，包含插件运行所需的全部文件。",
+    "example": "例子：将该文件夹复制到 Pro Tools 的 AAX 插件目录即可完成安装。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1182
+  },
+  {
+    "word": "common Pro Tools AAX plug-in folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "Pro Tools 通用 AAX 插件文件夹",
+    "def": "计算机上 Pro Tools 读取 AAX 插件的标准目录位置。",
+    "example": "例子：在 macOS 上通常位于系统资源库的 Application Support 目录下。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1183
+  },
+  {
+    "word": "RTAS version",
+    "ipa": "",
+    "translit": "",
+    "zh": "RTAS 版本",
+    "def": "指 Pro Tools 早期使用的 RTAS 插件格式版本，适用于较旧版本的 Pro Tools。",
+    "example": "例子：Pro Tools 10 之前的版本主要使用 RTAS 格式插件。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1184
+  },
+  {
+    "word": "FabFilter Pro-C 2.dpm",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C 2.dpm",
+    "def": "RTAS 格式插件的主程序文件，Pro Tools 通过该文件加载插件。",
+    "example": "例子：将该文件复制到 RTAS 插件文件夹后，Pro Tools 即可识别 Pro-C 2。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1185
+  },
+  {
+    "word": "FabFilter Pro-C 2.dpm.rsr",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C 2.dpm.rsr",
+    "def": "RTAS 插件的资源文件，包含插件界面和参数等辅助数据。",
+    "example": "例子：该文件需与 .dpm 文件一同复制到 RTAS 插件文件夹中。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1186
+  },
+  {
+    "word": "Pro Tools RTAS plug-in folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "Pro Tools RTAS 插件文件夹",
+    "def": "计算机上 Pro Tools 读取 RTAS 插件的标准目录位置。",
+    "example": "例子：在 Windows 上通常位于 Program Files 下的 Common Files 目录中。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1187
+  },
+  {
+    "word": "uninstall",
+    "ipa": "",
+    "translit": "",
+    "zh": "卸载",
+    "def": "将已安装的插件或软件包从系统中移除的操作。",
+    "example": "例子：可以通过控制面板卸载不需要的插件。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1188
+  },
+  {
+    "word": "bundles",
+    "ipa": "",
+    "translit": "",
+    "zh": "软件包 / 捆绑包",
+    "def": "将多个插件或软件组合在一起打包销售或安装的集合。",
+    "example": "例子：FabFilter Total Bundle 包含了该公司所有的插件。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1189
+  },
+  {
+    "word": "Control Panel",
+    "ipa": "",
+    "translit": "",
+    "zh": "控制面板",
+    "def": "Windows 系统中用于管理软件安装和卸载的系统工具。",
+    "example": "例子：在控制面板的\"程序和功能\"中可以卸载已安装的插件。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1190
+  },
+  {
+    "word": "standard plug-in folders",
+    "ipa": "",
+    "translit": "",
+    "zh": "标准插件文件夹",
+    "def": "操作系统或宿主软件默认指定的插件安装目录。",
+    "example": "例子：将插件放入标准文件夹后，宿主软件会自动扫描并加载。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1191
+  },
+  {
+    "word": "system Library folder",
+    "ipa": "",
+    "translit": "",
+    "zh": "系统资源库文件夹",
+    "def": "macOS 中存放系统级共享资源的目录，插件通常安装在此处。",
+    "example": "例子：路径为 /Library/Audio/Plug-Ins/ 的目录就是音频插件的系统资源库位置。",
+    "context": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "contextZh": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1192
+  },
+  {
+    "word": "VST/VST3",
+    "ipa": "",
+    "translit": "",
+    "zh": "VST/VST3",
+    "def": "VST 是 Steinberg 开发的虚拟工作室技术插件格式，VST3 是其第三代版本，支持更多功能和更高的处理效率。",
+    "example": "例子：FabFilter Pro-C 2 同时提供 VST 和 VST3 版本，分别安装到对应文件夹。",
+    "context": "These are the only possible correct locations: Audio Units: /Library/Audio/Plug-Ins/Components VST/VST3: /Library/Audio/Plug-Ins/VST and /Library/Audio/Plug-Ins/VST3 RTAS: /Library/Application Support/Digidesign/Plug-Ins AAX: /Library/Application Support/Avid/Audio/Plug-Ins Note: AU and VST/VST3 plug-ins may also be placed in the user's Library folders under /Users/<username>/Library/Audio/Plug-Ins. To uninstall the plug-ins from your Mac, you can just delete the specific FabFilter plug-in files at the above locations.",
+    "contextZh": "以下是唯一可能正确的安装位置：音频单元：/Library/Audio/Plug-Ins/Components；VST/VST3：/Library/Audio/Plug-Ins/VST 和 /Library/Audio/Plug-Ins/VST3；RTAS：/Library/Application Support/Digidesign/Plug-Ins；AAX：/Library/Application Support/Avid/Audio/Plug-Ins。注意：AU 和 VST/VST3 插件也可以放置在用户个人资源库文件夹中，路径为 /Users/<用户名>/Library/Audio/Plug-Ins。要从 Mac 上卸载这些插件，只需删除上述位置中对应的 FabFilter 插件文件即可。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1193
+  },
+  {
+    "word": "RTAS",
+    "ipa": "",
+    "translit": "",
+    "zh": "RTAS",
+    "def": "Real-Time AudioSuite，是 Digidesign（现 Avid）为 Pro Tools 开发的实时音频插件格式，主要用于较老版本的 Pro Tools。",
+    "example": "例子：FabFilter 旧版本曾提供 RTAS 格式，安装到 Digidesign 的 Plug-Ins 文件夹。",
+    "context": "These are the only possible correct locations: Audio Units: /Library/Audio/Plug-Ins/Components VST/VST3: /Library/Audio/Plug-Ins/VST and /Library/Audio/Plug-Ins/VST3 RTAS: /Library/Application Support/Digidesign/Plug-Ins AAX: /Library/Application Support/Avid/Audio/Plug-Ins Note: AU and VST/VST3 plug-ins may also be placed in the user's Library folders under /Users/<username>/Library/Audio/Plug-Ins. To uninstall the plug-ins from your Mac, you can just delete the specific FabFilter plug-in files at the above locations.",
+    "contextZh": "以下是唯一可能正确的安装位置：音频单元：/Library/Audio/Plug-Ins/Components；VST/VST3：/Library/Audio/Plug-Ins/VST 和 /Library/Audio/Plug-Ins/VST3；RTAS：/Library/Application Support/Digidesign/Plug-Ins；AAX：/Library/Application Support/Avid/Audio/Plug-Ins。注意：AU 和 VST/VST3 插件也可以放置在用户个人资源库文件夹中，路径为 /Users/<用户名>/Library/Audio/Plug-Ins。要从 Mac 上卸载这些插件，只需删除上述位置中对应的 FabFilter 插件文件即可。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1194
+  },
+  {
+    "word": "AAX",
+    "ipa": "",
+    "translit": "",
+    "zh": "AAX",
+    "def": "Avid Audio eXtension，是 Avid 为 Pro Tools 10 及以上版本开发的插件格式，支持 32 位和 64 位处理。",
+    "example": "例子：FabFilter Pro-L 2 的 AAX 版本安装到 Avid 的 Audio/Plug-Ins 文件夹。",
+    "context": "These are the only possible correct locations: Audio Units: /Library/Audio/Plug-Ins/Components VST/VST3: /Library/Audio/Plug-Ins/VST and /Library/Audio/Plug-Ins/VST3 RTAS: /Library/Application Support/Digidesign/Plug-Ins AAX: /Library/Application Support/Avid/Audio/Plug-Ins Note: AU and VST/VST3 plug-ins may also be placed in the user's Library folders under /Users/<username>/Library/Audio/Plug-Ins. To uninstall the plug-ins from your Mac, you can just delete the specific FabFilter plug-in files at the above locations.",
+    "contextZh": "以下是唯一可能正确的安装位置：音频单元：/Library/Audio/Plug-Ins/Components；VST/VST3：/Library/Audio/Plug-Ins/VST 和 /Library/Audio/Plug-Ins/VST3；RTAS：/Library/Application Support/Digidesign/Plug-Ins；AAX：/Library/Application Support/Avid/Audio/Plug-Ins。注意：AU 和 VST/VST3 插件也可以放置在用户个人资源库文件夹中，路径为 /Users/<用户名>/Library/Audio/Plug-Ins。要从 Mac 上卸载这些插件，只需删除上述位置中对应的 FabFilter 插件文件即可。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1195
+  },
+  {
+    "word": "Note",
+    "ipa": "",
+    "translit": "",
+    "zh": "注意",
+    "def": "用于引出补充说明或重要提示。",
+    "example": "例子：Note: 此处提醒用户 AU 和 VST/VST3 插件也可放在用户级目录。",
+    "context": "These are the only possible correct locations: Audio Units: /Library/Audio/Plug-Ins/Components VST/VST3: /Library/Audio/Plug-Ins/VST and /Library/Audio/Plug-Ins/VST3 RTAS: /Library/Application Support/Digidesign/Plug-Ins AAX: /Library/Application Support/Avid/Audio/Plug-Ins Note: AU and VST/VST3 plug-ins may also be placed in the user's Library folders under /Users/<username>/Library/Audio/Plug-Ins. To uninstall the plug-ins from your Mac, you can just delete the specific FabFilter plug-in files at the above locations.",
+    "contextZh": "以下是唯一可能正确的安装位置：音频单元：/Library/Audio/Plug-Ins/Components；VST/VST3：/Library/Audio/Plug-Ins/VST 和 /Library/Audio/Plug-Ins/VST3；RTAS：/Library/Application Support/Digidesign/Plug-Ins；AAX：/Library/Application Support/Avid/Audio/Plug-Ins。注意：AU 和 VST/VST3 插件也可以放置在用户个人资源库文件夹中，路径为 /Users/<用户名>/Library/Audio/Plug-Ins。要从 Mac 上卸载这些插件，只需删除上述位置中对应的 FabFilter 插件文件即可。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1196
+  },
+  {
+    "word": "AU and VST",
+    "ipa": "VST3 plug-ins may also be placed in the user's Library folders under",
+    "translit": "Users/<username>/Library/Audio/Plug-Ins.",
+    "zh": "AU 和 VST/VST3 插件也可以放置在用户个人资源库文件夹中，路径为 /Users/<用户名>/Library/Audio/Plug-Ins。",
+    "def": "说明除了系统级路径外，插件还可以安装到当前用户的个人目录下，仅对该用户生效。",
+    "example": "例子：用户可以将 VST3 插件放在 ~/Library/Audio/Plug-Ins/VST3 中，无需管理员权限。",
+    "context": "These are the only possible correct locations: Audio Units: /Library/Audio/Plug-Ins/Components VST/VST3: /Library/Audio/Plug-Ins/VST and /Library/Audio/Plug-Ins/VST3 RTAS: /Library/Application Support/Digidesign/Plug-Ins AAX: /Library/Application Support/Avid/Audio/Plug-Ins Note: AU and VST/VST3 plug-ins may also be placed in the user's Library folders under /Users/<username>/Library/Audio/Plug-Ins. To uninstall the plug-ins from your Mac, you can just delete the specific FabFilter plug-in files at the above locations.",
+    "contextZh": "以下是唯一可能正确的安装位置：音频单元：/Library/Audio/Plug-Ins/Components；VST/VST3：/Library/Audio/Plug-Ins/VST 和 /Library/Audio/Plug-Ins/VST3；RTAS：/Library/Application Support/Digidesign/Plug-Ins；AAX：/Library/Application Support/Avid/Audio/Plug-Ins。注意：AU 和 VST/VST3 插件也可以放置在用户个人资源库文件夹中，路径为 /Users/<用户名>/Library/Audio/Plug-Ins。要从 Mac 上卸载这些插件，只需删除上述位置中对应的 FabFilter 插件文件即可。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1197
+  },
+  {
+    "word": "To uninstall the plug-ins from your Mac, you can just delete the specific FabFilter plug-in files at the above locations.",
+    "ipa": "",
+    "translit": "",
+    "zh": "要从 Mac 上卸载这些插件，只需删除上述位置中对应的 FabFilter 插件文件即可。",
+    "def": "说明卸载方法：直接删除插件文件，无需运行卸载程序。",
+    "example": "例子：删除 /Library/Audio/Plug-Ins/Components/FabFilter Pro-Q 3.component 即可卸载该 AU 插件。",
+    "context": "These are the only possible correct locations: Audio Units: /Library/Audio/Plug-Ins/Components VST/VST3: /Library/Audio/Plug-Ins/VST and /Library/Audio/Plug-Ins/VST3 RTAS: /Library/Application Support/Digidesign/Plug-Ins AAX: /Library/Application Support/Avid/Audio/Plug-Ins Note: AU and VST/VST3 plug-ins may also be placed in the user's Library folders under /Users/<username>/Library/Audio/Plug-Ins. To uninstall the plug-ins from your Mac, you can just delete the specific FabFilter plug-in files at the above locations.",
+    "contextZh": "以下是唯一可能正确的安装位置：音频单元：/Library/Audio/Plug-Ins/Components；VST/VST3：/Library/Audio/Plug-Ins/VST 和 /Library/Audio/Plug-Ins/VST3；RTAS：/Library/Application Support/Digidesign/Plug-Ins；AAX：/Library/Application Support/Avid/Audio/Plug-Ins。注意：AU 和 VST/VST3 插件也可以放置在用户个人资源库文件夹中，路径为 /Users/<用户名>/Library/Audio/Plug-Ins。要从 Mac 上卸载这些插件，只需删除上述位置中对应的 FabFilter 插件文件即可。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1198
+  },
+  {
+    "word": "To make them visible again in Finder",
+    "ipa": "",
+    "translit": "",
+    "zh": "要让它们在访达中重新可见",
+    "def": "说明如何恢复被隐藏文件或文件夹在 Finder 中的显示状态。",
+    "example": "例子：用户执行隐藏操作后，想重新看到这些项目时使用此步骤。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1199
+  },
+  {
+    "word": "open Terminal",
+    "ipa": "",
+    "translit": "",
+    "zh": "打开终端",
+    "def": "指示用户启动 macOS 的 Terminal 应用程序。",
+    "example": "例子：在 /Applications/Utilities 中找到并双击 Terminal。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1200
+  },
+  {
+    "word": "found in",
+    "ipa": "Applications",
+    "translit": "Utilities",
+    "zh": "位于 /Applications/Utilities 中",
+    "def": "说明 Terminal 应用在系统中的具体路径位置。",
+    "example": "例子：打开 Finder，前往 /Applications/Utilities 文件夹即可看到 Terminal。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1201
+  },
+  {
+    "word": "and enter the following commands",
+    "ipa": "",
+    "translit": "",
+    "zh": "并输入以下命令",
+    "def": "指示用户在终端中逐条键入或粘贴给出的命令。",
+    "example": "例子：在 Terminal 窗口中输入 chflags nohidden /Library 后按回车。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1202
+  },
+  {
+    "word": "chflags nohidden /Library",
+    "ipa": "",
+    "translit": "",
+    "zh": "chflags nohidden /Library",
+    "def": "这是一条 macOS 终端命令，用于取消 /Library 文件夹的隐藏标志。",
+    "example": "例子：在终端执行后，/Library 会在 Finder 中重新显示。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1203
+  },
+  {
+    "word": "chflags nohidden ~/Library",
+    "ipa": "",
+    "translit": "",
+    "zh": "chflags nohidden ~/Library",
+    "def": "这是一条 macOS 终端命令，用于取消当前用户主目录下 ~/Library 文件夹的隐藏标志。",
+    "example": "例子：在终端执行后，用户资源库文件夹会在 Finder 中重新显示。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1204
+  },
+  {
+    "word": "If you still have problems",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果仍然有问题",
+    "def": "表示在尝试上述方法后问题依旧存在时的条件。",
+    "example": "例子：执行命令后仍看不到文件夹，则进入下一步联系支持。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1205
+  },
+  {
+    "word": "contact FabFilter Support",
+    "ipa": "",
+    "translit": "",
+    "zh": "联系 FabFilter 支持",
+    "def": "指示用户向 FabFilter 官方技术支持寻求帮助。",
+    "example": "例子：通过 FabFilter 官网的支持页面提交问题。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1206
+  },
+  {
+    "word": "Next: VST Plug-in versions",
+    "ipa": "",
+    "translit": "",
+    "zh": "下一步：VST 插件版本",
+    "def": "提示接下来要介绍的内容是 VST 插件版本相关信息。",
+    "example": "例子：阅读完当前隐藏文件夹问题后，继续查看 VST 版本说明。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1207
+  },
+  {
+    "word": "FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats.",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。",
+    "def": "说明该插件同时支持两种 VST 标准格式。",
+    "example": "例子：用户可根据宿主软件选择安装 VST 2 或 VST 3 版本。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1208
+  },
+  {
+    "word": "They can be installed and used both at the same time.",
+    "ipa": "",
+    "translit": "",
+    "zh": "它们可以同时安装并使用。",
+    "def": "说明两种格式的插件可以共存，不会冲突。",
+    "example": "例子：用户可同时安装 VST 2 和 VST 3 版本并在不同工程中使用。",
+    "context": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "contextZh": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1209
+  },
+  {
+    "word": "VST 3",
+    "ipa": "",
+    "translit": "",
+    "zh": "VST 3 格式",
+    "def": "VST 3 是 Steinberg 公司开发的第三代虚拟工作室技术插件格式，支持侧链、自由调整界面大小等功能。",
+    "example": "例子：在 Cubase 最新版本中加载 VST 3 插件即可使用侧链功能。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1210
+  },
+  {
+    "word": "free interface resizing",
+    "ipa": "",
+    "translit": "",
+    "zh": "自由调整界面大小",
+    "def": "允许用户随意拖拽改变插件窗口尺寸的功能，方便适配不同屏幕分辨率。",
+    "example": "例子：在 4K 显示器上将插件界面拉大，使参数旋钮更易看清。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1211
+  },
+  {
+    "word": "CPU-friendly",
+    "ipa": "",
+    "translit": "",
+    "zh": "对 CPU 友好 / 低 CPU 占用",
+    "def": "指插件运行时消耗较少的处理器资源，不容易造成系统卡顿或音频爆音。",
+    "example": "例子：同时加载 30 个低 CPU 占用的插件，工程仍能流畅播放。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1212
+  },
+  {
+    "word": "Studio One",
+    "ipa": "",
+    "translit": "",
+    "zh": "Studio One",
+    "def": "PreSonus 公司开发的数字音频工作站，以拖放式工作流著称。",
+    "example": "例子：在 Studio One 中将插件直接拖到轨道上即可完成加载。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1213
+  },
+  {
+    "word": "FL Studio",
+    "ipa": "",
+    "translit": "",
+    "zh": "FL Studio",
+    "def": "Image-Line 公司开发的数字音频工作站，在电子音乐制作中广泛使用。",
+    "example": "例子：FL Studio 支持 VST 3 插件，可在混音器中插入 Pro-C 2。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1214
+  },
+  {
+    "word": "VST 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "VST 2 格式",
+    "def": "VST 技术的第二代格式，兼容性极广，几乎所有主流宿主软件都支持。",
+    "example": "例子：较老版本的宿主软件通常只支持 VST 2 插件。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1215
+  },
+  {
+    "word": "channel layout",
+    "ipa": "",
+    "translit": "",
+    "zh": "声道布局",
+    "def": "指音频轨道是单声道还是立体声的信号通道配置。",
+    "example": "例子：将插件插入立体声轨道时，插件自动切换为立体声处理模式。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1216
+  },
+  {
+    "word": "mono",
+    "ipa": "",
+    "translit": "",
+    "zh": "单声道",
+    "def": "只有一条音频通道的信号格式，所有扬声器播放相同内容。",
+    "example": "例子：人声录音通常先录成单声道，再在混音中定位到立体声场中。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1217
+  },
+  {
+    "word": "stereo",
+    "ipa": "",
+    "translit": "",
+    "zh": "立体声",
+    "def": "包含左右两条独立音频通道的信号格式，可营造空间感和方位感。",
+    "example": "例子：钢琴录制为立体声后，能听出低音在左、高音在右的宽度感。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1218
+  },
+  {
+    "word": "FabFilter Pro-C 2 (Mono)",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C 2（单声道版）",
+    "def": "Pro-C 2 的一个独立版本，始终以单声道模式运行，专为 VST 2 格式下的单声道轨道设计。",
+    "example": "例子：在 VST 2 宿主中处理单声道人声轨道时，加载此版本可避免不必要的立体声处理开销。",
+    "context": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "contextZh": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1219
+  },
+  {
+    "word": "backwards compatibility",
+    "ipa": "",
+    "translit": "",
+    "zh": "向后兼容",
+    "def": "指新版本软件仍能支持旧版本的数据或功能，确保已有内容不会失效。",
+    "example": "例子：旧版工程文件在新版软件中仍能正常打开。",
+    "context": "This is included for backwards compatibility with existing sessions. For new sessions we recommend to use the regular plug-in which automatically adapts itself to the track it is inserted on. Next: External side chaining See Also Quick start Manual installation External side chaining FabFilter Pro-C 2 offers the possibility of feeding an external signal to its side chain, so that you can make it trigger on a different signal than the audio it is actually processing.",
+    "contextZh": "此处包含此内容是为了与现有会话保持向后兼容。对于新建会话，我们建议使用常规插件，它会自动适配所插入的轨道。下一节：外部侧链。另见：快速入门、手动安装、外部侧链。FabFilter Pro-C 2 提供了向其侧链馈送外部信号的功能，这样你可以让它由不同于实际处理音频的信号来触发。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1220
+  },
+  {
+    "word": "existing sessions",
+    "ipa": "",
+    "translit": "",
+    "zh": "现有会话",
+    "def": "指用户之前已经创建并保存的工作项目或工程文件。",
+    "example": "例子：你上周保存的混音工程就是一个现有会话。",
+    "context": "This is included for backwards compatibility with existing sessions. For new sessions we recommend to use the regular plug-in which automatically adapts itself to the track it is inserted on. Next: External side chaining See Also Quick start Manual installation External side chaining FabFilter Pro-C 2 offers the possibility of feeding an external signal to its side chain, so that you can make it trigger on a different signal than the audio it is actually processing.",
+    "contextZh": "此处包含此内容是为了与现有会话保持向后兼容。对于新建会话，我们建议使用常规插件，它会自动适配所插入的轨道。下一节：外部侧链。另见：快速入门、手动安装、外部侧链。FabFilter Pro-C 2 提供了向其侧链馈送外部信号的功能，这样你可以让它由不同于实际处理音频的信号来触发。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1221
+  },
+  {
+    "word": "regular plug-in",
+    "ipa": "",
+    "translit": "",
+    "zh": "常规插件",
+    "def": "指标准版本的插件，区别于为兼容旧版本而保留的特殊版本。",
+    "example": "例子：在新建工程时，选择常规插件即可自动匹配轨道设置。",
+    "context": "This is included for backwards compatibility with existing sessions. For new sessions we recommend to use the regular plug-in which automatically adapts itself to the track it is inserted on. Next: External side chaining See Also Quick start Manual installation External side chaining FabFilter Pro-C 2 offers the possibility of feeding an external signal to its side chain, so that you can make it trigger on a different signal than the audio it is actually processing.",
+    "contextZh": "此处包含此内容是为了与现有会话保持向后兼容。对于新建会话，我们建议使用常规插件，它会自动适配所插入的轨道。下一节：外部侧链。另见：快速入门、手动安装、外部侧链。FabFilter Pro-C 2 提供了向其侧链馈送外部信号的功能，这样你可以让它由不同于实际处理音频的信号来触发。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1222
+  },
+  {
+    "word": "automatically adapts itself",
+    "ipa": "",
+    "translit": "",
+    "zh": "自动适配",
+    "def": "指插件能够根据所在轨道的类型或参数自动调整自身设置，无需手动配置。",
+    "example": "例子：将插件拖到人声轨道上，它自动切换为人声处理预设。",
+    "context": "This is included for backwards compatibility with existing sessions. For new sessions we recommend to use the regular plug-in which automatically adapts itself to the track it is inserted on. Next: External side chaining See Also Quick start Manual installation External side chaining FabFilter Pro-C 2 offers the possibility of feeding an external signal to its side chain, so that you can make it trigger on a different signal than the audio it is actually processing.",
+    "contextZh": "此处包含此内容是为了与现有会话保持向后兼容。对于新建会话，我们建议使用常规插件，它会自动适配所插入的轨道。下一节：外部侧链。另见：快速入门、手动安装、外部侧链。FabFilter Pro-C 2 提供了向其侧链馈送外部信号的功能，这样你可以让它由不同于实际处理音频的信号来触发。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1223
+  },
+  {
+    "word": "inserted on",
+    "ipa": "",
+    "translit": "",
+    "zh": "插入到……上",
+    "def": "指将插件加载到某条轨道的效果链中。",
+    "example": "例子：把压缩器插入到鼓总线轨道上。",
+    "context": "This is included for backwards compatibility with existing sessions. For new sessions we recommend to use the regular plug-in which automatically adapts itself to the track it is inserted on. Next: External side chaining See Also Quick start Manual installation External side chaining FabFilter Pro-C 2 offers the possibility of feeding an external signal to its side chain, so that you can make it trigger on a different signal than the audio it is actually processing.",
+    "contextZh": "此处包含此内容是为了与现有会话保持向后兼容。对于新建会话，我们建议使用常规插件，它会自动适配所插入的轨道。下一节：外部侧链。另见：快速入门、手动安装、外部侧链。FabFilter Pro-C 2 提供了向其侧链馈送外部信号的功能，这样你可以让它由不同于实际处理音频的信号来触发。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1224
+  },
+  {
+    "word": "feeding an external signal",
+    "ipa": "",
+    "translit": "",
+    "zh": "馈送外部信号",
+    "def": "将来自其他轨道或来源的音频信号发送到插件的侧链输入端。",
+    "example": "例子：将底鼓轨道的信号馈送到贝斯压缩器的侧链输入。",
+    "context": "This is included for backwards compatibility with existing sessions. For new sessions we recommend to use the regular plug-in which automatically adapts itself to the track it is inserted on. Next: External side chaining See Also Quick start Manual installation External side chaining FabFilter Pro-C 2 offers the possibility of feeding an external signal to its side chain, so that you can make it trigger on a different signal than the audio it is actually processing.",
+    "contextZh": "此处包含此内容是为了与现有会话保持向后兼容。对于新建会话，我们建议使用常规插件，它会自动适配所插入的轨道。下一节：外部侧链。另见：快速入门、手动安装、外部侧链。FabFilter Pro-C 2 提供了向其侧链馈送外部信号的功能，这样你可以让它由不同于实际处理音频的信号来触发。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1225
+  },
+  {
+    "word": "Feeding a signal",
+    "ipa": "",
+    "translit": "",
+    "zh": "将信号馈送",
+    "def": "指把一个音频信号从一个通道或轨道发送到另一个处理器的输入端。",
+    "example": "例子：把鼓组的输出信号发送到压缩器的侧链输入。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1226
+  },
+  {
+    "word": "plug-in's side-chain inputs",
+    "ipa": "",
+    "translit": "",
+    "zh": "插件的侧链输入",
+    "def": "插件上用于接收外部控制信号的输入端口，该信号不经过主音频路径，而是用来触发或控制处理行为。",
+    "example": "例子：压缩器的侧链输入接收底鼓信号，用于触发对贝斯轨道的压缩。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1227
+  },
+  {
+    "word": "This topic describes the procedure",
+    "ipa": "",
+    "translit": "",
+    "zh": "本主题描述操作步骤",
+    "def": "表示接下来的内容将说明完成某项任务的具体流程。",
+    "example": "例子：本主题描述如何在不同的宿主软件中设置侧链路由。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1228
+  },
+  {
+    "word": "most popular hosts",
+    "ipa": "",
+    "translit": "",
+    "zh": "最流行的宿主软件",
+    "def": "指在音频制作领域中使用最广泛的数字音频工作站。",
+    "example": "例子：Cubase、Logic Pro、Ableton Live 和 Pro Tools 是业界最常用的几款宿主软件。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1229
+  },
+  {
+    "word": "scenario",
+    "ipa": "",
+    "translit": "",
+    "zh": "场景",
+    "def": "指为了说明操作流程而设定的一个具体使用情境。",
+    "example": "例子：我们用一个包含两条轨道的场景来解释侧链的工作方式。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1230
+  },
+  {
+    "word": "two tracks",
+    "ipa": "",
+    "translit": "",
+    "zh": "两条轨道",
+    "def": "指音频工作站中的两个独立音频通道。",
+    "example": "例子：一条作为主轨道，另一条作为侧链轨道。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1231
+  },
+  {
+    "word": "main track",
+    "ipa": "",
+    "translit": "",
+    "zh": "主轨道",
+    "def": "指包含需要被处理的音频的轨道。",
+    "example": "例子：主轨道上的音频经过 Pro-C 2 进行压缩处理。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1232
+  },
+  {
+    "word": "side chain track",
+    "ipa": "",
+    "translit": "",
+    "zh": "侧链轨道",
+    "def": "指包含触发信号的轨道，其音频被发送到插件的侧链输入。",
+    "example": "例子：侧链轨道上放置底鼓音频，用于触发对主轨道的压缩。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1233
+  },
+  {
+    "word": "external side-chain input",
+    "ipa": "",
+    "translit": "",
+    "zh": "外部侧链输入",
+    "def": "指插件接收来自外部信号源（而非自身音频路径）的输入端口。",
+    "example": "例子：将侧链轨道的信号发送到 Pro-C 2 的外部侧链输入。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1234
+  },
+  {
+    "word": "trigger signal",
+    "ipa": "",
+    "translit": "",
+    "zh": "触发信号",
+    "def": "指用来触发或控制处理器行为的信号，本身不一定被听到。",
+    "example": "例子：底鼓信号作为触发信号，使压缩器在每次底鼓击打时对贝斯进行压缩。",
+    "context": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "contextZh": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1235
+  },
+  {
+    "word": "routed correctly",
+    "ipa": "",
+    "translit": "",
+    "zh": "正确路由",
+    "def": "指音频信号在系统中的传输路径设置无误，确保信号从源头到目的地顺畅。",
+    "example": "例子：在混音时，检查侧链信号是否正确路由到压缩器插件。",
+    "context": "After setting up everything according to the instructions below for your host, you can check whether everything is routed correctly. Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal. While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold. Afterwards, disable the Audition mode again. Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
+    "contextZh": "在按照以下针对您宿主的说明设置好一切后，您可以检查是否所有路由都正确。播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。在试听时，实时显示和计量会显示侧链电平，因此您可以轻松设置正确的触发阈值。之后，再次禁用试听模式。现在，您会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1236
+  },
+  {
+    "word": "audio",
+    "ipa": "",
+    "translit": "",
+    "zh": "音频",
+    "def": "指声音信号或声音文件，在数字环境中通常表示可播放的声波数据。",
+    "example": "例子：播放音频文件来测试音响系统的输出。",
+    "context": "After setting up everything according to the instructions below for your host, you can check whether everything is routed correctly. Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal. While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold. Afterwards, disable the Audition mode again. Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
+    "contextZh": "在按照以下针对您宿主的说明设置好一切后，您可以检查是否所有路由都正确。播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。在试听时，实时显示和计量会显示侧链电平，因此您可以轻松设置正确的触发阈值。之后，再次禁用试听模式。现在，您会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1237
+  },
+  {
+    "word": "side-chain signal",
+    "ipa": "",
+    "translit": "",
+    "zh": "侧链信号",
+    "def": "指从其他轨道或源发送到插件的控制信号，用于触发压缩或其它处理。",
+    "example": "例子：在侧链压缩中，kick drum 的信号可以作为 side-chain signal 来控制 bass 的音量。",
+    "context": "After setting up everything according to the instructions below for your host, you can check whether everything is routed correctly. Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal. While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold. Afterwards, disable the Audition mode again. Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
+    "contextZh": "在按照以下针对您宿主的说明设置好一切后，您可以检查是否所有路由都正确。播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。在试听时，实时显示和计量会显示侧链电平，因此您可以轻松设置正确的触发阈值。之后，再次禁用试听模式。现在，您会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1238
+  },
+  {
+    "word": "real-time display",
+    "ipa": "",
+    "translit": "",
+    "zh": "实时显示",
+    "def": "插件界面中动态更新的视觉反馈，显示当前信号或参数状态。",
+    "example": "例子：压缩器的 real-time display 显示增益减少量，帮助用户调整设置。",
+    "context": "After setting up everything according to the instructions below for your host, you can check whether everything is routed correctly. Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal. While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold. Afterwards, disable the Audition mode again. Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
+    "contextZh": "在按照以下针对您宿主的说明设置好一切后，您可以检查是否所有路由都正确。播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。在试听时，实时显示和计量会显示侧链电平，因此您可以轻松设置正确的触发阈值。之后，再次禁用试听模式。现在，您会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1239
+  },
+  {
+    "word": "side-chain level",
+    "ipa": "",
+    "translit": "",
+    "zh": "侧链电平",
+    "def": "侧链信号的强度或音量水平，用于设置触发阈值。",
+    "example": "例子：调整 side-chain level 以确保压缩器正确响应外部信号。",
+    "context": "After setting up everything according to the instructions below for your host, you can check whether everything is routed correctly. Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal. While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold. Afterwards, disable the Audition mode again. Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
+    "contextZh": "在按照以下针对您宿主的说明设置好一切后，您可以检查是否所有路由都正确。播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。在试听时，实时显示和计量会显示侧链电平，因此您可以轻松设置正确的触发阈值。之后，再次禁用试听模式。现在，您会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1240
+  },
+  {
+    "word": "trigger threshold",
+    "ipa": "",
+    "translit": "",
+    "zh": "触发阈值",
+    "def": "压缩器或其他处理器中，信号必须达到的水平才启动处理。",
+    "example": "例子：设置 trigger threshold 为 -20dB，让压缩器只在信号超过此值时工作。",
+    "context": "After setting up everything according to the instructions below for your host, you can check whether everything is routed correctly. Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal. While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold. Afterwards, disable the Audition mode again. Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
+    "contextZh": "在按照以下针对您宿主的说明设置好一切后，您可以检查是否所有路由都正确。播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。在试听时，实时显示和计量会显示侧链电平，因此您可以轻松设置正确的触发阈值。之后，再次禁用试听模式。现在，您会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1241
+  },
+  {
+    "word": "disable",
+    "ipa": "",
+    "translit": "",
+    "zh": "禁用",
+    "def": "关闭或停用某个功能或模式。",
+    "example": "例子：禁用 Audition mode 后，插件恢复正常处理。",
+    "context": "After setting up everything according to the instructions below for your host, you can check whether everything is routed correctly. Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal. While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold. Afterwards, disable the Audition mode again. Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
+    "contextZh": "在按照以下针对您宿主的说明设置好一切后，您可以检查是否所有路由都正确。播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。在试听时，实时显示和计量会显示侧链电平，因此您可以轻松设置正确的触发阈值。之后，再次禁用试听模式。现在，您会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1242
+  },
+  {
+    "word": "react",
+    "ipa": "",
+    "translit": "",
+    "zh": "反应",
+    "def": "指插件或系统对输入信号做出的响应或变化。",
+    "example": "例子：Pro-C 2 会根据侧链信号 react，调整压缩量。",
+    "context": "After setting up everything according to the instructions below for your host, you can check whether everything is routed correctly. Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal. While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold. Afterwards, disable the Audition mode again. Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
+    "contextZh": "在按照以下针对您宿主的说明设置好一切后，您可以检查是否所有路由都正确。播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。在试听时，实时显示和计量会显示侧链电平，因此您可以轻松设置正确的触发阈值。之后，再次禁用试听模式。现在，您会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1243
+  },
+  {
+    "word": "effect",
+    "ipa": "",
+    "translit": "",
+    "zh": "效果",
+    "def": "指对音频信号进行处理后产生的音色变化或空间感变化。",
+    "example": "例子：添加混响效果让声音听起来像在音乐厅里。",
+    "context": "Of course, you can fine-tune the plug-ins settings to customize the effect. Cubase Open Cubase and create a new empty project. Add two audio tracks that we'll use as main track and side chain track. Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Open the Mixer. In the main track, click on an empty insert slot and select the VST 3 version of FabFilter Pro-C 2 in the Dynamics menu (note the VST 3 icon which looks like ///).",
+    "contextZh": "当然，你可以微调插件的设置来自定义效果。Cubase：打开 Cubase 并创建一个新的空工程。添加两条音频轨，我们将把它们用作主轨和侧链轨。在主轨和侧链轨上都添加音频文件。你可以简单地从访达/资源管理器窗口中把音频文件拖拽到轨道上。打开混音器。在主轨中，点击一个空的插入槽，然后在动态菜单中选择 VST 3 版本的 FabFilter Pro-C 2（注意那个看起来像 /// 的 VST 3 图标）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1244
+  },
+  {
+    "word": "create a new empty project",
+    "ipa": "",
+    "translit": "",
+    "zh": "创建一个新的空工程",
+    "def": "指在 DAW 中新建一个不包含任何轨道或素材的项目文件。",
+    "example": "例子：打开 Cubase 后，选择「创建空工程」开始工作。",
+    "context": "Of course, you can fine-tune the plug-ins settings to customize the effect. Cubase Open Cubase and create a new empty project. Add two audio tracks that we'll use as main track and side chain track. Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Open the Mixer. In the main track, click on an empty insert slot and select the VST 3 version of FabFilter Pro-C 2 in the Dynamics menu (note the VST 3 icon which looks like ///).",
+    "contextZh": "当然，你可以微调插件的设置来自定义效果。Cubase：打开 Cubase 并创建一个新的空工程。添加两条音频轨，我们将把它们用作主轨和侧链轨。在主轨和侧链轨上都添加音频文件。你可以简单地从访达/资源管理器窗口中把音频文件拖拽到轨道上。打开混音器。在主轨中，点击一个空的插入槽，然后在动态菜单中选择 VST 3 版本的 FabFilter Pro-C 2（注意那个看起来像 /// 的 VST 3 图标）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1245
+  },
+  {
+    "word": "audio files",
+    "ipa": "",
+    "translit": "",
+    "zh": "音频文件",
+    "def": "指存储在磁盘上的声音数据文件，如 WAV、AIFF、MP3 等格式。",
+    "example": "例子：将 WAV 格式的音频文件拖入工程中使用。",
+    "context": "Of course, you can fine-tune the plug-ins settings to customize the effect. Cubase Open Cubase and create a new empty project. Add two audio tracks that we'll use as main track and side chain track. Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Open the Mixer. In the main track, click on an empty insert slot and select the VST 3 version of FabFilter Pro-C 2 in the Dynamics menu (note the VST 3 icon which looks like ///).",
+    "contextZh": "当然，你可以微调插件的设置来自定义效果。Cubase：打开 Cubase 并创建一个新的空工程。添加两条音频轨，我们将把它们用作主轨和侧链轨。在主轨和侧链轨上都添加音频文件。你可以简单地从访达/资源管理器窗口中把音频文件拖拽到轨道上。打开混音器。在主轨中，点击一个空的插入槽，然后在动态菜单中选择 VST 3 版本的 FabFilter Pro-C 2（注意那个看起来像 /// 的 VST 3 图标）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1246
+  },
+  {
+    "word": "Finder",
+    "ipa": "",
+    "translit": "",
+    "zh": "访达",
+    "def": "苹果 macOS 系统中的文件管理程序，相当于 Windows 的资源管理器。",
+    "example": "例子：在访达中找到音频文件，然后拖到 Cubase 的轨道上。",
+    "context": "Of course, you can fine-tune the plug-ins settings to customize the effect. Cubase Open Cubase and create a new empty project. Add two audio tracks that we'll use as main track and side chain track. Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Open the Mixer. In the main track, click on an empty insert slot and select the VST 3 version of FabFilter Pro-C 2 in the Dynamics menu (note the VST 3 icon which looks like ///).",
+    "contextZh": "当然，你可以微调插件的设置来自定义效果。Cubase：打开 Cubase 并创建一个新的空工程。添加两条音频轨，我们将把它们用作主轨和侧链轨。在主轨和侧链轨上都添加音频文件。你可以简单地从访达/资源管理器窗口中把音频文件拖拽到轨道上。打开混音器。在主轨中，点击一个空的插入槽，然后在动态菜单中选择 VST 3 版本的 FabFilter Pro-C 2（注意那个看起来像 /// 的 VST 3 图标）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1247
+  },
+  {
+    "word": "Explorer",
+    "ipa": "",
+    "translit": "",
+    "zh": "资源管理器",
+    "def": "微软 Windows 系统中的文件管理程序。",
+    "example": "例子：在资源管理器中浏览音频文件夹，找到需要的素材。",
+    "context": "Of course, you can fine-tune the plug-ins settings to customize the effect. Cubase Open Cubase and create a new empty project. Add two audio tracks that we'll use as main track and side chain track. Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Open the Mixer. In the main track, click on an empty insert slot and select the VST 3 version of FabFilter Pro-C 2 in the Dynamics menu (note the VST 3 icon which looks like ///).",
+    "contextZh": "当然，你可以微调插件的设置来自定义效果。Cubase：打开 Cubase 并创建一个新的空工程。添加两条音频轨，我们将把它们用作主轨和侧链轨。在主轨和侧链轨上都添加音频文件。你可以简单地从访达/资源管理器窗口中把音频文件拖拽到轨道上。打开混音器。在主轨中，点击一个空的插入槽，然后在动态菜单中选择 VST 3 版本的 FabFilter Pro-C 2（注意那个看起来像 /// 的 VST 3 图标）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1248
+  },
+  {
+    "word": "Dynamics menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "动态菜单",
+    "def": "DAW 插件分类菜单中的一个类别，包含压缩器、限制器、扩展器等动态处理插件。",
+    "example": "例子：在动态菜单下找到 FabFilter Pro-C 2 并点击加载。",
+    "context": "Of course, you can fine-tune the plug-ins settings to customize the effect. Cubase Open Cubase and create a new empty project. Add two audio tracks that we'll use as main track and side chain track. Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Open the Mixer. In the main track, click on an empty insert slot and select the VST 3 version of FabFilter Pro-C 2 in the Dynamics menu (note the VST 3 icon which looks like ///).",
+    "contextZh": "当然，你可以微调插件的设置来自定义效果。Cubase：打开 Cubase 并创建一个新的空工程。添加两条音频轨，我们将把它们用作主轨和侧链轨。在主轨和侧链轨上都添加音频文件。你可以简单地从访达/资源管理器窗口中把音频文件拖拽到轨道上。打开混音器。在主轨中，点击一个空的插入槽，然后在动态菜单中选择 VST 3 版本的 FabFilter Pro-C 2（注意那个看起来像 /// 的 VST 3 图标）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1249
+  },
+  {
+    "word": "VST 3 icon",
+    "ipa": "",
+    "translit": "",
+    "zh": "VST 3 图标",
+    "def": "用于标识该插件为 VST 3 格式的小图标，通常显示为三条斜线（///）。",
+    "example": "例子：看到插件名称旁边有 /// 图标，说明这是 VST 3 版本。",
+    "context": "Of course, you can fine-tune the plug-ins settings to customize the effect. Cubase Open Cubase and create a new empty project. Add two audio tracks that we'll use as main track and side chain track. Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Open the Mixer. In the main track, click on an empty insert slot and select the VST 3 version of FabFilter Pro-C 2 in the Dynamics menu (note the VST 3 icon which looks like ///).",
+    "contextZh": "当然，你可以微调插件的设置来自定义效果。Cubase：打开 Cubase 并创建一个新的空工程。添加两条音频轨，我们将把它们用作主轨和侧链轨。在主轨和侧链轨上都添加音频文件。你可以简单地从访达/资源管理器窗口中把音频文件拖拽到轨道上。打开混音器。在主轨中，点击一个空的插入槽，然后在动态菜单中选择 VST 3 版本的 FabFilter Pro-C 2（注意那个看起来像 /// 的 VST 3 图标）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1250
+  },
+  {
+    "word": "Open FabFilter Pro-C 2's interface",
+    "ipa": "",
+    "translit": "",
+    "zh": "打开 FabFilter Pro-C 2 的界面",
+    "def": "指启动并显示 FabFilter Pro-C 2 压缩器插件的操作面板。",
+    "example": "例子：在 DAW 中双击插件槽位中的 Pro-C 2 即可打开其界面。",
+    "context": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase. At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2. Logic Pro Open Logic Pro and create a new empty project via File > New... Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "contextZh": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部（Ext）。在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧），以在 Cubase 中启用外部侧链。在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。Logic Pro：打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目。添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1251
+  },
+  {
+    "word": "enable Side chain expert mode",
+    "ipa": "",
+    "translit": "",
+    "zh": "启用侧链专家模式",
+    "def": "在插件设置中开启高级侧链功能选项，以便进行更精细的侧链路由配置。",
+    "example": "例子：在 Pro-C 2 的设置菜单中勾选 Side chain expert mode 选项。",
+    "context": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase. At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2. Logic Pro Open Logic Pro and create a new empty project via File > New... Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "contextZh": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部（Ext）。在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧），以在 Cubase 中启用外部侧链。在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。Logic Pro：打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目。添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1252
+  },
+  {
+    "word": "set Side Chain to Ext",
+    "ipa": "",
+    "translit": "",
+    "zh": "将侧链设置为外部（Ext）",
+    "def": "将插件的侧链信号源从内部切换为外部输入，使插件接收来自其他轨道的信号。",
+    "example": "例子：在 Pro-C 2 的侧链面板中将 Side Chain 下拉菜单选为 Ext。",
+    "context": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase. At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2. Logic Pro Open Logic Pro and create a new empty project via File > New... Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "contextZh": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部（Ext）。在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧），以在 Cubase 中启用外部侧链。在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。Logic Pro：打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目。添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1253
+  },
+  {
+    "word": "In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons)",
+    "ipa": "",
+    "translit": "",
+    "zh": "在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧）",
+    "def": "在插件顶部工具栏中找到并点击激活侧链的按钮，该按钮位于读/写自动化按钮的右边。",
+    "example": "例子：在 Pro-C 2 标题栏中，R 和 W 按钮右侧有一个侧链图标按钮，点击即可激活。",
+    "context": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase. At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2. Logic Pro Open Logic Pro and create a new empty project via File > New... Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "contextZh": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部（Ext）。在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧），以在 Cubase 中启用外部侧链。在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。Logic Pro：打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目。添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1254
+  },
+  {
+    "word": "to enable the external side chain in Cubase",
+    "ipa": "",
+    "translit": "",
+    "zh": "以在 Cubase 中启用外部侧链",
+    "def": "上述操作的目的是让 Cubase 中的外部侧链信号能够被插件接收。",
+    "example": "例子：点击 Activate Side-Chain 后，Cubase 的侧链路由即可生效。",
+    "context": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase. At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2. Logic Pro Open Logic Pro and create a new empty project via File > New... Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "contextZh": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部（Ext）。在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧），以在 Cubase 中启用外部侧链。在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。Logic Pro：打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目。添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1255
+  },
+  {
+    "word": "At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入",
+    "def": "在 Cubase 混音器窗口中，把作为侧链信号源的轨道输出路由到 Pro-C 2 的侧链输入端口。",
+    "example": "例子：在混音器中找到侧链轨道，点击其输出路由选择器，选择 Pro-C 2 的 side-chain input。",
+    "context": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase. At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2. Logic Pro Open Logic Pro and create a new empty project via File > New... Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "contextZh": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部（Ext）。在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧），以在 Cubase 中启用外部侧链。在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。Logic Pro：打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目。添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1256
+  },
+  {
+    "word": "Open Logic Pro and create a new empty project via File > New...",
+    "ipa": "",
+    "translit": "",
+    "zh": "打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目",
+    "def": "启动 Logic Pro 后，使用菜单栏中的新建项目命令创建一个空白工程。",
+    "example": "例子：点击 File 菜单，选择 New...，在弹出的对话框中选择 Empty Project。",
+    "context": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase. At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2. Logic Pro Open Logic Pro and create a new empty project via File > New... Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "contextZh": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部（Ext）。在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧），以在 Cubase 中启用外部侧链。在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。Logic Pro：打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目。添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1257
+  },
+  {
+    "word": "Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "ipa": "",
+    "translit": "",
+    "zh": "添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "def": "在 Logic Pro 中新建两条音频轨道，一条作为需要处理的主信号轨道，另一条作为触发侧链的旁通信号轨道。",
+    "example": "例子：通过 Track > New... 创建两条音频轨，第一条命名为 Main，第二条命名为 Sidechain。",
+    "context": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase. At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2. Logic Pro Open Logic Pro and create a new empty project via File > New... Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "contextZh": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部（Ext）。在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧），以在 Cubase 中启用外部侧链。在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。Logic Pro：打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目。添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1258
+  },
+  {
+    "word": "Add audio files",
+    "ipa": "",
+    "translit": "",
+    "zh": "添加音频文件",
+    "def": "将音频文件导入到工程中，通常通过拖放或菜单操作完成。",
+    "example": "例子：把一段鼓循环和一段贝斯录音分别拖入工程。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1259
+  },
+  {
+    "word": "drag audio files",
+    "ipa": "",
+    "translit": "",
+    "zh": "拖拽音频文件",
+    "def": "用鼠标按住文件并将其移动到目标位置的操作方式。",
+    "example": "例子：从桌面把 WAV 文件拖到 DAW 的轨道区域。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1260
+  },
+  {
+    "word": "Finder/Explorer window",
+    "ipa": "",
+    "translit": "",
+    "zh": "访达/资源管理器窗口",
+    "def": "macOS 和 Windows 系统中用于浏览和管理文件的窗口。",
+    "example": "例子：在 Finder 中找到录音文件夹，把音频拖入工程。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "管乐",
+    "source": "小赫转存",
+    "id": 1261
+  },
+  {
+    "word": "Select the main track",
+    "ipa": "",
+    "translit": "",
+    "zh": "选择主轨道",
+    "def": "用鼠标点击主轨道，使其成为当前操作对象。",
+    "example": "例子：点击人声轨道标题栏，使其高亮显示。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1262
+  },
+  {
+    "word": "Insert effect slot",
+    "ipa": "",
+    "translit": "",
+    "zh": "插入效果槽",
+    "def": "轨道效果链中用于放置插入式效果器的位置，信号按顺序经过这些槽位。",
+    "example": "例子：在第一个插入槽中加载压缩器，第二个槽中加载均衡器。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1263
+  },
+  {
+    "word": "Side chain expert mode",
+    "ipa": "",
+    "translit": "",
+    "zh": "侧链专家模式",
+    "def": "插件中用于显示和配置侧链相关高级选项的模式。",
+    "example": "例子：启用该模式后，界面中会出现侧链来源选择菜单。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1264
+  },
+  {
+    "word": "Ext",
+    "ipa": "",
+    "translit": "",
+    "zh": "外部",
+    "def": "表示侧链信号来源为外部轨道，而非插件所在轨道自身的信号。",
+    "example": "例子：将 Side Chain 设为 Ext 后，压缩器由另一条轨道来控制。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1265
+  },
+  {
+    "word": "plug-in interface header",
+    "ipa": "",
+    "translit": "",
+    "zh": "插件界面标题栏",
+    "def": "插件窗口顶部的区域，通常包含预设、侧链等菜单。",
+    "example": "例子：在标题栏右上角找到侧链菜单并选择来源轨道。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1266
+  },
+  {
+    "word": "Side Chain menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "侧链菜单",
+    "def": "用于选择侧链信号来源轨道的下拉菜单。",
+    "example": "例子：在菜单中选中「底鼓」轨道作为触发源。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1267
+  },
+  {
+    "word": "choose the side chain track",
+    "ipa": "",
+    "translit": "",
+    "zh": "选择侧链轨道",
+    "def": "在菜单中指定哪条轨道的信号作为侧链输入。",
+    "example": "例子：从列表中选择「Kick」轨道，使其信号送入压缩器。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1268
+  },
+  {
+    "word": "signal",
+    "ipa": "",
+    "translit": "",
+    "zh": "信号",
+    "def": "在音频系统中流动的电信号或数字音频数据。",
+    "example": "例子：侧链轨道的信号被送入压缩器的外部侧链输入端。",
+    "context": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "contextZh": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1269
+  },
+  {
+    "word": "Track 1",
+    "ipa": "",
+    "translit": "",
+    "zh": "轨道 1",
+    "def": "指宿主软件中的第一条轨道，这里作为侧链信号源使用。",
+    "example": "例子：在 Ableton Live 中，Track 1 通常是第一个音频或 MIDI 轨道。",
+    "context": "In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs. Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs. To avoid this, use one additional track (e.g.",
+    "contextZh": "在轨道 1（侧链轨道）的 'Audio To' 菜单中选择 '轨道 2' 而不是默认的 '主输出'。此时下方会出现一个额外的菜单：选择 'FF Pro-C 2 3/4' 而不是默认的 '轨道输入'，将轨道信号路由到 FabFilter Pro-C 2 的外部侧链输入。注意：在上述场景中，你将不再听到轨道 1（侧链信号），因为它的音频只被路由到 Pro-C 2 的侧链输入。为避免这种情况，请额外使用一条轨道（例如",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1270
+  },
+  {
+    "word": "Audio To",
+    "ipa": "",
+    "translit": "",
+    "zh": "音频输出至",
+    "def": "宿主软件中用于选择轨道音频信号输出目的地的菜单选项。",
+    "example": "例子：在 Ableton Live 的轨道路由设置中，'Audio To' 下拉菜单可选择 Master、Send 或另一条轨道。",
+    "context": "In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs. Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs. To avoid this, use one additional track (e.g.",
+    "contextZh": "在轨道 1（侧链轨道）的 'Audio To' 菜单中选择 '轨道 2' 而不是默认的 '主输出'。此时下方会出现一个额外的菜单：选择 'FF Pro-C 2 3/4' 而不是默认的 '轨道输入'，将轨道信号路由到 FabFilter Pro-C 2 的外部侧链输入。注意：在上述场景中，你将不再听到轨道 1（侧链信号），因为它的音频只被路由到 Pro-C 2 的侧链输入。为避免这种情况，请额外使用一条轨道（例如",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1271
+  },
+  {
+    "word": "Track 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "轨道 2",
+    "def": "指宿主软件中的第二条轨道，这里作为接收侧链信号的目标轨道。",
+    "example": "例子：将 Track 1 的音频输出路由到 Track 2，使 Track 2 上的效果器能接收 Track 1 的信号。",
+    "context": "In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs. Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs. To avoid this, use one additional track (e.g.",
+    "contextZh": "在轨道 1（侧链轨道）的 'Audio To' 菜单中选择 '轨道 2' 而不是默认的 '主输出'。此时下方会出现一个额外的菜单：选择 'FF Pro-C 2 3/4' 而不是默认的 '轨道输入'，将轨道信号路由到 FabFilter Pro-C 2 的外部侧链输入。注意：在上述场景中，你将不再听到轨道 1（侧链信号），因为它的音频只被路由到 Pro-C 2 的侧链输入。为避免这种情况，请额外使用一条轨道（例如",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1272
+  },
+  {
+    "word": "Master",
+    "ipa": "",
+    "translit": "",
+    "zh": "主输出",
+    "def": "宿主软件中所有轨道的最终汇总输出通道，信号从这里送往声卡。",
+    "example": "例子：所有轨道的默认输出都指向 Master，再由 Master 统一输出到扬声器。",
+    "context": "In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs. Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs. To avoid this, use one additional track (e.g.",
+    "contextZh": "在轨道 1（侧链轨道）的 'Audio To' 菜单中选择 '轨道 2' 而不是默认的 '主输出'。此时下方会出现一个额外的菜单：选择 'FF Pro-C 2 3/4' 而不是默认的 '轨道输入'，将轨道信号路由到 FabFilter Pro-C 2 的外部侧链输入。注意：在上述场景中，你将不再听到轨道 1（侧链信号），因为它的音频只被路由到 Pro-C 2 的侧链输入。为避免这种情况，请额外使用一条轨道（例如",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1273
+  },
+  {
+    "word": "Track In",
+    "ipa": "",
+    "translit": "",
+    "zh": "轨道输入",
+    "def": "宿主软件中表示信号来自轨道自身内部输入的默认路由选项。",
+    "example": "例子：默认情况下，效果器的输入选择为 'Track In'，即接收所在轨道自身的音频信号。",
+    "context": "In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs. Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs. To avoid this, use one additional track (e.g.",
+    "contextZh": "在轨道 1（侧链轨道）的 'Audio To' 菜单中选择 '轨道 2' 而不是默认的 '主输出'。此时下方会出现一个额外的菜单：选择 'FF Pro-C 2 3/4' 而不是默认的 '轨道输入'，将轨道信号路由到 FabFilter Pro-C 2 的外部侧链输入。注意：在上述场景中，你将不再听到轨道 1（侧链信号），因为它的音频只被路由到 Pro-C 2 的侧链输入。为避免这种情况，请额外使用一条轨道（例如",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1274
+  },
+  {
+    "word": "route",
+    "ipa": "",
+    "translit": "",
+    "zh": "路由",
+    "def": "指将音频信号从一个节点传送到另一个节点的过程。",
+    "example": "例子：将 Track 1 的信号路由到 Pro-C 2 的侧链输入。",
+    "context": "In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs. Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs. To avoid this, use one additional track (e.g.",
+    "contextZh": "在轨道 1（侧链轨道）的 'Audio To' 菜单中选择 '轨道 2' 而不是默认的 '主输出'。此时下方会出现一个额外的菜单：选择 'FF Pro-C 2 3/4' 而不是默认的 '轨道输入'，将轨道信号路由到 FabFilter Pro-C 2 的外部侧链输入。注意：在上述场景中，你将不再听到轨道 1（侧链信号），因为它的音频只被路由到 Pro-C 2 的侧链输入。为避免这种情况，请额外使用一条轨道（例如",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1275
+  },
+  {
+    "word": "external side chain inputs",
+    "ipa": "",
+    "translit": "",
+    "zh": "外部侧链输入",
+    "def": "压缩器等效果器上用于接收外部信号来触发处理的输入端口。",
+    "example": "例子：将底鼓信号送入压缩器的外部侧链输入，使贝斯在底鼓响起时自动降低音量。",
+    "context": "In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs. Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs. To avoid this, use one additional track (e.g.",
+    "contextZh": "在轨道 1（侧链轨道）的 'Audio To' 菜单中选择 '轨道 2' 而不是默认的 '主输出'。此时下方会出现一个额外的菜单：选择 'FF Pro-C 2 3/4' 而不是默认的 '轨道输入'，将轨道信号路由到 FabFilter Pro-C 2 的外部侧链输入。注意：在上述场景中，你将不再听到轨道 1（侧链信号），因为它的音频只被路由到 Pro-C 2 的侧链输入。为避免这种情况，请额外使用一条轨道（例如",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1276
+  },
+  {
+    "word": "additional track",
+    "ipa": "",
+    "translit": "",
+    "zh": "额外轨道",
+    "def": "在现有轨道基础上再添加的一条轨道，用于解决特定路由问题。",
+    "example": "例子：为避免侧链信号消失，可以额外建一条轨道来同时监听侧链信号。",
+    "context": "In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs. Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs. To avoid this, use one additional track (e.g.",
+    "contextZh": "在轨道 1（侧链轨道）的 'Audio To' 菜单中选择 '轨道 2' 而不是默认的 '主输出'。此时下方会出现一个额外的菜单：选择 'FF Pro-C 2 3/4' 而不是默认的 '轨道输入'，将轨道信号路由到 FabFilter Pro-C 2 的外部侧链输入。注意：在上述场景中，你将不再听到轨道 1（侧链信号），因为它的音频只被路由到 Pro-C 2 的侧链输入。为避免这种情况，请额外使用一条轨道（例如",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1277
+  },
+  {
+    "word": "empty arrangement",
+    "ipa": "",
+    "translit": "",
+    "zh": "空白编曲视图",
+    "def": "指 Ableton Live 中没有任何片段或音符的初始编曲界面，供用户从零开始搭建音乐结构。",
+    "example": "例子：打开 Ableton Live 后，在编曲视图中看到一条条空白的轨道，等待拖入音频或 MIDI 片段。",
+    "context": "Ableton Live Open Ableton Live and start with an empty arrangement. We'll use Track 1 as the side chain track and Track 2 as the main track. From the folder menu's on at the left top of Ableton Live's interface, drag different audio clips to the first empty slots of Track 1 and Track 2. From the VST (or Audio Units) plug-in menu, also at the left top of Ableton Live's interface, drag FabFilter Pro-C 2 onto Track 2, the main track. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext.",
+    "contextZh": "打开 Ableton Live，从一个空白编曲视图开始。我们将使用第 1 轨作为侧链轨道，第 2 轨作为主轨道。从 Ableton Live 界面左上角的文件夹菜单中，将不同的音频片段拖到第 1 轨和第 2 轨的第一个空白槽位。从同样位于 Ableton Live 界面左上角的 VST（或 Audio Units）插件菜单中，将 FabFilter Pro-C 2 拖到第 2 轨，即主轨道上。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设置为 Ext。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1278
+  },
+  {
+    "word": "folder menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "文件夹菜单",
+    "def": "指 Ableton Live 界面左上角的浏览器区域，用于浏览和选择电脑中的音频文件、采样和预设。",
+    "example": "例子：在文件夹菜单中找到存放鼓采样的文件夹，展开后可以看到各个音频文件。",
+    "context": "Ableton Live Open Ableton Live and start with an empty arrangement. We'll use Track 1 as the side chain track and Track 2 as the main track. From the folder menu's on at the left top of Ableton Live's interface, drag different audio clips to the first empty slots of Track 1 and Track 2. From the VST (or Audio Units) plug-in menu, also at the left top of Ableton Live's interface, drag FabFilter Pro-C 2 onto Track 2, the main track. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext.",
+    "contextZh": "打开 Ableton Live，从一个空白编曲视图开始。我们将使用第 1 轨作为侧链轨道，第 2 轨作为主轨道。从 Ableton Live 界面左上角的文件夹菜单中，将不同的音频片段拖到第 1 轨和第 2 轨的第一个空白槽位。从同样位于 Ableton Live 界面左上角的 VST（或 Audio Units）插件菜单中，将 FabFilter Pro-C 2 拖到第 2 轨，即主轨道上。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设置为 Ext。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1279
+  },
+  {
+    "word": "audio clips",
+    "ipa": "",
+    "translit": "",
+    "zh": "音频片段",
+    "def": "指包含录制或导入声音的音频文件片段，可直接拖入 Ableton Live 的轨道中使用。",
+    "example": "例子：将一段鼓循环音频片段拖入第 1 轨的第一个空白槽位。",
+    "context": "Ableton Live Open Ableton Live and start with an empty arrangement. We'll use Track 1 as the side chain track and Track 2 as the main track. From the folder menu's on at the left top of Ableton Live's interface, drag different audio clips to the first empty slots of Track 1 and Track 2. From the VST (or Audio Units) plug-in menu, also at the left top of Ableton Live's interface, drag FabFilter Pro-C 2 onto Track 2, the main track. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext.",
+    "contextZh": "打开 Ableton Live，从一个空白编曲视图开始。我们将使用第 1 轨作为侧链轨道，第 2 轨作为主轨道。从 Ableton Live 界面左上角的文件夹菜单中，将不同的音频片段拖到第 1 轨和第 2 轨的第一个空白槽位。从同样位于 Ableton Live 界面左上角的 VST（或 Audio Units）插件菜单中，将 FabFilter Pro-C 2 拖到第 2 轨，即主轨道上。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设置为 Ext。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1280
+  },
+  {
+    "word": "first empty slots",
+    "ipa": "",
+    "translit": "",
+    "zh": "第一个空白槽位",
+    "def": "指轨道上尚未放置任何片段的空位，通常位于编曲视图或会话视图的起始位置。",
+    "example": "例子：把音频片段拖到第 1 轨的第一个空白槽位，片段便从该位置开始播放。",
+    "context": "Ableton Live Open Ableton Live and start with an empty arrangement. We'll use Track 1 as the side chain track and Track 2 as the main track. From the folder menu's on at the left top of Ableton Live's interface, drag different audio clips to the first empty slots of Track 1 and Track 2. From the VST (or Audio Units) plug-in menu, also at the left top of Ableton Live's interface, drag FabFilter Pro-C 2 onto Track 2, the main track. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext.",
+    "contextZh": "打开 Ableton Live，从一个空白编曲视图开始。我们将使用第 1 轨作为侧链轨道，第 2 轨作为主轨道。从 Ableton Live 界面左上角的文件夹菜单中，将不同的音频片段拖到第 1 轨和第 2 轨的第一个空白槽位。从同样位于 Ableton Live 界面左上角的 VST（或 Audio Units）插件菜单中，将 FabFilter Pro-C 2 拖到第 2 轨，即主轨道上。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设置为 Ext。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1281
+  },
+  {
+    "word": "VST",
+    "ipa": "",
+    "translit": "",
+    "zh": "虚拟工作室技术插件",
+    "def": "一种音频插件格式，允许第三方效果器和乐器在数字音频工作站中运行。",
+    "example": "例子：在 Ableton Live 中加载一个 VST 格式的压缩器插件来处理人声。",
+    "context": "Ableton Live Open Ableton Live and start with an empty arrangement. We'll use Track 1 as the side chain track and Track 2 as the main track. From the folder menu's on at the left top of Ableton Live's interface, drag different audio clips to the first empty slots of Track 1 and Track 2. From the VST (or Audio Units) plug-in menu, also at the left top of Ableton Live's interface, drag FabFilter Pro-C 2 onto Track 2, the main track. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext.",
+    "contextZh": "打开 Ableton Live，从一个空白编曲视图开始。我们将使用第 1 轨作为侧链轨道，第 2 轨作为主轨道。从 Ableton Live 界面左上角的文件夹菜单中，将不同的音频片段拖到第 1 轨和第 2 轨的第一个空白槽位。从同样位于 Ableton Live 界面左上角的 VST（或 Audio Units）插件菜单中，将 FabFilter Pro-C 2 拖到第 2 轨，即主轨道上。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设置为 Ext。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1282
+  },
+  {
+    "word": "plug-in menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "插件菜单",
+    "def": "指 Ableton Live 界面左上角用于浏览和选择已安装插件的菜单区域。",
+    "example": "例子：在插件菜单中找到 FabFilter 文件夹，展开后可以看到 Pro-C 2。",
+    "context": "Ableton Live Open Ableton Live and start with an empty arrangement. We'll use Track 1 as the side chain track and Track 2 as the main track. From the folder menu's on at the left top of Ableton Live's interface, drag different audio clips to the first empty slots of Track 1 and Track 2. From the VST (or Audio Units) plug-in menu, also at the left top of Ableton Live's interface, drag FabFilter Pro-C 2 onto Track 2, the main track. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext.",
+    "contextZh": "打开 Ableton Live，从一个空白编曲视图开始。我们将使用第 1 轨作为侧链轨道，第 2 轨作为主轨道。从 Ableton Live 界面左上角的文件夹菜单中，将不同的音频片段拖到第 1 轨和第 2 轨的第一个空白槽位。从同样位于 Ableton Live 界面左上角的 VST（或 Audio Units）插件菜单中，将 FabFilter Pro-C 2 拖到第 2 轨，即主轨道上。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设置为 Ext。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1283
+  },
+  {
+    "word": "Sends",
+    "ipa": "",
+    "translit": "",
+    "zh": "发送",
+    "def": "音频软件中用于将轨道信号发送到总线或其他轨道的路由功能。",
+    "example": "例子：在侧链轨道的第一个发送槽中选择 Bus 1。",
+    "context": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'. The track view for Bus 1 will open: set its level slider to 0.0 dB so the bus actually produces audio! In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
+    "contextZh": "在侧链轨道的第一个“发送”槽中选择“总线 1”。总线 1 的轨道视图将会打开：将其电平滑块设为 0.0 dB，使总线真正输出音频！在主轨道的第一个“插入”槽中选择“动态处理 > FabFilter Pro-C 2”。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设为“外部”。现在，在插件界面的“键控输入”菜单中（就在 FabFilter 标志上方），选择“总线 > 总线 1”，而不是默认的“无键控输入”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1284
+  },
+  {
+    "word": "Bus 1",
+    "ipa": "",
+    "translit": "",
+    "zh": "总线 1",
+    "def": "音频软件中的一条内部信号总线，可接收来自多个轨道的发送信号。",
+    "example": "例子：在发送槽中选择 Bus 1 作为目标总线。",
+    "context": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'. The track view for Bus 1 will open: set its level slider to 0.0 dB so the bus actually produces audio! In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
+    "contextZh": "在侧链轨道的第一个“发送”槽中选择“总线 1”。总线 1 的轨道视图将会打开：将其电平滑块设为 0.0 dB，使总线真正输出音频！在主轨道的第一个“插入”槽中选择“动态处理 > FabFilter Pro-C 2”。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设为“外部”。现在，在插件界面的“键控输入”菜单中（就在 FabFilter 标志上方），选择“总线 > 总线 1”，而不是默认的“无键控输入”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1285
+  },
+  {
+    "word": "track view",
+    "ipa": "",
+    "translit": "",
+    "zh": "轨道视图",
+    "def": "显示轨道各项参数和控制界面的窗口区域。",
+    "example": "例子：Bus 1 的轨道视图会自动打开。",
+    "context": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'. The track view for Bus 1 will open: set its level slider to 0.0 dB so the bus actually produces audio! In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
+    "contextZh": "在侧链轨道的第一个“发送”槽中选择“总线 1”。总线 1 的轨道视图将会打开：将其电平滑块设为 0.0 dB，使总线真正输出音频！在主轨道的第一个“插入”槽中选择“动态处理 > FabFilter Pro-C 2”。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设为“外部”。现在，在插件界面的“键控输入”菜单中（就在 FabFilter 标志上方），选择“总线 > 总线 1”，而不是默认的“无键控输入”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1286
+  },
+  {
+    "word": "level slider",
+    "ipa": "",
+    "translit": "",
+    "zh": "电平滑块",
+    "def": "用于调节轨道或总线输出音量的滑动控件。",
+    "example": "例子：将 Bus 1 的电平滑块设为 0.0 dB。",
+    "context": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'. The track view for Bus 1 will open: set its level slider to 0.0 dB so the bus actually produces audio! In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
+    "contextZh": "在侧链轨道的第一个“发送”槽中选择“总线 1”。总线 1 的轨道视图将会打开：将其电平滑块设为 0.0 dB，使总线真正输出音频！在主轨道的第一个“插入”槽中选择“动态处理 > FabFilter Pro-C 2”。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设为“外部”。现在，在插件界面的“键控输入”菜单中（就在 FabFilter 标志上方），选择“总线 > 总线 1”，而不是默认的“无键控输入”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1287
+  },
+  {
+    "word": "0.0 dB",
+    "ipa": "",
+    "translit": "",
+    "zh": "零分贝",
+    "def": "音频中的单位增益值，表示信号不衰减也不放大。",
+    "example": "例子：将电平滑块设为 0.0 dB 使总线正常输出音频。",
+    "context": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'. The track view for Bus 1 will open: set its level slider to 0.0 dB so the bus actually produces audio! In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
+    "contextZh": "在侧链轨道的第一个“发送”槽中选择“总线 1”。总线 1 的轨道视图将会打开：将其电平滑块设为 0.0 dB，使总线真正输出音频！在主轨道的第一个“插入”槽中选择“动态处理 > FabFilter Pro-C 2”。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设为“外部”。现在，在插件界面的“键控输入”菜单中（就在 FabFilter 标志上方），选择“总线 > 总线 1”，而不是默认的“无键控输入”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1288
+  },
+  {
+    "word": "Inserts",
+    "ipa": "",
+    "translit": "",
+    "zh": "插入效果",
+    "def": "音频软件中直接串联在轨道信号链上的效果器槽位。",
+    "example": "例子：在主轨道的第一个插入槽中选择 Pro-C 2。",
+    "context": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'. The track view for Bus 1 will open: set its level slider to 0.0 dB so the bus actually produces audio! In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
+    "contextZh": "在侧链轨道的第一个“发送”槽中选择“总线 1”。总线 1 的轨道视图将会打开：将其电平滑块设为 0.0 dB，使总线真正输出音频！在主轨道的第一个“插入”槽中选择“动态处理 > FabFilter Pro-C 2”。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设为“外部”。现在，在插件界面的“键控输入”菜单中（就在 FabFilter 标志上方），选择“总线 > 总线 1”，而不是默认的“无键控输入”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1289
+  },
+  {
+    "word": "Key Input",
+    "ipa": "",
+    "translit": "",
+    "zh": "键控输入",
+    "def": "插件界面中选择侧链触发信号来源的菜单。",
+    "example": "例子：在 Key Input 菜单中选择 Bus 1。",
+    "context": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'. The track view for Bus 1 will open: set its level slider to 0.0 dB so the bus actually produces audio! In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
+    "contextZh": "在侧链轨道的第一个“发送”槽中选择“总线 1”。总线 1 的轨道视图将会打开：将其电平滑块设为 0.0 dB，使总线真正输出音频！在主轨道的第一个“插入”槽中选择“动态处理 > FabFilter Pro-C 2”。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设为“外部”。现在，在插件界面的“键控输入”菜单中（就在 FabFilter 标志上方），选择“总线 > 总线 1”，而不是默认的“无键控输入”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1290
+  },
+  {
+    "word": "no key input",
+    "ipa": "",
+    "translit": "",
+    "zh": "无键控输入",
+    "def": "默认状态，表示没有外部侧链信号触发压缩器。",
+    "example": "例子：将默认的 no key input 改为 Bus 1。",
+    "context": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'. The track view for Bus 1 will open: set its level slider to 0.0 dB so the bus actually produces audio! In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
+    "contextZh": "在侧链轨道的第一个“发送”槽中选择“总线 1”。总线 1 的轨道视图将会打开：将其电平滑块设为 0.0 dB，使总线真正输出音频！在主轨道的第一个“插入”槽中选择“动态处理 > FabFilter Pro-C 2”。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设为“外部”。现在，在插件界面的“键控输入”菜单中（就在 FabFilter 标志上方），选择“总线 > 总线 1”，而不是默认的“无键控输入”。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1291
+  },
+  {
+    "word": "Track 3",
+    "ipa": "",
+    "translit": "",
+    "zh": "第3轨",
+    "def": "指音频软件中的第三条轨道，用于放置音频或 MIDI 片段。",
+    "example": "例子：在 Pro Tools 中，Track 3 通常显示在编辑窗口的第三行。",
+    "context": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "contextZh": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1292
+  },
+  {
+    "word": "choose 'Track 1' from its 'Audio From' dropdown menu",
+    "ipa": "",
+    "translit": "",
+    "zh": "从其“音频来源”下拉菜单中选择“第1轨”",
+    "def": "指示在侧链或路由设置中，将某轨的音频输入来源指定为 Track 1。",
+    "example": "例子：在侧链压缩器中，将“Audio From”设为 Track 1，即可用 Track 1 的信号触发压缩。",
+    "context": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "contextZh": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1293
+  },
+  {
+    "word": "in the 'Audio To' menu select 'Track 2' instead of the default 'Master'",
+    "ipa": "",
+    "translit": "",
+    "zh": "在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”",
+    "def": "将音频信号的输出去向从默认的主输出改为 Track 2，实现轨道路由。",
+    "example": "例子：将 Track 1 的输出改为 Track 2，可以让 Track 1 的信号经过 Track 2 的效果处理。",
+    "context": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "contextZh": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1294
+  },
+  {
+    "word": "Now, from the extra menu below choose 'FF Pro-C 2 3/4'",
+    "ipa": "",
+    "translit": "",
+    "zh": "现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”",
+    "def": "指示在侧链菜单中选择特定的侧链输入通道组合，此处为 FabFilter Pro-C 2 的 3/4 通道。",
+    "example": "例子：在 Pro Tools 的侧链下拉菜单中，选择“FF Pro-C 2 3/4”以指定侧链信号来源。",
+    "context": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "contextZh": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1295
+  },
+  {
+    "word": "Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal",
+    "ipa": "",
+    "translit": "",
+    "zh": "当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号",
+    "def": "说明如果希望继续听到 Track 1 的声音，应保留其输出为主输出，而不是改为其他轨道。",
+    "example": "例子：将 Track 1 的输出保留为 Master，同时通过发送或侧链将信号送至 Track 2 进行处理。",
+    "context": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "contextZh": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1296
+  },
+  {
+    "word": "Open Pro Tools and start a new empty session",
+    "ipa": "",
+    "translit": "",
+    "zh": "打开 Pro Tools 并新建一个空会话",
+    "def": "指示启动 Pro Tools 软件并创建一个不包含任何轨道或素材的新工程。",
+    "example": "例子：打开 Pro Tools 后，选择“Create New Session”，设置为空会话。",
+    "context": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "contextZh": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1297
+  },
+  {
+    "word": "Create two audio tracks that we'll use as main track and side chain track",
+    "ipa": "",
+    "translit": "",
+    "zh": "创建两条音频轨，分别用作主轨和侧链轨",
+    "def": "建立两条音频轨道，一条作为主要信号轨，另一条作为侧链触发轨。",
+    "example": "例子：创建 Audio Track 1 作为主轨，Audio Track 2 作为侧链轨。",
+    "context": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "contextZh": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1298
+  },
+  {
+    "word": "Add audio files to both track",
+    "ipa": "",
+    "translit": "",
+    "zh": "向两条轨道都添加音频文件",
+    "def": "将音频素材导入或拖放到两条轨道中，以便后续处理。",
+    "example": "例子：将鼓循环拖到主轨，将人声片段拖到侧链轨。",
+    "context": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "contextZh": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1299
+  },
+  {
+    "word": "Open the Mix window to display the tracks with their Insert slots and Sends slots",
+    "ipa": "",
+    "translit": "",
+    "zh": "打开混音窗口，显示各轨道及其插入槽和发送槽",
+    "def": "切换到混音视图，以便查看和操作每条轨道上的插件插入和发送路由。",
+    "example": "例子：在 Pro Tools 中按 Ctrl+= 打开 Mix 窗口，即可看到每条轨道的 Insert 和 Sends 区域。",
+    "context": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "contextZh": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "管乐",
+    "source": "小赫转存",
+    "id": 1300
+  },
+  {
+    "word": "If you do not accept and comply with these terms",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果您不接受并遵守这些条款",
+    "def": "这是一个条件句，说明不遵守条款的后果。",
+    "example": "例子：使用软件前必须同意服务条款，否则无法继续。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1301
+  },
+  {
+    "word": "you may not use the FabFilter software or its features",
+    "ipa": "",
+    "translit": "",
+    "zh": "您不得使用 FabFilter 软件或其功能",
+    "def": "说明违反条款时的限制，即禁止使用该软件及其各项功能。",
+    "example": "例子：未购买授权时，用户无法使用该软件的完整功能。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1302
+  },
+  {
+    "word": "Applicability",
+    "ipa": "",
+    "translit": "",
+    "zh": "适用范围",
+    "def": "这是一个标题，用于引出协议适用范围的说明。",
+    "example": "例子：合同中的“适用范围”部分通常说明协议适用于哪些产品或服务。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1303
+  },
+  {
+    "word": "This license agreement applies to all the FabFilter software, plug-ins and programs",
+    "ipa": "",
+    "translit": "",
+    "zh": "本许可协议适用于所有 FabFilter 软件、插件和程序",
+    "def": "说明该协议覆盖的对象范围，包括软件、插件和程序。",
+    "example": "例子：一份软件许可协议可能适用于该公司旗下的所有产品。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1304
+  },
+  {
+    "word": "you may use during the Evaluation period",
+    "ipa": "",
+    "translit": "",
+    "zh": "您在评估期内可能使用的",
+    "def": "限定适用范围，指在试用或评估阶段使用的软件。",
+    "example": "例子：试用期内用户可以免费使用该软件的全部功能。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1305
+  },
+  {
+    "word": "and/or thereafter subject to an acquired license key to certain FabFilter software of any version",
+    "ipa": "",
+    "translit": "",
+    "zh": "和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后",
+    "def": "说明评估期结束后，若获得授权密钥，协议仍然适用。",
+    "example": "例子：用户购买授权密钥后，继续使用软件仍受该协议约束。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1306
+  },
+  {
+    "word": "including any and all upgrades, supplements or services",
+    "ipa": "",
+    "translit": "",
+    "zh": "包括任何及所有升级、补充或服务",
+    "def": "扩展适用范围，涵盖后续的升级、附加内容和服务。",
+    "example": "例子：软件升级后，原有的许可协议依然有效。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1307
+  },
+  {
+    "word": "unless other terms come with such versions, upgrades or supplements",
+    "ipa": "",
+    "translit": "",
+    "zh": "除非这些版本、升级或补充附带其他条款",
+    "def": "说明例外情况，即如果新版本有单独条款，则以新条款为准。",
+    "example": "例子：某些重大版本更新可能附带新的许可协议。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1308
+  },
+  {
+    "word": "Licenses",
+    "ipa": "",
+    "translit": "",
+    "zh": "许可",
+    "def": "这是一个标题，用于引出关于授权方式的说明。",
+    "example": "例子：软件协议中“许可”部分通常说明用户获得的是使用权而非所有权。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1309
+  },
+  {
+    "word": "The software will be licensed to the Customer, not sold",
+    "ipa": "",
+    "translit": "",
+    "zh": "本软件将授权给客户使用，而非出售",
+    "def": "说明用户获得的是软件的使用许可，而不是软件的所有权。",
+    "example": "例子：购买软件时，用户获得的是许可证，而非软件本身的版权。",
+    "context": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "contextZh": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1310
+  },
+  {
+    "word": "Site License",
+    "ipa": "",
+    "translit": "",
+    "zh": "站点许可证",
+    "def": "以机构或实体名义获取的非个人许可证，被授权方为该机构或实体。",
+    "example": "例子：一所大学以学校名义购买 FabFilter 软件的站点许可证，供校内多个工作站使用。",
+    "context": "A Site License is a non-personal license to the FabFilter software concerned, acquired on the name of an institution or entity, who is the licensee. A Site License will grant access to the FabFilter software on a certain maximum number of designated Devices, as specified in the license key itself (e.g. \"20 seats\").",
+    "contextZh": "站点许可证是以机构或实体名义获取的、针对相关 FabFilter 软件的非个人许可证，该机构或实体即为被授权方。站点许可证将授予在许可证密钥本身所规定的特定最大数量的指定设备上访问 FabFilter 软件的权限（例如\"20 个席位\"）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1311
+  },
+  {
+    "word": "non-personal license",
+    "ipa": "",
+    "translit": "",
+    "zh": "非个人许可证",
+    "def": "指许可证的持有者不是自然人，而是机构、公司或其他实体。",
+    "example": "例子：某公司以企业名义购买的软件许可证属于非个人许可证。",
+    "context": "A Site License is a non-personal license to the FabFilter software concerned, acquired on the name of an institution or entity, who is the licensee. A Site License will grant access to the FabFilter software on a certain maximum number of designated Devices, as specified in the license key itself (e.g. \"20 seats\").",
+    "contextZh": "站点许可证是以机构或实体名义获取的、针对相关 FabFilter 软件的非个人许可证，该机构或实体即为被授权方。站点许可证将授予在许可证密钥本身所规定的特定最大数量的指定设备上访问 FabFilter 软件的权限（例如\"20 个席位\"）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1312
+  },
+  {
+    "word": "FabFilter software",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 软件",
+    "def": "指 FabFilter 公司开发的一系列音频处理插件和软件产品。",
+    "example": "例子：FabFilter Pro-Q 3 是一款常用的均衡器插件。",
+    "context": "A Site License is a non-personal license to the FabFilter software concerned, acquired on the name of an institution or entity, who is the licensee. A Site License will grant access to the FabFilter software on a certain maximum number of designated Devices, as specified in the license key itself (e.g. \"20 seats\").",
+    "contextZh": "站点许可证是以机构或实体名义获取的、针对相关 FabFilter 软件的非个人许可证，该机构或实体即为被授权方。站点许可证将授予在许可证密钥本身所规定的特定最大数量的指定设备上访问 FabFilter 软件的权限（例如\"20 个席位\"）。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1313
+  },
+  {
+    "word": "institution or entity",
+    "ipa": "",
+    "translit": "",
+    "zh": "机构或实体",
+    "def": "指购买许可证的组织单位，如学校、企业、政府部门等。",
+    "example": "例子：一家录音棚以公司实体身份购买站点许可证。",
+    "context": "A Site License is a non-personal license to the FabFilter software concerned, acquired on the name of an institution or entity, who is the licensee. A Site License will grant access to the FabFilter software on a certain maximum number of designated Devices, as specified in the license key itself (e.g. \"20 seats\").",
+    "contextZh": "站点许可证是以机构或实体名义获取的、针对相关 FabFilter 软件的非个人许可证，该机构或实体即为被授权方。站点许可证将授予在许可证密钥本身所规定的特定最大数量的指定设备上访问 FabFilter 软件的权限（例如\"20 个席位\"）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1314
+  },
+  {
+    "word": "licensee",
+    "ipa": "",
+    "translit": "",
+    "zh": "被授权方 / 许可证持有人",
+    "def": "指获得许可证使用权的一方，即许可证登记在其名下的机构或实体。",
+    "example": "例子：某大学是该校所购站点许可证的被授权方。",
+    "context": "A Site License is a non-personal license to the FabFilter software concerned, acquired on the name of an institution or entity, who is the licensee. A Site License will grant access to the FabFilter software on a certain maximum number of designated Devices, as specified in the license key itself (e.g. \"20 seats\").",
+    "contextZh": "站点许可证是以机构或实体名义获取的、针对相关 FabFilter 软件的非个人许可证，该机构或实体即为被授权方。站点许可证将授予在许可证密钥本身所规定的特定最大数量的指定设备上访问 FabFilter 软件的权限（例如\"20 个席位\"）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1315
+  },
+  {
+    "word": "designated Devices",
+    "ipa": "",
+    "translit": "",
+    "zh": "指定设备",
+    "def": "指许可证允许安装和使用软件的特定设备，数量由许可证密钥规定。",
+    "example": "例子：许可证规定最多可在 20 台指定电脑上激活该软件。",
+    "context": "A Site License is a non-personal license to the FabFilter software concerned, acquired on the name of an institution or entity, who is the licensee. A Site License will grant access to the FabFilter software on a certain maximum number of designated Devices, as specified in the license key itself (e.g. \"20 seats\").",
+    "contextZh": "站点许可证是以机构或实体名义获取的、针对相关 FabFilter 软件的非个人许可证，该机构或实体即为被授权方。站点许可证将授予在许可证密钥本身所规定的特定最大数量的指定设备上访问 FabFilter 软件的权限（例如\"20 个席位\"）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1316
+  },
+  {
+    "word": "seats",
+    "ipa": "",
+    "translit": "",
+    "zh": "授权席位",
+    "def": "指许可证允许的同时使用人数或设备数量单位。",
+    "example": "例子：\"20 seats\"表示该许可证最多支持 20 个席位（即 20 台设备或 20 名用户）。",
+    "context": "A Site License is a non-personal license to the FabFilter software concerned, acquired on the name of an institution or entity, who is the licensee. A Site License will grant access to the FabFilter software on a certain maximum number of designated Devices, as specified in the license key itself (e.g. \"20 seats\").",
+    "contextZh": "站点许可证是以机构或实体名义获取的、针对相关 FabFilter 软件的非个人许可证，该机构或实体即为被授权方。站点许可证将授予在许可证密钥本身所规定的特定最大数量的指定设备上访问 FabFilter 软件的权限（例如\"20 个席位\"）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1317
+  },
+  {
+    "word": "full payment",
+    "ipa": "",
+    "translit": "",
+    "zh": "全额付款",
+    "def": "指购买者已支付全部应付费用，没有任何未结清的款项。",
+    "example": "例子：只有完成全额付款后，系统才会自动发放许可证密钥。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1318
+  },
+  {
+    "word": "in perpetuity",
+    "ipa": "",
+    "translit": "",
+    "zh": "永久地",
+    "def": "表示权利没有时间限制，不会自动到期或失效。",
+    "example": "例子：购买后用户获得永久授权，无需每年续费。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1319
+  },
+  {
+    "word": "shall not automatically expire",
+    "ipa": "",
+    "translit": "",
+    "zh": "不会自动到期",
+    "def": "说明该授权不会因时间流逝而自行失效，强调授权的永久性。",
+    "example": "例子：与订阅制不同，永久授权的许可协议不会在一年后自动终止。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1320
+  },
+  {
+    "word": "run",
+    "ipa": "",
+    "translit": "",
+    "zh": "运行",
+    "def": "启动并执行软件程序，使其在设备上开始工作。",
+    "example": "例子：安装完成后，用户双击图标即可运行该软件。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1321
+  },
+  {
+    "word": "use",
+    "ipa": "",
+    "translit": "",
+    "zh": "使用",
+    "def": "在实际工作或创作中操作和利用软件的功能。",
+    "example": "例子：获得授权后，用户可以在商业项目中自由使用该软件。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1322
+  },
+  {
+    "word": "the software concerned",
+    "ipa": "",
+    "translit": "",
+    "zh": "相关软件",
+    "def": "指许可证所涵盖的那个具体软件产品。",
+    "example": "例子：如果购买的是 Pro-Q 3 的授权，那么\"相关软件\"就是指 Pro-Q 3。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1323
+  },
+  {
+    "word": "under certain conditions",
+    "ipa": "",
+    "translit": "",
+    "zh": "在特定条件下",
+    "def": "表示授权的行使受到某些限制或要求的约束。",
+    "example": "例子：例如授权可能限定只能在一台设备上使用，或禁止转售。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1324
+  },
+  {
+    "word": "conditions",
+    "ipa": "",
+    "translit": "",
+    "zh": "条件",
+    "def": "授权使用软件时需要满足的具体要求或限制条款。",
+    "example": "例子：常见的条件包括设备数量限制、禁止反向工程等。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1325
+  },
+  {
+    "word": "vary",
+    "ipa": "",
+    "translit": "",
+    "zh": "有所不同",
+    "def": "表示不同情况下条件会发生变化，并非统一固定。",
+    "example": "例子：个人版和教育版的授权条件各不相同。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1326
+  },
+  {
+    "word": "subject to",
+    "ipa": "",
+    "translit": "",
+    "zh": "取决于",
+    "def": "表示某事以另一事物为前提或受其约束。",
+    "example": "例子：具体条件取决于用户购买的是哪种类型的许可证。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1327
+  },
+  {
+    "word": "acquired",
+    "ipa": "",
+    "translit": "",
+    "zh": "已获取的",
+    "def": "指用户已经购买或获得的许可证。",
+    "example": "例子：用户获取的是永久许可证，则适用永久授权的条件。",
+    "context": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "contextZh": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1328
+  },
+  {
+    "word": "distinguishes",
+    "ipa": "",
+    "translit": "",
+    "zh": "区分 / 划分",
+    "def": "指将不同类别的事物加以区别和分类。",
+    "example": "例子：该公司区分了个人许可证和教育许可证两种类型。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1329
+  },
+  {
+    "word": "Personal License",
+    "ipa": "",
+    "translit": "",
+    "zh": "个人许可证",
+    "def": "一种记名许可证，指定特定个人使用，不可转让给他人。",
+    "example": "例子：张三购买的个人许可证只能由张三本人使用。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1330
+  },
+  {
+    "word": "named license",
+    "ipa": "",
+    "translit": "",
+    "zh": "记名许可证",
+    "def": "许可证与特定个人绑定，只有被指定的人才能使用。",
+    "example": "例子：企业为员工购买记名许可证，每位员工有独立的授权。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1331
+  },
+  {
+    "word": "granting access",
+    "ipa": "",
+    "translit": "",
+    "zh": "授予访问权限",
+    "def": "允许用户安装、运行和使用该软件。",
+    "example": "例子：购买许可证后，用户获得对软件的完整访问权限。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1332
+  },
+  {
+    "word": "unlimited number of Devices",
+    "ipa": "",
+    "translit": "",
+    "zh": "不限数量的设备",
+    "def": "用户可以在任意多台设备上安装和使用该软件，没有设备数量限制。",
+    "example": "例子：用户可以在台式机、笔记本和平板等多台设备上使用同一许可证。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1333
+  },
+  {
+    "word": "as long the license is used by the designated person",
+    "ipa": "",
+    "translit": "",
+    "zh": "只要该许可证由指定人员使用",
+    "def": "使用许可证的人必须是购买许可证密钥的指定个人。",
+    "example": "例子：如果许可证指定的是张三，则只有张三可以使用。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1334
+  },
+  {
+    "word": "who acquired the FabFilter license key",
+    "ipa": "",
+    "translit": "",
+    "zh": "购买 FabFilter 许可证密钥的人",
+    "def": "指通过正规渠道购买并获得许可证密钥的原始购买者。",
+    "example": "例子：李四从官网购买了许可证密钥，李四即为该密钥的购买者。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1335
+  },
+  {
+    "word": "Usage",
+    "ipa": "",
+    "translit": "",
+    "zh": "使用",
+    "def": "指对软件的实际操作和运行行为。",
+    "example": "例子：未经授权的使用可能导致许可证被吊销。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1336
+  },
+  {
+    "word": "someone else but the designated licensee",
+    "ipa": "",
+    "translit": "",
+    "zh": "指定被许可人以外的其他人",
+    "def": "指非许可证指定的那个人，即未获授权的第三方。",
+    "example": "例子：如果王五使用张三的个人许可证，王五就是指定被许可人以外的人。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1337
+  },
+  {
+    "word": "infringement",
+    "ipa": "",
+    "translit": "",
+    "zh": "侵权 / 侵犯",
+    "def": "违反法律或合同规定的行为，对权利人造成损害。",
+    "example": "例子：未经授权使用他人许可证属于侵权行为。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1338
+  },
+  {
+    "word": "the rights of FabFilter",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 的权利",
+    "def": "指 FabFilter 公司依法享有的知识产权和合同权利。",
+    "example": "例子：未经授权转让许可证侵犯了 FabFilter 的合法权益。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1339
+  },
+  {
+    "word": "The Customer",
+    "ipa": "",
+    "translit": "",
+    "zh": "客户 / 用户",
+    "def": "指购买或使用 FabFilter 软件许可证的个人或实体。",
+    "example": "例子：客户有责任妥善保管自己的许可证密钥。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1340
+  },
+  {
+    "word": "at all times",
+    "ipa": "",
+    "translit": "",
+    "zh": "在任何时候 / 始终",
+    "def": "表示没有例外，任何时候都必须遵守。",
+    "example": "例子：客户在任何时候都应保护好自己的许可证密钥。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1341
+  },
+  {
+    "word": "protect",
+    "ipa": "",
+    "translit": "",
+    "zh": "保护 / 保管",
+    "def": "采取措施防止许可证密钥被窃取或滥用。",
+    "example": "例子：客户应将许可证密钥存放在安全的地方。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1342
+  },
+  {
+    "word": "theft",
+    "ipa": "",
+    "translit": "",
+    "zh": "盗窃 / 窃取",
+    "def": "未经授权获取他人财产的行为。",
+    "example": "例子：许可证密钥被盗后可能被他人非法使用。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1343
+  },
+  {
+    "word": "abuse",
+    "ipa": "",
+    "translit": "",
+    "zh": "滥用",
+    "def": "不按许可条款规定的方式使用许可证。",
+    "example": "例子：将个人许可证分享给他人使用属于滥用行为。",
+    "context": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "contextZh": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1344
+  },
+  {
+    "word": "routed",
+    "ipa": "ˈruːtɪd",
+    "translit": "",
+    "zh": "路由 / 发送",
+    "def": "指将音频信号从一个节点传输到另一个节点的过程，在数字音频工作站中通过总线或通道实现信号流向的分配。",
+    "example": "例子：将人声轨道的信号路由到一个混响效果器上。",
+    "context": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "contextZh": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1345
+  },
+  {
+    "word": "FabFilter Software License Agreement",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 软件许可协议",
+    "def": "FabFilter 公司针对其软件产品制定的法律协议，规定了用户使用该公司软件的权利和条件。",
+    "example": "例子：安装 FabFilter 插件时需接受的协议即为 FabFilter 软件许可协议。",
+    "context": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "contextZh": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1346
+  },
+  {
+    "word": "concerns",
+    "ipa": "kənˈsɜːrnz",
+    "translit": "",
+    "zh": "涉及 / 关于",
+    "def": "表示某文件或条款所涵盖的内容范围，在此语境中指许可协议所涉及的主题。",
+    "example": "例子：本协议涉及您使用该软件的权利及条件。",
+    "context": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "contextZh": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1347
+  },
+  {
+    "word": "describes",
+    "ipa": "dɪˈskraɪbz",
+    "translit": "",
+    "zh": "描述 / 说明",
+    "def": "指对某事物的内容、性质或条件进行详细阐述。",
+    "example": "例子：该协议描述了您可以使用所选 FabFilter 软件的条件。",
+    "context": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "contextZh": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1348
+  },
+  {
+    "word": "we advise you to read",
+    "ipa": "",
+    "translit": "",
+    "zh": "我们建议您阅读",
+    "def": "一种正式的建议性表述，提示用户应当阅读某文件以了解重要信息。",
+    "example": "例子：我们建议您阅读整个协议，以充分了解您的权利和义务。",
+    "context": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "contextZh": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1349
+  },
+  {
+    "word": "entire agreement",
+    "ipa": "",
+    "translit": "",
+    "zh": "整个协议 / 完整协议",
+    "def": "指许可协议的全部内容，强调用户应阅读所有条款而非仅部分内容。",
+    "example": "例子：请阅读整个协议后再决定是否接受。",
+    "context": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "contextZh": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1350
+  },
+  {
+    "word": "By accepting this agreement",
+    "ipa": "",
+    "translit": "",
+    "zh": "接受本协议即",
+    "def": "表示用户通过点击\"同意\"或类似操作来表示同意协议条款的行为。",
+    "example": "例子：接受本协议即表示您同意所有条款。",
+    "context": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "contextZh": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1351
+  },
+  {
+    "word": "by using FabFilter software",
+    "ipa": "",
+    "translit": "",
+    "zh": "通过使用 FabFilter 软件",
+    "def": "指用户实际使用软件的行为，该行为本身也构成对协议的同意。",
+    "example": "例子：通过使用 FabFilter 软件，您同意受本协议约束。",
+    "context": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "contextZh": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1352
+  },
+  {
+    "word": "you agree to all of these terms",
+    "ipa": "",
+    "translit": "",
+    "zh": "您同意所有这些条款",
+    "def": "表示用户对协议中全部条款的认可和接受，具有法律约束力。",
+    "example": "例子：一旦接受协议，即表示您同意所有这些条款。",
+    "context": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "contextZh": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1353
+  },
+  {
+    "word": "automated processing",
+    "ipa": "",
+    "translit": "",
+    "zh": "自动化处理",
+    "def": "指由计算机程序或脚本自动执行、无需人工实时干预的数据或信号处理过程。",
+    "example": "例子：服务器在夜间自动批量转换上传的音频文件格式。",
+    "context": "If the Site License is used on computers/servers for any form of automated processing, the licensee may not make any plug-in controls/parameters of the FabFilter software available to the end users of the FabFilter software, i.e. only \"black box\" processing is allowed. These FabFilter licenses, whether a Personal or Site License, will give you access to certain FabFilter software of the specified major version.",
+    "contextZh": "如果站点许可证被用于计算机/服务器上的任何形式的自动化处理，被许可人不得将 FabFilter 软件的插件控件/参数提供给 FabFilter 软件的最终用户使用，即仅允许“黑箱”处理。这些 FabFilter 许可证，无论是个人许可证还是站点许可证，都将授予您访问指定主版本的某些 FabFilter 软件的权限。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1354
+  },
+  {
+    "word": "plug-in controls/parameters",
+    "ipa": "",
+    "translit": "",
+    "zh": "插件控件 / 参数",
+    "def": "指软件插件中可供用户调节的界面元素（如旋钮、滑块）及其对应的数值设定。",
+    "example": "例子：FabFilter Pro-Q 3 中的频率、增益和 Q 值调节旋钮。",
+    "context": "If the Site License is used on computers/servers for any form of automated processing, the licensee may not make any plug-in controls/parameters of the FabFilter software available to the end users of the FabFilter software, i.e. only \"black box\" processing is allowed. These FabFilter licenses, whether a Personal or Site License, will give you access to certain FabFilter software of the specified major version.",
+    "contextZh": "如果站点许可证被用于计算机/服务器上的任何形式的自动化处理，被许可人不得将 FabFilter 软件的插件控件/参数提供给 FabFilter 软件的最终用户使用，即仅允许“黑箱”处理。这些 FabFilter 许可证，无论是个人许可证还是站点许可证，都将授予您访问指定主版本的某些 FabFilter 软件的权限。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1355
+  },
+  {
+    "word": "end users",
+    "ipa": "",
+    "translit": "",
+    "zh": "最终用户",
+    "def": "指实际使用软件进行操作的终端用户，而非购买或管理许可证的机构。",
+    "example": "例子：使用学校电脑上 FabFilter 插件进行混音的学生。",
+    "context": "If the Site License is used on computers/servers for any form of automated processing, the licensee may not make any plug-in controls/parameters of the FabFilter software available to the end users of the FabFilter software, i.e. only \"black box\" processing is allowed. These FabFilter licenses, whether a Personal or Site License, will give you access to certain FabFilter software of the specified major version.",
+    "contextZh": "如果站点许可证被用于计算机/服务器上的任何形式的自动化处理，被许可人不得将 FabFilter 软件的插件控件/参数提供给 FabFilter 软件的最终用户使用，即仅允许“黑箱”处理。这些 FabFilter 许可证，无论是个人许可证还是站点许可证，都将授予您访问指定主版本的某些 FabFilter 软件的权限。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1356
+  },
+  {
+    "word": "black box processing",
+    "ipa": "",
+    "translit": "",
+    "zh": "黑箱处理",
+    "def": "指用户只能输入和输出数据，无法访问或修改内部处理参数和控件的使用方式。",
+    "example": "例子：自动化系统调用 FabFilter 插件处理音频，但用户看不到也调不了插件界面上的任何旋钮。",
+    "context": "If the Site License is used on computers/servers for any form of automated processing, the licensee may not make any plug-in controls/parameters of the FabFilter software available to the end users of the FabFilter software, i.e. only \"black box\" processing is allowed. These FabFilter licenses, whether a Personal or Site License, will give you access to certain FabFilter software of the specified major version.",
+    "contextZh": "如果站点许可证被用于计算机/服务器上的任何形式的自动化处理，被许可人不得将 FabFilter 软件的插件控件/参数提供给 FabFilter 软件的最终用户使用，即仅允许“黑箱”处理。这些 FabFilter 许可证，无论是个人许可证还是站点许可证，都将授予您访问指定主版本的某些 FabFilter 软件的权限。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1357
+  },
+  {
+    "word": "major version",
+    "ipa": "",
+    "translit": "",
+    "zh": "主版本",
+    "def": "指软件版本号中第一个数字发生变化的重大升级版本，通常包含显著的新功能或架构变更。",
+    "example": "例子：从 FabFilter Pro-Q 2 升级到 Pro-Q 3 即为一次主版本更新。",
+    "context": "If the Site License is used on computers/servers for any form of automated processing, the licensee may not make any plug-in controls/parameters of the FabFilter software available to the end users of the FabFilter software, i.e. only \"black box\" processing is allowed. These FabFilter licenses, whether a Personal or Site License, will give you access to certain FabFilter software of the specified major version.",
+    "contextZh": "如果站点许可证被用于计算机/服务器上的任何形式的自动化处理，被许可人不得将 FabFilter 软件的插件控件/参数提供给 FabFilter 软件的最终用户使用，即仅允许“黑箱”处理。这些 FabFilter 许可证，无论是个人许可证还是站点许可证，都将授予您访问指定主版本的某些 FabFilter 软件的权限。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1358
+  },
+  {
+    "word": "minor updates",
+    "ipa": "",
+    "translit": "",
+    "zh": "次要更新",
+    "def": "指软件版本号中小数点后第二位的变动，通常用于修复漏洞或添加小功能。",
+    "example": "例子：从版本 2.19 升级到 2.20 属于次要更新。",
+    "context": "The license will include all future minor updates to the software (e.g. version 2.19 to version 2.20), which typically include bug fixes or small new features. The license will exclude any future new major versions of the products (e.g. version 1.x to version 2.x). To allow yourself access to such new major version of the software, a new FabFilter license to such major version must be acquired.",
+    "contextZh": "该许可证将包含软件未来所有的次要更新（例如从版本 2.19 到版本 2.20），这些更新通常包括漏洞修复或小的新功能。该许可证不包含产品未来任何新的主要版本（例如从版本 1.x 到版本 2.x）。如需获取此类新主要版本的软件，必须购买相应的新 FabFilter 许可证。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1359
+  },
+  {
+    "word": "bug fixes",
+    "ipa": "",
+    "translit": "",
+    "zh": "漏洞修复",
+    "def": "指开发者为解决软件中已发现的错误或故障而进行的修正。",
+    "example": "例子：修复某个按钮点击后导致程序崩溃的问题。",
+    "context": "The license will include all future minor updates to the software (e.g. version 2.19 to version 2.20), which typically include bug fixes or small new features. The license will exclude any future new major versions of the products (e.g. version 1.x to version 2.x). To allow yourself access to such new major version of the software, a new FabFilter license to such major version must be acquired.",
+    "contextZh": "该许可证将包含软件未来所有的次要更新（例如从版本 2.19 到版本 2.20），这些更新通常包括漏洞修复或小的新功能。该许可证不包含产品未来任何新的主要版本（例如从版本 1.x 到版本 2.x）。如需获取此类新主要版本的软件，必须购买相应的新 FabFilter 许可证。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1360
+  },
+  {
+    "word": "new features",
+    "ipa": "",
+    "translit": "",
+    "zh": "新功能",
+    "def": "指在软件更新中加入的此前不具备的功能或特性。",
+    "example": "例子：在更新中新增了导出为 MP3 格式的选项。",
+    "context": "The license will include all future minor updates to the software (e.g. version 2.19 to version 2.20), which typically include bug fixes or small new features. The license will exclude any future new major versions of the products (e.g. version 1.x to version 2.x). To allow yourself access to such new major version of the software, a new FabFilter license to such major version must be acquired.",
+    "contextZh": "该许可证将包含软件未来所有的次要更新（例如从版本 2.19 到版本 2.20），这些更新通常包括漏洞修复或小的新功能。该许可证不包含产品未来任何新的主要版本（例如从版本 1.x 到版本 2.x）。如需获取此类新主要版本的软件，必须购买相应的新 FabFilter 许可证。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1361
+  },
+  {
+    "word": "major versions",
+    "ipa": "",
+    "translit": "",
+    "zh": "主要版本",
+    "def": "指软件版本号中整数位的变动，通常代表重大的功能变革或架构调整。",
+    "example": "例子：从版本 1.x 升级到 2.x 属于主要版本更新。",
+    "context": "The license will include all future minor updates to the software (e.g. version 2.19 to version 2.20), which typically include bug fixes or small new features. The license will exclude any future new major versions of the products (e.g. version 1.x to version 2.x). To allow yourself access to such new major version of the software, a new FabFilter license to such major version must be acquired.",
+    "contextZh": "该许可证将包含软件未来所有的次要更新（例如从版本 2.19 到版本 2.20），这些更新通常包括漏洞修复或小的新功能。该许可证不包含产品未来任何新的主要版本（例如从版本 1.x 到版本 2.x）。如需获取此类新主要版本的软件，必须购买相应的新 FabFilter 许可证。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1362
+  },
+  {
+    "word": "Upgrade License",
+    "ipa": "",
+    "translit": "",
+    "zh": "升级许可证",
+    "def": "一种针对 FabFilter 软件新主版本的个人许可证或站点许可证。",
+    "example": "例子：用户已拥有 FabFilter Pro-Q 3 的许可证，购买 Pro-Q 4 的升级许可证即可使用新版本。",
+    "context": "An Upgrade License is a Personal or Site License for a new major version of FabFilter software. You may only use an Upgrade License if you have a license for the previous major version of the same FabFilter software.",
+    "contextZh": "升级许可证是针对 FabFilter 软件新主版本的个人许可证或站点许可证。只有当您拥有同一 FabFilter 软件上一个主版本的许可证时，才能使用升级许可证。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1363
+  },
+  {
+    "word": "previous major version",
+    "ipa": "",
+    "translit": "",
+    "zh": "上一个主版本",
+    "def": "当前主版本之前的那一个主版本。",
+    "example": "例子：若当前使用的是 Pro-Q 4，则 Pro-Q 3 即为上一个主版本。",
+    "context": "An Upgrade License is a Personal or Site License for a new major version of FabFilter software. You may only use an Upgrade License if you have a license for the previous major version of the same FabFilter software.",
+    "contextZh": "升级许可证是针对 FabFilter 软件新主版本的个人许可证或站点许可证。只有当您拥有同一 FabFilter 软件上一个主版本的许可证时，才能使用升级许可证。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1364
+  },
+  {
+    "word": "FabFilter licenses",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 授权",
+    "def": "指 FabFilter 公司授予用户使用其软件产品的合法许可。",
+    "example": "例子：用户购买 FabFilter Pro-Q 3 后获得的个人授权。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1365
+  },
+  {
+    "word": "Customer",
+    "ipa": "",
+    "translit": "",
+    "zh": "客户",
+    "def": "指购买或获得 FabFilter 软件授权的个人或机构。",
+    "example": "例子：购买 FabFilter 产品的录音棚。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1366
+  },
+  {
+    "word": "end user",
+    "ipa": "",
+    "translit": "",
+    "zh": "最终用户",
+    "def": "指实际安装并使用软件的个人，可能是客户本人或其授权使用者。",
+    "example": "例子：录音棚内实际操作 FabFilter 插件的录音师。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1367
+  },
+  {
+    "word": "install and use",
+    "ipa": "",
+    "translit": "",
+    "zh": "安装和使用",
+    "def": "指将软件安装到设备上并实际运行使用的行为。",
+    "example": "例子：在电脑上安装 FabFilter Pro-C 2 并用于混音。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1368
+  },
+  {
+    "word": "to the extent it has been developed",
+    "ipa": "",
+    "translit": "",
+    "zh": "在软件已开发的功能范围内",
+    "def": "指授权仅限于软件当前已开发并提供的功能，不涵盖未开发的部分。",
+    "example": "例子：用户只能使用 FabFilter 已发布的功能，不能要求未开发的功能。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1369
+  },
+  {
+    "word": "under the conditions herein",
+    "ipa": "",
+    "translit": "",
+    "zh": "在本文规定的条件下",
+    "def": "指授权使用须遵守本协议中列明的各项条款和限制。",
+    "example": "例子：用户须遵守授权协议中的使用限制。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1370
+  },
+  {
+    "word": "rights not explicitly granted",
+    "ipa": "",
+    "translit": "",
+    "zh": "未明确授予的权利",
+    "def": "指协议中未明确给予客户的权利，仍归 FabFilter 所有。",
+    "example": "例子：协议未授予用户修改软件的权利。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1371
+  },
+  {
+    "word": "remain with FabFilter",
+    "ipa": "",
+    "translit": "",
+    "zh": "归 FabFilter 所有",
+    "def": "指未授予客户的权利由 FabFilter 保留。",
+    "example": "例子：软件的版权始终属于 FabFilter。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1372
+  },
+  {
+    "word": "including but not limited to",
+    "ipa": "",
+    "translit": "",
+    "zh": "包括但不限于",
+    "def": "用于列举示例，表示所列内容并非全部。",
+    "example": "例子：禁止行为包括但不限于修改和反向工程。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1373
+  },
+  {
+    "word": "alter",
+    "ipa": "",
+    "translit": "",
+    "zh": "修改",
+    "def": "指对软件进行更改或变动。",
+    "example": "例子：更改 FabFilter 软件的代码。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1374
+  },
+  {
+    "word": "reverse engineer",
+    "ipa": "",
+    "translit": "",
+    "zh": "反向工程",
+    "def": "指通过分析软件来推导其设计或源代码。",
+    "example": "例子：拆解 FabFilter 插件以了解其算法。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 1375
+  },
+  {
+    "word": "reverse compile",
+    "ipa": "",
+    "translit": "",
+    "zh": "反向编译",
+    "def": "指将已编译的程序还原为可读代码。",
+    "example": "例子：将 FabFilter 二进制文件反编译为源代码。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 1376
+  },
+  {
+    "word": "take apart",
+    "ipa": "",
+    "translit": "",
+    "zh": "拆解",
+    "def": "指将软件分解以研究其组成。",
+    "example": "例子：拆解 FabFilter 软件的文件结构。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1377
+  },
+  {
+    "word": "disassemble",
+    "ipa": "",
+    "translit": "",
+    "zh": "反汇编",
+    "def": "指将机器码转换为汇编代码以分析程序。",
+    "example": "例子：对 FabFilter 软件进行反汇编以查看底层指令。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1378
+  },
+  {
+    "word": "any of the files in the distribution",
+    "ipa": "",
+    "translit": "",
+    "zh": "发行包中的任何文件",
+    "def": "指软件分发中包含的所有文件。",
+    "example": "例子：安装包内的插件文件、配置文件等。",
+    "context": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1379
+  },
+  {
+    "word": "Educational (EDU)",
+    "ipa": "",
+    "translit": "",
+    "zh": "教育版",
+    "def": "指面向教育用途的软件授权类型，通常价格优惠或免费提供给教师和学生使用。",
+    "example": "例子：某大学音乐系为学生批量购买 FabFilter 教育版授权用于教学。",
+    "context": "Educational (EDU) and NFR licenses A Personal or Site License can be marked as EDU (Educational) or NFR (Not For Resale), meaning the following: A Personal or Site License marked as Educational License is equal to the respective Personal or Site License, with the only exception that the Educational License may not be transferred to a third party. A Personal or Site License marked as NFR (\"Not For Resale\"), is typically intended for journalists that wish to review the FabFilter software.",
+    "contextZh": "教育版（EDU）和 NFR 授权：个人授权或场地授权可以被标记为 EDU（教育版）或 NFR（禁止转售版），含义如下：被标记为教育授权的个人授权或场地授权等同于相应的个人授权或场地授权，唯一的例外是教育授权不得转让给第三方。被标记为 NFR（\"禁止转售\"）的个人授权或场地授权，通常面向希望评测 FabFilter 软件的记者。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1380
+  },
+  {
+    "word": "NFR (Not For Resale)",
+    "ipa": "",
+    "translit": "",
+    "zh": "非转售版 / 禁止转售版",
+    "def": "指明确禁止将授权再次出售或转让给他人的软件授权类型，通常免费提供给特定人群。",
+    "example": "例子：某音乐杂志记者收到 FabFilter 提供的 NFR 授权用于撰写评测文章。",
+    "context": "Educational (EDU) and NFR licenses A Personal or Site License can be marked as EDU (Educational) or NFR (Not For Resale), meaning the following: A Personal or Site License marked as Educational License is equal to the respective Personal or Site License, with the only exception that the Educational License may not be transferred to a third party. A Personal or Site License marked as NFR (\"Not For Resale\"), is typically intended for journalists that wish to review the FabFilter software.",
+    "contextZh": "教育版（EDU）和 NFR 授权：个人授权或场地授权可以被标记为 EDU（教育版）或 NFR（禁止转售版），含义如下：被标记为教育授权的个人授权或场地授权等同于相应的个人授权或场地授权，唯一的例外是教育授权不得转让给第三方。被标记为 NFR（\"禁止转售\"）的个人授权或场地授权，通常面向希望评测 FabFilter 软件的记者。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1381
+  },
+  {
+    "word": "Educational License",
+    "ipa": "",
+    "translit": "",
+    "zh": "教育授权",
+    "def": "指专门面向教育机构或师生发放的软件许可，功能与对应普通授权相同，但不可转让给第三方。",
+    "example": "例子：某学生以教育授权价格购买 FabFilter Total Bundle 用于课程学习。",
+    "context": "Educational (EDU) and NFR licenses A Personal or Site License can be marked as EDU (Educational) or NFR (Not For Resale), meaning the following: A Personal or Site License marked as Educational License is equal to the respective Personal or Site License, with the only exception that the Educational License may not be transferred to a third party. A Personal or Site License marked as NFR (\"Not For Resale\"), is typically intended for journalists that wish to review the FabFilter software.",
+    "contextZh": "教育版（EDU）和 NFR 授权：个人授权或场地授权可以被标记为 EDU（教育版）或 NFR（禁止转售版），含义如下：被标记为教育授权的个人授权或场地授权等同于相应的个人授权或场地授权，唯一的例外是教育授权不得转让给第三方。被标记为 NFR（\"禁止转售\"）的个人授权或场地授权，通常面向希望评测 FabFilter 软件的记者。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1382
+  },
+  {
+    "word": "Not For Resale",
+    "ipa": "",
+    "translit": "",
+    "zh": "禁止转售",
+    "def": "指该授权不得被再次出售或转让，通常用于提供给评测人员、记者等的免费授权。",
+    "example": "例子：记者收到的 NFR 授权在评测结束后不可挂在二手平台出售。",
+    "context": "Educational (EDU) and NFR licenses A Personal or Site License can be marked as EDU (Educational) or NFR (Not For Resale), meaning the following: A Personal or Site License marked as Educational License is equal to the respective Personal or Site License, with the only exception that the Educational License may not be transferred to a third party. A Personal or Site License marked as NFR (\"Not For Resale\"), is typically intended for journalists that wish to review the FabFilter software.",
+    "contextZh": "教育版（EDU）和 NFR 授权：个人授权或场地授权可以被标记为 EDU（教育版）或 NFR（禁止转售版），含义如下：被标记为教育授权的个人授权或场地授权等同于相应的个人授权或场地授权，唯一的例外是教育授权不得转让给第三方。被标记为 NFR（\"禁止转售\"）的个人授权或场地授权，通常面向希望评测 FabFilter 软件的记者。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1383
+  },
+  {
+    "word": "transferred to a third party",
+    "ipa": "",
+    "translit": "",
+    "zh": "转让给第三方",
+    "def": "指将软件授权所有权或使用权转移给原持有人以外的其他人。",
+    "example": "例子：教育授权明确禁止将授权转让给第三方，即学生毕业后不能把授权卖给他人。",
+    "context": "Educational (EDU) and NFR licenses A Personal or Site License can be marked as EDU (Educational) or NFR (Not For Resale), meaning the following: A Personal or Site License marked as Educational License is equal to the respective Personal or Site License, with the only exception that the Educational License may not be transferred to a third party. A Personal or Site License marked as NFR (\"Not For Resale\"), is typically intended for journalists that wish to review the FabFilter software.",
+    "contextZh": "教育版（EDU）和 NFR 授权：个人授权或场地授权可以被标记为 EDU（教育版）或 NFR（禁止转售版），含义如下：被标记为教育授权的个人授权或场地授权等同于相应的个人授权或场地授权，唯一的例外是教育授权不得转让给第三方。被标记为 NFR（\"禁止转售\"）的个人授权或场地授权，通常面向希望评测 FabFilter 软件的记者。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1384
+  },
+  {
+    "word": "journalists",
+    "ipa": "",
+    "translit": "",
+    "zh": "记者",
+    "def": "指从事新闻报道和内容撰写的专业人员，此处特指需要评测软件的音乐技术记者。",
+    "example": "例子：FabFilter 向音乐技术记者提供 NFR 授权，以便他们撰写软件评测。",
+    "context": "Educational (EDU) and NFR licenses A Personal or Site License can be marked as EDU (Educational) or NFR (Not For Resale), meaning the following: A Personal or Site License marked as Educational License is equal to the respective Personal or Site License, with the only exception that the Educational License may not be transferred to a third party. A Personal or Site License marked as NFR (\"Not For Resale\"), is typically intended for journalists that wish to review the FabFilter software.",
+    "contextZh": "教育版（EDU）和 NFR 授权：个人授权或场地授权可以被标记为 EDU（教育版）或 NFR（禁止转售版），含义如下：被标记为教育授权的个人授权或场地授权等同于相应的个人授权或场地授权，唯一的例外是教育授权不得转让给第三方。被标记为 NFR（\"禁止转售\"）的个人授权或场地授权，通常面向希望评测 FabFilter 软件的记者。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1385
+  },
+  {
+    "word": "review",
+    "ipa": "",
+    "translit": "",
+    "zh": "评测 / 评论",
+    "def": "指对软件产品进行体验后撰写的评价性文章或报告。",
+    "example": "例子：记者对 FabFilter 最新插件进行 review 后发表在专业音频杂志上。",
+    "context": "Educational (EDU) and NFR licenses A Personal or Site License can be marked as EDU (Educational) or NFR (Not For Resale), meaning the following: A Personal or Site License marked as Educational License is equal to the respective Personal or Site License, with the only exception that the Educational License may not be transferred to a third party. A Personal or Site License marked as NFR (\"Not For Resale\"), is typically intended for journalists that wish to review the FabFilter software.",
+    "contextZh": "教育版（EDU）和 NFR 授权：个人授权或场地授权可以被标记为 EDU（教育版）或 NFR（禁止转售版），含义如下：被标记为教育授权的个人授权或场地授权等同于相应的个人授权或场地授权，唯一的例外是教育授权不得转让给第三方。被标记为 NFR（\"禁止转售\"）的个人授权或场地授权，通常面向希望评测 FabFilter 软件的记者。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1386
+  },
+  {
+    "word": "Bundle License",
+    "ipa": "",
+    "translit": "",
+    "zh": "捆绑许可证",
+    "def": "一种针对多个软件产品的个人许可证或站点许可证，授权用户安装和使用购买时该捆绑包内包含的特定软件产品。",
+    "example": "例子：购买 Total Bundle 许可证后，可安装该捆绑包在购买时包含的所有 FabFilter 插件。",
+    "context": "A Bundle License is Personal or Site License for multiple FabFilter software products, which gives the Customer or end user the right to install and use the specific software products that the bundle (e.g. Total Bundle) contains at the moment of purchasing the Bundle License. Any software products or new major software versions added to the bundle after that date cannot be claimed as part of the prior acquired Bundle License. A Bundle License (if not Educational or NFR) can only be transferred as a whole, using a License Transfer.",
+    "contextZh": "捆绑许可证是针对多个 FabFilter 软件产品的个人许可证或站点许可证，它授予客户或最终用户安装和使用该捆绑包（如 Total Bundle）在购买捆绑许可证时所包含的特定软件产品的权利。在该日期之后添加到捆绑包中的任何软件产品或新的主要软件版本，均不能作为先前已购捆绑许可证的一部分来主张。捆绑许可证（若非教育许可证或 NFR）只能通过许可证转让的方式整体转让。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1387
+  },
+  {
+    "word": "Total Bundle",
+    "ipa": "",
+    "translit": "",
+    "zh": "Total Bundle（全套捆绑包）",
+    "def": "FabFilter 提供的包含其全部软件产品的捆绑包，购买后可获得所有当前产品的使用授权。",
+    "example": "例子：Total Bundle 包含 Pro-Q 3、Pro-C 2、Pro-R、Saturn 2 等全部插件。",
+    "context": "A Bundle License is Personal or Site License for multiple FabFilter software products, which gives the Customer or end user the right to install and use the specific software products that the bundle (e.g. Total Bundle) contains at the moment of purchasing the Bundle License. Any software products or new major software versions added to the bundle after that date cannot be claimed as part of the prior acquired Bundle License. A Bundle License (if not Educational or NFR) can only be transferred as a whole, using a License Transfer.",
+    "contextZh": "捆绑许可证是针对多个 FabFilter 软件产品的个人许可证或站点许可证，它授予客户或最终用户安装和使用该捆绑包（如 Total Bundle）在购买捆绑许可证时所包含的特定软件产品的权利。在该日期之后添加到捆绑包中的任何软件产品或新的主要软件版本，均不能作为先前已购捆绑许可证的一部分来主张。捆绑许可证（若非教育许可证或 NFR）只能通过许可证转让的方式整体转让。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1388
+  },
+  {
+    "word": "Major Software Version",
+    "ipa": "",
+    "translit": "",
+    "zh": "主要软件版本",
+    "def": "软件的重大升级版本，通常包含显著的新功能或架构变化，版本号一般以整数递增表示。",
+    "example": "例子：从 Pro-Q 2 升级到 Pro-Q 3 即为一次主要版本更新。",
+    "context": "A Bundle License is Personal or Site License for multiple FabFilter software products, which gives the Customer or end user the right to install and use the specific software products that the bundle (e.g. Total Bundle) contains at the moment of purchasing the Bundle License. Any software products or new major software versions added to the bundle after that date cannot be claimed as part of the prior acquired Bundle License. A Bundle License (if not Educational or NFR) can only be transferred as a whole, using a License Transfer.",
+    "contextZh": "捆绑许可证是针对多个 FabFilter 软件产品的个人许可证或站点许可证，它授予客户或最终用户安装和使用该捆绑包（如 Total Bundle）在购买捆绑许可证时所包含的特定软件产品的权利。在该日期之后添加到捆绑包中的任何软件产品或新的主要软件版本，均不能作为先前已购捆绑许可证的一部分来主张。捆绑许可证（若非教育许可证或 NFR）只能通过许可证转让的方式整体转让。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1389
+  },
+  {
+    "word": "NFR",
+    "ipa": "",
+    "translit": "",
+    "zh": "NFR（Not For Resale，非转售品）",
+    "def": "通常免费提供给经销商、评测人员或合作伙伴的许可证，明确禁止转售。",
+    "example": "例子：插件评测网站收到的 NFR 许可证不得二次销售。",
+    "context": "A Bundle License is Personal or Site License for multiple FabFilter software products, which gives the Customer or end user the right to install and use the specific software products that the bundle (e.g. Total Bundle) contains at the moment of purchasing the Bundle License. Any software products or new major software versions added to the bundle after that date cannot be claimed as part of the prior acquired Bundle License. A Bundle License (if not Educational or NFR) can only be transferred as a whole, using a License Transfer.",
+    "contextZh": "捆绑许可证是针对多个 FabFilter 软件产品的个人许可证或站点许可证，它授予客户或最终用户安装和使用该捆绑包（如 Total Bundle）在购买捆绑许可证时所包含的特定软件产品的权利。在该日期之后添加到捆绑包中的任何软件产品或新的主要软件版本，均不能作为先前已购捆绑许可证的一部分来主张。捆绑许可证（若非教育许可证或 NFR）只能通过许可证转让的方式整体转让。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1390
+  },
+  {
+    "word": "License Transfer",
+    "ipa": "",
+    "translit": "",
+    "zh": "许可证转让",
+    "def": "将软件许可证的所有权从一方转移给另一方的正式流程，通常需要通过开发商或授权平台完成。",
+    "example": "例子：用户通过 FabFilter 官方支持的许可证转让流程将插件出售给他人。",
+    "context": "A Bundle License is Personal or Site License for multiple FabFilter software products, which gives the Customer or end user the right to install and use the specific software products that the bundle (e.g. Total Bundle) contains at the moment of purchasing the Bundle License. Any software products or new major software versions added to the bundle after that date cannot be claimed as part of the prior acquired Bundle License. A Bundle License (if not Educational or NFR) can only be transferred as a whole, using a License Transfer.",
+    "contextZh": "捆绑许可证是针对多个 FabFilter 软件产品的个人许可证或站点许可证，它授予客户或最终用户安装和使用该捆绑包（如 Total Bundle）在购买捆绑许可证时所包含的特定软件产品的权利。在该日期之后添加到捆绑包中的任何软件产品或新的主要软件版本，均不能作为先前已购捆绑许可证的一部分来主张。捆绑许可证（若非教育许可证或 NFR）只能通过许可证转让的方式整体转让。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1391
+  },
+  {
+    "word": "Duration",
+    "ipa": "",
+    "translit": "",
+    "zh": "有效期",
+    "def": "指许可证协议生效的持续时长。",
+    "example": "例子：某许可证的有效期为永久，即不会自动到期。",
+    "context": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "contextZh": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1392
+  },
+  {
+    "word": "Evaluation",
+    "ipa": "",
+    "translit": "",
+    "zh": "评估期",
+    "def": "指用户在正式购买前可免费试用软件的期限。",
+    "example": "例子：用户可在评估期内免费使用软件，评估期结束后需购买许可证才能继续使用。",
+    "context": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "contextZh": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1393
+  },
+  {
+    "word": "As specified in the specific terms per license",
+    "ipa": "",
+    "translit": "",
+    "zh": "按各许可证的具体条款规定",
+    "def": "说明不同许可证类型的细节条件以各自的条款为准。",
+    "example": "例子：个人许可证与站点许可证的具体条款可能不同，需分别查阅。",
+    "context": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "contextZh": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1394
+  },
+  {
+    "word": "all licenses will be granted for perpetuity",
+    "ipa": "",
+    "translit": "",
+    "zh": "所有许可证均授予永久期限",
+    "def": "指许可证协议不会自动到期，只要用户遵守条款即可持续有效。",
+    "example": "例子：用户购买许可证后，只要不违反协议，便可无限期使用该软件。",
+    "context": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "contextZh": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1395
+  },
+  {
+    "word": "the license agreement shall not automatically expire",
+    "ipa": "",
+    "translit": "",
+    "zh": "许可协议不会自动失效",
+    "def": "强调协议没有固定的到期日，不会因时间流逝而自动终止。",
+    "example": "例子：与订阅制不同，该许可协议不会在一年后自动失效。",
+    "context": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "contextZh": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1396
+  },
+  {
+    "word": "as long as all conditions herein are respected",
+    "ipa": "",
+    "translit": "",
+    "zh": "只要遵守本协议中的所有条件",
+    "def": "说明永久有效的先决条件是用户持续遵守协议条款。",
+    "example": "例子：若用户违反协议条款，则永久许可可能被终止。",
+    "context": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "contextZh": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1397
+  },
+  {
+    "word": "The Evaluation period is a period of thirty (30) days",
+    "ipa": "",
+    "translit": "",
+    "zh": "评估期为三十（30）天",
+    "def": "规定免费试用期的具体时长为 30 天。",
+    "example": "例子：用户下载软件后可在 30 天内免费试用。",
+    "context": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "contextZh": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1398
+  },
+  {
+    "word": "commencing on the first day of using the software concerned",
+    "ipa": "",
+    "translit": "",
+    "zh": "自使用相关软件的第一天起算",
+    "def": "说明评估期的起算时间点，即用户首次使用软件之日。",
+    "example": "例子：用户于 3 月 1 日首次打开软件，则评估期从 3 月 1 日开始计算。",
+    "context": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "contextZh": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1399
+  },
+  {
+    "word": "automatically expiring 30 days thereafter",
+    "ipa": "",
+    "translit": "",
+    "zh": "此后 30 天自动到期",
+    "def": "说明评估期在起算日之后的第 30 天自动结束，无需另行通知。",
+    "example": "例子：3 月 1 日开始试用，3 月 31 日评估期自动到期。",
+    "context": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "contextZh": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1400
+  },
+  {
+    "word": "FabFilter license key",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 许可证密钥",
+    "def": "用于激活 FabFilter 软件合法使用权的唯一授权码，通常由字母和数字组成。",
+    "example": "例子：用户在购买软件后收到一封包含许可证密钥的邮件，输入后即可解锁完整版。",
+    "context": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "contextZh": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1401
+  },
+  {
+    "word": "stop working",
+    "ipa": "",
+    "translit": "",
+    "zh": "停止运行",
+    "def": "指软件因授权过期而无法继续正常使用，功能被禁用。",
+    "example": "例子：评估期结束后未输入许可证密钥，软件弹出提示并停止运行。",
+    "context": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "contextZh": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1402
+  },
+  {
+    "word": "removed from your computer",
+    "ipa": "",
+    "translit": "",
+    "zh": "从您的计算机中移除",
+    "def": "指用户应当卸载并删除该软件及其相关文件。",
+    "example": "例子：软件停止运行后，用户应在控制面板中选择卸载，将其从计算机中移除。",
+    "context": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "contextZh": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1403
+  },
+  {
+    "word": "without prior notice or warning",
+    "ipa": "",
+    "translit": "",
+    "zh": "未经事先通知或警告",
+    "def": "表示 FabFilter 可以在不提前告知用户的情况下直接采取行动。",
+    "example": "例子：若发现用户滥用软件，FabFilter 可未经事先通知或警告直接终止授权。",
+    "context": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "contextZh": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1404
+  },
+  {
+    "word": "abuse of the FabFilter software",
+    "ipa": "",
+    "translit": "",
+    "zh": "滥用 FabFilter 软件",
+    "def": "指用户违反许可协议使用软件的行为，如盗版、超范围分发等。",
+    "example": "例子：将单用户许可证密钥分享给多人使用，即构成滥用 FabFilter 软件。",
+    "context": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "contextZh": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1405
+  },
+  {
+    "word": "(personal) bankruptcy",
+    "ipa": "",
+    "translit": "",
+    "zh": "（个人）破产",
+    "def": "指用户个人财务状况恶化，被法院宣告破产的法律状态。",
+    "example": "例子：若用户被宣告个人破产，FabFilter 可据此终止其软件授权。",
+    "context": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "contextZh": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1406
+  },
+  {
+    "word": "terminate",
+    "ipa": "",
+    "translit": "",
+    "zh": "终止",
+    "def": "指 FabFilter 单方面结束用户使用软件的授权权利。",
+    "example": "例子：在发现滥用行为后，FabFilter 可立即终止该用户的许可证。",
+    "context": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "contextZh": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1407
+  },
+  {
+    "word": "reasonable commercial efforts",
+    "ipa": "",
+    "translit": "",
+    "zh": "合理的商业努力",
+    "def": "指企业在正常商业条件下应尽到的合理程度的努力，而非绝对保证。",
+    "example": "例子：FabFilter 将尽合理的商业努力为各主要版本提供技术支持。",
+    "context": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "contextZh": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1408
+  },
+  {
+    "word": "email support",
+    "ipa": "",
+    "translit": "",
+    "zh": "电子邮件支持",
+    "def": "指通过电子邮件方式为用户提供技术咨询和问题解答的服务。",
+    "example": "例子：用户可通过发送邮件至官方支持邮箱获得电子邮件支持。",
+    "context": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "contextZh": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1409
+  },
+  {
+    "word": "terminate support",
+    "ipa": "",
+    "translit": "",
+    "zh": "终止支持",
+    "def": "指停止对某软件版本提供更新、维护或技术服务。",
+    "example": "例子：公司决定对旧版本终止支持，不再发布修复补丁。",
+    "context": "FabFilter is entitled to terminate support for any major version of any FabFilter software at any time at its sole discretion. License Transfer A Personal or Site License (not Educational or NFR) may be transferred to a third party. You will have to buy a License Transfer to activate the \"transfer\"-option in your FabFilter account . After this option has been activated you will be able to transfer your license to any third party. Third Party Software VST is a trademark of Steinberg Media Technologies GmbH.",
+    "contextZh": "FabFilter 有权自行决定随时终止对任何 FabFilter 软件任何主版本的支持。许可证转让：个人许可证或站点许可证（非教育许可证或 NFR 许可证）可以转让给第三方。您需要购买许可证转让服务，才能在您的 FabFilter 账户中激活“转让”选项。激活该选项后，您即可将许可证转让给任何第三方。第三方软件：VST 是 Steinberg Media Technologies GmbH 的商标。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1410
+  },
+  {
+    "word": "at its sole discretion",
+    "ipa": "",
+    "translit": "",
+    "zh": "自行决定 / 全权酌情决定",
+    "def": "表示某方有权独自做出决定，无需征得他人同意。",
+    "example": "例子：公司可自行决定是否终止对某版本的支持。",
+    "context": "FabFilter is entitled to terminate support for any major version of any FabFilter software at any time at its sole discretion. License Transfer A Personal or Site License (not Educational or NFR) may be transferred to a third party. You will have to buy a License Transfer to activate the \"transfer\"-option in your FabFilter account . After this option has been activated you will be able to transfer your license to any third party. Third Party Software VST is a trademark of Steinberg Media Technologies GmbH.",
+    "contextZh": "FabFilter 有权自行决定随时终止对任何 FabFilter 软件任何主版本的支持。许可证转让：个人许可证或站点许可证（非教育许可证或 NFR 许可证）可以转让给第三方。您需要购买许可证转让服务，才能在您的 FabFilter 账户中激活“转让”选项。激活该选项后，您即可将许可证转让给任何第三方。第三方软件：VST 是 Steinberg Media Technologies GmbH 的商标。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1411
+  },
+  {
+    "word": "third party",
+    "ipa": "",
+    "translit": "",
+    "zh": "第三方",
+    "def": "指除当事双方之外的其他人或机构。",
+    "example": "例子：用户可将许可证转让给任何第三方。",
+    "context": "FabFilter is entitled to terminate support for any major version of any FabFilter software at any time at its sole discretion. License Transfer A Personal or Site License (not Educational or NFR) may be transferred to a third party. You will have to buy a License Transfer to activate the \"transfer\"-option in your FabFilter account . After this option has been activated you will be able to transfer your license to any third party. Third Party Software VST is a trademark of Steinberg Media Technologies GmbH.",
+    "contextZh": "FabFilter 有权自行决定随时终止对任何 FabFilter 软件任何主版本的支持。许可证转让：个人许可证或站点许可证（非教育许可证或 NFR 许可证）可以转让给第三方。您需要购买许可证转让服务，才能在您的 FabFilter 账户中激活“转让”选项。激活该选项后，您即可将许可证转让给任何第三方。第三方软件：VST 是 Steinberg Media Technologies GmbH 的商标。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1412
+  },
+  {
+    "word": "activate",
+    "ipa": "",
+    "translit": "",
+    "zh": "激活",
+    "def": "使某项功能或授权正式生效的操作。",
+    "example": "例子：购买许可证转让后，需在账户中激活转让选项。",
+    "context": "FabFilter is entitled to terminate support for any major version of any FabFilter software at any time at its sole discretion. License Transfer A Personal or Site License (not Educational or NFR) may be transferred to a third party. You will have to buy a License Transfer to activate the \"transfer\"-option in your FabFilter account . After this option has been activated you will be able to transfer your license to any third party. Third Party Software VST is a trademark of Steinberg Media Technologies GmbH.",
+    "contextZh": "FabFilter 有权自行决定随时终止对任何 FabFilter 软件任何主版本的支持。许可证转让：个人许可证或站点许可证（非教育许可证或 NFR 许可证）可以转让给第三方。您需要购买许可证转让服务，才能在您的 FabFilter 账户中激活“转让”选项。激活该选项后，您即可将许可证转让给任何第三方。第三方软件：VST 是 Steinberg Media Technologies GmbH 的商标。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1413
+  },
+  {
+    "word": "transfer-option",
+    "ipa": "",
+    "translit": "",
+    "zh": "转让选项",
+    "def": "软件账户中用于发起许可证转让的功能入口。",
+    "example": "例子：激活转让选项后，账户中会出现转让许可证的按钮。",
+    "context": "FabFilter is entitled to terminate support for any major version of any FabFilter software at any time at its sole discretion. License Transfer A Personal or Site License (not Educational or NFR) may be transferred to a third party. You will have to buy a License Transfer to activate the \"transfer\"-option in your FabFilter account . After this option has been activated you will be able to transfer your license to any third party. Third Party Software VST is a trademark of Steinberg Media Technologies GmbH.",
+    "contextZh": "FabFilter 有权自行决定随时终止对任何 FabFilter 软件任何主版本的支持。许可证转让：个人许可证或站点许可证（非教育许可证或 NFR 许可证）可以转让给第三方。您需要购买许可证转让服务，才能在您的 FabFilter 账户中激活“转让”选项。激活该选项后，您即可将许可证转让给任何第三方。第三方软件：VST 是 Steinberg Media Technologies GmbH 的商标。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1414
+  },
+  {
+    "word": "trademark",
+    "ipa": "",
+    "translit": "",
+    "zh": "商标",
+    "def": "用于标识商品或服务来源的受法律保护的标志或名称。",
+    "example": "例子：VST 是 Steinberg Media Technologies GmbH 的注册商标。",
+    "context": "FabFilter is entitled to terminate support for any major version of any FabFilter software at any time at its sole discretion. License Transfer A Personal or Site License (not Educational or NFR) may be transferred to a third party. You will have to buy a License Transfer to activate the \"transfer\"-option in your FabFilter account . After this option has been activated you will be able to transfer your license to any third party. Third Party Software VST is a trademark of Steinberg Media Technologies GmbH.",
+    "contextZh": "FabFilter 有权自行决定随时终止对任何 FabFilter 软件任何主版本的支持。许可证转让：个人许可证或站点许可证（非教育许可证或 NFR 许可证）可以转让给第三方。您需要购买许可证转让服务，才能在您的 FabFilter 账户中激活“转让”选项。激活该选项后，您即可将许可证转让给任何第三方。第三方软件：VST 是 Steinberg Media Technologies GmbH 的商标。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1415
+  },
+  {
+    "word": "Steinberg Media Technologies GmbH",
+    "ipa": "",
+    "translit": "",
+    "zh": "斯坦伯格媒体技术有限公司",
+    "def": "德国音频软件公司，开发了 Cubase、Nuendo 等数字音频工作站及 VST 标准。",
+    "example": "例子：Cubase 是 Steinberg 公司出品的知名数字音频工作站。",
+    "context": "FabFilter is entitled to terminate support for any major version of any FabFilter software at any time at its sole discretion. License Transfer A Personal or Site License (not Educational or NFR) may be transferred to a third party. You will have to buy a License Transfer to activate the \"transfer\"-option in your FabFilter account . After this option has been activated you will be able to transfer your license to any third party. Third Party Software VST is a trademark of Steinberg Media Technologies GmbH.",
+    "contextZh": "FabFilter 有权自行决定随时终止对任何 FabFilter 软件任何主版本的支持。许可证转让：个人许可证或站点许可证（非教育许可证或 NFR 许可证）可以转让给第三方。您需要购买许可证转让服务，才能在您的 FabFilter 账户中激活“转让”选项。激活该选项后，您即可将许可证转让给任何第三方。第三方软件：VST 是 Steinberg Media Technologies GmbH 的商标。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1416
+  },
+  {
+    "word": "trademarks",
+    "ipa": "",
+    "translit": "",
+    "zh": "商标",
+    "def": "用于标识商品或服务来源的注册标志，受法律保护，未经授权不得使用。",
+    "example": "例子：RTAS 和 AAX 是 Avid Technology 公司的注册商标。",
+    "context": "RTAS and AAX are trademarks of Avid Technology, inc. Audio Units is a trademark of Apple Computer, inc. Applicable Law This license agreement is governed by Dutch law. The courts of Amsterdam are authorized courts to rule on any dispute that may arise from this license agreement.",
+    "contextZh": "RTAS 和 AAX 是 Avid Technology 公司的商标。Audio Units 是 Apple Computer 公司的商标。适用法律：本许可协议受荷兰法律管辖。阿姆斯特丹法院为授权法院，有权裁决因本许可协议产生的任何争议。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1417
+  },
+  {
+    "word": "Avid Technology, inc.",
+    "ipa": "",
+    "translit": "",
+    "zh": "Avid 技术公司",
+    "def": "一家美国专业音视频技术公司，开发了 Pro Tools 等广泛使用的音频制作软件和硬件。",
+    "example": "例子：Pro Tools 是 Avid Technology 公司的旗舰音频制作产品。",
+    "context": "RTAS and AAX are trademarks of Avid Technology, inc. Audio Units is a trademark of Apple Computer, inc. Applicable Law This license agreement is governed by Dutch law. The courts of Amsterdam are authorized courts to rule on any dispute that may arise from this license agreement.",
+    "contextZh": "RTAS 和 AAX 是 Avid Technology 公司的商标。Audio Units 是 Apple Computer 公司的商标。适用法律：本许可协议受荷兰法律管辖。阿姆斯特丹法院为授权法院，有权裁决因本许可协议产生的任何争议。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1418
+  },
+  {
+    "word": "Apple Computer, inc.",
+    "ipa": "",
+    "translit": "",
+    "zh": "苹果电脑公司",
+    "def": "美国科技公司，开发了 Mac 电脑、macOS 操作系统及 Logic Pro 等音频软件，Audio Units 是其音频插件标准。",
+    "example": "例子：Audio Units 是 Apple Computer 公司为 macOS 定义的音频插件规范。",
+    "context": "RTAS and AAX are trademarks of Avid Technology, inc. Audio Units is a trademark of Apple Computer, inc. Applicable Law This license agreement is governed by Dutch law. The courts of Amsterdam are authorized courts to rule on any dispute that may arise from this license agreement.",
+    "contextZh": "RTAS 和 AAX 是 Avid Technology 公司的商标。Audio Units 是 Apple Computer 公司的商标。适用法律：本许可协议受荷兰法律管辖。阿姆斯特丹法院为授权法院，有权裁决因本许可协议产生的任何争议。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1419
+  },
+  {
+    "word": "Applicable Law",
+    "ipa": "",
+    "translit": "",
+    "zh": "适用法律",
+    "def": "指合同中规定用来解释和执行该协议的特定国家或地区的法律体系。",
+    "example": "例子：本许可协议中约定适用法律为荷兰法律。",
+    "context": "RTAS and AAX are trademarks of Avid Technology, inc. Audio Units is a trademark of Apple Computer, inc. Applicable Law This license agreement is governed by Dutch law. The courts of Amsterdam are authorized courts to rule on any dispute that may arise from this license agreement.",
+    "contextZh": "RTAS 和 AAX 是 Avid Technology 公司的商标。Audio Units 是 Apple Computer 公司的商标。适用法律：本许可协议受荷兰法律管辖。阿姆斯特丹法院为授权法院，有权裁决因本许可协议产生的任何争议。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1420
+  },
+  {
+    "word": "governed by Dutch law",
+    "ipa": "",
+    "translit": "",
+    "zh": "受荷兰法律管辖",
+    "def": "表示该协议的解释和执行均依据荷兰的法律体系进行。",
+    "example": "例子：本许可协议受荷兰法律管辖，而非美国法律。",
+    "context": "RTAS and AAX are trademarks of Avid Technology, inc. Audio Units is a trademark of Apple Computer, inc. Applicable Law This license agreement is governed by Dutch law. The courts of Amsterdam are authorized courts to rule on any dispute that may arise from this license agreement.",
+    "contextZh": "RTAS 和 AAX 是 Avid Technology 公司的商标。Audio Units 是 Apple Computer 公司的商标。适用法律：本许可协议受荷兰法律管辖。阿姆斯特丹法院为授权法院，有权裁决因本许可协议产生的任何争议。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1421
+  },
+  {
+    "word": "The courts of Amsterdam",
+    "ipa": "",
+    "translit": "",
+    "zh": "阿姆斯特丹法院",
+    "def": "荷兰阿姆斯特丹市的司法机构，在本协议中被指定为处理争议的管辖法院。",
+    "example": "例子：因本协议产生的纠纷由阿姆斯特丹法院裁决。",
+    "context": "RTAS and AAX are trademarks of Avid Technology, inc. Audio Units is a trademark of Apple Computer, inc. Applicable Law This license agreement is governed by Dutch law. The courts of Amsterdam are authorized courts to rule on any dispute that may arise from this license agreement.",
+    "contextZh": "RTAS 和 AAX 是 Avid Technology 公司的商标。Audio Units 是 Apple Computer 公司的商标。适用法律：本许可协议受荷兰法律管辖。阿姆斯特丹法院为授权法院，有权裁决因本许可协议产生的任何争议。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1422
+  },
+  {
+    "word": "authorized courts",
+    "ipa": "",
+    "translit": "",
+    "zh": "授权法院 / 管辖法院",
+    "def": "在法律协议中被指定有权审理特定争议的法院。",
+    "example": "例子：阿姆斯特丹法院是本许可协议授权的管辖法院。",
+    "context": "RTAS and AAX are trademarks of Avid Technology, inc. Audio Units is a trademark of Apple Computer, inc. Applicable Law This license agreement is governed by Dutch law. The courts of Amsterdam are authorized courts to rule on any dispute that may arise from this license agreement.",
+    "contextZh": "RTAS 和 AAX 是 Avid Technology 公司的商标。Audio Units 是 Apple Computer 公司的商标。适用法律：本许可协议受荷兰法律管辖。阿姆斯特丹法院为授权法院，有权裁决因本许可协议产生的任何争议。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1423
+  },
+  {
+    "word": "dispute",
+    "ipa": "",
+    "translit": "",
+    "zh": "争议 / 纠纷",
+    "def": "合同双方因协议条款的理解或执行产生的分歧或法律冲突。",
+    "example": "例子：若双方对许可费用产生争议，需提交管辖法院解决。",
+    "context": "RTAS and AAX are trademarks of Avid Technology, inc. Audio Units is a trademark of Apple Computer, inc. Applicable Law This license agreement is governed by Dutch law. The courts of Amsterdam are authorized courts to rule on any dispute that may arise from this license agreement.",
+    "contextZh": "RTAS 和 AAX 是 Avid Technology 公司的商标。Audio Units 是 Apple Computer 公司的商标。适用法律：本许可协议受荷兰法律管辖。阿姆斯特丹法院为授权法院，有权裁决因本许可协议产生的任何争议。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1424
+  },
+  {
+    "word": "TO THE MAXIMUM EXTENT PERMITTED BY LAW",
+    "ipa": "",
+    "translit": "",
+    "zh": "在法律允许的最大范围内",
+    "def": "这是法律免责声明中的常见开头语，表示以下条款的适用范围以法律所允许的最大限度为准。",
+    "example": "例子：软件许可协议中常用于限制厂商责任范围的开篇表述。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1425
+  },
+  {
+    "word": "FREDERIK SLIJKERMAN",
+    "ipa": "",
+    "translit": "",
+    "zh": "Frederik Slijker（人名）",
+    "def": "FabFilter 公司的相关人员之一，在此免责声明中被列为免责主体。",
+    "example": "例子：作为公司创始人或负责人出现在法律条款中。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1426
+  },
+  {
+    "word": "FLORIS KLINKERT",
+    "ipa": "",
+    "translit": "",
+    "zh": "Floris Klinkert（人名）",
+    "def": "FabFilter 公司的相关人员之一，在此免责声明中被列为免责主体。",
+    "example": "例子：作为公司创始人或负责人出现在法律条款中。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1427
+  },
+  {
+    "word": "SHALL NOT BE LIABLE FOR ANY DAMAGE",
+    "ipa": "",
+    "translit": "",
+    "zh": "不对任何损害承担责任",
+    "def": "法律用语，明确声明免责主体不承担因产品引起的任何损害赔偿责任。",
+    "example": "例子：产品导致用户设备损坏时，厂商依据此条款拒绝赔偿。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1428
+  },
+  {
+    "word": "A FABFILTER PRODUCT MAY CAUSE",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 产品可能造成的（损害）",
+    "def": "限定损害来源，指由 FabFilter 产品本身所引发的损害。",
+    "example": "例子：插件导致宿主软件崩溃所造成的损失。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1429
+  },
+  {
+    "word": "DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT",
+    "ipa": "",
+    "translit": "",
+    "zh": "因使用 FabFilter 产品而可能产生的损害",
+    "def": "指用户在使用该产品过程中可能遭受的各种损失或损害。",
+    "example": "例子：使用插件时导致音频工程文件损坏。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1430
+  },
+  {
+    "word": "INABILITY TO USE A FABFILTER PRODUCT",
+    "ipa": "",
+    "translit": "",
+    "zh": "无法使用 FabFilter 产品",
+    "def": "指用户因各种原因无法正常使用该产品的情形，由此产生的损害也在免责范围内。",
+    "example": "例子：因兼容性问题导致插件无法加载，用户因此遭受的损失。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1431
+  },
+  {
+    "word": "SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES",
+    "ipa": "",
+    "translit": "",
+    "zh": "特殊的、附带的、间接的或其他损害",
+    "def": "法律中对损害类型的分类，涵盖直接损害之外的各类衍生损害。",
+    "example": "例子：因产品故障导致的利润损失属于间接损害。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1432
+  },
+  {
+    "word": "IN NO EVENT",
+    "ipa": "",
+    "translit": "",
+    "zh": "在任何情况下均不",
+    "def": "法律用语，强调某种情形绝对不会发生或绝不适用。",
+    "example": "例子：在任何情况下，赔偿金额都不会超过规定上限。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1433
+  },
+  {
+    "word": "WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00)",
+    "ipa": "",
+    "translit": "",
+    "zh": "对超过二百五十欧元（€ 250.00）的金额承担责任",
+    "def": "设定赔偿责任的金额上限，即最高赔偿额不超过 250 欧元。",
+    "example": "例子：即使用户损失远超 250 欧元，厂商最多只赔 250 欧元。",
+    "context": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "contextZh": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1434
+  },
+  {
+    "word": "Disclaimer",
+    "ipa": "",
+    "translit": "",
+    "zh": "免责声明",
+    "def": "一种法律声明，用于限制或排除一方在某些情况下的法律责任。",
+    "example": "例子：软件产品中常见的免责声明，声明厂商不对使用软件造成的损失承担责任。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1435
+  },
+  {
+    "word": "AUTHORS",
+    "ipa": "",
+    "translit": "",
+    "zh": "作者 / 开发者",
+    "def": "指创作或开发该软件产品的人员。",
+    "example": "例子：本软件的作者为 FabFilter、Frederik Slijker 和 Floris Klinkert。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1436
+  },
+  {
+    "word": "SPECIFICALLY DISCLAIM",
+    "ipa": "",
+    "translit": "",
+    "zh": "明确声明不承担 / 特别免除",
+    "def": "在法律语境中，表示明确且有意地放弃某项权利或拒绝承担某项义务。",
+    "example": "例子：厂商明确声明不承担所有明示或暗示的保证责任。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1437
+  },
+  {
+    "word": "ALL WARRANTIES",
+    "ipa": "",
+    "translit": "",
+    "zh": "所有保证 / 全部担保",
+    "def": "指法律上可能存在的各种保证义务，包括明示和暗示的保证。",
+    "example": "例子：本软件不提供任何形式的保证。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1438
+  },
+  {
+    "word": "EXPRESSED OR IMPLIED",
+    "ipa": "",
+    "translit": "",
+    "zh": "明示或暗示的",
+    "def": "法律术语，指以明确语言表达的（明示）和根据法律或情形推定的（暗示）两种类型的保证。",
+    "example": "例子：无论是明示还是暗示的保证，均被免除。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1439
+  },
+  {
+    "word": "IMPLIED WARRANTIES",
+    "ipa": "",
+    "translit": "",
+    "zh": "暗示保证 / 默示担保",
+    "def": "法律上并非以明确条款写明，而是由法律推定存在的保证义务。",
+    "example": "例子：消费者购买产品时，法律可能默认产品适合正常使用，这属于暗示保证。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1440
+  },
+  {
+    "word": "NON-INFRINGEMENT",
+    "ipa": "",
+    "translit": "",
+    "zh": "不侵权",
+    "def": "保证产品不侵犯第三方知识产权（如专利、版权、商标等）的法律概念。",
+    "example": "例子：暗示保证中包括保证软件不侵犯他人知识产权。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1441
+  },
+  {
+    "word": "MERCHANTABILITY",
+    "ipa": "",
+    "translit": "",
+    "zh": "适销性",
+    "def": "法律术语，指产品适合在市场上正常销售和使用的品质标准。",
+    "example": "例子：暗示的适销性保证要求产品能达到一般消费者的合理期望。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1442
+  },
+  {
+    "word": "FITNESS FOR A PARTICULAR PURPOSE",
+    "ipa": "",
+    "translit": "",
+    "zh": "特定用途适用性",
+    "def": "法律术语，指产品适合用于购买者特定用途的保证。",
+    "example": "例子：如果用户购买软件用于专业音频制作，特定用途适用性保证其能满足该需求。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1443
+  },
+  {
+    "word": "DO NOT WARRANT",
+    "ipa": "",
+    "translit": "",
+    "zh": "不保证",
+    "def": "明确声明不作出某种承诺或保证。",
+    "example": "例子：开发者不保证软件能满足用户的需求。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1444
+  },
+  {
+    "word": "MEET YOUR REQUIREMENTS",
+    "ipa": "",
+    "translit": "",
+    "zh": "满足您的需求",
+    "def": "指软件能够达到用户所期望的功能或性能标准。",
+    "example": "例子：不保证软件能完全满足用户的所有需求。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1445
+  },
+  {
+    "word": "OPERATE ERROR-FREE",
+    "ipa": "",
+    "translit": "",
+    "zh": "无错误运行",
+    "def": "指软件在运行过程中不出现任何错误或故障。",
+    "example": "例子：不保证软件在运行时不会出现错误。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1446
+  },
+  {
+    "word": "UNINTERRUPTED",
+    "ipa": "",
+    "translit": "",
+    "zh": "不中断的",
+    "def": "指软件运行过程中不会意外停止或中断。",
+    "example": "例子：不保证软件能持续不间断地运行。",
+    "context": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "contextZh": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1447
+  },
+  {
+    "word": "A huge thanks to our beta testers for their relentless testing of all the different beta versions!",
+    "ipa": "",
+    "translit": "",
+    "zh": "衷心感谢我们的测试人员，感谢他们对所有不同测试版本的不懈测试！",
+    "def": "表达对参与测试人员的深切感谢。",
+    "example": "例子：软件发布说明中常见此类致谢语句。",
+    "context": "Next: Acknowledgements See Also Purchase FabFilter Pro-C 2 Support Acknowledgements A huge thanks to our beta testers for their relentless testing of all the different beta versions! An extra thanks to bManic for the many Factory Presets that he contributed. Next: About FabFilter See Also Purchase FabFilter Pro-C 2 Support About FabFilter Beautiful sound. Fantastic workflow. These are the foundations of FabFilter. We create powerful audio plug-ins with superb sound quality and innovative interfaces.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1448
+  },
+  {
+    "word": "An extra thanks to bManic for the many Factory Presets that he contributed.",
+    "ipa": "",
+    "translit": "",
+    "zh": "特别感谢 bManic 贡献了许多出厂预设。",
+    "def": "对特定贡献者提供预设内容的额外致谢。",
+    "example": "例子：音频插件中内置预设常由社区成员贡献。",
+    "context": "Next: Acknowledgements See Also Purchase FabFilter Pro-C 2 Support Acknowledgements A huge thanks to our beta testers for their relentless testing of all the different beta versions! An extra thanks to bManic for the many Factory Presets that he contributed. Next: About FabFilter See Also Purchase FabFilter Pro-C 2 Support About FabFilter Beautiful sound. Fantastic workflow. These are the foundations of FabFilter. We create powerful audio plug-ins with superb sound quality and innovative interfaces.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1449
+  },
+  {
+    "word": "Beautiful sound.",
+    "ipa": "",
+    "translit": "",
+    "zh": "美妙的声音。",
+    "def": "强调产品在音质上的追求。",
+    "example": "例子：音频插件宣传语中常用此类短语。",
+    "context": "Next: Acknowledgements See Also Purchase FabFilter Pro-C 2 Support Acknowledgements A huge thanks to our beta testers for their relentless testing of all the different beta versions! An extra thanks to bManic for the many Factory Presets that he contributed. Next: About FabFilter See Also Purchase FabFilter Pro-C 2 Support About FabFilter Beautiful sound. Fantastic workflow. These are the foundations of FabFilter. We create powerful audio plug-ins with superb sound quality and innovative interfaces.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1450
+  },
+  {
+    "word": "Fantastic workflow.",
+    "ipa": "",
+    "translit": "",
+    "zh": "出色的工作流程。",
+    "def": "强调产品在使用效率和操作体验上的优势。",
+    "example": "例子：软件介绍中突出其流畅的操作流程。",
+    "context": "Next: Acknowledgements See Also Purchase FabFilter Pro-C 2 Support Acknowledgements A huge thanks to our beta testers for their relentless testing of all the different beta versions! An extra thanks to bManic for the many Factory Presets that he contributed. Next: About FabFilter See Also Purchase FabFilter Pro-C 2 Support About FabFilter Beautiful sound. Fantastic workflow. These are the foundations of FabFilter. We create powerful audio plug-ins with superb sound quality and innovative interfaces.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1451
+  },
+  {
+    "word": "These are the foundations of FabFilter.",
+    "ipa": "",
+    "translit": "",
+    "zh": "这些是 FabFilter 的基石。",
+    "def": "说明公司核心价值建立在音质与工作流程之上。",
+    "example": "例子：品牌宣言中总结其核心理念。",
+    "context": "Next: Acknowledgements See Also Purchase FabFilter Pro-C 2 Support Acknowledgements A huge thanks to our beta testers for their relentless testing of all the different beta versions! An extra thanks to bManic for the many Factory Presets that he contributed. Next: About FabFilter See Also Purchase FabFilter Pro-C 2 Support About FabFilter Beautiful sound. Fantastic workflow. These are the foundations of FabFilter. We create powerful audio plug-ins with superb sound quality and innovative interfaces.",
+    "contextZh": "",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1452
+  },
+  {
+    "word": "We create powerful audio plug-ins with superb sound quality and innovative interfaces.",
+    "ipa": "",
+    "translit": "",
+    "zh": "我们创造功能强大的音频插件，具备卓越的音质和创新的界面。",
+    "def": "描述公司的主要业务和产品特点。",
+    "example": "例子：FabFilter 官网首页的公司简介。",
+    "context": "Next: Acknowledgements See Also Purchase FabFilter Pro-C 2 Support Acknowledgements A huge thanks to our beta testers for their relentless testing of all the different beta versions! An extra thanks to bManic for the many Factory Presets that he contributed. Next: About FabFilter See Also Purchase FabFilter Pro-C 2 Support About FabFilter Beautiful sound. Fantastic workflow. These are the foundations of FabFilter. We create powerful audio plug-ins with superb sound quality and innovative interfaces.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1453
+  },
+  {
+    "word": "A unique perspective",
+    "ipa": "",
+    "translit": "",
+    "zh": "独特的视角",
+    "def": "表示以与众不同的角度看待事物。",
+    "example": "例子：在音频工具设计中，从用户实际需求出发而非跟随行业惯例。",
+    "context": "A unique perspective At FabFilter, we make the best possible tools for music production and audio processing. To achieve this, we continually rethink and challenge industry standards: we've never been afraid of reinventing the wheel. Considering every little detail, we tune our algorithms and interfaces until they sound perfect, look amazing and feel great to work with. It's the sound that counts Above everything else, you need superb sound quality.",
+    "contextZh": "独特的视角。在 FabFilter，我们为音乐制作和音频处理打造尽可能最好的工具。为实现这一目标，我们不断重新思考并挑战行业标准：我们从不畏惧重新发明轮子。我们考虑每一个细节，精心调校算法和界面，直到它们听起来完美、看起来惊艳、用起来顺手。声音才是关键。最重要的是，你需要卓越的音质。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1454
+  },
+  {
+    "word": "we make the best possible tools for music production and audio processing",
+    "ipa": "",
+    "translit": "",
+    "zh": "我们为音乐制作和音频处理打造尽可能最好的工具",
+    "def": "说明公司的核心业务是开发音乐制作与音频处理软件工具。",
+    "example": "例子：他们开发的均衡器、压缩器等插件被广泛用于专业录音棚。",
+    "context": "A unique perspective At FabFilter, we make the best possible tools for music production and audio processing. To achieve this, we continually rethink and challenge industry standards: we've never been afraid of reinventing the wheel. Considering every little detail, we tune our algorithms and interfaces until they sound perfect, look amazing and feel great to work with. It's the sound that counts Above everything else, you need superb sound quality.",
+    "contextZh": "独特的视角。在 FabFilter，我们为音乐制作和音频处理打造尽可能最好的工具。为实现这一目标，我们不断重新思考并挑战行业标准：我们从不畏惧重新发明轮子。我们考虑每一个细节，精心调校算法和界面，直到它们听起来完美、看起来惊艳、用起来顺手。声音才是关键。最重要的是，你需要卓越的音质。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1455
+  },
+  {
+    "word": "To achieve this, we continually rethink and challenge industry standards",
+    "ipa": "",
+    "translit": "",
+    "zh": "为实现这一目标，我们不断重新思考并挑战行业标准",
+    "def": "表示公司为达到高品质目标，持续反思和突破现有的行业规范。",
+    "example": "例子：不满足于现有插件设计方式，而是探索全新的交互模式。",
+    "context": "A unique perspective At FabFilter, we make the best possible tools for music production and audio processing. To achieve this, we continually rethink and challenge industry standards: we've never been afraid of reinventing the wheel. Considering every little detail, we tune our algorithms and interfaces until they sound perfect, look amazing and feel great to work with. It's the sound that counts Above everything else, you need superb sound quality.",
+    "contextZh": "独特的视角。在 FabFilter，我们为音乐制作和音频处理打造尽可能最好的工具。为实现这一目标，我们不断重新思考并挑战行业标准：我们从不畏惧重新发明轮子。我们考虑每一个细节，精心调校算法和界面，直到它们听起来完美、看起来惊艳、用起来顺手。声音才是关键。最重要的是，你需要卓越的音质。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1456
+  },
+  {
+    "word": "we've never been afraid of reinventing the wheel",
+    "ipa": "",
+    "translit": "",
+    "zh": "我们从不畏惧重新发明轮子",
+    "def": "意为不怕从头做起、不惧打破常规去重新设计已有的东西。",
+    "example": "例子：即使某种效果器已有成熟方案，他们仍会尝试全新的算法架构。",
+    "context": "A unique perspective At FabFilter, we make the best possible tools for music production and audio processing. To achieve this, we continually rethink and challenge industry standards: we've never been afraid of reinventing the wheel. Considering every little detail, we tune our algorithms and interfaces until they sound perfect, look amazing and feel great to work with. It's the sound that counts Above everything else, you need superb sound quality.",
+    "contextZh": "独特的视角。在 FabFilter，我们为音乐制作和音频处理打造尽可能最好的工具。为实现这一目标，我们不断重新思考并挑战行业标准：我们从不畏惧重新发明轮子。我们考虑每一个细节，精心调校算法和界面，直到它们听起来完美、看起来惊艳、用起来顺手。声音才是关键。最重要的是，你需要卓越的音质。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1457
+  },
+  {
+    "word": "Considering every little detail, we tune our algorithms and interfaces",
+    "ipa": "",
+    "translit": "",
+    "zh": "我们考虑每一个细节，精心调校算法和界面",
+    "def": "强调对算法和用户界面的打磨极为细致入微。",
+    "example": "例子：反复调整滤波器的响应曲线，直到听感达到理想状态。",
+    "context": "A unique perspective At FabFilter, we make the best possible tools for music production and audio processing. To achieve this, we continually rethink and challenge industry standards: we've never been afraid of reinventing the wheel. Considering every little detail, we tune our algorithms and interfaces until they sound perfect, look amazing and feel great to work with. It's the sound that counts Above everything else, you need superb sound quality.",
+    "contextZh": "独特的视角。在 FabFilter，我们为音乐制作和音频处理打造尽可能最好的工具。为实现这一目标，我们不断重新思考并挑战行业标准：我们从不畏惧重新发明轮子。我们考虑每一个细节，精心调校算法和界面，直到它们听起来完美、看起来惊艳、用起来顺手。声音才是关键。最重要的是，你需要卓越的音质。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1458
+  },
+  {
+    "word": "until they sound perfect, look amazing and feel great to work with",
+    "ipa": "",
+    "translit": "",
+    "zh": "直到它们听起来完美、看起来惊艳、用起来顺手",
+    "def": "描述调校的最终标准：听觉、视觉和操作体验三方面都达到最佳。",
+    "example": "例子：插件不仅音质出色，界面美观，操作逻辑也直观流畅。",
+    "context": "A unique perspective At FabFilter, we make the best possible tools for music production and audio processing. To achieve this, we continually rethink and challenge industry standards: we've never been afraid of reinventing the wheel. Considering every little detail, we tune our algorithms and interfaces until they sound perfect, look amazing and feel great to work with. It's the sound that counts Above everything else, you need superb sound quality.",
+    "contextZh": "独特的视角。在 FabFilter，我们为音乐制作和音频处理打造尽可能最好的工具。为实现这一目标，我们不断重新思考并挑战行业标准：我们从不畏惧重新发明轮子。我们考虑每一个细节，精心调校算法和界面，直到它们听起来完美、看起来惊艳、用起来顺手。声音才是关键。最重要的是，你需要卓越的音质。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1459
+  },
+  {
+    "word": "It's the sound that counts",
+    "ipa": "",
+    "translit": "",
+    "zh": "声音才是关键",
+    "def": "强调在所有因素中，音质是最重要的。",
+    "example": "例子：无论界面多漂亮，如果音质不好，用户就不会选择它。",
+    "context": "A unique perspective At FabFilter, we make the best possible tools for music production and audio processing. To achieve this, we continually rethink and challenge industry standards: we've never been afraid of reinventing the wheel. Considering every little detail, we tune our algorithms and interfaces until they sound perfect, look amazing and feel great to work with. It's the sound that counts Above everything else, you need superb sound quality.",
+    "contextZh": "独特的视角。在 FabFilter，我们为音乐制作和音频处理打造尽可能最好的工具。为实现这一目标，我们不断重新思考并挑战行业标准：我们从不畏惧重新发明轮子。我们考虑每一个细节，精心调校算法和界面，直到它们听起来完美、看起来惊艳、用起来顺手。声音才是关键。最重要的是，你需要卓越的音质。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1460
+  },
+  {
+    "word": "Above everything else, you need superb sound quality",
+    "ipa": "",
+    "translit": "",
+    "zh": "最重要的是，你需要卓越的音质",
+    "def": "指出音质是一切音频工具的根本要求，高于其他所有考量。",
+    "example": "例子：专业混音师选择插件时，首要标准就是声音是否足够好。",
+    "context": "A unique perspective At FabFilter, we make the best possible tools for music production and audio processing. To achieve this, we continually rethink and challenge industry standards: we've never been afraid of reinventing the wheel. Considering every little detail, we tune our algorithms and interfaces until they sound perfect, look amazing and feel great to work with. It's the sound that counts Above everything else, you need superb sound quality.",
+    "contextZh": "独特的视角。在 FabFilter，我们为音乐制作和音频处理打造尽可能最好的工具。为实现这一目标，我们不断重新思考并挑战行业标准：我们从不畏惧重新发明轮子。我们考虑每一个细节，精心调校算法和界面，直到它们听起来完美、看起来惊艳、用起来顺手。声音才是关键。最重要的是，你需要卓越的音质。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1461
+  },
+  {
+    "word": "special attention",
+    "ipa": "",
+    "translit": "",
+    "zh": "特别的关注",
+    "def": "指对某事物给予额外的重视和注意。",
+    "example": "例子：我们对设计给予了特别的关注。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1462
+  },
+  {
+    "word": "design",
+    "ipa": "",
+    "translit": "",
+    "zh": "设计",
+    "def": "指产品的外观、功能和用户体验的整体规划与构思。",
+    "example": "例子：这款软件的设计非常直观易用。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1463
+  },
+  {
+    "word": "delighted",
+    "ipa": "",
+    "translit": "",
+    "zh": "感到愉悦的",
+    "def": "形容因某事物而感到非常高兴和满意。",
+    "example": "例子：每次打开这款插件，你都会感到愉悦。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1464
+  },
+  {
+    "word": "FabFilter plug-in",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 插件",
+    "def": "指 FabFilter 公司开发的音频处理软件插件。",
+    "example": "例子：FabFilter Pro-Q 是一款广受欢迎的均衡器插件。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1465
+  },
+  {
+    "word": "Don't take our word for it",
+    "ipa": "",
+    "translit": "",
+    "zh": "不要只听我们的一面之词",
+    "def": "意思是不要仅仅相信我们的说法，鼓励用户亲自体验验证。",
+    "example": "例子：不要只听我们的一面之词，亲自试用一下就知道了。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1466
+  },
+  {
+    "word": "highest standard",
+    "ipa": "",
+    "translit": "",
+    "zh": "最高标准",
+    "def": "指在某一领域中所能达到的最优质量要求。",
+    "example": "例子：我们始终以最高标准要求自己。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1467
+  },
+  {
+    "word": "sound quality",
+    "ipa": "",
+    "translit": "",
+    "zh": "音质",
+    "def": "指音频信号在还原和播放时的清晰度、准确度和听感品质。",
+    "example": "例子：这款插件的音质非常出色。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1468
+  },
+  {
+    "word": "usability",
+    "ipa": "",
+    "translit": "",
+    "zh": "易用性",
+    "def": "指产品在使用过程中的方便程度和用户友好性。",
+    "example": "例子：易用性是我们设计的核心考量之一。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1469
+  },
+  {
+    "word": "truly great products",
+    "ipa": "",
+    "translit": "",
+    "zh": "真正出色的产品",
+    "def": "指在品质和体验上达到卓越水平的产品。",
+    "example": "例子：我们致力于打造真正出色的产品。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1470
+  },
+  {
+    "word": "raise the bar",
+    "ipa": "",
+    "translit": "",
+    "zh": "提高标准",
+    "def": "意为提升某一领域的质量基准或期望水平。",
+    "example": "例子：这款软件提高了音频软件所能达到的标准。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1471
+  },
+  {
+    "word": "audio software",
+    "ipa": "",
+    "translit": "",
+    "zh": "音频软件",
+    "def": "指用于录制、编辑、处理和播放音频的计算机程序。",
+    "example": "例子：音频软件在现代音乐制作中不可或缺。",
+    "context": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "contextZh": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1472
+  },
+  {
+    "word": "praise",
+    "ipa": "",
+    "translit": "",
+    "zh": "赞誉",
+    "def": "指对某人或某事物的高度评价和称赞。",
+    "example": "例子：用户和媒体对产品的一致好评。",
+    "context": "That's why we're very happy with the praise we've received from users and press alike: \"In the decade since the release of its first plug-in, One, FabFilter has made an indelible mark on the music production landscape.\" — Computer Music magazine \"While many other software developers are busy trying to model hardware, FabFilter is leaving them in the dust by being visionaries and reaching into the future.",
+    "contextZh": "这就是为什么我们对来自用户和媒体的一致赞誉感到非常高兴：“自其首个插件 One 发布以来的十年间，FabFilter 在音乐制作领域留下了不可磨灭的印记。”——《Computer Music》杂志。“当许多其他软件开发者忙于尝试模拟硬件时，FabFilter 以远见卓识和面向未来将他们远远甩在身后。”",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1473
+  },
+  {
+    "word": "users and press alike",
+    "ipa": "",
+    "translit": "",
+    "zh": "用户和媒体 alike",
+    "def": "表示用户和媒体两方面都同样地（持有某种态度或反应）。",
+    "example": "例子：用户和媒体都对产品给予了高度评价。",
+    "context": "That's why we're very happy with the praise we've received from users and press alike: \"In the decade since the release of its first plug-in, One, FabFilter has made an indelible mark on the music production landscape.\" — Computer Music magazine \"While many other software developers are busy trying to model hardware, FabFilter is leaving them in the dust by being visionaries and reaching into the future.",
+    "contextZh": "这就是为什么我们对来自用户和媒体的一致赞誉感到非常高兴：“自其首个插件 One 发布以来的十年间，FabFilter 在音乐制作领域留下了不可磨灭的印记。”——《Computer Music》杂志。“当许多其他软件开发者忙于尝试模拟硬件时，FabFilter 以远见卓识和面向未来将他们远远甩在身后。”",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1474
+  },
+  {
+    "word": "In the decade since the release of its first plug-in, One",
+    "ipa": "",
+    "translit": "",
+    "zh": "自其首个插件 One 发布以来的十年间",
+    "def": "指从 FabFilter 推出第一款插件 One 到现在的十年时间跨度。",
+    "example": "例子：在这十年里，公司取得了显著成就。",
+    "context": "That's why we're very happy with the praise we've received from users and press alike: \"In the decade since the release of its first plug-in, One, FabFilter has made an indelible mark on the music production landscape.\" — Computer Music magazine \"While many other software developers are busy trying to model hardware, FabFilter is leaving them in the dust by being visionaries and reaching into the future.",
+    "contextZh": "这就是为什么我们对来自用户和媒体的一致赞誉感到非常高兴：“自其首个插件 One 发布以来的十年间，FabFilter 在音乐制作领域留下了不可磨灭的印记。”——《Computer Music》杂志。“当许多其他软件开发者忙于尝试模拟硬件时，FabFilter 以远见卓识和面向未来将他们远远甩在身后。”",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1475
+  },
+  {
+    "word": "has made an indelible mark on the music production landscape",
+    "ipa": "",
+    "translit": "",
+    "zh": "在音乐制作领域留下了不可磨灭的印记",
+    "def": "意为对音乐制作行业产生了深远且持久的影响。",
+    "example": "例子：FabFilter 的创新插件改变了音乐制作的方式。",
+    "context": "That's why we're very happy with the praise we've received from users and press alike: \"In the decade since the release of its first plug-in, One, FabFilter has made an indelible mark on the music production landscape.\" — Computer Music magazine \"While many other software developers are busy trying to model hardware, FabFilter is leaving them in the dust by being visionaries and reaching into the future.",
+    "contextZh": "这就是为什么我们对来自用户和媒体的一致赞誉感到非常高兴：“自其首个插件 One 发布以来的十年间，FabFilter 在音乐制作领域留下了不可磨灭的印记。”——《Computer Music》杂志。“当许多其他软件开发者忙于尝试模拟硬件时，FabFilter 以远见卓识和面向未来将他们远远甩在身后。”",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1476
+  },
+  {
+    "word": "Computer Music magazine",
+    "ipa": "",
+    "translit": "",
+    "zh": "《Computer Music》杂志",
+    "def": "一本专注于音乐制作技术和设备的知名刊物。",
+    "example": "例子：《Computer Music》杂志对 FabFilter 给予了高度评价。",
+    "context": "That's why we're very happy with the praise we've received from users and press alike: \"In the decade since the release of its first plug-in, One, FabFilter has made an indelible mark on the music production landscape.\" — Computer Music magazine \"While many other software developers are busy trying to model hardware, FabFilter is leaving them in the dust by being visionaries and reaching into the future.",
+    "contextZh": "这就是为什么我们对来自用户和媒体的一致赞誉感到非常高兴：“自其首个插件 One 发布以来的十年间，FabFilter 在音乐制作领域留下了不可磨灭的印记。”——《Computer Music》杂志。“当许多其他软件开发者忙于尝试模拟硬件时，FabFilter 以远见卓识和面向未来将他们远远甩在身后。”",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1477
+  },
+  {
+    "word": "While many other software developers are busy trying to model hardware",
+    "ipa": "",
+    "translit": "",
+    "zh": "当许多其他软件开发者忙于尝试模拟硬件时",
+    "def": "指其他开发者专注于复制硬件设备的声音和行为。",
+    "example": "例子：一些公司致力于精确再现经典硬件合成器的音色。",
+    "context": "That's why we're very happy with the praise we've received from users and press alike: \"In the decade since the release of its first plug-in, One, FabFilter has made an indelible mark on the music production landscape.\" — Computer Music magazine \"While many other software developers are busy trying to model hardware, FabFilter is leaving them in the dust by being visionaries and reaching into the future.",
+    "contextZh": "这就是为什么我们对来自用户和媒体的一致赞誉感到非常高兴：“自其首个插件 One 发布以来的十年间，FabFilter 在音乐制作领域留下了不可磨灭的印记。”——《Computer Music》杂志。“当许多其他软件开发者忙于尝试模拟硬件时，FabFilter 以远见卓识和面向未来将他们远远甩在身后。”",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1478
+  },
+  {
+    "word": "FabFilter is leaving them in the dust by being visionaries and reaching into the future",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 以远见卓识和面向未来将他们远远甩在身后",
+    "def": "意为 FabFilter 通过创新和前瞻性思维超越了竞争对手。",
+    "example": "例子：FabFilter 不模仿硬件，而是创造全新的数字处理方式。",
+    "context": "That's why we're very happy with the praise we've received from users and press alike: \"In the decade since the release of its first plug-in, One, FabFilter has made an indelible mark on the music production landscape.\" — Computer Music magazine \"While many other software developers are busy trying to model hardware, FabFilter is leaving them in the dust by being visionaries and reaching into the future.",
+    "contextZh": "这就是为什么我们对来自用户和媒体的一致赞誉感到非常高兴：“自其首个插件 One 发布以来的十年间，FabFilter 在音乐制作领域留下了不可磨灭的印记。”——《Computer Music》杂志。“当许多其他软件开发者忙于尝试模拟硬件时，FabFilter 以远见卓识和面向未来将他们远远甩在身后。”",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1479
+  },
+  {
+    "word": "audio processing algorithms",
+    "ipa": "",
+    "translit": "",
+    "zh": "音频处理算法",
+    "def": "指对音频信号进行运算处理的一类计算方法，用于改变、优化或分析声音。",
+    "example": "例子：混响算法、压缩算法、均衡算法等都属于音频处理算法。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1480
+  },
+  {
+    "word": "resonating filters",
+    "ipa": "",
+    "translit": "",
+    "zh": "共振滤波器",
+    "def": "一种在特定频率附近增强或突出能量的滤波器，常用于塑造声音的共鸣感和音色特征。",
+    "example": "例子：在合成器或混音插件中提升某段频率，让声音听起来更有“鸣响”感。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1481
+  },
+  {
+    "word": "high-end EQ",
+    "ipa": "",
+    "translit": "",
+    "zh": "高端均衡器",
+    "def": "指品质较高、音质表现精细的均衡处理工具，通常用于专业音频制作。",
+    "example": "例子：母带处理中使用的精密均衡器，用来做细微的频率修正。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1482
+  },
+  {
+    "word": "Innovative interfaces",
+    "ipa": "",
+    "translit": "",
+    "zh": "创新界面",
+    "def": "指在操作方式、视觉呈现或交互逻辑上有新意的软件界面设计。",
+    "example": "例子：通过拖拽、可视化曲线或智能控件来快速调整音频参数。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1483
+  },
+  {
+    "word": "great design",
+    "ipa": "",
+    "translit": "",
+    "zh": "出色的设计",
+    "def": "指产品在外观、布局、易用性和整体体验方面表现优秀。",
+    "example": "例子：插件界面既美观又清晰，用户能快速找到需要的功能。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1484
+  },
+  {
+    "word": "easy-to-use",
+    "ipa": "",
+    "translit": "",
+    "zh": "易于使用的",
+    "def": "指操作简单、上手快，不需要复杂学习就能使用。",
+    "example": "例子：界面直观，用户打开后能很快完成基本操作。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1485
+  },
+  {
+    "word": "well-designed interface",
+    "ipa": "",
+    "translit": "",
+    "zh": "设计良好的界面",
+    "def": "指界面在布局、视觉、交互和功能组织上经过精心设计。",
+    "example": "例子：参数排列合理，重要功能一眼可见，不需要反复查找菜单。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1486
+  },
+  {
+    "word": "unsurpassed workflow",
+    "ipa": "",
+    "translit": "",
+    "zh": "无与伦比的工作流程",
+    "def": "指工作流程极其顺畅高效，难以被其他产品超越。",
+    "example": "例子：从调整参数到听到结果几乎无延迟，操作步骤少且直观。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1487
+  },
+  {
+    "word": "focus on the task",
+    "ipa": "",
+    "translit": "",
+    "zh": "专注于任务",
+    "def": "指产品设计围绕用户当前要完成的具体操作展开，而不是堆砌无关功能。",
+    "example": "例子：当用户在做均衡时，界面优先显示频率、增益和 Q 值等关键参数。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1488
+  },
+  {
+    "word": "expose the features you need",
+    "ipa": "",
+    "translit": "",
+    "zh": "呈现你需要的功能",
+    "def": "指在合适的时候把相关功能显示出来，避免干扰或隐藏关键操作。",
+    "example": "例子：需要动态处理时才显示压缩和限制相关控制，而不是一直塞满界面。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1489
+  },
+  {
+    "word": "when you need them",
+    "ipa": "",
+    "translit": "",
+    "zh": "在你需要它们的时候",
+    "def": "指功能出现的时间点与用户当前操作需求相匹配。",
+    "example": "例子：调整某个频段时，相关细节参数才展开显示。",
+    "context": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1490
+  },
+  {
+    "word": "stuff",
+    "ipa": "",
+    "translit": "",
+    "zh": "东西 / 产品",
+    "def": "泛指某类事物或产品，在口语中常用来指代某个品牌或类别的产品。",
+    "example": "例子：FabFilter stuff 指 FabFilter 出品的各类插件产品。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1491
+  },
+  {
+    "word": "on another level",
+    "ipa": "",
+    "translit": "",
+    "zh": "处于另一个层次",
+    "def": "习语表达，意为某事物的水平远超一般标准，出类拔萃。",
+    "example": "例子：这家公司的产品质量确实处于另一个层次。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1492
+  },
+  {
+    "word": "Jeff Sanders",
+    "ipa": "",
+    "translit": "",
+    "zh": "Jeff Sanders",
+    "def": "人名，此处为引用该评价的人。",
+    "example": "例子：Jeff Sanders 是一位音频工程师。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1493
+  },
+  {
+    "word": "enviable reputation",
+    "ipa": "",
+    "translit": "",
+    "zh": "令人羡慕的声誉",
+    "def": "指某人或某组织因长期优秀表现而获得的、令他人羡慕的名声。",
+    "example": "例子：这家公司以创新著称，拥有令人羡慕的声誉。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1494
+  },
+  {
+    "word": "powerful tools",
+    "ipa": "",
+    "translit": "",
+    "zh": "强大的工具",
+    "def": "指功能丰富、性能出色的软件或设备。",
+    "example": "例子：这些强大的工具可以帮助工程师高效完成混音工作。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1495
+  },
+  {
+    "word": "Music Tech magazine",
+    "ipa": "",
+    "translit": "",
+    "zh": "Music Tech 杂志",
+    "def": "一本专注于音乐制作技术和设备的专业杂志。",
+    "example": "例子：Music Tech 杂志经常评测各类音频软件和硬件。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1496
+  },
+  {
+    "word": "founded",
+    "ipa": "",
+    "translit": "",
+    "zh": "创立 / 成立",
+    "def": "指组织、公司或机构的创建行为。",
+    "example": "例子：该公司成立于 2002 年。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1497
+  },
+  {
+    "word": "based in",
+    "ipa": "",
+    "translit": "",
+    "zh": "位于 / 总部设在",
+    "def": "表示公司或个人的主要办公地点或所在地。",
+    "example": "例子：该公司总部设在荷兰阿姆斯特丹。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1498
+  },
+  {
+    "word": "Amsterdam",
+    "ipa": "",
+    "translit": "",
+    "zh": "阿姆斯特丹",
+    "def": "荷兰的首都及最大城市，也是许多科技和创意公司的所在地。",
+    "example": "例子：FabFilter 的总部位于阿姆斯特丹。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1499
+  },
+  {
+    "word": "The Netherlands",
+    "ipa": "",
+    "translit": "",
+    "zh": "荷兰",
+    "def": "位于西欧的国家，以风车、运河和高度发达的经济著称。",
+    "example": "例子：荷兰是许多音频技术公司的所在地。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 1500
+  },
+  {
+    "word": "FabFilter web site",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter 官方网站",
+    "def": "FabFilter 公司的官方网页，提供产品信息、下载和技术支持。",
+    "example": "例子：更多信息请访问 FabFilter 官方网站。",
+    "context": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "contextZh": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 1501
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -12425,7 +19523,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 956
+    "id": 1502
   },
   {
     "word": "Conga",
@@ -12438,7 +19536,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 957
+    "id": 1503
   },
   {
     "word": "Percussion",
@@ -12451,7 +19549,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 958
+    "id": 1504
   },
   {
     "word": "Grooves",
@@ -12464,7 +19562,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 959
+    "id": 1505
   },
   {
     "word": "Bongos",
@@ -12477,7 +19575,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 960
+    "id": 1506
   },
   {
     "word": "Woodblock",
@@ -12490,7 +19588,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 961
+    "id": 1507
   },
   {
     "word": "Djembe",
@@ -12503,7 +19601,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 962
+    "id": 1508
   },
   {
     "word": "Tambourine",
@@ -12516,7 +19614,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 963
+    "id": 1509
   },
   {
     "word": "Cowbells",
@@ -12529,7 +19627,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 964
+    "id": 1510
   },
   {
     "word": "Bells",
@@ -12542,7 +19640,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 965
+    "id": 1511
   },
   {
     "word": "Timbales",
@@ -12555,7 +19653,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 966
+    "id": 1512
   },
   {
     "word": "Keys",
@@ -12568,7 +19666,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 967
+    "id": 1513
   },
   {
     "word": "Piano",
@@ -12581,7 +19679,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 968
+    "id": 1514
   },
   {
     "word": "Wurlitzer",
@@ -12594,7 +19692,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 969
+    "id": 1515
   },
   {
     "word": "Electric Piano",
@@ -12607,7 +19705,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 970
+    "id": 1516
   },
   {
     "word": "Organ",
@@ -12620,7 +19718,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 971
+    "id": 1517
   },
   {
     "word": "Clavinet",
@@ -12633,7 +19731,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 972
+    "id": 1518
   },
   {
     "word": "Keys Melody",
@@ -12646,7 +19744,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 973
+    "id": 1519
   },
   {
     "word": "Classical",
@@ -12659,7 +19757,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 974
+    "id": 1520
   },
   {
     "word": "Female Vocals",
@@ -12672,7 +19770,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 975
+    "id": 1521
   },
   {
     "word": "Vocal FX",
@@ -12685,7 +19783,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 976
+    "id": 1522
   },
   {
     "word": "Vocoder",
@@ -12698,7 +19796,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 977
+    "id": 1523
   },
   {
     "word": "Screams",
@@ -12711,7 +19809,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 978
+    "id": 1524
   },
   {
     "word": "Whisper Vocals",
@@ -12724,7 +19822,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 979
+    "id": 1525
   },
   {
     "word": "Male Vocals",
@@ -12737,7 +19835,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 980
+    "id": 1526
   },
   {
     "word": "Spoken Word",
@@ -12750,7 +19848,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 981
+    "id": 1527
   },
   {
     "word": "Vocal Phrases",
@@ -12763,7 +19861,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 982
+    "id": 1528
   },
   {
     "word": "Vocal Shouts",
@@ -12776,7 +19874,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 983
+    "id": 1529
   },
   {
     "word": "Dialogue",
@@ -12789,7 +19887,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 984
+    "id": 1530
   }
 ];
 window.SOURCES = [
@@ -18202,6 +25300,3630 @@ window.SOURCES = [
       {
         "word": "Copy button",
         "zh": "复制按钮"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Next: Undo, redo, A/B switch Undo, redo, A/B switch The Undo and Redo buttons at the top of the FabFilter Pro-C 2 interface enable you to easily undo changes you made to the plug-in. With the A/B feature, you can quickly switch between two different states of the plug-in. The Undo button at the left will undo the last change. Every change to the plug-in (such as dragging a knob or selecting a new preset) creates a new state in the undo history. The Undo button steps back through the history to restore the previous states of the plug-in.",
+    "translation": "接下来：撤销、重做、A/B 切换。撤销、重做、A/B 切换。FabFilter Pro-C 2 界面顶部的撤销和重做按钮让你可以轻松撤销对插件所做的更改。通过 A/B 功能，你可以在插件的两种不同状态之间快速切换。左侧的撤销按钮将撤销上一次更改。对插件的每一次更改（例如拖动旋钮或选择新预设）都会在撤销历史中创建一个新状态。撤销按钮会在历史中逐步回退，以恢复插件之前的状态。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Undo",
+        "zh": "撤销"
+      },
+      {
+        "word": "Redo",
+        "zh": "重做"
+      },
+      {
+        "word": "A/B switch",
+        "zh": "A/B 切换"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "Undo button",
+        "zh": "撤销按钮"
+      },
+      {
+        "word": "undo history",
+        "zh": "撤销历史"
+      },
+      {
+        "word": "preset",
+        "zh": "预设"
+      },
+      {
+        "word": "state",
+        "zh": "状态"
+      },
+      {
+        "word": "knob",
+        "zh": "旋钮"
+      },
+      {
+        "word": "plug-in",
+        "zh": "插件"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "This marks the current state of the plug-in and allows you to go back to it easily with the A/B button. After clicking Copy, the button disables itself to show that both states are equal, so there is nothing to copy anymore. Notes If the plug-in parameters are changed without using the plug-in interface, for example with MIDI or automation, no new undo states are recorded. The Undo and Redo buttons will disable themselves if there is nothing to undo or redo.",
+    "translation": "这会标记插件的当前状态，并让你可以通过 A/B 按钮轻松回到该状态。点击复制后，该按钮会自动禁用，表示两个状态已经相同，因此没有可复制的内容了。注意事项：如果未通过插件界面更改插件参数，例如通过 MIDI 或自动化，不会记录新的撤销状态。如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用。",
+    "category": "",
+    "branches": [
+      {
+        "word": "This marks the current state of the plug-in",
+        "zh": "这会标记插件的当前状态"
+      },
+      {
+        "word": "and allows you to go back to it easily with the A/B button",
+        "zh": "并让你可以通过 A/B 按钮轻松回到该状态"
+      },
+      {
+        "word": "After clicking Copy, the button disables itself to show that both states are equal",
+        "zh": "点击复制后，该按钮会自动禁用，表示两个状态已经相同"
+      },
+      {
+        "word": "so there is nothing to copy anymore",
+        "zh": "因此没有可复制的内容了"
+      },
+      {
+        "word": "Notes",
+        "zh": "注意事项"
+      },
+      {
+        "word": "If the plug-in parameters are changed without using the plug-in interface",
+        "zh": "如果未通过插件界面更改插件参数"
+      },
+      {
+        "word": "for example with MIDI or automation",
+        "zh": "例如通过 MIDI 或自动化"
+      },
+      {
+        "word": "no new undo states are recorded",
+        "zh": "不会记录新的撤销状态"
+      },
+      {
+        "word": "The Undo and Redo buttons will disable themselves if there is nothing to undo or redo",
+        "zh": "如果没有可撤销或可重做的操作，撤销和重做按钮会自动禁用"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "To explore the presets one by one, click on the little arrow buttons to the left and right of the main preset button. This will load the previous or next preset in the menu. The preset button shows the name of the current preset. If you have changed the preset by adjusting one or more parameters, the name is dimmed to indicate that this is not the original preset anymore. Tips The Default Setting preset is loaded automatically when FabFilter Pro-C 2 is started.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "presets",
+        "zh": "预设"
+      },
+      {
+        "word": "arrow buttons",
+        "zh": "箭头按钮"
+      },
+      {
+        "word": "main preset button",
+        "zh": "主预设按钮"
+      },
+      {
+        "word": "load",
+        "zh": "加载"
+      },
+      {
+        "word": "parameters",
+        "zh": "参数"
+      },
+      {
+        "word": "dimmed",
+        "zh": "变暗的"
+      },
+      {
+        "word": "Default Setting",
+        "zh": "默认设置"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Next: Loading presets See Also Using FabFilter Pro-C 2 Loading presets Plenty of presets are provided with FabFilter Pro-C 2, giving a good idea of what you can do. You can either use the presets as they are, or tweak them further to create your own unique settings. To load a preset, click the preset button. The presets menu will appear with all available presets. Click a menu item to load that preset. The currently selected preset is highlighted with check marks.",
+    "translation": "下一步：加载预设 另请参阅 使用 FabFilter Pro-C 2 加载预设 FabFilter Pro-C 2 提供了大量预设，让你能很好地了解它可以实现的效果。你可以直接使用这些预设，也可以进一步调整它们来创建自己独特的设置。要加载预设，请点击预设按钮。预设菜单会出现，显示所有可用的预设。点击菜单项即可加载该预设。当前选中的预设会用对勾标记高亮显示。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Next",
+        "zh": "下一步"
+      },
+      {
+        "word": "Loading presets",
+        "zh": "加载预设"
+      },
+      {
+        "word": "See Also",
+        "zh": "另请参阅"
+      },
+      {
+        "word": "Using FabFilter Pro-C 2",
+        "zh": "使用 FabFilter Pro-C 2"
+      },
+      {
+        "word": "Loading presets",
+        "zh": "加载预设"
+      },
+      {
+        "word": "Plenty of presets are provided with FabFilter Pro-C 2, giving a good idea of what you can do.",
+        "zh": "FabFilter Pro-C 2 提供了大量预设，让你能很好地了解它可以实现的效果。"
+      },
+      {
+        "word": "You can either use the presets as they are, or tweak them further to create your own unique settings.",
+        "zh": "你可以直接使用这些预设，也可以进一步调整它们来创建自己独特的设置。"
+      },
+      {
+        "word": "To load a preset, click the preset button.",
+        "zh": "要加载预设，请点击预设按钮。"
+      },
+      {
+        "word": "The presets menu will appear with all available presets.",
+        "zh": "预设菜单会出现，显示所有可用的预设。"
+      },
+      {
+        "word": "Click a menu item to load that preset.",
+        "zh": "点击菜单项即可加载该预设。"
+      },
+      {
+        "word": "The currently selected preset is highlighted with check marks.",
+        "zh": "当前选中的预设会用对勾标记高亮显示。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu. To open a preset outside the presets folder, click Options > Open Other Preset. This might be useful if someone sends you a preset by email, for example. If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them. MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
+    "translation": "要更改默认设置，只需在预设菜单中点击 Options > Save As Default 来覆盖此预设。要打开预设文件夹以外的预设，请点击 Options > Open Other Preset。例如，如果有人通过电子邮件给你发送了一个预设，这个功能可能会很有用。如果出厂预设不知何故丢失或未正确安装，请在预设菜单中点击 Options > Restore Factory Presets 来恢复它们。MIDI 程序变更和音色库选择也可以通过 MIDI 来完成加载预设，使用音色库选择和程序变更消息。",
+    "category": "",
+    "branches": [
+      {
+        "word": "default settings",
+        "zh": "默认设置"
+      },
+      {
+        "word": "overwrite",
+        "zh": "覆盖"
+      },
+      {
+        "word": "preset",
+        "zh": "预设"
+      },
+      {
+        "word": "Options",
+        "zh": "选项"
+      },
+      {
+        "word": "Save As Default",
+        "zh": "保存为默认"
+      },
+      {
+        "word": "presets menu",
+        "zh": "预设菜单"
+      },
+      {
+        "word": "presets folder",
+        "zh": "预设文件夹"
+      },
+      {
+        "word": "Open Other Preset",
+        "zh": "打开其他预设"
+      },
+      {
+        "word": "factory presets",
+        "zh": "出厂预设"
+      },
+      {
+        "word": "Restore Factory Presets",
+        "zh": "恢复出厂预设"
+      },
+      {
+        "word": "MIDI",
+        "zh": "MIDI"
+      },
+      {
+        "word": "Program Change",
+        "zh": "程序变更"
+      },
+      {
+        "word": "Bank Select",
+        "zh": "音色库选择"
+      },
+      {
+        "word": "Loading a preset",
+        "zh": "加载预设"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "To save the current setting as a preset, click the preset button, and then click Save As. A standard Save dialog will appear. Type a name for the new preset and click Save to finish. In the Save dialog, you can also rename and delete existing presets and create a new folder to store presets in. New folders will show up as new categories in the preset menu. (On macOS, this should be done with the Finder.) See How presets are stored to determine the preset folder location and learn more about factory presets.",
+    "translation": "要将当前设置保存为预设，请点击预设按钮，然后点击“另存为”。会出现一个标准的保存对话框。为新预设输入一个名称，然后点击“保存”完成。在保存对话框中，你还可以重命名和删除已有的预设，并可以新建文件夹来存放预设。新建的文件夹会作为新分类显示在预设菜单中。（在 macOS 上，应使用“访达”来完成此操作。）请参阅“预设的存储方式”来确定预设文件夹的位置，并了解更多关于出厂预设的信息。",
+    "category": "",
+    "branches": [
+      {
+        "word": "To save the current setting as a preset",
+        "zh": "要将当前设置保存为预设"
+      },
+      {
+        "word": "click the preset button",
+        "zh": "点击预设按钮"
+      },
+      {
+        "word": "and then click Save As",
+        "zh": "然后点击“另存为”"
+      },
+      {
+        "word": "A standard Save dialog will appear",
+        "zh": "会出现一个标准的保存对话框"
+      },
+      {
+        "word": "Type a name for the new preset",
+        "zh": "为新预设输入一个名称"
+      },
+      {
+        "word": "and click Save to finish",
+        "zh": "然后点击“保存”完成"
+      },
+      {
+        "word": "In the Save dialog, you can also rename and delete existing presets",
+        "zh": "在保存对话框中，你还可以重命名和删除已有的预设"
+      },
+      {
+        "word": "and create a new folder to store presets in",
+        "zh": "并可以新建文件夹来存放预设"
+      },
+      {
+        "word": "New folders will show up as new categories in the preset menu",
+        "zh": "新建的文件夹会作为新分类显示在预设菜单中"
+      },
+      {
+        "word": "(On macOS, this should be done with the Finder.)",
+        "zh": "（在 macOS 上，应使用“访达”来完成此操作。）"
+      },
+      {
+        "word": "See How presets are stored to determine the preset folder location",
+        "zh": "请参阅“预设的存储方式”来确定预设文件夹的位置"
+      },
+      {
+        "word": "and learn more about factory presets",
+        "zh": "并了解更多关于出厂预设的信息"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "However, this also means that when you add new presets to the menu, bank/program numbers of other presets might change. Be aware of this when recording program changes in a session! Next: Saving presets See Also Undo, Redo, A/B switch Using FabFilter Pro-C Acknowledgements Saving presets You can easily extend the included presets with new settings to build your own library of presets for FabFilter Pro-C 2 that you can reuse in various projects. This is also a good way to copy settings across multiple instances of FabFilter Pro-C 2 in a session.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "presets",
+        "zh": "预设"
+      },
+      {
+        "word": "bank/program numbers",
+        "zh": "音色库/程序编号"
+      },
+      {
+        "word": "recording program changes",
+        "zh": "录制程序变更"
+      },
+      {
+        "word": "session",
+        "zh": "工程 / 会话"
+      },
+      {
+        "word": "Saving presets",
+        "zh": "保存预设"
+      },
+      {
+        "word": "Undo, Redo, A/B switch",
+        "zh": "撤销、重做、A/B 切换"
+      },
+      {
+        "word": "FabFilter Pro-C",
+        "zh": "FabFilter Pro-C"
+      },
+      {
+        "word": "Acknowledgements",
+        "zh": "致谢"
+      },
+      {
+        "word": "library",
+        "zh": "库"
+      },
+      {
+        "word": "instances",
+        "zh": "实例"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Click Options > Enable MIDI Program Changes in the preset menu to enable or disable this feature. When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset). This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65. Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0. This way, you are able to access any of the presets via MIDI.",
+    "translation": "在预设菜单中点击“选项”>“启用 MIDI 程序变更”来启用或禁用此功能。启用后，对应的音色库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。这意味着你可以先发送音色库选择消息以选择音色库 2，然后发送程序变更消息以选择程序 65，从而加载该预设。重要：你预设文件夹中的所有预设都会被自动编号，从音色库 0 和程序 0 开始。这样，你就能够通过 MIDI 访问任意预设。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Click Options",
+        "zh": "点击选项"
+      },
+      {
+        "word": "Enable MIDI Program Changes",
+        "zh": "启用 MIDI 程序变更"
+      },
+      {
+        "word": "in the preset menu",
+        "zh": "在预设菜单中"
+      },
+      {
+        "word": "to enable or disable this feature",
+        "zh": "以启用或禁用此功能"
+      },
+      {
+        "word": "When enabled",
+        "zh": "启用后"
+      },
+      {
+        "word": "the corresponding bank/program numbers",
+        "zh": "对应的音色库/程序编号"
+      },
+      {
+        "word": "are shown in front of the preset name",
+        "zh": "显示在预设名称前面"
+      },
+      {
+        "word": "for example: (2/65) My Preset",
+        "zh": "例如：(2/65) 我的预设"
+      },
+      {
+        "word": "This means that",
+        "zh": "这意味着"
+      },
+      {
+        "word": "you can load that preset",
+        "zh": "你可以加载该预设"
+      },
+      {
+        "word": "by first sending a Bank Select message",
+        "zh": "通过首先发送音色库选择消息"
+      },
+      {
+        "word": "to select bank 2",
+        "zh": "以选择音色库 2"
+      },
+      {
+        "word": "and then sending a Program Change message",
+        "zh": "然后发送程序变更消息"
+      },
+      {
+        "word": "to select program 65",
+        "zh": "以选择程序 65"
+      },
+      {
+        "word": "Important",
+        "zh": "重要"
+      },
+      {
+        "word": "All the presets in your preset folder",
+        "zh": "你预设文件夹中的所有预设"
+      },
+      {
+        "word": "are numbered automatically",
+        "zh": "会被自动编号"
+      },
+      {
+        "word": "starting with bank 0 and program 0",
+        "zh": "从音色库 0 和程序 0 开始"
+      },
+      {
+        "word": "This way",
+        "zh": "这样"
+      },
+      {
+        "word": "you are able to access any of the presets via MIDI",
+        "zh": "你能够通过 MIDI 访问任意预设"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Next: How presets are stored See Also Loading presets Using FabFilter Pro-C How presets are stored Presets for FabFilter Pro-C 2 are stored in separate files with the .ffp extension (for FabFilter Preset). All presets reside in subfolders in the main preset folder. The subfolders will show up as separate categories in the preset menu. You can also further divide the subfolders into categories. You can manage the preset files just like other files on your computer. The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+    "translation": "下一步：预设的存储方式 另请参阅 加载预设 使用 FabFilter Pro-C 预设的存储方式 FabFilter Pro-C 2 的预设存储在扩展名为 .ffp（代表 FabFilter Preset）的独立文件中。所有预设都存放在主预设文件夹下的子文件夹中。这些子文件夹会在预设菜单中显示为独立的分类。你还可以将子文件夹进一步划分为多个分类。你可以像管理电脑上的其他文件一样管理预设文件。最简单的方法是在保存预设时出现的保存对话框中进行管理。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Next",
+        "zh": "下一步"
+      },
+      {
+        "word": "How presets are stored",
+        "zh": "预设的存储方式"
+      },
+      {
+        "word": "See Also",
+        "zh": "另请参阅"
+      },
+      {
+        "word": "Loading presets",
+        "zh": "加载预设"
+      },
+      {
+        "word": "Using FabFilter Pro-C",
+        "zh": "使用 FabFilter Pro-C"
+      },
+      {
+        "word": "How presets are stored",
+        "zh": "预设的存储方式"
+      },
+      {
+        "word": "Presets for FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2 的预设"
+      },
+      {
+        "word": "are stored in separate files with the .ffp extension",
+        "zh": "存储在扩展名为 .ffp 的独立文件中"
+      },
+      {
+        "word": "(for FabFilter Preset)",
+        "zh": "（代表 FabFilter 预设）"
+      },
+      {
+        "word": "All presets reside in subfolders in the main preset folder.",
+        "zh": "所有预设都存放在主预设文件夹下的子文件夹中。"
+      },
+      {
+        "word": "The subfolders will show up as separate categories in the preset menu.",
+        "zh": "这些子文件夹会在预设菜单中显示为独立的分类。"
+      },
+      {
+        "word": "You can also further divide the subfolders into categories.",
+        "zh": "你还可以将子文件夹进一步划分为多个分类。"
+      },
+      {
+        "word": "You can manage the preset files just like other files on your computer.",
+        "zh": "你可以像管理电脑上的其他文件一样管理预设文件。"
+      },
+      {
+        "word": "The easiest way to do this is in the Save dialog that appears if you are saving a preset.",
+        "zh": "最简单的方法是在保存预设时出现的保存对话框中进行管理。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "To change this location, first copy all presets to the desired new location, and then click Options > Change Preset Folder in the preset menu and select the new folder. Restoring factory presets If you have accidentally lost the factory presets, you can easily restore them by clicking Options > Restore Factory Presets in the preset menu. This will install all factory presets again.",
+    "translation": "要更改此位置，首先将所有预设复制到所需的新位置，然后在预设菜单中点击「选项 > 更改预设文件夹」并选择新文件夹。恢复出厂预设：如果您不小心丢失了出厂预设，可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们。这将重新安装所有出厂预设。",
+    "category": "",
+    "branches": [
+      {
+        "word": "To change this location",
+        "zh": "要更改此位置"
+      },
+      {
+        "word": "first copy all presets to the desired new location",
+        "zh": "首先将所有预设复制到所需的新位置"
+      },
+      {
+        "word": "and then click Options > Change Preset Folder in the preset menu",
+        "zh": "然后在预设菜单中点击「选项 > 更改预设文件夹」"
+      },
+      {
+        "word": "and select the new folder",
+        "zh": "并选择新文件夹"
+      },
+      {
+        "word": "Restoring factory presets",
+        "zh": "恢复出厂预设"
+      },
+      {
+        "word": "If you have accidentally lost the factory presets",
+        "zh": "如果您不小心丢失了出厂预设"
+      },
+      {
+        "word": "you can easily restore them by clicking Options > Restore Factory Presets in the preset menu",
+        "zh": "您可以通过在预设菜单中点击「选项 > 恢复出厂预设」来轻松恢复它们"
+      },
+      {
+        "word": "This will install all factory presets again",
+        "zh": "这将重新安装所有出厂预设"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Next: Purchasing FabFilter Pro C See Also Saving presets Using FabFilter Pro C Purchasing FabFilter Pro-C Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days. Every time you start the plug-in, you will see the following dialog: While there are still days left, you can click Evaluate to start working with the plugin. If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+    "translation": "购买 FabFilter Pro C 另请参阅 保存预设 使用 FabFilter Pro C 购买 FabFilter Pro-C 下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。每次启动该插件时，您都会看到以下对话框：在仍有剩余天数时，您可以点击「评估」开始使用该插件。如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Purchasing FabFilter Pro C",
+        "zh": "购买 FabFilter Pro C"
+      },
+      {
+        "word": "See Also",
+        "zh": "另请参阅"
+      },
+      {
+        "word": "Saving presets",
+        "zh": "保存预设"
+      },
+      {
+        "word": "Using FabFilter Pro C",
+        "zh": "使用 FabFilter Pro C"
+      },
+      {
+        "word": "Purchasing FabFilter Pro-C",
+        "zh": "购买 FabFilter Pro-C"
+      },
+      {
+        "word": "Once you have downloaded and installed the evaluation copy of FabFilter Pro-C 2, you may evaluate it during 30 days.",
+        "zh": "下载并安装 FabFilter Pro-C 2 评估版后，您可以在 30 天内对其进行评估。"
+      },
+      {
+        "word": "Every time you start the plug-in, you will see the following dialog:",
+        "zh": "每次启动该插件时，您都会看到以下对话框："
+      },
+      {
+        "word": "While there are still days left, you can click Evaluate to start working with the plugin.",
+        "zh": "在仍有剩余天数时，您可以点击「评估」开始使用该插件。"
+      },
+      {
+        "word": "If you want to keep using FabFilter Pro-C 2 after the evaluation period, you must buy a copy in the online FabFilter Shop by clicking the Buy Now button in the evaluation dialog.",
+        "zh": "如果您希望在评估期结束后继续使用 FabFilter Pro-C 2，必须在 FabFilter 在线商店中购买一份授权，方法是点击评估对话框中的「立即购买」按钮。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "The preset menu will automatically reload itself with the changes when the dialog is closed. Furthermore it is very easy to share your newly created presets with other users since FabFilter presets use the same file format on both Windows and macOS. The default location of the main preset folder is My Documents\\FabFilter\\Pro-C 2 for Windows, and ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 for macOS.",
+    "translation": "关闭对话框后，预设菜单会自动重新加载以反映所做的更改。此外，由于 FabFilter 预设文件格式在 Windows 和 macOS 上完全相同，因此与其他用户分享你新建的预设非常方便。主预设文件夹的默认位置在 Windows 上为 My Documents\\FabFilter\\Pro-C 2，在 macOS 上为 ~/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2。",
+    "category": "",
+    "branches": [
+      {
+        "word": "preset menu",
+        "zh": "预设菜单"
+      },
+      {
+        "word": "automatically reload",
+        "zh": "自动重新加载"
+      },
+      {
+        "word": "dialog",
+        "zh": "对话框"
+      },
+      {
+        "word": "share",
+        "zh": "分享"
+      },
+      {
+        "word": "preset",
+        "zh": "预设"
+      },
+      {
+        "word": "file format",
+        "zh": "文件格式"
+      },
+      {
+        "word": "Windows",
+        "zh": "Windows 操作系统"
+      },
+      {
+        "word": "macOS",
+        "zh": "macOS 操作系统"
+      },
+      {
+        "word": "default location",
+        "zh": "默认位置"
+      },
+      {
+        "word": "main preset folder",
+        "zh": "主预设文件夹"
+      },
+      {
+        "word": "My Documents",
+        "zh": "我的文档"
+      },
+      {
+        "word": "~/Library/Audio/Presets",
+        "zh": "用户资源库中的音频预设目录"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Go to the FabFilter Shop and purchase FabFilter Pro-C 2 now We accept credit cards from all major companies, check payments, wire payments, and PayPal. The FabFilter Shop uses secure connections and encryption: therefore your personal information is completely safe. Within a few minutes after you have purchased your copy, you will receive an email containing your personal license key. You use this license key to turn the evaluation copy into a fully registered version without the evaluation dialog and the 30-day trial restriction.",
+    "translation": "立即前往 FabFilter 商店购买 FabFilter Pro-C 2。我们接受所有主要公司的信用卡、支票付款、电汇付款以及 PayPal。FabFilter 商店使用安全连接和加密技术：因此您的个人信息完全安全。在您购买后几分钟内，您将收到一封包含您个人许可证密钥的电子邮件。您使用此许可证密钥将评估版转为完整注册版，从而不再出现评估提示对话框和 30 天试用限制。",
+    "category": "",
+    "branches": [
+      {
+        "word": "FabFilter Shop",
+        "zh": "FabFilter 商店"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "credit cards",
+        "zh": "信用卡"
+      },
+      {
+        "word": "check payments",
+        "zh": "支票付款"
+      },
+      {
+        "word": "wire payments",
+        "zh": "电汇付款"
+      },
+      {
+        "word": "PayPal",
+        "zh": "PayPal"
+      },
+      {
+        "word": "secure connections",
+        "zh": "安全连接"
+      },
+      {
+        "word": "encryption",
+        "zh": "加密"
+      },
+      {
+        "word": "personal information",
+        "zh": "个人信息"
+      },
+      {
+        "word": "license key",
+        "zh": "许可证密钥"
+      },
+      {
+        "word": "evaluation copy",
+        "zh": "评估版"
+      },
+      {
+        "word": "fully registered version",
+        "zh": "完整注册版"
+      },
+      {
+        "word": "evaluation dialog",
+        "zh": "评估提示对话框"
+      },
+      {
+        "word": "30-day trial restriction",
+        "zh": "30 天试用限制"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Note: If the evaluation period has expired but you didn't have the chance to properly evaluate the plug-in, you can request a new evaluation period by contacting us at info@fabfilter.com . Next: Entering your license key See Also Support License agreement Entering your license key After you have purchased FabFilter Pro-C 2 in the online FabFilter Shop , you will immediately receive an email containing your personal license key. This license key will turn the evaluation version into a fully registered plug-in.",
+    "translation": "注意：如果评估期已过，但你还没有机会对插件进行充分的评估，你可以通过 info@fabfilter.com 联系我们，申请一个新的评估期。下一步：输入你的许可证密钥。另请参阅：支持、许可协议、输入你的许可证密钥。在 FabFilter 在线商店购买 FabFilter Pro-C 2 后，你会立即收到一封包含你个人许可证密钥的邮件。该许可证密钥会将评估版转变为完全注册的插件。",
+    "category": "",
+    "branches": [
+      {
+        "word": "evaluation period",
+        "zh": "评估期"
+      },
+      {
+        "word": "plug-in",
+        "zh": "插件"
+      },
+      {
+        "word": "request",
+        "zh": "申请 / 请求"
+      },
+      {
+        "word": "contacting",
+        "zh": "联系"
+      },
+      {
+        "word": "license key",
+        "zh": "许可证密钥"
+      },
+      {
+        "word": "Entering your license key",
+        "zh": "输入你的许可证密钥"
+      },
+      {
+        "word": "See Also",
+        "zh": "另请参阅"
+      },
+      {
+        "word": "Support",
+        "zh": "支持 / 技术支持"
+      },
+      {
+        "word": "License agreement",
+        "zh": "许可协议"
+      },
+      {
+        "word": "purchased",
+        "zh": "购买"
+      },
+      {
+        "word": "online FabFilter Shop",
+        "zh": "FabFilter 在线商店"
+      },
+      {
+        "word": "immediately",
+        "zh": "立即 / 马上"
+      },
+      {
+        "word": "personal license key",
+        "zh": "个人许可证密钥"
+      },
+      {
+        "word": "evaluation version",
+        "zh": "评估版"
+      },
+      {
+        "word": "fully registered",
+        "zh": "完全注册的"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "If you temporarily needed to install your license on another computer, or if you have transferred your license to someone else, this is the way to deinstall your personal license key safely. Next: Support See Also Purchasing FabFilter Pro-C Support License agreement Support If you need help with problems or questions, and the help file does not provide an answer, please visit the support pages on our web site.",
+    "translation": "如果你暂时需要将许可证安装到另一台电脑上，或者你已经将许可证转移给了别人，这是安全卸载你个人许可证密钥的方法。下一步：支持。另请参阅：购买 FabFilter Pro-C、支持、许可协议。支持：如果你在遇到问题或有疑问时需要帮助，而帮助文件没有提供答案，请访问我们网站上的支持页面。",
+    "category": "",
+    "branches": [
+      {
+        "word": "temporarily",
+        "zh": "暂时地"
+      },
+      {
+        "word": "install",
+        "zh": "安装"
+      },
+      {
+        "word": "license",
+        "zh": "许可证"
+      },
+      {
+        "word": "transferred",
+        "zh": "转移"
+      },
+      {
+        "word": "deinstall",
+        "zh": "卸载 / 移除安装"
+      },
+      {
+        "word": "personal",
+        "zh": "个人的"
+      },
+      {
+        "word": "license key",
+        "zh": "许可证密钥"
+      },
+      {
+        "word": "safely",
+        "zh": "安全地"
+      },
+      {
+        "word": "Support",
+        "zh": "支持"
+      },
+      {
+        "word": "See Also",
+        "zh": "另请参阅"
+      },
+      {
+        "word": "Purchasing",
+        "zh": "购买"
+      },
+      {
+        "word": "License agreement",
+        "zh": "许可协议"
+      },
+      {
+        "word": "help file",
+        "zh": "帮助文件"
+      },
+      {
+        "word": "support pages",
+        "zh": "支持页面"
+      },
+      {
+        "word": "web site",
+        "zh": "网站"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Go to FabFilter Support From here, you have direct access to the customer support forum, very useful tutorial videos for all FabFilter plug-ins, online and PDF versions of all our help files, and a section with extra downloads (such as presets, controller templates, older plug-in versions). For sales-related questions and technical support, you can also contact FabFilter directly at info@fabfilter.com.",
+    "translation": "前往 FabFilter 支持页面。从这里，你可以直接访问客户支持论坛、适用于所有 FabFilter 插件的实用教程视频、我们所有帮助文件的在线版和 PDF 版，以及一个额外下载专区（如预设、控制器模板、旧版插件）。如需销售相关问题和技术支持，你也可以直接通过 info@fabfilter.com 联系 FabFilter。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Go to FabFilter Support",
+        "zh": "前往 FabFilter 支持页面"
+      },
+      {
+        "word": "From here, you have direct access to the customer support forum",
+        "zh": "从这里，你可以直接访问客户支持论坛"
+      },
+      {
+        "word": "very useful tutorial videos for all FabFilter plug-ins",
+        "zh": "适用于所有 FabFilter 插件的实用教程视频"
+      },
+      {
+        "word": "online and PDF versions of all our help files",
+        "zh": "我们所有帮助文件的在线版和 PDF 版"
+      },
+      {
+        "word": "and a section with extra downloads (such as presets, controller templates, older plug-in versions)",
+        "zh": "以及额外下载专区（如预设、控制器模板、旧版插件）"
+      },
+      {
+        "word": "For sales-related questions and technical support",
+        "zh": "如需销售相关问题和技术支持"
+      },
+      {
+        "word": "you can also contact FabFilter directly at info@fabfilter.com",
+        "zh": "你也可以直接通过 info@fabfilter.com 联系 FabFilter"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Start FabFilter Pro-C 2 and click Enter License in the evaluation dialog, or click Enter License on the Help menu if the plug-in is already running. Copy the license information from the email you have received and paste it into the text field. Make sure that you are copying the entire license key including the Product and Licensee lines! If you are not sure what text to copy, just copy and paste the whole e-mail. After you have entered your license information, you will need to restart the plug-in host, so make sure you save your settings if needed.",
+    "translation": "启动 FabFilter Pro-C 2，在评估对话框中点击“输入许可证”，如果插件已在运行，则点击“帮助”菜单中的“输入许可证”。从您收到的电子邮件中复制许可证信息，并将其粘贴到文本框中。请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。输入许可证信息之后，您需要重启插件宿主程序，因此如有需要，请务必先保存您的设置。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Start FabFilter Pro-C 2",
+        "zh": "启动 FabFilter Pro-C 2"
+      },
+      {
+        "word": "click Enter License in the evaluation dialog",
+        "zh": "在评估对话框中点击“输入许可证”"
+      },
+      {
+        "word": "or click Enter License on the Help menu if the plug-in is already running",
+        "zh": "如果插件已在运行，则点击“帮助”菜单中的“输入许可证”"
+      },
+      {
+        "word": "Copy the license information from the email you have received",
+        "zh": "从您收到的电子邮件中复制许可证信息"
+      },
+      {
+        "word": "and paste it into the text field",
+        "zh": "并将其粘贴到文本框中"
+      },
+      {
+        "word": "Make sure that you are copying the entire license key including the Product and Licensee lines!",
+        "zh": "请确保复制完整的许可证密钥，包括“产品”和“被许可人”这两行！"
+      },
+      {
+        "word": "If you are not sure what text to copy, just copy and paste the whole e-mail.",
+        "zh": "如果不确定该复制哪些文字，直接复制并粘贴整封电子邮件即可。"
+      },
+      {
+        "word": "After you have entered your license information",
+        "zh": "输入许可证信息之后"
+      },
+      {
+        "word": "you will need to restart the plug-in host",
+        "zh": "您需要重启插件宿主程序"
+      },
+      {
+        "word": "so make sure you save your settings if needed",
+        "zh": "因此如有需要，请务必先保存您的设置"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "From now on, you will be able to use FabFilter Pro-C 2 for an unlimited period of time with full support via email. Tips After your purchase, you can always retrieve your license key again by logging into your personal FabFilter account . Here you can also keep track of all your orders and take advantage of great discounts when buying other FabFilter plug-ins. To deauthorize your license key and remove it from the computer, click Deauthorize on the Help menu.",
+    "translation": "从现在起，你将能够无限期使用 FabFilter Pro-C 2，并通过电子邮件获得全面支持。提示：购买后，你可以随时登录你的个人 FabFilter 账户找回许可证密钥。在这里，你还可以跟踪所有订单，并在购买其他 FabFilter 插件时享受大幅折扣。要取消授权许可证密钥并将其从计算机中移除，请点击帮助菜单中的“取消授权”。",
+    "category": "",
+    "branches": [
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "unlimited period of time",
+        "zh": "无限期"
+      },
+      {
+        "word": "full support via email",
+        "zh": "通过电子邮件提供全面支持"
+      },
+      {
+        "word": "Tips",
+        "zh": "提示"
+      },
+      {
+        "word": "purchase",
+        "zh": "购买"
+      },
+      {
+        "word": "retrieve",
+        "zh": "找回 / 获取"
+      },
+      {
+        "word": "license key",
+        "zh": "许可证密钥"
+      },
+      {
+        "word": "logging into",
+        "zh": "登录"
+      },
+      {
+        "word": "personal FabFilter account",
+        "zh": "个人 FabFilter 账户"
+      },
+      {
+        "word": "keep track of",
+        "zh": "跟踪 / 管理"
+      },
+      {
+        "word": "orders",
+        "zh": "订单"
+      },
+      {
+        "word": "take advantage of",
+        "zh": "利用"
+      },
+      {
+        "word": "discounts",
+        "zh": "折扣"
+      },
+      {
+        "word": "FabFilter plug-ins",
+        "zh": "FabFilter 插件"
+      },
+      {
+        "word": "deauthorize",
+        "zh": "取消授权"
+      },
+      {
+        "word": "remove",
+        "zh": "移除"
+      },
+      {
+        "word": "Deauthorize",
+        "zh": "取消授权"
+      },
+      {
+        "word": "Help menu",
+        "zh": "帮助菜单"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Reporting a bug If you have encountered a bug in FabFilter Pro-C 2, first of all make sure that you are using the latest version of the plug-in, which you can find at www.fabfilter.com/download . You can easily check the version of FabFilter Pro-C 2 that you are using by clicking Help > About in the plug-in interface.",
+    "translation": "报告错误。如果您在 FabFilter Pro-C 2 中遇到了错误，首先请确认您使用的是该插件的最新版本，您可以在 www.fabfilter.com/download 找到它。您可以通过在插件界面中点击 Help > About 来轻松查看您正在使用的 FabFilter Pro-C 2 版本。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Reporting a bug",
+        "zh": "报告错误"
+      },
+      {
+        "word": "If you have encountered a bug in FabFilter Pro-C 2",
+        "zh": "如果您在 FabFilter Pro-C 2 中遇到了错误"
+      },
+      {
+        "word": "first of all make sure that you are using the latest version of the plug-in",
+        "zh": "首先请确认您使用的是该插件的最新版本"
+      },
+      {
+        "word": "which you can find at www.fabfilter.com/download",
+        "zh": "您可以在 www.fabfilter.com/download 找到它"
+      },
+      {
+        "word": "You can easily check the version of FabFilter Pro-C 2 that you are using",
+        "zh": "您可以轻松查看您正在使用的 FabFilter Pro-C 2 版本"
+      },
+      {
+        "word": "by clicking Help > About in the plug-in interface",
+        "zh": "通过在插件界面中点击 Help > About"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Replacing a Pro-C 1 instance by Pro-C 2 If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2, we advise you to do the following: First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder. Then, remove the Pro-C 1 instance and add Pro-C 2 in its place. Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu.",
+    "translation": "用 Pro-C 2 替换 Pro-C 1 实例。如果你正在制作一首歌，并想用新的 Pro-C 2 替换某个 Pro-C 1 实例，我们建议你按以下步骤操作：首先，将当前 Pro-C 1 实例的设置保存为 FabFilter 预设，存放在 Pro-C 1 预设文件夹中。然后，移除 Pro-C 1 实例，并在原位置添加 Pro-C 2。最后，通过预设菜单中的 V1 Preset Folder 子菜单，将你刚创建的 V1 预设加载到 Pro-C 2 中。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Replacing a Pro-C 1 instance by Pro-C 2",
+        "zh": "用 Pro-C 2 替换 Pro-C 1 实例"
+      },
+      {
+        "word": "If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2",
+        "zh": "如果你正在制作一首歌，并想用新的 Pro-C 2 替换某个 Pro-C 1 实例"
+      },
+      {
+        "word": "we advise you to do the following",
+        "zh": "我们建议你按以下步骤操作"
+      },
+      {
+        "word": "First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder",
+        "zh": "首先，将当前 Pro-C 1 实例的设置保存为 FabFilter 预设，存放在 Pro-C 1 预设文件夹中"
+      },
+      {
+        "word": "Then, remove the Pro-C 1 instance and add Pro-C 2 in its place",
+        "zh": "然后，移除 Pro-C 1 实例，并在原位置添加 Pro-C 2"
+      },
+      {
+        "word": "Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu",
+        "zh": "最后，通过预设菜单中的 V1 Preset Folder 子菜单，将你刚创建的 V1 预设加载到 Pro-C 2 中"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Both versions will co-exist and can both be used at the same time. This ensures that you can open old songs that use Pro-C 1 without problems! Pro-C 1 presets Presets created with Pro-C 1 can be loaded in Pro-C 2. If you upgraded from Pro-C 1 to the new version, your original Pro-C 1 presets will be accessible via the V1 Preset Folder item in the preset menu. See also Loading presets. Note: Because we've implemented quite some changes and improvements in Pro-C 2, it's possible that a Pro-C 1 preset loaded into Pro-C 2 sounds different!",
+    "translation": "两个版本将共存，并且可以同时使用。这确保你可以毫无问题地打开使用 Pro-C 1 的旧歌曲工程！Pro-C 1 预设——用 Pro-C 1 创建的预设可以加载到 Pro-C 2 中。如果你从 Pro-C 1 升级到了新版本，你原来的 Pro-C 1 预设可以通过预设菜单中的「V1 Preset Folder」项来访问。另请参阅「加载预设」。注意：由于我们在 Pro-C 2 中做了相当多的改动和改进，加载到 Pro-C 2 中的 Pro-C 1 预设听起来可能会有所不同！",
+    "category": "",
+    "branches": [
+      {
+        "word": "Both versions will co-exist and can both be used at the same time",
+        "zh": "两个版本将共存，并且可以同时使用"
+      },
+      {
+        "word": "This ensures that you can open old songs that use Pro-C 1 without problems",
+        "zh": "这确保你可以毫无问题地打开使用 Pro-C 1 的旧歌曲工程"
+      },
+      {
+        "word": "Pro-C 1 presets",
+        "zh": "Pro-C 1 预设"
+      },
+      {
+        "word": "Presets created with Pro-C 1 can be loaded in Pro-C 2",
+        "zh": "用 Pro-C 1 创建的预设可以加载到 Pro-C 2 中"
+      },
+      {
+        "word": "If you upgraded from Pro-C 1 to the new version, your original Pro-C 1 presets will be accessible via the V1 Preset Folder item in the preset menu",
+        "zh": "如果你从 Pro-C 1 升级到了新版本，你原来的 Pro-C 1 预设可以通过预设菜单中的「V1 Preset Folder」项来访问"
+      },
+      {
+        "word": "See also Loading presets",
+        "zh": "另请参阅「加载预设」"
+      },
+      {
+        "word": "Note: Because we've implemented quite some changes and improvements in Pro-C 2, it's possible that a Pro-C 1 preset loaded into Pro-C 2 sounds different!",
+        "zh": "注意：由于我们在 Pro-C 2 中做了相当多的改动和改进，加载到 Pro-C 2 中的 Pro-C 1 预设听起来可能会有所不同！"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "If the bug is still present in the latest version, please send us an e-mail at info@fabfilter.com and include as much technical information as possible: operation system and version, host software and version, steps to reproduce the bug, etc. Thanks in advance! Next: Upgrading to Pro-C 2 See Also Using FabFilter Pro-C Acknowledgements About FabFilter Upgrading to Pro-C 2 Upgrading from Pro-C version 1 to the new Pro-C 2 is safe and easy: installing Pro-C 2 will not replace or delete the previous Pro-C 1 plug-in.",
+    "translation": "如果该缺陷在最新版本中仍然存在，请发送电子邮件至 info@fabfilter.com，并尽可能附上详细的技术信息：操作系统及版本、宿主软件及版本、复现该缺陷的步骤等。提前致谢！下一节：升级到 Pro-C 2。另请参阅：使用 FabFilter Pro-C、致谢、关于 FabFilter、升级到 Pro-C 2。从 Pro-C 第 1 版升级到新的 Pro-C 2 既安全又简便：安装 Pro-C 2 不会替换或删除之前的 Pro-C 1 插件。",
+    "category": "",
+    "branches": [
+      {
+        "word": "bug",
+        "zh": "缺陷 / 程序错误"
+      },
+      {
+        "word": "latest version",
+        "zh": "最新版本"
+      },
+      {
+        "word": "e-mail",
+        "zh": "电子邮件"
+      },
+      {
+        "word": "technical information",
+        "zh": "技术信息"
+      },
+      {
+        "word": "operation system",
+        "zh": "操作系统"
+      },
+      {
+        "word": "host software",
+        "zh": "宿主软件"
+      },
+      {
+        "word": "steps to reproduce",
+        "zh": "复现步骤"
+      },
+      {
+        "word": "Thanks in advance!",
+        "zh": "提前致谢！"
+      },
+      {
+        "word": "Upgrading to Pro-C 2",
+        "zh": "升级到 Pro-C 2"
+      },
+      {
+        "word": "See Also",
+        "zh": "另请参阅"
+      },
+      {
+        "word": "Using FabFilter Pro-C",
+        "zh": "使用 FabFilter Pro-C"
+      },
+      {
+        "word": "Acknowledgements",
+        "zh": "致谢"
+      },
+      {
+        "word": "About FabFilter",
+        "zh": "关于 FabFilter"
+      },
+      {
+        "word": "Upgrading from Pro-C version 1 to the new Pro-C 2",
+        "zh": "从 Pro-C 第 1 版升级到新的 Pro-C 2"
+      },
+      {
+        "word": "safe and easy",
+        "zh": "安全且简便"
+      },
+      {
+        "word": "installing Pro-C 2",
+        "zh": "安装 Pro-C 2"
+      },
+      {
+        "word": "replace",
+        "zh": "替换"
+      },
+      {
+        "word": "delete",
+        "zh": "删除"
+      },
+      {
+        "word": "previous Pro-C 1 plug-in",
+        "zh": "之前的 Pro-C 1 插件"
+      },
+      {
+        "word": "plug-in",
+        "zh": "插件"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "So if you are using Windows and your host does not recognize FabFilter Pro-C 2, you need to locate the proper plug-ins folder for your host first (it is usually shown in the Preferences or similar dialog). Then, copy the file FabFilter Pro-C 2.dll from C:\\Program Files\\FabFilter\\Pro-C 2 (or C:\\Program Files (x86)\\FabFilter\\Pro-C 2 if you are using a 32-bit host on 64-bit Windows) to the plug-ins folder that you have found and restart the host so it can reload all its plug-ins.",
+    "translation": "因此，如果你使用的是 Windows，而你的宿主程序无法识别 FabFilter Pro-C 2，你需要先找到宿主程序对应的正确插件文件夹（通常会在首选项或类似对话框中显示）。然后，将文件 FabFilter Pro-C 2.dll 从 C:\\Program Files\\FabFilter\\Pro-C 2（如果你在 64 位 Windows 上使用 32 位宿主程序，则为 C:\\Program Files (x86)\\FabFilter\\Pro-C 2）复制到你找到的插件文件夹中，并重启宿主程序，以便它重新加载所有插件。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Windows",
+        "zh": "Windows 操作系统"
+      },
+      {
+        "word": "host",
+        "zh": "宿主程序 / 宿主软件"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2 插件"
+      },
+      {
+        "word": "plug-ins folder",
+        "zh": "插件文件夹"
+      },
+      {
+        "word": "Preferences",
+        "zh": "首选项 / 偏好设置"
+      },
+      {
+        "word": "dialog",
+        "zh": "对话框"
+      },
+      {
+        "word": "FabFilter Pro-C 2.dll",
+        "zh": "FabFilter Pro-C 2 动态链接库文件"
+      },
+      {
+        "word": "C:\\Program Files\\FabFilter\\Pro-C 2",
+        "zh": "默认安装路径（64 位）"
+      },
+      {
+        "word": "C:\\Program Files (x86)\\FabFilter\\Pro-C 2",
+        "zh": "默认安装路径（32 位）"
+      },
+      {
+        "word": "32-bit host",
+        "zh": "32 位宿主程序"
+      },
+      {
+        "word": "64-bit Windows",
+        "zh": "64 位 Windows 系统"
+      },
+      {
+        "word": "restart the host",
+        "zh": "重启宿主程序"
+      },
+      {
+        "word": "reload all its plug-ins",
+        "zh": "重新加载所有插件"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Automation Because the feature set of Pro-C 2 has changed fundamentally, any automation data that has been written by a Pro-C 1 instance cannot be read correctly by Pro-C 2. Next: Manual installation See Also Overview Support Manual installation When installing FabFilter Pro-C 2, the installation program will try to copy the plug-in into the appropriate plugins folders, and in most cases your host will recognize FabFilter Pro-C 2 automatically. Otherwise, please follow these instructions: Windows On Windows, most hosts have their own VST plug-ins folder.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Automation",
+        "zh": "自动化"
+      },
+      {
+        "word": "feature set",
+        "zh": "功能集"
+      },
+      {
+        "word": "Pro-C 2",
+        "zh": "Pro-C 2"
+      },
+      {
+        "word": "Pro-C 1",
+        "zh": "Pro-C 1"
+      },
+      {
+        "word": "automation data",
+        "zh": "自动化数据"
+      },
+      {
+        "word": "instance",
+        "zh": "实例"
+      },
+      {
+        "word": "Manual installation",
+        "zh": "手动安装"
+      },
+      {
+        "word": "Overview",
+        "zh": "概述"
+      },
+      {
+        "word": "Support",
+        "zh": "支持"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "installation program",
+        "zh": "安装程序"
+      },
+      {
+        "word": "plug-in",
+        "zh": "插件"
+      },
+      {
+        "word": "plugins folders",
+        "zh": "插件文件夹"
+      },
+      {
+        "word": "host",
+        "zh": "宿主"
+      },
+      {
+        "word": "Windows",
+        "zh": "Windows"
+      },
+      {
+        "word": "VST plug-ins folder",
+        "zh": "VST 插件文件夹"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Finally, if you really want to delete all data written by our plug-ins, you can remove the following folders/files from the user Library folder as well: /Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2 /Users/<username>/Library/Application Support/FabFilter/Pro-C 2 /Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist Note: Since OS X 10.7 (Lion), the system and user Library folders are marked as hidden by default.",
+    "translation": "最后，如果你确实想删除我们的插件写入的所有数据，你也可以从用户资源库文件夹中移除以下文件夹/文件：/Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2、/Users/<username>/Library/Application Support/FabFilter/Pro-C 2、/Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist。注意：自 OS X 10.7（Lion）起，系统和用户资源库文件夹默认被标记为隐藏。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Finally",
+        "zh": "最后"
+      },
+      {
+        "word": "if you really want to delete all data written by our plug-ins",
+        "zh": "如果你确实想删除我们的插件写入的所有数据"
+      },
+      {
+        "word": "you can remove the following folders/files from the user Library folder as well",
+        "zh": "你也可以从用户资源库文件夹中移除以下文件夹/文件"
+      },
+      {
+        "word": "/Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2",
+        "zh": "/Users/<username>/Library/Audio/Presets/FabFilter/FabFilter Pro-C 2"
+      },
+      {
+        "word": "/Users/<username>/Library/Application Support/FabFilter/Pro-C 2",
+        "zh": "/Users/<username>/Library/Application Support/FabFilter/Pro-C 2"
+      },
+      {
+        "word": "/Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist",
+        "zh": "/Users/<username>/Library/Preferences/com.fabfilter.Pro-C.2.plist"
+      },
+      {
+        "word": "Note: Since OS X 10.7 (Lion), the system and user Library folders are marked as hidden by default.",
+        "zh": "注意：自 OS X 10.7（Lion）起，系统和用户资源库文件夹默认被标记为隐藏。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "For the AAX version of Pro-C 2, copy the FabFilter Pro-C 2.aaxplugin folder to the common Pro Tools AAX plug-in folder on your computer; for the RTAS version of Pro-C 2, copy the FabFilter Pro-C 2.dpm and FabFilter Pro-C 2.dpm.rsr files to the Pro Tools RTAS plug-in folder on your computer. You can simply uninstall plug-ins or bundles via the Control Panel. macOS On macOS, plug-ins are installed in the standard plug-in folders in the system Library folder.",
+    "translation": "对于 Pro-C 2 的 AAX 版本，请将 FabFilter Pro-C 2.aaxplugin 文件夹复制到计算机上的 Pro Tools 通用 AAX 插件文件夹中；对于 Pro-C 2 的 RTAS 版本，请将 FabFilter Pro-C 2.dpm 和 FabFilter Pro-C 2.dpm.rsr 文件复制到计算机上的 Pro Tools RTAS 插件文件夹中。你可以直接通过控制面板卸载插件或软件包。macOS 在 macOS 上，插件安装在系统资源库文件夹中的标准插件文件夹内。",
+    "category": "",
+    "branches": [
+      {
+        "word": "AAX version",
+        "zh": "AAX 版本"
+      },
+      {
+        "word": "Pro-C 2",
+        "zh": "Pro-C 2"
+      },
+      {
+        "word": "FabFilter Pro-C 2.aaxplugin folder",
+        "zh": "FabFilter Pro-C 2.aaxplugin 文件夹"
+      },
+      {
+        "word": "common Pro Tools AAX plug-in folder",
+        "zh": "Pro Tools 通用 AAX 插件文件夹"
+      },
+      {
+        "word": "RTAS version",
+        "zh": "RTAS 版本"
+      },
+      {
+        "word": "FabFilter Pro-C 2.dpm",
+        "zh": "FabFilter Pro-C 2.dpm"
+      },
+      {
+        "word": "FabFilter Pro-C 2.dpm.rsr",
+        "zh": "FabFilter Pro-C 2.dpm.rsr"
+      },
+      {
+        "word": "Pro Tools RTAS plug-in folder",
+        "zh": "Pro Tools RTAS 插件文件夹"
+      },
+      {
+        "word": "uninstall",
+        "zh": "卸载"
+      },
+      {
+        "word": "plug-ins",
+        "zh": "插件"
+      },
+      {
+        "word": "bundles",
+        "zh": "软件包 / 捆绑包"
+      },
+      {
+        "word": "Control Panel",
+        "zh": "控制面板"
+      },
+      {
+        "word": "macOS",
+        "zh": "macOS"
+      },
+      {
+        "word": "standard plug-in folders",
+        "zh": "标准插件文件夹"
+      },
+      {
+        "word": "system Library folder",
+        "zh": "系统资源库文件夹"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "These are the only possible correct locations: Audio Units: /Library/Audio/Plug-Ins/Components VST/VST3: /Library/Audio/Plug-Ins/VST and /Library/Audio/Plug-Ins/VST3 RTAS: /Library/Application Support/Digidesign/Plug-Ins AAX: /Library/Application Support/Avid/Audio/Plug-Ins Note: AU and VST/VST3 plug-ins may also be placed in the user's Library folders under /Users/<username>/Library/Audio/Plug-Ins. To uninstall the plug-ins from your Mac, you can just delete the specific FabFilter plug-in files at the above locations.",
+    "translation": "以下是唯一可能正确的安装位置：音频单元：/Library/Audio/Plug-Ins/Components；VST/VST3：/Library/Audio/Plug-Ins/VST 和 /Library/Audio/Plug-Ins/VST3；RTAS：/Library/Application Support/Digidesign/Plug-Ins；AAX：/Library/Application Support/Avid/Audio/Plug-Ins。注意：AU 和 VST/VST3 插件也可以放置在用户个人资源库文件夹中，路径为 /Users/<用户名>/Library/Audio/Plug-Ins。要从 Mac 上卸载这些插件，只需删除上述位置中对应的 FabFilter 插件文件即可。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Audio Units",
+        "zh": "音频单元"
+      },
+      {
+        "word": "/Library/Audio/Plug-Ins/Components",
+        "zh": "/Library/Audio/Plug-Ins/Components"
+      },
+      {
+        "word": "VST/VST3",
+        "zh": "VST/VST3"
+      },
+      {
+        "word": "/Library/Audio/Plug-Ins/VST",
+        "zh": "/Library/Audio/Plug-Ins/VST"
+      },
+      {
+        "word": "/Library/Audio/Plug-Ins/VST3",
+        "zh": "/Library/Audio/Plug-Ins/VST3"
+      },
+      {
+        "word": "RTAS",
+        "zh": "RTAS"
+      },
+      {
+        "word": "/Library/Application Support/Digidesign/Plug-Ins",
+        "zh": "/Library/Application Support/Digidesign/Plug-Ins"
+      },
+      {
+        "word": "AAX",
+        "zh": "AAX"
+      },
+      {
+        "word": "/Library/Application Support/Avid/Audio/Plug-Ins",
+        "zh": "/Library/Application Support/Avid/Audio/Plug-Ins"
+      },
+      {
+        "word": "Note",
+        "zh": "注意"
+      },
+      {
+        "word": "AU and VST/VST3 plug-ins may also be placed in the user's Library folders under",
+        "zh": "AU 和 VST/VST3 插件也可以放置在用户个人资源库文件夹中，路径为 /Users/<用户名>/Library/Audio/Plug-Ins。"
+      },
+      {
+        "word": "To uninstall the plug-ins from your Mac, you can just delete the specific FabFilter plug-in files at the above locations.",
+        "zh": "要从 Mac 上卸载这些插件，只需删除上述位置中对应的 FabFilter 插件文件即可。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "To make them visible again in Finder, open Terminal (found in /Applications/Utilities) and enter the following commands: chflags nohidden /Library chflags nohidden ~/Library If you still have problems, contact FabFilter Support . Next: VST Plug-in versions See Also Quick start Support VST plug-in versions FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats. They can be installed and used both at the same time.",
+    "translation": "要让它们在访达中重新可见，请打开终端（位于 /Applications/Utilities 中），并输入以下命令：chflags nohidden /Library chflags nohidden ~/Library 如果仍然有问题，请联系 FabFilter 支持。下一步：VST 插件版本 另请参阅 快速开始 支持 VST 插件版本 FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。它们可以同时安装并使用。",
+    "category": "",
+    "branches": [
+      {
+        "word": "To make them visible again in Finder",
+        "zh": "要让它们在访达中重新可见"
+      },
+      {
+        "word": "open Terminal",
+        "zh": "打开终端"
+      },
+      {
+        "word": "found in",
+        "zh": "位于 /Applications/Utilities 中"
+      },
+      {
+        "word": "and enter the following commands",
+        "zh": "并输入以下命令"
+      },
+      {
+        "word": "chflags nohidden",
+        "zh": "chflags nohidden /Library"
+      },
+      {
+        "word": "chflags nohidden ~/Library",
+        "zh": "chflags nohidden ~/Library"
+      },
+      {
+        "word": "If you still have problems",
+        "zh": "如果仍然有问题"
+      },
+      {
+        "word": "contact FabFilter Support",
+        "zh": "联系 FabFilter 支持"
+      },
+      {
+        "word": "Next: VST Plug-in versions",
+        "zh": "下一步：VST 插件版本"
+      },
+      {
+        "word": "See Also",
+        "zh": "另请参阅"
+      },
+      {
+        "word": "Quick start",
+        "zh": "快速开始"
+      },
+      {
+        "word": "Support",
+        "zh": "支持"
+      },
+      {
+        "word": "VST plug-in versions",
+        "zh": "VST 插件版本"
+      },
+      {
+        "word": "FabFilter Pro-C 2 is available in both VST 2 and VST 3 formats.",
+        "zh": "FabFilter Pro-C 2 提供 VST 2 和 VST 3 两种格式。"
+      },
+      {
+        "word": "They can be installed and used both at the same time.",
+        "zh": "它们可以同时安装并使用。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "The VST 3 format offers easy side-chaining, free interface resizing, and is more CPU-friendly in some cases, but it can only be used by hosts that support it, for example recent versions of Cubase, Studio One or FL Studio. The VST 2 format is compatible with a larger variety of hosts. Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo). For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
+    "translation": "VST 3 格式提供了便捷的侧链功能、自由的界面缩放，在某些情况下对 CPU 更加友好，但它只能被支持该格式的宿主软件使用，例如较新版本的 Cubase、Studio One 或 FL Studio。VST 2 格式则兼容更多种类的宿主软件。该插件的 VST 2 和 VST 3 版本都会自动适配其所插入轨道的声道布局（单声道/立体声）。对于 VST 2 格式，还有一个独立的 FabFilter Pro-C 2（单声道）版本，该版本始终以单声道模式运行。",
+    "category": "",
+    "branches": [
+      {
+        "word": "VST 3",
+        "zh": "VST 3 格式"
+      },
+      {
+        "word": "side-chaining",
+        "zh": "侧链"
+      },
+      {
+        "word": "free interface resizing",
+        "zh": "自由调整界面大小"
+      },
+      {
+        "word": "CPU-friendly",
+        "zh": "对 CPU 友好 / 低 CPU 占用"
+      },
+      {
+        "word": "hosts",
+        "zh": "宿主软件"
+      },
+      {
+        "word": "Cubase",
+        "zh": "Cubase"
+      },
+      {
+        "word": "Studio One",
+        "zh": "Studio One"
+      },
+      {
+        "word": "FL Studio",
+        "zh": "FL Studio"
+      },
+      {
+        "word": "VST 2",
+        "zh": "VST 2 格式"
+      },
+      {
+        "word": "channel layout",
+        "zh": "声道布局"
+      },
+      {
+        "word": "mono",
+        "zh": "单声道"
+      },
+      {
+        "word": "stereo",
+        "zh": "立体声"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "FabFilter Pro-C 2 (Mono)",
+        "zh": "FabFilter Pro-C 2（单声道版）"
+      },
+      {
+        "word": "plug-in",
+        "zh": "插件"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "This is included for backwards compatibility with existing sessions. For new sessions we recommend to use the regular plug-in which automatically adapts itself to the track it is inserted on. Next: External side chaining See Also Quick start Manual installation External side chaining FabFilter Pro-C 2 offers the possibility of feeding an external signal to its side chain, so that you can make it trigger on a different signal than the audio it is actually processing.",
+    "translation": "此处包含此内容是为了与现有会话保持向后兼容。对于新建会话，我们建议使用常规插件，它会自动适配所插入的轨道。下一节：外部侧链。另见：快速入门、手动安装、外部侧链。FabFilter Pro-C 2 提供了向其侧链馈送外部信号的功能，这样你可以让它由不同于实际处理音频的信号来触发。",
+    "category": "",
+    "branches": [
+      {
+        "word": "backwards compatibility",
+        "zh": "向后兼容"
+      },
+      {
+        "word": "existing sessions",
+        "zh": "现有会话"
+      },
+      {
+        "word": "regular plug-in",
+        "zh": "常规插件"
+      },
+      {
+        "word": "automatically adapts itself",
+        "zh": "自动适配"
+      },
+      {
+        "word": "track",
+        "zh": "轨道"
+      },
+      {
+        "word": "inserted on",
+        "zh": "插入到……上"
+      },
+      {
+        "word": "External side chaining",
+        "zh": "外部侧链"
+      },
+      {
+        "word": "See Also",
+        "zh": "另见 / 参见"
+      },
+      {
+        "word": "Quick start",
+        "zh": "快速入门"
+      },
+      {
+        "word": "Manual installation",
+        "zh": "手动安装"
+      },
+      {
+        "word": "side chain",
+        "zh": "侧链"
+      },
+      {
+        "word": "trigger",
+        "zh": "触发"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "feeding an external signal",
+        "zh": "馈送外部信号"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts. This topic describes the procedure for some of the most popular hosts around: Cubase, Logic Pro, Ableton Live and Pro Tools. To explain how it works, we use a scenario with two tracks. The first one contains the audio that we want to process with Pro-C 2, which we'll call the main track from now. The second track contains the audio that we want to route to Pro-C 2's external side-chain input and use as trigger signal. We'll call this track the side chain track.",
+    "translation": "将信号馈送到插件的侧链输入在不同宿主软件中的操作方式略有不同。本主题描述了目前最流行的一些宿主软件的操作步骤：Cubase、Logic Pro、Ableton Live 和 Pro Tools。为了解释其工作原理，我们使用一个包含两条轨道的场景。第一条轨道包含我们想要用 Pro-C 2 处理的音频，从现在起我们称之为“主轨道”。第二条轨道包含我们想要路由到 Pro-C 2 的外部侧链输入并用作触发信号的音频。我们称这条轨道为“侧链轨道”。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Feeding a signal",
+        "zh": "将信号馈送"
+      },
+      {
+        "word": "plug-in's side-chain inputs",
+        "zh": "插件的侧链输入"
+      },
+      {
+        "word": "hosts",
+        "zh": "宿主软件"
+      },
+      {
+        "word": "This topic describes the procedure",
+        "zh": "本主题描述操作步骤"
+      },
+      {
+        "word": "most popular hosts",
+        "zh": "最流行的宿主软件"
+      },
+      {
+        "word": "Cubase",
+        "zh": "Cubase"
+      },
+      {
+        "word": "Logic Pro",
+        "zh": "Logic Pro"
+      },
+      {
+        "word": "Ableton Live",
+        "zh": "Ableton Live"
+      },
+      {
+        "word": "Pro Tools",
+        "zh": "Pro Tools"
+      },
+      {
+        "word": "scenario",
+        "zh": "场景"
+      },
+      {
+        "word": "two tracks",
+        "zh": "两条轨道"
+      },
+      {
+        "word": "main track",
+        "zh": "主轨道"
+      },
+      {
+        "word": "Pro-C 2",
+        "zh": "Pro-C 2"
+      },
+      {
+        "word": "side chain track",
+        "zh": "侧链轨道"
+      },
+      {
+        "word": "external side-chain input",
+        "zh": "外部侧链输入"
+      },
+      {
+        "word": "trigger signal",
+        "zh": "触发信号"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "After setting up everything according to the instructions below for your host, you can check whether everything is routed correctly. Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal. While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold. Afterwards, disable the Audition mode again. Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
+    "translation": "在按照以下针对您宿主的说明设置好一切后，您可以检查是否所有路由都正确。播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。在试听时，实时显示和计量会显示侧链电平，因此您可以轻松设置正确的触发阈值。之后，再次禁用试听模式。现在，您会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
+    "category": "",
+    "branches": [
+      {
+        "word": "host",
+        "zh": "宿主"
+      },
+      {
+        "word": "routed correctly",
+        "zh": "正确路由"
+      },
+      {
+        "word": "audio",
+        "zh": "音频"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "Audition button",
+        "zh": "试听按钮"
+      },
+      {
+        "word": "side-chain signal",
+        "zh": "侧链信号"
+      },
+      {
+        "word": "real-time display",
+        "zh": "实时显示"
+      },
+      {
+        "word": "metering",
+        "zh": "计量 / 表头显示"
+      },
+      {
+        "word": "side-chain level",
+        "zh": "侧链电平"
+      },
+      {
+        "word": "trigger threshold",
+        "zh": "触发阈值"
+      },
+      {
+        "word": "Audition mode",
+        "zh": "试听模式"
+      },
+      {
+        "word": "disable",
+        "zh": "禁用"
+      },
+      {
+        "word": "main track",
+        "zh": "主轨道"
+      },
+      {
+        "word": "react",
+        "zh": "反应"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Of course, you can fine-tune the plug-ins settings to customize the effect. Cubase Open Cubase and create a new empty project. Add two audio tracks that we'll use as main track and side chain track. Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Open the Mixer. In the main track, click on an empty insert slot and select the VST 3 version of FabFilter Pro-C 2 in the Dynamics menu (note the VST 3 icon which looks like ///).",
+    "translation": "当然，你可以微调插件的设置来自定义效果。Cubase：打开 Cubase 并创建一个新的空工程。添加两条音频轨，我们将把它们用作主轨和侧链轨。在主轨和侧链轨上都添加音频文件。你可以简单地从访达/资源管理器窗口中把音频文件拖拽到轨道上。打开混音器。在主轨中，点击一个空的插入槽，然后在动态菜单中选择 VST 3 版本的 FabFilter Pro-C 2（注意那个看起来像 /// 的 VST 3 图标）。",
+    "category": "",
+    "branches": [
+      {
+        "word": "fine-tune",
+        "zh": "微调"
+      },
+      {
+        "word": "plug-ins",
+        "zh": "插件"
+      },
+      {
+        "word": "settings",
+        "zh": "设置"
+      },
+      {
+        "word": "customize",
+        "zh": "自定义"
+      },
+      {
+        "word": "effect",
+        "zh": "效果"
+      },
+      {
+        "word": "Cubase",
+        "zh": "Cubase"
+      },
+      {
+        "word": "create a new empty project",
+        "zh": "创建一个新的空工程"
+      },
+      {
+        "word": "audio tracks",
+        "zh": "音频轨"
+      },
+      {
+        "word": "main track",
+        "zh": "主轨"
+      },
+      {
+        "word": "side chain track",
+        "zh": "侧链轨"
+      },
+      {
+        "word": "audio files",
+        "zh": "音频文件"
+      },
+      {
+        "word": "drag",
+        "zh": "拖拽"
+      },
+      {
+        "word": "Finder",
+        "zh": "访达"
+      },
+      {
+        "word": "Explorer",
+        "zh": "资源管理器"
+      },
+      {
+        "word": "Mixer",
+        "zh": "混音器"
+      },
+      {
+        "word": "insert slot",
+        "zh": "插入槽"
+      },
+      {
+        "word": "VST 3",
+        "zh": "VST 3"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "Dynamics menu",
+        "zh": "动态菜单"
+      },
+      {
+        "word": "VST 3 icon",
+        "zh": "VST 3 图标"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase. At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2. Logic Pro Open Logic Pro and create a new empty project via File > New... Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+    "translation": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部（Ext）。在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧），以在 Cubase 中启用外部侧链。在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。Logic Pro：打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目。添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Open FabFilter Pro-C 2's interface",
+        "zh": "打开 FabFilter Pro-C 2 的界面"
+      },
+      {
+        "word": "enable Side chain expert mode",
+        "zh": "启用侧链专家模式"
+      },
+      {
+        "word": "set Side Chain to Ext",
+        "zh": "将侧链设置为外部（Ext）"
+      },
+      {
+        "word": "In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons)",
+        "zh": "在插件标题栏中，点击 Activate Side-Chain 按钮（位于 R/W 按钮右侧）"
+      },
+      {
+        "word": "to enable the external side chain in Cubase",
+        "zh": "以在 Cubase 中启用外部侧链"
+      },
+      {
+        "word": "At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2",
+        "zh": "在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入"
+      },
+      {
+        "word": "Logic Pro",
+        "zh": "Logic Pro"
+      },
+      {
+        "word": "Open Logic Pro and create a new empty project via File > New...",
+        "zh": "打开 Logic Pro，通过「文件 > 新建…」创建一个新的空项目"
+      },
+      {
+        "word": "Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
+        "zh": "添加两条音频轨道（通过「轨道 > 新建…」），分别用作主轨道和侧链轨道。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Add audio files on both the main track and the side chain track. You can simply drag audio files from a Finder/Explorer window onto a track. Select the main track and add Pro-C 2 in the first Insert effect slot. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track. Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
+    "translation": "在主轨道和侧链轨道上都添加音频文件。你可以直接把音频文件从访达/资源管理器窗口拖到轨道上。选择主轨道，在第一个插入效果槽中添加 Pro-C 2。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设为 Ext。在插件界面标题栏的右上角，打开「Side Chain」菜单，选择侧链轨道。现在，侧链轨道的信号就被发送到 FabFilter Pro-C 2 的外部侧链输入了。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Add audio files",
+        "zh": "添加音频文件"
+      },
+      {
+        "word": "main track",
+        "zh": "主轨道"
+      },
+      {
+        "word": "side chain track",
+        "zh": "侧链轨道"
+      },
+      {
+        "word": "drag audio files",
+        "zh": "拖拽音频文件"
+      },
+      {
+        "word": "Finder/Explorer window",
+        "zh": "访达/资源管理器窗口"
+      },
+      {
+        "word": "Select the main track",
+        "zh": "选择主轨道"
+      },
+      {
+        "word": "Insert effect slot",
+        "zh": "插入效果槽"
+      },
+      {
+        "word": "Pro-C 2",
+        "zh": "Pro-C 2"
+      },
+      {
+        "word": "interface",
+        "zh": "界面"
+      },
+      {
+        "word": "Side chain expert mode",
+        "zh": "侧链专家模式"
+      },
+      {
+        "word": "Side Chain",
+        "zh": "侧链"
+      },
+      {
+        "word": "Ext",
+        "zh": "外部"
+      },
+      {
+        "word": "plug-in interface header",
+        "zh": "插件界面标题栏"
+      },
+      {
+        "word": "Side Chain menu",
+        "zh": "侧链菜单"
+      },
+      {
+        "word": "choose the side chain track",
+        "zh": "选择侧链轨道"
+      },
+      {
+        "word": "signal",
+        "zh": "信号"
+      },
+      {
+        "word": "external side-chain input",
+        "zh": "外部侧链输入"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs. Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs. To avoid this, use one additional track (e.g.",
+    "translation": "在轨道 1（侧链轨道）的 'Audio To' 菜单中选择 '轨道 2' 而不是默认的 '主输出'。此时下方会出现一个额外的菜单：选择 'FF Pro-C 2 3/4' 而不是默认的 '轨道输入'，将轨道信号路由到 FabFilter Pro-C 2 的外部侧链输入。注意：在上述场景中，你将不再听到轨道 1（侧链信号），因为它的音频只被路由到 Pro-C 2 的侧链输入。为避免这种情况，请额外使用一条轨道（例如",
+    "category": "",
+    "branches": [
+      {
+        "word": "Track 1",
+        "zh": "轨道 1"
+      },
+      {
+        "word": "side chain track",
+        "zh": "侧链轨道"
+      },
+      {
+        "word": "Audio To",
+        "zh": "音频输出至"
+      },
+      {
+        "word": "Track 2",
+        "zh": "轨道 2"
+      },
+      {
+        "word": "default",
+        "zh": "默认"
+      },
+      {
+        "word": "Master",
+        "zh": "主输出"
+      },
+      {
+        "word": "FF Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "Track In",
+        "zh": "轨道输入"
+      },
+      {
+        "word": "route",
+        "zh": "路由"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "external side chain inputs",
+        "zh": "外部侧链输入"
+      },
+      {
+        "word": "side-chain signal",
+        "zh": "侧链信号"
+      },
+      {
+        "word": "scenario",
+        "zh": "场景 / 情况"
+      },
+      {
+        "word": "additional track",
+        "zh": "额外轨道"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Ableton Live Open Ableton Live and start with an empty arrangement. We'll use Track 1 as the side chain track and Track 2 as the main track. From the folder menu's on at the left top of Ableton Live's interface, drag different audio clips to the first empty slots of Track 1 and Track 2. From the VST (or Audio Units) plug-in menu, also at the left top of Ableton Live's interface, drag FabFilter Pro-C 2 onto Track 2, the main track. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext.",
+    "translation": "打开 Ableton Live，从一个空白编曲视图开始。我们将使用第 1 轨作为侧链轨道，第 2 轨作为主轨道。从 Ableton Live 界面左上角的文件夹菜单中，将不同的音频片段拖到第 1 轨和第 2 轨的第一个空白槽位。从同样位于 Ableton Live 界面左上角的 VST（或 Audio Units）插件菜单中，将 FabFilter Pro-C 2 拖到第 2 轨，即主轨道上。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式，并将 Side Chain 设置为 Ext。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Ableton Live",
+        "zh": "Ableton Live 软件"
+      },
+      {
+        "word": "empty arrangement",
+        "zh": "空白编曲视图"
+      },
+      {
+        "word": "Track 1",
+        "zh": "第 1 轨"
+      },
+      {
+        "word": "side chain track",
+        "zh": "侧链轨道"
+      },
+      {
+        "word": "Track 2",
+        "zh": "第 2 轨"
+      },
+      {
+        "word": "main track",
+        "zh": "主轨道"
+      },
+      {
+        "word": "folder menu",
+        "zh": "文件夹菜单"
+      },
+      {
+        "word": "audio clips",
+        "zh": "音频片段"
+      },
+      {
+        "word": "first empty slots",
+        "zh": "第一个空白槽位"
+      },
+      {
+        "word": "VST",
+        "zh": "虚拟工作室技术插件"
+      },
+      {
+        "word": "Audio Units",
+        "zh": "音频单元插件"
+      },
+      {
+        "word": "plug-in menu",
+        "zh": "插件菜单"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2 压缩器"
+      },
+      {
+        "word": "Side chain expert mode",
+        "zh": "侧链专家模式"
+      },
+      {
+        "word": "Side Chain",
+        "zh": "侧链"
+      },
+      {
+        "word": "Ext",
+        "zh": "外部"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'. The track view for Bus 1 will open: set its level slider to 0.0 dB so the bus actually produces audio! In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2. Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
+    "translation": "在侧链轨道的第一个“发送”槽中选择“总线 1”。总线 1 的轨道视图将会打开：将其电平滑块设为 0.0 dB，使总线真正输出音频！在主轨道的第一个“插入”槽中选择“动态处理 > FabFilter Pro-C 2”。打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设为“外部”。现在，在插件界面的“键控输入”菜单中（就在 FabFilter 标志上方），选择“总线 > 总线 1”，而不是默认的“无键控输入”。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Sends",
+        "zh": "发送"
+      },
+      {
+        "word": "side chain track",
+        "zh": "侧链轨道"
+      },
+      {
+        "word": "Bus 1",
+        "zh": "总线 1"
+      },
+      {
+        "word": "track view",
+        "zh": "轨道视图"
+      },
+      {
+        "word": "level slider",
+        "zh": "电平滑块"
+      },
+      {
+        "word": "0.0 dB",
+        "zh": "零分贝"
+      },
+      {
+        "word": "Inserts",
+        "zh": "插入效果"
+      },
+      {
+        "word": "main track",
+        "zh": "主轨道"
+      },
+      {
+        "word": "Dynamics",
+        "zh": "动态处理"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2 压缩器"
+      },
+      {
+        "word": "interface",
+        "zh": "界面"
+      },
+      {
+        "word": "Side chain expert mode",
+        "zh": "侧链专家模式"
+      },
+      {
+        "word": "Side Chain",
+        "zh": "侧链"
+      },
+      {
+        "word": "Ext",
+        "zh": "外部"
+      },
+      {
+        "word": "Key Input",
+        "zh": "键控输入"
+      },
+      {
+        "word": "no key input",
+        "zh": "无键控输入"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Track 3), choose 'Track 1' from its 'Audio From' dropdown menu, and in the 'Audio To' menu select 'Track 2' instead of the default 'Master'. Now, from the extra menu below choose 'FF Pro-C 2 3/4'. Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal. Pro Tools Open Pro Tools and start a new empty session. Create two audio tracks that we'll use as main track and side chain track. Add audio files to both track. Open the Mix window to display the tracks with their Insert slots and Sends slots.",
+    "translation": "第3轨），从其“音频来源”下拉菜单中选择“第1轨”，然后在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”。现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”。当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号。Pro Tools 打开 Pro Tools 并新建一个空会话。创建两条音频轨，分别用作主轨和侧链轨。向两条轨道都添加音频文件。打开混音窗口，显示各轨道及其插入槽和发送槽。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Track 3",
+        "zh": "第3轨"
+      },
+      {
+        "word": "choose 'Track 1' from its 'Audio From' dropdown menu",
+        "zh": "从其“音频来源”下拉菜单中选择“第1轨”"
+      },
+      {
+        "word": "in the 'Audio To' menu select 'Track 2' instead of the default 'Master'",
+        "zh": "在“音频输出”菜单中选择“第2轨”，而不是默认的“主输出”"
+      },
+      {
+        "word": "Now, from the extra menu below choose 'FF Pro-C 2 3/4'",
+        "zh": "现在，从下方的附加菜单中选择“FF Pro-C 2 3/4”"
+      },
+      {
+        "word": "Of course, you can now leave Track 1's 'Audio To' setting to the original 'Master' so you will still hear the signal",
+        "zh": "当然，你现在可以将第1轨的“音频输出”保持为原来的“主输出”，这样你仍然能听到信号"
+      },
+      {
+        "word": "Pro Tools",
+        "zh": "Pro Tools"
+      },
+      {
+        "word": "Open Pro Tools and start a new empty session",
+        "zh": "打开 Pro Tools 并新建一个空会话"
+      },
+      {
+        "word": "Create two audio tracks that we'll use as main track and side chain track",
+        "zh": "创建两条音频轨，分别用作主轨和侧链轨"
+      },
+      {
+        "word": "Add audio files to both track",
+        "zh": "向两条轨道都添加音频文件"
+      },
+      {
+        "word": "Open the Mix window to display the tracks with their Insert slots and Sends slots",
+        "zh": "打开混音窗口，显示各轨道及其插入槽和发送槽"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "If you do not accept and comply with these terms, you may not use the FabFilter software or its features. Applicability This license agreement applies to all the FabFilter software, plug-ins and programs you may use during the Evaluation period, and/or thereafter subject to an acquired license key to certain FabFilter software of any version, including any and all upgrades, supplements or services, unless other terms come with such versions, upgrades or supplements. Licenses The software will be licensed to the Customer, not sold.",
+    "translation": "如果您不接受并遵守这些条款，您不得使用 FabFilter 软件或其功能。适用范围 本许可协议适用于您在评估期内可能使用的所有 FabFilter 软件、插件和程序，和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后，包括任何及所有升级、补充或服务，除非这些版本、升级或补充附带其他条款。许可 本软件将授权给客户使用，而非出售。",
+    "category": "",
+    "branches": [
+      {
+        "word": "If you do not accept and comply with these terms",
+        "zh": "如果您不接受并遵守这些条款"
+      },
+      {
+        "word": "you may not use the FabFilter software or its features",
+        "zh": "您不得使用 FabFilter 软件或其功能"
+      },
+      {
+        "word": "Applicability",
+        "zh": "适用范围"
+      },
+      {
+        "word": "This license agreement applies to all the FabFilter software, plug-ins and programs",
+        "zh": "本许可协议适用于所有 FabFilter 软件、插件和程序"
+      },
+      {
+        "word": "you may use during the Evaluation period",
+        "zh": "您在评估期内可能使用的"
+      },
+      {
+        "word": "and/or thereafter subject to an acquired license key to certain FabFilter software of any version",
+        "zh": "和/或此后在获得特定 FabFilter 软件任意版本的许可密钥后"
+      },
+      {
+        "word": "including any and all upgrades, supplements or services",
+        "zh": "包括任何及所有升级、补充或服务"
+      },
+      {
+        "word": "unless other terms come with such versions, upgrades or supplements",
+        "zh": "除非这些版本、升级或补充附带其他条款"
+      },
+      {
+        "word": "Licenses",
+        "zh": "许可"
+      },
+      {
+        "word": "The software will be licensed to the Customer, not sold",
+        "zh": "本软件将授权给客户使用，而非出售"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "A Site License is a non-personal license to the FabFilter software concerned, acquired on the name of an institution or entity, who is the licensee. A Site License will grant access to the FabFilter software on a certain maximum number of designated Devices, as specified in the license key itself (e.g. \"20 seats\").",
+    "translation": "站点许可证是以机构或实体名义获取的、针对相关 FabFilter 软件的非个人许可证，该机构或实体即为被授权方。站点许可证将授予在许可证密钥本身所规定的特定最大数量的指定设备上访问 FabFilter 软件的权限（例如\"20 个席位\"）。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Site License",
+        "zh": "站点许可证"
+      },
+      {
+        "word": "non-personal license",
+        "zh": "非个人许可证"
+      },
+      {
+        "word": "FabFilter software",
+        "zh": "FabFilter 软件"
+      },
+      {
+        "word": "institution or entity",
+        "zh": "机构或实体"
+      },
+      {
+        "word": "licensee",
+        "zh": "被授权方 / 许可证持有人"
+      },
+      {
+        "word": "designated Devices",
+        "zh": "指定设备"
+      },
+      {
+        "word": "license key",
+        "zh": "许可证密钥"
+      },
+      {
+        "word": "seats",
+        "zh": "授权席位"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "With the FabFilter license key, you will be granted after full payment the right in perpetuity (meaning that the license agreement shall not automatically expire) to install, run and use the software concerned under certain conditions. These conditions vary subject to the license you acquired.",
+    "translation": "使用 FabFilter 许可证密钥，在完成全额付款后，您将获得永久（即许可协议不会自动到期）在特定条件下安装、运行和使用相关软件的权利。这些条件因您所获取的许可证不同而有所差异。",
+    "category": "",
+    "branches": [
+      {
+        "word": "FabFilter",
+        "zh": "FabFilter"
+      },
+      {
+        "word": "license key",
+        "zh": "许可证密钥"
+      },
+      {
+        "word": "full payment",
+        "zh": "全额付款"
+      },
+      {
+        "word": "in perpetuity",
+        "zh": "永久地"
+      },
+      {
+        "word": "license agreement",
+        "zh": "许可协议"
+      },
+      {
+        "word": "shall not automatically expire",
+        "zh": "不会自动到期"
+      },
+      {
+        "word": "install",
+        "zh": "安装"
+      },
+      {
+        "word": "run",
+        "zh": "运行"
+      },
+      {
+        "word": "use",
+        "zh": "使用"
+      },
+      {
+        "word": "the software concerned",
+        "zh": "相关软件"
+      },
+      {
+        "word": "under certain conditions",
+        "zh": "在特定条件下"
+      },
+      {
+        "word": "conditions",
+        "zh": "条件"
+      },
+      {
+        "word": "vary",
+        "zh": "有所不同"
+      },
+      {
+        "word": "subject to",
+        "zh": "取决于"
+      },
+      {
+        "word": "license",
+        "zh": "许可证"
+      },
+      {
+        "word": "acquired",
+        "zh": "已获取的"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "FabFilter distinguishes the following licenses: A Personal License is a named license to the software concerned, granting access to the software on an unlimited number of Devices, as long the license is used by the designated person who acquired the FabFilter license key. Usage of the Personal license by someone else but the designated licensee is an infringement of the rights of FabFilter. The Customer should at all times protect its license key from theft and/or abuse.",
+    "translation": "FabFilter 区分以下许可证类型：个人许可证是一种针对相关软件的记名许可证，只要该许可证由购买 FabFilter 许可证密钥的指定人员使用，就授予在无限数量设备上访问该软件的权利。由指定被许可人以外的其他人使用个人许可证，即构成对 FabFilter 权利的侵犯。客户在任何时候都应保护其许可证密钥免遭盗窃和/或滥用。",
+    "category": "",
+    "branches": [
+      {
+        "word": "FabFilter",
+        "zh": "FabFilter"
+      },
+      {
+        "word": "distinguishes",
+        "zh": "区分 / 划分"
+      },
+      {
+        "word": "licenses",
+        "zh": "许可证 / 授权"
+      },
+      {
+        "word": "Personal License",
+        "zh": "个人许可证"
+      },
+      {
+        "word": "named license",
+        "zh": "记名许可证"
+      },
+      {
+        "word": "the software concerned",
+        "zh": "相关软件"
+      },
+      {
+        "word": "granting access",
+        "zh": "授予访问权限"
+      },
+      {
+        "word": "unlimited number of Devices",
+        "zh": "不限数量的设备"
+      },
+      {
+        "word": "as long the license is used by the designated person",
+        "zh": "只要该许可证由指定人员使用"
+      },
+      {
+        "word": "who acquired the FabFilter license key",
+        "zh": "购买 FabFilter 许可证密钥的人"
+      },
+      {
+        "word": "Usage",
+        "zh": "使用"
+      },
+      {
+        "word": "someone else but the designated licensee",
+        "zh": "指定被许可人以外的其他人"
+      },
+      {
+        "word": "infringement",
+        "zh": "侵权 / 侵犯"
+      },
+      {
+        "word": "the rights of FabFilter",
+        "zh": "FabFilter 的权利"
+      },
+      {
+        "word": "The Customer",
+        "zh": "客户 / 用户"
+      },
+      {
+        "word": "at all times",
+        "zh": "在任何时候 / 始终"
+      },
+      {
+        "word": "protect",
+        "zh": "保护 / 保管"
+      },
+      {
+        "word": "license key",
+        "zh": "许可证密钥"
+      },
+      {
+        "word": "theft",
+        "zh": "盗窃 / 窃取"
+      },
+      {
+        "word": "abuse",
+        "zh": "滥用"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1. Next: License agreement See Also Quick start Using FabFilter Pro-C 2 Manual installation FabFilter Software License Agreement This license agreement concerns and describes your rights and the conditions upon which you may use the FabFilter software you selected. We advise you to read this entire agreement. By accepting this agreement or by using FabFilter software, you agree to all of these terms.",
+    "translation": "现在，侧链轨道的音频通过总线 1 路由到 Pro-C 2 的外部侧链输入。接下来：许可协议 另见 快速入门 使用 FabFilter Pro-C 2 手动安装 FabFilter 软件许可协议 本许可协议涉及并描述了您使用所选 FabFilter 软件的权利以及相关条件。我们建议您阅读整个协议。接受本协议或使用 FabFilter 软件，即表示您同意所有这些条款。",
+    "category": "",
+    "branches": [
+      {
+        "word": "side chain track",
+        "zh": "侧链轨道"
+      },
+      {
+        "word": "routed",
+        "zh": "路由 / 发送"
+      },
+      {
+        "word": "Pro-C 2",
+        "zh": "Pro-C 2（FabFilter 压缩器插件）"
+      },
+      {
+        "word": "external side chain input",
+        "zh": "外部侧链输入"
+      },
+      {
+        "word": "Bus 1",
+        "zh": "总线 1"
+      },
+      {
+        "word": "License agreement",
+        "zh": "许可协议"
+      },
+      {
+        "word": "See Also",
+        "zh": "另见 / 参见"
+      },
+      {
+        "word": "Quick start",
+        "zh": "快速入门"
+      },
+      {
+        "word": "Using FabFilter Pro-C 2",
+        "zh": "使用 FabFilter Pro-C 2"
+      },
+      {
+        "word": "Manual installation",
+        "zh": "手动安装"
+      },
+      {
+        "word": "FabFilter Software License Agreement",
+        "zh": "FabFilter 软件许可协议"
+      },
+      {
+        "word": "concerns",
+        "zh": "涉及 / 关于"
+      },
+      {
+        "word": "describes",
+        "zh": "描述 / 说明"
+      },
+      {
+        "word": "conditions",
+        "zh": "条件 / 条款"
+      },
+      {
+        "word": "FabFilter software",
+        "zh": "FabFilter 软件"
+      },
+      {
+        "word": "we advise you to read",
+        "zh": "我们建议您阅读"
+      },
+      {
+        "word": "entire agreement",
+        "zh": "整个协议 / 完整协议"
+      },
+      {
+        "word": "By accepting this agreement",
+        "zh": "接受本协议即"
+      },
+      {
+        "word": "by using FabFilter software",
+        "zh": "通过使用 FabFilter 软件"
+      },
+      {
+        "word": "you agree to all of these terms",
+        "zh": "您同意所有这些条款"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "If the Site License is used on computers/servers for any form of automated processing, the licensee may not make any plug-in controls/parameters of the FabFilter software available to the end users of the FabFilter software, i.e. only \"black box\" processing is allowed. These FabFilter licenses, whether a Personal or Site License, will give you access to certain FabFilter software of the specified major version.",
+    "translation": "如果站点许可证被用于计算机/服务器上的任何形式的自动化处理，被许可人不得将 FabFilter 软件的插件控件/参数提供给 FabFilter 软件的最终用户使用，即仅允许“黑箱”处理。这些 FabFilter 许可证，无论是个人许可证还是站点许可证，都将授予您访问指定主版本的某些 FabFilter 软件的权限。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Site License",
+        "zh": "站点许可证"
+      },
+      {
+        "word": "automated processing",
+        "zh": "自动化处理"
+      },
+      {
+        "word": "licensee",
+        "zh": "被许可人 / 许可证持有者"
+      },
+      {
+        "word": "plug-in controls/parameters",
+        "zh": "插件控件 / 参数"
+      },
+      {
+        "word": "end users",
+        "zh": "最终用户"
+      },
+      {
+        "word": "black box processing",
+        "zh": "黑箱处理"
+      },
+      {
+        "word": "Personal License",
+        "zh": "个人许可证"
+      },
+      {
+        "word": "major version",
+        "zh": "主版本"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "The license will include all future minor updates to the software (e.g. version 2.19 to version 2.20), which typically include bug fixes or small new features. The license will exclude any future new major versions of the products (e.g. version 1.x to version 2.x). To allow yourself access to such new major version of the software, a new FabFilter license to such major version must be acquired.",
+    "translation": "该许可证将包含软件未来所有的次要更新（例如从版本 2.19 到版本 2.20），这些更新通常包括漏洞修复或小的新功能。该许可证不包含产品未来任何新的主要版本（例如从版本 1.x 到版本 2.x）。如需获取此类新主要版本的软件，必须购买相应的新 FabFilter 许可证。",
+    "category": "",
+    "branches": [
+      {
+        "word": "license",
+        "zh": "许可证"
+      },
+      {
+        "word": "minor updates",
+        "zh": "次要更新"
+      },
+      {
+        "word": "bug fixes",
+        "zh": "漏洞修复"
+      },
+      {
+        "word": "new features",
+        "zh": "新功能"
+      },
+      {
+        "word": "major versions",
+        "zh": "主要版本"
+      },
+      {
+        "word": "FabFilter",
+        "zh": "FabFilter"
+      },
+      {
+        "word": "acquired",
+        "zh": "获取 / 购买"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "An Upgrade License is a Personal or Site License for a new major version of FabFilter software. You may only use an Upgrade License if you have a license for the previous major version of the same FabFilter software.",
+    "translation": "升级许可证是针对 FabFilter 软件新主版本的个人许可证或站点许可证。只有当您拥有同一 FabFilter 软件上一个主版本的许可证时，才能使用升级许可证。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Upgrade License",
+        "zh": "升级许可证"
+      },
+      {
+        "word": "Personal License",
+        "zh": "个人许可证"
+      },
+      {
+        "word": "Site License",
+        "zh": "站点许可证"
+      },
+      {
+        "word": "major version",
+        "zh": "主版本"
+      },
+      {
+        "word": "FabFilter software",
+        "zh": "FabFilter 软件"
+      },
+      {
+        "word": "previous major version",
+        "zh": "上一个主版本"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "All FabFilter licenses, both Personal or Site License, give the Customer or end user the right to install and use the FabFilter software to the extent it has been developed and under the conditions herein. Any rights not explicitly granted to you, the Customer, remain with FabFilter, including but not limited to the right to alter, reverse engineer, reverse compile, take apart, or disassemble the FabFilter software or any of the files in the distribution.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "FabFilter licenses",
+        "zh": "FabFilter 授权"
+      },
+      {
+        "word": "Personal License",
+        "zh": "个人授权"
+      },
+      {
+        "word": "Site License",
+        "zh": "站点授权"
+      },
+      {
+        "word": "Customer",
+        "zh": "客户"
+      },
+      {
+        "word": "end user",
+        "zh": "最终用户"
+      },
+      {
+        "word": "install and use",
+        "zh": "安装和使用"
+      },
+      {
+        "word": "to the extent it has been developed",
+        "zh": "在软件已开发的功能范围内"
+      },
+      {
+        "word": "under the conditions herein",
+        "zh": "在本文规定的条件下"
+      },
+      {
+        "word": "rights not explicitly granted",
+        "zh": "未明确授予的权利"
+      },
+      {
+        "word": "remain with FabFilter",
+        "zh": "归 FabFilter 所有"
+      },
+      {
+        "word": "including but not limited to",
+        "zh": "包括但不限于"
+      },
+      {
+        "word": "alter",
+        "zh": "修改"
+      },
+      {
+        "word": "reverse engineer",
+        "zh": "反向工程"
+      },
+      {
+        "word": "reverse compile",
+        "zh": "反向编译"
+      },
+      {
+        "word": "take apart",
+        "zh": "拆解"
+      },
+      {
+        "word": "disassemble",
+        "zh": "反汇编"
+      },
+      {
+        "word": "FabFilter software",
+        "zh": "FabFilter 软件"
+      },
+      {
+        "word": "any of the files in the distribution",
+        "zh": "发行包中的任何文件"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Educational (EDU) and NFR licenses A Personal or Site License can be marked as EDU (Educational) or NFR (Not For Resale), meaning the following: A Personal or Site License marked as Educational License is equal to the respective Personal or Site License, with the only exception that the Educational License may not be transferred to a third party. A Personal or Site License marked as NFR (\"Not For Resale\"), is typically intended for journalists that wish to review the FabFilter software.",
+    "translation": "教育版（EDU）和 NFR 授权：个人授权或场地授权可以被标记为 EDU（教育版）或 NFR（禁止转售版），含义如下：被标记为教育授权的个人授权或场地授权等同于相应的个人授权或场地授权，唯一的例外是教育授权不得转让给第三方。被标记为 NFR（\"禁止转售\"）的个人授权或场地授权，通常面向希望评测 FabFilter 软件的记者。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Educational (EDU)",
+        "zh": "教育版"
+      },
+      {
+        "word": "NFR (Not For Resale)",
+        "zh": "非转售版 / 禁止转售版"
+      },
+      {
+        "word": "Personal License",
+        "zh": "个人授权"
+      },
+      {
+        "word": "Site License",
+        "zh": "场地授权 / 站点授权"
+      },
+      {
+        "word": "Educational License",
+        "zh": "教育授权"
+      },
+      {
+        "word": "Not For Resale",
+        "zh": "禁止转售"
+      },
+      {
+        "word": "transferred to a third party",
+        "zh": "转让给第三方"
+      },
+      {
+        "word": "journalists",
+        "zh": "记者"
+      },
+      {
+        "word": "review",
+        "zh": "评测 / 评论"
+      },
+      {
+        "word": "FabFilter software",
+        "zh": "FabFilter 软件"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "A Bundle License is Personal or Site License for multiple FabFilter software products, which gives the Customer or end user the right to install and use the specific software products that the bundle (e.g. Total Bundle) contains at the moment of purchasing the Bundle License. Any software products or new major software versions added to the bundle after that date cannot be claimed as part of the prior acquired Bundle License. A Bundle License (if not Educational or NFR) can only be transferred as a whole, using a License Transfer.",
+    "translation": "捆绑许可证是针对多个 FabFilter 软件产品的个人许可证或站点许可证，它授予客户或最终用户安装和使用该捆绑包（如 Total Bundle）在购买捆绑许可证时所包含的特定软件产品的权利。在该日期之后添加到捆绑包中的任何软件产品或新的主要软件版本，均不能作为先前已购捆绑许可证的一部分来主张。捆绑许可证（若非教育许可证或 NFR）只能通过许可证转让的方式整体转让。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Bundle License",
+        "zh": "捆绑许可证"
+      },
+      {
+        "word": "Personal License",
+        "zh": "个人许可证"
+      },
+      {
+        "word": "Site License",
+        "zh": "站点许可证"
+      },
+      {
+        "word": "FabFilter",
+        "zh": "FabFilter"
+      },
+      {
+        "word": "Customer",
+        "zh": "客户"
+      },
+      {
+        "word": "End User",
+        "zh": "最终用户"
+      },
+      {
+        "word": "Total Bundle",
+        "zh": "Total Bundle（全套捆绑包）"
+      },
+      {
+        "word": "Major Software Version",
+        "zh": "主要软件版本"
+      },
+      {
+        "word": "Educational License",
+        "zh": "教育许可证"
+      },
+      {
+        "word": "NFR",
+        "zh": "NFR（Not For Resale，非转售品）"
+      },
+      {
+        "word": "License Transfer",
+        "zh": "许可证转让"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "A License marked as NFR is equal to the respective Personal or Site License, with the only exception that the NFR License may not be transferred to a third party. Duration and Evaluation As specified in the specific terms per license, all licenses will be granted for perpetuity (meaning that the license agreement shall not automatically expire), as long as all conditions herein are respected. The Evaluation period is a period of thirty (30) days commencing on the first day of using the software concerned and automatically expiring 30 days thereafter.",
+    "translation": "标记为 NFR 的许可证等同于相应的个人许可证或站点许可证，唯一例外是 NFR 许可证不得转让给第三方。有效期与评估：按照各许可证的具体条款规定，所有许可证均授予永久期限（即许可协议不会自动失效），只要遵守本协议中的所有条件。评估期为三十（30）天，自使用相关软件的第一天起算，并在其后 30 天自动到期。",
+    "category": "",
+    "branches": [
+      {
+        "word": "NFR",
+        "zh": "不可转售版"
+      },
+      {
+        "word": "Personal License",
+        "zh": "个人许可证"
+      },
+      {
+        "word": "Site License",
+        "zh": "站点许可证"
+      },
+      {
+        "word": "transferred to a third party",
+        "zh": "转让给第三方"
+      },
+      {
+        "word": "Duration",
+        "zh": "有效期"
+      },
+      {
+        "word": "Evaluation",
+        "zh": "评估期"
+      },
+      {
+        "word": "As specified in the specific terms per license",
+        "zh": "按各许可证的具体条款规定"
+      },
+      {
+        "word": "all licenses will be granted for perpetuity",
+        "zh": "所有许可证均授予永久期限"
+      },
+      {
+        "word": "the license agreement shall not automatically expire",
+        "zh": "许可协议不会自动失效"
+      },
+      {
+        "word": "as long as all conditions herein are respected",
+        "zh": "只要遵守本协议中的所有条件"
+      },
+      {
+        "word": "The Evaluation period is a period of thirty (30) days",
+        "zh": "评估期为三十（30）天"
+      },
+      {
+        "word": "commencing on the first day of using the software concerned",
+        "zh": "自使用相关软件的第一天起算"
+      },
+      {
+        "word": "automatically expiring 30 days thereafter",
+        "zh": "此后 30 天自动到期"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "After the Evaluation period has expired and no FabFilter license key has been acquired, the software will stop working and should be removed from your computer. In addition to any and all such possibilities that FabFilter may have in accordance with the law, FabFilter may terminate without prior notice or warning in case of abuse of the FabFilter software as well as in case of (personal) bankruptcy. Support FabFilter shall give its reasonable commercial efforts to service any major version of any FabFilter software including email support.",
+    "translation": "评估期结束后，如果尚未获取 FabFilter 许可证密钥，软件将停止运行，并应从您的计算机中移除。除 FabFilter 依法可能拥有的所有其他权利外，若存在滥用 FabFilter 软件的行为以及（个人）破产的情况，FabFilter 可在未经事先通知或警告的情况下终止授权。技术支持：FabFilter 应尽合理的商业努力为任何 FabFilter 软件的主要版本提供服务，包括电子邮件支持。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Evaluation period",
+        "zh": "评估期"
+      },
+      {
+        "word": "FabFilter license key",
+        "zh": "FabFilter 许可证密钥"
+      },
+      {
+        "word": "stop working",
+        "zh": "停止运行"
+      },
+      {
+        "word": "removed from your computer",
+        "zh": "从您的计算机中移除"
+      },
+      {
+        "word": "without prior notice or warning",
+        "zh": "未经事先通知或警告"
+      },
+      {
+        "word": "abuse of the FabFilter software",
+        "zh": "滥用 FabFilter 软件"
+      },
+      {
+        "word": "(personal) bankruptcy",
+        "zh": "（个人）破产"
+      },
+      {
+        "word": "terminate",
+        "zh": "终止"
+      },
+      {
+        "word": "Support",
+        "zh": "技术支持"
+      },
+      {
+        "word": "reasonable commercial efforts",
+        "zh": "合理的商业努力"
+      },
+      {
+        "word": "major version",
+        "zh": "主要版本"
+      },
+      {
+        "word": "email support",
+        "zh": "电子邮件支持"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "FabFilter is entitled to terminate support for any major version of any FabFilter software at any time at its sole discretion. License Transfer A Personal or Site License (not Educational or NFR) may be transferred to a third party. You will have to buy a License Transfer to activate the \"transfer\"-option in your FabFilter account . After this option has been activated you will be able to transfer your license to any third party. Third Party Software VST is a trademark of Steinberg Media Technologies GmbH.",
+    "translation": "FabFilter 有权自行决定随时终止对任何 FabFilter 软件任何主版本的支持。许可证转让：个人许可证或站点许可证（非教育许可证或 NFR 许可证）可以转让给第三方。您需要购买许可证转让服务，才能在您的 FabFilter 账户中激活“转让”选项。激活该选项后，您即可将许可证转让给任何第三方。第三方软件：VST 是 Steinberg Media Technologies GmbH 的商标。",
+    "category": "",
+    "branches": [
+      {
+        "word": "FabFilter",
+        "zh": "FabFilter 公司"
+      },
+      {
+        "word": "terminate support",
+        "zh": "终止支持"
+      },
+      {
+        "word": "major version",
+        "zh": "主版本"
+      },
+      {
+        "word": "at its sole discretion",
+        "zh": "自行决定 / 全权酌情决定"
+      },
+      {
+        "word": "License Transfer",
+        "zh": "许可证转让"
+      },
+      {
+        "word": "Personal License",
+        "zh": "个人许可证"
+      },
+      {
+        "word": "Site License",
+        "zh": "站点许可证"
+      },
+      {
+        "word": "Educational License",
+        "zh": "教育许可证"
+      },
+      {
+        "word": "NFR",
+        "zh": "非转售许可证"
+      },
+      {
+        "word": "third party",
+        "zh": "第三方"
+      },
+      {
+        "word": "activate",
+        "zh": "激活"
+      },
+      {
+        "word": "transfer-option",
+        "zh": "转让选项"
+      },
+      {
+        "word": "VST",
+        "zh": "VST 插件格式"
+      },
+      {
+        "word": "trademark",
+        "zh": "商标"
+      },
+      {
+        "word": "Steinberg Media Technologies GmbH",
+        "zh": "斯坦伯格媒体技术有限公司"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "RTAS and AAX are trademarks of Avid Technology, inc. Audio Units is a trademark of Apple Computer, inc. Applicable Law This license agreement is governed by Dutch law. The courts of Amsterdam are authorized courts to rule on any dispute that may arise from this license agreement.",
+    "translation": "RTAS 和 AAX 是 Avid Technology 公司的商标。Audio Units 是 Apple Computer 公司的商标。适用法律：本许可协议受荷兰法律管辖。阿姆斯特丹法院为授权法院，有权裁决因本许可协议产生的任何争议。",
+    "category": "",
+    "branches": [
+      {
+        "word": "RTAS",
+        "zh": "实时音频套件（Avid 插件格式）"
+      },
+      {
+        "word": "AAX",
+        "zh": "Avid 音频扩展插件格式"
+      },
+      {
+        "word": "trademarks",
+        "zh": "商标"
+      },
+      {
+        "word": "Avid Technology, inc.",
+        "zh": "Avid 技术公司"
+      },
+      {
+        "word": "Audio Units",
+        "zh": "音频单元（Apple 插件格式）"
+      },
+      {
+        "word": "Apple Computer, inc.",
+        "zh": "苹果电脑公司"
+      },
+      {
+        "word": "Applicable Law",
+        "zh": "适用法律"
+      },
+      {
+        "word": "license agreement",
+        "zh": "许可协议"
+      },
+      {
+        "word": "governed by Dutch law",
+        "zh": "受荷兰法律管辖"
+      },
+      {
+        "word": "The courts of Amsterdam",
+        "zh": "阿姆斯特丹法院"
+      },
+      {
+        "word": "authorized courts",
+        "zh": "授权法院 / 管辖法院"
+      },
+      {
+        "word": "dispute",
+        "zh": "争议 / 纠纷"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, SHALL NOT BE LIABLE FOR ANY DAMAGE A FABFILTER PRODUCT MAY CAUSE OR DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT OR INABILITY TO USE A FABFILTER PRODUCT, INCLUDING BUT NOT LIMITED TO SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES. IN NO EVENT FABFILTER, FREDERIK SLIJKERMAN OR FLORIS KLINKERT WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00).",
+    "translation": "在法律允许的最大范围内，FabFilter、Frederik Slijker（弗雷德里克·斯莱克曼）和 Floris Klinkert（弗洛里斯·克林克特）不对 FabFilter 产品可能造成的任何损害、或因使用 FabFilter 产品或无法使用 FabFilter 产品而可能产生的损害承担责任，包括但不限于特殊的、附带的、间接的或其他损害。在任何情况下，FabFilter、Frederik Slijker 或 Floris Klinkert 所承担的责任金额均不超过二百五十欧元（€ 250.00）。",
+    "category": "",
+    "branches": [
+      {
+        "word": "TO THE MAXIMUM EXTENT PERMITTED BY LAW",
+        "zh": "在法律允许的最大范围内"
+      },
+      {
+        "word": "FABFILTER",
+        "zh": "FabFilter（公司名称）"
+      },
+      {
+        "word": "FREDERIK SLIJKERMAN",
+        "zh": "Frederik Slijker（人名）"
+      },
+      {
+        "word": "FLORIS KLINKERT",
+        "zh": "Floris Klinkert（人名）"
+      },
+      {
+        "word": "SHALL NOT BE LIABLE FOR ANY DAMAGE",
+        "zh": "不对任何损害承担责任"
+      },
+      {
+        "word": "A FABFILTER PRODUCT MAY CAUSE",
+        "zh": "FabFilter 产品可能造成的（损害）"
+      },
+      {
+        "word": "DAMAGES THAT MAY ARISE OUT OF THE USE OF A FABFILTER PRODUCT",
+        "zh": "因使用 FabFilter 产品而可能产生的损害"
+      },
+      {
+        "word": "INABILITY TO USE A FABFILTER PRODUCT",
+        "zh": "无法使用 FabFilter 产品"
+      },
+      {
+        "word": "INCLUDING BUT NOT LIMITED TO",
+        "zh": "包括但不限于"
+      },
+      {
+        "word": "SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES",
+        "zh": "特殊的、附带的、间接的或其他损害"
+      },
+      {
+        "word": "IN NO EVENT",
+        "zh": "在任何情况下均不"
+      },
+      {
+        "word": "WILL BE LIABLE FOR AN AMOUNT IN EXCESS OF TWO HUNDRED FIFTY EUROS (€ 250,00)",
+        "zh": "对超过二百五十欧元（€ 250.00）的金额承担责任"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Disclaimer TO THE MAXIMUM EXTENT PERMITTED BY LAW, FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, AUTHORS OF THIS FABFILTER PRODUCT, SPECIFICALLY DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. FABFILTER, FREDERIK SLIJKERMAN AND FLORIS KLINKERT, DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE SOFTWARE WILL OPERATE ERROR-FREE OR UNINTERRUPTED.",
+    "translation": "免责声明：在法律允许的最大范围内，FabFilter、Frederik Slijker 和 Floris Klinkert（本 FabFilter 产品的作者）明确声明不承担所有明示或暗示的保证，包括但不限于不侵权、适销性和特定用途适用性的暗示保证。FabFilter、Frederik Slijker 和 Floris Klinkert 不保证本软件能满足您的需求，也不保证本软件能无错误或不中断地运行。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Disclaimer",
+        "zh": "免责声明"
+      },
+      {
+        "word": "TO THE MAXIMUM EXTENT PERMITTED BY LAW",
+        "zh": "在法律允许的最大范围内"
+      },
+      {
+        "word": "FABFILTER",
+        "zh": "FabFilter（软件公司名称）"
+      },
+      {
+        "word": "FREDERIK SLIJKERMAN",
+        "zh": "Frederik Slijker（人名）"
+      },
+      {
+        "word": "FLORIS KLINKERT",
+        "zh": "Floris Klinkert（人名）"
+      },
+      {
+        "word": "AUTHORS",
+        "zh": "作者 / 开发者"
+      },
+      {
+        "word": "SPECIFICALLY DISCLAIM",
+        "zh": "明确声明不承担 / 特别免除"
+      },
+      {
+        "word": "ALL WARRANTIES",
+        "zh": "所有保证 / 全部担保"
+      },
+      {
+        "word": "EXPRESSED OR IMPLIED",
+        "zh": "明示或暗示的"
+      },
+      {
+        "word": "INCLUDING BUT NOT LIMITED TO",
+        "zh": "包括但不限于"
+      },
+      {
+        "word": "IMPLIED WARRANTIES",
+        "zh": "暗示保证 / 默示担保"
+      },
+      {
+        "word": "NON-INFRINGEMENT",
+        "zh": "不侵权"
+      },
+      {
+        "word": "MERCHANTABILITY",
+        "zh": "适销性"
+      },
+      {
+        "word": "FITNESS FOR A PARTICULAR PURPOSE",
+        "zh": "特定用途适用性"
+      },
+      {
+        "word": "DO NOT WARRANT",
+        "zh": "不保证"
+      },
+      {
+        "word": "MEET YOUR REQUIREMENTS",
+        "zh": "满足您的需求"
+      },
+      {
+        "word": "OPERATE ERROR-FREE",
+        "zh": "无错误运行"
+      },
+      {
+        "word": "UNINTERRUPTED",
+        "zh": "不中断的"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Next: Acknowledgements See Also Purchase FabFilter Pro-C 2 Support Acknowledgements A huge thanks to our beta testers for their relentless testing of all the different beta versions! An extra thanks to bManic for the many Factory Presets that he contributed. Next: About FabFilter See Also Purchase FabFilter Pro-C 2 Support About FabFilter Beautiful sound. Fantastic workflow. These are the foundations of FabFilter. We create powerful audio plug-ins with superb sound quality and innovative interfaces.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Next",
+        "zh": "下一节"
+      },
+      {
+        "word": "Acknowledgements",
+        "zh": "致谢"
+      },
+      {
+        "word": "See Also",
+        "zh": "另请参阅"
+      },
+      {
+        "word": "Purchase",
+        "zh": "购买"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "Support",
+        "zh": "支持"
+      },
+      {
+        "word": "A huge thanks to our beta testers for their relentless testing of all the different beta versions!",
+        "zh": "衷心感谢我们的测试人员，感谢他们对所有不同测试版本的不懈测试！"
+      },
+      {
+        "word": "An extra thanks to bManic for the many Factory Presets that he contributed.",
+        "zh": "特别感谢 bManic 贡献了许多出厂预设。"
+      },
+      {
+        "word": "About FabFilter",
+        "zh": "关于 FabFilter"
+      },
+      {
+        "word": "Beautiful sound.",
+        "zh": "美妙的声音。"
+      },
+      {
+        "word": "Fantastic workflow.",
+        "zh": "出色的工作流程。"
+      },
+      {
+        "word": "These are the foundations of FabFilter.",
+        "zh": "这些是 FabFilter 的基石。"
+      },
+      {
+        "word": "We create powerful audio plug-ins with superb sound quality and innovative interfaces.",
+        "zh": "我们创造功能强大的音频插件，具备卓越的音质和创新的界面。"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "A unique perspective At FabFilter, we make the best possible tools for music production and audio processing. To achieve this, we continually rethink and challenge industry standards: we've never been afraid of reinventing the wheel. Considering every little detail, we tune our algorithms and interfaces until they sound perfect, look amazing and feel great to work with. It's the sound that counts Above everything else, you need superb sound quality.",
+    "translation": "独特的视角。在 FabFilter，我们为音乐制作和音频处理打造尽可能最好的工具。为实现这一目标，我们不断重新思考并挑战行业标准：我们从不畏惧重新发明轮子。我们考虑每一个细节，精心调校算法和界面，直到它们听起来完美、看起来惊艳、用起来顺手。声音才是关键。最重要的是，你需要卓越的音质。",
+    "category": "",
+    "branches": [
+      {
+        "word": "A unique perspective",
+        "zh": "独特的视角"
+      },
+      {
+        "word": "FabFilter",
+        "zh": "FabFilter"
+      },
+      {
+        "word": "we make the best possible tools for music production and audio processing",
+        "zh": "我们为音乐制作和音频处理打造尽可能最好的工具"
+      },
+      {
+        "word": "To achieve this, we continually rethink and challenge industry standards",
+        "zh": "为实现这一目标，我们不断重新思考并挑战行业标准"
+      },
+      {
+        "word": "we've never been afraid of reinventing the wheel",
+        "zh": "我们从不畏惧重新发明轮子"
+      },
+      {
+        "word": "Considering every little detail, we tune our algorithms and interfaces",
+        "zh": "我们考虑每一个细节，精心调校算法和界面"
+      },
+      {
+        "word": "until they sound perfect, look amazing and feel great to work with",
+        "zh": "直到它们听起来完美、看起来惊艳、用起来顺手"
+      },
+      {
+        "word": "It's the sound that counts",
+        "zh": "声音才是关键"
+      },
+      {
+        "word": "Above everything else, you need superb sound quality",
+        "zh": "最重要的是，你需要卓越的音质"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "And because of our special attention to design, you'll be delighted every time you open a FabFilter plug-in. Don't take our word for it We always set the highest standard for sound quality, usability and design to make truly great products that raise the bar on what audio software can do.",
+    "translation": "因为我们特别注重设计，所以每次打开 FabFilter 插件时，你都会感到愉悦。不要只听我们的一面之词。我们始终为音质、易用性和设计设定最高标准，以打造真正出色的产品，不断提升音频软件所能达到的水平。",
+    "category": "",
+    "branches": [
+      {
+        "word": "special attention",
+        "zh": "特别的关注"
+      },
+      {
+        "word": "design",
+        "zh": "设计"
+      },
+      {
+        "word": "delighted",
+        "zh": "感到愉悦的"
+      },
+      {
+        "word": "FabFilter plug-in",
+        "zh": "FabFilter 插件"
+      },
+      {
+        "word": "Don't take our word for it",
+        "zh": "不要只听我们的一面之词"
+      },
+      {
+        "word": "highest standard",
+        "zh": "最高标准"
+      },
+      {
+        "word": "sound quality",
+        "zh": "音质"
+      },
+      {
+        "word": "usability",
+        "zh": "易用性"
+      },
+      {
+        "word": "truly great products",
+        "zh": "真正出色的产品"
+      },
+      {
+        "word": "raise the bar",
+        "zh": "提高标准"
+      },
+      {
+        "word": "audio software",
+        "zh": "音频软件"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "That's why we're very happy with the praise we've received from users and press alike: \"In the decade since the release of its first plug-in, One, FabFilter has made an indelible mark on the music production landscape.\" — Computer Music magazine \"While many other software developers are busy trying to model hardware, FabFilter is leaving them in the dust by being visionaries and reaching into the future.",
+    "translation": "这就是为什么我们对来自用户和媒体的一致赞誉感到非常高兴：“自其首个插件 One 发布以来的十年间，FabFilter 在音乐制作领域留下了不可磨灭的印记。”——《Computer Music》杂志。“当许多其他软件开发者忙于尝试模拟硬件时，FabFilter 以远见卓识和面向未来将他们远远甩在身后。”",
+    "category": "",
+    "branches": [
+      {
+        "word": "praise",
+        "zh": "赞誉"
+      },
+      {
+        "word": "users and press alike",
+        "zh": "用户和媒体 alike"
+      },
+      {
+        "word": "In the decade since the release of its first plug-in, One",
+        "zh": "自其首个插件 One 发布以来的十年间"
+      },
+      {
+        "word": "FabFilter",
+        "zh": "FabFilter"
+      },
+      {
+        "word": "has made an indelible mark on the music production landscape",
+        "zh": "在音乐制作领域留下了不可磨灭的印记"
+      },
+      {
+        "word": "Computer Music magazine",
+        "zh": "《Computer Music》杂志"
+      },
+      {
+        "word": "While many other software developers are busy trying to model hardware",
+        "zh": "当许多其他软件开发者忙于尝试模拟硬件时"
+      },
+      {
+        "word": "FabFilter is leaving them in the dust by being visionaries and reaching into the future",
+        "zh": "FabFilter 以远见卓识和面向未来将他们远远甩在身后"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "That's why we put a lot of effort into developing unique audio processing algorithms, ranging from our famous resonating filters to transparent high-end EQ and dynamics processing. Innovative interfaces, great design Every FabFilter plug-in has an easy-to-use, well-designed interface aimed at providing unsurpassed workflow. Our plug-ins focus on the task you're performing at that specific moment: they expose the features you need, when you need them.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "audio processing algorithms",
+        "zh": "音频处理算法"
+      },
+      {
+        "word": "resonating filters",
+        "zh": "共振滤波器"
+      },
+      {
+        "word": "transparent",
+        "zh": "透明的 / 透明无染色的"
+      },
+      {
+        "word": "high-end EQ",
+        "zh": "高端均衡器"
+      },
+      {
+        "word": "dynamics processing",
+        "zh": "动态处理"
+      },
+      {
+        "word": "Innovative interfaces",
+        "zh": "创新界面"
+      },
+      {
+        "word": "great design",
+        "zh": "出色的设计"
+      },
+      {
+        "word": "FabFilter plug-in",
+        "zh": "FabFilter 插件"
+      },
+      {
+        "word": "easy-to-use",
+        "zh": "易于使用的"
+      },
+      {
+        "word": "well-designed interface",
+        "zh": "设计良好的界面"
+      },
+      {
+        "word": "unsurpassed workflow",
+        "zh": "无与伦比的工作流程"
+      },
+      {
+        "word": "focus on the task",
+        "zh": "专注于任务"
+      },
+      {
+        "word": "expose the features you need",
+        "zh": "呈现你需要的功能"
+      },
+      {
+        "word": "when you need them",
+        "zh": "在你需要它们的时候"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "FabFilter stuff is just on another level.\" — Jeff Sanders \"FabFilter has an enviable reputation for making easy-to-use, powerful tools.\" — Music Tech magazine FabFilter was founded in 2002 by Frederik Slijkerman and Floris Klinkert, and is based in Amsterdam, The Netherlands. See Also Support FabFilter web site",
+    "translation": "FabFilter 的东西就是处于另一个层次。——Jeff Sanders \"FabFilter 以制作易于使用且强大的工具而享有令人羡慕的声誉。\" ——Music Tech 杂志 FabFilter 由 Frederik Slijkerman 和 Floris Klinkert 于 2002 年创立，总部位于荷兰阿姆斯特丹。另见 支持 FabFilter 官方网站",
+    "category": "",
+    "branches": [
+      {
+        "word": "FabFilter",
+        "zh": "FabFilter"
+      },
+      {
+        "word": "stuff",
+        "zh": "东西 / 产品"
+      },
+      {
+        "word": "on another level",
+        "zh": "处于另一个层次"
+      },
+      {
+        "word": "Jeff Sanders",
+        "zh": "Jeff Sanders"
+      },
+      {
+        "word": "enviable reputation",
+        "zh": "令人羡慕的声誉"
+      },
+      {
+        "word": "easy-to-use",
+        "zh": "易于使用的"
+      },
+      {
+        "word": "powerful tools",
+        "zh": "强大的工具"
+      },
+      {
+        "word": "Music Tech magazine",
+        "zh": "Music Tech 杂志"
+      },
+      {
+        "word": "founded",
+        "zh": "创立 / 成立"
+      },
+      {
+        "word": "Frederik Slijkerman",
+        "zh": "Frederik Slijkerman"
+      },
+      {
+        "word": "Floris Klinkert",
+        "zh": "Floris Klinkert"
+      },
+      {
+        "word": "based in",
+        "zh": "位于 / 总部设在"
+      },
+      {
+        "word": "Amsterdam",
+        "zh": "阿姆斯特丹"
+      },
+      {
+        "word": "The Netherlands",
+        "zh": "荷兰"
+      },
+      {
+        "word": "See Also",
+        "zh": "另见 / 参见"
+      },
+      {
+        "word": "Support",
+        "zh": "支持 / 技术支持"
+      },
+      {
+        "word": "FabFilter web site",
+        "zh": "FabFilter 官方网站"
       }
     ]
   }
