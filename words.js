@@ -4797,6 +4797,149 @@ window.WORDS = [
     "id": 369
   },
   {
+    "word": "dense electronic tracks",
+    "ipa": "",
+    "translit": "",
+    "zh": "密集的电子乐曲",
+    "def": "指编曲层次多、声部堆叠厚、频谱占用广的电子音乐作品。",
+    "example": "例子：一首同时包含多层合成器、鼓机和采样音效的 EDM 曲目。",
+    "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
+    "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 370
+  },
+  {
+    "word": "carving out space",
+    "ipa": "",
+    "translit": "",
+    "zh": "腾出空间 / 挖出频段空间",
+    "def": "通过均衡、动态处理等手段，在频谱中为某个声部留出不被其他声部占据的区域。",
+    "example": "例子：用 EQ 在中频段衰减合成器的某些频率，让人声更清晰。",
+    "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
+    "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 371
+  },
+  {
+    "word": "midrange",
+    "ipa": "ˈmɪdreɪndʒ",
+    "translit": "",
+    "zh": "中频 / 中音区",
+    "def": "大约 200 Hz 至 2 kHz 之间的频率范围，是人声和多数乐器主要能量所在。",
+    "example": "例子：人声的温暖感和清晰度主要集中在中频段。",
+    "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
+    "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 372
+  },
+  {
+    "word": "essential",
+    "ipa": "ɪˈsenʃl",
+    "translit": "",
+    "zh": "必要的 / 至关重要的",
+    "def": "表示某事物不可或缺，缺少它就无法达到预期效果。",
+    "example": "例子：在密集编曲中，中频处理是必不可少的步骤。",
+    "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
+    "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 373
+  },
+  {
+    "word": "male vocals",
+    "ipa": "",
+    "translit": "",
+    "zh": "男声 / 男声人声",
+    "def": "由男性歌手演唱的人声部分，基频通常低于女声。",
+    "example": "例子：流行歌曲中男歌手的主唱声部。",
+    "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
+    "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 374
+  },
+  {
+    "word": "in the mix",
+    "ipa": "ɪn ðə mɪks",
+    "translit": "",
+    "zh": "在混音中",
+    "def": "指在最终混音作品的整体声场与频谱中的位置和状态。",
+    "example": "例子：检查人声在混音中是否清晰可辨。",
+    "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
+    "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 375
+  },
+  {
+    "word": "without being masked",
+    "ipa": "",
+    "translit": "",
+    "zh": "不被掩盖 / 不被遮蔽",
+    "def": "指某声部没有被其他声部遮盖而失去可听度。",
+    "example": "例子：人声不被合成器的中频能量盖住，仍能听清歌词。",
+    "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
+    "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 376
+  },
+  {
+    "word": "by synths",
+    "ipa": "baɪ sɪnθs",
+    "translit": "",
+    "zh": "被合成器",
+    "def": "指由合成器（synthesizer）产生的声音，常占据较宽的中高频段。",
+    "example": "例子：合成器铺底音色若中频过强，容易掩盖人声。",
+    "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
+    "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 377
+  },
+  {
+    "word": "fast-attack compressor",
+    "ipa": "",
+    "translit": "",
+    "zh": "快启动压缩器",
+    "def": "启动时间极短的压缩器，能在信号超过阈值时迅速降低增益，用于控制瞬间峰值。",
+    "example": "例子：给人声轨道插入启动时间设为 1ms 的压缩器，立刻压住第一个字的爆音。",
+    "context": "Applying a fast-attack compressor to aggressive rock male vocals helps tame the harsh transients and maintain a consistent dynamic level.",
+    "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 378
+  },
+  {
+    "word": "aggressive rock male vocals",
+    "ipa": "",
+    "translit": "",
+    "zh": "激烈的摇滚男声",
+    "def": "指演唱风格强硬、力度大、情绪外放的摇滚男声人声，通常动态起伏剧烈。",
+    "example": "例子：一首硬摇滚副歌中嘶吼式的高音男声演唱。",
+    "context": "Applying a fast-attack compressor to aggressive rock male vocals helps tame the harsh transients and maintain a consistent dynamic level.",
+    "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 379
+  },
+  {
+    "word": "tame the harsh transients",
+    "ipa": "",
+    "translit": "",
+    "zh": "驯服刺耳的瞬态",
+    "def": "瞬态是声音起始瞬间的短促高峰值；驯服即通过处理削弱这些过冲，使其不再刺耳。",
+    "example": "例子：压缩器把每句开头过冲的 6dB 峰值压回 2dB，听感不再扎耳。",
+    "context": "Applying a fast-attack compressor to aggressive rock male vocals helps tame the harsh transients and maintain a consistent dynamic level.",
+    "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 380
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -4807,7 +4950,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 370
+    "id": 381
   },
   {
     "word": "Conga",
@@ -4820,7 +4963,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 371
+    "id": 382
   },
   {
     "word": "Percussion",
@@ -4833,7 +4976,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 372
+    "id": 383
   },
   {
     "word": "Grooves",
@@ -4846,7 +4989,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 373
+    "id": 384
   },
   {
     "word": "Bongos",
@@ -4859,7 +5002,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 374
+    "id": 385
   },
   {
     "word": "Woodblock",
@@ -4872,7 +5015,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 375
+    "id": 386
   },
   {
     "word": "Djembe",
@@ -4885,7 +5028,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 376
+    "id": 387
   },
   {
     "word": "Tambourine",
@@ -4898,7 +5041,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 377
+    "id": 388
   },
   {
     "word": "Cowbells",
@@ -4911,7 +5054,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 378
+    "id": 389
   },
   {
     "word": "Bells",
@@ -4924,7 +5067,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 379
+    "id": 390
   },
   {
     "word": "Timbales",
@@ -4937,7 +5080,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 380
+    "id": 391
   },
   {
     "word": "Keys",
@@ -4950,7 +5093,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 381
+    "id": 392
   },
   {
     "word": "Piano",
@@ -4963,7 +5106,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 382
+    "id": 393
   },
   {
     "word": "Wurlitzer",
@@ -4976,7 +5119,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 383
+    "id": 394
   },
   {
     "word": "Electric Piano",
@@ -4989,7 +5132,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 384
+    "id": 395
   },
   {
     "word": "Organ",
@@ -5002,7 +5145,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 385
+    "id": 396
   },
   {
     "word": "Clavinet",
@@ -5015,7 +5158,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 386
+    "id": 397
   },
   {
     "word": "Keys Melody",
@@ -5028,7 +5171,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 387
+    "id": 398
   },
   {
     "word": "Classical",
@@ -5041,7 +5184,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 388
+    "id": 399
   },
   {
     "word": "Female Vocals",
@@ -5054,7 +5197,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 389
+    "id": 400
   },
   {
     "word": "Vocal FX",
@@ -5067,7 +5210,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 390
+    "id": 401
   },
   {
     "word": "Vocoder",
@@ -5080,7 +5223,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 391
+    "id": 402
   },
   {
     "word": "Screams",
@@ -5093,7 +5236,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 392
+    "id": 403
   },
   {
     "word": "Whisper Vocals",
@@ -5106,20 +5249,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 393
-  },
-  {
-    "word": "Male Vocals",
-    "ipa": "meɪl ˈvoʊkəlz",
-    "translit": "",
-    "zh": "男声人声",
-    "def": "指由男性歌手演唱的人声轨道，基频通常在 80–180Hz，能量集中在中低频。混音中常需处理 200–400Hz 的浑浊感和 2–5kHz 的清晰度。",
-    "example": "听觉例子：流行或摇滚歌曲中厚实、有力的男声主唱，胸腔共鸣明显。",
-    "context": "",
-    "contextZh": "",
-    "category": "人声",
-    "source": "2026-09-19",
-    "id": 394
+    "id": 404
   },
   {
     "word": "Spoken Word",
@@ -5132,7 +5262,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 395
+    "id": 405
   },
   {
     "word": "Vocal Phrases",
@@ -5145,7 +5275,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 396
+    "id": 406
   },
   {
     "word": "Vocal Shouts",
@@ -5158,7 +5288,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 397
+    "id": 407
   },
   {
     "word": "Dialogue",
@@ -5171,7 +5301,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 398
+    "id": 408
   }
 ];
 window.SOURCES = [
@@ -6708,6 +6838,78 @@ window.SOURCES = [
       {
         "word": "without re-recording",
         "zh": "无需重新录制"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
+    "translation": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
+    "category": "",
+    "branches": [
+      {
+        "word": "mixing",
+        "zh": "混音"
+      },
+      {
+        "word": "dense electronic tracks",
+        "zh": "密集的电子乐曲"
+      },
+      {
+        "word": "carving out space",
+        "zh": "腾出空间 / 挖出频段空间"
+      },
+      {
+        "word": "midrange",
+        "zh": "中频 / 中音区"
+      },
+      {
+        "word": "essential",
+        "zh": "必要的 / 至关重要的"
+      },
+      {
+        "word": "male vocals",
+        "zh": "男声 / 男声人声"
+      },
+      {
+        "word": "sit perfectly",
+        "zh": "完美融入 / 恰到好处地定位"
+      },
+      {
+        "word": "in the mix",
+        "zh": "在混音中"
+      },
+      {
+        "word": "without being masked",
+        "zh": "不被掩盖 / 不被遮蔽"
+      },
+      {
+        "word": "by synths",
+        "zh": "被合成器"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Applying a fast-attack compressor to aggressive rock male vocals helps tame the harsh transients and maintain a consistent dynamic level.",
+    "translation": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
+    "category": "",
+    "branches": [
+      {
+        "word": "fast-attack compressor",
+        "zh": "快启动压缩器"
+      },
+      {
+        "word": "aggressive rock male vocals",
+        "zh": "激烈的摇滚男声"
+      },
+      {
+        "word": "tame the harsh transients",
+        "zh": "驯服刺耳的瞬态"
+      },
+      {
+        "word": "maintain a consistent dynamic level",
+        "zh": "保持一致的动态电平"
       }
     ]
   }
