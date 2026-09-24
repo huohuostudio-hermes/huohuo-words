@@ -2912,6 +2912,266 @@ window.WORDS = [
     "id": 224
   },
   {
+    "word": "signal-processing",
+    "ipa": "",
+    "translit": "",
+    "zh": "信号处理",
+    "def": "对音频、图像等信号进行变换、分析与修改的技术过程。",
+    "example": "例子：用压缩器降低音频信号的动态范围。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 225
+  },
+  {
+    "word": "compression",
+    "ipa": "kəmˈprɛʃən",
+    "translit": "",
+    "zh": "压缩",
+    "def": "在音频中，指降低信号动态范围、使响的部分变轻、轻的部分相对变响的处理。",
+    "example": "例子：人声轨加压缩后，音量更稳定，不容易忽大忽小。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 226
+  },
+  {
+    "word": "postproduction",
+    "ipa": "",
+    "translit": "",
+    "zh": "后期制作",
+    "def": "录制完成之后进行的编辑、混音、修复、母带等处理阶段。",
+    "example": "例子：电影对白在后期制作中加入压缩和均衡。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 227
+  },
+  {
+    "word": "formats",
+    "ipa": "",
+    "translit": "",
+    "zh": "格式",
+    "def": "指插件或音频处理所支持的不同技术形式、标准或呈现方式。",
+    "example": "例子：VST、AU、AAX 是常见的音频插件格式。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 228
+  },
+  {
+    "word": "flavors",
+    "ipa": "",
+    "translit": "",
+    "zh": "类型 / 风格",
+    "def": "指同一类工具的不同声音取向或设计变体。",
+    "example": "例子：不同压缩器有偏“透明”或偏“染色”的风格。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 229
+  },
+  {
+    "word": "designs",
+    "ipa": "",
+    "translit": "",
+    "zh": "设计",
+    "def": "指设备或软件在算法、界面、电路思路等方面的整体构造方式。",
+    "example": "例子：有的压缩器采用前馈设计，有的采用反馈设计。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 230
+  },
+  {
+    "word": "quirkiness",
+    "ipa": "",
+    "translit": "",
+    "zh": "古怪特性 / 个性",
+    "def": "指某些设备或插件不完全标准、但很有辨识度的行为或声音特点。",
+    "example": "例子：老式压缩器可能会有独特的时间响应和染色。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 231
+  },
+  {
+    "word": "FabFilter Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "FabFilter Pro-C 2",
+    "def": "这是 FabFilter 公司推出的一款专业压缩器插件。",
+    "example": "例子：在混音工程中，Pro-C 2 常用于人声、鼓组和总线压缩。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 232
+  },
+  {
+    "word": "sounding",
+    "ipa": "",
+    "translit": "",
+    "zh": "发声的 / 声音表现的",
+    "def": "用来描述设备或插件听起来的效果和音质特征。",
+    "example": "例子：这是一款声音表现很好的压缩器。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 233
+  },
+  {
+    "word": "superb",
+    "ipa": "",
+    "translit": "",
+    "zh": "极好的 / 卓越的",
+    "def": "表示质量、性能或听感非常出色。",
+    "example": "例子：这款插件在立体声处理方面表现卓越。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 234
+  },
+  {
+    "word": "stereo compressor",
+    "ipa": "",
+    "translit": "",
+    "zh": "立体声压缩器",
+    "def": "能同时处理左右声道，并可保持立体声成像的压缩器。",
+    "example": "例子：混音总线常用立体声压缩器来粘合整体声音。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 235
+  },
+  {
+    "word": "tricks up its sleeve",
+    "ipa": "",
+    "translit": "",
+    "zh": "有各种本领 / 暗藏绝招",
+    "def": "表示某个工具具备许多实用功能或隐藏能力。",
+    "example": "例子：这款压缩器看似简单，实际上有很多可用功能。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 236
+  },
+  {
+    "word": "compression styles",
+    "ipa": "",
+    "translit": "",
+    "zh": "压缩风格",
+    "def": "指压缩器提供的不同工作模式或声音取向。",
+    "example": "例子：Clean、Classic、Opto 等风格适合不同素材。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 237
+  },
+  {
+    "word": "mid/side compression",
+    "ipa": "",
+    "translit": "",
+    "zh": "中侧压缩",
+    "def": "分别对立体声的中置成分和两侧成分进行压缩处理。",
+    "example": "例子：中侧压缩可以控制人声，同时保留宽广的立体声空间。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 238
+  },
+  {
+    "word": "side-chaining",
+    "ipa": "",
+    "translit": "",
+    "zh": "侧链",
+    "def": "用另一个信号来触发压缩器动作的处理方式。",
+    "example": "例子：用底鼓触发贝斯压缩，让贝斯在底鼓出现时自动避让。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 239
+  },
+  {
+    "word": "EQ filtering",
+    "ipa": "",
+    "translit": "",
+    "zh": "均衡滤波",
+    "def": "用均衡器对特定频段进行提升、衰减或过滤。",
+    "example": "例子：在侧链信号前加均衡滤波，只让低频触发压缩。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 240
+  },
+  {
+    "word": "mastering",
+    "ipa": "",
+    "translit": "",
+    "zh": "母带处理",
+    "def": "音乐制作最后阶段的整体优化与标准化处理。",
+    "example": "例子：母带处理中常用轻微压缩来增加响度和凝聚力。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 241
+  },
+  {
+    "word": "mixing",
+    "ipa": "",
+    "translit": "",
+    "zh": "混音",
+    "def": "把多轨录音平衡、处理和组合成立体声或多声道成品的过程。",
+    "example": "例子：混音时常用压缩控制人声动态。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 242
+  },
+  {
+    "word": "version 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "版本 2",
+    "def": "指软件的第二个主要版本，通常包含更新和改进。",
+    "example": "例子：Pro-C 2 的版本 2 带来了新的界面和功能。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 243
+  },
+  {
+    "word": "brand new look",
+    "ipa": "",
+    "translit": "",
+    "zh": "全新外观",
+    "def": "指界面或视觉设计发生了明显更新。",
+    "example": "例子：第一次打开 Pro-C 2 时，会看到全新的界面设计。",
+    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 244
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -2922,7 +3182,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 225
+    "id": 245
   },
   {
     "word": "Conga",
@@ -2935,7 +3195,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 226
+    "id": 246
   },
   {
     "word": "Percussion",
@@ -2948,7 +3208,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 227
+    "id": 247
   },
   {
     "word": "Grooves",
@@ -2961,7 +3221,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 228
+    "id": 248
   },
   {
     "word": "Bongos",
@@ -2974,7 +3234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 229
+    "id": 249
   },
   {
     "word": "Woodblock",
@@ -2987,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 230
+    "id": 250
   },
   {
     "word": "Djembe",
@@ -3000,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 231
+    "id": 251
   },
   {
     "word": "Tambourine",
@@ -3013,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 232
+    "id": 252
   },
   {
     "word": "Cowbells",
@@ -3026,7 +3286,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 233
+    "id": 253
   },
   {
     "word": "Bells",
@@ -3039,7 +3299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 234
+    "id": 254
   },
   {
     "word": "Timbales",
@@ -3052,7 +3312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 235
+    "id": 255
   },
   {
     "word": "Keys",
@@ -3065,7 +3325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 236
+    "id": 256
   },
   {
     "word": "Piano",
@@ -3078,7 +3338,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 237
+    "id": 257
   },
   {
     "word": "Wurlitzer",
@@ -3091,7 +3351,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 238
+    "id": 258
   },
   {
     "word": "Electric Piano",
@@ -3104,7 +3364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 239
+    "id": 259
   },
   {
     "word": "Organ",
@@ -3117,7 +3377,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 240
+    "id": 260
   },
   {
     "word": "Clavinet",
@@ -3130,7 +3390,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 241
+    "id": 261
   },
   {
     "word": "Keys Melody",
@@ -3143,7 +3403,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 242
+    "id": 262
   },
   {
     "word": "Classical",
@@ -3156,7 +3416,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 243
+    "id": 263
   },
   {
     "word": "Female Vocals",
@@ -3169,7 +3429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 244
+    "id": 264
   },
   {
     "word": "Vocal FX",
@@ -3182,7 +3442,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 245
+    "id": 265
   },
   {
     "word": "Vocoder",
@@ -3195,7 +3455,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 246
+    "id": 266
   },
   {
     "word": "Screams",
@@ -3208,7 +3468,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 247
+    "id": 267
   },
   {
     "word": "Whisper Vocals",
@@ -3221,7 +3481,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 248
+    "id": 268
   },
   {
     "word": "Male Vocals",
@@ -3234,7 +3494,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 249
+    "id": 269
   },
   {
     "word": "Spoken Word",
@@ -3247,7 +3507,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 250
+    "id": 270
   },
   {
     "word": "Vocal Phrases",
@@ -3260,7 +3520,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 251
+    "id": 271
   },
   {
     "word": "Vocal Shouts",
@@ -3273,7 +3533,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 252
+    "id": 272
   },
   {
     "word": "Dialogue",
@@ -3286,7 +3546,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 253
+    "id": 273
   }
 ];
 window.SOURCES = [
@@ -3916,3609 +4176,89 @@ window.SOURCES = [
   },
   {
     "date": "2026-09-24",
-    "text": "Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness.",
-    "translation": "压缩有多种不同的格式、风格、设计和奇特程度。",
-    "category": "混音动态",
+    "text": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "translation": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "",
     "branches": [
+      {
+        "word": "signal-processing",
+        "zh": "信号处理"
+      },
       {
         "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "FabFilter Pro-C 2 is not just a good sounding compressor.",
-    "translation": "FabFilter Pro-C 2 不仅仅是一个音质好的压缩器。",
-    "category": "混音动态",
-    "branches": [
+        "zh": "压缩"
+      },
       {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need.",
-    "translation": "FabFilter Pro-C 2 是一款出色的立体声压缩器，具备你所需的所有技巧。",
-    "category": "混音动态",
-    "branches": [
+        "word": "postproduction",
+        "zh": "后期制作"
+      },
       {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way.",
-    "translation": "凭借其不同的压缩风格和选项，如中侧压缩和可选的EQ滤波侧链，它可以以任何所需的方式工作。",
-    "category": "混音动态",
-    "branches": [
+        "word": "formats",
+        "zh": "格式"
+      },
       {
-        "word": "compression",
-        "zh": ""
+        "word": "flavors",
+        "zh": "类型 / 风格"
+      },
+      {
+        "word": "designs",
+        "zh": "设计"
+      },
+      {
+        "word": "quirkiness",
+        "zh": "古怪特性 / 个性"
+      },
+      {
+        "word": "FabFilter Pro-C 2",
+        "zh": "FabFilter Pro-C 2"
+      },
+      {
+        "word": "sounding",
+        "zh": "发声的 / 声音表现的"
+      },
+      {
+        "word": "superb",
+        "zh": "极好的 / 卓越的"
+      },
+      {
+        "word": "stereo compressor",
+        "zh": "立体声压缩器"
+      },
+      {
+        "word": "tricks up its sleeve",
+        "zh": "有各种本领 / 暗藏绝招"
+      },
+      {
+        "word": "compression styles",
+        "zh": "压缩风格"
+      },
+      {
+        "word": "mid/side compression",
+        "zh": "中侧压缩"
       },
       {
         "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Whether mastering or mixing, Pro-C 2 will do the job with lots of style.",
-    "translation": "无论是母带处理还是混音，Pro-C 2 都能以多种风格完成任务。",
-    "category": "混音动态",
-    "branches": [
+        "zh": "侧链"
+      },
+      {
+        "word": "EQ filtering",
+        "zh": "均衡滤波"
+      },
       {
         "word": "mastering",
-        "zh": ""
+        "zh": "母带处理"
       },
       {
         "word": "mixing",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "With its gorgeous, resizable interface, optional level display, knee display and side-chain EQ controller, it can either take the form of a classic, straightforward analog compressor, or present itself as a modern allround compressor with extensive metering and controls.",
-    "translation": "凭借其漂亮的可调整界面、可选的电平显示、拐点显示和侧链EQ控制器，它可以呈现经典的简单模拟压缩器形态，也可以作为具有全面计量和控制功能的现代全能压缩器。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compressor",
-        "zh": ""
-      },
-      {
-        "word": "side-chain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Most importantly, FabFilter Pro-C 2 introduces five brand new compression styles, in addition to the three original v1 styles.",
-    "translation": "最重要的是，FabFilter Pro-C 2 除了原有的三种压缩风格外，还引入了五种全新的压缩风格。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "style",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "With their unique characteristics, it's like getting five brand new compressors!",
-    "translation": "凭借其独特的特性，这就像获得了五台全新的压缩器！",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Vocal - Very effective algorithm to bring vocals to the front of your mix.",
-    "translation": "人声 - 非常有效的算法，可以将人声置于混音的前端。",
-    "category": "人声",
-    "branches": [
-      {
-        "word": "vocal",
-        "zh": ""
-      },
-      {
-        "word": "algorithm",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "It works with automatic knee and ratio settings, so compressing your lead vocal is as easy as choosing the right threshold.",
-    "translation": "它带有自动膝盖和比率设置，所以压缩主唱就像选择合适的阈值一样简单。",
-    "category": "人声",
-    "branches": [
-      {
-        "word": "compress",
-        "zh": ""
-      },
-      {
-        "word": "lead vocal",
-        "zh": ""
-      },
-      {
-        "word": "threshold",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Mastering - Designed to be as transparent as possible, introducing as little harmonic distortion as possible, while still being able to catch those fast transients.",
-    "translation": "母带处理 - 设计上尽可能透明，引入尽可能少的谐波失真，同时还能捕捉快速的瞬态。",
-    "category": "母带声学",
-    "branches": [
-      {
-        "word": "mastering",
-        "zh": ""
-      },
-      {
-        "word": "transient",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Bus - Especially great for bus processing, or for adding a pleasant glue to your drums, mixes or tracks.",
-    "translation": "总线 - 特别适合总线处理，或者为你的鼓、混音或音轨添加一种愉悦的粘合感。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "bus processing",
-        "zh": ""
-      },
-      {
-        "word": "drum",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Punch - Traditional, analog-like compression behavior, sounds good on anything!",
-    "translation": "力度 - 传统、类似模拟的压缩行为，任何东西听起来都很好。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "analog",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "3 Pumping - Deep and over-the-top pumping, great for drum processing or EDM.",
-    "translation": "3 泵动 - 深度且夸张的泵动效果，非常适合鼓处理或电子舞曲。",
-    "category": "打击乐",
-    "branches": [
-      {
-        "word": "pump",
-        "zh": ""
-      },
-      {
-        "word": "drum",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Introducing custom Knee, variable from hard knee to a 72 dB soft knee, which enables you to achieve saturation- like compression effects.",
-    "translation": "新增自定义Knee设置，可从硬Knee调整到72 dB的软Knee，使你能够实现类似饱和的压缩效果。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "knee",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Introducing Range setting, which limits the maximum applied gain change.",
-    "translation": "新增范围设置，限制最大增益变化。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "range",
-        "zh": ""
-      },
-      {
-        "word": "gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Introducing Mix, which scales the gain change from 0% to 200%.",
-    "translation": "新增Mix设置，可将增益变化从0%调整到200%。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mix",
-        "zh": ""
-      },
-      {
-        "word": "gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Simplified and improved side-chain stereo handling, introducing variable stereo linking with mid-only, side-only, M>S and S>M processing.",
-    "translation": "简化并改进了侧链立体声处理，新增可变立体声链接，包括仅中频、仅侧频、M>S和S>M处理。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chain",
-        "zh": ""
-      },
-      {
-        "word": "stereo",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Introducing side-chain EQ section, with customizable HP and LP filters, plus an additional freely adjustable side-chain filter (Bell, Low Shelf, High Shelf, Band Pass, Notch or Tilt).",
-    "translation": "引入侧链EQ部分，带有可定制的高通和低通滤波器，以及一个额外的可自由调节的侧链滤波器（钟形、低架、高架、带通、陷波或倾斜）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "eq",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Extended Threshold range to -60 dB.",
-    "translation": "扩展阈值范围至-60 dB。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "threshold",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Introducing Audition Triggering option, to be able to hear on which parts of the audio Pro-C 2 is triggering and how much compression is taking place.",
-    "translation": "引入试听触发选项，可以听到Pro-C 2在音频的哪些部分触发以及压缩的程度。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "If MIDI is enabled, the compressor is triggered when you hit any key on a connected MIDI keyboard controller.",
-    "translation": "如果启用了 MIDI，当你在连接的 MIDI 键盘控制器上按下任何键时，压缩器会被触发。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi",
-        "zh": ""
-      },
-      {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The loudness level complies with the Momentary mode of the EBU R128 / ITU-R 1770 standards.",
-    "translation": "响度级别符合 EBU R128 / ITU-R 1770 标准的瞬时模式。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "loudness",
-        "zh": ""
-      },
-      {
-        "word": "standard",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Cubase Choose an empty insert slot, for example in the Mixer, and select FabFilter Pro-C 2 from the menu that appears.",
-    "translation": "在 Cubase 中，选择一个空的插入槽，例如在混音器中，然后从出现的菜单中选择 FabFilter Pro-C 2。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "cubase",
-        "zh": ""
-      },
-      {
-        "word": "mixer",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "To use the MIDI features in Pro-C 2, create a new MIDI track and set its output to the Pro-C 2 instance you have just created.",
-    "translation": "要使用 Pro-C 2 的 MIDI 功能，请创建一个新的 MIDI 轨道，并将其输出设置为你刚刚创建的 Pro-C 2 实例。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi",
-        "zh": ""
-      },
-      {
-        "word": "pro-c 2",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "You will find FabFilter Pro-C 2 in the Audio Units > FabFilter section (named FF Pro-C 2).",
-    "translation": "你可以在 Audio Units > FabFilter 部分找到 FabFilter Pro-C 2（命名为 FF Pro-C 2）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Ableton Live In Session view, select the track you would like to place FabFilter Pro-C 2 on, for example by clicking the track name.",
-    "translation": "在 Ableton Live 的 Session 视图中，选择你想要放置 FabFilter Pro-C 2 的轨道，例如点击轨道名称。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "From the plug-ins list, double-click FabFilter/FabFilter Pro-C 2, or drag it onto the track.",
-    "translation": "从插件列表中双击 FabFilter/FabFilter Pro-C 2，或者将其拖放到轨道上。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Pro Tools Choose an empty insert slot on one of your audio tracks, instrument tracks or buses and select FabFilter Pro-C 2 from the pop-up menu in the Dynamics section.",
-    "translation": "在 Pro Tools 中，选择一个空的插入槽，无论是音频轨道、乐器轨道还是总线，然后在 Dynamics 部分的弹出菜单中选择 FabFilter Pro-C 2。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "To begin, choose fast attack and release times, put the ratio to a gentle setting (like 4:1) and bring down the threshold to make compression audible.",
-    "translation": "开始时，选择快速的 attack 和 release 时间，将 ratio 设为温和的设置（如 4:1），并将 threshold 下调以使压缩效果明显。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "attack",
-        "zh": ""
-      },
-      {
-        "word": "release",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "It consists of the following elements: Level display The animated level display shows you the incoming and processed audio signals together with the gain reduction.",
-    "translation": "它包含以下元素：电平显示 动态电平显示会向你展示输入和处理后的音频信号以及增益衰减。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "level display",
-        "zh": ""
-      },
-      {
-        "word": "gain reduction",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "It helps you detemine the correct compressor settings.",
-    "translation": "它帮助你确定正确的压缩器设置。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compressor settings",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "You can hide the level display with the Display button.",
-    "translation": "你可以使用显示按钮隐藏电平显示。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "level display",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This will also hide the knee display and change the vertical level meters to horizontal ones, making Pro-C 2 look and feel more like a traditional compressor.",
-    "translation": "这也会隐藏拐点显示，并将垂直电平表更改为水平表，使 Pro-C 2 看起来和感觉上更像传统的压缩器。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "knee display",
-        "zh": ""
-      },
-      {
-        "word": "level meters",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Knee display The Knee display visualizes the input/output transform of the detection circuit, including the effect of the Threshold, Ratio, Knee and Range parameters.",
-    "translation": "Knee 显示屏可视化了检测电路的输入/输出转换，包括阈值、比率、Knee 和范围参数的影响。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "knee",
-        "zh": ""
-      },
-      {
-        "word": "threshold",
-        "zh": ""
-      },
-      {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Use the Knee button to show or hide the knee display.",
-    "translation": "使用 Knee 按钮显示或隐藏 Knee 显示屏。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "knee",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Threshold, Ratio, Knee and Range control the triggering and how much compression is applied.",
-    "translation": "阈值、比率、膝盖和范围控制压缩的触发和应用程度。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "threshold",
-        "zh": ""
-      },
-      {
-        "word": "ratio",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Attack, Release, Lookahead and Hold affect the smoothing and curves of the gain reduction.",
-    "translation": "攻击、释放、前置监听和保持影响增益衰减的平滑度和曲线。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "attack",
-        "zh": ""
-      },
-      {
-        "word": "release",
-        "zh": ""
-      },
-      {
-        "word": "gain reduction",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Level metering At the right-hand side of the interface, the input-, gain reduction- and output level meters and their read- outs provide an immediate overview of the current levels.",
-    "translation": "电平表在界面的右侧，输入、增益衰减和输出电平表及其读数提供当前电平的即时概览。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "level metering",
-        "zh": ""
-      },
-      {
-        "word": "input",
-        "zh": ""
-      },
-      {
-        "word": "output",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The input and output level meters show both peak and loudness levels.",
-    "translation": "输入和输出电平表显示峰值和响度电平。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "level metering",
-        "zh": ""
-      },
-      {
-        "word": "peak",
-        "zh": ""
-      },
-      {
-        "word": "loudness",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The loudness level complies with the Momentary mode of the EBU R128 / ITU- R 1770 standards.",
-    "translation": "响度电平符合EBU R128 / ITU-R 1770标准的瞬时模式。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "loudness",
-        "zh": ""
-      },
-      {
-        "word": "ebu r128",
-        "zh": ""
-      },
-      {
-        "word": "itu-r 1770",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "MIDI Learn MIDI Learn lets you easily associate any MIDI controller with any plug-in parameter.",
-    "translation": "MIDI 学习功能让你可以轻松地将任何 MIDI 控制器与任何插件参数关联起来。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi",
-        "zh": ""
-      },
-      {
-        "word": "plug-in",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Oversampling The Oversampling setting sets the amount of internal oversampling, which reduces possible aliasing for fast/aggressive dynamics processing, at the cost of additional CPU usage.",
-    "translation": "超采样设置可以设定内部超采样的数量，这可以减少快速或激进的动态处理可能产生的混叠，但会增加 CPU 的使用。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "oversampling",
-        "zh": ""
-      },
-      {
-        "word": "dynamic",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "It is easy to control FabFilter Pro-C 2's parameters with the large round knobs.",
-    "translation": "使用大型圆形旋钮控制 FabFilter Pro-C 2 的参数非常简单。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "knob",
-        "zh": ""
-      },
-      {
-        "word": "parameter",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "They will light up when you move the mouse cursor around to indicate that you can adjust them.",
-    "translation": "当你移动鼠标光标时，它们会亮起来，表示你可以调整它们。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "adjust",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The moment you move the mouse cursor over a knob, a parameter value display will pop up, which shows the name and the current value of the parameter.",
-    "translation": "当你将鼠标光标移到旋钮上时，参数值显示会弹出，显示参数的名称和当前值。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "knob",
-        "zh": ""
-      },
-      {
-        "word": "parameter",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Style button selects the style or compression.",
-    "translation": "样式按钮选择压缩的样式。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "style",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Pro-C 2 offers 8 different styles, all with their own characteristics: Clean - An allround, low distortion, feedforward, program dependent style (originally from Pro-C v1).",
-    "translation": "Pro-C 2 提供 8 种不同的样式，每种都有自己的特点：Clean - 一种全方位、低失真、前馈、程序相关的样式（源自 Pro-C v1）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "style",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Classic - A vintage, feedback, very program dependent style (originally from Pro-C v1).",
-    "translation": "Classic - 一种复古的、反馈的、非常依赖程序的样式（源自 Pro-C v1）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "style",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Opto - A relatively slow, very soft knee, more linear opto style (originally from Pro-C v1),",
-    "translation": "Opto - 一种相对较慢、膝盖非常柔和、更线性的光电样式（源自 Pro-C v1）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "style",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Vocal - A very effective algorithm to bring vocals to the front of your mix.",
-    "translation": "Vocal - 一种非常有效的算法，将人声带到混音的前面。",
-    "category": "人声",
-    "branches": [
-      {
-        "word": "vocal",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Pumping - Deep and over-the-top pumping, great for drum processing or EDM.",
-    "translation": "泵感 - 深度且夸张的泵感，非常适合打击乐处理或电子舞曲。",
-    "category": "打击乐",
-    "branches": [
-      {
-        "word": "pumping",
-        "zh": ""
-      },
-      {
-        "word": "drum",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Threshold knob determines above which side chain level the gain should be reduced.",
-    "translation": "阈值旋钮决定了在哪个侧链电平以上应减少增益。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "threshold",
-        "zh": ""
-      },
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The circular side-chain level meter around the Threshold knob shows the level of the filtered and possibly stereo-linked signal that is used for detection.",
-    "translation": "环绕阈值旋钮的圆形侧链电平表显示了用于检测的过滤信号及其可能的立体声链接电平。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "threshold",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Using the Audition Triggering button, at the left top of the Threshold button, you can hear on which parts of the audio Pro-C 2 is triggering and how much compression is taking place.",
-    "translation": "通过阈值按钮左上方的试听触发按钮，你可以听到Pro-C 2在音频的哪些部分触发以及压缩的程度。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "audition triggering",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Ratio knob sets the amount of compression.",
-    "translation": "比率旋钮设置压缩量。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "ratio",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "At a ratio of 10:1, just one dB of output signal above the threshold remains for every 10 dB of input signal above the threshold.",
-    "translation": "在10:1的比率下，每10dB超过阈值的输入信号仅剩下1dB超过阈值的输出信号。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "ratio",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "You can click on the small dots around the Ratio knob to jump to certain fixed ratio amounts.",
-    "translation": "你可以点击比率旋钮周围的点，快速跳转到预设的比率值。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "ratio",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "If you move the knob completely to the left (1:1), no compression will take place.",
-    "translation": "如果你将旋钮完全向左移动（1:1），就不会有任何压缩效果。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "If you move it completely to the right (infinity), everything above the threshold will be completely compressed away, making Pro-C act as a limiter.",
-    "translation": "如果你将旋钮完全向右移动（无穷大），所有超过阈值的声音都会被完全压缩，使Pro-C充当限制器。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "limiter",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Knee slider set the 'roundness' of the compression around the threshold, which can vary from 0 dB (hard knee) to 72 dB (soft knee).",
-    "translation": "膝盖滑块设置了阈值周围的压缩曲线，范围从0 dB（硬膝盖）到72 dB（软膝盖）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "knee",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Using a soft knee can help to make the compression more gradual and transparent.",
-    "translation": "使用软膝盖可以使压缩更加平滑和透明。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "knee",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "With very soft knee settings (> 60 dB), in combination with a fast Attack setting, you can achieve almost saturation-like effects.",
-    "translation": "使用非常软的膝盖设置（> 60 dB）并结合快速的攻击设置，可以实现几乎饱和的效果。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "knee",
-        "zh": ""
-      },
-      {
-        "word": "attack",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Range slider limits the maximum amount of applied gain change.",
-    "translation": "范围滑块限制了应用增益变化的最大值。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "range",
-        "zh": ""
-      },
-      {
-        "word": "gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Compare this to the Ratio slider which scales the dynamics behavior instead.",
-    "translation": "将这与比率滑块进行比较，比率滑块会调整动态行为。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "ratio",
-        "zh": ""
-      },
-      {
-        "word": "dynamic",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Tips Instead of using the incoming audio to trigger the compressor, you can also trigger it via MIDI.",
-    "translation": "提示：你可以通过 MIDI 触发压缩器，而不仅仅是使用输入音频。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compressor",
-        "zh": ""
-      },
-      {
-        "word": "midi",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "If MIDI is enabled (see MIDI Learn), compression will be applied when you hit any key on a connected MIDI keyboard controller, using the Note On event.",
-    "translation": "如果启用了 MIDI（参见 MIDI 学习），当你在连接的 MIDI 键盘控制器上按下任意键时，会触发压缩。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compressor",
-        "zh": ""
-      },
-      {
-        "word": "midi",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Attack knob determines how fast compression will kick in, ranging from 0.005 ms (very fast) to 250 ms (very slow).",
-    "translation": "攻击旋钮决定了压缩启动的速度，范围从 0.005 毫秒（非常快）到 250 毫秒（非常慢）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "attack",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "For transient-rich program material like drums, fast attack times are needed to minimize overshoot.",
-    "translation": "对于像打击乐这样的瞬态丰富的节目素材，需要较快的攻击时间来减少过冲。",
-    "category": "打击乐",
-    "branches": [
-      {
-        "word": "transient",
-        "zh": ""
-      },
-      {
-        "word": "drum",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "For other program material, too short attack times may dull the sound or introduce audible distortion.",
-    "translation": "对于其他节目素材，过短的攻击时间可能会使声音变暗或引入可听失真。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "attack",
-        "zh": ""
-      },
-      {
-        "word": "distortion",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "FabFilter Pro-C 2 is capable of very fast attack times and they are program dependent.",
-    "translation": "FabFilter Pro-C 2 能够实现非常快的攻击时间，并且这些时间取决于节目素材。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "attack",
-        "zh": ""
-      },
-      {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Release knob sets the time that the compressor takes to recover from gain reduction.",
-    "translation": "释放旋钮设置压缩器从增益衰减中恢复所需的时间。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "release",
-        "zh": ""
-      },
-      {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The various compression characteristics of Pro-C 2 use different release models, and in most cases, the release time is very program dependent.",
-    "translation": "Pro-C 2 的各种压缩特性使用不同的释放模型，在大多数情况下，释放时间非常依赖于节目素材。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "release",
-        "zh": ""
-      },
-      {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This means that Pro-C 2 recovers very quickly from compression after a transient, and quite slowly after longer periods of gain reduction.",
-    "translation": "这意味着 Pro-C 2 在瞬态之后会非常快速地从压缩中恢复，在较长的增益衰减之后则恢复较慢。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "transient",
-        "zh": ""
-      },
-      {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Auto Release button (the AUTO label next to RELEASE) enables a smart auto release feature.",
-    "translation": "自动释放按钮（释放旁边带有AUTO标签的按钮）启用了一个智能自动释放功能。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "auto release",
-        "zh": ""
-      },
-      {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "When enabled, the compressor adjusts the release time depending on the current amount of gain reduction, so this actually introduces an additional form of program dependency.",
-    "translation": "启用后，压缩器会根据当前的增益衰减量调整释放时间，因此实际上引入了一种额外的程序依赖性。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compressor",
-        "zh": ""
-      },
-      {
-        "word": "release time",
-        "zh": ""
-      },
-      {
-        "word": "gain reduction",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Lookahead slider sets how much advance time Pro-C 2 will use to anticipate peaks in the audio signal.",
-    "translation": "前置时间滑块设置Pro-C 2将使用多少提前时间来预测音频信号中的峰值。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "lookahead",
-        "zh": ""
-      },
-      {
-        "word": "gain reduction",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Using a bit of lookahead can help to preserve transients and results in much more transparent gain reduction.",
-    "translation": "使用一些前置时间可以帮助保留瞬态，并实现更透明的增益衰减。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "lookahead",
-        "zh": ""
-      },
-      {
-        "word": "transient",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Hold slider sets the time with which peaks in gain reduction will be prolonged.",
-    "translation": "Hold 滑块设置增益减少峰值的延长时间。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "hold",
-        "zh": ""
-      },
-      {
-        "word": "gain reduction",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Applying a bit of hold time can help increase the transparency of gain reduction.",
-    "translation": "应用一些 Hold 时间可以帮助增加增益减少的透明度。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "hold",
-        "zh": ""
-      },
-      {
-        "word": "gain reduction",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "With longer hold times, you can achieve nice pumping effects.",
-    "translation": "使用较长的 Hold 时间，可以实现很好的抽吸效果。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "hold",
-        "zh": ""
-      },
-      {
-        "word": "pumping",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Wet Gain knob adjusts the gain of the signal after it has been compressed.",
-    "translation": "Wet Gain 旋钮调整信号压缩后的增益。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "wet gain",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This is also known as make-up gain because it compensates for the gain reduction introduced by the compressor.",
-    "translation": "这也被称为补偿增益，因为它补偿了压缩器引入的增益减少。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "make-up gain",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The pan ring around the Wet Gain knob controls the balance between mid and side.",
-    "translation": "环绕湿增益旋钮的平移环控制中间和侧面的平衡。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "pan",
-        "zh": ""
-      },
-      {
-        "word": "wet gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This can be especially useful when applying make-up gain after mid-only or side-only compression.",
-    "translation": "在仅中间或仅侧面压缩后应用增益补偿时，这一点尤其有用。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "make-up gain",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "When Auto Gain is enabled (using the AUTO button next to GAIN), automatic make-up gain is applied to the processed signal, depending on current settings for Threshold, Ratio, Knee and Attack.",
-    "translation": "启用自动增益（使用增益旁边的自动按钮）时，会根据当前的阈值、比率、膝盖和攻击设置自动应用增益补偿。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "auto gain",
-        "zh": ""
-      },
-      {
-        "word": "threshold",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Auto Gain helps you to keep the audible audio level the same while adjusting the controls.",
-    "translation": "自动增益帮助你在调整控制时保持可听音频电平不变。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "auto gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Auto Gain algorithm is aware of mid-only or side-only processing.",
-    "translation": "自动增益算法会识别仅中间或仅侧面处理。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "auto gain",
-        "zh": ""
-      },
-      {
-        "word": "processing",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "So for example, if you're compressing 100% mid-only, Auto Gain will only apply make-up gain to the mid signal and leave the side-signal untouched.",
-    "translation": "例如，如果你正在压缩100%仅中间信号，自动增益只会对中间信号应用增益补偿，而不影响侧面信号。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "auto gain",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Dry Gain knob controls the amount of dry (uncompressed) input signal that is added to the output.",
-    "translation": "Dry Gain 旋钮控制添加到输出的未压缩干信号的量。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "dry gain",
-        "zh": ""
-      },
-      {
-        "word": "compress",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This is called parallel compression: the dynamics in the dry signal are preserved while the compressed signal adds body and character to the overall sound.",
-    "translation": "这被称为并行压缩：干信号的动态特性得以保留，而压缩信号则为整体声音增添了丰满度和特色。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "parallel compression",
-        "zh": ""
-      },
-      {
-        "word": "compress",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The advantage of this is that the sound is reinforced where it needs it, but without the risk of crushing any peak transients.",
-    "translation": "这种方法的优势在于可以在需要的地方加强声音，而不会压碎任何峰值瞬态。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "transient",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This means that the compressor reacts differently to different kinds of input (program material).",
-    "translation": "这意味着压缩器对不同的输入（节目素材）有不同的反应。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compressor",
-        "zh": ""
-      },
-      {
-        "word": "input",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "For example, Pro-C 2 will recover very fast from transients (fast changes/peaks), but will react quite a bit slower after longer periods of gain reduction.",
-    "translation": "例如，Pro-C 2 会非常快速地从瞬态（快速变化/峰值）中恢复，但在较长的增益衰减后会反应得慢得多。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "transient",
-        "zh": ""
-      },
-      {
-        "word": "gain reduction",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Both the attack and release times are less or more program dependent, depending on the chosen compression style.",
-    "translation": "无论是启动时间还是释放时间，都或多或少依赖于所选的压缩风格。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "attack",
-        "zh": ""
-      },
-      {
-        "word": "release",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Side Chain Expert button globally enables or disables the side chain section.",
-    "translation": "侧链专家按钮可以全局启用或禁用侧链部分。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The In/Ext buttons choose between the internal, normal plug-in input, or the external side chain input.",
-    "translation": "In/Ext 按钮可以在内部正常插件输入和外部侧链输入之间进行选择。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Audition button lets you listen to the filtered and stereo-linked signal that will be used to trigger compression.",
-    "translation": "Audition 按钮可以让你听到用于触发压缩的滤波和立体声链接信号。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "You can turn Audition mode on or off with a single click, but you can also click-and-hold the button to temporarily audition the trigger signal.",
-    "translation": "你可以单击开启或关闭 Audition 模式，也可以长按按钮临时监听触发信号。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Stereo linking and M/S processing The Stereo Link slider sets the amount of stereo linking for the trigger input signal, and also selects between normal stereo processing or mid-only/side-only processing.",
-    "translation": "立体声链接和 M/S 处理 Stereo Link 滑块设置触发输入信号的立体声链接程度，并选择正常立体声处理或仅中间/仅侧面处理。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "stereo linking",
-        "zh": ""
-      },
-      {
-        "word": "m/s processing",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The first half of the slider range sets stereo linking from 0% (fully unlinked, channels operate independently) up to 100% (fully linked, resulting in the same gain reduction for both channels).",
-    "translation": "滑块范围的前半部分设置立体声链接从 0%（完全独立）到 100%（完全链接，导致两个声道的增益减少相同）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "stereo linking",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "By dragging the slider further, Pro-C 2 will eventually process only the mid-signal (mono content of the processed audio), or only the side-signal (stereo content of the processed audio).",
-    "translation": "通过进一步拖动滑块，Pro-C 2 最终只会处理中信号（处理音频的单声道内容）或侧信号（处理音频的立体声内容）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mid-signal",
-        "zh": ""
-      },
-      {
-        "word": "side-signal",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "With the slider all the way to the right, this will be the result: Mid - Only trigger on, and apply compression to, the mid signal.",
-    "translation": "将滑块完全向右移动，结果将是：仅触发并压缩中信号。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mid-signal",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Side - Only trigger on, and apply compression to, the side signal.",
-    "translation": "仅触发并压缩侧信号。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-signal",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "M>S - Trigger on the mid signal but only apply compression to the side signal.",
-    "translation": "触发中信号，但仅压缩侧信号。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mid-signal",
-        "zh": ""
-      },
-      {
-        "word": "side-signal",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "S>M - Trigger on the side signal but only apply compression to the mid signal.",
-    "translation": "S>M - 用侧信号触发，但只对中信号进行压缩。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "mid",
-        "zh": ""
-      },
-      {
-        "word": "side",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "M/S processing can be very useful, especially during mastering.",
-    "translation": "M/S 处理非常有用，特别是在母带处理阶段。",
-    "category": "母带声学",
-    "branches": [
-      {
-        "word": "m/s processing",
-        "zh": ""
-      },
-      {
-        "word": "mastering",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "For example, bass or lead vocals are often placed in the center of the stereo image, so only processing the mid-signal will leave all stereo content untouched, ensuring the most transparent end result possible.",
-    "translation": "例如，贝斯或主唱通常位于立体声图像的中心，因此只处理中信号可以保持所有立体声内容不变，确保最透明的最终效果。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mid-signal",
-        "zh": ""
-      },
-      {
-        "word": "stereo",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "To better understand the working of these settings, enable the Audition button.",
-    "translation": "要更好地理解这些设置的工作原理，请启用试听按钮。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "setting",
-        "zh": ""
-      },
-      {
-        "word": "audition",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "You can now directly hear the effect of stereo linking and mid-only or side-only processing!",
-    "translation": "现在你可以直接听到立体声链接和只处理中信号或只处理侧信号的效果！",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "stereo linking",
-        "zh": ""
-      },
-      {
-        "word": "mid-only",
-        "zh": ""
-      },
-      {
-        "word": "side-only",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Side chain EQ controller The large interactive EQ controller takes up most of the side chain section, and enables you to easily adjust the side chain filtering.",
-    "translation": "侧链 EQ 控制器占据了侧链部分的大部分空间，使你能够轻松调整侧链滤波。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side chain",
-        "zh": ""
-      },
-      {
-        "word": "eq",
-        "zh": ""
-      },
-      {
-        "word": "filtering",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "It offers a fixed number of bands: a low cut filter, a high cut filter and one additional 'Mid' band in the center, which is fully customizable.",
-    "translation": "它提供固定数量的频段：一个低通滤波器，一个高通滤波器和一个位于中心的可完全自定义的“Mid”频段。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "low cut filter",
-        "zh": ""
-      },
-      {
-        "word": "high cut filter",
-        "zh": ""
-      },
-      {
-        "word": "mid band",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Note that the Mid band is in Auto Mode by default.",
-    "translation": "请注意，默认情况下Mid频段处于自动模式。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mid band",
-        "zh": ""
-      },
-      {
-        "word": "auto mode",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This makes it a Bell curve with automatically chosen frequency, gain and Q settings.",
-    "translation": "这使其成为一个自动选择频率、增益和Q值的钟形曲线。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "bell curve",
-        "zh": ""
-      },
-      {
-        "word": "frequency",
-        "zh": ""
-      },
-      {
-        "word": "gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "It's placed in between the low and high cut filters.",
-    "translation": "它位于低通滤波器和高通滤波器之间。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "low cut filter",
-        "zh": ""
-      },
-      {
-        "word": "high cut filter",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "When these are enabled, it will accentuate the center frequency when the range gets very narrow.",
-    "translation": "当这些功能启用时，范围变得非常窄时，它会突出中心频率。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "center frequency",
-        "zh": ""
-      },
-      {
-        "word": "range",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This makes it a lot easier to trigger on very specific frequencies.",
-    "translation": "这使得更容易触发非常特定的频率。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "trigger",
-        "zh": ""
-      },
-      {
-        "word": "frequency",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "When you disable Auto Mode for the Mid filter, you can freely adjust its frequency, gain, Q and shape (Bell, Low Shelf, High Shelf, Band Pass, Notch or Tilt), and control it directly via the side chain EQ controller.",
-    "translation": "当你禁用Mid滤波器的自动模式时，你可以自由调整其频率、增益、Q值和形状（钟形、低架、高架、带通、陷波或倾斜），并通过侧链EQ控制器直接控制它。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mid filter",
-        "zh": ""
-      },
-      {
-        "word": "auto mode",
-        "zh": ""
-      },
-      {
-        "word": "side chain eq",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Selecting bands Click the EQ band's dot or the colored area around it to select it.",
-    "translation": "选择频段：点击EQ频段的点或其周围的彩色区域来选中它。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "eq",
-        "zh": ""
-      },
-      {
-        "word": "band",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Click and drag on the display background to select adjacent bands by dragging a rectangle around them.",
-    "translation": "点击并拖动显示背景，通过拖动一个矩形来选中相邻的频段。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "band",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Hold down Ctrl (Command on Mac OS X) and click another dot to select multiple bands.",
-    "translation": "按住Ctrl（Mac OS X上为Command）并点击另一个点来选中多个频段。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "band",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Hold down Shift and click a dot to select a consecutive range of bands.",
-    "translation": "按住Shift并点击一个点来选中连续范围的频段。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "band",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Deselect all bands by clicking anywhere on on the display background.",
-    "translation": "点击显示背景的任意位置来取消选中所有频段。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "band",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Once you have one or more side chain EQ bands selected, the display highlights the shapes of the selected bands.",
-    "translation": "一旦选中了一个或多个侧链EQ频段，显示会突出显示所选频段的形状。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "band",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Now you can simply make adjustments by dragging them around: Click and drag a selected dot to adjust the frequency of the selected bands (and the gain of the customizable mid band).",
-    "translation": "现在你可以通过拖动来调整：点击并拖动选定的点来调整选定频段的频率（以及可自定义中频段的增益）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "frequency",
-        "zh": ""
-      },
-      {
-        "word": "gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Use the mouse wheel to adjust the Q setting of the mid band, making them narrower or wider.",
-    "translation": "使用鼠标滚轮调整中频段的Q值，使其变得更窄或更宽。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "q",
-        "zh": ""
-      },
-      {
-        "word": "mid band",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Alternatively, hold down Ctrl (Command on Mac OS X) while dragging vertically.",
-    "translation": "或者，垂直拖动时按住Ctrl键（Mac OS X上为Command键）。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "ctrl",
-        "zh": ""
-      },
-      {
-        "word": "dragging",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Hold down Shift while dragging to fine-tune the settings of the selected bands.",
-    "translation": "拖动时按住Shift键以微调选定频段的设置。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "shift",
-        "zh": ""
-      },
-      {
-        "word": "dragging",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Hold down Alt while dragging to constrain to horizontal adjustments (frequency) or vertical adjustments (gain or Q, depending on the Ctrl/Command key).",
-    "translation": "拖动时按住Alt键以限制为水平调整（频率）或垂直调整（增益或Q值，取决于Ctrl或Command键）。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "alt",
-        "zh": ""
-      },
-      {
-        "word": "dragging",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Hold down Alt and click the dot on an EQ band once to toggle its bypass state (enabling or disabling the band).",
-    "translation": "按住 Alt 并单击 EQ 频段上的点以切换其旁路状态（启用或禁用该频段）。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "eq",
-        "zh": ""
-      },
-      {
-        "word": "bypass",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Hold down Ctrl+Alt (Command+Alt on Mac OS X) and click the dot of the customizable Mid band to change its shape.",
-    "translation": "按住 Ctrl+Alt（Mac OS X 上为 Command+Alt）并单击可自定义的中频频段上的点以更改其形状。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mid band",
-        "zh": ""
-      },
-      {
-        "word": "shape",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Hold down Alt+Shift and click the dot of the low or high cut filter once to change its slope.",
-    "translation": "按住 Alt+Shift 并单击低通或高通滤波器上的点以更改其斜率。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "cut filter",
-        "zh": ""
-      },
-      {
-        "word": "slope",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Double-click a dot to enter values in the parameter value display (using the Tab key to step through Frequency, Gain and Q) or double-click the values in the parameter value display directly.",
-    "translation": "双击一个点以在参数值显示中输入值（使用 Tab 键在频率、增益和 Q 之间切换）或直接双击参数值显示中的值。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "parameter value",
-        "zh": ""
-      },
-      {
-        "word": "display",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Note that you can enter frequencies in various ways, like \"100\", \"2k\", \"A4\" or \"C#2+13\".",
-    "translation": "请注意，您可以以多种方式输入频率，例如 \"100\"、\"2k\"、\"A4\" 或 \"C#2+13\"。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "frequency",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "If you right-click on the dot for an EQ band, a pop-up menu appears with various band settings.",
-    "translation": "如果您右键单击 EQ 频段上的点，将弹出一个包含各种频段设置的菜单。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "eq band",
-        "zh": ""
-      },
-      {
-        "word": "pop-up menu",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Compression is also triggered by MIDI notes.",
-    "translation": "压缩也可以通过MIDI音符触发。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "midi",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "If at least one note is on, the compressor behaves as if a 0 dB signal is entering the side chain at this moment, so it is strongly triggered.",
-    "translation": "如果有至少一个音符处于激活状态，压缩器会像有0dB信号进入侧链一样强烈触发。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compressor",
-        "zh": ""
-      },
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Knee display The knee display shows the input/output relationship, visualizing the Threshold, Ratio, Knee and Range settings.",
-    "translation": "膝盖显示区展示了输入/输出关系，可视化了阈值、比率、膝盖和范围设置。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "knee",
-        "zh": ""
-      },
-      {
-        "word": "threshold",
-        "zh": ""
-      },
-      {
-        "word": "ratio",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The horizontal axis of the display corresponds to the input signal level, and the vertical axis is the output level, both in dB.",
-    "translation": "显示区的水平轴对应输入信号电平，垂直轴对应输出电平，单位均为分贝。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "input",
-        "zh": ""
-      },
-      {
-        "word": "output",
-        "zh": ""
-      },
-      {
-        "word": "db",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "When running audio through the plug-in, the white transfer curve will turn green, indicating the current input level.",
-    "translation": "当音频通过插件传输时，白色传输曲线会变成绿色，指示当前输入电平。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "transfer curve",
-        "zh": ""
-      },
-      {
-        "word": "input level",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "You can choose to show or hide the knee display using the Knee button at its right-hand border.",
-    "translation": "你可以使用膝盖显示区右侧的膝盖按钮来显示或隐藏膝盖显示区。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "knee display",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Note that knee display, level display and level meters all use the same meter scale, which makes it easier than ever to find the proper compression settings.",
-    "translation": "请注意，膝盖显示、电平显示和电平表都使用相同的表尺，这使得找到合适的压缩设置比以往任何时候都更容易。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "knee",
-        "zh": ""
-      },
-      {
-        "word": "level",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The level display visualizes the input and output level, together with the applied gain change.",
-    "translation": "电平显示会可视化输入和输出电平，以及应用的增益变化。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "level",
-        "zh": ""
-      },
-      {
-        "word": "gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The input is shown in dark grey, while the output is light grey with a light stroke, which makes it easy to see the exact effects of the applied gain reduction.",
-    "translation": "输入以深灰色显示，而输出则以浅灰色和细线显示，这使得可以清楚地看到所应用的增益衰减的确切效果。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "gain reduction",
-        "zh": ""
-      },
-      {
-        "word": "output",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The gain reduction itself is shown as a red line.",
-    "translation": "增益衰减本身以红线显示。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "gain reduction",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Using the Display button (right above the Style button in the compression controls panel), you can hide or show the level display.",
-    "translation": "使用显示按钮（在压缩控制面板中的样式按钮正上方），可以隐藏或显示电平显示。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "display",
-        "zh": ""
-      },
-      {
-        "word": "compression",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Hiding it will also hide the knee display and changes the vertical level meters to larger horizontal ones.",
-    "translation": "隐藏它也会隐藏拐点显示，并将垂直电平表更改为更大的水平表。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "knee",
-        "zh": ""
-      },
-      {
-        "word": "level meters",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This way, Pro-C 2 looks and feels more like a traditional compressor.",
-    "translation": "这样，Pro-C 2 看起来和感觉上更像一个传统的压缩器。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compressor",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "At the right of the interface, there are three accurate peak level meters that display the current input, gain reduction and output levels.",
-    "translation": "在界面的右侧，有三个准确的峰值电平表，显示当前的输入、增益衰减和输出电平。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "peak level meters",
-        "zh": ""
-      },
-      {
-        "word": "gain reduction",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The read-outs above the level meters show the highest measured peak value, until you click on them.",
-    "translation": "电平表上方的读数显示最高测量峰值，直到你点击它们。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "level meters",
-        "zh": ""
-      },
-      {
-        "word": "peak",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Aditionally, the input and output meters also show the loudness level (per channel) on top of the peak level.",
-    "translation": "此外，输入和输出电平表还显示每个通道的响度电平，位于峰值电平之上。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "input",
-        "zh": ""
-      },
-      {
-        "word": "output meters",
-        "zh": ""
-      },
-      {
-        "word": "loudness",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "You can change the scale of the displays and level meters using the meter scale drop-down button, ranging from 9 dB (for precise mastering purposes) to 90 dB (general mixing and bus processing).",
-    "translation": "你可以使用电平表比例下拉按钮更改显示和电平表的比例，范围从9 dB（用于精确母带处理）到90 dB（一般混音和总线处理）。",
-    "category": "母带声学",
-    "branches": [
-      {
-        "word": "level meters",
-        "zh": ""
-      },
-      {
-        "word": "mastering",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "If the level meters indicate clipping, this does not imply distortion in Pro-C 2: it can handle levels above 0 dB easily.",
-    "translation": "如果电平表显示削波，这并不意味着Pro-C 2中存在失真：它可以轻松处理超过0 dB的电平。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "level meters",
-        "zh": ""
-      },
-      {
-        "word": "clipping",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Rather, this indicates that the signal might clip in another part of the audio chain, for example your sound card or host software.",
-    "translation": "这表明信号可能在音频链的其他部分发生削波，例如你的声卡或宿主软件。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "clipping",
-        "zh": ""
-      },
-      {
-        "word": "audio chain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "These sudden changes can introduce a small amount of aliasing, which causes distortion and generally reduces the quality of the audio signal.",
-    "translation": "这些突然的变化可能会引入少量的混叠，导致失真并通常会降低音频信号的质量。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "aliasing",
-        "zh": ""
-      },
-      {
-        "word": "distortion",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Oversampling is a way to reduce that aliasing by running the internal process at a sample rate that is two or four times higher than the host's sample rate.",
-    "translation": "超采样是一种通过将内部处理的采样率提高为主机采样率的两倍或四倍来减少混叠的方法。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "oversampling",
-        "zh": ""
-      },
-      {
-        "word": "aliasing",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "You need it more when the compression is more aggressive and apparent.",
-    "translation": "当压缩更强烈且明显时，你需要更多的超采样。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "oversampling",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Usually, this is the case when using lower Attack and Release and/or higher Ratio and Range settings.",
-    "translation": "通常，这种情况发生在使用较低的Attack和Release设置，以及较高的Ratio和Range设置时。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "attack",
-        "zh": ""
-      },
-      {
-        "word": "release",
-        "zh": ""
-      },
-      {
-        "word": "ratio",
-        "zh": ""
-      },
-      {
-        "word": "range",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Of course, in return for a reduction of possible aliasing/distortion, the plug-in will use more CPU power when using oversampling.",
-    "translation": "当然，为了减少可能的混叠/失真，使用过采样时插件会消耗更多的CPU资源。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "oversampling",
-        "zh": ""
-      },
-      {
-        "word": "cpu",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "In addition, oversampling introduces a small latency, in addition to lookahead latency.",
-    "translation": "此外，过采样还会引入一些延迟，加上预读延迟。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "oversampling",
-        "zh": ""
-      },
-      {
-        "word": "latency",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Disable oversampling and lookahead in the bottom bar.",
-    "translation": "在底部栏中禁用过采样和预读。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "oversampling",
-        "zh": ""
-      },
-      {
-        "word": "lookahead",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "With just the click of the Full Screen button at the top right corner in the interface, FabFilter Pro-C 2 will fill up the whole computer screen so you can get the most out of the level display and make ultra-precise adjustments in the side-chain EQ controller.",
-    "translation": "只需点击界面右上角的全屏按钮，FabFilter Pro-C 2 就会充满整个电脑屏幕，这样你就可以充分利用电平显示，并在侧链EQ控制器中进行超精确调整。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "full screen",
-        "zh": ""
-      },
-      {
-        "word": "side-chain",
-        "zh": ""
-      },
-      {
-        "word": "eq",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "At the right-hand side of the interface, FabFilter Pro-C 2 offers high-resolution input, gain reduction and output level meters.",
-    "translation": "在界面的右侧，FabFilter Pro-C 2 提供高分辨率的输入、增益衰减和输出电平表。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "gain reduction",
-        "zh": ""
-      },
-      {
-        "word": "output level",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "At the top of the meters, the maximum level is displayed together with a clipping indicator.",
-    "translation": "在电平表的顶部，会显示最大电平和削波指示器。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "clipping",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Simply click the level readings to reset them.",
-    "translation": "只需点击电平读数即可重置。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "level",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "At the right bottom of the interface, you'll find the bypass, mix, input level and output level controls, all accessed via a single output button.",
-    "translation": "在界面的右下角，你可以找到旁通、混音、输入电平和输出电平控制，所有这些都可以通过单个输出按钮访问。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "input level",
-        "zh": ""
-      },
-      {
-        "word": "output level",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Input Level/Pan knob at the left adjusts the level and L/R panning of the input signal before any processing is applied.",
-    "translation": "左侧的输入电平/声像旋钮可以在任何处理应用之前调整输入信号的电平和左右声像。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "input level",
-        "zh": ""
-      },
-      {
-        "word": "panning",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "You can use this as an alternative to changing the threshold.",
-    "translation": "你可以将此作为调整阈值的替代方案。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "threshold",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Output Level/Pan knob at the right adjusts the level and L/R panning of the final output signal.",
-    "translation": "右侧的输出电平/声像旋钮可以调整最终输出信号的电平和左右声像。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "output",
-        "zh": ""
-      },
-      {
-        "word": "panning",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This lets you compensate globally for any gain added or removed by dynamics processing.",
-    "translation": "这可以让你全局补偿动态处理过程中添加或移除的增益。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "dynamics processing",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Global Bypass toggle button to the left of the Mix button bypasses the entire plugin.",
-    "translation": "混音按钮左侧的全局旁路切换按钮可以旁路整个插件。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "bypass",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "While most hosts already provide the ability to bypass plug-ins, our internal global bypass feature is guaranteed to correctly compensate the latency of the plug-in and it also applies soft bypassing to avoid clicks.",
-    "translation": "虽然大多数宿主已经提供了旁路插件的功能，但我们的内部全局旁路功能保证正确补偿插件的延迟，并应用软旁路以避免咔嗒声。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "bypass",
-        "zh": ""
-      },
-      {
-        "word": "latency",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "While the plug-in is bypassed, the display dims and a red light glows in the bypass button itself.",
-    "translation": "当插件被旁路时，显示屏会变暗，旁路按钮上会亮起红灯。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "bypass",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Mix slider enables you to mix between the dry and processed signals, scaling the overall dynamic and static gain changes.",
-    "translation": "混音滑块让你可以在干信号和处理过的信号之间进行混合，调节整体动态和静态增益变化。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mix slider",
-        "zh": ""
-      },
-      {
-        "word": "dynamic",
-        "zh": ""
-      },
-      {
-        "word": "gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Because the Mix slider ranges from 0% to 200%, you can also choose to increase overall gain processing instead of fading it out!",
-    "translation": "由于混音滑块的范围是从0%到200%，你可以选择增加整体增益处理，而不是将其淡出！",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "mix slider",
-        "zh": ""
-      },
-      {
-        "word": "gain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The parameter will now be controlled with the MIDI controller.",
-    "translation": "现在这个参数将由MIDI控制器控制。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi controller",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Note that there is no warning when you associate a different knob with a controller number that is already used.",
-    "translation": "请注意，当你将一个已经使用的控制器编号关联到不同的旋钮时，不会有警告。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "controller number",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "To exit MIDI Learn mode, click the MIDI Learn button again, or click Close at the top of the interface.",
-    "translation": "要退出MIDI学习模式，再次点击MIDI学习按钮，或者点击界面顶部的关闭按钮。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi learn mode",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Click the small menu drop-down button next to the MIDI Learn button to access the MIDI Learn menu: Enable MIDI This globally turns MIDI control of parameters on or off: useful in hosts that automatically send all MIDI events on a track to all effect plug-ins associated with that track as well.",
-    "translation": "点击MIDI学习按钮旁边的下拉菜单按钮以访问MIDI学习菜单：启用MIDI可以全局开启或关闭参数的MIDI控制，在那些自动将轨道上的所有MIDI事件发送给相关效果插件的宿主中非常有用。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi learn menu",
-        "zh": ""
-      },
-      {
-        "word": "midi control",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Here's how to do it in the most important hosts: Logic Pro Instead of adding FabFilter Pro-C 2 to one of the insert slots, create a new Instrument Track, and click on the Instrument slot.",
-    "translation": "这是在最重要的宿主软件中操作的方法：在 Logic Pro 中，不要将 FabFilter Pro-C 2 添加到插入槽中，而是创建一个新的乐器轨道，并点击乐器槽。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "host",
-        "zh": ""
-      },
-      {
-        "word": "instrument track",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Then choose AU MIDI-controlled Effects > FabFilter > FF Pro-C 2.",
-    "translation": "然后选择 AU MIDI 控制效果 > FabFilter > FF Pro-C 2。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi-controlled effects",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Now, the plug-in receives MIDI.",
-    "translation": "现在，插件可以接收 MIDI 信号。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "To get audio into the plug-in, click the 'Side Chain' drop down menu in Logic's plug-in header and choose the actual input track.",
-    "translation": "要将音频输入插件，点击 Logic 插件头中的“侧链”下拉菜单，并选择实际的输入轨道。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "side chain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Next, you can mute that original track, so you only hear the audio through the plug-in.",
-    "translation": "接下来，你可以静音原始轨道，这样你只能通过插件听到音频。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "mute",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The only downside is that plug-ins with an external side-chain cannot use it anymore.",
-    "translation": "唯一的缺点是，具有外部侧链的插件将无法再使用它。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "side chain",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Cubase Simply create a new MIDI track and set its output to the Pro-C 2 instance you would like to control via MIDI.",
-    "translation": "在 Cubase 中，只需创建一个新的 MIDI 轨道，并将其输出设置为你希望通过 MIDI 控制的 Pro-C 2 实例。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi",
-        "zh": ""
-      },
-      {
-        "word": "track",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "From the MIDI input drop down menu, choose your MIDI device (if not already selected) and from the MIDI output drop down menu, choose FabFilter Pro-C 2 -> channel 1 for the instance you would like to control.",
-    "translation": "从 MIDI 输入下拉菜单中选择你的 MIDI 设备（如果尚未选择），然后从 MIDI 输出下拉菜单中选择 FabFilter Pro-C 2 -> 通道 1，以控制你想要控制的实例。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi",
-        "zh": ""
-      },
-      {
-        "word": "device",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "From the 'MIDI from' drop down menu, choose your MIDI device (if not already selected).",
-    "translation": "从 'MIDI 从' 下拉菜单中选择你的 MIDI 设备（如果尚未选择）。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi",
-        "zh": ""
-      },
-      {
-        "word": "device",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Then, in the 'MIDI to' drop down menu, choose the Audio track that has FabFilter Pro-C 2 on it.",
-    "translation": "然后，在 'MIDI 到' 下拉菜单中选择包含 FabFilter Pro-C 2 的音频轨道。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi",
-        "zh": ""
-      },
-      {
-        "word": "audio",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Tips Compression is also triggered by MIDI notes.",
-    "translation": "提示：压缩效果也会由MIDI音符触发。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "compression",
-        "zh": ""
-      },
-      {
-        "word": "midi",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Disable/Enable MIDI option in the MIDI Learn menu turns this off as well.",
-    "translation": "在MIDI学习菜单中，禁用/启用MIDI选项可以关闭这一功能。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "midi",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Undo and Redo buttons at the top of the FabFilter Pro-C 2 interface enable you to easily undo changes you made to the plug-in.",
-    "translation": "在FabFilter Pro-C 2界面顶部的撤销和重做按钮可以帮助你轻松撤销对插件所做的更改。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "undo",
-        "zh": ""
-      },
-      {
-        "word": "redo",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "With the A/B feature, you can quickly switch between two different states of the plug-in.",
-    "translation": "使用A/B功能，你可以快速在插件的两种不同状态之间切换。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "a/b",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "The Copy button copies the active state to the inactive state.",
-    "translation": "复制按钮将当前激活状态复制到未激活状态。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "copy",
-        "zh": ""
-      },
-      {
-        "word": "state",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "To change the default settings, simply overwrite this preset by clicking Options > Save As Default in the presets menu.",
-    "translation": "要更改默认设置，只需通过点击预设菜单中的“选项”>“另存为默认值”来覆盖此预设。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      },
-      {
-        "word": "default",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "To open a preset outside the presets folder, click Options > Open Other Preset.",
-    "translation": "要打开预设文件夹之外的预设，点击“选项”>“打开其他预设”。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "If somehow the factory presets are lost or not installed properly, click Options > Restore Factory Presets in the preset menu to restore them.",
-    "translation": "如果出厂预设丢失或未正确安装，点击预设菜单中的“选项”>“恢复出厂预设”来恢复它们。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "MIDI Program Change and Bank Select Loading a presets can also be done via MIDI, using Bank Select and Program Change messages.",
-    "translation": "通过MIDI，可以使用Bank Select和Program Change消息加载预设。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      },
-      {
-        "word": "midi",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "When enabled, the corresponding bank/program numbers are shown in front of the preset name (for example: (2/65) My Preset).",
-    "translation": "启用后，对应的库/程序编号会显示在预设名称前面（例如：(2/65) 我的预设）。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      },
-      {
-        "word": "bank",
-        "zh": ""
-      },
-      {
-        "word": "program",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This means that you can load that preset by first sending a Bank Select message to select bank 2 and then sending a Program Change message to select program 65.",
-    "translation": "这意味着你可以通过先发送一个库选择消息来选择库2，然后发送一个程序更改消息来选择程序65来加载该预设。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      },
-      {
-        "word": "bank",
-        "zh": ""
-      },
-      {
-        "word": "program",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Important: All the presets in your preset folder are numbered automatically, starting with bank 0 and program 0.",
-    "translation": "重要：你的预设文件夹中的所有预设都会自动编号，从库0和程序0开始。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      },
-      {
-        "word": "bank",
-        "zh": ""
-      },
-      {
-        "word": "program",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This way, you are able to access any of the presets via MIDI.",
-    "translation": "这样，你可以通过MIDI访问任何预设。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      },
-      {
-        "word": "midi",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "However, this also means that when you add new presets to the menu, bank/program numbers of other presets might change.",
-    "translation": "然而，这也意味着当你向菜单中添加新的预设时，其他预设的库/程序编号可能会改变。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      },
-      {
-        "word": "bank",
-        "zh": ""
-      },
-      {
-        "word": "program",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Replacing a Pro-C 1 instance by Pro-C 2 If you are working on a song and want to replace a Pro-C 1 instance with the new Pro-C 2, we advise you to do the following: First, save the current setting of the Pro-C 1 instance as a FabFilter preset in the Pro-C 1 preset folder.",
-    "translation": "替换 Pro-C 1 实例为 Pro-C 2：如果你正在制作一首歌曲并想用新的 Pro-C 2 替换 Pro-C 1 实例，我们建议你这样做：首先，将 Pro-C 1 实例的当前设置保存为 FabFilter 预设到 Pro-C 1 预设文件夹中。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      },
-      {
-        "word": "instance",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Then, remove the Pro-C 1 instance and add Pro-C 2 in its place.",
-    "translation": "然后，移除 Pro-C 1 实例并用 Pro-C 2 替换。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "instance",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Finally, load the V1 preset that you just created into Pro-C 2 via the V1 Preset Folder submenu in the preset menu.",
-    "translation": "最后，通过预设菜单中的 V1 预设文件夹子菜单，将你刚刚创建的 V1 预设加载到 Pro-C 2 中。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "preset",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Automation Because the feature set of Pro-C 2 has changed fundamentally, any automation data that has been written by a Pro-C 1 instance cannot be read correctly by Pro-C 2.",
-    "translation": "自动化：由于 Pro-C 2 的功能集发生了根本性变化，任何由 Pro-C 1 实例写入的自动化数据都无法被 Pro-C 2 正确读取。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "automation",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Both the VST 2 and VST 3 versions of the plug-in automatically adapt themselves to the channel layout of the track they are inserted on (mono/stereo).",
-    "translation": "无论是 VST 2 还是 VST 3 版本的插件，都会自动适应它们所插入轨道的声道布局（单声道/立体声）。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "plug-in",
-        "zh": ""
-      },
-      {
-        "word": "channel",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "For the VST 2 format, there is a separate FabFilter Pro-C 2 (Mono) version of the plug-in which always runs in mono mode.",
-    "translation": "对于 VST 2 格式，有一个单独的 FabFilter Pro-C 2（单声道）版本插件，它始终以单声道模式运行。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "plug-in",
-        "zh": ""
-      },
-      {
-        "word": "mono",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "This is included for backwards compatibility with existing sessions.",
-    "translation": "这包含为了与现有会话保持向后兼容性。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "compatibility",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "For new sessions we recommend to use the regular plug-in which automatically adapts itself to the track it is inserted on.",
-    "translation": "对于新会话，我们建议使用常规插件，它会自动适应所插入的轨道。",
-    "category": "工作流",
-    "branches": [
-      {
-        "word": "plug-in",
-        "zh": ""
-      },
-      {
-        "word": "track",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "FabFilter Pro-C 2 offers the possibility of feeding an external signal to its side chain, so that you can make it trigger on a different signal than the audio it is actually processing.",
-    "translation": "FabFilter Pro-C 2 提供了将外部信号馈送到其侧链中的可能性，这样你可以让它对实际处理的音频以外的其他信号做出反应。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Feeding a signal to a plug-in's side-chain inputs works slightly different in various hosts.",
-    "translation": "将信号送入插件的侧链输入在不同的宿主软件中略有不同。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "host",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Play the audio and enable FabFilter Pro-C 2's Audition button to listen to the side-chain signal.",
-    "translation": "播放音频并启用 FabFilter Pro-C 2 的试听按钮来监听侧链信号。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "While auditioning, the real-time display and metering show the side-chain level, so you can easily set a correct trigger threshold.",
-    "translation": "在试听过程中，实时显示和电平表会显示侧链电平，因此你可以轻松设置正确的触发阈值。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "threshold",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Now, you'll hear that Pro-C 2 on the main track will react to the sound of the side-chain track.",
-    "translation": "现在，你会听到主轨道上的 Pro-C 2 会对侧链轨道的声音做出反应。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext.",
-    "translation": "打开 FabFilter Pro-C 2 的界面，启用侧链专家模式并将侧链设置为外部输入。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "In the plug-in header, click on the Activate Side-Chain button (right of the R/W buttons) to enable the external side chain in Cubase.",
-    "translation": "在插件头部，点击激活侧链按钮（位于读/写按钮右侧）以在 Cubase 中启用外部侧链。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "At the top of the Mixer, set the output for the side chain track to the side-chain input of FabFilter Pro-C 2.",
-    "translation": "在混音器顶部，将侧链轨道的输出设置为 FabFilter Pro-C 2 的侧链输入。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Add two audio tracks (via Track > New...) that we'll use as main track and side chain track.",
-    "translation": "添加两条音频轨道（通过轨道 > 新建...），我们将它们用作主轨道和侧链轨道。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Add audio files on both the main track and the side chain track.",
-    "translation": "在主轨道和侧链轨道上添加音频文件。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Select the main track and add Pro-C 2 in the first Insert effect slot.",
-    "translation": "选择主轨道并在第一个插入效果槽中添加 Pro-C 2。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "pro-c 2",
-        "zh": ""
-      },
-      {
-        "word": "insert",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "In the right top corner of the plug-in interface header, in the 'Side Chain' menu, choose the side chain track.",
-    "translation": "在插件界面标题的右上角，在“侧链”菜单中选择侧链轨道。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Now, the signal from the side chain track is sent to FabFilter Pro-C 2's external side-chain input.",
-    "translation": "现在，侧链轨道的信号被发送到 FabFilter Pro-C 2 的外部侧链输入。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "pro-c 2",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "We'll use Track 1 as the side chain track and Track 2 as the main track.",
-    "translation": "我们将使用轨道1作为侧链轨道，轨道2作为主轨道。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "track",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "From the VST (or Audio Units) plug-in menu, also at the left top of Ableton Live's interface, drag FabFilter Pro-C 2 onto Track 2, the main track.",
-    "translation": "从Ableton Live界面左上角的VST（或Audio Units）插件菜单中，将FabFilter Pro-C 2拖到轨道2，即主轨道。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "vst",
-        "zh": ""
-      },
-      {
-        "word": "track",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Open FabFilter Pro-C 2's interface, enable Side chain expert mode and set Side Chain to Ext. 33 In Track 1 (the side chain track) in the 'Audio To' menu select 'Track 2' instead of the default 'Master'.",
-    "translation": "打开FabFilter Pro-C 2的界面，启用侧链专家模式，并将侧链设置为外部输入33，选择轨道1（侧链轨道），在“Audio To”菜单中选择“轨道2”而不是默认的“主输出”。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "track",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Now, an extra menu appears right below: choose 'FF Pro-C 2 3/4' instead of the default 'Track In' to route the track's signal to FabFilter Pro-C 2's external side chain inputs.",
-    "translation": "现在，下方会出现一个额外的菜单：选择“FF Pro-C 2 3/4”而不是默认的“轨道输入”，将轨道信号路由到FabFilter Pro-C 2的外部侧链输入。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "track",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Note: In the scenario above, you won't hear Track 1 (the side-chain signal) anymore, since its audio is only routed to Pro-C 2's side-chain inputs.",
-    "translation": "注意：在上述情况下，你将不再听到轨道1（侧链信号），因为其音频仅路由到Pro-C 2的侧链输入。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "track",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "In the first 'Sends' slot of the side chain track, choose 'Bus 1'.",
-    "translation": "在侧链轨道的第一个'Sends'插槽中，选择'Bus 1'。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
-      },
-      {
-        "word": "bus",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "In the first 'Inserts' slot of the main track, choose Dynamics > FabFilter Pro-C 2.",
-    "translation": "在主轨道的第一个'Inserts'插槽中，选择Dynamics > FabFilter Pro-C 2。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "dynamic",
-        "zh": ""
-      },
-      {
-        "word": "fabfilter pro-c 2",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Now, in the 'Key Input' menu of the plug-in interface (just above the FabFilter logo), choose bus > Bus 1 instead of the default 'no key input'.",
-    "translation": "现在，在插件界面的'键输入'菜单（就在FabFilter标志上方），选择总线 > 总线1，而不是默认的'无键输入'。",
-    "category": "混音动态",
-    "branches": [
-      {
-        "word": "side-chaining",
-        "zh": ""
+        "zh": "混音"
       },
-      {
-        "word": "bus",
-        "zh": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "text": "Now, the audio from the side chain track is routed to Pro-C 2's external side chain input via Bus 1.",
-    "translation": "现在，侧链轨道的音频通过总线1路由到Pro-C 2的外部侧链输入。",
-    "category": "混音动态",
-    "branches": [
       {
-        "word": "side-chaining",
-        "zh": ""
+        "word": "version 2",
+        "zh": "版本 2"
       },
       {
-        "word": "bus",
-        "zh": ""
+        "word": "brand new look",
+        "zh": "全新外观"
       }
     ]
   }
