@@ -1577,7 +1577,7 @@ function sourceCard(s,w){
     const lbl=esc(kw)+(zh?" · "+esc(zh):"");
     return `<span class="chip" style="cursor:pointer" onclick="event.stopPropagation();openBranchWord('${esc(kw)}','${esc(zh)}')">${lbl}</span>`;
   }).join("");
-  return `<div class="menu-card" style="padding:18px;margin-top:12px;cursor:pointer" onclick="openSentenceLibrary()">
+  return `<div class="menu-card" style="padding:18px;margin-top:12px">
     <div style="font-size:14.5px;line-height:1.7">${hlText(s.text,w.word)}</div>
     ${s.translation?`<div style="color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6">${esc(s.translation)}</div>`:""}
     ${branches?`<div class="chips" style="margin-top:10px">${branches}</div>`:""}
@@ -1658,113 +1658,6 @@ function contextBlock(w){
   return h;
 }
 
-/* ---------- 句子库（双向链接：句子 ↔ 单词） ---------- */
-const SENTENCE_CATS=["打击乐","键盘","吉他","合成器","人声","混音动态","空间混响","母带声学","工作流"];
-let curSentCat="全部";
-let sentScrollY=0, restoreSentScroll=false, sentChipsScrollX=0;
-let WORD_INDEX=null;
-function buildWordIndex(){
-  WORD_INDEX={};
-  for(const w of WORDS){
-    const k=String(w.word||"").toLowerCase();
-    if(k && !(k in WORD_INDEX))WORD_INDEX[k]=w.word;
-  }
-}
-function sentCats(){
-  const seen=new Set(SENTENCE_CATS);
-  const extra=[];
-  for(const s of (window.SOURCES||[])){
-    const c=s.category||"";
-    if(c && !seen.has(c)){seen.add(c);extra.push(c);}
-  }
-  return SENTENCE_CATS.concat(extra);
-}
-function sentenceList(){
-  const list=window.SOURCES||[];
-  if(curSentCat==="全部")return list;
-  return list.filter(s=>(s.category||"未分类")===curSentCat);
-}
-function highlightSentence(text, branches){
-  if(!WORD_INDEX)buildWordIndex();
-  let html=esc(text||"");
-  const pats=[];
-  for(const key of Object.keys(WORD_INDEX)){
-    pats.push({re:"\\b"+escapeRe(key)+"\\b", word:WORD_INDEX[key]});
-  }
-  for(const b of (branches||[])){
-    const bw=String(b.word||"").toLowerCase();
-    const canonical=WORD_INDEX[bw];
-    if(canonical)pats.push({re:"\\b"+escapeRe(bw)+"[a-z']*\\b", word:canonical});
-  }
-  if(!pats.length)return html;
-  pats.sort((a,b)=>b.re.length-a.re.length);
-  const combined=pats.map(p=>"("+p.re+")").join("|");
-  const re=new RegExp(combined,"gi");
-  const wraps=[];
-  html=html.replace(re,(...args)=>{
-    const match=args[0];
-    let idx=-1;
-    for(let i=0;i<pats.length;i++){if(args[i+1]!==undefined){idx=i;break;}}
-    const tok="\u0000"+wraps.length+"\u0000";
-    wraps.push(`<mark class="hl" onclick="openDetailFromSentence('${esc(pats[idx].word)}')">${match}</mark>`);
-    return tok;
-  });
-  for(let i=0;i<wraps.length;i++)html=html.replace("\u0000"+i+"\u0000", wraps[i]);
-  return html;
-}
-function sentenceCard(s){
-  const branches=(s.branches||[]).map(b=>{
-    const kw=String(b.word||"");
-    const zh=String(b.zh||"");
-    const lbl=esc(kw)+(zh?" · "+esc(zh):"");
-    const canonical=resolveWord(kw);
-    const fn=canonical?`openDetailFromSentence('${esc(canonical)}')`:`renderBranchWord('${esc(kw)}','${esc(zh)}','backToSentences')`;
-    return `<span class="chip" style="cursor:pointer" onclick="${fn}">${lbl}</span>`;
-  }).join("");
-  const cat=s.category?`<span class="chip" style="cursor:default;opacity:.7">${esc(s.category)}</span>`:"";
-  return `<div class="menu-card" style="padding:18px;margin-top:12px">
-    <div style="font-size:15px;line-height:1.8">${highlightSentence(s.text, s.branches||[])}</div>
-    ${s.translation?`<div style="color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6">${esc(s.translation)}</div>`:""}
-    ${(branches||cat)?`<div class="chips" style="margin-top:10px">${cat}${branches}</div>`:""}
-    <div style="color:var(--faint);font-size:11px;margin-top:8px">${esc(s.date||"")}</div>
-  </div>`;
-}
-function renderSentences(){
-  if(curSentCat!=="全部" && !sentCats().includes(curSentCat))curSentCat="全部";
-  const chips=["全部",...sentCats()].map(c=>`<div class="chip ${c===curSentCat?"on":""}" onclick="setSentCat('${esc(c)}')">${esc(c)}</div>`).join("");
-  const list=sentenceList();
-  $("#main").innerHTML=`
-    <div class="topbar">${sentBackCtx?`<button class="backbtn" onclick="backToSentenceSources()">← 返回</button>`:``}<div class="t">句子收藏库</div></div>
-    <div class="chips">${chips}</div>
-    ${list.length?`<div style="color:var(--faint);font-size:12px;margin:2px 0 8px">共 ${list.length} 句</div>`:""}
-    ${list.length?list.map(sentenceCard).join(""):'<div class="empty">还没有收藏的句子</div>'}
-  `;
-  raf(()=>{
-    if(restoreSentScroll){restoreSentScroll=false;window.scrollTo(0,sentScrollY);}
-    const cc=document.querySelector('#main .chips');
-    if(cc)cc.scrollLeft=sentChipsScrollX;
-  });
-}
-function setSentCat(c){curSentCat=c;renderSentences();}
-function openDetailFromSentence(word){
-  sentScrollY=getScrollY();
-  restoreSentScroll=true;
-  const cc=document.querySelector('#main .chips');
-  if(cc)sentChipsScrollX=cc.scrollLeft;
-  openDetail(word,"backToSentences");
-}
-function backToSentences(){renderSentences();}
-/* ---------- 句子收藏库入口（从「其他源自」进入）---------- */
-let sentBackCtx=null;
-function openSentenceLibrary(){
-  sentBackCtx = (srcCtx && srcCtx.word) ? {word:srcCtx.word, back:srcCtx.back} : null;
-  renderSentences();
-}
-function backToSentenceSources(){
-  const c=sentBackCtx; sentBackCtx=null;
-  if(c && c.word)renderSources(c.word, c.back);
-  else renderList();
-}
 /* ---------- 详情卡片：左右滑动切换 ---------- */
 let detailWords=[], detailIdx=-1, detailBack="renderList";
 let detailSwipeState=null;
@@ -1844,7 +1737,7 @@ function openDetail(word, back){
 function delWord(word, back){
   if(!confirm("删除这个单词？删除后可在「设置 → 已删除」中恢复"))return;
   hideWord(word);
-  if(back==="renderMenu")renderMenu(); else if(back==="backToSentences")renderSentences(); else renderList();
+  if(back==="renderMenu")renderMenu(); else renderList();
 }
 function reTag(word, cat, back){
   const w=WORDS.find(x=>x.word===word); if(!w)return;
@@ -2138,7 +2031,6 @@ function switchTab(t){
   updateNav(t);
   if(t==="study")renderStudy();
   else if(t==="list")renderList();
-  else if(t==="sentences")renderSentences();
   else renderMe();
 }
 function updateNav(t){
@@ -2148,7 +2040,7 @@ function updateNav(t){
 }
 function updateBrand(t){
   const b=$("#brandTitle");
-  if(b)b.textContent = (t==="list") ? "火火的单词本" : (t==="sentences") ? "火火的句子库" : "火火的英语库";
+  if(b)b.textContent = (t==="list") ? "火火的单词本" : "火火的英语库";
   const g=$("#gearBtn");
   if(g)g.style.display = (t==="list") ? "grid" : "none";
   const s=$("#brandSubWrap");

@@ -94,45 +94,5 @@ try{
   ok(ctx._scrolledTo===-1, "复位后再次 renderList 不应再恢复滚动");
 }catch(e){failed++;console.log("✗ FAIL 滚动修复:",e.message);}
 
-// ===== 句子库（新增）=====
-// 注入带词形变化 + 分类的句子
-ctx.WORDS.push({word:"compress", ipa:"", zh:"压缩", def:"", example:"", context:"", category:"混音动态"});
-ctx.SOURCES.push({date:"2026-09-24", text:"The compressor keeps the transient compressed and controlled", translation:"压缩器让瞬态保持受控。", category:"混音动态", branches:[{word:"compress", zh:"压缩"}]});
-ctx.window.WORDS = ctx.WORDS;
-ctx.window.SOURCES = ctx.SOURCES;
-
-// highlightSentence 前缀匹配词形变化（compress → compressed）
-try{
-  const h2 = ctx.highlightSentence("The signal is compressed now", [{word:"compress"}]);
-  ok(h2.includes("<mark"), "highlightSentence 应对 compressed 高亮");
-  ok(h2.includes("compressed"), "高亮内容应保留原词形 compressed");
-  ok(h2.includes("openDetailFromSentence"), "高亮词应可点击跳详情");
-}catch(e){failed++;console.log("✗ FAIL highlightSentence:",e.message);}
-
-// highlightSentence 无 branches 也高亮已收录词（精确匹配）
-try{
-  const h3 = ctx.highlightSentence("I don't know why", []);
-  ok(h3.includes("<mark"), "无 branches 也应高亮已收录词 why");
-}catch(e){failed++;console.log("✗ FAIL highlightSentence精确:",e.message);}
-
-// renderSentences 渲染冒烟
-try{
-  ctx.setSentCat("全部");
-  ctx.renderSentences();
-  const h = String(mainEl.innerHTML);
-  ok(h.includes("句子收藏库"), "renderSentences 含标题");
-  ok(h.includes("共 3 句"), "renderSentences 含计数");
-  ok(h.includes("混音动态"), "renderSentences 含分类 chip");
-}catch(e){failed++;console.log("✗ FAIL renderSentences:",e.message);}
-
-// sentenceList 分类过滤
-try{
-  ctx.setSentCat("全部");
-  ok(ctx.sentenceList().length===3, "全部应返回 3 句");
-  ctx.setSentCat("混音动态");
-  ok(ctx.sentenceList().length===1, "混音动态应返回 1 句");
-  ctx.setSentCat("全部");
-}catch(e){failed++;console.log("✗ FAIL sentenceList:",e.message);}
-
 console.log(`\n===== 通过 ${passed} / 失败 ${failed} =====`);
 process.exit(failed?1:0);

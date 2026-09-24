@@ -17,7 +17,6 @@ import re
 VAULT = "/Users/xingyan/Library/Mobile Documents/iCloud~md~obsidian/Documents/火火知识库"
 WORD_DIR = os.path.join(VAULT, "英语学习")
 SOURCE_DIR = os.path.join(WORD_DIR, "原文语境")
-SENTENCE_DIR = os.path.join(WORD_DIR, "句子库")   # 本地 AI 批处理产出的句子库
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "words.js")
 
 MARK_RE = re.compile(r"</?mark[^>]*>", re.IGNORECASE)
@@ -211,7 +210,7 @@ def main():
                 all_words.extend(parse_file(os.path.join(root, fn)))
 
     sources = []
-    for src_dir in (SOURCE_DIR, SENTENCE_DIR):
+    for src_dir in (SOURCE_DIR,):
         if os.path.isdir(src_dir):
             for root, dirs, files in os.walk(src_dir):
                 for fn in sorted(files):
