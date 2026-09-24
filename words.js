@@ -5213,6 +5213,292 @@ window.WORDS = [
     "id": 401
   },
   {
+    "word": "extreme vocal FX",
+    "ipa": "",
+    "translit": "",
+    "zh": "极端人声效果",
+    "def": "指对人声进行大幅度的音频处理，使其脱离自然发声的听感，常用于实验、电子和前卫音乐制作。",
+    "example": "例子：把一段普通人声加上失真、变调和延迟，变成类似机械怪物的声音。",
+    "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
+    "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 402
+  },
+  {
+    "word": "granular synthesis",
+    "ipa": "ˈɡrænjələr ˈsɪnθəsɪs",
+    "translit": "",
+    "zh": "颗粒合成",
+    "def": "一种将声音切成极短“颗粒”再重新组合的合成方法，可制造云雾状、破碎感或流动性的音色。",
+    "example": "例子：把一段人声切成毫秒级碎片并随机重叠，得到闪烁、漂浮的声景。",
+    "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
+    "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 403
+  },
+  {
+    "word": "transform",
+    "ipa": "trænsˈfɔːrm",
+    "translit": "",
+    "zh": "转变 / 改造",
+    "def": "指通过处理或加工，使声音的性质、形态或听感发生明显变化。",
+    "example": "例子：将一段干声通过效果器转变为完全不同的空间感音色。",
+    "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
+    "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 404
+  },
+  {
+    "word": "simple hum",
+    "ipa": "ˈsɪmpəl hʌm",
+    "translit": "",
+    "zh": "简单的哼唱",
+    "def": "指没有复杂歌词或技巧的、随口发出的低吟或哼声，通常作为声音素材使用。",
+    "example": "例子：用手机录下一段“嗯——”的哼唱，再放进软件里做处理。",
+    "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
+    "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 405
+  },
+  {
+    "word": "haunting cinematic texture",
+    "ipa": "",
+    "translit": "",
+    "zh": "萦绕感电影质感 / 阴郁电影式织体",
+    "def": "形容声音带有幽怨、挥之不去的气氛，并具有影视配乐般的层次与空间感。",
+    "example": "例子：低沉人声铺底，叠加混响和颗粒化碎片，形成像恐怖片预告片一样的氛围。",
+    "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
+    "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 406
+  },
+  {
+    "word": "electronic music",
+    "ipa": "",
+    "translit": "",
+    "zh": "电子音乐",
+    "def": "以电子乐器、合成器、采样器和数字音频工具为主要创作手段的音乐类型。",
+    "example": "例子：用合成器制作鼓点与旋律，并通过电脑编排成舞曲。",
+    "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 407
+  },
+  {
+    "word": "heavily processed",
+    "ipa": "",
+    "translit": "",
+    "zh": "深度处理的",
+    "def": "指经过大量音频效果加工，如混响、延迟、失真、压缩、变调等，使声音明显改变。",
+    "example": "例子：把人声加上强烈失真和颗粒化效果，使其听起来像合成器音色。",
+    "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 408
+  },
+  {
+    "word": "vocal FX",
+    "ipa": "",
+    "translit": "",
+    "zh": "人声效果",
+    "def": "指施加在人声上的各类音频处理，用来改变音色、空间感或节奏形态。",
+    "example": "例子：给人声加入延迟、滤波和切片效果，形成断续的电子质感。",
+    "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
+    "contextZh": "",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 409
+  },
+  {
+    "word": "rhythmic elements",
+    "ipa": "",
+    "translit": "",
+    "zh": "节奏元素",
+    "def": "指在音乐中承担节拍、律动或时间推进作用的声音成分。",
+    "example": "例子：用短促的人声切片当作鼓点一样重复出现，推动歌曲律动。",
+    "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 410
+  },
+  {
+    "word": "rather than",
+    "ipa": "",
+    "translit": "",
+    "zh": "而不是",
+    "def": "表示前后两者之间的取舍关系，强调前者取代后者。",
+    "example": "例子：这段声音主要用来打节奏，而不是用来唱主旋律。",
+    "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 411
+  },
+  {
+    "word": "traditional melodies",
+    "ipa": "",
+    "translit": "",
+    "zh": "传统旋律",
+    "def": "指按常规音高与乐句组织、承担主要歌唱或主题表达作用的旋律线条。",
+    "example": "例子：一段完整、连贯、容易被记住的主歌或副歌旋律。",
+    "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 412
+  },
+  {
+    "word": "delay throws",
+    "ipa": "dɪˈleɪ θroʊz",
+    "translit": "",
+    "zh": "延迟抛出",
+    "def": "指在某个词句结尾瞬间把信号大量送入延迟效果器，制造出声音被\"甩\"出去并拖尾的效果。",
+    "example": "听觉例子：人声唱完最后一个字后，声音突然向后方弹射并反复衰减。",
+    "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
+    "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 413
+  },
+  {
+    "word": "specific vocal FX",
+    "ipa": "",
+    "translit": "",
+    "zh": "特定人声效果",
+    "def": "指只作用于某一段或某一句人声上的效果处理，而非整条人声轨。",
+    "example": "例子：只给副歌最后一句人声加失真与延迟，主歌保持干净。",
+    "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
+    "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 414
+  },
+  {
+    "word": "adds movement",
+    "ipa": "ædz ˈmuːvmənt",
+    "translit": "",
+    "zh": "增加动感",
+    "def": "指通过参数变化让声音在时间上产生流动、起伏的感觉，而不是静止不变。",
+    "example": "例子：滤波器缓慢扫频使 Pad 音色听起来像在呼吸。",
+    "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
+    "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 415
+  },
+  {
+    "word": "width",
+    "ipa": "wɪdθ",
+    "translit": "",
+    "zh": "宽度 / 声场宽度",
+    "def": "指声音在左右立体声场中铺展的范围，越宽听感越包围。",
+    "example": "听觉例子：单声道人声与左右分开的双层人声对比，后者明显更开阔。",
+    "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
+    "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 416
+  },
+  {
+    "word": "the transition",
+    "ipa": "trænˈzɪʃn",
+    "translit": "",
+    "zh": "过渡段",
+    "def": "指歌曲中两个主要段落之间的连接部分，如主歌进入副歌的桥接。",
+    "example": "例子：鼓组渐强加白噪声上升，把主歌推向副歌。",
+    "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
+    "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 417
+  },
+  {
+    "word": "before the drop",
+    "ipa": "bɪˈfɔːr ðə drɑːp",
+    "translit": "",
+    "zh": "在 drop 之前",
+    "def": "指电子音乐中高潮段落（drop）到来之前的那段铺垫与蓄势。",
+    "example": "例子：Build-up 阶段不断加速的军鼓滚奏，紧接着就是 drop。",
+    "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
+    "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 418
+  },
+  {
+    "word": "glitchy ambient voice",
+    "ipa": "",
+    "translit": "",
+    "zh": "故障感氛围人声",
+    "def": "指带有数字故障（glitch）质感、氛围感强烈的人声素材，通常经过碎片化、卡顿或空间化处理。",
+    "example": "例子：人声被切成细碎片段并叠加长混响，形成断续飘忽的氛围效果。",
+    "context": "You can find unique vocal FX on Splice by searching for terms like \"glitchy ambient voice\" instead of standard loops.",
+    "contextZh": "你可以在 Splice 上通过搜索 \"glitchy ambient voice\" 这类词来找到独特的人声效果，而不是用标准的循环素材。",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 419
+  },
+  {
+    "word": "standard loops",
+    "ipa": "",
+    "translit": "",
+    "zh": "标准循环素材",
+    "def": "指常规的、结构规整、可直接循环使用的音乐片段，通常节奏和调性明确。",
+    "example": "例子：一段四小节的鼓循环或贝斯循环，可直接拖入工程反复使用。",
+    "context": "You can find unique vocal FX on Splice by searching for terms like \"glitchy ambient voice\" instead of standard loops.",
+    "contextZh": "你可以在 Splice 上通过搜索 \"glitchy ambient voice\" 这类词来找到独特的人声效果，而不是用标准的循环素材。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 420
+  },
+  {
+    "word": "bitcrusher",
+    "ipa": "ˈbɪtkrʌʃər",
+    "translit": "",
+    "zh": "比特破碎器",
+    "def": "一种通过降低采样率和位深度来制造数字失真效果的音频处理工具，常用于电子音乐和实验音效。",
+    "example": "例子：在电子音乐中，用比特破碎器处理鼓组，产生粗糙的8位游戏机音色。",
+    "context": "Applying a bitcrusher as a vocal FX gives the phrase a gritty, lo-fi character that cuts through the dense mix.",
+    "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 421
+  },
+  {
+    "word": "gritty",
+    "ipa": "ˈɡrɪti",
+    "translit": "",
+    "zh": "粗粝的",
+    "def": "形容声音带有粗糙、颗粒感或沙哑的质感，通常由失真或饱和处理产生。",
+    "example": "听觉例子：摇滚乐中失真吉他发出的那种沙沙的、带毛刺的声音。",
+    "context": "Applying a bitcrusher as a vocal FX gives the phrase a gritty, lo-fi character that cuts through the dense mix.",
+    "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 422
+  },
+  {
+    "word": "lo-fi",
+    "ipa": "ˌloʊ ˈfaɪ",
+    "translit": "",
+    "zh": "低保真",
+    "def": "指故意保留或模拟低质量录音的音频风格，带有噪音、频响受限和失真等特征，常用于独立音乐和氛围音乐。",
+    "example": "听觉例子：老式磁带录音中那种温暖但模糊、带有嘶嘶底噪的声音。",
+    "context": "Applying a bitcrusher as a vocal FX gives the phrase a gritty, lo-fi character that cuts through the dense mix.",
+    "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 423
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -5223,7 +5509,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 402
+    "id": 424
   },
   {
     "word": "Conga",
@@ -5236,7 +5522,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 403
+    "id": 425
   },
   {
     "word": "Percussion",
@@ -5249,7 +5535,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 404
+    "id": 426
   },
   {
     "word": "Grooves",
@@ -5262,7 +5548,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 405
+    "id": 427
   },
   {
     "word": "Bongos",
@@ -5275,7 +5561,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 406
+    "id": 428
   },
   {
     "word": "Woodblock",
@@ -5288,7 +5574,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 407
+    "id": 429
   },
   {
     "word": "Djembe",
@@ -5301,7 +5587,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 408
+    "id": 430
   },
   {
     "word": "Tambourine",
@@ -5314,7 +5600,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 409
+    "id": 431
   },
   {
     "word": "Cowbells",
@@ -5327,7 +5613,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 410
+    "id": 432
   },
   {
     "word": "Bells",
@@ -5340,7 +5626,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 411
+    "id": 433
   },
   {
     "word": "Timbales",
@@ -5353,7 +5639,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 412
+    "id": 434
   },
   {
     "word": "Keys",
@@ -5366,7 +5652,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 413
+    "id": 435
   },
   {
     "word": "Piano",
@@ -5379,7 +5665,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 414
+    "id": 436
   },
   {
     "word": "Wurlitzer",
@@ -5392,7 +5678,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 415
+    "id": 437
   },
   {
     "word": "Electric Piano",
@@ -5405,7 +5691,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 416
+    "id": 438
   },
   {
     "word": "Organ",
@@ -5418,7 +5704,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 417
+    "id": 439
   },
   {
     "word": "Clavinet",
@@ -5431,7 +5717,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 418
+    "id": 440
   },
   {
     "word": "Keys Melody",
@@ -5444,7 +5730,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 419
+    "id": 441
   },
   {
     "word": "Classical",
@@ -5457,7 +5743,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 420
+    "id": 442
   },
   {
     "word": "Female Vocals",
@@ -5470,20 +5756,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 421
-  },
-  {
-    "word": "Vocal FX",
-    "ipa": "ˈvoʊkəl ɛf ɛks",
-    "translit": "",
-    "zh": "人声效果",
-    "def": "指施加在人声轨道上的各类效果处理，包括混响、延迟、失真、调制、变调等，用于塑造人声的质感、空间和情绪。在制作中常通过发送/返回轨道或插入式插件链实现。",
-    "example": "听觉例子：人声突然被拉远、带上巨大的教堂混响，或变成电话般的窄频带失真效果。",
-    "context": "",
-    "contextZh": "",
-    "category": "人声",
-    "source": "2026-09-19",
-    "id": 422
+    "id": 443
   },
   {
     "word": "Vocoder",
@@ -5496,7 +5769,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 423
+    "id": 444
   },
   {
     "word": "Screams",
@@ -5509,7 +5782,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 424
+    "id": 445
   },
   {
     "word": "Whisper Vocals",
@@ -5522,7 +5795,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 425
+    "id": 446
   },
   {
     "word": "Spoken Word",
@@ -5535,7 +5808,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 426
+    "id": 447
   },
   {
     "word": "Vocal Phrases",
@@ -5548,7 +5821,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 427
+    "id": 448
   },
   {
     "word": "Vocal Shouts",
@@ -5561,7 +5834,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 428
+    "id": 449
   },
   {
     "word": "Dialogue",
@@ -5574,7 +5847,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 429
+    "id": 450
   }
 ];
 window.SOURCES = [
@@ -7307,6 +7580,162 @@ window.SOURCES = [
       {
         "word": "heavy guitar wall",
         "zh": "厚重的吉他音墙"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
+    "translation": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
+    "category": "",
+    "branches": [
+      {
+        "word": "extreme vocal FX",
+        "zh": "极端人声效果"
+      },
+      {
+        "word": "granular synthesis",
+        "zh": "颗粒合成"
+      },
+      {
+        "word": "transform",
+        "zh": "转变 / 改造"
+      },
+      {
+        "word": "simple hum",
+        "zh": "简单的哼唱"
+      },
+      {
+        "word": "haunting cinematic texture",
+        "zh": "萦绕感电影质感 / 阴郁电影式织体"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "mixing",
+        "zh": "混音"
+      },
+      {
+        "word": "electronic music",
+        "zh": "电子音乐"
+      },
+      {
+        "word": "heavily processed",
+        "zh": "深度处理的"
+      },
+      {
+        "word": "vocal FX",
+        "zh": "人声效果"
+      },
+      {
+        "word": "rhythmic elements",
+        "zh": "节奏元素"
+      },
+      {
+        "word": "rather than",
+        "zh": "而不是"
+      },
+      {
+        "word": "traditional melodies",
+        "zh": "传统旋律"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
+    "translation": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Automating",
+        "zh": "自动化处理"
+      },
+      {
+        "word": "delay throws",
+        "zh": "延迟抛出"
+      },
+      {
+        "word": "specific vocal FX",
+        "zh": "特定人声效果"
+      },
+      {
+        "word": "adds movement",
+        "zh": "增加动感"
+      },
+      {
+        "word": "width",
+        "zh": "宽度 / 声场宽度"
+      },
+      {
+        "word": "the transition",
+        "zh": "过渡段"
+      },
+      {
+        "word": "before the drop",
+        "zh": "在 drop 之前"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "You can find unique vocal FX on Splice by searching for terms like \"glitchy ambient voice\" instead of standard loops.",
+    "translation": "你可以在 Splice 上通过搜索 \"glitchy ambient voice\" 这类词来找到独特的人声效果，而不是用标准的循环素材。",
+    "category": "",
+    "branches": [
+      {
+        "word": "vocal FX",
+        "zh": "人声效果"
+      },
+      {
+        "word": "Splice",
+        "zh": "Splice（音乐素材平台）"
+      },
+      {
+        "word": "glitchy ambient voice",
+        "zh": "故障感氛围人声"
+      },
+      {
+        "word": "standard loops",
+        "zh": "标准循环素材"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Applying a bitcrusher as a vocal FX gives the phrase a gritty, lo-fi character that cuts through the dense mix.",
+    "translation": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
+    "category": "",
+    "branches": [
+      {
+        "word": "bitcrusher",
+        "zh": "比特破碎器"
+      },
+      {
+        "word": "vocal FX",
+        "zh": "人声效果"
+      },
+      {
+        "word": "gritty",
+        "zh": "粗粝的"
+      },
+      {
+        "word": "lo-fi",
+        "zh": "低保真"
+      },
+      {
+        "word": "cuts through",
+        "zh": "穿透 / 突出"
+      },
+      {
+        "word": "dense mix",
+        "zh": "密集的混音"
       }
     ]
   }
