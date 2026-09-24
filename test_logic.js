@@ -29,10 +29,13 @@ const ctx = {
       return mainEl;
     },
     querySelectorAll(sel){return [];},
+    documentElement:{scrollTop:0},
+    body:{scrollTop:0},
   },
   inputEl, mainEl, fbEl, streakEl, badgeEl, hintEl, process,
 };
 ctx.window = ctx;
+ctx.window.scrollTo = (x,y)=>{};
 vm.createContext(ctx);
 
 const testCode = `
@@ -285,6 +288,29 @@ renderOK("renderList(带管理chip)", ()=>renderList());
 // 23. 其他源自分支可点（openBranchWord/backToSources 存在且不抛错）
 renderOK("renderSources", ()=>renderSources(WORDS[0].word, "renderList"));
 ok(typeof openBranchWord==="function" && typeof backToSources==="function", "openBranchWord/backToSources 已定义");
+
+// 23b. 其他源自：分支词大小写不敏感 + 未收录词轻量详情 + 返回栈逐层
+ok(resolveWord("chords")==="Chords", "resolveWord 大小写不敏感：chords→Chords");
+ok(resolveWord("clean")==="Clean", "resolveWord 大小写不敏感：clean→Clean");
+ok(resolveWord("CLEAN GUITAR")==="clean guitar", "resolveWord 大小写不敏感：CLEAN GUITAR→clean guitar");
+ok(resolveWord("zzznonexist")===null, "resolveWord 未收录词返回 null");
+
+renderSources("Clean", "renderList");
+openBranchWord("clean guitar", "清音吉他");
+ok(String(mainEl.innerHTML).indexOf("尚未收录")<0, "clean guitar 已在词库→进入正式详情页");
+renderSources("clean guitar", "backToSources");
+openBranchWord("chords", "和弦");
+ok(String(mainEl.innerHTML).indexOf("Chords")>=0, "chords(小写) 大小写不敏感进入 Chords 详情");
+backToSources();
+ok(String(mainEl.innerHTML).indexOf("clean guitar")>=0, "返回一层→clean guitar 其他源自");
+backToSources();
+ok(String(mainEl.innerHTML).indexOf("Clean")>=0, "返回两层→Clean 其他源自");
+backToSources();
+ok(true, "栈空时返回列表不抛错");
+
+renderSources("Clean", "renderList");
+openBranchWord("zzznonexist", "测试未收录词");
+ok(String(mainEl.innerHTML).indexOf("尚未收录")>=0 && String(mainEl.innerHTML).indexOf("查词典")>=0, "未收录词打开轻量详情(提示+查词典)");
 
 // 24. 词网收起
 graphCollapsed=true;

@@ -1537,10 +1537,9 @@ function hlText(text, word){
 function sourceCard(s,w){
   const branches=(s.branches||[]).map(b=>{
     const kw=String(b.word||"");
-    const exists=WORDS.some(x=>String(x.word||"").toLowerCase()===kw.toLowerCase());
-    const lbl=esc(kw)+(b.zh?" · "+esc(b.zh):"");
-    if(exists)return `<span class="chip" style="cursor:pointer" onclick="openBranchWord('${esc(kw)}')">${lbl}</span>`;
-    return `<span class="chip">${lbl}</span>`;
+    const zh=String(b.zh||"");
+    const lbl=esc(kw)+(zh?" · "+esc(zh):"");
+    return `<span class="chip" style="cursor:pointer" onclick="openBranchWord('${esc(kw)}','${esc(zh)}')">${lbl}</span>`;
   }).join("");
   return `<div class="menu-card" style="padding:18px;margin-top:12px">
     <div style="font-size:14.5px;line-height:1.7">${hlText(s.text,w.word)}</div>
@@ -1550,6 +1549,7 @@ function sourceCard(s,w){
   </div>`;
 }
 let srcCtx=null;
+let srcStack=[];
 let srcScrollY=0, restoreSrcScroll=false;
 let srcChipsScroll=[];
 function renderSources(word, back){
@@ -1578,14 +1578,42 @@ function renderSources(word, back){
   }
 }
 function backToSources(){
-  if(srcCtx && srcCtx.word)renderSources(srcCtx.word, srcCtx.back);
+  const frame=srcStack.pop();
+  if(frame && frame.word)renderSources(frame.word, frame.back);
   else renderList();
 }
-function openBranchWord(bw){
+function resolveWord(word){
+  const key=String(word||"").toLowerCase();
+  const w=WORDS.find(x=>String(x.word||"").toLowerCase()===key);
+  return w?w.word:null;
+}
+function openBranchWord(bw, zh){
   srcScrollY=getScrollY();
   restoreSrcScroll=true;
   srcChipsScroll=Array.from(document.querySelectorAll('#main .chips')).map(el=>el.scrollLeft||0);
-  openDetail(bw, "backToSources");
+  if(srcCtx && srcCtx.word)srcStack.push({word:srcCtx.word, back:srcCtx.back});
+  const canonical=resolveWord(bw);
+  if(canonical)openDetail(canonical, "backToSources");
+  else renderBranchWord(bw, zh, "backToSources");
+}
+function renderBranchWord(word, zh, back){
+  const backFn=back||"backToSources";
+  const q=encodeURIComponent(String(word||"").trim());
+  const speakFn=speakArg({word:word});
+  $("#main").innerHTML=`
+    <div class="topbar">
+      <button class="backbtn" onclick="${backFn}()">← 返回</button>
+      <div class="t">单词详情</div>
+    </div>
+    <div class="qcard detailcard">
+      <div class="qword" style="font-size:30px">${esc(word||"")}</div>
+      ${zh?`<div class="zh">${esc(zh)}</div>`:""}
+      <div class="speakrow"><button class="speak" onclick="${speakFn}">🔊</button></div>
+      <div class="detail" style="margin-top:10px"><span class="k">提示</span>该词尚未收录进词库，可点下方按钮跳转词典查看完整释义与发音。</div>
+      <div class="card-actions" style="margin-top:14px">
+        <button class="cardbtn" onclick="window.open('https://dict.youdao.com/result?word=${q}&lang=en','_blank')">🔍 查词典</button>
+      </div>
+    </div>`;
 }
 function contextBlock(w){
   if(!w.context)return "";
