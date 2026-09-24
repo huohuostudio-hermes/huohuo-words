@@ -6266,6 +6266,279 @@ window.WORDS = [
     "id": 482
   },
   {
+    "word": "digital synth",
+    "ipa": "",
+    "translit": "",
+    "zh": "数字合成器",
+    "def": "通过数字信号处理生成声音的合成器，音色精确、可重复性强。",
+    "example": "例子：用软件合成器插件制作的锯齿波贝斯音色。",
+    "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
+    "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 483
+  },
+  {
+    "word": "analog summing mixer",
+    "ipa": "",
+    "translit": "",
+    "zh": "模拟求和混音器",
+    "def": "将多路音频信号在模拟电路中进行求和混合的设备，通常带有变压器或运算放大器，能引入非线性染色。",
+    "example": "例子：把 16 路分轨送入模拟求和器，再返回 DAW 录制立体声混音。",
+    "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
+    "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 484
+  },
+  {
+    "word": "harmonic richness",
+    "ipa": "",
+    "translit": "",
+    "zh": "谐波丰富度",
+    "def": "指声音中泛音成分的多少与分布，谐波越丰富，音色越饱满、有质感。",
+    "example": "听觉例子：电子管话放录出来的人声比声卡直录的人声更\"厚\"、更有光泽。",
+    "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
+    "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 485
+  },
+  {
+    "word": "depth",
+    "ipa": "",
+    "translit": "",
+    "zh": "深度",
+    "def": "指混音中前后层次的空间感，让听者感觉某些元素更靠前、某些更靠后。",
+    "example": "听觉例子：混响尾巴较长的军鼓听起来比干声军鼓更靠后。",
+    "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
+    "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 486
+  },
+  {
+    "word": "master bus",
+    "ipa": "",
+    "translit": "",
+    "zh": "主总线",
+    "def": "数字音频工作站中所有分轨最终汇合的那一条立体声通道，通常在此做总线处理。",
+    "example": "例子：在 master bus 上挂一个总线压缩器，让整首歌更紧凑。",
+    "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
+    "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 487
+  },
+  {
+    "word": "Many producers",
+    "ipa": "",
+    "translit": "",
+    "zh": "许多制作人",
+    "def": "指从事音乐制作工作的群体，他们负责编曲、录音和混音等环节。",
+    "example": "例子：许多制作人在选择效果器时，会根据自己的审美偏好做出不同决定。",
+    "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
+    "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 488
+  },
+  {
+    "word": "prefer",
+    "ipa": "",
+    "translit": "",
+    "zh": "偏好 / 更喜欢",
+    "def": "表示在多个选项中倾向于选择某一个，强调主观喜好。",
+    "example": "例子：他更喜欢温暖的音色，而不是冷硬的数字声。",
+    "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
+    "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 489
+  },
+  {
+    "word": "unpredictable",
+    "ipa": "",
+    "translit": "",
+    "zh": "不可预测的",
+    "def": "形容事物变化难以预料，无法事先准确判断其结果。",
+    "example": "例子：模拟延迟的每次回声都略有不同，呈现出不可预测的变化。",
+    "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
+    "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 490
+  },
+  {
+    "word": "warm imperfections",
+    "ipa": "",
+    "translit": "",
+    "zh": "温暖的瑕疵",
+    "def": "指设备或声音中那些不完美但富有温度感的特质，常被视为模拟设备的魅力所在。",
+    "example": "例子：磁带饱和带来的轻微失真就是一种温暖的瑕疵。",
+    "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
+    "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 491
+  },
+  {
+    "word": "analog delays",
+    "ipa": "",
+    "translit": "",
+    "zh": "模拟延迟",
+    "def": "使用模拟电路（如磁带、BBD芯片）实现的延迟效果，音色通常温暖且带有自然衰减。",
+    "example": "听觉例子：回声一次比一次更暗、更模糊，带有轻微的抖动感。",
+    "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
+    "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 492
+  },
+  {
+    "word": "perfectly synchronized",
+    "ipa": "",
+    "translit": "",
+    "zh": "完全同步的",
+    "def": "形容时间上精确对齐、毫无偏差的状态。",
+    "example": "例子：数字延迟的重复声与节拍完全同步，精准无误。",
+    "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
+    "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 493
+  },
+  {
+    "word": "digital echoes",
+    "ipa": "",
+    "translit": "",
+    "zh": "数字回声",
+    "def": "通过数字信号处理产生的延迟效果，重复声精确、清晰且可完全控制。",
+    "example": "听觉例子：每一次回声都一模一样，干净利落，没有衰减变化。",
+    "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
+    "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 494
+  },
+  {
+    "word": "vintage textures",
+    "ipa": "",
+    "translit": "",
+    "zh": "复古质感音色",
+    "def": "指具有老式模拟设备温暖、粗糙特征的音色或声音纹理。",
+    "example": "例子：磁带饱和、老式合成器的轻微失谐都属于 vintage textures。",
+    "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
+    "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 495
+  },
+  {
+    "word": "analog synth brass",
+    "ipa": "",
+    "translit": "",
+    "zh": "模拟合成器铜管音色",
+    "def": "用模拟合成器模拟铜管乐器（如小号、圆号）的音色，通常厚实且带有轻微失谐。",
+    "example": "听觉例子：80 年代流行音乐中那种温暖、饱满的合成铜管齐奏声。",
+    "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
+    "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 496
+  },
+  {
+    "word": "detuned pads",
+    "ipa": "",
+    "translit": "",
+    "zh": "失谐铺底音色",
+    "def": "由多个略微偏离音准的振荡器叠加而成的持续和弦音色，营造宽广、漂浮的氛围。",
+    "example": "听觉例子：Synthwave 中那种宽广、微微晃动的背景和弦。",
+    "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
+    "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 497
+  },
+  {
+    "word": "Synthwave",
+    "ipa": "",
+    "translit": "",
+    "zh": "合成器浪潮",
+    "def": "一种受 80 年代电子音乐和电影配乐影响的复古电子音乐风格。",
+    "example": "例子：带有模拟合成器、鼓机和复古氛围的曲目。",
+    "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
+    "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 498
+  },
+  {
+    "word": "Cyberpunk tracks",
+    "ipa": "",
+    "translit": "",
+    "zh": "赛博朋克曲目",
+    "def": "以赛博朋克美学为灵感的电子音乐，常融合黑暗、未来感与复古合成器元素。",
+    "example": "例子：带有沉重低音、失真合成器和科技感的电子音乐作品。",
+    "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
+    "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 499
+  },
+  {
+    "word": "unquantized drift",
+    "ipa": "",
+    "translit": "",
+    "zh": "未量化的漂移",
+    "def": "指模拟合成器的音高或时序不严格对齐网格，产生自然的微小偏移。这种漂移让声音更有机、更生动。",
+    "example": "例子：两台模拟振荡器同时运行，音高各自缓慢游走，形成自然的拍频。",
+    "context": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
+    "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 500
+  },
+  {
+    "word": "analog oscillator",
+    "ipa": "ˈænəlɔːɡ ˈɑːsɪleɪtər",
+    "translit": "",
+    "zh": "模拟振荡器",
+    "def": "用模拟电路产生周期性波形的发声源，是模拟合成器的核心部件。其频率会随温度、电压等因素轻微波动。",
+    "example": "例子：Moog Minimoog 上的振荡器就是典型的模拟振荡器。",
+    "context": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
+    "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 501
+  },
+  {
+    "word": "thick chorus effect",
+    "ipa": "",
+    "translit": "",
+    "zh": "厚实的合唱效果",
+    "def": "多个略微失谐的声音叠加后产生的宽广、丰满的听感，类似多人齐唱。常用于让单薄的音色变得饱满。",
+    "example": "听觉例子：两把吉他演奏同一旋律但音准略有偏差时那种宽阔的\"嗡嗡\"感。",
+    "context": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
+    "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 502
+  },
+  {
+    "word": "layered with another waveform",
+    "ipa": "",
+    "translit": "",
+    "zh": "与另一波形叠加",
+    "def": "将两个或多个波形同时发声、混合在一起的处理方式。叠加后频谱更丰富，音色更复杂。",
+    "example": "例子：把锯齿波和方波叠加，得到比单一波形更饱满的音色。",
+    "context": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
+    "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 503
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -6276,7 +6549,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 483
+    "id": 504
   },
   {
     "word": "Conga",
@@ -6289,7 +6562,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 484
+    "id": 505
   },
   {
     "word": "Percussion",
@@ -6302,7 +6575,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 485
+    "id": 506
   },
   {
     "word": "Grooves",
@@ -6315,7 +6588,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 486
+    "id": 507
   },
   {
     "word": "Bongos",
@@ -6328,7 +6601,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 487
+    "id": 508
   },
   {
     "word": "Woodblock",
@@ -6341,7 +6614,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 488
+    "id": 509
   },
   {
     "word": "Djembe",
@@ -6354,7 +6627,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 489
+    "id": 510
   },
   {
     "word": "Tambourine",
@@ -6367,7 +6640,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 490
+    "id": 511
   },
   {
     "word": "Cowbells",
@@ -6380,7 +6653,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 491
+    "id": 512
   },
   {
     "word": "Bells",
@@ -6393,7 +6666,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 492
+    "id": 513
   },
   {
     "word": "Timbales",
@@ -6406,7 +6679,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 493
+    "id": 514
   },
   {
     "word": "Keys",
@@ -6419,7 +6692,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 494
+    "id": 515
   },
   {
     "word": "Wurlitzer",
@@ -6432,7 +6705,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 495
+    "id": 516
   },
   {
     "word": "Electric Piano",
@@ -6445,7 +6718,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 496
+    "id": 517
   },
   {
     "word": "Organ",
@@ -6458,7 +6731,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 497
+    "id": 518
   },
   {
     "word": "Clavinet",
@@ -6471,7 +6744,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 498
+    "id": 519
   },
   {
     "word": "Keys Melody",
@@ -6484,7 +6757,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 499
+    "id": 520
   },
   {
     "word": "Classical",
@@ -6497,7 +6770,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 500
+    "id": 521
   },
   {
     "word": "Female Vocals",
@@ -6510,7 +6783,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 501
+    "id": 522
   },
   {
     "word": "Vocoder",
@@ -6523,7 +6796,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 502
+    "id": 523
   },
   {
     "word": "Screams",
@@ -6536,7 +6809,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 503
+    "id": 524
   },
   {
     "word": "Whisper Vocals",
@@ -6549,7 +6822,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 504
+    "id": 525
   },
   {
     "word": "Spoken Word",
@@ -6562,7 +6835,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 505
+    "id": 526
   },
   {
     "word": "Vocal Phrases",
@@ -6575,7 +6848,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 506
+    "id": 527
   },
   {
     "word": "Vocal Shouts",
@@ -6588,7 +6861,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 507
+    "id": 528
   },
   {
     "word": "Dialogue",
@@ -6601,7 +6874,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 508
+    "id": 529
   }
 ];
 window.SOURCES = [
@@ -8806,6 +9079,130 @@ window.SOURCES = [
       {
         "word": "dynamic keys",
         "zh": "动态键盘 / 力度感应键盘"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
+    "translation": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
+    "category": "",
+    "branches": [
+      {
+        "word": "digital synth",
+        "zh": "数字合成器"
+      },
+      {
+        "word": "analog summing mixer",
+        "zh": "模拟求和混音器"
+      },
+      {
+        "word": "harmonic richness",
+        "zh": "谐波丰富度"
+      },
+      {
+        "word": "depth",
+        "zh": "深度"
+      },
+      {
+        "word": "master bus",
+        "zh": "主总线"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
+    "translation": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Many producers",
+        "zh": "许多制作人"
+      },
+      {
+        "word": "prefer",
+        "zh": "偏好 / 更喜欢"
+      },
+      {
+        "word": "unpredictable",
+        "zh": "不可预测的"
+      },
+      {
+        "word": "warm imperfections",
+        "zh": "温暖的瑕疵"
+      },
+      {
+        "word": "analog delays",
+        "zh": "模拟延迟"
+      },
+      {
+        "word": "over",
+        "zh": "相较于 / 胜过"
+      },
+      {
+        "word": "perfectly synchronized",
+        "zh": "完全同步的"
+      },
+      {
+        "word": "digital echoes",
+        "zh": "数字回声"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
+    "translation": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Splice",
+        "zh": "Splice（音乐采样平台）"
+      },
+      {
+        "word": "vintage textures",
+        "zh": "复古质感音色"
+      },
+      {
+        "word": "analog synth brass",
+        "zh": "模拟合成器铜管音色"
+      },
+      {
+        "word": "detuned pads",
+        "zh": "失谐铺底音色"
+      },
+      {
+        "word": "Synthwave",
+        "zh": "合成器浪潮"
+      },
+      {
+        "word": "Cyberpunk tracks",
+        "zh": "赛博朋克曲目"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
+    "translation": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
+    "category": "",
+    "branches": [
+      {
+        "word": "unquantized drift",
+        "zh": "未量化的漂移"
+      },
+      {
+        "word": "analog oscillator",
+        "zh": "模拟振荡器"
+      },
+      {
+        "word": "thick chorus effect",
+        "zh": "厚实的合唱效果"
+      },
+      {
+        "word": "layered with another waveform",
+        "zh": "与另一波形叠加"
       }
     ]
   }
