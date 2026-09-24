@@ -4394,6 +4394,84 @@ window.WORDS = [
     "id": 338
   },
   {
+    "word": "sub frequencies",
+    "ipa": "",
+    "translit": "",
+    "zh": "低频 / 超低频",
+    "def": "指约 20–60 Hz 的最低频段，是混音中能量最强、最难控制的区域。",
+    "example": "例子：底鼓的基音和低音贝斯的基频大多落在这一频段。",
+    "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
+    "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 339
+  },
+  {
+    "word": "GLM-calibrated",
+    "ipa": "",
+    "translit": "",
+    "zh": "GLM 校准的",
+    "def": "指使用 Genelec Loudspeaker Manager（GLM）软件对监听音箱进行声学校准后的状态。",
+    "example": "例子：经过 GLM 校准的 8351 音箱能自动修正房间造成的低频驻波。",
+    "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
+    "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 340
+  },
+  {
+    "word": "monitor system",
+    "ipa": "",
+    "translit": "",
+    "zh": "监听系统",
+    "def": "指录音棚中用于混音和母带处理的音箱及配套声学处理设备。",
+    "example": "例子：一套完整的监听系统包括主监听音箱、低音炮和房间声学面板。",
+    "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
+    "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 341
+  },
+  {
+    "word": "low end",
+    "ipa": "",
+    "translit": "",
+    "zh": "低频段 / 低音部分",
+    "def": "指音乐中低频能量的整体表现，通常涵盖 20–200 Hz 的范围。",
+    "example": "例子：如果低频段混得不好，在手机上播放时低音会完全消失。",
+    "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
+    "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 342
+  },
+  {
+    "word": "translates perfectly",
+    "ipa": "",
+    "translit": "",
+    "zh": "完美转换 / 准确还原",
+    "def": "指在一个系统上听到的声音效果能在其他系统上保持一致。",
+    "example": "例子：在监听音箱上听起来平衡的混音，在汽车音响上也能准确还原。",
+    "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
+    "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 343
+  },
+  {
+    "word": "across different playback devices",
+    "ipa": "",
+    "translit": "",
+    "zh": "在不同播放设备上",
+    "def": "指从专业监听音箱到手机、耳机、车载音响等各种回放终端。",
+    "example": "例子：混音需要在录音棚音箱、AirPods 和蓝牙音箱上都听起来不错。",
+    "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
+    "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 344
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -4404,7 +4482,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 339
+    "id": 345
   },
   {
     "word": "Conga",
@@ -4417,7 +4495,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 340
+    "id": 346
   },
   {
     "word": "Percussion",
@@ -4430,7 +4508,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 341
+    "id": 347
   },
   {
     "word": "Grooves",
@@ -4443,7 +4521,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 342
+    "id": 348
   },
   {
     "word": "Bongos",
@@ -4456,7 +4534,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 343
+    "id": 349
   },
   {
     "word": "Woodblock",
@@ -4469,7 +4547,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 344
+    "id": 350
   },
   {
     "word": "Djembe",
@@ -4482,7 +4560,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 345
+    "id": 351
   },
   {
     "word": "Tambourine",
@@ -4495,7 +4573,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 346
+    "id": 352
   },
   {
     "word": "Cowbells",
@@ -4508,7 +4586,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 347
+    "id": 353
   },
   {
     "word": "Bells",
@@ -4521,7 +4599,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 348
+    "id": 354
   },
   {
     "word": "Timbales",
@@ -4534,7 +4612,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 349
+    "id": 355
   },
   {
     "word": "Keys",
@@ -4547,7 +4625,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 350
+    "id": 356
   },
   {
     "word": "Piano",
@@ -4560,7 +4638,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 351
+    "id": 357
   },
   {
     "word": "Wurlitzer",
@@ -4573,7 +4651,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 352
+    "id": 358
   },
   {
     "word": "Electric Piano",
@@ -4586,7 +4664,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 353
+    "id": 359
   },
   {
     "word": "Organ",
@@ -4599,7 +4677,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 354
+    "id": 360
   },
   {
     "word": "Clavinet",
@@ -4612,7 +4690,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 355
+    "id": 361
   },
   {
     "word": "Keys Melody",
@@ -4625,7 +4703,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 356
+    "id": 362
   },
   {
     "word": "Classical",
@@ -4638,7 +4716,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 357
+    "id": 363
   },
   {
     "word": "Female Vocals",
@@ -4651,7 +4729,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 358
+    "id": 364
   },
   {
     "word": "Vocal FX",
@@ -4664,7 +4742,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 359
+    "id": 365
   },
   {
     "word": "Vocoder",
@@ -4677,7 +4755,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 360
+    "id": 366
   },
   {
     "word": "Screams",
@@ -4690,7 +4768,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 361
+    "id": 367
   },
   {
     "word": "Whisper Vocals",
@@ -4703,7 +4781,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 362
+    "id": 368
   },
   {
     "word": "Male Vocals",
@@ -4716,7 +4794,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 363
+    "id": 369
   },
   {
     "word": "Spoken Word",
@@ -4729,7 +4807,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 364
+    "id": 370
   },
   {
     "word": "Vocal Phrases",
@@ -4742,7 +4820,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 365
+    "id": 371
   },
   {
     "word": "Vocal Shouts",
@@ -4755,7 +4833,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 366
+    "id": 372
   },
   {
     "word": "Dialogue",
@@ -4768,7 +4846,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 367
+    "id": 373
   }
 ];
 window.SOURCES = [
@@ -6121,6 +6199,38 @@ window.SOURCES = [
       {
         "word": "generate",
         "zh": "生成 / 产生"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
+    "translation": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
+    "category": "",
+    "branches": [
+      {
+        "word": "sub frequencies",
+        "zh": "低频 / 超低频"
+      },
+      {
+        "word": "GLM-calibrated",
+        "zh": "GLM 校准的"
+      },
+      {
+        "word": "monitor system",
+        "zh": "监听系统"
+      },
+      {
+        "word": "low end",
+        "zh": "低频段 / 低音部分"
+      },
+      {
+        "word": "translates perfectly",
+        "zh": "完美转换 / 准确还原"
+      },
+      {
+        "word": "across different playback devices",
+        "zh": "在不同播放设备上"
       }
     ]
   }
