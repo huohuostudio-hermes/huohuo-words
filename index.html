@@ -50,7 +50,7 @@ header{padding:calc(14px + env(safe-area-inset-top)) 20px 10px;display:flex;alig
   padding:7px 12px;border-radius:999px;font-size:13px;font-weight:600;color:#ffd58a}
 
 /* ===== 主内容 ===== */
-main{flex:1;padding:8px 20px calc(74px + env(safe-area-inset-bottom));display:flex;flex-direction:column}
+main{flex:1;padding:8px 20px calc(24px + env(safe-area-inset-bottom));display:flex;flex-direction:column}
 
 /* ===== 顶栏(返回) ===== */
 .topbar{display:flex;align-items:center;gap:10px;margin:2px 0 14px}
@@ -358,12 +358,6 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
     </div>
   </header>
   <main id="main"></main>
-  <nav>
-    <button class="navbtn" data-tab="study" onclick="switchTab('study')"><span class="ic">📖</span>学习</button>
-    <button class="navbtn" data-tab="list" onclick="switchTab('list')"><span class="ic">🔥</span>单词本</button>
-    <button class="navbtn" data-tab="sentences" onclick="switchTab('sentences')"><span class="ic">📚</span>句子库</button>
-    <button class="navbtn" data-tab="me" onclick="switchTab('me')"><span class="ic">⚙️</span>我的</button>
-  </nav>
 </div>
 
 
@@ -1546,9 +1540,9 @@ function sourceCard(s,w){
     const kw=String(b.word||"");
     const zh=String(b.zh||"");
     const lbl=esc(kw)+(zh?" · "+esc(zh):"");
-    return `<span class="chip" style="cursor:pointer" onclick="openBranchWord('${esc(kw)}','${esc(zh)}')">${lbl}</span>`;
+    return `<span class="chip" style="cursor:pointer" onclick="event.stopPropagation();openBranchWord('${esc(kw)}','${esc(zh)}')">${lbl}</span>`;
   }).join("");
-  return `<div class="menu-card" style="padding:18px;margin-top:12px">
+  return `<div class="menu-card" style="padding:18px;margin-top:12px;cursor:pointer" onclick="openSentenceLibrary()">
     <div style="font-size:14.5px;line-height:1.7">${hlText(s.text,w.word)}</div>
     ${s.translation?`<div style="color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6">${esc(s.translation)}</div>`:""}
     ${branches?`<div class="chips" style="margin-top:10px">${branches}</div>`:""}
@@ -1705,10 +1699,10 @@ function renderSentences(){
   const chips=["全部",...sentCats()].map(c=>`<div class="chip ${c===curSentCat?"on":""}" onclick="setSentCat('${esc(c)}')">${esc(c)}</div>`).join("");
   const list=sentenceList();
   $("#main").innerHTML=`
-    <div class="topbar"><div class="t">句子库</div></div>
+    <div class="topbar">${sentBackCtx?`<button class="backbtn" onclick="backToSentenceSources()">← 返回</button>`:``}<div class="t">句子收藏库</div></div>
     <div class="chips">${chips}</div>
     ${list.length?`<div style="color:var(--faint);font-size:12px;margin:2px 0 8px">共 ${list.length} 句</div>`:""}
-    ${list.length?list.map(sentenceCard).join(""):'<div class="empty">句子库还空着，等本地 AI 批量拆解入库</div>'}
+    ${list.length?list.map(sentenceCard).join(""):'<div class="empty">还没有收藏的句子</div>'}
   `;
   raf(()=>{
     if(restoreSentScroll){restoreSentScroll=false;window.scrollTo(0,sentScrollY);}
@@ -1725,6 +1719,17 @@ function openDetailFromSentence(word){
   openDetail(word,"backToSentences");
 }
 function backToSentences(){renderSentences();}
+/* ---------- 句子收藏库入口（从「其他源自」进入）---------- */
+let sentBackCtx=null;
+function openSentenceLibrary(){
+  sentBackCtx = (srcCtx && srcCtx.word) ? {word:srcCtx.word, back:srcCtx.back} : null;
+  renderSentences();
+}
+function backToSentenceSources(){
+  const c=sentBackCtx; sentBackCtx=null;
+  if(c && c.word)renderSources(c.word, c.back);
+  else renderList();
+}
 /* ---------- 详情卡片：左右滑动切换 ---------- */
 let detailWords=[], detailIdx=-1, detailBack="renderList";
 let detailSwipeState=null;

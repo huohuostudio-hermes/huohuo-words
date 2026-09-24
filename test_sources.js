@@ -120,7 +120,7 @@ try{
   ctx.setSentCat("全部");
   ctx.renderSentences();
   const h = String(mainEl.innerHTML);
-  ok(h.includes("句子库"), "renderSentences 含标题");
+  ok(h.includes("句子收藏库"), "renderSentences 含标题");
   ok(h.includes("共 3 句"), "renderSentences 含计数");
   ok(h.includes("混音动态"), "renderSentences 含分类 chip");
 }catch(e){failed++;console.log("✗ FAIL renderSentences:",e.message);}
