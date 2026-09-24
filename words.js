@@ -3211,6 +3211,32 @@ window.WORDS = [
     "id": 247
   },
   {
+    "word": "bug spray",
+    "ipa": "bʌɡ spreɪ",
+    "translit": "",
+    "zh": "驱虫喷雾",
+    "def": "用于驱赶或杀灭昆虫的喷雾剂，常含避蚊胺等成分。",
+    "example": "例子：露营前买一瓶驱虫喷雾，喷在皮肤和衣物上防蚊虫叮咬。",
+    "context": "We need to buy some bug spray before we go camping.",
+    "contextZh": "我们去露营之前需要买些驱虫喷雾。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 248
+  },
+  {
+    "word": "go camping",
+    "ipa": "ɡoʊ ˈkæmpɪŋ",
+    "translit": "",
+    "zh": "去露营",
+    "def": "到户外搭帐篷或露宿，进行野外休闲活动。",
+    "example": "例子：周末我们打算去山里露营，晚上看星星。",
+    "context": "We need to buy some bug spray before we go camping.",
+    "contextZh": "我们去露营之前需要买些驱虫喷雾。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 249
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3221,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 248
+    "id": 250
   },
   {
     "word": "Conga",
@@ -3234,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 249
+    "id": 251
   },
   {
     "word": "Percussion",
@@ -3247,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 250
+    "id": 252
   },
   {
     "word": "Grooves",
@@ -3260,7 +3286,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 251
+    "id": 253
   },
   {
     "word": "Bongos",
@@ -3273,7 +3299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 252
+    "id": 254
   },
   {
     "word": "Woodblock",
@@ -3286,7 +3312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 253
+    "id": 255
   },
   {
     "word": "Djembe",
@@ -3299,7 +3325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 254
+    "id": 256
   },
   {
     "word": "Tambourine",
@@ -3312,7 +3338,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 255
+    "id": 257
   },
   {
     "word": "Cowbells",
@@ -3325,7 +3351,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 256
+    "id": 258
   },
   {
     "word": "Bells",
@@ -3338,7 +3364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 257
+    "id": 259
   },
   {
     "word": "Timbales",
@@ -3351,7 +3377,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 258
+    "id": 260
   },
   {
     "word": "Keys",
@@ -3364,7 +3390,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 259
+    "id": 261
   },
   {
     "word": "Piano",
@@ -3377,7 +3403,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 260
+    "id": 262
   },
   {
     "word": "Wurlitzer",
@@ -3390,7 +3416,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 261
+    "id": 263
   },
   {
     "word": "Electric Piano",
@@ -3403,7 +3429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 262
+    "id": 264
   },
   {
     "word": "Organ",
@@ -3416,7 +3442,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 263
+    "id": 265
   },
   {
     "word": "Clavinet",
@@ -3429,7 +3455,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 264
+    "id": 266
   },
   {
     "word": "Keys Melody",
@@ -3442,7 +3468,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 265
+    "id": 267
   },
   {
     "word": "Classical",
@@ -3455,7 +3481,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 266
+    "id": 268
   },
   {
     "word": "Female Vocals",
@@ -3468,7 +3494,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 267
+    "id": 269
   },
   {
     "word": "Vocal FX",
@@ -3481,7 +3507,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 268
+    "id": 270
   },
   {
     "word": "Vocoder",
@@ -3494,7 +3520,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 269
+    "id": 271
   },
   {
     "word": "Screams",
@@ -3507,7 +3533,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 270
+    "id": 272
   },
   {
     "word": "Whisper Vocals",
@@ -3520,7 +3546,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 271
+    "id": 273
   },
   {
     "word": "Male Vocals",
@@ -3533,7 +3559,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 272
+    "id": 274
   },
   {
     "word": "Spoken Word",
@@ -3546,7 +3572,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 273
+    "id": 275
   },
   {
     "word": "Vocal Phrases",
@@ -3559,7 +3585,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 274
+    "id": 276
   },
   {
     "word": "Vocal Shouts",
@@ -3572,7 +3598,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 275
+    "id": 277
   },
   {
     "word": "Dialogue",
@@ -3585,7 +3611,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 276
+    "id": 278
   }
 ];
 window.SOURCES = [
@@ -4362,6 +4388,22 @@ window.SOURCES = [
       {
         "word": "technology",
         "zh": "科技 / 技术"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "We need to buy some bug spray before we go camping.",
+    "translation": "我们去露营之前需要买些驱虫喷雾。",
+    "category": "",
+    "branches": [
+      {
+        "word": "bug spray",
+        "zh": "驱虫喷雾"
+      },
+      {
+        "word": "go camping",
+        "zh": "去露营"
       }
     ]
   }
