@@ -1202,7 +1202,7 @@ function answerMCQ(i){
     session.wordWrong=true;
     optsEl[i].classList.add("wrong");
     optsEl[correctIdx].classList.add("correct");
-    setTimeout(()=>{session.mcqQueue.shift();renderExplain(true);},950);
+    setTimeout(()=>{renderExplain(true);},950);
   }
 }
 
@@ -1221,11 +1221,11 @@ function renderExplain(wrong){
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="zh">${esc(w.zh)}</div>
-      ${wrong?`<button class="detailbtn" onclick="openDetail('${esc(w.word)}','backToExplain')">📖 详情</button>`:""}
+      <button class="detailbtn" onclick="openDetail('${esc(w.word)}','backToExplain')">📖 详情</button>
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
       ${contextBlock(w)}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
-      <button class="btn primary" onclick="nextExplain()">下一个</button>
+      ${wrong?`<button class="btn primary" onclick="nextExplain()">重新选择</button>`:`<button class="btn primary" onclick="nextExplain()">下一个</button>`}
     </div>`;
 }
 function nextExplain(){renderMCQ();}

@@ -103,6 +103,7 @@ renderOK("renderMCQ", ()=>renderMCQ());
 // 7. 解释页
 session={mcqQueue:[],spellQueue:[],pendingSpell:[],failQueue:[],current:WORDS[0],wordWrong:false,addedToFail:false};
 renderOK("renderExplain", ()=>renderExplain(false));
+renderOK("renderExplain(wrong)", ()=>renderExplain(true));
 
 // 8. 拼写复习（含提示按钮）
 session={mcqQueue:[],spellQueue:[],pendingSpell:[],failQueue:[],current:WORDS[0],wordWrong:false,addedToFail:false};
