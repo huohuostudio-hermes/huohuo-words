@@ -2938,6 +2938,19 @@ window.WORDS = [
     "id": 226
   },
   {
+    "word": "Cissy",
+    "ipa": "ˈsɪsi",
+    "translit": "",
+    "zh": "茜茜（女子名，Cecilia、Cecily 等名的昵称）",
+    "def": "英语中常见的女性名字或昵称，通常为 Cecilia、Cecily 或 Priscilla 的简称。",
+    "example": "例子：Cissy 是歌手 Priscilla 常用的昵称。",
+    "context": "Cissy",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 227
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -2948,7 +2961,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 227
+    "id": 228
   },
   {
     "word": "Conga",
@@ -2961,7 +2974,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 228
+    "id": 229
   },
   {
     "word": "Percussion",
@@ -2974,7 +2987,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 229
+    "id": 230
   },
   {
     "word": "Grooves",
@@ -2987,7 +3000,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 230
+    "id": 231
   },
   {
     "word": "Bongos",
@@ -3000,7 +3013,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 231
+    "id": 232
   },
   {
     "word": "Woodblock",
@@ -3013,7 +3026,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 232
+    "id": 233
   },
   {
     "word": "Djembe",
@@ -3026,7 +3039,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 233
+    "id": 234
   },
   {
     "word": "Tambourine",
@@ -3039,7 +3052,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 234
+    "id": 235
   },
   {
     "word": "Cowbells",
@@ -3052,7 +3065,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 235
+    "id": 236
   },
   {
     "word": "Bells",
@@ -3065,7 +3078,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 236
+    "id": 237
   },
   {
     "word": "Timbales",
@@ -3078,7 +3091,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 237
+    "id": 238
   },
   {
     "word": "Keys",
@@ -3091,7 +3104,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 238
+    "id": 239
   },
   {
     "word": "Piano",
@@ -3104,7 +3117,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 239
+    "id": 240
   },
   {
     "word": "Wurlitzer",
@@ -3117,7 +3130,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 240
+    "id": 241
   },
   {
     "word": "Electric Piano",
@@ -3130,7 +3143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 241
+    "id": 242
   },
   {
     "word": "Organ",
@@ -3143,7 +3156,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 242
+    "id": 243
   },
   {
     "word": "Clavinet",
@@ -3156,7 +3169,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 243
+    "id": 244
   },
   {
     "word": "Keys Melody",
@@ -3169,7 +3182,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 244
+    "id": 245
   },
   {
     "word": "Classical",
@@ -3182,7 +3195,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 245
+    "id": 246
   },
   {
     "word": "Female Vocals",
@@ -3195,7 +3208,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 246
+    "id": 247
   },
   {
     "word": "Vocal FX",
@@ -3208,7 +3221,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 247
+    "id": 248
   },
   {
     "word": "Vocoder",
@@ -3221,7 +3234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 248
+    "id": 249
   },
   {
     "word": "Screams",
@@ -3234,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 249
+    "id": 250
   },
   {
     "word": "Whisper Vocals",
@@ -3247,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 250
+    "id": 251
   },
   {
     "word": "Male Vocals",
@@ -3260,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 251
+    "id": 252
   },
   {
     "word": "Spoken Word",
@@ -3273,7 +3286,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 252
+    "id": 253
   },
   {
     "word": "Vocal Phrases",
@@ -3286,7 +3299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 253
+    "id": 254
   },
   {
     "word": "Vocal Shouts",
@@ -3299,7 +3312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 254
+    "id": 255
   },
   {
     "word": "Dialogue",
@@ -3312,7 +3325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 255
+    "id": 256
   }
 ];
 window.SOURCES = [
@@ -3949,6 +3962,22 @@ window.SOURCES = [
       {
         "word": "Lexicon Pro",
         "zh": "Lexicon Pro（专业音频品牌）"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Cissy Clean",
+    "translation": "娘娘腔的干净音色",
+    "category": "",
+    "branches": [
+      {
+        "word": "Cissy",
+        "zh": "娘娘腔的 / 女性化的"
+      },
+      {
+        "word": "Clean",
+        "zh": "干净的 / 清音的"
       }
     ]
   }
