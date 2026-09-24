@@ -5499,6 +5499,201 @@ window.WORDS = [
     "id": 423
   },
   {
+    "word": "live violin",
+    "ipa": "",
+    "translit": "",
+    "zh": "现场小提琴",
+    "def": "指实时演奏的小提琴声源，而非采样或合成音色，通常通过话筒拾音。",
+    "example": "例子：录音棚里乐手边演奏边录制的小提琴声部。",
+    "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
+    "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 424
+  },
+  {
+    "word": "Focusrite ISA One",
+    "ipa": "",
+    "translit": "",
+    "zh": "Focusrite ISA One 前置放大器",
+    "def": "一款单通道话筒前置放大器与DI盒，以变压器耦合的经典模拟音色著称。",
+    "example": "例子：人声或弦乐录音时用它来提升信号并染色。",
+    "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
+    "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 425
+  },
+  {
+    "word": "adds",
+    "ipa": "ædz",
+    "translit": "",
+    "zh": "增添 / 加入",
+    "def": "表示在原有信号上叠加某种特性或成分，此处指增加音色上的听感变化。",
+    "example": "例子：前置放大器为干声增添温暖感。",
+    "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
+    "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 426
+  },
+  {
+    "word": "desirable",
+    "ipa": "dɪˈzaɪərəbl",
+    "translit": "",
+    "zh": "理想的 / 令人满意的",
+    "def": "形容某效果是所期望、受欢迎的，常用于描述音色上的正面特质。",
+    "example": "例子：高频顺滑而不刺耳，是理想的高频表现。",
+    "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
+    "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 427
+  },
+  {
+    "word": "analog warmth",
+    "ipa": "",
+    "translit": "",
+    "zh": "模拟温暖感",
+    "def": "指模拟设备（如变压器、电子管）带来的柔和、饱满、略带谐波失真的听感。",
+    "example": "听觉例子：高频变得圆润顺滑，带有轻微的厚度与黏合感。",
+    "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
+    "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 428
+  },
+  {
+    "word": "high frequencies",
+    "ipa": "",
+    "translit": "",
+    "zh": "高频",
+    "def": "指音频频谱中较高的频段，通常约在 5 kHz 以上，决定明亮度与空气感。",
+    "example": "听觉例子：镲片、齿音与小提琴泛音所在的明亮区域。",
+    "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
+    "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 429
+  },
+  {
+    "word": "before hitting the converters",
+    "ipa": "",
+    "translit": "",
+    "zh": "在进入转换器之前",
+    "def": "指信号在送往模数转换器之前先经过模拟处理环节。",
+    "example": "例子：先经前置放大器染色，再被音频接口数字化。",
+    "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
+    "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 430
+  },
+  {
+    "word": "acoustic violin",
+    "ipa": "",
+    "translit": "",
+    "zh": "原声小提琴",
+    "def": "指不依赖电子扩声、靠琴身共鸣发声的小提琴，录音时通常用麦克风拾音。",
+    "example": "例子：在录音棚里用一支电容麦克风对着小提琴 f 孔前方拾取琴声。",
+    "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
+    "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 431
+  },
+  {
+    "word": "taming",
+    "ipa": "",
+    "translit": "",
+    "zh": "控制 / 驯服",
+    "def": "在混音语境中指把过于突出或刺耳的频段压下来，使其变得柔和顺耳。",
+    "example": "例子：把过于尖锐的高频压下去，让音色听起来更温暖。",
+    "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
+    "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 432
+  },
+  {
+    "word": "harsh resonances",
+    "ipa": "",
+    "translit": "",
+    "zh": "刺耳的共振",
+    "def": "指某些频率因琴身共鸣或录音环境而被过度放大，听感尖锐、扎耳。",
+    "example": "例子：小提琴在 3kHz 附近出现的尖锐峰点，听起来像\"吱\"的一声。",
+    "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
+    "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 433
+  },
+  {
+    "word": "2kHz to 4kHz",
+    "ipa": "",
+    "translit": "",
+    "zh": "2kHz 至 4kHz",
+    "def": "指人耳最敏感的中高频区间，这一带过多会显得刺耳、过少则缺乏清晰度。",
+    "example": "例子：人声的齿音和小提琴的明亮感大多集中在这一频段。",
+    "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
+    "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 434
+  },
+  {
+    "word": "dynamic EQ",
+    "ipa": "",
+    "translit": "",
+    "zh": "动态均衡器",
+    "def": "一种能根据信号电平自动调整增益的均衡器，只在音量超过阈值时才衰减指定频段。",
+    "example": "例子：小提琴拉高音时自动衰减 3kHz，轻奏时则不做处理。",
+    "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
+    "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 435
+  },
+  {
+    "word": "ear fatigue",
+    "ipa": "",
+    "translit": "",
+    "zh": "听觉疲劳",
+    "def": "指长时间听刺耳或过响的声音后，耳朵变得迟钝、不适甚至疼痛的现象。",
+    "example": "例子：连续几小时听高频过亮的混音后，会觉得什么都听不清。",
+    "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
+    "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 436
+  },
+  {
+    "word": "often necessary",
+    "ipa": "",
+    "translit": "",
+    "zh": "往往是必要的",
+    "def": "表示在多数情况下这一步不可省略，否则难以达到理想的听感。",
+    "example": "例子：处理中高频突出的弦乐时，这一步往往是必要的。",
+    "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
+    "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 437
+  },
+  {
+    "word": "prevent",
+    "ipa": "",
+    "translit": "",
+    "zh": "防止 / 避免",
+    "def": "指提前采取措施，使某种不良结果不发生。",
+    "example": "例子：通过衰减刺耳频段来避免听众听久了感到不适。",
+    "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
+    "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 438
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -5509,7 +5704,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 424
+    "id": 439
   },
   {
     "word": "Conga",
@@ -5522,7 +5717,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 425
+    "id": 440
   },
   {
     "word": "Percussion",
@@ -5535,7 +5730,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 426
+    "id": 441
   },
   {
     "word": "Grooves",
@@ -5548,7 +5743,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 427
+    "id": 442
   },
   {
     "word": "Bongos",
@@ -5561,7 +5756,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 428
+    "id": 443
   },
   {
     "word": "Woodblock",
@@ -5574,7 +5769,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 429
+    "id": 444
   },
   {
     "word": "Djembe",
@@ -5587,7 +5782,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 430
+    "id": 445
   },
   {
     "word": "Tambourine",
@@ -5600,7 +5795,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 431
+    "id": 446
   },
   {
     "word": "Cowbells",
@@ -5613,7 +5808,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 432
+    "id": 447
   },
   {
     "word": "Bells",
@@ -5626,7 +5821,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 433
+    "id": 448
   },
   {
     "word": "Timbales",
@@ -5639,7 +5834,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 434
+    "id": 449
   },
   {
     "word": "Keys",
@@ -5652,7 +5847,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 435
+    "id": 450
   },
   {
     "word": "Piano",
@@ -5665,7 +5860,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 436
+    "id": 451
   },
   {
     "word": "Wurlitzer",
@@ -5678,7 +5873,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 437
+    "id": 452
   },
   {
     "word": "Electric Piano",
@@ -5691,7 +5886,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 438
+    "id": 453
   },
   {
     "word": "Organ",
@@ -5704,7 +5899,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 439
+    "id": 454
   },
   {
     "word": "Clavinet",
@@ -5717,7 +5912,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 440
+    "id": 455
   },
   {
     "word": "Keys Melody",
@@ -5730,7 +5925,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 441
+    "id": 456
   },
   {
     "word": "Classical",
@@ -5743,7 +5938,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 442
+    "id": 457
   },
   {
     "word": "Female Vocals",
@@ -5756,7 +5951,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 443
+    "id": 458
   },
   {
     "word": "Vocoder",
@@ -5769,7 +5964,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 444
+    "id": 459
   },
   {
     "word": "Screams",
@@ -5782,7 +5977,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 445
+    "id": 460
   },
   {
     "word": "Whisper Vocals",
@@ -5795,7 +5990,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 446
+    "id": 461
   },
   {
     "word": "Spoken Word",
@@ -5808,7 +6003,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 447
+    "id": 462
   },
   {
     "word": "Vocal Phrases",
@@ -5821,7 +6016,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 448
+    "id": 463
   },
   {
     "word": "Vocal Shouts",
@@ -5834,7 +6029,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 449
+    "id": 464
   },
   {
     "word": "Dialogue",
@@ -5847,7 +6042,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 450
+    "id": 465
   }
 ];
 window.SOURCES = [
@@ -7736,6 +7931,86 @@ window.SOURCES = [
       {
         "word": "dense mix",
         "zh": "密集的混音"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
+    "translation": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Routing",
+        "zh": "路由 / 信号路径安排"
+      },
+      {
+        "word": "live violin",
+        "zh": "现场小提琴"
+      },
+      {
+        "word": "Focusrite ISA One",
+        "zh": "Focusrite ISA One 前置放大器"
+      },
+      {
+        "word": "adds",
+        "zh": "增添 / 加入"
+      },
+      {
+        "word": "desirable",
+        "zh": "理想的 / 令人满意的"
+      },
+      {
+        "word": "analog warmth",
+        "zh": "模拟温暖感"
+      },
+      {
+        "word": "high frequencies",
+        "zh": "高频"
+      },
+      {
+        "word": "before hitting the converters",
+        "zh": "在进入转换器之前"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
+    "translation": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
+    "category": "",
+    "branches": [
+      {
+        "word": "acoustic violin",
+        "zh": "原声小提琴"
+      },
+      {
+        "word": "taming",
+        "zh": "控制 / 驯服"
+      },
+      {
+        "word": "harsh resonances",
+        "zh": "刺耳的共振"
+      },
+      {
+        "word": "2kHz to 4kHz",
+        "zh": "2kHz 至 4kHz"
+      },
+      {
+        "word": "dynamic EQ",
+        "zh": "动态均衡器"
+      },
+      {
+        "word": "ear fatigue",
+        "zh": "听觉疲劳"
+      },
+      {
+        "word": "often necessary",
+        "zh": "往往是必要的"
+      },
+      {
+        "word": "prevent",
+        "zh": "防止 / 避免"
       }
     ]
   }
