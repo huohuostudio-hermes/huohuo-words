@@ -1960,6 +1960,7 @@ function renderMe(){
     </div>`:""}
     <div class="panel">
       <h3>更新</h3>
+      <div class="setting"><span class="lbl">当前版本</span><span style="color:#ffd58a;font-weight:700">V${APP_VERSION}</span></div>
       <button class="btn" onclick="updateApp(this)">同步</button>
       <div class="setting" style="padding-top:2px"><span style="font-size:12px;color:var(--faint)">新版本更新上线后 手动同步</span></div>
     </div>
@@ -2025,7 +2026,16 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_BUILD=8; // 改代码 bump 版本号 + version.json 同步改
+const APP_VERSION="1.0"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+function verCmp(a,b){
+  const pa=String(a).split(".").map(x=>parseInt(x,10)||0);
+  const pb=String(b).split(".").map(x=>parseInt(x,10)||0);
+  for(let i=0;i<Math.max(pa.length,pb.length);i++){
+    const x=pa[i]||0, y=pb[i]||0;
+    if(x!==y)return x>y?1:-1;
+  }
+  return 0;
+}
 function showUpdateModal(){
   const m=$("#updateModal"); if(m)m.style.display="flex";
 }
@@ -2044,8 +2054,8 @@ async function checkUpdate(){
     const r=await fetch("./version.json?t="+Date.now(), {cache:"no-store"});
     if(!r.ok) return;
     const j=await r.json();
-    const latest=parseInt(j.v,10)||0;
-    if(latest>APP_BUILD){
+    const latest=String(j.v||"0");
+    if(verCmp(latest,APP_VERSION)>0){
       showUpdateModal();
     }
   }catch(e){}
