@@ -6539,6 +6539,253 @@ window.WORDS = [
     "id": 503
   },
   {
+    "word": "warm analog pads",
+    "ipa": "",
+    "translit": "",
+    "zh": "温暖的模拟铺底音色",
+    "def": "由模拟合成器产生的柔和、持续的背景和声层，常用于营造氛围。",
+    "example": "例子：用 Juno-106 演奏的长音和弦铺在歌曲背景中。",
+    "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
+    "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 504
+  },
+  {
+    "word": "beneath the main arrangement",
+    "ipa": "",
+    "translit": "",
+    "zh": "在主编排之下",
+    "def": "指位于主要编曲声部下方、作为底层支撑的位置。",
+    "example": "例子：把铺底音色放在鼓组和主旋律的下方，不抢主声部。",
+    "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
+    "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 505
+  },
+  {
+    "word": "instantly glues",
+    "ipa": "",
+    "translit": "",
+    "zh": "瞬间粘合",
+    "def": "形容某个元素一加入就让整体声音立刻变得统一、融合。",
+    "example": "例子：加入一段铺底后，原本散乱的各声部立刻听起来像一个整体。",
+    "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
+    "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 506
+  },
+  {
+    "word": "the entire track",
+    "ipa": "",
+    "translit": "",
+    "zh": "整首曲子",
+    "def": "指完整的音乐作品或工程中的所有声部总和。",
+    "example": "例子：混音完成后，整首曲子从低频到高频都显得连贯统一。",
+    "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
+    "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 507
+  },
+  {
+    "word": "together",
+    "ipa": "təˈɡeðər",
+    "translit": "",
+    "zh": "一起 / 融为一体",
+    "def": "表示各元素结合成一个协调的整体。",
+    "example": "例子：各声部融合在一起，听不出明显的拼接痕迹。",
+    "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
+    "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 508
+  },
+  {
+    "word": "synthesizer pads",
+    "ipa": "ˈsɪnθəsaɪzər pædz",
+    "translit": "",
+    "zh": "合成器铺底音色",
+    "def": "指合成器中持续、柔和、铺陈性的音色，常用于背景和声或氛围铺垫。",
+    "example": "例子：歌曲主歌部分用一层温暖合成器铺底音色托住人声。",
+    "context": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
+    "contextZh": "",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 509
+  },
+  {
+    "word": "adds a sweeping",
+    "ipa": "ædz ə ˈswiːpɪŋ",
+    "translit": "",
+    "zh": "增添一种扫掠感",
+    "def": "指声音像被扫过一样产生连续、平滑的频率或空间变化。",
+    "example": "例子：白噪声经过带通滤波器扫频时产生“嗖”的扫掠感。",
+    "context": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
+    "contextZh": "",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 510
+  },
+  {
+    "word": "evolving motion",
+    "ipa": "ɪˈvɒlvɪŋ ˈməʊʃən",
+    "translit": "",
+    "zh": "渐变运动感",
+    "def": "指声音在时间中持续变化、发展，而不是静止不变。",
+    "example": "例子：长音铺底音色中音色缓慢变亮再变暗，形成渐变运动感。",
+    "context": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 511
+  },
+  {
+    "word": "ambient genres",
+    "ipa": "ˈæmbiənt ˈʒɒnrəz",
+    "translit": "",
+    "zh": "氛围音乐流派",
+    "def": "指以营造空间感、静态或缓慢变化音景为核心的音乐类型。",
+    "example": "例子：Brian Eno 的《Music for Airports》是氛围音乐流派的代表作品。",
+    "context": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
+    "contextZh": "",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 512
+  },
+  {
+    "word": "Searching for",
+    "ipa": "",
+    "translit": "",
+    "zh": "搜索",
+    "def": "表示在平台或数据库中查找特定内容的行为。",
+    "example": "例子：在 Splice 上搜索音色包。",
+    "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
+    "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 513
+  },
+  {
+    "word": "granular cinematic pads",
+    "ipa": "",
+    "translit": "",
+    "zh": "颗粒感电影氛围铺底",
+    "def": "指用颗粒合成技术制作的、具有电影配乐氛围感的长音铺底音色，通常带有碎片化、流动性的质感。",
+    "example": "例子：在 Splice 上搜索 \"granular cinematic pads\" 可以找到这类音色。",
+    "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
+    "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 514
+  },
+  {
+    "word": "on Splice",
+    "ipa": "",
+    "translit": "",
+    "zh": "在 Splice 上",
+    "def": "Splice 是一个知名的音乐采样和音色订阅平台，用户可在此搜索和下载音色素材。",
+    "example": "例子：许多制作人在 Splice 上寻找灵感。",
+    "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
+    "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 515
+  },
+  {
+    "word": "often uncovers",
+    "ipa": "",
+    "translit": "",
+    "zh": "常常发现",
+    "def": "表示在搜索或探索过程中频繁地找到某类结果。",
+    "example": "例子：搜索这类关键词常常能发现意想不到的音色。",
+    "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
+    "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 516
+  },
+  {
+    "word": "complex textures",
+    "ipa": "",
+    "translit": "",
+    "zh": "复杂的织体 / 纹理",
+    "def": "指声音在时间与频率上的多层次、丰富细节结构，超越单一音符的简单叠加。",
+    "example": "例子：颗粒合成产生的复杂纹理。",
+    "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
+    "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 517
+  },
+  {
+    "word": "Cutting",
+    "ipa": "ˈkʌtɪŋ",
+    "translit": "",
+    "zh": "削减 / 切除",
+    "def": "指通过均衡器降低或去除特定频段的能量，是混音中最常用的频率处理手段之一。",
+    "example": "例子：用高通滤波器把 100 Hz 以下的低频切掉。",
+    "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
+    "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 518
+  },
+  {
+    "word": "Extreme low frequencies",
+    "ipa": "",
+    "translit": "",
+    "zh": "极低频",
+    "def": "指频谱中最底端的频段，通常在大约 20–60 Hz 之间，能量过强会掩盖其他低频元素。",
+    "example": "例子：30 Hz 左右的隆隆声往往属于极低频。",
+    "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
+    "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 519
+  },
+  {
+    "word": "Lush pads",
+    "ipa": "",
+    "translit": "",
+    "zh": "丰满的铺底音色",
+    "def": "指厚实、绵密、延音长的合成器铺底音色，常用于营造氛围与和声背景。",
+    "example": "听觉例子：一大片温暖、缓慢起伏的合成器和弦长音。",
+    "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
+    "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 520
+  },
+  {
+    "word": "Prevents",
+    "ipa": "prɪˈvents",
+    "translit": "",
+    "zh": "防止 / 避免",
+    "def": "表示阻止某种不良结果发生，此处指通过频率处理避免声音之间互相干扰。",
+    "example": "例子：提前衰减低频可以防止整体混音变得浑浊。",
+    "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
+    "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 521
+  },
+  {
+    "word": "Clashing",
+    "ipa": "ˈklæʃɪŋ",
+    "translit": "",
+    "zh": "冲突 / 撞频",
+    "def": "指两个或多个声音在同一频段能量重叠，导致听感浑浊、互相掩盖。",
+    "example": "听觉例子：铺底音色与贝斯同时占据低频时产生的模糊、打架感。",
+    "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
+    "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 522
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -6549,7 +6796,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 504
+    "id": 523
   },
   {
     "word": "Conga",
@@ -6562,7 +6809,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 505
+    "id": 524
   },
   {
     "word": "Percussion",
@@ -6575,7 +6822,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 506
+    "id": 525
   },
   {
     "word": "Grooves",
@@ -6588,7 +6835,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 507
+    "id": 526
   },
   {
     "word": "Bongos",
@@ -6601,7 +6848,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 508
+    "id": 527
   },
   {
     "word": "Woodblock",
@@ -6614,7 +6861,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 509
+    "id": 528
   },
   {
     "word": "Djembe",
@@ -6627,7 +6874,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 510
+    "id": 529
   },
   {
     "word": "Tambourine",
@@ -6640,7 +6887,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 511
+    "id": 530
   },
   {
     "word": "Cowbells",
@@ -6653,7 +6900,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 512
+    "id": 531
   },
   {
     "word": "Bells",
@@ -6666,7 +6913,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 513
+    "id": 532
   },
   {
     "word": "Timbales",
@@ -6679,7 +6926,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 514
+    "id": 533
   },
   {
     "word": "Keys",
@@ -6692,7 +6939,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 515
+    "id": 534
   },
   {
     "word": "Wurlitzer",
@@ -6705,7 +6952,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 516
+    "id": 535
   },
   {
     "word": "Electric Piano",
@@ -6718,7 +6965,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 517
+    "id": 536
   },
   {
     "word": "Organ",
@@ -6731,7 +6978,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 518
+    "id": 537
   },
   {
     "word": "Clavinet",
@@ -6744,7 +6991,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 519
+    "id": 538
   },
   {
     "word": "Keys Melody",
@@ -6757,7 +7004,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 520
+    "id": 539
   },
   {
     "word": "Classical",
@@ -6770,7 +7017,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 521
+    "id": 540
   },
   {
     "word": "Female Vocals",
@@ -6783,7 +7030,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 522
+    "id": 541
   },
   {
     "word": "Vocoder",
@@ -6796,7 +7043,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 523
+    "id": 542
   },
   {
     "word": "Screams",
@@ -6809,7 +7056,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 524
+    "id": 543
   },
   {
     "word": "Whisper Vocals",
@@ -6822,7 +7069,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 525
+    "id": 544
   },
   {
     "word": "Spoken Word",
@@ -6835,7 +7082,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 526
+    "id": 545
   },
   {
     "word": "Vocal Phrases",
@@ -6848,7 +7095,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 527
+    "id": 546
   },
   {
     "word": "Vocal Shouts",
@@ -6861,7 +7108,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 528
+    "id": 547
   },
   {
     "word": "Dialogue",
@@ -6874,7 +7121,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 529
+    "id": 548
   }
 ];
 window.SOURCES = [
@@ -9203,6 +9450,134 @@ window.SOURCES = [
       {
         "word": "layered with another waveform",
         "zh": "与另一波形叠加"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
+    "translation": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Layering",
+        "zh": "叠加 / 分层"
+      },
+      {
+        "word": "warm analog pads",
+        "zh": "温暖的模拟铺底音色"
+      },
+      {
+        "word": "beneath the main arrangement",
+        "zh": "在主编排之下"
+      },
+      {
+        "word": "instantly glues",
+        "zh": "瞬间粘合"
+      },
+      {
+        "word": "the entire track",
+        "zh": "整首曲子"
+      },
+      {
+        "word": "together",
+        "zh": "一起 / 融为一体"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Modulating",
+        "zh": "调制"
+      },
+      {
+        "word": "filter cutoff",
+        "zh": "滤波器截止频率"
+      },
+      {
+        "word": "synthesizer pads",
+        "zh": "合成器铺底音色"
+      },
+      {
+        "word": "adds a sweeping",
+        "zh": "增添一种扫掠感"
+      },
+      {
+        "word": "evolving motion",
+        "zh": "渐变运动感"
+      },
+      {
+        "word": "ambient genres",
+        "zh": "氛围音乐流派"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
+    "translation": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Searching for",
+        "zh": "搜索"
+      },
+      {
+        "word": "granular cinematic pads",
+        "zh": "颗粒感电影氛围铺底"
+      },
+      {
+        "word": "on Splice",
+        "zh": "在 Splice 上"
+      },
+      {
+        "word": "often uncovers",
+        "zh": "常常发现"
+      },
+      {
+        "word": "complex textures",
+        "zh": "复杂的织体 / 纹理"
+      },
+      {
+        "word": "that standard chords cannot provide",
+        "zh": "是标准和弦无法提供的"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
+    "translation": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Cutting",
+        "zh": "削减 / 切除"
+      },
+      {
+        "word": "Extreme low frequencies",
+        "zh": "极低频"
+      },
+      {
+        "word": "Lush pads",
+        "zh": "丰满的铺底音色"
+      },
+      {
+        "word": "Prevents",
+        "zh": "防止 / 避免"
+      },
+      {
+        "word": "Clashing",
+        "zh": "冲突 / 撞频"
+      },
+      {
+        "word": "Sub bass",
+        "zh": "超低音 / 次低音"
       }
     ]
   }
