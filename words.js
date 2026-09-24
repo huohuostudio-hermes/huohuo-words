@@ -3419,6 +3419,71 @@ window.WORDS = [
     "id": 263
   },
   {
+    "word": "lead singer",
+    "ipa": "ˈliːd ˈsɪŋər",
+    "translit": "",
+    "zh": "主唱",
+    "def": "乐队或演唱组合中担任主要演唱部分的歌手，通常是歌曲旋律和歌词的主要呈现者。",
+    "example": "例子：一支摇滚乐队中站在舞台中央、负责演唱大部分歌曲的那位歌手。",
+    "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
+    "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 264
+  },
+  {
+    "word": "powerful",
+    "ipa": "ˈpaʊərfəl",
+    "translit": "",
+    "zh": "强有力的",
+    "def": "形容声音具有力度、能量和穿透力，通常指音量充沛、气息扎实、动态范围大。",
+    "example": "例子：歌手在高潮段落用全力演唱，声音充满张力和冲击力。",
+    "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
+    "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 265
+  },
+  {
+    "word": "distinct",
+    "ipa": "dɪˈstɪŋkt",
+    "translit": "",
+    "zh": "独特的 / 辨识度高的",
+    "def": "形容声音具有鲜明的个人特色，容易从其他声音中被辨认出来，不易混淆。",
+    "example": "例子：某位歌手一开口就能被认出是谁，因为其音色和咬字方式与众不同。",
+    "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
+    "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 266
+  },
+  {
+    "word": "cuts through",
+    "ipa": "kʌts θruː",
+    "translit": "",
+    "zh": "穿透 / 突出于",
+    "def": "指声音在密集的混音中依然清晰可辨，不被其他乐器或音轨掩盖。",
+    "example": "例子：在一首编曲复杂的歌曲中，主唱的声音依然清晰浮在伴奏之上。",
+    "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
+    "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 267
+  },
+  {
+    "word": "dense mix",
+    "ipa": "dɛns mɪks",
+    "translit": "",
+    "zh": "密集的混音",
+    "def": "指编曲中乐器、音轨层次繁多、频率分布拥挤的混音状态，容易造成声音互相遮蔽。",
+    "example": "例子：一首同时包含多把吉他、合成器、鼓组和弦乐的歌曲，各声部叠加形成厚实的音响织体。",
+    "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
+    "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 268
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3429,7 +3494,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 264
+    "id": 269
   },
   {
     "word": "Conga",
@@ -3442,7 +3507,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 265
+    "id": 270
   },
   {
     "word": "Percussion",
@@ -3455,7 +3520,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 266
+    "id": 271
   },
   {
     "word": "Grooves",
@@ -3468,7 +3533,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 267
+    "id": 272
   },
   {
     "word": "Bongos",
@@ -3481,7 +3546,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 268
+    "id": 273
   },
   {
     "word": "Woodblock",
@@ -3494,7 +3559,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 269
+    "id": 274
   },
   {
     "word": "Djembe",
@@ -3507,7 +3572,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 270
+    "id": 275
   },
   {
     "word": "Tambourine",
@@ -3520,7 +3585,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 271
+    "id": 276
   },
   {
     "word": "Cowbells",
@@ -3533,7 +3598,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 272
+    "id": 277
   },
   {
     "word": "Bells",
@@ -3546,7 +3611,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 273
+    "id": 278
   },
   {
     "word": "Timbales",
@@ -3559,7 +3624,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 274
+    "id": 279
   },
   {
     "word": "Keys",
@@ -3572,7 +3637,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 275
+    "id": 280
   },
   {
     "word": "Piano",
@@ -3585,7 +3650,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 276
+    "id": 281
   },
   {
     "word": "Wurlitzer",
@@ -3598,7 +3663,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 277
+    "id": 282
   },
   {
     "word": "Electric Piano",
@@ -3611,7 +3676,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 278
+    "id": 283
   },
   {
     "word": "Organ",
@@ -3624,7 +3689,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 279
+    "id": 284
   },
   {
     "word": "Clavinet",
@@ -3637,7 +3702,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 280
+    "id": 285
   },
   {
     "word": "Keys Melody",
@@ -3650,7 +3715,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 281
+    "id": 286
   },
   {
     "word": "Classical",
@@ -3663,7 +3728,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 282
+    "id": 287
   },
   {
     "word": "Female Vocals",
@@ -3676,7 +3741,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 283
+    "id": 288
   },
   {
     "word": "Vocal FX",
@@ -3689,7 +3754,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 284
+    "id": 289
   },
   {
     "word": "Vocoder",
@@ -3702,7 +3767,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 285
+    "id": 290
   },
   {
     "word": "Screams",
@@ -3715,7 +3780,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 286
+    "id": 291
   },
   {
     "word": "Whisper Vocals",
@@ -3728,7 +3793,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 287
+    "id": 292
   },
   {
     "word": "Male Vocals",
@@ -3741,7 +3806,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 288
+    "id": 293
   },
   {
     "word": "Spoken Word",
@@ -3754,7 +3819,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 289
+    "id": 294
   },
   {
     "word": "Vocal Phrases",
@@ -3767,7 +3832,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 290
+    "id": 295
   },
   {
     "word": "Vocal Shouts",
@@ -3780,7 +3845,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 291
+    "id": 296
   },
   {
     "word": "Dialogue",
@@ -3793,7 +3858,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 292
+    "id": 297
   }
 ];
 window.SOURCES = [
@@ -4654,6 +4719,62 @@ window.SOURCES = [
       {
         "word": "across the master bus",
         "zh": "贯穿主总线"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
+    "translation": "这位主唱拥有强有力且辨识度极高的嗓音，能在密集的混音中穿透而出。",
+    "category": "",
+    "branches": [
+      {
+        "word": "lead singer",
+        "zh": "主唱"
+      },
+      {
+        "word": "powerful",
+        "zh": "强有力的"
+      },
+      {
+        "word": "distinct",
+        "zh": "独特的 / 辨识度高的"
+      },
+      {
+        "word": "cuts through",
+        "zh": "穿透 / 突出于"
+      },
+      {
+        "word": "dense mix",
+        "zh": "密集的混音"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
+    "translation": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
+    "category": "",
+    "branches": [
+      {
+        "word": "lead singer",
+        "zh": "主唱"
+      },
+      {
+        "word": "powerful",
+        "zh": "强有力的"
+      },
+      {
+        "word": "distinct",
+        "zh": "独特的 / 辨识度高的"
+      },
+      {
+        "word": "cuts through",
+        "zh": "穿透 / 突出于"
+      },
+      {
+        "word": "dense mix",
+        "zh": "密集的混音"
       }
     ]
   }
