@@ -5122,6 +5122,97 @@ window.WORDS = [
     "id": 394
   },
   {
+    "word": "Blending",
+    "ipa": "",
+    "translit": "",
+    "zh": "混合",
+    "def": "将两个或多个音频信号叠加在一起的处理方式，是混音中最基本的操作之一。",
+    "example": "例子：将人声轨与伴奏轨混合成一首完整的歌曲。",
+    "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
+    "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 395
+  },
+  {
+    "word": "subtle",
+    "ipa": "",
+    "translit": "",
+    "zh": "微妙的 / 细微的",
+    "def": "形容程度很轻、不易察觉的变化或效果，在混音中常指不显眼但能感受到的处理。",
+    "example": "例子：在主人声上做一点微妙的均衡调整，让声音更清晰但不突兀。",
+    "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
+    "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 396
+  },
+  {
+    "word": "heavily distorted",
+    "ipa": "",
+    "translit": "",
+    "zh": "严重失真的",
+    "def": "指信号经过大幅度的失真处理后，波形被显著改变，产生粗糙、饱和的音色。",
+    "example": "例子：吉他通过失真踏板后产生的厚重、咆哮般的声音。",
+    "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
+    "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 397
+  },
+  {
+    "word": "parallel channel",
+    "ipa": "",
+    "translit": "",
+    "zh": "并联通道 / 平行通道",
+    "def": "将原始信号复制一份，经过独立处理后与原始信号混合的辅助信号路径，常用于并联压缩或并联失真。",
+    "example": "例子：将人声复制到一条并联通道上加重度失真，再与干净人声混合。",
+    "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
+    "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 398
+  },
+  {
+    "word": "clean male vocals",
+    "ipa": "",
+    "translit": "",
+    "zh": "干净的男声人声",
+    "def": "指未经失真处理、音色自然清晰的男性歌唱声音。",
+    "example": "例子：流行歌曲主歌部分男歌手未经效果器修饰的原始嗓音。",
+    "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
+    "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 399
+  },
+  {
+    "word": "aggressive harmonics",
+    "ipa": "",
+    "translit": "",
+    "zh": "强烈的谐波 / 激进的谐波",
+    "def": "失真处理产生的额外频率成分，听感上尖锐、有攻击性，能增强声音的穿透力。",
+    "example": "例子：失真吉他中那些刺耳的高频泛音，使音色更具侵略性。",
+    "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
+    "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 400
+  },
+  {
+    "word": "heavy guitar wall",
+    "ipa": "",
+    "translit": "",
+    "zh": "厚重的吉他音墙",
+    "def": "指多把失真吉他叠加形成的密集、厚重的音色层，常见于摇滚和金属音乐。",
+    "example": "例子：金属乐队中节奏吉他与主音吉他叠加出的密不透风的声响。",
+    "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
+    "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 401
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -5132,7 +5223,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 395
+    "id": 402
   },
   {
     "word": "Conga",
@@ -5145,7 +5236,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 396
+    "id": 403
   },
   {
     "word": "Percussion",
@@ -5158,7 +5249,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 397
+    "id": 404
   },
   {
     "word": "Grooves",
@@ -5171,7 +5262,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 398
+    "id": 405
   },
   {
     "word": "Bongos",
@@ -5184,7 +5275,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 399
+    "id": 406
   },
   {
     "word": "Woodblock",
@@ -5197,7 +5288,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 400
+    "id": 407
   },
   {
     "word": "Djembe",
@@ -5210,7 +5301,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 401
+    "id": 408
   },
   {
     "word": "Tambourine",
@@ -5223,7 +5314,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 402
+    "id": 409
   },
   {
     "word": "Cowbells",
@@ -5236,7 +5327,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 403
+    "id": 410
   },
   {
     "word": "Bells",
@@ -5249,7 +5340,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 404
+    "id": 411
   },
   {
     "word": "Timbales",
@@ -5262,7 +5353,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 405
+    "id": 412
   },
   {
     "word": "Keys",
@@ -5275,7 +5366,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 406
+    "id": 413
   },
   {
     "word": "Piano",
@@ -5288,7 +5379,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 407
+    "id": 414
   },
   {
     "word": "Wurlitzer",
@@ -5301,7 +5392,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 408
+    "id": 415
   },
   {
     "word": "Electric Piano",
@@ -5314,7 +5405,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 409
+    "id": 416
   },
   {
     "word": "Organ",
@@ -5327,7 +5418,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 410
+    "id": 417
   },
   {
     "word": "Clavinet",
@@ -5340,7 +5431,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 411
+    "id": 418
   },
   {
     "word": "Keys Melody",
@@ -5353,7 +5444,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 412
+    "id": 419
   },
   {
     "word": "Classical",
@@ -5366,7 +5457,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 413
+    "id": 420
   },
   {
     "word": "Female Vocals",
@@ -5379,7 +5470,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 414
+    "id": 421
   },
   {
     "word": "Vocal FX",
@@ -5392,7 +5483,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 415
+    "id": 422
   },
   {
     "word": "Vocoder",
@@ -5405,7 +5496,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 416
+    "id": 423
   },
   {
     "word": "Screams",
@@ -5418,7 +5509,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 417
+    "id": 424
   },
   {
     "word": "Whisper Vocals",
@@ -5431,7 +5522,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 418
+    "id": 425
   },
   {
     "word": "Spoken Word",
@@ -5444,7 +5535,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 419
+    "id": 426
   },
   {
     "word": "Vocal Phrases",
@@ -5457,7 +5548,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 420
+    "id": 427
   },
   {
     "word": "Vocal Shouts",
@@ -5470,7 +5561,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 421
+    "id": 428
   },
   {
     "word": "Dialogue",
@@ -5483,7 +5574,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 422
+    "id": 429
   }
 ];
 window.SOURCES = [
@@ -7176,6 +7267,46 @@ window.SOURCES = [
       {
         "word": "natural high-frequency air",
         "zh": "自然的高频空气感"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
+    "translation": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Blending",
+        "zh": "混合"
+      },
+      {
+        "word": "subtle",
+        "zh": "微妙的 / 细微的"
+      },
+      {
+        "word": "heavily distorted",
+        "zh": "严重失真的"
+      },
+      {
+        "word": "parallel channel",
+        "zh": "并联通道 / 平行通道"
+      },
+      {
+        "word": "clean male vocals",
+        "zh": "干净的男声人声"
+      },
+      {
+        "word": "aggressive harmonics",
+        "zh": "强烈的谐波 / 激进的谐波"
+      },
+      {
+        "word": "cut through",
+        "zh": "穿透 / 突出"
+      },
+      {
+        "word": "heavy guitar wall",
+        "zh": "厚重的吉他音墙"
       }
     ]
   }
