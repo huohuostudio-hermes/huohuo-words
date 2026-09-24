@@ -3822,6 +3822,318 @@ window.WORDS = [
     "id": 294
   },
   {
+    "word": "multiple synthesizer leads",
+    "ipa": "",
+    "translit": "",
+    "zh": "多个合成器主音",
+    "def": "指同时使用多个合成器演奏的主旋律音色，用来增强旋律的存在感和冲击力。",
+    "example": "例子：主歌用单层合成器，副歌加入三层合成器主音来提升能量。",
+    "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
+    "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 295
+  },
+  {
+    "word": "massive",
+    "ipa": "ˈmæsɪv",
+    "translit": "",
+    "zh": "宏大的 / 厚重的",
+    "def": "形容声音规模感强、低频和声场都很饱满，听起来有压迫感和空间感。",
+    "example": "例子：经过多层叠加和混响处理后，副歌听起来非常宏大。",
+    "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
+    "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 296
+  },
+  {
+    "word": "anthemic",
+    "ipa": "ænˈθemɪk",
+    "translit": "",
+    "zh": "颂歌般的 / 适合大合唱的",
+    "def": "形容旋律具有强烈记忆点和号召力，像体育场里观众会一起唱的那种感觉。",
+    "example": "例子：副歌旋律一响起，就有一种全场跟唱的颂歌感。",
+    "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
+    "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 297
+  },
+  {
+    "word": "melody line",
+    "ipa": "",
+    "translit": "",
+    "zh": "旋律线",
+    "def": "指音乐中由音高和节奏构成的主要旋律走向，是听众最容易记住的部分。",
+    "example": "例子：副歌的旋律线简单但非常抓耳。",
+    "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
+    "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 298
+  },
+  {
+    "word": "for the chorus",
+    "ipa": "",
+    "translit": "",
+    "zh": "用于副歌",
+    "def": "表示某个编曲或音色处理是专门为歌曲副歌部分设计的。",
+    "example": "例子：这些合成器叠加主要是为了副歌服务。",
+    "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
+    "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 299
+  },
+  {
+    "word": "Riding",
+    "ipa": "ˈraɪdɪŋ",
+    "translit": "",
+    "zh": "实时操控",
+    "def": "在音频制作中指一边播放一边用手持续调整某个参数，而不是画自动化曲线。",
+    "example": "例子：混音师在播放过程中手动推拉推子，让声音随段落起伏。",
+    "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
+    "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 300
+  },
+  {
+    "word": "volume fader",
+    "ipa": "ˈvɑːljuːm ˈfeɪdər",
+    "translit": "",
+    "zh": "音量推子",
+    "def": "调音台或控制器上用来控制通道音量大小的滑动装置。",
+    "example": "例子：把推子往上推，人声就变响；往下拉，人声就变轻。",
+    "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
+    "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 301
+  },
+  {
+    "word": "SSL UF1",
+    "ipa": "",
+    "translit": "",
+    "zh": "SSL UF1 控制器",
+    "def": "Solid State Logic 出品的一款单推子桌面混音控制器，常用于 DAW 中的手动混音操作。",
+    "example": "例子：把 UF1 放在键盘旁，用它的推子实时控制人声音量。",
+    "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
+    "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 302
+  },
+  {
+    "word": "vocal leads",
+    "ipa": "ˈvoʊkəl liːdz",
+    "translit": "",
+    "zh": "主唱人声 / 领唱人声",
+    "def": "歌曲中最主要、最突出的人声轨，通常是听众听到的主旋律演唱。",
+    "example": "例子：副歌部分那条最清楚、最靠前的人声就是 vocal lead。",
+    "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
+    "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 303
+  },
+  {
+    "word": "sit perfectly",
+    "ipa": "sɪt ˈpɜːrfɪktli",
+    "translit": "",
+    "zh": "完美地处于合适位置",
+    "def": "在混音中指某个声音在整体声场和层次中位置恰当、不突兀也不被淹没。",
+    "example": "例子：人声响度刚好压过伴奏，又不会盖住鼓和贝斯。",
+    "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
+    "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 304
+  },
+  {
+    "word": "on top of",
+    "ipa": "ɑːn tɑːp əv",
+    "translit": "",
+    "zh": "位于……之上 / 凌驾于……之上",
+    "def": "在混音语境中指某声音在听感上处于最前方、最突出的层次。",
+    "example": "例子：人声听起来浮在伴奏织体之上，清晰可辨。",
+    "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
+    "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 305
+  },
+  {
+    "word": "the instrumental mix",
+    "ipa": "ði ˌɪnstrəˈmentl mɪks",
+    "translit": "",
+    "zh": "器乐混音 / 伴奏混音",
+    "def": "不含主唱人声、只由乐器构成的混音部分。",
+    "example": "例子：去掉人声后剩下的鼓、贝斯、吉他、键盘等混合声。",
+    "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
+    "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 306
+  },
+  {
+    "word": "browsing Splice",
+    "ipa": "",
+    "translit": "",
+    "zh": "浏览 Splice",
+    "def": "在 Splice 平台上随意试听、筛选音频素材的行为。",
+    "example": "例子：打开 Splice 网站，逐个试听各类采样包。",
+    "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
+    "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 307
+  },
+  {
+    "word": "melodic inspiration",
+    "ipa": "",
+    "translit": "",
+    "zh": "旋律灵感",
+    "def": "创作旋律时的思路或素材来源。",
+    "example": "例子：听一段合成器 loop 后想到一段主旋律。",
+    "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
+    "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 308
+  },
+  {
+    "word": "analog leads",
+    "ipa": "",
+    "translit": "",
+    "zh": "模拟主音",
+    "def": "用模拟合成器制作的、担任主旋律声部的音色，通常温暖且富有个性。",
+    "example": "听觉例子：带轻微失真的温暖方波主音在混音前方演奏旋律。",
+    "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
+    "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 309
+  },
+  {
+    "word": "warm",
+    "ipa": "",
+    "translit": "",
+    "zh": "温暖的",
+    "def": "形容音色低频饱满、谐波柔和、听感不刺耳。",
+    "example": "听觉例子：模拟合成器经过轻微饱和后那种厚实柔和的音色。",
+    "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
+    "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 310
+  },
+  {
+    "word": "character-rich",
+    "ipa": "",
+    "translit": "",
+    "zh": "富有个性的",
+    "def": "形容音色带有独特质感或瑕疵，辨识度高。",
+    "example": "听觉例子：带轻微音高漂移和噪声底的老式合成器音色。",
+    "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
+    "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 311
+  },
+  {
+    "word": "synth loops",
+    "ipa": "",
+    "translit": "",
+    "zh": "合成器循环片段",
+    "def": "预先录制好、可循环播放的合成器音频片段，常用于编曲。",
+    "example": "例子：一段 4 小节的合成器琶音 loop，直接拖入 DAW 使用。",
+    "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
+    "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 312
+  },
+  {
+    "word": "Heavy saturation",
+    "ipa": "",
+    "translit": "",
+    "zh": "重度饱和",
+    "def": "指对音频信号施加大量饱和处理，产生丰富的谐波失真，使声音更厚实、更有侵略性。",
+    "example": "例子：在混音中对吉他音轨施加重度饱和，使其听起来更饱满、更有力。",
+    "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 313
+  },
+  {
+    "word": "Electric guitar leads",
+    "ipa": "",
+    "translit": "",
+    "zh": "电吉他主音",
+    "def": "指电吉他演奏的主旋律或独奏部分，通常在混音中处于突出的位置。",
+    "example": "例子：摇滚歌曲中电吉他主音演奏的独奏段落。",
+    "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
+    "contextZh": "",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 314
+  },
+  {
+    "word": "Cut through",
+    "ipa": "",
+    "translit": "",
+    "zh": "穿透 / 突出",
+    "def": "指声音在密集的混音中能够清晰地被听到，不被其他乐器掩盖。",
+    "example": "例子：通过均衡和饱和处理，让人声在密集的编曲中穿透出来。",
+    "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 315
+  },
+  {
+    "word": "Dense midrange frequencies",
+    "ipa": "",
+    "translit": "",
+    "zh": "密集的中频",
+    "def": "指混音中中频段（大约 250Hz 到 4kHz）内容非常丰富、拥挤，容易导致声音互相掩盖。",
+    "example": "例子：现代摇滚或电子音乐中，吉他、合成器和人声都在中频段竞争空间。",
+    "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 316
+  },
+  {
+    "word": "Modern rock",
+    "ipa": "",
+    "translit": "",
+    "zh": "现代摇滚",
+    "def": "指当代摇滚音乐风格，通常具有厚重的吉他音墙和密集的编曲。",
+    "example": "例子：像 Foo Fighters 或 Royal Blood 这类乐队的音乐风格。",
+    "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 317
+  },
+  {
+    "word": "Electronic tracks",
+    "ipa": "",
+    "translit": "",
+    "zh": "电子音乐曲目",
+    "def": "指以电子合成器、鼓机等电子乐器为主要创作手段的音乐作品。",
+    "example": "例子：像 The Prodigy 或 Daft Punk 制作的电子音乐曲目。",
+    "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 318
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3832,7 +4144,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 295
+    "id": 319
   },
   {
     "word": "Conga",
@@ -3845,7 +4157,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 296
+    "id": 320
   },
   {
     "word": "Percussion",
@@ -3858,7 +4170,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 297
+    "id": 321
   },
   {
     "word": "Grooves",
@@ -3871,7 +4183,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 298
+    "id": 322
   },
   {
     "word": "Bongos",
@@ -3884,7 +4196,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 299
+    "id": 323
   },
   {
     "word": "Woodblock",
@@ -3897,7 +4209,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 300
+    "id": 324
   },
   {
     "word": "Djembe",
@@ -3910,7 +4222,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 301
+    "id": 325
   },
   {
     "word": "Tambourine",
@@ -3923,7 +4235,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 302
+    "id": 326
   },
   {
     "word": "Cowbells",
@@ -3936,7 +4248,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 303
+    "id": 327
   },
   {
     "word": "Bells",
@@ -3949,7 +4261,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 304
+    "id": 328
   },
   {
     "word": "Timbales",
@@ -3962,7 +4274,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 305
+    "id": 329
   },
   {
     "word": "Keys",
@@ -3975,7 +4287,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 306
+    "id": 330
   },
   {
     "word": "Piano",
@@ -3988,7 +4300,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 307
+    "id": 331
   },
   {
     "word": "Wurlitzer",
@@ -4001,7 +4313,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 308
+    "id": 332
   },
   {
     "word": "Electric Piano",
@@ -4014,7 +4326,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 309
+    "id": 333
   },
   {
     "word": "Organ",
@@ -4027,7 +4339,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 310
+    "id": 334
   },
   {
     "word": "Clavinet",
@@ -4040,7 +4352,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 311
+    "id": 335
   },
   {
     "word": "Keys Melody",
@@ -4053,7 +4365,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 312
+    "id": 336
   },
   {
     "word": "Classical",
@@ -4066,7 +4378,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 313
+    "id": 337
   },
   {
     "word": "Female Vocals",
@@ -4079,7 +4391,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 314
+    "id": 338
   },
   {
     "word": "Vocal FX",
@@ -4092,7 +4404,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 315
+    "id": 339
   },
   {
     "word": "Vocoder",
@@ -4105,7 +4417,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 316
+    "id": 340
   },
   {
     "word": "Screams",
@@ -4118,7 +4430,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 317
+    "id": 341
   },
   {
     "word": "Whisper Vocals",
@@ -4131,7 +4443,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 318
+    "id": 342
   },
   {
     "word": "Male Vocals",
@@ -4144,7 +4456,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 319
+    "id": 343
   },
   {
     "word": "Spoken Word",
@@ -4157,7 +4469,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 320
+    "id": 344
   },
   {
     "word": "Vocal Phrases",
@@ -4170,7 +4482,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 321
+    "id": 345
   },
   {
     "word": "Vocal Shouts",
@@ -4183,7 +4495,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 322
+    "id": 346
   },
   {
     "word": "Dialogue",
@@ -4196,7 +4508,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 323
+    "id": 347
   }
 ];
 window.SOURCES = [
@@ -5301,6 +5613,138 @@ window.SOURCES = [
       {
         "word": "Wider stereo image",
         "zh": "更宽的立体声像"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
+    "translation": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Layering",
+        "zh": "叠加 / 分层"
+      },
+      {
+        "word": "multiple synthesizer leads",
+        "zh": "多个合成器主音"
+      },
+      {
+        "word": "massive",
+        "zh": "宏大的 / 厚重的"
+      },
+      {
+        "word": "anthemic",
+        "zh": "颂歌般的 / 适合大合唱的"
+      },
+      {
+        "word": "melody line",
+        "zh": "旋律线"
+      },
+      {
+        "word": "for the chorus",
+        "zh": "用于副歌"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
+    "translation": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Riding",
+        "zh": "实时操控"
+      },
+      {
+        "word": "volume fader",
+        "zh": "音量推子"
+      },
+      {
+        "word": "SSL UF1",
+        "zh": "SSL UF1 控制器"
+      },
+      {
+        "word": "vocal leads",
+        "zh": "主唱人声 / 领唱人声"
+      },
+      {
+        "word": "sit perfectly",
+        "zh": "完美地处于合适位置"
+      },
+      {
+        "word": "on top of",
+        "zh": "位于……之上 / 凌驾于……之上"
+      },
+      {
+        "word": "the instrumental mix",
+        "zh": "器乐混音 / 伴奏混音"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
+    "translation": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
+    "category": "",
+    "branches": [
+      {
+        "word": "browsing Splice",
+        "zh": "浏览 Splice"
+      },
+      {
+        "word": "melodic inspiration",
+        "zh": "旋律灵感"
+      },
+      {
+        "word": "analog leads",
+        "zh": "模拟主音"
+      },
+      {
+        "word": "warm",
+        "zh": "温暖的"
+      },
+      {
+        "word": "character-rich",
+        "zh": "富有个性的"
+      },
+      {
+        "word": "synth loops",
+        "zh": "合成器循环片段"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Heavy saturation",
+        "zh": "重度饱和"
+      },
+      {
+        "word": "Electric guitar leads",
+        "zh": "电吉他主音"
+      },
+      {
+        "word": "Cut through",
+        "zh": "穿透 / 突出"
+      },
+      {
+        "word": "Dense midrange frequencies",
+        "zh": "密集的中频"
+      },
+      {
+        "word": "Modern rock",
+        "zh": "现代摇滚"
+      },
+      {
+        "word": "Electronic tracks",
+        "zh": "电子音乐曲目"
       }
     ]
   }
