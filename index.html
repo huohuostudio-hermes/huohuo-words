@@ -82,7 +82,7 @@ main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
 
 /* ===== 题目卡片 ===== */
 .qcard{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--border2);
-  border-radius:24px;padding:26px 22px;box-shadow:var(--shadow)}
+  border-radius:24px;padding:26px 22px;box-shadow:var(--shadow);position:relative}
 .qword{font-size:34px;font-weight:800;text-align:center;letter-spacing:.5px;line-height:1.2;word-break:break-word;margin:8px 0 4px}
 .qipa{font-size:15px;color:var(--muted);text-align:center;margin-bottom:6px}
 .qzh{font-size:24px;font-weight:800;color:var(--accent2);text-align:center;line-height:1.4;margin:8px 0 4px}
@@ -217,6 +217,22 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .gcaption .cap-d{flex:0 0 auto;background:var(--accent);border:none;color:#fff;border-radius:8px;padding:5px 10px;font-size:12px;font-weight:700;cursor:pointer}
 .tagsec{margin-top:14px;border-top:1px solid var(--border);padding-top:12px}
 .tagsec .chips{flex-wrap:wrap;overflow-x:visible;padding-bottom:0;margin-bottom:0}
+/* ===== 详情卡片：收藏角标 + 动作按钮 + 左右滑动 ===== */
+.qcard.detailcard{touch-action:pan-y;animation:detailin .16s ease}
+@keyframes detailin{from{opacity:.3;transform:translateY(6px)}to{opacity:1;transform:none}}
+.card-fav{position:absolute;top:10px;right:10px;width:36px;height:36px;border-radius:50%;
+  border:1px solid var(--border2);background:var(--card);color:var(--faint);font-size:18px;
+  cursor:pointer;display:grid;place-items:center;transition:.15s;z-index:2;box-shadow:0 2px 10px rgba(0,0,0,.35)}
+.card-fav.on{color:#ffd98a;border-color:var(--accent);background:rgba(230,184,74,.15);box-shadow:0 0 12px rgba(230,184,74,.25)}
+.card-fav:active{transform:scale(.92)}
+.card-actions{display:flex;gap:6px;margin-top:16px;padding:8px;border:1px solid var(--accent);
+  border-radius:14px;background:rgba(230,184,74,.06);box-shadow:0 0 18px rgba(230,184,74,.14) inset}
+.card-actions .cardbtn{flex:1;padding:9px 4px;font-size:13px;font-weight:700;border-radius:10px;
+  border:none;background:transparent;color:var(--accent2);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;gap:4px;transition:.15s}
+.card-actions .cardbtn:active{transform:scale(.96);background:rgba(230,184,74,.14)}
+.card-actions .cardbtn.warn{color:#fca5a5}
+.card-actions .cardbtn.warn:active{background:rgba(248,113,113,.14)}
 .lock{position:fixed;inset:0;z-index:9999;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px}
 .lock-card{width:100%;max-width:320px;text-align:center}
 .lock-logo{font-size:56px;margin-bottom:8px;color:var(--accent2);filter:drop-shadow(0 0 18px rgba(230,184,74,.55))}
@@ -1578,6 +1594,50 @@ function contextBlock(w){
   if(w.contextZh)h+=`<div class="detail trans"><span class="k">译文</span>${esc(w.contextZh)}</div>`;
   return h;
 }
+/* ---------- 详情卡片：左右滑动切换 ---------- */
+let detailWords=[], detailIdx=-1, detailBack="renderList";
+let detailSwipeState=null;
+function detailCtxFor(back){
+  if(back==="renderList")return currentListWords();
+  if(back==="renderMenu")return chainCat==="全部"?allWords():allWords().filter(w=>catOf(w)===chainCat);
+  if(back==="renderFavs")return favWords();
+  if(back==="renderGroupBack")return groupWordsOf(curGroupKind);
+  return [];
+}
+function swipeDetail(dir){
+  if(detailWords.length<2)return;
+  const n=detailWords.length;
+  detailIdx=(detailIdx+dir+n)%n;
+  suppressClickUntil=0;
+  openDetail(detailWords[detailIdx], detailBack);
+  suppressClickUntil=Date.now()+350;
+}
+function detailDown(e){
+  if(e.pointerType==="mouse"&&e.button!==0)return;
+  const el=e.currentTarget;
+  if(el&&el.setPointerCapture){try{el.setPointerCapture(e.pointerId);}catch(_){}}
+  detailSwipeState={sx:e.clientX,sy:e.clientY,mode:null};
+}
+function detailMove(e){
+  const s=detailSwipeState;if(!s)return;
+  const dx=e.clientX-s.sx,dy=e.clientY-s.sy;
+  if(s.mode===null){
+    if(Math.hypot(dx,dy)<8)return;
+    if(Math.abs(dx)>Math.abs(dy)){s.mode="swipe";}
+    else{s.mode="scroll";const el=e.currentTarget;if(el&&el.releasePointerCapture){try{el.releasePointerCapture(e.pointerId);}catch(_){}}return;}
+  }
+  if(s.mode==="swipe"&&e.cancelable)e.preventDefault();
+}
+function detailUp(e){
+  const s=detailSwipeState;detailSwipeState=null;
+  if(!s||s.mode!=="swipe")return;
+  const dx=e.clientX-s.sx;
+  if(Math.abs(dx)>56){
+    suppressClickUntil=Date.now()+400;
+    swipeDetail(dx<0?1:-1);
+  }
+}
+function detailCancel(){detailSwipeState=null;}
 function openDetail(word, back){
   if(Date.now()<suppressClickUntil)return;
   const w=WORDS.find(x=>x.word===word);if(!w)return;
@@ -1589,13 +1649,18 @@ function openDetail(word, back){
   const masteredOn=c&&c.masteredOn?c.masteredOn:"—";
   const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="reTag('${esc(w.word)}','${esc(x)}','${backFn}')">${esc(x)}</div>`).join("");
   const fav=isFav(w);
+  const ctxList=detailCtxFor(backFn);
+  const ctxIdx=ctxList.findIndex(x=>x.word===word);
+  detailBack=backFn;
+  if(ctxIdx>=0&&ctxList.length>1){detailWords=ctxList.map(x=>x.word);detailIdx=ctxIdx;}
+  else{detailWords=[];detailIdx=-1;}
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="${backFn}()">← 返回</button>
       <div class="t" style="margin-right:0">单词详情</div>
-      <button class="favbtn ${fav?"on":""}" onclick="toggleFav('${esc(w.word)}');openDetail('${esc(w.word)}','${backFn}')">${fav?"★":"☆"}</button>
     </div>
-    <div class="qcard">
+    <div class="qcard detailcard" onpointerdown="detailDown(event)" onpointermove="detailMove(event)" onpointerup="detailUp(event)" onpointercancel="detailCancel(event)">
+      <button class="card-fav ${fav?"on":""}" onclick="event.stopPropagation();toggleFav('${esc(w.word)}');openDetail('${esc(w.word)}','${backFn}')">${fav?"★":"☆"}</button>
       <div class="qword" style="font-size:30px">${esc(w.word)}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
@@ -1606,16 +1671,13 @@ function openDetail(word, back){
       <button class="btn" style="margin:4px 0 10px" onclick="renderSources('${esc(w.word)}','${backFn}')">📚 其他源自${srcCount>0?` · ${srcCount} 处语境`:""}</button>
       <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(catOf(w))} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
       <div class="tagsec">
-        <div class="k" style="color:var(--muted);font-size:12px;margin-bottom:8px">🏷️ 单词本 · 点按改分类</div>
         <div class="chips">${tags}</div>
       </div>
-    </div>
-    <div class="group-actions">
-      <button class="btn primary" onclick="learnThis('${esc(w.word)}')">📖 学习</button>
-      <button class="btn" onclick="reviewThis('${esc(w.word)}')">🔁 复习</button>
-    </div>
-    <div class="group-actions">
-      <button class="btn warn" onclick="delWord('${esc(w.word)}','${backFn}')">🗑️ 删除单词</button>
+      <div class="card-actions">
+        <button class="cardbtn" onclick="learnThis('${esc(w.word)}')">📖 学习</button>
+        <button class="cardbtn" onclick="reviewThis('${esc(w.word)}')">🔁 复习</button>
+        <button class="cardbtn warn" onclick="delWord('${esc(w.word)}','${backFn}')">🗑️ 删除</button>
+      </div>
     </div>`;
 }
 function delWord(word, back){
