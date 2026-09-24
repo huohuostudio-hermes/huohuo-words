@@ -710,7 +710,7 @@ function renderGraph(){
   const w=gCanvasW,h=gCanvasH;
   gCtx.clearRect(0,0,w,h);
   const cx=w/2, cy=h/2;
-  const Rpx=Math.min(w,h)*0.36*gK;
+  const Rpx=Math.min(w,h)*0.46*gK;
   const P=gSph.map(p=>{
     const q=matVec(gRot,p);
     const f=GF/(GF-q.z);
@@ -741,7 +741,8 @@ function renderGraph(){
     }
     const la = sel ? 1 : reveal*Math.max(0, Math.min(1, (p.depth-0.28)/0.5));
     if(la>0.03){
-      const fs=Math.max(9,Math.min(26,13*p.factor*Math.sqrt(gK)));
+      const base=gWords.length>200?10:gWords.length>100?12:gWords.length>30?13:15;
+      const fs=Math.max(8,Math.min(20,base*p.factor*Math.sqrt(gK)));
       gCtx.globalAlpha=Math.min(1, la);
       gCtx.font="600 "+fs.toFixed(1)+'px -apple-system,"PingFang SC",sans-serif';
       gCtx.textAlign="center";gCtx.textBaseline="top";
@@ -800,7 +801,7 @@ function updateCaption(){
 }
 function trackballVec(x,y){
   const cx=gCanvasW/2, cy=gCanvasH/2;
-  const Rpx=Math.min(gCanvasW,gCanvasH)*0.36;
+  const Rpx=Math.min(gCanvasW,gCanvasH)*0.46;
   let tx=(x-cx)/Rpx, ty=-(y-cy)/Rpx;
   const d2=tx*tx+ty*ty; let tz;
   if(d2<=1)tz=Math.sqrt(1-d2); else {const d=Math.sqrt(d2);tx/=d;ty/=d;tz=0;}
