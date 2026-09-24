@@ -293,19 +293,22 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .pcard.in{animation:deckIn .28s ease-out}
 .pc-word{position:relative;z-index:1;font-size:34px;font-weight:800;color:var(--accent2);letter-spacing:1px;text-shadow:0 0 14px rgba(230,184,74,.5)}
 .pc-ipa{position:relative;z-index:1;font-size:16px;color:var(--muted);margin-top:12px}
-.pc-corner{position:absolute;display:flex;align-items:center;gap:3px;font-size:20px;color:var(--accent2);font-weight:700;z-index:2}
+.pc-corner{position:absolute;display:flex;flex-direction:column;align-items:center;line-height:1;color:var(--accent2);font-weight:700;z-index:2}
 .pc-corner.tl{top:12px;left:14px}
-.pc-corner.br{bottom:12px;right:14px}
+.pc-corner.br{bottom:12px;right:14px;transform:rotate(180deg)}
 .pc-corner.tr{top:12px;right:14px}
-.pc-corner.bl{bottom:12px;left:14px}
-.pc-suit{font-size:22px}
+.pc-corner.bl{bottom:12px;left:14px;transform:rotate(180deg)}
+.pc-fire{font-size:18px;line-height:1}
+.pc-suit{font-size:14px;line-height:1;margin-top:2px}
 .pc-suit-bg{position:absolute;inset:0;display:grid;place-items:center;font-size:118px;color:var(--accent2);opacity:.13;pointer-events:none;z-index:0}
 .pcard-back .pc-backword,.pcard-back .pc-backipa,.pcard-back .pc-zh,.pcard-back .pc-def,.pcard-back .speakrow{position:relative;z-index:1}
 .pc-backword{font-size:26px;font-weight:800;color:var(--accent2);text-shadow:0 0 12px rgba(230,184,74,.4)}
 .pc-backipa{font-size:14px;color:var(--muted);margin-top:4px}
 .pc-zh{font-size:16px;color:var(--text);margin-top:10px;font-weight:600}
 .pc-def{font-size:12px;color:var(--muted);margin-top:8px;text-align:center;line-height:1.55;max-height:74px;overflow:hidden}
-.pc-actions{position:absolute;left:12px;right:12px;bottom:10px;z-index:2;display:flex;gap:6px;justify-content:center;align-items:center}
+.pc-detail{position:relative;z-index:1;margin-top:12px;display:inline-flex;align-items:center;gap:4px;border:1px solid var(--accent);background:rgba(230,184,74,.08);color:var(--accent2);border-radius:999px;padding:5px 14px;font-size:12px;font-weight:700;cursor:pointer}
+.pc-detail:active{opacity:.7}
+.pc-actions{position:absolute;left:12px;right:12px;bottom:54px;z-index:2;display:flex;gap:6px;justify-content:center;align-items:center}
 .pc-actions .btn{font-size:10px;padding:6px 8px;white-space:nowrap;flex:0 1 auto;width:auto;margin:0;display:inline-flex;align-items:center;justify-content:center;gap:3px;border:1.5px solid var(--accent);background:#0a0a0a;color:var(--text);border-radius:10px;font-weight:600}
 .pc-actions .btn.primary{background:#0a0a0a;color:var(--accent2);box-shadow:none;border-color:var(--accent)}
 .pc-actions .btn.warn{color:var(--accent2);border-color:var(--accent);background:#0a0a0a}
@@ -1961,20 +1964,21 @@ function renderDeckCard(animate){
   if(!stage||!c)return;
   const w=c.w, suit=c.suit, fav=isFav(w);
   const front=`<div class="pcard-face pcard-front">
-      <div class="pc-corner tl">🔥<span class="pc-suit">${suit}</span></div>
-      <div class="pc-corner br">🔥<span class="pc-suit">${suit}</span></div>
+      <div class="pc-corner tl"><span class="pc-fire">🔥</span><span class="pc-suit">${suit}</span></div>
+      <div class="pc-corner br"><span class="pc-fire">🔥</span><span class="pc-suit">${suit}</span></div>
       <div class="pc-suit-bg">${suit}</div>
       <div class="pc-word">${esc(w.word)}</div>
       <div class="pc-ipa">${w.ipa?esc(w.ipa):""}</div>
     </div>`;
   const back=`<div class="pcard-face pcard-back">
-      <div class="pc-corner tr">🔥<span class="pc-suit">${suit}</span></div>
-      <div class="pc-corner bl">🔥<span class="pc-suit">${suit}</span></div>
+      <div class="pc-corner tr"><span class="pc-fire">🔥</span><span class="pc-suit">${suit}</span></div>
+      <div class="pc-corner bl"><span class="pc-fire">🔥</span><span class="pc-suit">${suit}</span></div>
       <div class="pc-suit-bg">${suit}</div>
       <div class="pc-backword">${esc(w.word)}</div>
       <div class="pc-backipa">${w.ipa?esc(w.ipa):""}</div>
       <div class="speakrow" style="margin:8px 0 4px"><button class="speak" onclick="event.stopPropagation();${speakArg(w)}">🔊</button></div>
       <div class="pc-zh">${esc(w.zh||"")}</div>
+      <button class="pc-detail" onclick="event.stopPropagation();deckDetail('${esc(w.word)}')">📖 详情 ›</button>
       ${w.def?`<div class="pc-def">${esc(w.def)}</div>`:""}
       <div class="pc-actions">
         <button class="btn primary" onclick="event.stopPropagation();deckLearn('${esc(w.word)}')">📖 学习</button>
@@ -2009,6 +2013,7 @@ function deckGo(dir){
   renderDeckCard(true);
 }
 function deckLearn(word){ closeDeck(); learnThis(word); }
+function deckDetail(word){ closeDeck(); openDetail(word, "renderMenu"); }
 function deckFav(word){ toggleFav(word); if(cardDeck)renderDeckCard(false); }
 function deckReview(word){ closeDeck(); reviewThis(word); }
 function delWordDeck(word){
