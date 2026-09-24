@@ -2951,6 +2951,162 @@ window.WORDS = [
     "id": 227
   },
   {
+    "word": "But",
+    "ipa": "",
+    "translit": "",
+    "zh": "但是 / 却",
+    "def": "表示转折的连词，用于对比前后两个看似矛盾的描述。",
+    "example": "例子：简单却复杂。",
+    "context": "Clean But Nasty",
+    "contextZh": "干净却凶狠",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 228
+  },
+  {
+    "word": "Nasty",
+    "ipa": "",
+    "translit": "",
+    "zh": "凶狠的 / 脏猛的",
+    "def": "形容音色带有侵略性、粗粝感或强烈的冲击力，常带褒义地描述重音色。",
+    "example": "例子：失真吉他发出刺耳而充满攻击性的咆哮声。",
+    "context": "Clean But Nasty",
+    "contextZh": "干净却凶狠",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 229
+  },
+  {
+    "word": "Chase The Sun",
+    "ipa": "",
+    "translit": "",
+    "zh": "追逐太阳",
+    "def": "一个富有动感的短语，常用于音乐作品中表达积极向上、追求光明的主题。",
+    "example": "例子：一首电子舞曲的曲名，传达在日出时分的狂欢氛围。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 230
+  },
+  {
+    "word": "Clean as a Whistle",
+    "ipa": "",
+    "translit": "",
+    "zh": "一尘不染 / 非常干净",
+    "def": "形容极其干净、毫无瑕疵的状态，在音乐语境中常指音色纯净无杂音。",
+    "example": "例子：形容一段吉他录音没有任何底噪或失真，听起来清澈透亮。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 231
+  },
+  {
+    "word": "Dirge Lead",
+    "ipa": "",
+    "translit": "",
+    "zh": "挽歌主音",
+    "def": "指带有哀悼、悲伤色彩的主音旋律或主音音色，通常用于营造沉重压抑的氛围。",
+    "example": "例子：在一首哥特金属歌曲中，主音吉他以缓慢低沉的旋律演奏挽歌式的乐句。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 232
+  },
+  {
+    "word": "Dynamic Clean",
+    "ipa": "",
+    "translit": "",
+    "zh": "动态清音",
+    "def": "指在演奏清音（无失真）时具有丰富动态响应的音色，力度变化能明显影响音量和音色。",
+    "example": "例子：吉他手轻拨时声音柔和，重拨时声音明亮有力，体现清音的高动态表现。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 233
+  },
+  {
+    "word": "Expression Face",
+    "ipa": "",
+    "translit": "",
+    "zh": "表情面板 / 表情控制面",
+    "def": "指设备上用于控制表情（如音量、音色变化）的操作界面或面板，常见于电子乐器。",
+    "example": "例子：合成器上的表情面板包含调制轮和表情踏板接口，用于实时改变声音表现。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 234
+  },
+  {
+    "word": "Frothy",
+    "ipa": "",
+    "translit": "",
+    "zh": "泡沫般的 / 轻盈飘逸的",
+    "def": "形容声音或音乐轻盈、蓬松、如泡沫般飘逸的质感，常带有愉悦轻快的意味。",
+    "example": "例子：一首流行歌曲中合成器铺底音色轻盈绵密，像泡沫一样漂浮在混音上层。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 235
+  },
+  {
+    "word": "Harmonic Punch",
+    "ipa": "",
+    "translit": "",
+    "zh": "谐波冲击力",
+    "def": "指声音中谐波成分带来的强劲冲击感和穿透力，使音色在混音中更具攻击性和存在感。",
+    "example": "例子：失真吉他的强力和弦因丰富的谐波而产生强烈的冲击力，能穿透密集的混音。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 236
+  },
+  {
+    "word": "Long Black",
+    "ipa": "",
+    "translit": "",
+    "zh": "长黑咖啡",
+    "def": "一种咖啡饮品，由浓缩咖啡加热水制成，口感浓郁但不加奶。",
+    "example": "例子：在咖啡馆点一杯长黑咖啡，即双份浓缩加热水，风味醇厚。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 237
+  },
+  {
+    "word": "My Queen",
+    "ipa": "",
+    "translit": "",
+    "zh": "我的女王",
+    "def": "对心爱女性的尊称或昵称，表达崇敬与爱慕之情。",
+    "example": "例子：一首情歌的标题，歌词中反复呼唤\"My Queen\"以表达深情。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 238
+  },
+  {
+    "word": "Smooth With Cream",
+    "ipa": "",
+    "translit": "",
+    "zh": "丝滑加奶油 / 柔滑带奶香",
+    "def": "形容口感或音色如奶油般丝滑柔顺，带有温暖圆润的质感。",
+    "example": "例子：形容一段爵士萨克斯的音色温暖柔滑，像加了奶油的咖啡般令人陶醉。",
+    "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 239
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -2961,7 +3117,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 228
+    "id": 240
   },
   {
     "word": "Conga",
@@ -2974,7 +3130,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 229
+    "id": 241
   },
   {
     "word": "Percussion",
@@ -2987,7 +3143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 230
+    "id": 242
   },
   {
     "word": "Grooves",
@@ -3000,7 +3156,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 231
+    "id": 243
   },
   {
     "word": "Bongos",
@@ -3013,7 +3169,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 232
+    "id": 244
   },
   {
     "word": "Woodblock",
@@ -3026,7 +3182,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 233
+    "id": 245
   },
   {
     "word": "Djembe",
@@ -3039,7 +3195,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 234
+    "id": 246
   },
   {
     "word": "Tambourine",
@@ -3052,7 +3208,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 235
+    "id": 247
   },
   {
     "word": "Cowbells",
@@ -3065,7 +3221,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 236
+    "id": 248
   },
   {
     "word": "Bells",
@@ -3078,7 +3234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 237
+    "id": 249
   },
   {
     "word": "Timbales",
@@ -3091,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 238
+    "id": 250
   },
   {
     "word": "Keys",
@@ -3104,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 239
+    "id": 251
   },
   {
     "word": "Piano",
@@ -3117,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 240
+    "id": 252
   },
   {
     "word": "Wurlitzer",
@@ -3130,7 +3286,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 241
+    "id": 253
   },
   {
     "word": "Electric Piano",
@@ -3143,7 +3299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 242
+    "id": 254
   },
   {
     "word": "Organ",
@@ -3156,7 +3312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 243
+    "id": 255
   },
   {
     "word": "Clavinet",
@@ -3169,7 +3325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 244
+    "id": 256
   },
   {
     "word": "Keys Melody",
@@ -3182,7 +3338,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 245
+    "id": 257
   },
   {
     "word": "Classical",
@@ -3195,7 +3351,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 246
+    "id": 258
   },
   {
     "word": "Female Vocals",
@@ -3208,7 +3364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 247
+    "id": 259
   },
   {
     "word": "Vocal FX",
@@ -3221,7 +3377,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 248
+    "id": 260
   },
   {
     "word": "Vocoder",
@@ -3234,7 +3390,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 249
+    "id": 261
   },
   {
     "word": "Screams",
@@ -3247,7 +3403,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 250
+    "id": 262
   },
   {
     "word": "Whisper Vocals",
@@ -3260,7 +3416,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 251
+    "id": 263
   },
   {
     "word": "Male Vocals",
@@ -3273,7 +3429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 252
+    "id": 264
   },
   {
     "word": "Spoken Word",
@@ -3286,7 +3442,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 253
+    "id": 265
   },
   {
     "word": "Vocal Phrases",
@@ -3299,7 +3455,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 254
+    "id": 266
   },
   {
     "word": "Vocal Shouts",
@@ -3312,7 +3468,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 255
+    "id": 267
   },
   {
     "word": "Dialogue",
@@ -3325,7 +3481,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 256
+    "id": 268
   }
 ];
 window.SOURCES = [
@@ -3978,6 +4134,74 @@ window.SOURCES = [
       {
         "word": "Clean",
         "zh": "干净的 / 清音的"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Clean But Nasty",
+    "translation": "干净却凶狠",
+    "category": "",
+    "branches": [
+      {
+        "word": "Clean",
+        "zh": "干净的 / 清音的"
+      },
+      {
+        "word": "But",
+        "zh": "但是 / 却"
+      },
+      {
+        "word": "Nasty",
+        "zh": "凶狠的 / 脏猛的"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
+    "translation": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Chase The Sun",
+        "zh": "追逐太阳"
+      },
+      {
+        "word": "Clean as a Whistle",
+        "zh": "一尘不染 / 非常干净"
+      },
+      {
+        "word": "Dirge Lead",
+        "zh": "挽歌主音"
+      },
+      {
+        "word": "Dynamic Clean",
+        "zh": "动态清音"
+      },
+      {
+        "word": "Expression Face",
+        "zh": "表情面板 / 表情控制面"
+      },
+      {
+        "word": "Frothy",
+        "zh": "泡沫般的 / 轻盈飘逸的"
+      },
+      {
+        "word": "Harmonic Punch",
+        "zh": "谐波冲击力"
+      },
+      {
+        "word": "Long Black",
+        "zh": "长黑咖啡"
+      },
+      {
+        "word": "My Queen",
+        "zh": "我的女王"
+      },
+      {
+        "word": "Smooth With Cream",
+        "zh": "丝滑加奶油 / 柔滑带奶香"
       }
     ]
   }
