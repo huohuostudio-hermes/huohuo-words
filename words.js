@@ -3484,6 +3484,162 @@ window.WORDS = [
     "id": 268
   },
   {
+    "word": "reverb effect",
+    "ipa": "rɪˈvɜːrb ɪˈfɛkt",
+    "translit": "",
+    "zh": "混响效果",
+    "def": "通过模拟声音在空间中的反射，让声音听起来像是在某个房间里发出。",
+    "example": "例子：给鼓组加一点混响效果，让它听起来像是在大教堂里演奏。",
+    "context": "We applied a Lexicon Pro reverb effect to give the backing voice a sense of infinite space.",
+    "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 269
+  },
+  {
+    "word": "backing voice",
+    "ipa": "ˈbækɪŋ vɔɪs",
+    "translit": "",
+    "zh": "伴唱人声 / 背景人声",
+    "def": "指在主唱后面提供和声或衬托的人声部分。",
+    "example": "例子：副歌部分加入伴唱人声，让整体听起来更饱满。",
+    "context": "We applied a Lexicon Pro reverb effect to give the backing voice a sense of infinite space.",
+    "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 270
+  },
+  {
+    "word": "sense of infinite space",
+    "ipa": "",
+    "translit": "",
+    "zh": "无限空间感",
+    "def": "形容声音听起来开阔、深远，仿佛没有边界。",
+    "example": "例子：用长混响时间营造出无限空间感，像是站在空旷的山谷里。",
+    "context": "We applied a Lexicon Pro reverb effect to give the backing voice a sense of infinite space.",
+    "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 271
+  },
+  {
+    "word": "vocal chops",
+    "ipa": "",
+    "translit": "",
+    "zh": "人声切片",
+    "def": "指将人声录音切割成短小片段后重新编排，用作节奏或旋律元素的制作手法，常见于电子音乐和流行音乐。",
+    "example": "例子：把一段女声“ah”切成十六分音符的短促片段，排列成有节奏感的旋律。",
+    "context": "You can find excellent vocal chops by searching for specific voice tags on Splice.",
+    "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 272
+  },
+  {
+    "word": "voice tags",
+    "ipa": "",
+    "translit": "",
+    "zh": "人声标签",
+    "def": "指音频素材库中用于标注人声类型、风格或特征的分类关键词，方便检索和筛选。",
+    "example": "例子：在 Splice 上搜索“female vocal”或“chopped vocal”等标签来定位素材。",
+    "context": "You can find excellent vocal chops by searching for specific voice tags on Splice.",
+    "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
+    "category": "人声",
+    "source": "小赫转存",
+    "id": 273
+  },
+  {
+    "word": "Splice",
+    "ipa": "",
+    "translit": "",
+    "zh": "Splice（音频素材平台）",
+    "def": "一个提供采样、循环和音色素材的订阅制在线平台，广泛用于电子音乐和流行音乐制作。",
+    "example": "例子：制作人在 Splice 上试听并下载一段人声 loop 用于自己的工程。",
+    "context": "You can find excellent vocal chops by searching for specific voice tags on Splice.",
+    "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 274
+  },
+  {
+    "word": "Adjusting",
+    "ipa": "əˈdʒʌstɪŋ",
+    "translit": "",
+    "zh": "调节 / 调整",
+    "def": "指改变某个参数或设置，使其达到所需状态。",
+    "example": "例子：调节均衡器的增益，让高频更明亮。",
+    "context": "Adjusting the formant control will alter the character of the synthetic voice without",
+    "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 275
+  },
+  {
+    "word": "formant control",
+    "ipa": "",
+    "translit": "",
+    "zh": "共振峰控制",
+    "def": "用于调整声音中共振峰位置或强度的参数，常见于声码器、语音合成器和人声处理插件。",
+    "example": "例子：在声码器上转动 Formant 旋钮，可让声音从低沉变得尖细。",
+    "context": "Adjusting the formant control will alter the character of the synthetic voice without",
+    "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 276
+  },
+  {
+    "word": "alter",
+    "ipa": "ˈɔːltər",
+    "translit": "",
+    "zh": "改变 / 更改",
+    "def": "指使某事物的性质、状态或特征发生变化。",
+    "example": "例子：改变滤波器的截止频率会 alter 音色的明暗。",
+    "context": "Adjusting the formant control will alter the character of the synthetic voice without",
+    "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 277
+  },
+  {
+    "word": "character",
+    "ipa": "ˈkærəktər",
+    "translit": "",
+    "zh": "特性 / 音色特征",
+    "def": "指声音在音质、音色上的独特性质或整体感觉。",
+    "example": "例子：电子管前置放大器给声音增添温暖的 character。",
+    "context": "Adjusting the formant control will alter the character of the synthetic voice without",
+    "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 278
+  },
+  {
+    "word": "synthetic voice",
+    "ipa": "",
+    "translit": "",
+    "zh": "合成语音 / 合成人声",
+    "def": "由电子设备或软件算法生成的人声，而非真人录制。",
+    "example": "例子：声码器输出的 synthetic voice 带有明显的机械感。",
+    "context": "Adjusting the formant control will alter the character of the synthetic voice without",
+    "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 279
+  },
+  {
+    "word": "without",
+    "ipa": "",
+    "translit": "",
+    "zh": "而不 / 无需",
+    "def": "表示在没有某事物或不做某动作的情况下。",
+    "example": "例子：可以在不改变音高的前提下调整共振峰。",
+    "context": "Adjusting the formant control will alter the character of the synthetic voice without",
+    "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 280
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -3494,7 +3650,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 269
+    "id": 281
   },
   {
     "word": "Conga",
@@ -3507,7 +3663,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 270
+    "id": 282
   },
   {
     "word": "Percussion",
@@ -3520,7 +3676,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 271
+    "id": 283
   },
   {
     "word": "Grooves",
@@ -3533,7 +3689,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 272
+    "id": 284
   },
   {
     "word": "Bongos",
@@ -3546,7 +3702,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 273
+    "id": 285
   },
   {
     "word": "Woodblock",
@@ -3559,7 +3715,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 274
+    "id": 286
   },
   {
     "word": "Djembe",
@@ -3572,7 +3728,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 275
+    "id": 287
   },
   {
     "word": "Tambourine",
@@ -3585,7 +3741,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 276
+    "id": 288
   },
   {
     "word": "Cowbells",
@@ -3598,7 +3754,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 277
+    "id": 289
   },
   {
     "word": "Bells",
@@ -3611,7 +3767,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 278
+    "id": 290
   },
   {
     "word": "Timbales",
@@ -3624,7 +3780,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 279
+    "id": 291
   },
   {
     "word": "Keys",
@@ -3637,7 +3793,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 280
+    "id": 292
   },
   {
     "word": "Piano",
@@ -3650,7 +3806,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 281
+    "id": 293
   },
   {
     "word": "Wurlitzer",
@@ -3663,7 +3819,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 282
+    "id": 294
   },
   {
     "word": "Electric Piano",
@@ -3676,7 +3832,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 283
+    "id": 295
   },
   {
     "word": "Organ",
@@ -3689,7 +3845,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 284
+    "id": 296
   },
   {
     "word": "Clavinet",
@@ -3702,7 +3858,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 285
+    "id": 297
   },
   {
     "word": "Keys Melody",
@@ -3715,7 +3871,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 286
+    "id": 298
   },
   {
     "word": "Classical",
@@ -3728,7 +3884,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 287
+    "id": 299
   },
   {
     "word": "Female Vocals",
@@ -3741,7 +3897,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 288
+    "id": 300
   },
   {
     "word": "Vocal FX",
@@ -3754,7 +3910,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 289
+    "id": 301
   },
   {
     "word": "Vocoder",
@@ -3767,7 +3923,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 290
+    "id": 302
   },
   {
     "word": "Screams",
@@ -3780,7 +3936,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 291
+    "id": 303
   },
   {
     "word": "Whisper Vocals",
@@ -3793,7 +3949,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 292
+    "id": 304
   },
   {
     "word": "Male Vocals",
@@ -3806,7 +3962,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 293
+    "id": 305
   },
   {
     "word": "Spoken Word",
@@ -3819,7 +3975,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 294
+    "id": 306
   },
   {
     "word": "Vocal Phrases",
@@ -3832,7 +3988,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 295
+    "id": 307
   },
   {
     "word": "Vocal Shouts",
@@ -3845,7 +4001,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 296
+    "id": 308
   },
   {
     "word": "Dialogue",
@@ -3858,7 +4014,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 297
+    "id": 309
   }
 ];
 window.SOURCES = [
@@ -4775,6 +4931,82 @@ window.SOURCES = [
       {
         "word": "dense mix",
         "zh": "密集的混音"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "We applied a Lexicon Pro reverb effect to give the backing voice a sense of infinite space.",
+    "translation": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Lexicon Pro",
+        "zh": "Lexicon Pro 混响器"
+      },
+      {
+        "word": "reverb effect",
+        "zh": "混响效果"
+      },
+      {
+        "word": "backing voice",
+        "zh": "伴唱人声 / 背景人声"
+      },
+      {
+        "word": "sense of infinite space",
+        "zh": "无限空间感"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "You can find excellent vocal chops by searching for specific voice tags on Splice.",
+    "translation": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
+    "category": "",
+    "branches": [
+      {
+        "word": "vocal chops",
+        "zh": "人声切片"
+      },
+      {
+        "word": "voice tags",
+        "zh": "人声标签"
+      },
+      {
+        "word": "Splice",
+        "zh": "Splice（音频素材平台）"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "Adjusting the formant control will alter the character of the synthetic voice without",
+    "translation": "调节共振峰控制会改变合成语音的特性，而不会……",
+    "category": "",
+    "branches": [
+      {
+        "word": "Adjusting",
+        "zh": "调节 / 调整"
+      },
+      {
+        "word": "formant control",
+        "zh": "共振峰控制"
+      },
+      {
+        "word": "alter",
+        "zh": "改变 / 更改"
+      },
+      {
+        "word": "character",
+        "zh": "特性 / 音色特征"
+      },
+      {
+        "word": "synthetic voice",
+        "zh": "合成语音 / 合成人声"
+      },
+      {
+        "word": "without",
+        "zh": "而不 / 无需"
       }
     ]
   }
