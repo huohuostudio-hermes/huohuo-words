@@ -2912,264 +2912,121 @@ window.WORDS = [
     "id": 224
   },
   {
-    "word": "signal-processing",
-    "ipa": "",
-    "translit": "",
-    "zh": "信号处理",
-    "def": "对音频、图像等信号进行变换、分析与修改的技术过程。",
-    "example": "例子：用压缩器降低音频信号的动态范围。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 225
-  },
-  {
-    "word": "compression",
-    "ipa": "kəmˈprɛʃən",
-    "translit": "",
-    "zh": "压缩",
-    "def": "在音频中，指降低信号动态范围、使响的部分变轻、轻的部分相对变响的处理。",
-    "example": "例子：人声轨加压缩后，音量更稳定，不容易忽大忽小。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 226
-  },
-  {
-    "word": "postproduction",
-    "ipa": "",
-    "translit": "",
-    "zh": "后期制作",
-    "def": "录制完成之后进行的编辑、混音、修复、母带等处理阶段。",
-    "example": "例子：电影对白在后期制作中加入压缩和均衡。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 227
-  },
-  {
-    "word": "formats",
-    "ipa": "",
-    "translit": "",
-    "zh": "格式",
-    "def": "指插件或音频处理所支持的不同技术形式、标准或呈现方式。",
-    "example": "例子：VST、AU、AAX 是常见的音频插件格式。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 228
-  },
-  {
-    "word": "flavors",
-    "ipa": "",
-    "translit": "",
-    "zh": "类型 / 风格",
-    "def": "指同一类工具的不同声音取向或设计变体。",
-    "example": "例子：不同压缩器有偏“透明”或偏“染色”的风格。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 229
-  },
-  {
-    "word": "designs",
-    "ipa": "",
-    "translit": "",
-    "zh": "设计",
-    "def": "指设备或软件在算法、界面、电路思路等方面的整体构造方式。",
-    "example": "例子：有的压缩器采用前馈设计，有的采用反馈设计。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 230
-  },
-  {
-    "word": "quirkiness",
-    "ipa": "",
-    "translit": "",
-    "zh": "古怪特性 / 个性",
-    "def": "指某些设备或插件不完全标准、但很有辨识度的行为或声音特点。",
-    "example": "例子：老式压缩器可能会有独特的时间响应和染色。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 231
-  },
-  {
-    "word": "FabFilter Pro-C 2",
-    "ipa": "",
-    "translit": "",
-    "zh": "FabFilter Pro-C 2",
-    "def": "这是 FabFilter 公司推出的一款专业压缩器插件。",
-    "example": "例子：在混音工程中，Pro-C 2 常用于人声、鼓组和总线压缩。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "合成器",
-    "source": "小赫转存",
-    "id": 232
-  },
-  {
-    "word": "sounding",
-    "ipa": "",
-    "translit": "",
-    "zh": "发声的 / 声音表现的",
-    "def": "用来描述设备或插件听起来的效果和音质特征。",
-    "example": "例子：这是一款声音表现很好的压缩器。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 233
-  },
-  {
-    "word": "superb",
-    "ipa": "",
-    "translit": "",
-    "zh": "极好的 / 卓越的",
-    "def": "表示质量、性能或听感非常出色。",
-    "example": "例子：这款插件在立体声处理方面表现卓越。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 234
-  },
-  {
-    "word": "stereo compressor",
-    "ipa": "",
-    "translit": "",
-    "zh": "立体声压缩器",
-    "def": "能同时处理左右声道，并可保持立体声成像的压缩器。",
-    "example": "例子：混音总线常用立体声压缩器来粘合整体声音。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 235
-  },
-  {
-    "word": "tricks up its sleeve",
-    "ipa": "",
-    "translit": "",
-    "zh": "有各种本领 / 暗藏绝招",
-    "def": "表示某个工具具备许多实用功能或隐藏能力。",
-    "example": "例子：这款压缩器看似简单，实际上有很多可用功能。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 236
-  },
-  {
     "word": "compression styles",
     "ipa": "",
     "translit": "",
     "zh": "压缩风格",
-    "def": "指压缩器提供的不同工作模式或声音取向。",
-    "example": "例子：Clean、Classic、Opto 等风格适合不同素材。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "def": "指压缩器处理音频动态时采用的不同工作方式或算法特性。",
+    "example": "例子：不同压缩风格可表现为更平滑或更激进的动态控制。",
+    "context": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
     "category": "其他",
     "source": "小赫转存",
-    "id": 237
+    "id": 225
   },
   {
     "word": "mid/side compression",
     "ipa": "",
     "translit": "",
     "zh": "中侧压缩",
-    "def": "分别对立体声的中置成分和两侧成分进行压缩处理。",
-    "example": "例子：中侧压缩可以控制人声，同时保留宽广的立体声空间。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "def": "一种分别对立体声信号的中置成分和两侧成分进行压缩处理的方式。",
+    "example": "例子：对中置人声和两侧乐器分别设定不同压缩量，以更精细地控制立体声动态。",
+    "context": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
     "category": "其他",
     "source": "小赫转存",
-    "id": 238
+    "id": 226
   },
   {
     "word": "side-chaining",
     "ipa": "",
     "translit": "",
     "zh": "侧链",
-    "def": "用另一个信号来触发压缩器动作的处理方式。",
-    "example": "例子：用底鼓触发贝斯压缩，让贝斯在底鼓出现时自动避让。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "def": "用另一路信号触发压缩器动作的技术，常用于让一个声音为另一个声音让出空间。",
+    "example": "例子：用底鼓触发贝斯压缩，使每次底鼓响起时贝斯自动降低音量。",
+    "context": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
     "category": "其他",
     "source": "小赫转存",
-    "id": 239
+    "id": 227
   },
   {
-    "word": "EQ filtering",
+    "word": "optional EQ filtering",
     "ipa": "",
     "translit": "",
-    "zh": "均衡滤波",
-    "def": "用均衡器对特定频段进行提升、衰减或过滤。",
-    "example": "例子：在侧链信号前加均衡滤波，只让低频触发压缩。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "zh": "可选均衡滤波",
+    "def": "指侧链或压缩处理中可额外启用的均衡滤波功能，用于改变触发信号或处理信号的频率内容。",
+    "example": "例子：在侧链信号进入压缩器前切掉低频，避免低频过度触发压缩。",
+    "context": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
     "category": "合成器",
     "source": "小赫转存",
-    "id": 240
+    "id": 228
   },
   {
     "word": "mastering",
     "ipa": "",
     "translit": "",
     "zh": "母带处理",
-    "def": "音乐制作最后阶段的整体优化与标准化处理。",
-    "example": "例子：母带处理中常用轻微压缩来增加响度和凝聚力。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "def": "音乐制作最后阶段的整体处理流程，用于平衡、润色并统一整张作品的声音。",
+    "example": "例子：在发行前对整张专辑做响度、动态和音色的一致性处理。",
+    "context": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
     "category": "其他",
     "source": "小赫转存",
-    "id": 241
+    "id": 229
   },
   {
     "word": "mixing",
     "ipa": "",
     "translit": "",
     "zh": "混音",
-    "def": "把多轨录音平衡、处理和组合成立体声或多声道成品的过程。",
-    "example": "例子：混音时常用压缩控制人声动态。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "def": "将多轨录音素材进行音量、声像、动态和效果处理，组合成完整立体声作品的过程。",
+    "example": "例子：把人声、鼓、贝斯和吉他调整到彼此平衡并形成清晰层次。",
+    "context": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
     "category": "其他",
     "source": "小赫转存",
-    "id": 242
+    "id": 230
+  },
+  {
+    "word": "Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "Pro-C 2",
+    "def": "这里指一款压缩器插件或音频处理器的名称。",
+    "example": "例子：在混音工程中加载 Pro-C 2 来控制人声动态。",
+    "context": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 231
   },
   {
     "word": "version 2",
     "ipa": "",
     "translit": "",
     "zh": "版本 2",
-    "def": "指软件的第二个主要版本，通常包含更新和改进。",
-    "example": "例子：Pro-C 2 的版本 2 带来了新的界面和功能。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "def": "指软件或产品的第二个主要版本，通常包含更新、改进或新增功能。",
+    "example": "例子：Pro-C 2 的 version 2 带来新的界面和功能更新。",
+    "context": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
     "category": "其他",
     "source": "小赫转存",
-    "id": 243
+    "id": 232
   },
   {
     "word": "brand new look",
     "ipa": "",
     "translit": "",
     "zh": "全新外观",
-    "def": "指界面或视觉设计发生了明显更新。",
-    "example": "例子：第一次打开 Pro-C 2 时，会看到全新的界面设计。",
-    "context": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "contextZh": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "def": "指界面或视觉设计发生了明显更新，呈现出全新的样式。",
+    "example": "例子：第一次打开插件时，会发现它的面板、配色和布局都变了。",
+    "context": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "contextZh": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
     "category": "其他",
     "source": "小赫转存",
-    "id": 244
+    "id": 233
   },
   {
     "word": "Shakers",
@@ -3182,7 +3039,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 245
+    "id": 234
   },
   {
     "word": "Conga",
@@ -3195,7 +3052,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 246
+    "id": 235
   },
   {
     "word": "Percussion",
@@ -3208,7 +3065,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 247
+    "id": 236
   },
   {
     "word": "Grooves",
@@ -3221,7 +3078,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 248
+    "id": 237
   },
   {
     "word": "Bongos",
@@ -3234,7 +3091,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 249
+    "id": 238
   },
   {
     "word": "Woodblock",
@@ -3247,7 +3104,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 250
+    "id": 239
   },
   {
     "word": "Djembe",
@@ -3260,7 +3117,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 251
+    "id": 240
   },
   {
     "word": "Tambourine",
@@ -3273,7 +3130,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 252
+    "id": 241
   },
   {
     "word": "Cowbells",
@@ -3286,7 +3143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 253
+    "id": 242
   },
   {
     "word": "Bells",
@@ -3299,7 +3156,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 254
+    "id": 243
   },
   {
     "word": "Timbales",
@@ -3312,7 +3169,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 255
+    "id": 244
   },
   {
     "word": "Keys",
@@ -3325,7 +3182,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 256
+    "id": 245
   },
   {
     "word": "Piano",
@@ -3338,7 +3195,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 257
+    "id": 246
   },
   {
     "word": "Wurlitzer",
@@ -3351,7 +3208,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 258
+    "id": 247
   },
   {
     "word": "Electric Piano",
@@ -3364,7 +3221,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 259
+    "id": 248
   },
   {
     "word": "Organ",
@@ -3377,7 +3234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 260
+    "id": 249
   },
   {
     "word": "Clavinet",
@@ -3390,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 261
+    "id": 250
   },
   {
     "word": "Keys Melody",
@@ -3403,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 262
+    "id": 251
   },
   {
     "word": "Classical",
@@ -3416,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 263
+    "id": 252
   },
   {
     "word": "Female Vocals",
@@ -3429,7 +3286,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 264
+    "id": 253
   },
   {
     "word": "Vocal FX",
@@ -3442,7 +3299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 265
+    "id": 254
   },
   {
     "word": "Vocoder",
@@ -3455,7 +3312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 266
+    "id": 255
   },
   {
     "word": "Screams",
@@ -3468,7 +3325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 267
+    "id": 256
   },
   {
     "word": "Whisper Vocals",
@@ -3481,7 +3338,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 268
+    "id": 257
   },
   {
     "word": "Male Vocals",
@@ -3494,7 +3351,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 269
+    "id": 258
   },
   {
     "word": "Spoken Word",
@@ -3507,7 +3364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 270
+    "id": 259
   },
   {
     "word": "Vocal Phrases",
@@ -3520,7 +3377,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 271
+    "id": 260
   },
   {
     "word": "Vocal Shouts",
@@ -3533,7 +3390,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 272
+    "id": 261
   },
   {
     "word": "Dialogue",
@@ -3546,7 +3403,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 273
+    "id": 262
   }
 ];
 window.SOURCES = [
@@ -4176,58 +4033,10 @@ window.SOURCES = [
   },
   {
     "date": "2026-09-24",
-    "text": "There is one signal-processing tool that is almost impossible to do without in any form of audio recording or postproduction: compression. Compression is available in a wide variety of different formats, flavors, designs and degrees of quirkiness. FabFilter Pro-C 2 is not just a good sounding compressor. FabFilter Pro-C 2 is a superb stereo compressor with all the tricks up its sleeve that you will ever need. With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
-    "translation": "在任何形式的音频录音或后期制作中，几乎都离不开一种信号处理工具：压缩。压缩有各种各样的格式、风格、设计和古怪程度。FabFilter Pro-C 2 不只是一款声音好听的压缩器。FabFilter Pro-C 2 是一款卓越的立体声压缩器，具备你所需的各种本领。凭借不同的压缩风格，以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
+    "text": "With its different compression styles and options like mid/side compression and side-chaining with optional EQ filtering, it can work in any desired way. Whether mastering or mixing, Pro-C 2 will do the job with lots of style. New in version 2 When you open Pro-C 2 for the first time, you'll notice right away that it has a brand new look.",
+    "translation": "凭借其不同的压缩风格以及中侧压缩、带可选均衡滤波的侧链等选项，它可以按任何想要的方式工作。无论是母带处理还是混音，Pro-C 2 都能以极具风格的方式完成任务。版本 2 的新内容：当你第一次打开 Pro-C 2 时，你会立刻注意到它拥有全新的外观。",
     "category": "",
     "branches": [
-      {
-        "word": "signal-processing",
-        "zh": "信号处理"
-      },
-      {
-        "word": "compression",
-        "zh": "压缩"
-      },
-      {
-        "word": "postproduction",
-        "zh": "后期制作"
-      },
-      {
-        "word": "formats",
-        "zh": "格式"
-      },
-      {
-        "word": "flavors",
-        "zh": "类型 / 风格"
-      },
-      {
-        "word": "designs",
-        "zh": "设计"
-      },
-      {
-        "word": "quirkiness",
-        "zh": "古怪特性 / 个性"
-      },
-      {
-        "word": "FabFilter Pro-C 2",
-        "zh": "FabFilter Pro-C 2"
-      },
-      {
-        "word": "sounding",
-        "zh": "发声的 / 声音表现的"
-      },
-      {
-        "word": "superb",
-        "zh": "极好的 / 卓越的"
-      },
-      {
-        "word": "stereo compressor",
-        "zh": "立体声压缩器"
-      },
-      {
-        "word": "tricks up its sleeve",
-        "zh": "有各种本领 / 暗藏绝招"
-      },
       {
         "word": "compression styles",
         "zh": "压缩风格"
@@ -4241,8 +4050,8 @@ window.SOURCES = [
         "zh": "侧链"
       },
       {
-        "word": "EQ filtering",
-        "zh": "均衡滤波"
+        "word": "optional EQ filtering",
+        "zh": "可选均衡滤波"
       },
       {
         "word": "mastering",
@@ -4251,6 +4060,10 @@ window.SOURCES = [
       {
         "word": "mixing",
         "zh": "混音"
+      },
+      {
+        "word": "Pro-C 2",
+        "zh": "Pro-C 2"
       },
       {
         "word": "version 2",
