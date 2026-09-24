@@ -5967,6 +5967,305 @@ window.WORDS = [
     "id": 459
   },
   {
+    "word": "bright",
+    "ipa": "braɪt",
+    "translit": "",
+    "zh": "明亮的",
+    "def": "形容音色高频突出、清晰透亮，在混音中容易穿透其他乐器。",
+    "example": "听觉例子：钢琴高音区敲击时清脆、闪耀的音色。",
+    "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
+    "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 460
+  },
+  {
+    "word": "compressed",
+    "ipa": "kəmˈprɛst",
+    "translit": "",
+    "zh": "压缩的",
+    "def": "指经过动态压缩处理，音量起伏被减小，声音更紧凑、更有冲击力。",
+    "example": "听觉例子：钢琴每个音符力度均匀、饱满，没有忽大忽小的动态。",
+    "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
+    "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 461
+  },
+  {
+    "word": "piano",
+    "ipa": "piˈænoʊ",
+    "translit": "",
+    "zh": "钢琴",
+    "def": "键盘乐器，在 House 音乐中常作为主和弦与旋律的核心音色。",
+    "example": "听觉例子：House 曲目中反复出现的和弦钢琴音色。",
+    "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
+    "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 462
+  },
+  {
+    "word": "driving force",
+    "ipa": "ˈdraɪvɪŋ fɔrs",
+    "translit": "",
+    "zh": "驱动力",
+    "def": "指推动整首曲子节奏与能量前进的核心元素。",
+    "example": "例子：鼓组和贝斯常被视为舞曲的驱动力。",
+    "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
+    "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 463
+  },
+  {
+    "word": "main keys",
+    "ipa": "meɪn kiz",
+    "translit": "",
+    "zh": "主键盘声部 / 主和弦声部",
+    "def": "指曲目中承担主要和声与旋律功能的键盘音色部分。",
+    "example": "例子：House 曲目里贯穿全曲的钢琴和弦进行。",
+    "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
+    "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 464
+  },
+  {
+    "word": "House track",
+    "ipa": "haʊs træk",
+    "translit": "",
+    "zh": "House 曲目",
+    "def": "House 是电子舞曲的一种风格，以四拍鼓点和律动感著称。",
+    "example": "例子：一首 124 BPM、带四踩鼓的 House 舞曲。",
+    "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
+    "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 465
+  },
+  {
+    "word": "Modulating",
+    "ipa": "ˈmɒdjʊleɪtɪŋ",
+    "translit": "",
+    "zh": "调制",
+    "def": "在音频和音乐制作中，指有规律地改变某个声音参数（如频率、振幅）的过程，使声音产生动态变化。",
+    "example": "例子：用 LFO 缓慢改变振荡器的音高，产生颤音效果。",
+    "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 466
+  },
+  {
+    "word": "filter cutoff",
+    "ipa": "ˈfɪltər ˈkʌtɒf",
+    "translit": "",
+    "zh": "滤波器截止频率",
+    "def": "滤波器开始衰减或阻止频率通过的那个临界频率点，决定哪些高频成分被削弱或去除。",
+    "example": "例子：将低通滤波器的截止频率从 2000 Hz 降到 500 Hz，声音会变得更闷。",
+    "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
+    "contextZh": "",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 467
+  },
+  {
+    "word": "synthesizer keys",
+    "ipa": "ˈsɪnθəsaɪzər kiːz",
+    "translit": "",
+    "zh": "合成器键盘",
+    "def": "电子合成器上用于演奏的键盘部分，通过按键触发电子音色生成。",
+    "example": "例子：在 Moog 合成器键盘上弹奏一段旋律，同时用旋钮实时调整音色。",
+    "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
+    "contextZh": "",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 468
+  },
+  {
+    "word": "adds subtle movement",
+    "ipa": "",
+    "translit": "",
+    "zh": "增添细微的动态变化",
+    "def": "指通过某种处理让原本平稳、缺乏变化的声音产生轻微而自然的起伏感。",
+    "example": "例子：在长音 pad 上缓慢调制音量，使和弦听起来像在轻轻呼吸。",
+    "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
+    "contextZh": "",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 469
+  },
+  {
+    "word": "otherwise static",
+    "ipa": "",
+    "translit": "",
+    "zh": "原本静止的",
+    "def": "形容在没有加入变化之前，声音或音乐是单调、缺乏动态的。",
+    "example": "例子：一段没有力度变化和表情的 MIDI 和弦，听起来就像“原本静止的”。",
+    "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
+    "contextZh": "",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 470
+  },
+  {
+    "word": "chord progression",
+    "ipa": "kɔːrd prəˈɡreʃən",
+    "translit": "",
+    "zh": "和弦进行",
+    "def": "音乐中一系列和弦按一定顺序排列并依次演奏的结构，构成和声的骨架。",
+    "example": "例子：C–G–Am–F 是流行音乐中最常见的和弦进行之一。",
+    "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
+    "contextZh": "",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 471
+  },
+  {
+    "word": "acoustic piano",
+    "ipa": "",
+    "translit": "",
+    "zh": "原声钢琴",
+    "def": "指通过琴槌敲击琴弦、依靠琴体自然共鸣发声的传统钢琴。",
+    "example": "例子：录音棚里用麦克风拾取的一架立式钢琴或三角钢琴的声音。",
+    "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
+    "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 472
+  },
+  {
+    "word": "electric keys",
+    "ipa": "",
+    "translit": "",
+    "zh": "电键盘 / 电钢琴类音色",
+    "def": "泛指电钢琴、电风琴等电子键盘乐器，音色通常带有电子感和温暖质感。",
+    "example": "例子：Rhodes 电钢琴那种柔和、带轻微颤动的钟声般音色。",
+    "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
+    "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 473
+  },
+  {
+    "word": "rich",
+    "ipa": "",
+    "translit": "",
+    "zh": "丰满的 / 厚实的",
+    "def": "形容声音频段饱满、泛音丰富，听起来不单薄。",
+    "example": "例子：低频温暖、中频充实、高频有光泽的整体听感。",
+    "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
+    "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 474
+  },
+  {
+    "word": "hybrid texture",
+    "ipa": "",
+    "translit": "",
+    "zh": "混合音色织体 / 混合质感",
+    "def": "指由原声与电子两种来源融合而成的音色层次与整体质感。",
+    "example": "例子：原声钢琴的木质共鸣叠加电钢琴的电子泛音，形成既自然又现代的织体。",
+    "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
+    "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 475
+  },
+  {
+    "word": "perfect for",
+    "ipa": "",
+    "translit": "",
+    "zh": "非常适合 / 极为契合",
+    "def": "表示某事物与某种风格或用途高度匹配。",
+    "example": "例子：这种音色非常适合用于特定音乐风格。",
+    "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
+    "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 476
+  },
+  {
+    "word": "Neo-Soul",
+    "ipa": "",
+    "translit": "",
+    "zh": "新灵魂乐",
+    "def": "一种融合灵魂乐、R&B、嘻哈与爵士元素的现代音乐风格，强调温暖和声与律动。",
+    "example": "例子：D'Angelo、Erykah Badu 等音乐人的作品。",
+    "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
+    "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 477
+  },
+  {
+    "word": "Future Garage",
+    "ipa": "",
+    "translit": "",
+    "zh": "未来车库",
+    "def": "一种源自英国车库音乐的电子风格，特征为切碎的人声、深沉低频与氛围化音色。",
+    "example": "例子：Burial 风格中那种阴冷、碎片化的节奏与低音。",
+    "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
+    "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 478
+  },
+  {
+    "word": "dedicated controller",
+    "ipa": "",
+    "translit": "",
+    "zh": "专用控制器",
+    "def": "指为特定用途或软件专门设计的控制设备，而非通用型设备。",
+    "example": "例子：为某款钢琴音源专门设计的键盘控制器。",
+    "context": "Using a dedicated controller with fully weighted action provides a much more expressive performance for dynamic keys.",
+    "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 479
+  },
+  {
+    "word": "fully weighted action",
+    "ipa": "",
+    "translit": "",
+    "zh": "全配重键盘",
+    "def": "指键盘的每个琴键都带有配重结构，模拟真实钢琴的触键手感。",
+    "example": "例子：弹奏时琴键有明显的下压力和回弹感，类似三角钢琴的手感。",
+    "context": "Using a dedicated controller with fully weighted action provides a much more expressive performance for dynamic keys.",
+    "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 480
+  },
+  {
+    "word": "expressive performance",
+    "ipa": "",
+    "translit": "",
+    "zh": "富有表现力的演奏",
+    "def": "指演奏者能通过力度、速度等细微变化传达情感和音乐张力的演奏方式。",
+    "example": "例子：通过轻按与重击琴键产生从柔和到激昂的动态变化。",
+    "context": "Using a dedicated controller with fully weighted action provides a much more expressive performance for dynamic keys.",
+    "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 481
+  },
+  {
+    "word": "dynamic keys",
+    "ipa": "",
+    "translit": "",
+    "zh": "动态键盘 / 力度感应键盘",
+    "def": "指能根据按键力度大小产生不同音量或音色变化的键盘。",
+    "example": "例子：轻弹时声音柔和，重弹时声音响亮且有冲击力。",
+    "context": "Using a dedicated controller with fully weighted action provides a much more expressive performance for dynamic keys.",
+    "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 482
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -5977,7 +6276,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 460
+    "id": 483
   },
   {
     "word": "Conga",
@@ -5990,7 +6289,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 461
+    "id": 484
   },
   {
     "word": "Percussion",
@@ -6003,7 +6302,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 462
+    "id": 485
   },
   {
     "word": "Grooves",
@@ -6016,7 +6315,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 463
+    "id": 486
   },
   {
     "word": "Bongos",
@@ -6029,7 +6328,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 464
+    "id": 487
   },
   {
     "word": "Woodblock",
@@ -6042,7 +6341,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 465
+    "id": 488
   },
   {
     "word": "Djembe",
@@ -6055,7 +6354,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 466
+    "id": 489
   },
   {
     "word": "Tambourine",
@@ -6068,7 +6367,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 467
+    "id": 490
   },
   {
     "word": "Cowbells",
@@ -6081,7 +6380,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 468
+    "id": 491
   },
   {
     "word": "Bells",
@@ -6094,7 +6393,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 469
+    "id": 492
   },
   {
     "word": "Timbales",
@@ -6107,7 +6406,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 470
+    "id": 493
   },
   {
     "word": "Keys",
@@ -6120,20 +6419,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 471
-  },
-  {
-    "word": "Piano",
-    "ipa": "piˈænoʊ",
-    "translit": "",
-    "zh": "钢琴",
-    "def": "原声键盘乐器，通过琴槌敲击琴弦发声，音色从温暖圆润到明亮清脆，取决于演奏力度和录音方式。在混音中占据中频核心区域，常需与吉他和人声做频率避让。",
-    "example": "听觉例子：经典情歌前奏中那种颗粒感清晰、余音自然衰减的\"叮咚\"声。",
-    "context": "",
-    "contextZh": "",
-    "category": "键盘",
-    "source": "2026-09-19",
-    "id": 472
+    "id": 494
   },
   {
     "word": "Wurlitzer",
@@ -6146,7 +6432,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 473
+    "id": 495
   },
   {
     "word": "Electric Piano",
@@ -6159,7 +6445,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 474
+    "id": 496
   },
   {
     "word": "Organ",
@@ -6172,7 +6458,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 475
+    "id": 497
   },
   {
     "word": "Clavinet",
@@ -6185,7 +6471,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 476
+    "id": 498
   },
   {
     "word": "Keys Melody",
@@ -6198,7 +6484,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 477
+    "id": 499
   },
   {
     "word": "Classical",
@@ -6211,7 +6497,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 478
+    "id": 500
   },
   {
     "word": "Female Vocals",
@@ -6224,7 +6510,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 479
+    "id": 501
   },
   {
     "word": "Vocoder",
@@ -6237,7 +6523,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 480
+    "id": 502
   },
   {
     "word": "Screams",
@@ -6250,7 +6536,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 481
+    "id": 503
   },
   {
     "word": "Whisper Vocals",
@@ -6263,7 +6549,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 482
+    "id": 504
   },
   {
     "word": "Spoken Word",
@@ -6276,7 +6562,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 483
+    "id": 505
   },
   {
     "word": "Vocal Phrases",
@@ -6289,7 +6575,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 484
+    "id": 506
   },
   {
     "word": "Vocal Shouts",
@@ -6302,7 +6588,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 485
+    "id": 507
   },
   {
     "word": "Dialogue",
@@ -6315,7 +6601,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 486
+    "id": 508
   }
 ];
 window.SOURCES = [
@@ -8392,6 +8678,134 @@ window.SOURCES = [
       {
         "word": "pressure",
         "zh": "压力 / 力度"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
+    "translation": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
+    "category": "",
+    "branches": [
+      {
+        "word": "bright",
+        "zh": "明亮的"
+      },
+      {
+        "word": "compressed",
+        "zh": "压缩的"
+      },
+      {
+        "word": "piano",
+        "zh": "钢琴"
+      },
+      {
+        "word": "driving force",
+        "zh": "驱动力"
+      },
+      {
+        "word": "main keys",
+        "zh": "主键盘声部 / 主和弦声部"
+      },
+      {
+        "word": "House track",
+        "zh": "House 曲目"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Modulating",
+        "zh": "调制"
+      },
+      {
+        "word": "filter cutoff",
+        "zh": "滤波器截止频率"
+      },
+      {
+        "word": "synthesizer keys",
+        "zh": "合成器键盘"
+      },
+      {
+        "word": "adds subtle movement",
+        "zh": "增添细微的动态变化"
+      },
+      {
+        "word": "otherwise static",
+        "zh": "原本静止的"
+      },
+      {
+        "word": "chord progression",
+        "zh": "和弦进行"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
+    "translation": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Layering",
+        "zh": "叠加 / 分层"
+      },
+      {
+        "word": "acoustic piano",
+        "zh": "原声钢琴"
+      },
+      {
+        "word": "electric keys",
+        "zh": "电键盘 / 电钢琴类音色"
+      },
+      {
+        "word": "rich",
+        "zh": "丰满的 / 厚实的"
+      },
+      {
+        "word": "hybrid texture",
+        "zh": "混合音色织体 / 混合质感"
+      },
+      {
+        "word": "perfect for",
+        "zh": "非常适合 / 极为契合"
+      },
+      {
+        "word": "Neo-Soul",
+        "zh": "新灵魂乐"
+      },
+      {
+        "word": "Future Garage",
+        "zh": "未来车库"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Using a dedicated controller with fully weighted action provides a much more expressive performance for dynamic keys.",
+    "translation": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
+    "category": "",
+    "branches": [
+      {
+        "word": "dedicated controller",
+        "zh": "专用控制器"
+      },
+      {
+        "word": "fully weighted action",
+        "zh": "全配重键盘"
+      },
+      {
+        "word": "expressive performance",
+        "zh": "富有表现力的演奏"
+      },
+      {
+        "word": "dynamic keys",
+        "zh": "动态键盘 / 力度感应键盘"
       }
     ]
   }
