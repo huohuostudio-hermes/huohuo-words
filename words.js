@@ -2730,6 +2730,175 @@ window.WORDS = [
     "id": 210
   },
   {
+    "word": "clean guitar",
+    "ipa": "",
+    "translit": "",
+    "zh": "清音吉他",
+    "def": "指使用清音音色（未经失真处理）的电吉他，音色明亮通透，常用于营造干净、空灵的氛围。",
+    "example": "例子：在流行或民谣编曲中，清音吉他常作为节奏铺底，如《Hotel California》前奏中的分解和弦。",
+    "context": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
+    "contextZh": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 211
+  },
+  {
+    "word": "spacious",
+    "ipa": "ˈspeɪʃəs",
+    "translit": "",
+    "zh": "宽敞的 / 空间感强的",
+    "def": "在音乐语境中形容声音具有开阔的空间感，通常通过混响、延迟等效果营造。",
+    "example": "例子：大量使用混响的清音吉他扫弦能产生\"空旷\"的听感。",
+    "context": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
+    "contextZh": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 212
+  },
+  {
+    "word": "foundation",
+    "ipa": "faʊnˈdeɪʃn",
+    "translit": "",
+    "zh": "基础 / 根基",
+    "def": "指音乐编曲中支撑整体结构的底层部分，为其他乐器提供和声与节奏的依托。",
+    "example": "例子：贝斯和鼓通常构成一首歌的节奏基础。",
+    "context": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
+    "contextZh": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 213
+  },
+  {
+    "word": "arrangement",
+    "ipa": "əˈreɪndʒmənt",
+    "translit": "",
+    "zh": "编曲 / 编排",
+    "def": "指对一首乐曲中各乐器声部、和声、节奏等要素的整体安排与设计。",
+    "example": "例子：同一首旋律用钢琴独奏或管弦乐编制呈现，属于不同的编曲。",
+    "context": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
+    "contextZh": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 214
+  },
+  {
+    "word": "practiced",
+    "ipa": "ˈpræktɪst",
+    "translit": "",
+    "zh": "练习",
+    "def": "指反复进行某项活动以提高技能。",
+    "example": "例子：他每天练习钢琴两小时。",
+    "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
+    "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 215
+  },
+  {
+    "word": "complex",
+    "ipa": "kəmˈplɛks",
+    "translit": "",
+    "zh": "复杂的",
+    "def": "指由许多不同且相互关联的部分组成，不易理解或处理。",
+    "example": "例子：这是一个复杂的数学问题。",
+    "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
+    "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 216
+  },
+  {
+    "word": "jazz",
+    "ipa": "dʒæz",
+    "translit": "",
+    "zh": "爵士乐",
+    "def": "一种起源于20世纪初美国非裔社区的音樂流派，以即兴演奏、切分节奏和独特的和声为特征。",
+    "example": "例子：路易斯·阿姆斯特朗是著名的爵士乐音乐家。",
+    "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
+    "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 217
+  },
+  {
+    "word": "tone",
+    "ipa": "toʊn",
+    "translit": "",
+    "zh": "音色",
+    "def": "指声音的独特品质或特征，由泛音、音量等因素决定。",
+    "example": "例子：这把小提琴的音色温暖而饱满。",
+    "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
+    "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 218
+  },
+  {
+    "word": "nuance",
+    "ipa": "ˈnuːɑːns",
+    "translit": "",
+    "zh": "细微差别",
+    "def": "指事物之间微小但重要的差异或变化。",
+    "example": "例子：她能够捕捉到音乐中每一个细微差别。",
+    "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
+    "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 219
+  },
+  {
+    "word": "tuning",
+    "ipa": "ˈtuːnɪŋ",
+    "translit": "",
+    "zh": "调音",
+    "def": "指调整乐器音高的过程，使各弦或各音之间达到正确的音准关系。",
+    "example": "例子：吉他手在演奏前用调音器把六根弦调到标准音高。",
+    "context": "To check the tuning, strum some basic chords with a clean guitar sound.",
+    "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 220
+  },
+  {
+    "word": "strum",
+    "ipa": "strʌm",
+    "translit": "",
+    "zh": "扫弦",
+    "def": "用手指或拨片从上到下或从下到上划过琴弦，使多根弦同时发声的演奏方式。",
+    "example": "例子：用拨片快速扫过吉他的六根弦，弹出一个和弦。",
+    "context": "To check the tuning, strum some basic chords with a clean guitar sound.",
+    "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 221
+  },
+  {
+    "word": "basic chords",
+    "ipa": "",
+    "translit": "",
+    "zh": "基本和弦",
+    "def": "指音乐中最常用、最基础的和弦，如大三和弦、小三和弦等。",
+    "example": "例子：C 大调和弦、G 大调和弦、A 小调和弦。",
+    "context": "To check the tuning, strum some basic chords with a clean guitar sound.",
+    "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 222
+  },
+  {
+    "word": "clean guitar sound",
+    "ipa": "",
+    "translit": "",
+    "zh": "清音吉他音色",
+    "def": "指未经失真或效果器明显染色的吉他音色，声音干净、自然。",
+    "example": "例子：电吉他直接接入音箱，不加失真效果，发出的明亮清澈的声音。",
+    "context": "To check the tuning, strum some basic chords with a clean guitar sound.",
+    "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 223
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -2740,7 +2909,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 211
+    "id": 224
   },
   {
     "word": "Conga",
@@ -2753,7 +2922,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 212
+    "id": 225
   },
   {
     "word": "Percussion",
@@ -2766,7 +2935,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 213
+    "id": 226
   },
   {
     "word": "Grooves",
@@ -2779,7 +2948,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 214
+    "id": 227
   },
   {
     "word": "Bongos",
@@ -2792,7 +2961,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 215
+    "id": 228
   },
   {
     "word": "Woodblock",
@@ -2805,7 +2974,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 216
+    "id": 229
   },
   {
     "word": "Djembe",
@@ -2818,7 +2987,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 217
+    "id": 230
   },
   {
     "word": "Tambourine",
@@ -2831,7 +3000,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 218
+    "id": 231
   },
   {
     "word": "Cowbells",
@@ -2844,7 +3013,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 219
+    "id": 232
   },
   {
     "word": "Bells",
@@ -2857,7 +3026,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 220
+    "id": 233
   },
   {
     "word": "Timbales",
@@ -2870,7 +3039,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 221
+    "id": 234
   },
   {
     "word": "Keys",
@@ -2883,7 +3052,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 222
+    "id": 235
   },
   {
     "word": "Piano",
@@ -2896,7 +3065,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 223
+    "id": 236
   },
   {
     "word": "Wurlitzer",
@@ -2909,7 +3078,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 224
+    "id": 237
   },
   {
     "word": "Electric Piano",
@@ -2922,7 +3091,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 225
+    "id": 238
   },
   {
     "word": "Organ",
@@ -2935,7 +3104,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 226
+    "id": 239
   },
   {
     "word": "Clavinet",
@@ -2948,7 +3117,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 227
+    "id": 240
   },
   {
     "word": "Keys Melody",
@@ -2961,7 +3130,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 228
+    "id": 241
   },
   {
     "word": "Classical",
@@ -2974,7 +3143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 229
+    "id": 242
   },
   {
     "word": "Female Vocals",
@@ -2987,7 +3156,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 230
+    "id": 243
   },
   {
     "word": "Vocal FX",
@@ -3000,7 +3169,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 231
+    "id": 244
   },
   {
     "word": "Vocoder",
@@ -3013,7 +3182,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 232
+    "id": 245
   },
   {
     "word": "Screams",
@@ -3026,7 +3195,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 233
+    "id": 246
   },
   {
     "word": "Whisper Vocals",
@@ -3039,7 +3208,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 234
+    "id": 247
   },
   {
     "word": "Male Vocals",
@@ -3052,7 +3221,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 235
+    "id": 248
   },
   {
     "word": "Spoken Word",
@@ -3065,7 +3234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 236
+    "id": 249
   },
   {
     "word": "Vocal Phrases",
@@ -3078,7 +3247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 237
+    "id": 250
   },
   {
     "word": "Vocal Shouts",
@@ -3091,7 +3260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 238
+    "id": 251
   },
   {
     "word": "Dialogue",
@@ -3104,7 +3273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 239
+    "id": 252
   }
 ];
 window.SOURCES = [
@@ -3621,6 +3790,95 @@ window.SOURCES = [
       {
         "word": "Environment",
         "zh": "环境"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
+    "translation": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
+    "branches": [
+      {
+        "word": "clean guitar",
+        "zh": "清音吉他"
+      },
+      {
+        "word": "chords",
+        "zh": "和弦"
+      },
+      {
+        "word": "spacious",
+        "zh": "宽敞的 / 空间感强的"
+      },
+      {
+        "word": "foundation",
+        "zh": "基础 / 根基"
+      },
+      {
+        "word": "arrangement",
+        "zh": "编曲 / 编排"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
+    "translation": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
+    "branches": [
+      {
+        "word": "practiced",
+        "zh": "练习"
+      },
+      {
+        "word": "complex",
+        "zh": "复杂的"
+      },
+      {
+        "word": "jazz",
+        "zh": "爵士乐"
+      },
+      {
+        "word": "Chords",
+        "zh": "和弦"
+      },
+      {
+        "word": "clean",
+        "zh": "清音 / 干净音色"
+      },
+      {
+        "word": "guitar",
+        "zh": "吉他"
+      },
+      {
+        "word": "tone",
+        "zh": "音色"
+      },
+      {
+        "word": "nuance",
+        "zh": "细微差别"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "text": "To check the tuning, strum some basic chords with a clean guitar sound.",
+    "translation": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
+    "branches": [
+      {
+        "word": "tuning",
+        "zh": "调音"
+      },
+      {
+        "word": "strum",
+        "zh": "扫弦"
+      },
+      {
+        "word": "basic chords",
+        "zh": "基本和弦"
+      },
+      {
+        "word": "clean guitar sound",
+        "zh": "清音吉他音色"
       }
     ]
   }
