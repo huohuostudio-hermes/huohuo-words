@@ -17,6 +17,7 @@ import re
 VAULT = "/Users/xingyan/Library/Mobile Documents/iCloud~md~obsidian/Documents/火火知识库"
 WORD_DIR = os.path.join(VAULT, "英语学习")
 SOURCE_DIR = os.path.join(WORD_DIR, "原文语境")
+SENTENCE_DIR = os.path.join(WORD_DIR, "句子库")   # 本地 AI 批处理产出的句子库
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "words.js")
 
 MARK_RE = re.compile(r"</?mark[^>]*>", re.IGNORECASE)
@@ -168,15 +169,17 @@ def parse_source_file(path: str) -> list:
         if line.startswith("> [!source]"):
             if cur is not None:
                 sources.append(cur)
-            cur = {"date": date, "text": "", "translation": "", "branches": []}
+            cur = {"date": date, "text": "", "translation": "", "category": "", "branches": []}
             plain = clean(line)
-            plain = re.sub(r"^>\s*\[!source\]-\s*\d+\.\s*", "", plain)
+            plain = re.sub(r"^>\s*\[!source\]-\s*(?:\d+\.\s*)?", "", plain)
             cur["text"] = plain.strip()
             continue
         if cur is not None and line.startswith("> - "):
             bullet = clean(line[4:])
             if bullet.startswith("翻译："):
                 cur["translation"] = bullet[len("翻译："):].strip()
+            elif bullet.startswith("分类："):
+                cur["category"] = bullet[len("分类："):].strip()
             elif bullet.startswith("分支："):
                 b = bullet[len("分支："):].strip()
                 if "｜" in b:
@@ -208,11 +211,12 @@ def main():
                 all_words.extend(parse_file(os.path.join(root, fn)))
 
     sources = []
-    if os.path.isdir(SOURCE_DIR):
-        for root, dirs, files in os.walk(SOURCE_DIR):
-            for fn in sorted(files):
-                if fn.endswith(".md"):
-                    sources.extend(parse_source_file(os.path.join(root, fn)))
+    for src_dir in (SOURCE_DIR, SENTENCE_DIR):
+        if os.path.isdir(src_dir):
+            for root, dirs, files in os.walk(src_dir):
+                for fn in sorted(files):
+                    if fn.endswith(".md"):
+                        sources.extend(parse_source_file(os.path.join(root, fn)))
 
     # 去重：按小写单词去重，保留第一条
     seen = set()

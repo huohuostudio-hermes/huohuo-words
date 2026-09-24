@@ -50,7 +50,7 @@ header{padding:calc(14px + env(safe-area-inset-top)) 20px 10px;display:flex;alig
   padding:7px 12px;border-radius:999px;font-size:13px;font-weight:600;color:#ffd58a}
 
 /* ===== 主内容 ===== */
-main{flex:1;padding:8px 20px 16px;display:flex;flex-direction:column}
+main{flex:1;padding:8px 20px calc(74px + env(safe-area-inset-bottom));display:flex;flex-direction:column}
 
 /* ===== 顶栏(返回) ===== */
 .topbar{display:flex;align-items:center;gap:10px;margin:2px 0 14px}
@@ -187,7 +187,8 @@ mark,.hl{background:rgba(230,184,74,.22);color:var(--accent2);padding:1px 3px;bo
 #dailyInput:focus{border-color:var(--accent)}
 
 /* ===== 底部导航 ===== */
-nav{display:flex;border-top:1px solid var(--border);background:rgba(13,16,32,.85);
+nav{position:fixed;bottom:0;left:0;right:0;max-width:520px;margin:0 auto;z-index:60;
+  display:flex;border-top:1px solid var(--border);background:rgba(13,16,32,.88);
   backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);padding:6px 0 calc(6px + env(safe-area-inset-bottom))}
 nav button{flex:1;background:none;border:none;color:var(--faint);font-size:11px;font-weight:600;
   padding:8px 0;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer}
@@ -357,6 +358,12 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
     </div>
   </header>
   <main id="main"></main>
+  <nav>
+    <button class="navbtn" data-tab="study" onclick="switchTab('study')"><span class="ic">📖</span>学习</button>
+    <button class="navbtn" data-tab="list" onclick="switchTab('list')"><span class="ic">🔥</span>单词本</button>
+    <button class="navbtn" data-tab="sentences" onclick="switchTab('sentences')"><span class="ic">📚</span>句子库</button>
+    <button class="navbtn" data-tab="me" onclick="switchTab('me')"><span class="ic">⚙️</span>我的</button>
+  </nav>
 </div>
 
 
@@ -1621,6 +1628,103 @@ function contextBlock(w){
   if(w.contextZh)h+=`<div class="detail trans"><span class="k">译文</span>${esc(w.contextZh)}</div>`;
   return h;
 }
+
+/* ---------- 句子库（双向链接：句子 ↔ 单词） ---------- */
+const SENTENCE_CATS=["打击乐","键盘","吉他","合成器","人声","混音动态","空间混响","母带声学","工作流"];
+let curSentCat="全部";
+let sentScrollY=0, restoreSentScroll=false, sentChipsScrollX=0;
+let WORD_INDEX=null;
+function buildWordIndex(){
+  WORD_INDEX={};
+  for(const w of WORDS){
+    const k=String(w.word||"").toLowerCase();
+    if(k && !(k in WORD_INDEX))WORD_INDEX[k]=w.word;
+  }
+}
+function sentCats(){
+  const seen=new Set(SENTENCE_CATS);
+  const extra=[];
+  for(const s of (window.SOURCES||[])){
+    const c=s.category||"";
+    if(c && !seen.has(c)){seen.add(c);extra.push(c);}
+  }
+  return SENTENCE_CATS.concat(extra);
+}
+function sentenceList(){
+  const list=window.SOURCES||[];
+  if(curSentCat==="全部")return list;
+  return list.filter(s=>(s.category||"未分类")===curSentCat);
+}
+function highlightSentence(text, branches){
+  if(!WORD_INDEX)buildWordIndex();
+  let html=esc(text||"");
+  const pats=[];
+  for(const key of Object.keys(WORD_INDEX)){
+    pats.push({re:"\\b"+escapeRe(key)+"\\b", word:WORD_INDEX[key]});
+  }
+  for(const b of (branches||[])){
+    const bw=String(b.word||"").toLowerCase();
+    const canonical=WORD_INDEX[bw];
+    if(canonical)pats.push({re:"\\b"+escapeRe(bw)+"[a-z']*\\b", word:canonical});
+  }
+  if(!pats.length)return html;
+  pats.sort((a,b)=>b.re.length-a.re.length);
+  const combined=pats.map(p=>"("+p.re+")").join("|");
+  const re=new RegExp(combined,"gi");
+  const wraps=[];
+  html=html.replace(re,(...args)=>{
+    const match=args[0];
+    let idx=-1;
+    for(let i=0;i<pats.length;i++){if(args[i+1]!==undefined){idx=i;break;}}
+    const tok="\u0000"+wraps.length+"\u0000";
+    wraps.push(`<mark class="hl" onclick="openDetailFromSentence('${esc(pats[idx].word)}')">${match}</mark>`);
+    return tok;
+  });
+  for(let i=0;i<wraps.length;i++)html=html.replace("\u0000"+i+"\u0000", wraps[i]);
+  return html;
+}
+function sentenceCard(s){
+  const branches=(s.branches||[]).map(b=>{
+    const kw=String(b.word||"");
+    const zh=String(b.zh||"");
+    const lbl=esc(kw)+(zh?" · "+esc(zh):"");
+    const canonical=resolveWord(kw);
+    const fn=canonical?`openDetailFromSentence('${esc(canonical)}')`:`renderBranchWord('${esc(kw)}','${esc(zh)}','backToSentences')`;
+    return `<span class="chip" style="cursor:pointer" onclick="${fn}">${lbl}</span>`;
+  }).join("");
+  const cat=s.category?`<span class="chip" style="cursor:default;opacity:.7">${esc(s.category)}</span>`:"";
+  return `<div class="menu-card" style="padding:18px;margin-top:12px">
+    <div style="font-size:15px;line-height:1.8">${highlightSentence(s.text, s.branches||[])}</div>
+    ${s.translation?`<div style="color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6">${esc(s.translation)}</div>`:""}
+    ${(branches||cat)?`<div class="chips" style="margin-top:10px">${cat}${branches}</div>`:""}
+    <div style="color:var(--faint);font-size:11px;margin-top:8px">${esc(s.date||"")}</div>
+  </div>`;
+}
+function renderSentences(){
+  if(curSentCat!=="全部" && !sentCats().includes(curSentCat))curSentCat="全部";
+  const chips=["全部",...sentCats()].map(c=>`<div class="chip ${c===curSentCat?"on":""}" onclick="setSentCat('${esc(c)}')">${esc(c)}</div>`).join("");
+  const list=sentenceList();
+  $("#main").innerHTML=`
+    <div class="topbar"><div class="t">句子库</div></div>
+    <div class="chips">${chips}</div>
+    ${list.length?`<div style="color:var(--faint);font-size:12px;margin:2px 0 8px">共 ${list.length} 句</div>`:""}
+    ${list.length?list.map(sentenceCard).join(""):'<div class="empty">句子库还空着，等本地 AI 批量拆解入库</div>'}
+  `;
+  raf(()=>{
+    if(restoreSentScroll){restoreSentScroll=false;window.scrollTo(0,sentScrollY);}
+    const cc=document.querySelector('#main .chips');
+    if(cc)cc.scrollLeft=sentChipsScrollX;
+  });
+}
+function setSentCat(c){curSentCat=c;renderSentences();}
+function openDetailFromSentence(word){
+  sentScrollY=getScrollY();
+  restoreSentScroll=true;
+  const cc=document.querySelector('#main .chips');
+  if(cc)sentChipsScrollX=cc.scrollLeft;
+  openDetail(word,"backToSentences");
+}
+function backToSentences(){renderSentences();}
 /* ---------- 详情卡片：左右滑动切换 ---------- */
 let detailWords=[], detailIdx=-1, detailBack="renderList";
 let detailSwipeState=null;
@@ -1700,7 +1804,7 @@ function openDetail(word, back){
 function delWord(word, back){
   if(!confirm("删除这个单词？删除后可在「设置 → 已删除」中恢复"))return;
   hideWord(word);
-  if(back==="renderMenu")renderMenu(); else renderList();
+  if(back==="renderMenu")renderMenu(); else if(back==="backToSentences")renderSentences(); else renderList();
 }
 function reTag(word, cat, back){
   const w=WORDS.find(x=>x.word===word); if(!w)return;
@@ -1988,15 +2092,23 @@ function checkLock(){
 /* ---------- 导航 ---------- */
 let tab="study";
 function switchTab(t){
+  session=null;
   tab=t;
   updateBrand(t);
+  updateNav(t);
   if(t==="study")renderStudy();
   else if(t==="list")renderList();
+  else if(t==="sentences")renderSentences();
   else renderMe();
+}
+function updateNav(t){
+  document.querySelectorAll("nav .navbtn").forEach(b=>{
+    b.classList.toggle("on", b.getAttribute("data-tab")===t);
+  });
 }
 function updateBrand(t){
   const b=$("#brandTitle");
-  if(b)b.textContent = (t==="list") ? "火火的单词本" : "火火的英语库";
+  if(b)b.textContent = (t==="list") ? "火火的单词本" : (t==="sentences") ? "火火的句子库" : "火火的英语库";
   const g=$("#gearBtn");
   if(g)g.style.display = (t==="list") ? "grid" : "none";
   const s=$("#brandSubWrap");
