@@ -3294,6 +3294,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "I don't know why he forgot to buy milk",
     "translation": "我不知道他为什么忘了买牛奶。",
+    "category": "",
     "branches": [
       {
         "word": "I don't know",
@@ -3325,6 +3326,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
     "translation": "我不知道他为什么忘了买牛奶。他为什么把钥匙留在桌子上？你知道他今天为什么这么累吗？",
+    "category": "",
     "branches": [
       {
         "word": "I don't know",
@@ -3352,6 +3354,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "An hour of focused practice every day turns the fretboard from a puzzle into a second language.（每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.）",
     "translation": "每天一小时专注的练习，能让指板从一个谜题变成你的第二语言。",
+    "category": "",
     "branches": [
       {
         "word": "An hour of focused practice",
@@ -3371,6 +3374,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
     "translation": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
+    "category": "",
     "branches": [
       {
         "word": "daily hour",
@@ -3406,6 +3410,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Brass and Woodwinds Saxophone Trombone Ensemble Riffs Pads Trumpet Flute Synth Stabs Harmonica",
     "translation": "铜管与木管乐器",
+    "category": "",
     "branches": [
       {
         "word": "Brass and Woodwinds",
@@ -3457,6 +3462,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
     "translation": "氛围",
+    "category": "",
     "branches": [
       {
         "word": "Ambience",
@@ -3492,6 +3498,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Cinematic FX",
     "translation": "电影音效",
+    "category": "",
     "branches": [
       {
         "word": "Cinematic FX",
@@ -3503,6 +3510,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Animals Farm Insects Large Birds Dogs",
     "translation": "动物 农场 昆虫 大的 鸟类 狗",
+    "category": "",
     "branches": [
       {
         "word": "Animals",
@@ -3534,6 +3542,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Foley Paper Plastic Concrete Wood Metal Fire",
     "translation": "",
+    "category": "",
     "branches": [
       {
         "word": "Foley",
@@ -3569,6 +3578,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "translation": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
+    "category": "",
     "branches": [
       {
         "word": "Household",
@@ -3604,6 +3614,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "translation": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
+    "category": "",
     "branches": [
       {
         "word": "Human",
@@ -3647,6 +3658,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "translation": "科幻小说",
+    "category": "",
     "branches": [
       {
         "word": "Science Fiction",
@@ -3682,6 +3694,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Machines and Devices Tools Switch Bells Phone Electronics",
     "translation": "",
+    "category": "",
     "branches": [
       {
         "word": "Machines and Devices",
@@ -3713,6 +3726,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Transportation Trains Watercraft Car Aircraft Traffic",
     "translation": "交通",
+    "category": "",
     "branches": [
       {
         "word": "Transportation",
@@ -3744,6 +3758,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "Warfare Gun Sword Weapon Knife Military Bullet",
     "translation": "战争、枪、剑、武器、刀、军事、子弹",
+    "category": "",
     "branches": [
       {
         "word": "Warfare",
@@ -3779,6 +3794,7 @@ window.SOURCES = [
     "date": "2026-09-23",
     "text": "5.1 Surround Synth Fantasy Electrical Ambience Environment",
     "translation": "5.1 环绕声 合成器 幻想 电的 环境氛围 环境",
+    "category": "",
     "branches": [
       {
         "word": "5.1 Surround",
@@ -3810,6 +3826,7 @@ window.SOURCES = [
     "date": "2026-09-24",
     "text": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
     "translation": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
+    "category": "",
     "branches": [
       {
         "word": "clean guitar",
@@ -3837,6 +3854,7 @@ window.SOURCES = [
     "date": "2026-09-24",
     "text": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
     "translation": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
+    "category": "",
     "branches": [
       {
         "word": "practiced",
@@ -3876,6 +3894,7 @@ window.SOURCES = [
     "date": "2026-09-24",
     "text": "To check the tuning, strum some basic chords with a clean guitar sound.",
     "translation": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
+    "category": "",
     "branches": [
       {
         "word": "tuning",
