@@ -298,15 +298,15 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .pc-corner.bl{bottom:12px;left:14px}
 .pc-suit{font-size:22px}
 .pc-suit-bg{position:absolute;inset:0;display:grid;place-items:center;font-size:118px;color:var(--accent2);opacity:.13;pointer-events:none;z-index:0}
-.pcard-back .pc-backword,.pcard-back .pc-backipa,.pcard-back .pc-zh,.pcard-back .pc-def,.pcard-back .pc-actions,.pcard-back .speakrow{position:relative;z-index:1}
+.pcard-back .pc-backword,.pcard-back .pc-backipa,.pcard-back .pc-zh,.pcard-back .pc-def,.pcard-back .speakrow{position:relative;z-index:1}
 .pc-backword{font-size:26px;font-weight:800;color:var(--accent2);text-shadow:0 0 12px rgba(230,184,74,.4)}
 .pc-backipa{font-size:14px;color:var(--muted);margin-top:4px}
 .pc-zh{font-size:16px;color:var(--text);margin-top:10px;font-weight:600}
 .pc-def{font-size:12px;color:var(--muted);margin-top:8px;text-align:center;line-height:1.55;max-height:74px;overflow:hidden}
-.pc-actions{position:absolute;left:12px;right:12px;bottom:12px;display:flex;gap:6px;justify-content:center;align-items:center}
+.pc-actions{position:absolute;left:12px;right:12px;bottom:10px;z-index:2;display:flex;gap:6px;justify-content:center;align-items:center}
 .pc-actions .btn{font-size:10px;padding:6px 8px;white-space:nowrap;flex:0 1 auto;width:auto;margin:0;display:inline-flex;align-items:center;justify-content:center;gap:3px;border:1.5px solid var(--accent);background:#0a0a0a;color:var(--text);border-radius:10px;font-weight:600}
 .pc-actions .btn.primary{background:#0a0a0a;color:var(--accent2);box-shadow:none;border-color:var(--accent)}
-.pc-actions .btn.warn{color:var(--bad);border-color:rgba(248,113,113,.5);background:#0a0a0a}
+.pc-actions .btn.warn{color:var(--accent2);border-color:var(--accent);background:#0a0a0a}
 .pc-actions .btn.fav-on{color:var(--accent2);border-color:var(--accent);background:#0a0a0a}
 
 </style>
@@ -1922,9 +1922,10 @@ function onWordCountTap(){
   else deckTapTime=now;
 }
 function openDeck(){
-  const pool=shuffle(allWords());
+  const base=curCat==="全部"?allWords():allWords().filter(w=>catOf(w)===curCat);
+  const pool=shuffle(base);
   const n=Math.min(5, pool.length);
-  if(n===0){ alert("还没有单词"); return; }
+  if(n===0){ alert(curCat==="全部"?"还没有单词":"「"+curCat+"」还没有单词"); return; }
   cardDeck={cards:pool.slice(0,n).map(w=>({w:w, suit:pickSuit()})), idx:0, flipped:false};
   const el=$("#cardDeck"); if(el)el.style.display="flex";
   renderDeckCard(false);
