@@ -4472,6 +4472,331 @@ window.WORDS = [
     "id": 344
   },
   {
+    "word": "Recording",
+    "ipa": "",
+    "translit": "",
+    "zh": "录制",
+    "def": "指将声音或演奏捕捉并保存为音频信号的过程，是音乐制作的第一步。",
+    "example": "例子：在录音室里用麦克风录制吉他音箱的声音。",
+    "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 345
+  },
+  {
+    "word": "Fender Telecaster",
+    "ipa": "ˈfendər ˈtelɪkæstər",
+    "translit": "",
+    "zh": "芬达 Telecaster 电吉他",
+    "def": "Fender 公司生产的经典实心电吉他型号，以明亮、干脆的音色著称，广泛用于摇滚、乡村和布鲁斯。",
+    "example": "例子：用 Telecaster 弹奏出清脆的分解和弦。",
+    "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 346
+  },
+  {
+    "word": "directly through",
+    "ipa": "",
+    "translit": "",
+    "zh": "直接通过",
+    "def": "表示信号不经过额外设备或处理，直接接入某一环节。",
+    "example": "例子：把吉他直接插进音频接口，不经过任何效果器。",
+    "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 347
+  },
+  {
+    "word": "ISA One",
+    "ipa": "",
+    "translit": "",
+    "zh": "ISA One 前置放大器",
+    "def": "Focusrite 公司生产的一款单通道麦克风前置放大器兼 DI 盒，以温暖、通透的音色闻名。",
+    "example": "例子：把吉他接入 ISA One 的乐器输入口进行录制。",
+    "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 348
+  },
+  {
+    "word": "yields",
+    "ipa": "jiːldz",
+    "translit": "",
+    "zh": "产生 / 得到",
+    "def": "表示某个过程或操作带来某种结果或音色。",
+    "example": "例子：这种接法能产生更饱满的声音。",
+    "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 349
+  },
+  {
+    "word": "articulate",
+    "ipa": "ɑːrˈtɪkjələt",
+    "translit": "",
+    "zh": "清晰的 / 颗粒感强的",
+    "def": "形容音色中每个音符的细节和起音都能被清楚分辨。",
+    "example": "听觉例子：每个音符的拨弦声都清晰可辨，不糊成一团。",
+    "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 350
+  },
+  {
+    "word": "clean tone",
+    "ipa": "kliːn toʊn",
+    "translit": "",
+    "zh": "清音 / 干净音色",
+    "def": "指没有失真或过载的原始吉他音色，保留乐器本身的自然声音。",
+    "example": "听觉例子：吉他原声般清澈、无破音的音色。",
+    "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 351
+  },
+  {
+    "word": "before hitting",
+    "ipa": "",
+    "translit": "",
+    "zh": "在进入……之前",
+    "def": "表示信号在到达下一个处理环节之前的状态。",
+    "example": "例子：在进入音箱模拟器之前先经过前置放大器。",
+    "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 352
+  },
+  {
+    "word": "amp sim",
+    "ipa": "æmp sɪm",
+    "translit": "",
+    "zh": "音箱模拟器",
+    "def": "用软件或数字设备模拟真实吉他音箱音色的工具，常用于家庭录音。",
+    "example": "例子：用插件模拟 Marshall 音箱的失真音色。",
+    "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "合成器",
+    "source": "小赫转存",
+    "id": 353
+  },
+  {
+    "word": "acoustic guitar",
+    "ipa": "əˈkuːstɪk ɡɪˈtɑːr",
+    "translit": "",
+    "zh": "原声吉他 / 木吉他",
+    "def": "依靠琴体共鸣发声、不依赖电子放大的吉他。",
+    "example": "例子：民谣弹唱中常用的钢弦木吉他。",
+    "context": "Layering acoustic guitar riffs over heavy electronic beats creates a unique organic contrast in hybrid genres.",
+    "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 354
+  },
+  {
+    "word": "heavy electronic beats",
+    "ipa": "",
+    "translit": "",
+    "zh": "厚重的电子节拍",
+    "def": "由电子设备制作、低频强劲、冲击力强的节奏型。",
+    "example": "听觉例子：电子舞曲中低沉有力的鼓点。",
+    "context": "Layering acoustic guitar riffs over heavy electronic beats creates a unique organic contrast in hybrid genres.",
+    "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 355
+  },
+  {
+    "word": "organic contrast",
+    "ipa": "",
+    "translit": "",
+    "zh": "有机的对比",
+    "def": "指自然、温暖的声音与机械、冷硬的声音之间形成的反差。",
+    "example": "例子：木吉他的温润音色与电子鼓的冰冷音色并置。",
+    "context": "Layering acoustic guitar riffs over heavy electronic beats creates a unique organic contrast in hybrid genres.",
+    "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
+    "category": "键盘",
+    "source": "小赫转存",
+    "id": 356
+  },
+  {
+    "word": "hybrid genres",
+    "ipa": "",
+    "translit": "",
+    "zh": "混合流派",
+    "def": "将两种或多种音乐风格融合在一起形成的类型。",
+    "example": "例子：民谣与电子乐结合的“民谣电子”。",
+    "context": "Layering acoustic guitar riffs over heavy electronic beats creates a unique organic contrast in hybrid genres.",
+    "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 357
+  },
+  {
+    "word": "searching Splice",
+    "ipa": "",
+    "translit": "",
+    "zh": "搜索 Splice",
+    "def": "指在 Splice 平台上通过关键词查找所需的音乐素材。",
+    "example": "例子：制作人花了一下午在搜索 Splice，寻找合适的鼓组采样。",
+    "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
+    "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 358
+  },
+  {
+    "word": "for inspiration",
+    "ipa": "",
+    "translit": "",
+    "zh": "寻找灵感",
+    "def": "表示为了获得创作上的启发或新想法而进行某项活动。",
+    "example": "例子：他翻看旧唱片，为的是寻找灵感。",
+    "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
+    "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 359
+  },
+  {
+    "word": "keywords",
+    "ipa": "",
+    "translit": "",
+    "zh": "关键词",
+    "def": "用于搜索时输入的核心词语，帮助快速定位相关内容。",
+    "example": "例子：输入 \"math rock riffs\" 作为关键词。",
+    "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
+    "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 360
+  },
+  {
+    "word": "math rock riffs",
+    "ipa": "",
+    "translit": "",
+    "zh": "数学摇滚乐句",
+    "def": "数学摇滚是一种以复杂节拍、不对称拍号和交错节奏为特征的摇滚风格，其 riff 指重复性的吉他或乐器短句。",
+    "example": "听觉例子：吉他以 7/8 拍快速切分、节奏不断变换的重复乐句。",
+    "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
+    "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 361
+  },
+  {
+    "word": "can spark",
+    "ipa": "",
+    "translit": "",
+    "zh": "能够激发",
+    "def": "表示某事物有可能引发或点燃某种想法、灵感或反应。",
+    "example": "例子：一个偶然听到的和弦进行能够激发全新的创作方向。",
+    "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
+    "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 362
+  },
+  {
+    "word": "completely unexpected",
+    "ipa": "",
+    "translit": "",
+    "zh": "完全出乎意料的",
+    "def": "形容某事物与预期完全不同，令人意外。",
+    "example": "例子：一个简单的搜索词带来了完全出乎意料的编曲思路。",
+    "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
+    "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 363
+  },
+  {
+    "word": "arrangement ideas",
+    "ipa": "",
+    "translit": "",
+    "zh": "编曲思路",
+    "def": "指关于如何组织、编排乐曲各声部与段落的创意和构想。",
+    "example": "例子：把数学摇滚的节奏型应用到流行歌曲中，产生新的编曲思路。",
+    "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
+    "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 364
+  },
+  {
+    "word": "Processing complex riffs",
+    "ipa": "",
+    "translit": "",
+    "zh": "处理复杂的连复段",
+    "def": "指在音频制作中对结构复杂、音符密集的吉他连复段进行编辑与加工。",
+    "example": "例子：把一段快速交替拨弦的金属连复段导入 DAW 进行降噪与均衡处理。",
+    "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
+    "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
+    "category": "吉他",
+    "source": "小赫转存",
+    "id": 365
+  },
+  {
+    "word": "Neural DSP plugins",
+    "ipa": "",
+    "translit": "",
+    "zh": "Neural DSP 插件",
+    "def": "指 Neural DSP 公司开发的吉他音箱模拟与效果类音频插件，基于神经网络建模真实设备音色。",
+    "example": "例子：在音轨上加载 Neural DSP 的 Archetype 系列插件来替代真实音箱拾音。",
+    "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
+    "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 366
+  },
+  {
+    "word": "massive tonal shifts",
+    "ipa": "",
+    "translit": "",
+    "zh": "巨大的音色变化",
+    "def": "指在制作过程中对音色进行幅度很大的调整与重塑。",
+    "example": "例子：把原本温暖清音的音轨改成高增益失真的音色。",
+    "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
+    "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 367
+  },
+  {
+    "word": "during the mixing phase",
+    "ipa": "",
+    "translit": "",
+    "zh": "在混音阶段",
+    "def": "指歌曲录制完成后、进行多轨平衡与效果处理的制作环节。",
+    "example": "例子：混音阶段调整吉他轨的声像、动态与空间效果。",
+    "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
+    "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 368
+  },
+  {
+    "word": "without re-recording",
+    "ipa": "",
+    "translit": "",
+    "zh": "无需重新录制",
+    "def": "指不必回到录音棚重弹或重录原始素材即可完成音色修改。",
+    "example": "例子：直接调用插件预设改变音色，省去重新拾音的时间和成本。",
+    "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
+    "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 369
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -4482,7 +4807,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 345
+    "id": 370
   },
   {
     "word": "Conga",
@@ -4495,7 +4820,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 346
+    "id": 371
   },
   {
     "word": "Percussion",
@@ -4508,7 +4833,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 347
+    "id": 372
   },
   {
     "word": "Grooves",
@@ -4521,7 +4846,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 348
+    "id": 373
   },
   {
     "word": "Bongos",
@@ -4534,7 +4859,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 349
+    "id": 374
   },
   {
     "word": "Woodblock",
@@ -4547,7 +4872,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 350
+    "id": 375
   },
   {
     "word": "Djembe",
@@ -4560,7 +4885,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 351
+    "id": 376
   },
   {
     "word": "Tambourine",
@@ -4573,7 +4898,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 352
+    "id": 377
   },
   {
     "word": "Cowbells",
@@ -4586,7 +4911,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 353
+    "id": 378
   },
   {
     "word": "Bells",
@@ -4599,7 +4924,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 354
+    "id": 379
   },
   {
     "word": "Timbales",
@@ -4612,7 +4937,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 355
+    "id": 380
   },
   {
     "word": "Keys",
@@ -4625,7 +4950,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 356
+    "id": 381
   },
   {
     "word": "Piano",
@@ -4638,7 +4963,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 357
+    "id": 382
   },
   {
     "word": "Wurlitzer",
@@ -4651,7 +4976,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 358
+    "id": 383
   },
   {
     "word": "Electric Piano",
@@ -4664,7 +4989,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 359
+    "id": 384
   },
   {
     "word": "Organ",
@@ -4677,7 +5002,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 360
+    "id": 385
   },
   {
     "word": "Clavinet",
@@ -4690,7 +5015,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 361
+    "id": 386
   },
   {
     "word": "Keys Melody",
@@ -4703,7 +5028,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 362
+    "id": 387
   },
   {
     "word": "Classical",
@@ -4716,7 +5041,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 363
+    "id": 388
   },
   {
     "word": "Female Vocals",
@@ -4729,7 +5054,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 364
+    "id": 389
   },
   {
     "word": "Vocal FX",
@@ -4742,7 +5067,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 365
+    "id": 390
   },
   {
     "word": "Vocoder",
@@ -4755,7 +5080,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 366
+    "id": 391
   },
   {
     "word": "Screams",
@@ -4768,7 +5093,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 367
+    "id": 392
   },
   {
     "word": "Whisper Vocals",
@@ -4781,7 +5106,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 368
+    "id": 393
   },
   {
     "word": "Male Vocals",
@@ -4794,7 +5119,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 369
+    "id": 394
   },
   {
     "word": "Spoken Word",
@@ -4807,7 +5132,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 370
+    "id": 395
   },
   {
     "word": "Vocal Phrases",
@@ -4820,7 +5145,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 371
+    "id": 396
   },
   {
     "word": "Vocal Shouts",
@@ -4833,7 +5158,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 372
+    "id": 397
   },
   {
     "word": "Dialogue",
@@ -4846,7 +5171,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 373
+    "id": 398
   }
 ];
 window.SOURCES = [
@@ -6231,6 +6556,158 @@ window.SOURCES = [
       {
         "word": "across different playback devices",
         "zh": "在不同播放设备上"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
+    "translation": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Recording",
+        "zh": "录制"
+      },
+      {
+        "word": "Fender Telecaster",
+        "zh": "芬达 Telecaster 电吉他"
+      },
+      {
+        "word": "riffs",
+        "zh": "连复段 / 吉他乐句"
+      },
+      {
+        "word": "directly through",
+        "zh": "直接通过"
+      },
+      {
+        "word": "ISA One",
+        "zh": "ISA One 前置放大器"
+      },
+      {
+        "word": "yields",
+        "zh": "产生 / 得到"
+      },
+      {
+        "word": "warm",
+        "zh": "温暖的"
+      },
+      {
+        "word": "articulate",
+        "zh": "清晰的 / 颗粒感强的"
+      },
+      {
+        "word": "clean tone",
+        "zh": "清音 / 干净音色"
+      },
+      {
+        "word": "before hitting",
+        "zh": "在进入……之前"
+      },
+      {
+        "word": "amp sim",
+        "zh": "音箱模拟器"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Layering acoustic guitar riffs over heavy electronic beats creates a unique organic contrast in hybrid genres.",
+    "translation": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Layering",
+        "zh": "叠加 / 分层"
+      },
+      {
+        "word": "acoustic guitar",
+        "zh": "原声吉他 / 木吉他"
+      },
+      {
+        "word": "riffs",
+        "zh": "连复段 / 重复乐句"
+      },
+      {
+        "word": "heavy electronic beats",
+        "zh": "厚重的电子节拍"
+      },
+      {
+        "word": "organic contrast",
+        "zh": "有机的对比"
+      },
+      {
+        "word": "hybrid genres",
+        "zh": "混合流派"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
+    "translation": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Splice",
+        "zh": "Splice（音乐素材平台）"
+      },
+      {
+        "word": "searching Splice",
+        "zh": "搜索 Splice"
+      },
+      {
+        "word": "for inspiration",
+        "zh": "寻找灵感"
+      },
+      {
+        "word": "keywords",
+        "zh": "关键词"
+      },
+      {
+        "word": "math rock riffs",
+        "zh": "数学摇滚乐句"
+      },
+      {
+        "word": "can spark",
+        "zh": "能够激发"
+      },
+      {
+        "word": "completely unexpected",
+        "zh": "完全出乎意料的"
+      },
+      {
+        "word": "arrangement ideas",
+        "zh": "编曲思路"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
+    "translation": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Processing complex riffs",
+        "zh": "处理复杂的连复段"
+      },
+      {
+        "word": "Neural DSP plugins",
+        "zh": "Neural DSP 插件"
+      },
+      {
+        "word": "massive tonal shifts",
+        "zh": "巨大的音色变化"
+      },
+      {
+        "word": "during the mixing phase",
+        "zh": "在混音阶段"
+      },
+      {
+        "word": "without re-recording",
+        "zh": "无需重新录制"
       }
     ]
   }
