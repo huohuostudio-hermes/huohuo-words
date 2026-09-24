@@ -638,29 +638,52 @@ function rotAxisAngle(ax,ang){const x=ax.x,y=ax.y,z=ax.z,c=Math.cos(ang),s=Math.
   return [[t*x*x+c,t*x*y-s*z,t*x*z+s*y],[t*x*y+s*z,t*y*y+c,t*y*z-s*x],[t*x*z-s*y,t*y*z+s*x,t*z*z+c]];}
 function relaxSphere(pts, n){
   // 目标角距 = 球面 N 点均匀分布的理论角距（2*acos(1-2/n)），
-  // 取 0.85 倍留出收敛余地，间距比旧的 1.7/√n 大得多 → 词更分散、完整铺满球面
+  // 取 0.85 倍留出收敛余地，间距比旧的 1.7/√n 大得多 → 词更分散、完整铺满球面。
+  // n>300（如「全部」词多时）改分桶：只对 27 邻格内的点推开，O(n²)→近似 O(n)，上千词也不卡。
   const ideal = 2*Math.acos(Math.max(-1, Math.min(1, 1 - 2/n)));
   const minAng = Math.max(0.05, Math.min(0.26, ideal*0.85));
+  const useBuckets = n > 300;
+  const cell = Math.max(0.05, 2*Math.sin(minAng/2));
+  const inv = 1/cell;
   for(let it=0; it<40; it++){
+    let buckets = null;
+    if(useBuckets){
+      buckets = new Map();
+      for(let i=0;i<pts.length;i++){
+        const p=pts[i];
+        const k=Math.floor(p.x*inv)+','+Math.floor(p.y*inv)+','+Math.floor(p.z*inv);
+        (buckets.get(k)||buckets.set(k,[]).get(k)).push(i);
+      }
+    }
     for(let i=0;i<pts.length;i++){
       const a=pts[i];
-      for(let j=0;j<pts.length;j++){
-        if(j===i)continue;
-        const b=pts[j];
-        const dx=a.x-b.x, dy=a.y-b.y, dz=a.z-b.z;
-        const d2=dx*dx+dy*dy+dz*dz;
-        const d=Math.sqrt(d2);
-        if(d<1e-6)continue;
-        const ang=2*Math.asin(Math.min(1,d/2));
-        if(ang<minAng){
-          const f=(minAng-ang)*0.5;
-          a.x+=dx/d*f; a.y+=dy/d*f; a.z+=dz/d*f;
+      if(useBuckets){
+        const cx=Math.floor(a.x*inv), cy=Math.floor(a.y*inv), cz=Math.floor(a.z*inv);
+        for(let ox=-1;ox<=1;ox++)for(let oy=-1;oy<=1;oy++)for(let oz=-1;oz<=1;oz++){
+          const arr=buckets.get((cx+ox)+','+(cy+oy)+','+(cz+oz));
+          if(!arr)continue;
+          for(let k=0;k<arr.length;k++){ const j=arr[k]; if(j===i)continue;
+            pushApart(a, pts[j], minAng);
+          }
         }
+      } else {
+        for(let j=0;j<pts.length;j++){ if(j===i)continue; pushApart(a, pts[j], minAng); }
       }
     }
     for(let i=0;i<pts.length;i++){
       const m=Math.hypot(pts[i].x,pts[i].y,pts[i].z)||1;
       pts[i].x/=m; pts[i].y/=m; pts[i].z/=m;
+    }
+  }
+  function pushApart(a, b, minAng){
+    const dx=a.x-b.x, dy=a.y-b.y, dz=a.z-b.z;
+    const d2=dx*dx+dy*dy+dz*dz;
+    const d=Math.sqrt(d2);
+    if(d<1e-6)return;
+    const ang=2*Math.asin(Math.min(1,d/2));
+    if(ang<minAng){
+      const f=(minAng-ang)*0.5;
+      a.x+=dx/d*f; a.y+=dy/d*f; a.z+=dz/d*f;
     }
   }
 }
@@ -731,7 +754,7 @@ function renderGraph(){
     const col=st==="mastered"?"#7fb4ff":st==="learning"?"#fcd34d":"#a9a396";
     const sel=gSelWord===w.word;
     const alpha=0.35+0.65*p.depth;
-    const r=(sel?8:5.5)*p.factor;
+    const r=(sel?8:(gWords.length>800?3.5:gWords.length>300?4.2:gWords.length>100?5:5.5))*p.factor;
     gCtx.globalAlpha=alpha;
     gCtx.fillStyle=col;
     gCtx.beginPath();gCtx.arc(p.sx,p.sy,r,0,Math.PI*2);gCtx.fill();
@@ -741,8 +764,8 @@ function renderGraph(){
     }
     const la = sel ? 1 : reveal*Math.max(0, Math.min(1, (p.depth-0.28)/0.5));
     if(la>0.03){
-      const base=gWords.length>200?10:gWords.length>100?12:gWords.length>30?13:15;
-      const fs=Math.max(8,Math.min(20,base*p.factor*Math.sqrt(gK)));
+      const base=gWords.length>1500?8:gWords.length>500?8.5:gWords.length>200?9.5:gWords.length>100?11.5:gWords.length>30?13:15;
+      const fs=Math.max(7,Math.min(20,base*p.factor*Math.sqrt(gK)));
       gCtx.globalAlpha=Math.min(1, la);
       gCtx.font="600 "+fs.toFixed(1)+'px -apple-system,"PingFang SC",sans-serif';
       gCtx.textAlign="center";gCtx.textBaseline="top";
