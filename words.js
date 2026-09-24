@@ -6786,6 +6786,84 @@ window.WORDS = [
     "id": 522
   },
   {
+    "word": "Atmospheric pads",
+    "ipa": "",
+    "translit": "",
+    "zh": "氛围铺底音色",
+    "def": "指具有空间感、氛围感的持续性和声音色，通常用于填充背景、营造情绪。",
+    "example": "例子：电影配乐中长时间铺在底层的柔和合成器和声。",
+    "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
+    "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
+    "category": "音效",
+    "source": "小赫转存",
+    "id": 523
+  },
+  {
+    "word": "Slow phaser",
+    "ipa": "",
+    "translit": "",
+    "zh": "慢速移相器",
+    "def": "一种调制效果器，通过缓慢变化的相位偏移产生柔和的扫频效果。",
+    "example": "听觉例子：声音像在缓慢地\"呼——\"来回移动，带有轻微的金属光泽感。",
+    "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
+    "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 524
+  },
+  {
+    "word": "Gentle",
+    "ipa": "",
+    "translit": "",
+    "zh": "柔和的",
+    "def": "形容效果程度轻微、不强烈，听感上温和自然。",
+    "example": "例子：柔和的滤波扫频不会让听者感到突兀。",
+    "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
+    "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 525
+  },
+  {
+    "word": "Swirling",
+    "ipa": "",
+    "translit": "",
+    "zh": "旋转的 / 回旋的",
+    "def": "形容声音在立体声场中像漩涡一样环绕流动的感觉。",
+    "example": "听觉例子：声音在左右耳之间缓慢打转，形成环绕感。",
+    "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
+    "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 526
+  },
+  {
+    "word": "Stereo movement",
+    "ipa": "",
+    "translit": "",
+    "zh": "立体声移动",
+    "def": "指声音在左右声道之间位置变化所产生的空间运动感。",
+    "example": "例子：吉他声从左边慢慢漂移到右边，就是典型的立体声移动。",
+    "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
+    "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 527
+  },
+  {
+    "word": "Introduces",
+    "ipa": "",
+    "translit": "",
+    "zh": "引入 / 带来",
+    "def": "表示某个处理手段为声音添加了某种新的特性或效果。",
+    "example": "例子：加入混响为干涩的人声引入了空间深度。",
+    "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
+    "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
+    "category": "其他",
+    "source": "小赫转存",
+    "id": 528
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -6796,7 +6874,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 523
+    "id": 529
   },
   {
     "word": "Conga",
@@ -6809,7 +6887,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 524
+    "id": 530
   },
   {
     "word": "Percussion",
@@ -6822,7 +6900,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 525
+    "id": 531
   },
   {
     "word": "Grooves",
@@ -6835,7 +6913,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 526
+    "id": 532
   },
   {
     "word": "Bongos",
@@ -6848,7 +6926,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 527
+    "id": 533
   },
   {
     "word": "Woodblock",
@@ -6861,7 +6939,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 528
+    "id": 534
   },
   {
     "word": "Djembe",
@@ -6874,7 +6952,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 529
+    "id": 535
   },
   {
     "word": "Tambourine",
@@ -6887,7 +6965,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 530
+    "id": 536
   },
   {
     "word": "Cowbells",
@@ -6900,7 +6978,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 531
+    "id": 537
   },
   {
     "word": "Bells",
@@ -6913,7 +6991,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 532
+    "id": 538
   },
   {
     "word": "Timbales",
@@ -6926,7 +7004,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "打击乐",
     "source": "2026-09-19",
-    "id": 533
+    "id": 539
   },
   {
     "word": "Keys",
@@ -6939,7 +7017,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 534
+    "id": 540
   },
   {
     "word": "Wurlitzer",
@@ -6952,7 +7030,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 535
+    "id": 541
   },
   {
     "word": "Electric Piano",
@@ -6965,7 +7043,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 536
+    "id": 542
   },
   {
     "word": "Organ",
@@ -6978,7 +7056,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 537
+    "id": 543
   },
   {
     "word": "Clavinet",
@@ -6991,7 +7069,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 538
+    "id": 544
   },
   {
     "word": "Keys Melody",
@@ -7004,7 +7082,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "键盘",
     "source": "2026-09-19",
-    "id": 539
+    "id": 545
   },
   {
     "word": "Classical",
@@ -7017,7 +7095,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "其他",
     "source": "2026-09-19",
-    "id": 540
+    "id": 546
   },
   {
     "word": "Female Vocals",
@@ -7030,7 +7108,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 541
+    "id": 547
   },
   {
     "word": "Vocoder",
@@ -7043,7 +7121,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 542
+    "id": 548
   },
   {
     "word": "Screams",
@@ -7056,7 +7134,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 543
+    "id": 549
   },
   {
     "word": "Whisper Vocals",
@@ -7069,7 +7147,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 544
+    "id": 550
   },
   {
     "word": "Spoken Word",
@@ -7082,7 +7160,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 545
+    "id": 551
   },
   {
     "word": "Vocal Phrases",
@@ -7095,7 +7173,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 546
+    "id": 552
   },
   {
     "word": "Vocal Shouts",
@@ -7108,7 +7186,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 547
+    "id": 553
   },
   {
     "word": "Dialogue",
@@ -7121,7 +7199,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "人声",
     "source": "2026-09-19",
-    "id": 548
+    "id": 554
   }
 ];
 window.SOURCES = [
@@ -9578,6 +9656,42 @@ window.SOURCES = [
       {
         "word": "Sub bass",
         "zh": "超低音 / 次低音"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
+    "translation": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Routing",
+        "zh": "路由 / 信号传送"
+      },
+      {
+        "word": "Atmospheric pads",
+        "zh": "氛围铺底音色"
+      },
+      {
+        "word": "Slow phaser",
+        "zh": "慢速移相器"
+      },
+      {
+        "word": "Gentle",
+        "zh": "柔和的"
+      },
+      {
+        "word": "Swirling",
+        "zh": "旋转的 / 回旋的"
+      },
+      {
+        "word": "Stereo movement",
+        "zh": "立体声移动"
+      },
+      {
+        "word": "Introduces",
+        "zh": "引入 / 带来"
       }
     ]
   }
