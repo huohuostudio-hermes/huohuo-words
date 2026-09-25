@@ -1247,6 +1247,37 @@ function speakTTS(word){
   if(pick)u.voice=pick;
   speechSynthesis.speak(u);
 }
+let audioUnlocked=false;
+function unlockAudio(){
+  if(audioUnlocked)return;
+  audioUnlocked=true;
+  try{
+    if(!audioEl)audioEl=new Audio();
+    // 生成 0.08s 静音 WAV，在用户手势内 play() 一次，解锁 iOS 自动播放
+    const sr=8000,n=Math.floor(sr*0.08),buf=new ArrayBuffer(44+n*2),v=new DataView(buf);
+    const w=(o,s)=>{for(let i=0;i<s.length;i++)v.setUint8(o+i,s.charCodeAt(i));};
+    w(0,"RIFF");v.setUint32(4,36+n*2,true);w(8,"WAVE");w(12,"fmt ");v.setUint32(16,16,true);
+    v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,sr,true);
+    v.setUint32(28,sr*2,true);v.setUint16(32,2,true);v.setUint16(34,16,true);
+    w(36,"data");v.setUint32(40,n*2,true);
+    audioEl.src=URL.createObjectURL(new Blob([buf],{type:"audio/wav"}));
+    const p=audioEl.play();
+    if(p&&p.catch)p.catch(function(){});
+  }catch(e){}
+}
+function autoSpeak(w){
+  const s=String(w&&w.word||"").trim();
+  if(!s)return;
+  const isLong=s.length>30;
+  if(navigator.onLine===false){ if(!isLong)speakTTS(s); return; }
+  try{
+    if(!audioEl)audioEl=new Audio();
+    audioEl.onerror=function(){audioEl.onerror=null; if(!isLong)speakTTS(s);};
+    audioEl.src="https://dict.youdao.com/dictvoice?audio="+encodeURIComponent(s)+"&type=1";
+    const p=audioEl.play();
+    if(p&&typeof p.catch==="function")p.catch(function(){ if(!isLong)speakTTS(s); });
+  }catch(e){ if(!isLong)speakTTS(s); }
+}
 
 /* ---------- 学习会话状态机 ---------- */
 let session=null;
@@ -1329,6 +1360,7 @@ function renderTodayTarget(){
 function backToTodayTarget(){ renderTodayTarget(); }
 
 function beginSession(learnNew){
+  unlockAudio();
   const target=progress.settings.dailyNew||10;
   const newWords=learnNew?pickNew(target):[];
   const reviewWords=pickLearning();
@@ -1367,6 +1399,7 @@ function renderMCQ(){
         </button>`).join("")}</div>
       <div class="tagsec"><div class="chips">${tags}</div></div>
     </div>`;
+  autoSpeak(w);
 }
 function buildOptions(w){
   const correct=w.zh;
@@ -1461,6 +1494,7 @@ function renderSpell(){
       <div class="tagsec"><div class="chips">${tags}</div></div>
     </div>`;
   const inp=$("#spellInput");if(inp)inp.focus();
+  autoSpeak(w);
 }
 function toggleHint(){
   const w=session.current;
@@ -1981,6 +2015,7 @@ function beginSessionOnGroup(kind, mode){
   beginSessionOn(words, mode);
 }
 function beginSessionOn(words, mode){
+  unlockAudio();
   const ws=(words||[]).slice();
   session={
     mcqQueue: mode==="learn"?[...ws]:[],
@@ -2167,10 +2202,10 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.8"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.9"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "修复：多选单词批量拖拽被页面滚动打断的问题",
-  "管理单词本页：自动生成的 5 个单词本不再显示「删除」按钮（防误触），自定义单词本仍可删除"
+  "学习新词 / 拼写复习：进入下一个单词时自动播放发音",
+  "长句无法发音时自动跳过，不打断学习"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);
