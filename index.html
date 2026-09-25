@@ -79,6 +79,7 @@ main{flex:1;padding:8px 20px calc(24px + env(safe-area-inset-bottom));display:fl
 .btn.warn{color:var(--bad);border-color:rgba(248,113,113,.4)}
 .btn.primary{background:linear-gradient(135deg,var(--accent2),var(--accent));border-color:var(--accent);color:#1a1206;box-shadow:0 4px 18px rgba(230,184,74,.30)}
 .btn.small{padding:11px;font-size:14px}
+.btn.blue{background:linear-gradient(135deg,#8ec0ff,#5aa0ff);border-color:#5aa0ff;color:#0a1220;box-shadow:0 4px 18px rgba(90,160,255,.30)}
 
 /* ===== 题目卡片 ===== */
 .qcard{background:linear-gradient(160deg,var(--card),var(--card2));border:1px solid var(--border2);
@@ -1191,7 +1192,7 @@ function renderMenu(){
   $("#streakNum").textContent=progress.stats.streak||0;
   $("#main").innerHTML=`
     <div class="overview">
-      <div class="stat"><div class="num">${target}</div><div class="lbl">今日目标</div></div>
+      <div class="stat click" onclick="showTodayTarget()"><div class="num">${target}</div><div class="lbl">今日目标 ›</div></div>
       <div class="stat click" onclick="showGroup('learned')"><div class="num">${studied}</div><div class="lbl">已学习 ›</div></div>
       <div class="stat click" onclick="showGroup('mastered')"><div class="num accent">${master}</div><div class="lbl">已掌握 ›</div></div>
       <div class="stat click" onclick="openFavs('renderMenu')"><div class="num">${favCount()}</div><div class="lbl">⭐ 收藏 ›</div></div>
@@ -1207,14 +1208,40 @@ function menuCardHTML(target,learnedToday,pending,remain,master){
   }
   const reached=learnedToday>=target && learnedToday>0;
   if(!reached){
-    return `${pending>0?`<p class="note">另有 ${pending} 个已学未掌握，会一起复习</p>`:""}
+    return `${pending>0?`<p class="note">另有 ${pending} 个已学未掌握，会一起拼写</p>`:""}
       <button class="btn primary" onclick="beginSession(true)">开始学习</button>`;
   }
   let html=`<h2>今日目标已达成 🎉</h2><p>今日已学 ${learnedToday} 个新词 · 已掌握 ${master} 个。</p>`;
   if(remain>0)html+=`<button class="btn primary" onclick="beginSession(true)">拓展学习 ${target} 个</button>`;
-  if(pending>0)html+=`<button class="btn" onclick="beginSession(false)">复习待掌握 ${pending} 个</button>`;
+  if(pending>0)html+=`<button class="btn" onclick="beginSession(false)">拼写待掌握 ${pending} 个</button>`;
   return html;
 }
+
+/* ---------- 今日目标（点击查看今天要学的新词） ---------- */
+function showTodayTarget(){ renderTodayTarget(); }
+function todayTargetWords(){ return pickNew(progress.settings.dailyNew||10); }
+function renderTodayTarget(){
+  const target=progress.settings.dailyNew||10;
+  const words=todayTargetWords();
+  $("#main").innerHTML=`
+    <div class="topbar">
+      <button class="backbtn" onclick="renderMenu()">← 返回</button>
+      <div class="t">今日目标</div>
+    </div>
+    <p class="note" style="margin:4px 0 12px;color:var(--muted)">今天要学 ${target} 个新词 · 待学 ${words.length} 个</p>
+    <ul class="wordlist" id="list"></ul>`;
+  const ul=$("#list");
+  if(words.length===0){ul.innerHTML='<div class="empty">今天的新词都学完啦 🎉</div>';return;}
+  ul.innerHTML=words.map(w=>{
+    const dot={new:"new",learning:"learn",mastered:"master"}[cardState(w)];
+    return `<li class="worditem" onclick="openDetail('${esc(w.word)}','backToTodayTarget')">
+      <span class="dot ${dot}"></span>
+      <span class="w">${esc(w.word)}</span>
+      <span class="z">${esc(w.zh)}</span></li>`;
+  }).join("");
+}
+function backToTodayTarget(){ renderTodayTarget(); }
+
 function beginSession(learnNew){
   const target=progress.settings.dailyNew||10;
   const newWords=learnNew?pickNew(target):[];
@@ -1482,7 +1509,7 @@ function renderList(){
     </div>
     <div class="group-actions">
       <button class="btn primary" onclick="actListSelected('learn')">📖 学习所选</button>
-      <button class="btn" onclick="actListSelected('review')">🔁 复习所选</button>
+      <button class="btn" onclick="actListSelected('review')">✏️ 拼写所选</button>
     </div>`:`<div class="searchbar"><input id="search" placeholder="搜索单词 / 释义…" value="${esc(curQuery)}" oninput="onSearch(this.value)"></div>
     <div class="chips">${chips}</div>
     <div class="group-actions selbar"><button class="btn small" onclick="openFavs('renderList')">⭐ 收藏</button><button class="btn small" onclick="enterListSelect()">☑ 多选</button></div>`}
@@ -1690,6 +1717,7 @@ function detailCtxFor(back){
   if(back==="renderMenu")return chainCat==="全部"?allWords():allWords().filter(w=>catOf(w)===chainCat);
   if(back==="renderFavs")return favWords();
   if(back==="renderGroupBack")return groupWordsOf(curGroupKind);
+  if(back==="backToTodayTarget")return todayTargetWords();
   if(back==="backToSources")return srcBranchWords.map(w=>WORDS.find(x=>x.word===w)).filter(Boolean);
   return [];
 }
@@ -1754,7 +1782,7 @@ function openDetail(word, back){
       </div>
       <div class="card-actions">
         <button class="cardbtn" onclick="learnThis('${esc(w.word)}')">📖 学习</button>
-        <button class="cardbtn" onclick="reviewThis('${esc(w.word)}')">🔁 复习</button>
+        <button class="cardbtn" onclick="reviewThis('${esc(w.word)}')">✏️ 拼写</button>
         <button class="cardbtn warn" onclick="delWord('${esc(w.word)}','${backFn}')">🗑️ 删除</button>
       </div>
     </div>`;
@@ -1796,14 +1824,15 @@ function renderGroup(words){
         <button class="btn small" onclick="exitSelect()">完成</button>
       </div>
       <div class="group-actions">
-        <button class="btn primary" onclick="actSelected('learn')">再学所选</button>
-        <button class="btn" onclick="actSelected('review')">复习所选</button>
+        <button class="btn blue" onclick="actSelected('learn')">再学所选</button>
+        <button class="btn primary" onclick="actSelected('review')">拼写所选</button>
       </div>`;
   }else if(words.length>0){
     actions=`
+      <div class="brandsub-wrap" style="margin:2px 0 14px" onclick="onGroupCountTap('${curGroupKind}')"><div class="brandsub">已收录 ${words.length} 个单词 · 双击抽5张</div></div>
       <div class="group-actions">
-        <button class="btn primary" onclick="beginSessionOnGroup('${curGroupKind}','learn')">再学一遍</button>
-        <button class="btn" onclick="beginSessionOnGroup('${curGroupKind}','review')">再复习一遍</button>
+        <button class="btn blue" onclick="beginSessionOnGroup('${curGroupKind}','learn')">再学一遍</button>
+        <button class="btn primary" onclick="beginSessionOnGroup('${curGroupKind}','review')">再拼写一遍</button>
       </div>
       <div class="group-actions selbar">
         <button class="btn small" onclick="enterSelect()">☑ 多选</button>
@@ -1851,7 +1880,7 @@ function selectAll(){
   renderGroup(words);
 }
 function actSelected(mode){
-  if(groupSelected.size===0){alert("请先勾选要复习的单词");return;}
+  if(groupSelected.size===0){alert("请先勾选要拼写的单词");return;}
   const words=groupWordsOf(curGroupKind).filter(w=>groupSelected.has(w.word));
   beginSessionOn(words, mode);
 }
@@ -1890,10 +1919,11 @@ function renderFavs(){
     ${favSelectMode?`<div class="group-actions selbar">
       <span class="selcount">已选 ${favSelected.size} 个</span>
       <button class="btn small" onclick="favSelectAll()">全选</button>
+      <button class="btn small warn" onclick="cancelFavSelected()">取消收藏</button>
     </div>
     <div class="group-actions">
       <button class="btn primary" onclick="actFavSelected('learn')">📖 学习所选</button>
-      <button class="btn" onclick="actFavSelected('review')">🔁 复习所选</button>
+      <button class="btn" onclick="actFavSelected('review')">✏️ 拼写所选</button>
     </div>`:`<div class="group-actions selbar"><button class="btn small" onclick="enterFavSelect()">☑ 多选</button></div>`}
     <div class="wordlist" id="list"></div>`;
   renderFavItems(words);
@@ -1931,6 +1961,16 @@ function actFavSelected(mode){
   if(favSelected.size===0){alert("请先勾选单词");return;}
   const ws=favWords().filter(w=>favSelected.has(w.word));
   beginSessionOn(ws, mode);
+}
+function cancelFavSelected(){
+  const ws=favWords();
+  const sel=favSelected.size>0?favSelected:new Set(ws.map(w=>w.word));
+  if(sel.size===0){alert("没有可取消的收藏");return;}
+  if(!confirm("取消这 "+sel.size+" 个单词的收藏？"))return;
+  if(progress.favs)progress.favs=progress.favs.filter(x=>!sel.has(x));
+  save();
+  favSelected=new Set();
+  renderFavs();
 }
 
 /* ---------- 我的 ---------- */
@@ -2030,7 +2070,7 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.1"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.2"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 function verCmp(a,b){
   const pa=String(a).split(".").map(x=>parseInt(x,10)||0);
   const pb=String(b).split(".").map(x=>parseInt(x,10)||0);
@@ -2160,12 +2200,24 @@ function onWordCountTap(){
 }
 function openDeck(){
   const base=curCat==="全部"?allWords():allWords().filter(w=>catOf(w)===curCat);
-  const pool=shuffle(base);
+  openDeckFrom(base, curCat==="全部"?"还没有单词":"「"+curCat+"」还没有单词");
+}
+function openDeckFrom(base, emptyMsg){
+  const pool=shuffle(base||[]);
   const n=Math.min(5, pool.length);
-  if(n===0){ alert(curCat==="全部"?"还没有单词":"「"+curCat+"」还没有单词"); return; }
+  if(n===0){ alert(emptyMsg||"还没有单词"); return; }
   cardDeck={cards:pool.slice(0,n).map(w=>({w:w, suit:pickSuit()})), idx:0, flipped:false};
   const el=$("#cardDeck"); if(el)el.style.display="flex";
   renderDeckCard(false);
+}
+let groupDeckTapTime=0;
+function onGroupCountTap(kind){
+  const now=Date.now();
+  if(now-groupDeckTapTime<400){ groupDeckTapTime=0; openGroupDeck(kind); }
+  else groupDeckTapTime=now;
+}
+function openGroupDeck(kind){
+  openDeckFrom(groupWordsOf(kind), kind==="mastered"?"还没有已掌握的单词":"还没有已学习的单词");
 }
 function closeDeck(){
   cardDeck=null;
@@ -2196,7 +2248,7 @@ function renderDeckCard(animate){
       ${w.def?`<div class="pc-def">${esc(w.def)}</div>`:""}
       <div class="pc-actions">
         <button class="btn primary" onclick="event.stopPropagation();deckLearn('${esc(w.word)}')">📖 学习</button>
-        <button class="btn" onclick="event.stopPropagation();deckReview('${esc(w.word)}')">🔁 复习</button>
+        <button class="btn" onclick="event.stopPropagation();deckReview('${esc(w.word)}')">✏️ 拼写</button>
         <button class="btn ${fav?"fav-on":""}" onclick="event.stopPropagation();deckFav('${esc(w.word)}')">${fav?"★ 收藏":"☆ 收藏"}</button>
         <button class="btn warn" onclick="event.stopPropagation();delWordDeck('${esc(w.word)}')">🗑️ 删除</button>
       </div>
