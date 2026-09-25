@@ -1888,9 +1888,9 @@ function openDetail(word, back){
   const backFn=back||"renderList";
   const c=cardOf(w);
   const srcCount=sourcesOf(w).length;
-  const stTxt={new:"未学习",learning:"学习中",mastered:"已掌握"}[cardState(w)];
-  const learnedOn=c&&c.learnedOn?c.learnedOn:"—";
-  const masteredOn=c&&c.masteredOn?c.masteredOn:"—";
+  const state=cardState(w);
+  const stTxt={new:"未学习",learning:"已学习",mastered:"已拼写"}[state];
+  const dateTxt=state==="mastered"?(c&&c.masteredOn?` · 拼写于 ${c.masteredOn}`:""):(state==="learning"&&c&&c.learnedOn?` · 学习于 ${c.learnedOn}`:"");
   const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="reTag('${esc(w.word)}','${esc(x)}','${backFn}')">${esc(x)}</div>`).join("")+`<div class="chip newtag" onclick="openCatManager('resumeDetail')">⚙️ 管理</div>`;
   const fav=isFav(w);
   const ctxList=detailCtxFor(backFn);
@@ -1913,7 +1913,7 @@ function openDetail(word, back){
       ${contextBlock(w)}
       ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}
       <button class="btn" style="margin:4px 0 10px" onclick="renderSources('${esc(w.word)}','${backFn}')">📚 其他源自${srcCount>0?` · ${srcCount} 处语境`:""}</button>
-      <div style="color:var(--faint);font-size:12px;margin-top:6px">${esc(catOf(w))} · ${stTxt} · 学习于 ${learnedOn} · 掌握于 ${masteredOn}</div>
+      <div style="color:var(--faint);font-size:12px;margin-top:6px">${stTxt}${dateTxt}</div>
       <div class="tagsec">
         <div class="chips">${tags}</div>
       </div>
