@@ -392,7 +392,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 <script>
 "use strict";
 const WORDS = window.WORDS || [];
-const CATS = ["全部","打击乐","键盘","吉他","合成器","人声","管乐","音效","其他"];
+const CATS = ["全部","声音描述","乐器们","插件操作","音乐词汇","日常生活"];
 const LS_KEY = "huohuo-words-progress-v1";
 
 function todayStr(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
@@ -2148,7 +2148,7 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.5"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.6"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 function verCmp(a,b){
   const pa=String(a).split(".").map(x=>parseInt(x,10)||0);
   const pb=String(b).split(".").map(x=>parseInt(x,10)||0);

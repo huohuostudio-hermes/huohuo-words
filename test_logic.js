@@ -160,12 +160,12 @@ ok(session.spellQueue.length===2, "复习所选 2 个进队列");
 
 // 15. 词网渲染冒烟 + 边/布局
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
-chainCat="打击乐";
-renderOK("graphCardInner(打击乐)", ()=>graphCardInner());
+chainCat="乐器们";
+renderOK("graphCardInner(乐器们)", ()=>graphCardInner());
 renderOK("renderMenu含词网", ()=>renderMenu());
-const gwords=allWords().filter(w=>catOf(w)==="打击乐");
+const gwords=allWords().filter(w=>catOf(w)==="乐器们");
 const gedges=buildEdges(gwords);
-ok(gedges.length>0, "打击乐词网应有边");
+ok(gedges.length>0, "乐器们词网应有边");
 ok(layoutGraph(gwords,gedges).pos.length===gwords.length, "布局节点数一致");
 // 3D 球面 + 旋转数学
 buildSphere(true);
@@ -205,12 +205,12 @@ ok(isHidden(WORDS[0]), "详情页 delWord 删除后 isHidden=true");
 unhideWord(WORDS[0].word);
 
 // 17. 移标签/重置
-setWordCat(WORDS[0].word,"键盘");
-ok(catOf(WORDS[0])==="键盘", "移标签后 catOf=键盘");
+setWordCat(WORDS[0].word,"乐器们");
+ok(catOf(WORDS[0])==="乐器们", "移标签后 catOf=乐器们");
 resetWordCat(WORDS[0].word);
 ok(catOf(WORDS[0])===WORDS[0].category, "重置标签恢复原分类");
-reTag(WORDS[0].word,"吉他","renderList");
-ok(catOf(WORDS[0])==="吉他", "详情页 reTag 改分类=吉他");
+reTag(WORDS[0].word,"乐器们","renderList");
+ok(catOf(WORDS[0])==="乐器们", "详情页 reTag 改分类=乐器们");
 resetWordCat(WORDS[0].word);
 learnThis(WORDS[0].word);
 ok(session.mcqQueue.length===1, "learnThis 进学习队列1词");
@@ -262,12 +262,12 @@ exitFavSelect();
 
 // 22. 单词本（分类）管理：改名 / 新建 / 删除
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
-ok(catName("打击乐")==="打击乐", "未改名 catName 返回原名");
-ok(catsList().includes("打击乐"), "catsList 含基础分类");
-progress.catNames={"打击乐":"鼓组"};
-ok(catName("打击乐")==="鼓组", "改名后 catName=鼓组");
-ok(catsList().includes("鼓组") && !catsList().includes("打击乐"), "catsList 显示新名");
-const _drum=WORDS.find(w=>w.category==="打击乐");
+ok(catName("乐器们")==="乐器们", "未改名 catName 返回原名");
+ok(catsList().includes("乐器们"), "catsList 含基础分类");
+progress.catNames={"乐器们":"鼓组"};
+ok(catName("乐器们")==="鼓组", "改名后 catName=鼓组");
+ok(catsList().includes("鼓组") && !catsList().includes("乐器们"), "catsList 显示新名");
+const _drum=WORDS.find(w=>w.category==="乐器们");
 ok(_drum && catOf(_drum)==="鼓组", "改名后 catOf 返回新名");
 progress.catNames={};
 ok(addCat("女朋友的歌")===true, "addCat 新增自定义单词本");
@@ -285,15 +285,15 @@ renderOK("renderList(带管理chip)", ()=>renderList());
 
 // 22b. 删除/恢复自动生成单词本 + 多选批量拖拽手柄存在
 progress.deletedCats=[]; progress.catNames={}; progress.customCats=[];
-ok(catsList().includes("吉他"), "删除前 catsList 含吉他");
-delBaseCat("吉他");
-ok(!catsList().includes("吉他"), "delBaseCat 后 catsList 不含吉他");
-ok(progress.deletedCats.includes("吉他"), "deletedCats 记录吉他");
-setWordCat(WORDS[0].word, "吉他");
-delBaseCat("吉他");
+ok(catsList().includes("乐器们"), "删除前 catsList 含乐器们");
+delBaseCat("乐器们");
+ok(!catsList().includes("乐器们"), "delBaseCat 后 catsList 不含乐器们");
+ok(progress.deletedCats.includes("乐器们"), "deletedCats 记录乐器们");
+setWordCat(WORDS[0].word, "乐器们");
+delBaseCat("乐器们");
 ok(!progress.catOverride[WORDS[0].word], "delBaseCat 清掉该分类 catOverride");
-restoreBaseCat("吉他");
-ok(catsList().includes("吉他") && !progress.deletedCats.includes("吉他"), "restoreBaseCat 恢复吉他");
+restoreBaseCat("乐器们");
+ok(catsList().includes("乐器们") && !progress.deletedCats.includes("乐器们"), "restoreBaseCat 恢复乐器们");
 ok(typeof batchHandleDown==="function", "batchHandleDown 已定义");
 progress.deletedCats=[]; progress.catNames={}; progress.customCats=[]; curCat="全部";
 
