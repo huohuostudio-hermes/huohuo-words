@@ -299,6 +299,8 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 /* ===== 随机卡片流（扑克牌翻转） ===== */
 .brandsub-wrap{display:inline-block;margin-top:4px;clip-path:polygon(12px 0,calc(100% - 12px) 0,100% 12px,100% calc(100% - 12px),calc(100% - 12px) 100%,12px 100%,0 calc(100% - 12px),0 12px);background:linear-gradient(135deg,var(--accent),var(--accent2));padding:1.5px;cursor:pointer}
 .brandsub{clip-path:polygon(10px 0,calc(100% - 10px) 0,100% 10px,100% calc(100% - 10px),calc(100% - 10px) 100%,10px 100%,0 calc(100% - 10px),0 10px);background:#0a0a0a;color:var(--accent2);font-size:14px;font-weight:700;padding:5px 16px;letter-spacing:.5px;line-height:1.3}
+.groupcount{display:block;margin:2px 0 14px}
+.groupcount .brandsub{display:block;text-align:center;letter-spacing:2px;padding:8px 16px}
 #cardDeck{position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.96);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px}
 .deck-head{position:absolute;top:calc(14px + env(safe-area-inset-top));left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:0 20px}
 .deck-count{font-size:13px;color:var(--muted);font-weight:600}
@@ -1223,12 +1225,19 @@ function todayTargetWords(){ return pickNew(progress.settings.dailyNew||10); }
 function renderTodayTarget(){
   const target=progress.settings.dailyNew||10;
   const words=todayTargetWords();
+  const learnedToday=todayLearned();
+  let note="";
+  if(words.length>0 && learnedToday>=target){
+    note = learnedToday < target*2
+      ? `<p class="note" style="margin:4px 0 12px;color:var(--muted)">目标已完成，继续拓展 ${target} 个新词？</p>`
+      : `<p class="note" style="margin:4px 0 12px;color:var(--muted)">继续拓展？</p>`;
+  }
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="renderMenu()">← 返回</button>
       <div class="t">今日目标</div>
     </div>
-    <p class="note" style="margin:4px 0 12px;color:var(--muted)">今天要学 ${target} 个新词 · 待学 ${words.length} 个</p>
+    ${note}
     <ul class="wordlist" id="list"></ul>`;
   const ul=$("#list");
   if(words.length===0){ul.innerHTML='<div class="empty">今天的新词都学完啦 🎉</div>';return;}
@@ -1829,7 +1838,7 @@ function renderGroup(words){
       </div>`;
   }else if(words.length>0){
     actions=`
-      <div class="brandsub-wrap" style="margin:2px 0 14px" onclick="onGroupCountTap('${curGroupKind}')"><div class="brandsub">已收录 ${words.length} 个单词 · 双击抽5张</div></div>
+      <div class="brandsub-wrap groupcount" onclick="onGroupCountTap('${curGroupKind}')"><div class="brandsub">已收录 ${words.length} 个单词</div></div>
       <div class="group-actions">
         <button class="btn blue" onclick="beginSessionOnGroup('${curGroupKind}','learn')">再学一遍</button>
         <button class="btn primary" onclick="beginSessionOnGroup('${curGroupKind}','review')">再拼写一遍</button>
@@ -2070,7 +2079,7 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.2"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.3"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 function verCmp(a,b){
   const pa=String(a).split(".").map(x=>parseInt(x,10)||0);
   const pb=String(b).split(".").map(x=>parseInt(x,10)||0);
