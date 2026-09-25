@@ -2331,7 +2331,7 @@ function updateWordCount(){
 }
 function toggleLibrary(){
   if(tab==="list")switchTab("study");
-  else switchTab("list");
+  else { curCat=chainCat; switchTab("list"); }
 }
 
 
