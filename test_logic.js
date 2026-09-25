@@ -283,6 +283,20 @@ renderOK("renderCatManager", ()=>renderCatManager());
 progress.catNames={}; progress.customCats=[]; curCat="全部";
 renderOK("renderList(带管理chip)", ()=>renderList());
 
+// 22b. 删除/恢复自动生成单词本 + 多选批量拖拽手柄存在
+progress.deletedCats=[]; progress.catNames={}; progress.customCats=[];
+ok(catsList().includes("吉他"), "删除前 catsList 含吉他");
+delBaseCat("吉他");
+ok(!catsList().includes("吉他"), "delBaseCat 后 catsList 不含吉他");
+ok(progress.deletedCats.includes("吉他"), "deletedCats 记录吉他");
+setWordCat(WORDS[0].word, "吉他");
+delBaseCat("吉他");
+ok(!progress.catOverride[WORDS[0].word], "delBaseCat 清掉该分类 catOverride");
+restoreBaseCat("吉他");
+ok(catsList().includes("吉他") && !progress.deletedCats.includes("吉他"), "restoreBaseCat 恢复吉他");
+ok(typeof batchHandleDown==="function", "batchHandleDown 已定义");
+progress.deletedCats=[]; progress.catNames={}; progress.customCats=[]; curCat="全部";
+
 // 23. 其他源自分支可点（openBranchWord/backToSources 存在且不抛错）
 renderOK("renderSources", ()=>renderSources(WORDS[0].word, "renderList"));
 ok(typeof openBranchWord==="function" && typeof backToSources==="function", "openBranchWord/backToSources 已定义");

@@ -439,7 +439,8 @@ function toggleFav(word){
 /* ---------- 单词本（分类）管理：改名 / 新建 / 删除 ---------- */
 function catName(c){return (progress.catNames||{})[c]||c;}
 function catsList(){
-  const base=CATS.filter(c=>c!=="全部").map(catName);
+  const deleted=progress.deletedCats||[];
+  const base=CATS.filter(c=>c!=="全部"&&!deleted.includes(c)).map(catName);
   const custom=(progress.customCats||[]).slice();
   return [...new Set([...base,...custom])];
 }
@@ -512,6 +513,23 @@ function delCat(name){
   save();
   renderCatManager();
 }
+function delBaseCat(name){
+  if(!progress.deletedCats)progress.deletedCats=[];
+  if(!progress.deletedCats.includes(name))progress.deletedCats.push(name);
+  const shown=catName(name);
+  if(progress.catOverride){
+    for(const k in progress.catOverride){
+      if(progress.catOverride[k]===shown)delete progress.catOverride[k];
+    }
+  }
+  save();
+  renderCatManager();
+}
+function restoreBaseCat(name){
+  if(progress.deletedCats)progress.deletedCats=progress.deletedCats.filter(c=>c!==name);
+  save();
+  renderCatManager();
+}
 /* ---------- 单词本管理：从会话/详情进入后返回原处 ---------- */
 let catMgrReturn="renderList";
 let detailWord=null;
@@ -529,15 +547,21 @@ function resumeDetail(){
 function renderCatManager(){
   const base=CATS.filter(c=>c!=="全部");
   const custom=(progress.customCats||[]).slice();
-  const baseRows=base.map(c=>{
+  const deleted=(progress.deletedCats||[]);
+  const baseRows=base.filter(c=>!deleted.includes(c)).map(c=>{
     const shown=catName(c);
     const renamed=(progress.catNames||{})[c];
     return `<div class="catrow">
       <span class="catname">${esc(shown)}${renamed?`<span style="color:var(--faint);font-size:11px">（原名 ${esc(c)}）</span>`:""}</span>
       <button class="btn" onclick="renameCat('${esc(c)}')">改名</button>
       ${renamed?`<button class="btn" onclick="resetCatName('${esc(c)}')">还原</button>`:""}
+      <button class="btn warn" onclick="delBaseCat('${esc(c)}')">删除</button>
     </div>`;
   }).join("");
+  const deletedRows=base.filter(c=>deleted.includes(c)).map(c=>`<div class="catrow" style="opacity:.55">
+    <span class="catname">${esc(catName(c))}</span>
+    <button class="btn" onclick="restoreBaseCat('${esc(c)}')">恢复</button>
+  </div>`).join("");
   const customRows=custom.map(c=>`<div class="catrow">
     <span class="catname">${esc(c)}</span>
     <button class="btn" onclick="renameCat('${esc(c)}')">改名</button>
@@ -549,8 +573,9 @@ function renderCatManager(){
       <div class="t">管理单词本</div>
     </div>
     <div class="panel">
-      <h3>自动生成的单词本（可改名）</h3>
+      <h3>自动生成的单词本</h3>
       ${baseRows||'<div class="empty">无</div>'}
+      ${deletedRows?`<div style="font-size:12px;color:var(--faint);margin:10px 0 4px">已删除（点「恢复」找回）</div>${deletedRows}`:""}
     </div>
     <div class="panel">
       <h3>我的单词本</h3>
@@ -1040,6 +1065,19 @@ function handleDown(e,word){
   startDropScroll();
   suppressClickUntil=Date.now()+600;
 }
+function batchHandleDown(e){
+  e.stopPropagation();
+  if(e.pointerType==="mouse"&&e.button!==0)return;
+  if(listSelected.size===0){alert("请先勾选单词");return;}
+  const el=e.currentTarget;
+  if(el.setPointerCapture){try{el.setPointerCapture(e.pointerId);}catch(_){}}
+  dragState={words:[...listSelected],el,x:e.clientX,y:e.clientY};
+  ghostEl=document.createElement("div");ghostEl.className="ghost";ghostEl.textContent="移动 "+listSelected.size+" 个单词";
+  document.body.appendChild(ghostEl);positionGhost(e.clientX,e.clientY);
+  showDropBar();
+  startDropScroll();
+  suppressClickUntil=Date.now()+600;
+}
 function handleMove(e){
   if(!dragState)return;
   dragState.x=e.clientX;dragState.y=e.clientY;
@@ -1055,9 +1093,19 @@ function handleUp(e){
   ghostEl=null;
   const it=dragState.el.closest(".worditem");if(it)it.classList.remove("dragging");
   hideDropBar();
-  const word=dragState.word;
-  if(chip){const w=WORDS.find(x=>x.word===word);if(w&&chip!==catOf(w))setWordCat(word,chip);renderList();}
+  const ds=dragState;
   dragState=null;
+  if(ds.words){
+    if(chip){
+      for(const word of ds.words){const w=WORDS.find(x=>x.word===word);if(w&&chip!==catOf(w))setWordCat(word,chip);}
+      exitListSelect();
+    }else{
+      renderList();
+    }
+  }else{
+    const word=ds.word;
+    if(chip){const w=WORDS.find(x=>x.word===word);if(w&&chip!==catOf(w))setWordCat(word,chip);renderList();}
+  }
 }
 function positionGhost(x,y){if(ghostEl){ghostEl.style.left=x+"px";ghostEl.style.top=y+"px";}}
 function showDropBar(){
@@ -1091,6 +1139,7 @@ function normalize(p){
   p.favs = p.favs || [];
   p.catNames = p.catNames || {};
   p.customCats = p.customCats || [];
+  p.deletedCats = p.deletedCats || [];
   const t = todayStr();
   for(const k in p.cards){
     const c = p.cards[k];
@@ -1529,6 +1578,11 @@ function renderList(){
     ${listSelectMode?`<div class="group-actions selbar">
       <span class="selcount">已选 ${listSelected.size} 个</span>
       <button class="btn small" onclick="listSelectAll()">全选</button>
+      <button class="btn small" title="把已选单词拖到目标单词本"
+        onpointerdown="batchHandleDown(event)"
+        onpointermove="handleMove(event)"
+        onpointerup="handleUp(event)"
+        onpointercancel="handleUp(event)">⠿ 拖到单词本</button>
     </div>
     <div class="group-actions">
       <button class="btn primary" onclick="actListSelected('learn')">📖 学习所选</button>
@@ -2094,7 +2148,7 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.4"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.5"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 function verCmp(a,b){
   const pa=String(a).split(".").map(x=>parseInt(x,10)||0);
   const pb=String(b).split(".").map(x=>parseInt(x,10)||0);
