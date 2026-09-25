@@ -259,7 +259,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .witem-del{position:absolute;right:0;top:0;bottom:0;width:82px;background:linear-gradient(135deg,#f87171,#ef4444);
   color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;cursor:pointer}
 .witem-wrap .worditem{position:relative;z-index:1;background:var(--card);transition:transform .16s ease;touch-action:pan-y}
-.witem-wrap .worditem.swiping{transition:none}
+.witem-wrap .worditem.swiping{transition:none;will-change:transform}
 .witem-wrap .worditem.dragging{opacity:.4}
 #dropbar{position:fixed;left:12px;right:12px;bottom:calc(78px + env(safe-area-inset-bottom));z-index:200;
   background:rgba(18,21,44,.97);border:1px solid var(--border2);border-radius:18px;padding:10px 12px;box-shadow:var(--shadow)}
@@ -512,6 +512,20 @@ function delCat(name){
   save();
   renderCatManager();
 }
+/* ---------- 单词本管理：从会话/详情进入后返回原处 ---------- */
+let catMgrReturn="renderList";
+let detailWord=null;
+function openCatManager(back){ catMgrReturn=back||"renderList"; renderCatManager(); }
+function catMgrBack(){ const f=window[catMgrReturn]; if(typeof f==="function")f(); else renderList(); }
+function resumeSession(){
+  if(!session){switchTab("study");return;}
+  if(session.mcqQueue.length>0 && session.current===session.mcqQueue[0])renderMCQ();
+  else renderSpell();
+}
+function resumeDetail(){
+  if(detailWord){openDetail(detailWord, detailBack||"renderList");}
+  else renderList();
+}
 function renderCatManager(){
   const base=CATS.filter(c=>c!=="全部");
   const custom=(progress.customCats||[]).slice();
@@ -531,7 +545,7 @@ function renderCatManager(){
   </div>`).join("");
   $("#main").innerHTML=`
     <div class="topbar">
-      <button class="backbtn" onclick="renderList()">← 返回</button>
+      <button class="backbtn" onclick="catMgrBack()">← 返回</button>
       <div class="t">管理单词本</div>
     </div>
     <div class="panel">
@@ -976,7 +990,7 @@ function itemMove(e,word){
   }
   if(s.mode==="swipe"){
     let off=s.base+dx;if(off>0)off=0;if(off<-90)off=-90;
-    s.el.style.transform="translateX("+off+"px)";
+    s.el.style.transform="translate3d("+off+"px,0,0)";
     if(e.cancelable)e.preventDefault();
   }
 }
@@ -1273,7 +1287,7 @@ function renderMCQ(){
   const w=session.mcqQueue[0];session.current=w;session.wordWrong=false;
   const opts=buildOptions(w);
   const keys="ABCD";
-  const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="retagInSession('${esc(x)}')">${esc(x)}</div>`).join("");
+  const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="retagInSession('${esc(x)}')">${esc(x)}</div>`).join("")+`<div class="chip newtag" onclick="openCatManager('resumeSession')">⚙️ 管理</div>`;
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="exitSession()">← 返回</button>
@@ -1362,7 +1376,7 @@ function renderSpell(){
   const w=session.current;
   session.hintUsed=false;
   session.hintLevel=0;
-  const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="retagInSession('${esc(x)}')">${esc(x)}</div>`).join("");
+  const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="retagInSession('${esc(x)}')">${esc(x)}</div>`).join("")+`<div class="chip newtag" onclick="openCatManager('resumeSession')">⚙️ 管理</div>`;
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="exitSession()">← 返回</button>
@@ -1506,7 +1520,7 @@ function renderList(){
   if(curCat!=="全部" && !catsList().includes(curCat))curCat="全部";
   saveChipsScroll();
   const main=$("#main");
-  const chips=["全部",...catsList()].map(c=>`<div class="chip ${c===curCat?"on":""}" onclick="setCat('${esc(c)}')">${esc(c)}</div>`).join("")+`<div class="chip newtag" onclick="renderCatManager()">⚙️ 管理</div>`;
+  const chips=["全部",...catsList()].map(c=>`<div class="chip ${c===curCat?"on":""}" onclick="setCat('${esc(c)}')">${esc(c)}</div>`).join("")+`<div class="chip newtag" onclick="openCatManager('renderList')">⚙️ 管理</div>`;
   main.innerHTML=`
     <div class="topbar">
       ${listSelectMode?`<button class="backbtn" onclick="exitListSelect()">完成</button>`:""}
@@ -1757,13 +1771,14 @@ function detailCancel(){detailSwipeState=null;}
 function openDetail(word, back){
   if(Date.now()<suppressClickUntil)return;
   const w=WORDS.find(x=>x.word===word);if(!w)return;
+  detailWord=word;
   const backFn=back||"renderList";
   const c=cardOf(w);
   const srcCount=sourcesOf(w).length;
   const stTxt={new:"未学习",learning:"学习中",mastered:"已掌握"}[cardState(w)];
   const learnedOn=c&&c.learnedOn?c.learnedOn:"—";
   const masteredOn=c&&c.masteredOn?c.masteredOn:"—";
-  const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="reTag('${esc(w.word)}','${esc(x)}','${backFn}')">${esc(x)}</div>`).join("");
+  const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="reTag('${esc(w.word)}','${esc(x)}','${backFn}')">${esc(x)}</div>`).join("")+`<div class="chip newtag" onclick="openCatManager('resumeDetail')">⚙️ 管理</div>`;
   const fav=isFav(w);
   const ctxList=detailCtxFor(backFn);
   const ctxIdx=ctxList.findIndex(x=>x.word===word);
@@ -2079,7 +2094,7 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.3"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.4"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 function verCmp(a,b){
   const pa=String(a).split(".").map(x=>parseInt(x,10)||0);
   const pb=String(b).split(".").map(x=>parseInt(x,10)||0);
