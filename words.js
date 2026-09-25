@@ -697,7 +697,7 @@ window.WORDS = [
     "example": "例子：排版时把行距从单倍改为 1.5 倍，就是对文本进行 respace。",
     "context": "",
     "contextZh": "",
-    "category": "插件操作",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 54
   },
@@ -931,7 +931,7 @@ window.WORDS = [
     "example": "例子：将 F 区某键设为多媒体键后，按下可直接切换歌曲。",
     "context": "",
     "contextZh": "",
-    "category": "音乐词汇",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 72
   },
@@ -944,7 +944,7 @@ window.WORDS = [
     "example": "例子：开启游戏增强键后可防止游戏中误触 Win 键导致弹出桌面。",
     "context": "",
     "contextZh": "",
-    "category": "音乐词汇",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 73
   },
@@ -957,7 +957,7 @@ window.WORDS = [
     "example": "例子：Ctrl+C 是复制的快捷键。",
     "context": "",
     "contextZh": "",
-    "category": "音乐词汇",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 74
   },
@@ -970,7 +970,7 @@ window.WORDS = [
     "example": "例子：Ctrl+Shift+Esc 可打开任务管理器。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 75
   },
@@ -2218,7 +2218,7 @@ window.WORDS = [
     "example": "例子：电视、电脑和手机都属于电子设备。",
     "context": "Machines and Devices Tools Switch Bells Phone Electronics",
     "contextZh": "",
-    "category": "音乐词汇",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 171
   },
