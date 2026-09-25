@@ -800,8 +800,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 60,
-    "audioFile": "b8be9455817dcdab"
+    "id": 60
   },
   {
     "word": "Launcher",
@@ -7023,6 +7022,103 @@ window.WORDS = [
     "audioFile": "5f17a72f3d566aa4"
   },
   {
+    "word": "Keep slow plugin installs",
+    "ipa": "",
+    "translit": "",
+    "zh": "防止缓慢的插件安装",
+    "def": "指在插件安装耗时较长时，避免系统误判为安装失败。",
+    "example": "例子：某个插件下载解压需要几分钟，程序不应在此期间弹出“安装失败”的提示。",
+    "context": "Keep slow plugin installs from reporting false failure",
+    "contextZh": "防止缓慢的插件安装被误报为失败。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 518,
+    "audioFile": "5538957f763a2e69"
+  },
+  {
+    "word": "from reporting false failure",
+    "ipa": "",
+    "translit": "",
+    "zh": "避免报告误报失败",
+    "def": "指阻止系统发出错误的失败通知或状态。",
+    "example": "例子：安装仍在进行中，却因为超时被标记为失败，这就是 false failure。",
+    "context": "Keep slow plugin installs from reporting false failure",
+    "contextZh": "防止缓慢的插件安装被误报为失败。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 519,
+    "audioFile": "6deff6872cfaa4c1"
+  },
+  {
+    "word": "Stop waiting",
+    "ipa": "",
+    "translit": "",
+    "zh": "停止等待",
+    "def": "指中断当前等待状态，不再继续耗费时间等待某个操作完成。",
+    "example": "例子：用户点击取消按钮后，程序停止等待服务器响应。",
+    "context": "Stop waiting 45s on a dead backend record after an update",
+    "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 520,
+    "audioFile": "6fb4ca8310eb383f"
+  },
+  {
+    "word": "45s",
+    "ipa": "",
+    "translit": "",
+    "zh": "45 秒",
+    "def": "表示时间长度为 45 秒，通常作为超时或等待时长的度量。",
+    "example": "例子：请求发出后等待 45 秒仍未收到响应。",
+    "context": "Stop waiting 45s on a dead backend record after an update",
+    "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 521,
+    "audioFile": "d1263df1dba7172d"
+  },
+  {
+    "word": "dead backend",
+    "ipa": "",
+    "translit": "",
+    "zh": "失效的后端",
+    "def": "指已经无法响应请求、宕机或失去连接的后端服务。",
+    "example": "例子：后端服务器崩溃后，所有请求都返回超时错误。",
+    "context": "Stop waiting 45s on a dead backend record after an update",
+    "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 522,
+    "audioFile": "01ca22554a309555"
+  },
+  {
+    "word": "record",
+    "ipa": "",
+    "translit": "",
+    "zh": "记录",
+    "def": "指数据库或数据存储中的一条数据条目。",
+    "example": "例子：用户表中某一行代表一条用户记录。",
+    "context": "Stop waiting 45s on a dead backend record after an update",
+    "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 523
+  },
+  {
+    "word": "after an update",
+    "ipa": "",
+    "translit": "",
+    "zh": "在更新之后",
+    "def": "表示某个事件发生在一次更新操作完成之后的时间点。",
+    "example": "例子：软件更新后，旧接口不再兼容。",
+    "context": "Stop waiting 45s on a dead backend record after an update",
+    "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 524,
+    "audioFile": "a6c3f0128c3bc76b"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -7033,7 +7129,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 518
+    "id": 525
   },
   {
     "word": "Conga",
@@ -7046,7 +7142,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 519,
+    "id": 526,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -7060,7 +7156,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 520
+    "id": 527
   },
   {
     "word": "Grooves",
@@ -7073,7 +7169,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 521
+    "id": 528
   },
   {
     "word": "Bongos",
@@ -7086,7 +7182,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 522,
+    "id": 529,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -7100,7 +7196,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 523,
+    "id": 530,
     "audioFile": "bcdf033e226f5292"
   },
   {
@@ -7114,7 +7210,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 524
+    "id": 531
   },
   {
     "word": "Tambourine",
@@ -7127,7 +7223,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 525
+    "id": 532
   },
   {
     "word": "Cowbells",
@@ -7140,7 +7236,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 526
+    "id": 533
   },
   {
     "word": "Bells",
@@ -7153,7 +7249,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 527
+    "id": 534
   },
   {
     "word": "Timbales",
@@ -7166,7 +7262,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 528,
+    "id": 535,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -7180,7 +7276,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 529
+    "id": 536
   },
   {
     "word": "Wurlitzer",
@@ -7193,7 +7289,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 530,
+    "id": 537,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -7207,7 +7303,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 531,
+    "id": 538,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7221,7 +7317,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 532
+    "id": 539
   },
   {
     "word": "Clavinet",
@@ -7234,7 +7330,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 533,
+    "id": 540,
     "audioFile": "bf34769991153703"
   },
   {
@@ -7248,7 +7344,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 534,
+    "id": 541,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7262,7 +7358,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 535
+    "id": 542
   },
   {
     "word": "Female Vocals",
@@ -7275,7 +7371,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 536,
+    "id": 543,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7289,7 +7385,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 537
+    "id": 544
   },
   {
     "word": "Screams",
@@ -7302,7 +7398,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 538
+    "id": 545
   },
   {
     "word": "Whisper Vocals",
@@ -7315,7 +7411,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 539,
+    "id": 546,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7329,7 +7425,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 540,
+    "id": 547,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -7343,7 +7439,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 541,
+    "id": 548,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -7357,7 +7453,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 542,
+    "id": 549,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -7371,7 +7467,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 543
+    "id": 550
   }
 ];
 window.SOURCES = [
@@ -9892,6 +9988,50 @@ window.SOURCES = [
       {
         "word": "me to carry it out",
         "zh": "让我执行它"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Keep slow plugin installs from reporting false failure",
+    "translation": "防止缓慢的插件安装被误报为失败。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Keep slow plugin installs",
+        "zh": "防止缓慢的插件安装"
+      },
+      {
+        "word": "from reporting false failure",
+        "zh": "避免报告误报失败"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Stop waiting 45s on a dead backend record after an update",
+    "translation": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Stop waiting",
+        "zh": "停止等待"
+      },
+      {
+        "word": "45s",
+        "zh": "45 秒"
+      },
+      {
+        "word": "dead backend",
+        "zh": "失效的后端"
+      },
+      {
+        "word": "record",
+        "zh": "记录"
+      },
+      {
+        "word": "after an update",
+        "zh": "在更新之后"
       }
     ]
   }
