@@ -1221,17 +1221,29 @@ function initVoices(){voices=speechSynthesis.getVoices().filter(v=>/^en/i.test(v
 if("speechSynthesis" in window){initVoices();speechSynthesis.onvoiceschanged=initVoices;}
 let audioEl=null;
 function speak(word){
-  const w=String(word||"").trim();
-  if(!w)return;
-  // 优先有道真人发音（音质好）；离线/失败回退系统 TTS
-  if(navigator.onLine===false){speakTTS(w);return;}
+  const o=(word&&typeof word==="object")?word:(WORDS.find(x=>x.word===String(word||"").trim())||null);
+  const s=o?o.word:String(word||"").trim();
+  if(!s)return;
+  // 含空格词（有道发不出的短语/句子）用本地神经语音；单词走有道真人发音
+  if(o&&o.audioFile){
+    if(navigator.onLine===false)return;
+    try{
+      if(!audioEl)audioEl=new Audio();
+      audioEl.onerror=function(){audioEl.onerror=null;};
+      audioEl.src="audio/"+o.audioFile+".mp3";
+      const p=audioEl.play();
+      if(p&&typeof p.catch==="function")p.catch(function(){});
+    }catch(e){}
+    return;
+  }
+  if(navigator.onLine===false){speakTTS(s);return;}
   try{
     if(!audioEl)audioEl=new Audio();
-    audioEl.onerror=function(){audioEl.onerror=null;speakTTS(w);};
-    audioEl.src="https://dict.youdao.com/dictvoice?audio="+encodeURIComponent(w)+"&type=1";
+    audioEl.onerror=function(){audioEl.onerror=null;speakTTS(s);};
+    audioEl.src="https://dict.youdao.com/dictvoice?audio="+encodeURIComponent(s)+"&type=1";
     const p=audioEl.play();
-    if(p&&typeof p.catch==="function")p.catch(function(){speakTTS(w);});
-  }catch(e){speakTTS(w);}
+    if(p&&typeof p.catch==="function")p.catch(function(){speakTTS(s);});
+  }catch(e){speakTTS(s);}
 }
 function speakTTS(word){
   if(!("speechSynthesis" in window))return;
@@ -1264,19 +1276,6 @@ function unlockAudio(){
     const p=audioEl.play();
     if(p&&p.catch)p.catch(function(){});
   }catch(e){}
-}
-function autoSpeak(w){
-  const s=String(w&&w.word||"").trim();
-  if(!s)return;
-  const isLong=s.length>30;
-  if(navigator.onLine===false){ if(!isLong)speakTTS(s); return; }
-  try{
-    if(!audioEl)audioEl=new Audio();
-    audioEl.onerror=function(){audioEl.onerror=null; if(!isLong)speakTTS(s);};
-    audioEl.src="https://dict.youdao.com/dictvoice?audio="+encodeURIComponent(s)+"&type=1";
-    const p=audioEl.play();
-    if(p&&typeof p.catch==="function")p.catch(function(){ if(!isLong)speakTTS(s); });
-  }catch(e){ if(!isLong)speakTTS(s); }
 }
 
 /* ---------- 学习会话状态机 ---------- */
@@ -1399,7 +1398,7 @@ function renderMCQ(){
         </button>`).join("")}</div>
       <div class="tagsec"><div class="chips">${tags}</div></div>
     </div>`;
-  autoSpeak(w);
+  speak(w);
 }
 function buildOptions(w){
   const correct=w.zh;
@@ -1494,7 +1493,7 @@ function renderSpell(){
       <div class="tagsec"><div class="chips">${tags}</div></div>
     </div>`;
   const inp=$("#spellInput");if(inp)inp.focus();
-  autoSpeak(w);
+  speak(w);
 }
 function toggleHint(){
   const w=session.current;

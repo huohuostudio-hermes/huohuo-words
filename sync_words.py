@@ -10,6 +10,7 @@
 
 用法：python3 sync_words.py   （在同目录生成 words.js）
 """
+import hashlib
 import json
 import os
 import re
@@ -685,6 +686,9 @@ def main():
 
     for i, w in enumerate(unique):
         w["id"] = i + 1
+        # 含空格 = 有道 dictvoice 发不出的短语/句子 → 记本地神经语音文件名（gen_audio.py 据此生成）
+        if " " in w["word"]:
+            w["audioFile"] = hashlib.sha1(w["word"].strip().lower().encode("utf-8")).hexdigest()[:16]
 
     # 给「源自」补译文：先拆内联括号中文，再匹配「原文语境」的整句翻译
     trans_map = {}
