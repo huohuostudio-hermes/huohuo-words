@@ -8,7 +8,7 @@ window.WORDS = [
     "example": "听觉例子：不适用。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 1
   },
@@ -21,7 +21,7 @@ window.WORDS = [
     "example": "听觉例子：插上音箱后那种有延音、可加效果器的饱满弦声，与木吉他自然的共鸣感截然不同。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 2
   },
@@ -34,7 +34,7 @@ window.WORDS = [
     "example": "听觉例子：Fender 音箱上的清亮\"叮咚\"声，拨弦力度变化清晰可辨，常见于 funk、流行和爵士。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 3
   },
@@ -47,7 +47,7 @@ window.WORDS = [
     "example": "听觉例子：80 年代流行乐中那种平滑、持续、带有滤波扫频的\"嗡嗡\"垫底声或尖锐的主奏音。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 4
   },
@@ -60,7 +60,7 @@ window.WORDS = [
     "example": "听觉例子：一段高亢、带揉弦的电吉他 solo，从伴奏中\"跳\"出来抓住耳朵。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 5
   },
@@ -73,7 +73,7 @@ window.WORDS = [
     "example": "听觉例子：一听到就忍不住跟着点头的那段吉他重复节奏型，比如摇滚歌曲开头标志性的几小节。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 6
   },
@@ -86,7 +86,7 @@ window.WORDS = [
     "example": "听觉例子：民谣歌曲里那种带手指摩擦声、温暖圆润的\"叮咚\"扫弦。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 7
   },
@@ -99,7 +99,7 @@ window.WORDS = [
     "example": "听觉例子：摇滚或金属中那种\"嘶嘶\"作响、厚重有颗粒感的强力和弦声。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 8
   },
@@ -112,7 +112,7 @@ window.WORDS = [
     "example": "听觉例子：一把吉他同时扫过多根弦发出的饱满和声，如大调的明亮或小调的忧郁。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 9
   },
@@ -125,7 +125,7 @@ window.WORDS = [
     "example": "听觉例子：一段流畅、歌唱性的吉他单音线条，像人声一样有起伏和呼吸感。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 10
   },
@@ -138,7 +138,7 @@ window.WORDS = [
     "example": "听觉例子：那种稳定、有弹性的扫弦或闷音\"切切\"声，撑起整首歌的律动骨架。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 11
   },
@@ -151,7 +151,7 @@ window.WORDS = [
     "example": "听觉例子：老式 Moog 合成器那种厚实、微微\"漂移\"的贝斯音，每个音符音高都有细微的自然波动。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 12
   },
@@ -164,7 +164,7 @@ window.WORDS = [
     "example": "听觉例子：像电锯般\"嗡嗡\"的明亮音色，超级锯（Supersaw）叠加多个失谐锯齿波后产生宽阔的 Trance 主音。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 13
   },
@@ -177,7 +177,7 @@ window.WORDS = [
     "example": "听觉例子：贝斯像被反复\"捏\"住又松开，发出\"哇呜—哇呜—\"的律动感，节奏感极强。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 14
   },
@@ -190,7 +190,7 @@ window.WORDS = [
     "example": "听觉例子：胸口能感受到的、几乎听不出音高的低频\"轰隆\"震动，像心跳被放大。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 15
   },
@@ -203,7 +203,7 @@ window.WORDS = [
     "example": "听觉例子：像液体在管道里被挤压的\"吱溜—吱溜\"高频扫频声，带强烈共振峰，听起来又酸又迷幻。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 16
   },
@@ -216,7 +216,7 @@ window.WORDS = [
     "example": "听觉例子：像老式电子游戏机里那种\"哔哔\"的空心音色，调节脉宽时音色会从单薄逐渐变得饱满。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 17
   },
@@ -229,7 +229,7 @@ window.WORDS = [
     "example": "例子：白噪声、粉红噪声常被用于合成器音色设计或混音参考。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 18
   },
@@ -242,7 +242,7 @@ window.WORDS = [
     "example": "例子：在一段高潮后加入下行音效，使音乐自然过渡到安静段落。",
     "context": "",
     "contextZh": "",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 19
   },
@@ -255,7 +255,7 @@ window.WORDS = [
     "example": "例子：电影预告片中画面切换时配合的沉重撞击声。",
     "context": "",
     "contextZh": "",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 20
   },
@@ -268,7 +268,7 @@ window.WORDS = [
     "example": "例子：由多层合成器铺底构成的持续音墙，营造空间感。",
     "context": "",
     "contextZh": "",
-    "category": "音效",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 21
   },
@@ -281,7 +281,7 @@ window.WORDS = [
     "example": "例子：在街头录制的车流声、人群嘈杂声用于纪录片配乐。",
     "context": "",
     "contextZh": "",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 22
   },
@@ -294,7 +294,7 @@ window.WORDS = [
     "example": "例子：电子舞曲中在 Drop 之前持续上升的合成器音效。",
     "context": "",
     "contextZh": "",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 23
   },
@@ -307,7 +307,7 @@ window.WORDS = [
     "example": "例子：白噪声经过低通滤波器从低频扫到高频的过渡音效。",
     "context": "",
     "contextZh": "",
-    "category": "音效",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 24
   },
@@ -320,7 +320,7 @@ window.WORDS = [
     "example": "例子：由混响处理后的合成器长音构成的背景氛围层。",
     "context": "",
     "contextZh": "",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 25
   },
@@ -333,7 +333,7 @@ window.WORDS = [
     "example": "例子：将镲片声反转后放在乐句开头，形成吸入感。",
     "context": "",
     "contextZh": "",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 26
   },
@@ -346,7 +346,7 @@ window.WORDS = [
     "example": "例子：将人声切片后加入混响和声码器处理，用作氛围铺垫。",
     "context": "",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 27
   },
@@ -359,7 +359,7 @@ window.WORDS = [
     "example": "例子：Kenny G 的《Going Home》中那段悠扬的萨克斯旋律。",
     "context": "",
     "contextZh": "",
-    "category": "管乐",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 28
   },
@@ -372,7 +372,7 @@ window.WORDS = [
     "example": "例子：爵士大乐队中长号声部的滑音演奏（glissando）。",
     "context": "",
     "contextZh": "",
-    "category": "管乐",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 29
   },
@@ -385,7 +385,7 @@ window.WORDS = [
     "example": "例子：弦乐四重奏（两把小提琴、一把中提琴、一把大提琴）就是一个典型的室内乐合奏组。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 30
   },
@@ -398,7 +398,7 @@ window.WORDS = [
     "example": "听觉例子：环境音乐中那种绵延不断、如云雾般铺满整个声场的键盘音色。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 31
   },
@@ -411,7 +411,7 @@ window.WORDS = [
     "example": "例子：Miles Davis 在《So What》中用弱音器演奏的冷爵士小号。",
     "context": "",
     "contextZh": "",
-    "category": "管乐",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 32
   },
@@ -424,7 +424,7 @@ window.WORDS = [
     "example": "例子：巴赫《B小调组曲》中的长笛独奏段落。",
     "context": "",
     "contextZh": "",
-    "category": "管乐",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 33
   },
@@ -437,7 +437,7 @@ window.WORDS = [
     "example": "听觉例子：放克音乐中铜管组在每拍上短促有力的\"啪\"声和弦。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 34
   },
@@ -450,7 +450,7 @@ window.WORDS = [
     "example": "例子：Bob Dylan 在《Blowin' in the Wind》中演奏的口琴间奏。",
     "context": "",
     "contextZh": "",
-    "category": "管乐",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 35
   },
@@ -463,7 +463,7 @@ window.WORDS = [
     "example": "例子：独奏时演奏悠扬的主旋律，音色明亮而富有表现力。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 36
   },
@@ -476,7 +476,7 @@ window.WORDS = [
     "example": "例子：在弦乐四重奏中常担任内声部的和声填充。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 37
   },
@@ -489,7 +489,7 @@ window.WORDS = [
     "example": "听觉例子：弦乐快速短促的\"哒哒哒\"声，音符之间干脆利落。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 38
   },
@@ -502,7 +502,7 @@ window.WORDS = [
     "example": "例子：在弦乐编曲中演奏深情的低音旋律线。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 39
   },
@@ -515,7 +515,7 @@ window.WORDS = [
     "example": "例子：贝斯与底鼓配合，构成音乐的节奏与和声根基。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 40
   },
@@ -528,7 +528,7 @@ window.WORDS = [
     "example": "例子：在流行音乐中加入管弦乐编配，营造宏大史诗般的氛围。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 41
   },
@@ -541,7 +541,7 @@ window.WORDS = [
     "example": "例子：弦乐组齐奏出优美的主旋律，作为整首曲子的情感主线。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 42
   },
@@ -554,7 +554,7 @@ window.WORDS = [
     "example": "例子：在电子舞曲中，将303合成器的酸性线条通过失真延迟处理，产生带有\"吱吱\"共振扫频的重复回声。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 43
   },
@@ -567,7 +567,7 @@ window.WORDS = [
     "example": "例子：在人声轨道上使用Bode Warmer，使声音更加厚实、圆润，减少数字录音的冷硬感。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 44
   },
@@ -580,7 +580,7 @@ window.WORDS = [
     "example": "例子：在摇滚吉他音色中使用Dirty Cabinet模拟，得到类似老旧音箱被推爆后的粗粝声音。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 45
   },
@@ -593,7 +593,7 @@ window.WORDS = [
     "example": "例子：在工业音乐中，贝斯经过失真处理后产生Dirty Lows，低频带有明显的颗粒感和撕裂感。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 46
   },
@@ -606,7 +606,7 @@ window.WORDS = [
     "example": "例子：将吉他信号通过Dirty Small模拟，得到类似小型练习音箱音量开满后的破音效果。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 47
   },
@@ -619,7 +619,7 @@ window.WORDS = [
     "example": "例子：在人声上使用Echo Band Dist，回声只出现在中频段并带有轻微破音，营造复古电话般的空间感。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 48
   },
@@ -632,7 +632,7 @@ window.WORDS = [
     "example": "例子：在摇滚歌曲的间奏中，Lead Guitar演奏一段高亢的独奏旋律。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 49
   },
@@ -645,7 +645,7 @@ window.WORDS = [
     "example": "例子：对ProgBass音轨使用M-S处理，将低频保持在中央，高频细节扩展到两侧，获得宽广而坚实的贝斯声像。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 50
   },
@@ -658,7 +658,7 @@ window.WORDS = [
     "example": "例子：在录音中使用Practice Amp in Room模拟，得到类似在卧室里对着小音箱弹奏时的自然空间感和近距离拾音质感。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 51
   },
@@ -671,7 +671,7 @@ window.WORDS = [
     "example": "例子：数字音频工作站（DAW）将声音以 44.1kHz/24bit 的采样率和位深度记录为数字文件。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 52
   },
@@ -684,7 +684,7 @@ window.WORDS = [
     "example": "例子：在波表合成器（如 Serum）中加载 S2 Tables 波表，通过调制波表位置来产生从 /a/ 到 /i/ 的元音渐变效果。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 53
   },
@@ -697,7 +697,7 @@ window.WORDS = [
     "example": "例子：排版时把行距从单倍改为 1.5 倍，就是对文本进行 respace。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 54
   },
@@ -710,7 +710,7 @@ window.WORDS = [
     "example": "例子：电子音乐中，合成器低音在一个和弦上持续轰鸣数小节，为整段音乐提供稳定的低频支撑。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 55
   },
@@ -723,7 +723,7 @@ window.WORDS = [
     "example": "例子：在图形界面中，用户移动鼠标将光标指向图标，然后点击左键打开文件。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 56
   },
@@ -736,7 +736,7 @@ window.WORDS = [
     "example": "例子：将哔哩哔哩的页面添加到书签栏，下次点击即可直接打开。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 57
   },
@@ -749,7 +749,7 @@ window.WORDS = [
     "example": "例子：书签栏（0）表示当前书签栏中没有已保存的书签。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 58
   },
@@ -762,7 +762,7 @@ window.WORDS = [
     "example": "例子：点击\"+ 添加当前标签页\"即可将当前页面存入书签栏。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 59
   },
@@ -775,7 +775,7 @@ window.WORDS = [
     "example": "例子：Keychron M6 8K 是该品牌推出的一款支持 8K 回报率的无线鼠标。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 60
   },
@@ -788,7 +788,7 @@ window.WORDS = [
     "example": "例子：Keychron Launcher 是 Keychron 外设的网页版配置工具。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 61
   },
@@ -801,7 +801,7 @@ window.WORDS = [
     "example": "例子：将 DPI 设置为 1600 时，鼠标移动一英寸光标移动 1600 像素。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 62
   },
@@ -814,7 +814,7 @@ window.WORDS = [
     "example": "例子：8K 回报率意味着鼠标每秒向电脑发送 8000 次位置数据。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 63
   },
@@ -827,7 +827,7 @@ window.WORDS = [
     "example": "例子：将\"复制+粘贴\"组合录制为宏并绑定到侧键，按一次即可完成两步操作。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 64
   },
@@ -840,7 +840,7 @@ window.WORDS = [
     "example": "例子：向上滚动、向下滚动、向左滚动、向右滚动均为滚轮的不同操作方向。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 65
   },
@@ -853,7 +853,7 @@ window.WORDS = [
     "example": "例子：前侧键设为\"向左持续滚动\"，后侧键设为\"向右持续滚动\"。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 66
   },
@@ -866,7 +866,7 @@ window.WORDS = [
     "example": "例子：将中键设置为\"左键双击\"。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 67
   },
@@ -879,7 +879,7 @@ window.WORDS = [
     "example": "例子：开启滚动增强后，滚轮可以一次滚动更多行。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 68
   },
@@ -892,7 +892,7 @@ window.WORDS = [
     "example": "例子：若手部习惯斜握鼠标，可通过角度调整让光标保持水平移动。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 69
   },
@@ -905,7 +905,7 @@ window.WORDS = [
     "example": "例子：通过 Launcher 检查并安装接收器的最新固件。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 70
   },
@@ -918,7 +918,7 @@ window.WORDS = [
     "example": "例子：状态栏显示\"2.4G Mode\"表示鼠标当前正通过 2.4GHz 无线连接。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 71
   },
@@ -931,7 +931,7 @@ window.WORDS = [
     "example": "例子：将 F 区某键设为多媒体键后，按下可直接切换歌曲。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 72
   },
@@ -944,7 +944,7 @@ window.WORDS = [
     "example": "例子：开启游戏增强键后可防止游戏中误触 Win 键导致弹出桌面。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 73
   },
@@ -957,7 +957,7 @@ window.WORDS = [
     "example": "例子：Ctrl+C 是复制的快捷键。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 74
   },
@@ -970,7 +970,7 @@ window.WORDS = [
     "example": "例子：Ctrl+Shift+Esc 可打开任务管理器。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 75
   },
@@ -983,7 +983,7 @@ window.WORDS = [
     "example": "例子：按下 Caps Lock 后输入\"abc\"会显示为\"ABC\"。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 76
   },
@@ -996,7 +996,7 @@ window.WORDS = [
     "example": "例子：在 Excel 中开启 Scroll Lock 后，方向键变为滚动页面而非移动单元格。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 77
   },
@@ -1009,7 +1009,7 @@ window.WORDS = [
     "example": "例子：关闭 Num Lock 后，小键盘的 2/4/6/8 变为下/左/右/上方向键。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 78
   },
@@ -1022,7 +1022,7 @@ window.WORDS = [
     "example": "例子：打字时按 Backspace 可删除刚输入的错字。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 79
   },
@@ -1035,7 +1035,7 @@ window.WORDS = [
     "example": "例子：在搜索框输入关键词后按 Enter 开始搜索。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 80
   },
@@ -1048,7 +1048,7 @@ window.WORDS = [
     "example": "例子：在表单中按 Tab 可跳到下一个输入框。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 81
   },
@@ -1061,7 +1061,7 @@ window.WORDS = [
     "example": "例子：按住 Shift 再按数字键 1 可输入感叹号\"!\"。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 82
   },
@@ -1074,7 +1074,7 @@ window.WORDS = [
     "example": "例子：Ctrl+S 用于保存文件。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 83
   },
@@ -1087,7 +1087,7 @@ window.WORDS = [
     "example": "例子：Alt+Tab 可在打开的窗口之间切换。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 84
   },
@@ -1100,7 +1100,7 @@ window.WORDS = [
     "example": "例子：Win+D 可快速显示桌面。",
     "context": "",
     "contextZh": "",
-    "category": "管乐",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 85
   },
@@ -1113,7 +1113,7 @@ window.WORDS = [
     "example": "例子：Cmd+C 在 Mac 上执行复制操作。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 86
   },
@@ -1126,7 +1126,7 @@ window.WORDS = [
     "example": "例子：Option+Command+Esc 可强制退出应用程序。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 87
   },
@@ -1139,7 +1139,7 @@ window.WORDS = [
     "example": "例子：点击\"重置\"按钮可将所有按键映射恢复为出厂默认值。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 88
   },
@@ -1152,7 +1152,7 @@ window.WORDS = [
     "example": "例子：可为不同游戏分别创建独立的按键配置。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 89
   },
@@ -1165,7 +1165,7 @@ window.WORDS = [
     "example": "例子：通过接收器更新来升级鼠标接收器的固件版本。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 90
   },
@@ -1178,7 +1178,7 @@ window.WORDS = [
     "example": "例子：拔下带电的插头时，插座处有时会迸出一个小火花。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 91
   },
@@ -1191,7 +1191,7 @@ window.WORDS = [
     "example": "例子：一台 Classic 钢琴音色通常指音色温暖、均衡、适合多种音乐风格的钢琴。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 92
   },
@@ -1204,7 +1204,7 @@ window.WORDS = [
     "example": "例子：Sixties 风格的鼓组音色通常带有复古的磁带饱和感和较窄的立体声像。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 93
   },
@@ -1217,7 +1217,7 @@ window.WORDS = [
     "example": "例子：Rock 鼓组通常强调底鼓和军鼓的冲击力，适合高能量编曲。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 94
   },
@@ -1230,7 +1230,7 @@ window.WORDS = [
     "example": "例子：一位 session 鼓手可能在一天内为三首不同歌手的歌曲录制鼓轨。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 95
   },
@@ -1243,7 +1243,7 @@ window.WORDS = [
     "example": "例子：Modern 钢琴音色通常高频清晰、低频紧实，适合流行和电子音乐制作。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 96
   },
@@ -1256,7 +1256,7 @@ window.WORDS = [
     "example": "例子：American Upright 音色常用于爵士、民谣和复古流行音乐中，营造亲切自然的键盘质感。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 97
   },
@@ -1269,7 +1269,7 @@ window.WORDS = [
     "example": "例子：在吉他音箱模拟插件中，将 Neck Volume 调低，使琴颈拾音器的声音更柔和、靠后。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 98
   },
@@ -1282,7 +1282,7 @@ window.WORDS = [
     "example": "例子：将 Bridge Volume 调高，让琴桥拾音器的明亮音色在混音中更突出。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
     "id": 99
   },
@@ -1295,7 +1295,7 @@ window.WORDS = [
     "example": "例子：将 Neck Tone 调低，琴颈拾音器的声音变得更暗、更温暖，适合爵士风格。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 100
   },
@@ -1308,7 +1308,7 @@ window.WORDS = [
     "example": "例子：将 Bridge Tone 调高，琴桥拾音器发出更明亮、更具穿透力的声音，适合摇滚主音。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 101
   },
@@ -1321,7 +1321,7 @@ window.WORDS = [
     "example": "例子：在吉他上，Main Volume 旋钮同时控制所有拾音器的总输出音量。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 102
   },
@@ -1334,7 +1334,7 @@ window.WORDS = [
     "example": "例子：同一位吉他手用拨片靠近琴桥演奏时音色更尖锐，靠近琴颈时更温暖，这属于不同的演奏风格。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 103
   },
@@ -1347,7 +1347,7 @@ window.WORDS = [
     "example": "例子：吉他手用手掌轻压琴弦后拨弦，产生短促的“闷音”效果。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 104
   },
@@ -1360,7 +1360,7 @@ window.WORDS = [
     "example": "例子：在音乐制作中，“Mute”的定义是使某条音轨暂时不输出声音。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 105
   },
@@ -1373,7 +1373,7 @@ window.WORDS = [
     "example": "例子：在一段人声录音中，歌手换气时的轻微呼吸声、手指滑过吉他琴弦的摩擦声都属于细节。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 106
   },
@@ -1386,7 +1386,7 @@ window.WORDS = [
     "example": "例子：吉他手手指沿琴弦滑动时产生的粗糙摩擦声。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 107
   },
@@ -1399,7 +1399,7 @@ window.WORDS = [
     "example": "例子：小提琴换把时弓毛与琴弦摩擦产生的细微\"吱\"声。",
     "context": "",
     "contextZh": "",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 108
   },
@@ -1412,7 +1412,7 @@ window.WORDS = [
     "example": "例子：音频接口增益过高时，耳机中听到的\"嗡——\"和\"嘶——\"叠加底噪。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 109
   },
@@ -1425,7 +1425,7 @@ window.WORDS = [
     "example": "例子：钢琴踏板松开时制音器落回琴弦产生的轻微\"嗒\"声。",
     "context": "",
     "contextZh": "",
-    "category": "合成器",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 110
   },
@@ -1438,7 +1438,7 @@ window.WORDS = [
     "example": "例子：在合成器上演奏一个音符时，将弯音轮向上推动，音高从 C4 滑升至 D4。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 111
   },
@@ -1451,7 +1451,7 @@ window.WORDS = [
     "example": "例子：在电子音乐中，将弯音轮向下拉动，使音高从 C4 滑降至 A3，制造下坠感。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 112
   },
@@ -1464,7 +1464,7 @@ window.WORDS = [
     "example": "例子：小提琴手用同一根手指沿琴弦滑动，使两个音符之间产生连续的音高变化。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 113
   },
@@ -1477,7 +1477,7 @@ window.WORDS = [
     "example": "例子：绳子太松了，需要拉紧。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 114
   },
@@ -1490,7 +1490,7 @@ window.WORDS = [
     "example": "例子：It's insane how fast he finished the project.（他完成这个项目的速度快得离谱。）",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 115
   },
@@ -1503,204 +1503,9 @@ window.WORDS = [
     "example": "例子：It's actually cheaper than I thought.（这居然比我想的便宜。）",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 116
-  },
-  {
-    "word": "how much better it sounds",
-    "ipa": "",
-    "translit": "",
-    "zh": "听起来好了多少",
-    "def": "这是一个感叹性从句，用来强调改善程度之大，意思是“听起来提升了好多”。",
-    "example": "例子：You won't believe how much better it sounds with headphones.（你不会相信戴上耳机后听起来好了多少。）",
-    "context": "",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 117
-  },
-  {
-    "word": "after all the steps have been applied",
-    "ipa": "",
-    "translit": "",
-    "zh": "在所有步骤都应用之后",
-    "def": "表示前面提到的一系列处理步骤全部完成后，才出现某种结果。",
-    "example": "例子：The image looks sharp after all the steps have been applied.（在所有步骤都应用之后，图像看起来很清晰。）",
-    "context": "",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 118
-  },
-  {
-    "word": "Great video!",
-    "ipa": "",
-    "translit": "",
-    "zh": "很棒的视频！",
-    "def": "用于表达对视频内容的赞赏，语气直接、热情。",
-    "example": "例子：Great video! I learned a lot.（很棒的视频！我学到了很多。）",
-    "context": "",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 119
-  },
-  {
-    "word": "if this sounds trash",
-    "ipa": "",
-    "translit": "",
-    "zh": "如果这听起来很烂",
-    "def": "一种假设性表达，用来引出对比：先假设某事物质量很差。",
-    "example": "例子：If this sounds trash, then I don't know what good music is.（如果这听起来很烂，那我就不知道什么算好音乐了。）",
-    "context": "",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 120
-  },
-  {
-    "word": "then my shit sounds like hell",
-    "ipa": "",
-    "translit": "",
-    "zh": "那我的东西听起来就像地狱一样",
-    "def": "承接上句的对比，表示如果前者算差，那自己的作品就差到极点，是一种自嘲式夸张。",
-    "example": "例子：朋友听完你的 demo 说还行，你回这句表示谦虚或自嘲。（朋友说还行，你回：那我的东西听起来就像地狱一样。）",
-    "context": "",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 121
-  },
-  {
-    "word": "thank you for teaching music the way it should be taught",
-    "ipa": "",
-    "translit": "",
-    "zh": "感谢你以应有的方式教授音乐",
-    "def": "表达对教学方式的认可，认为对方采用了正确、恰当的方法来教音乐。",
-    "example": "例子：学生给老师留言说“感谢你以应有的方式教授音乐”，表示老师的教学理念和方式非常正确。",
-    "context": "",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 122
-  },
-  {
-    "word": "I have seen so many people try to focus on mixing when they are starting out",
-    "ipa": "",
-    "translit": "",
-    "zh": "我见过很多人在刚入门时就试图把重点放在混音上",
-    "def": "描述一种常见现象：初学者过早地把精力集中在混音上。",
-    "example": "例子：一个刚开始学音乐制作的人，还没掌握基础乐理就开始研究混音插件。",
-    "context": "",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 123
-  },
-  {
-    "word": "and many people teach beginners that when they start out",
-    "ipa": "",
-    "translit": "",
-    "zh": "而且很多人就是这样教初学者的",
-    "def": "指出不少教学者也在引导初学者一开始就关注混音，而非基础内容。",
-    "example": "例子：某教程第一节课就讲混音技巧，而不是先教节奏、和声等基础。",
-    "context": "",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 124
-  },
-  {
-    "word": "I don't know",
-    "ipa": "aɪ doʊnt noʊ",
-    "translit": "",
-    "zh": "我不知道",
-    "def": "表示对某事缺乏了解或感到困惑。",
-    "example": "例子：I don't know why she left.（我不知道她为什么离开了。）",
-    "context": "I don't know why he sounds like an advertisement",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 125
-  },
-  {
-    "word": "why",
-    "ipa": "waɪ",
-    "translit": "",
-    "zh": "为什么",
-    "def": "用于询问原因或理由。",
-    "example": "例子：Why are you late?（你为什么迟到？）",
-    "context": "I don't know why he sounds like an advertisement",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 126
-  },
-  {
-    "word": "he",
-    "ipa": "hiː",
-    "translit": "",
-    "zh": "他",
-    "def": "第三人称单数男性代词，指代前文提到的男性。",
-    "example": "例子：He is my brother.（他是我哥哥。）",
-    "context": "I don't know why he sounds like an advertisement",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 127
-  },
-  {
-    "word": "sounds like",
-    "ipa": "saʊndz laɪk",
-    "translit": "",
-    "zh": "听起来像",
-    "def": "表示根据听觉印象做出的判断或比喻。",
-    "example": "例子：That sounds like a good idea.（那听起来是个好主意。）",
-    "context": "I don't know why he sounds like an advertisement",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 128
-  },
-  {
-    "word": "an advertisement",
-    "ipa": "ən ˌædvərˈtaɪzmənt",
-    "translit": "",
-    "zh": "一则广告",
-    "def": "指宣传商品、服务或观点的公开信息，此处用作比喻，形容某人的语气像在推销。",
-    "example": "例子：His speech sounded like an advertisement.（他的讲话听起来像广告。）",
-    "context": "I don't know why he sounds like an advertisement",
-    "contextZh": "",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 129
-  },
-  {
-    "word": "forgot",
-    "ipa": "",
-    "translit": "",
-    "zh": "忘记了",
-    "def": "forget 的过去式，表示过去没有记住或没有做某事。",
-    "example": "例子：She forgot to lock the door.（她忘记锁门了。）",
-    "context": "I don't know why he forgot to buy milk",
-    "contextZh": "我不知道他为什么忘了买牛奶。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 130
-  },
-  {
-    "word": "to buy",
-    "ipa": "",
-    "translit": "",
-    "zh": "去买",
-    "def": "不定式结构，表示忘记要执行的动作。",
-    "example": "例子：I forgot to buy tickets.（我忘记买票了。）",
-    "context": "I don't know why he forgot to buy milk",
-    "contextZh": "我不知道他为什么忘了买牛奶。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 131
   },
   {
     "word": "milk",
@@ -1711,113 +1516,9 @@ window.WORDS = [
     "example": "例子：He drinks a glass of milk every morning.（他每天早上喝一杯牛奶。）",
     "context": "I don't know why he forgot to buy milk",
     "contextZh": "我不知道他为什么忘了买牛奶。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 132
-  },
-  {
-    "word": "why he forgot to buy milk",
-    "ipa": "",
-    "translit": "",
-    "zh": "他为什么忘了买牛奶",
-    "def": "这是一个宾语从句，表示对“他忘记买牛奶”这一行为的原因感到疑惑。",
-    "example": "例子：She asked why he forgot to buy milk. 她问他为什么忘了买牛奶。",
-    "context": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
-    "contextZh": "我不知道他为什么忘了买牛奶。他为什么把钥匙留在桌子上？你知道他今天为什么这么累吗？",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 133
-  },
-  {
-    "word": "Why did he leave his keys on the table?",
-    "ipa": "",
-    "translit": "",
-    "zh": "他为什么把钥匙留在桌子上？",
-    "def": "这是一个特殊疑问句，询问他把钥匙留在桌子上的原因。",
-    "example": "例子：Why did he leave his bag on the chair? 他为什么把包留在椅子上？",
-    "context": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
-    "contextZh": "我不知道他为什么忘了买牛奶。他为什么把钥匙留在桌子上？你知道他今天为什么这么累吗？",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 134
-  },
-  {
-    "word": "Do you know",
-    "ipa": "",
-    "translit": "",
-    "zh": "你知道",
-    "def": "用于引出间接疑问句，询问对方是否知道某事。",
-    "example": "例子：Do you know where the station is? 你知道车站在哪里吗？",
-    "context": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
-    "contextZh": "我不知道他为什么忘了买牛奶。他为什么把钥匙留在桌子上？你知道他今天为什么这么累吗？",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 135
-  },
-  {
-    "word": "why he is so tired today?",
-    "ipa": "",
-    "translit": "",
-    "zh": "他今天为什么这么累？",
-    "def": "这是一个间接疑问句，询问他今天如此疲惫的原因。",
-    "example": "例子：Do you know why she is so upset today? 你知道她今天为什么这么难过吗？",
-    "context": "I don't know why he forgot to buy milk. Why did he leave his keys on the table? Do you know why he is so tired today?",
-    "contextZh": "我不知道他为什么忘了买牛奶。他为什么把钥匙留在桌子上？你知道他今天为什么这么累吗？",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 136
-  },
-  {
-    "word": "An hour of focused practice",
-    "ipa": "",
-    "translit": "",
-    "zh": "一小时专注的练习",
-    "def": "指每天投入一段固定时间进行有明确目标的练习，而非随意弹奏。",
-    "example": "例子：每天用一小时专门练习音阶和换和弦，而不是边看视频边随便弹。",
-    "context": "An hour of focused practice every day turns the fretboard from a puzzle into a second language.",
-    "contextZh": "每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 137
-  },
-  {
-    "word": "every day",
-    "ipa": "",
-    "translit": "",
-    "zh": "每天",
-    "def": "表示频率，强调持续性而非一次性投入。",
-    "example": "例子：与其周末练七小时，不如每天练一小时。",
-    "context": "An hour of focused practice every day turns the fretboard from a puzzle into a second language.",
-    "contextZh": "每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 138
-  },
-  {
-    "word": "turns the fretboard from a puzzle into a second language",
-    "ipa": "",
-    "translit": "",
-    "zh": "让指板从一个谜题变成你的第二语言",
-    "def": "比喻经过长期练习后，指板上的音位和指法不再需要刻意思考，而能像母语一样自然反应。",
-    "example": "例子：初学者找和弦要盯着指板数格子，熟练后手指自动到位，就像说母语不用想语法。",
-    "context": "An hour of focused practice every day turns the fretboard from a puzzle into a second language.",
-    "contextZh": "每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 139
-  },
-  {
-    "word": "daily hour",
-    "ipa": "",
-    "translit": "",
-    "zh": "每天一小时",
-    "def": "指每天固定投入的一段时间，这里特指练习时长。",
-    "example": "例子：每天练琴一小时，比周末突击五小时更有效。",
-    "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
-    "contextZh": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 140
+    "id": 117
   },
   {
     "word": "guitar",
@@ -1828,9 +1529,9 @@ window.WORDS = [
     "example": "例子：他每天抱着吉他练音阶。",
     "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
     "contextZh": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 141
+    "id": 118
   },
   {
     "word": "builds",
@@ -1841,9 +1542,9 @@ window.WORDS = [
     "example": "例子：反复练习能培养稳定的节奏感。",
     "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
     "contextZh": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 142
+    "id": 119
   },
   {
     "word": "muscle memory",
@@ -1854,9 +1555,9 @@ window.WORDS = [
     "example": "例子：熟练的吉他手换和弦时几乎不用看指板。",
     "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
     "contextZh": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 143
+    "id": 120
   },
   {
     "word": "needed",
@@ -1867,9 +1568,9 @@ window.WORDS = [
     "example": "例子：流畅演奏所需的协调性来自长期练习。",
     "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
     "contextZh": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 144
+    "id": 121
   },
   {
     "word": "effortless",
@@ -1880,9 +1581,9 @@ window.WORDS = [
     "example": "例子：他弹奏那段独奏时显得轻松自如。",
     "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
     "contextZh": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 145
+    "id": 122
   },
   {
     "word": "expression",
@@ -1893,9 +1594,9 @@ window.WORDS = [
     "example": "例子：技巧只是基础，真正的音乐在于表达。",
     "context": "A daily hour with your guitar builds the muscle memory needed for effortless expression.",
     "contextZh": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 146
+    "id": 123
   },
   {
     "word": "Brass and Woodwinds",
@@ -1906,9 +1607,9 @@ window.WORDS = [
     "example": "例子：小号、长号属于铜管，长笛、萨克斯属于木管。",
     "context": "Brass and Woodwinds Saxophone Trombone Ensemble Riffs Pads Trumpet Flute Synth Stabs Harmonica",
     "contextZh": "铜管与木管乐器",
-    "category": "管乐",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 147
+    "id": 124
   },
   {
     "word": "Ambience",
@@ -1919,9 +1620,9 @@ window.WORDS = [
     "example": "例子：咖啡馆里低声交谈、杯碟碰撞和背景音乐交织形成的整体声音氛围。",
     "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
     "contextZh": "氛围",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 148
+    "id": 125
   },
   {
     "word": "Indoor",
@@ -1932,9 +1633,9 @@ window.WORDS = [
     "example": "例子：在客厅、办公室或教堂内部录制的声音。",
     "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
     "contextZh": "氛围",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 149
+    "id": 126
   },
   {
     "word": "Industry",
@@ -1945,9 +1646,9 @@ window.WORDS = [
     "example": "例子：工厂车间里机器轰鸣、金属撞击和传送带运转的声音。",
     "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
     "contextZh": "氛围",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 150
+    "id": 127
   },
   {
     "word": "Outdoor",
@@ -1958,9 +1659,9 @@ window.WORDS = [
     "example": "例子：街道、公园、森林或旷野中录制的声音。",
     "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
     "contextZh": "氛围",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 151
+    "id": 128
   },
   {
     "word": "Environment",
@@ -1971,9 +1672,9 @@ window.WORDS = [
     "example": "例子：城市环境中的交通噪声、人声和建筑反射声的总和。",
     "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
     "contextZh": "氛围",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 152
+    "id": 129
   },
   {
     "word": "Weather",
@@ -1984,9 +1685,9 @@ window.WORDS = [
     "example": "例子：暴雨打在屋顶上的噼啪声、狂风呼啸声或远处雷声。",
     "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
     "contextZh": "氛围",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 153
+    "id": 130
   },
   {
     "word": "Cinematic FX",
@@ -1997,9 +1698,9 @@ window.WORDS = [
     "example": "例子：低频轰鸣（braam）、上升音效（riser）、冲击音（impact）等，用来增强画面的紧张感与史诗感。",
     "context": "Cinematic FX",
     "contextZh": "电影音效",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 154
+    "id": 131
   },
   {
     "word": "Animals",
@@ -2010,9 +1711,9 @@ window.WORDS = [
     "example": "例子：狮子、大象、兔子都是常见的动物。",
     "context": "Animals Farm Insects Large Birds Dogs",
     "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 155
+    "id": 132
   },
   {
     "word": "Farm",
@@ -2023,9 +1724,9 @@ window.WORDS = [
     "example": "例子：他家在乡下有一个养鸡和种玉米的农场。",
     "context": "Animals Farm Insects Large Birds Dogs",
     "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 156
+    "id": 133
   },
   {
     "word": "Insects",
@@ -2036,9 +1737,9 @@ window.WORDS = [
     "example": "例子：蚂蚁、蜜蜂和蝴蝶都是常见的昆虫。",
     "context": "Animals Farm Insects Large Birds Dogs",
     "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 157
+    "id": 134
   },
   {
     "word": "Large",
@@ -2049,9 +1750,9 @@ window.WORDS = [
     "example": "例子：一头大象是一种体型很大的动物。",
     "context": "Animals Farm Insects Large Birds Dogs",
     "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 158
+    "id": 135
   },
   {
     "word": "Birds",
@@ -2062,9 +1763,9 @@ window.WORDS = [
     "example": "例子：麻雀、老鹰和鹦鹉都属于鸟类。",
     "context": "Animals Farm Insects Large Birds Dogs",
     "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 159
+    "id": 136
   },
   {
     "word": "Dogs",
@@ -2075,9 +1776,9 @@ window.WORDS = [
     "example": "例子：金毛寻回犬是一种温顺的狗。",
     "context": "Animals Farm Insects Large Birds Dogs",
     "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 160
+    "id": 137
   },
   {
     "word": "Foley",
@@ -2088,9 +1789,9 @@ window.WORDS = [
     "example": "例子：用椰子壳敲击地面来模拟马蹄声。",
     "context": "Foley Paper Plastic Concrete Wood Metal Fire",
     "contextZh": "",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 161
+    "id": 138
   },
   {
     "word": "Paper",
@@ -2101,9 +1802,9 @@ window.WORDS = [
     "example": "例子：揉搓纸张发出的沙沙声常用于拟音中模拟火焰或翻页声。",
     "context": "Foley Paper Plastic Concrete Wood Metal Fire",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 162
+    "id": 139
   },
   {
     "word": "Plastic",
@@ -2114,9 +1815,9 @@ window.WORDS = [
     "example": "例子：捏塑料瓶发出的咔嗒声可用于模拟科幻武器或关节活动声。",
     "context": "Foley Paper Plastic Concrete Wood Metal Fire",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 163
+    "id": 140
   },
   {
     "word": "Concrete",
@@ -2127,9 +1828,9 @@ window.WORDS = [
     "example": "例子：在混凝土墙面上摩擦鞋子可模拟粗糙地面的脚步声。",
     "context": "Foley Paper Plastic Concrete Wood Metal Fire",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 164
+    "id": 141
   },
   {
     "word": "Wood",
@@ -2140,9 +1841,9 @@ window.WORDS = [
     "example": "例子：敲击木块可模拟敲门声或马蹄踏在硬地上的声音。",
     "context": "Foley Paper Plastic Concrete Wood Metal Fire",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 165
+    "id": 142
   },
   {
     "word": "Metal",
@@ -2153,9 +1854,9 @@ window.WORDS = [
     "example": "例子：抖动铁皮可模拟雷声或金属碰撞的尖锐音效。",
     "context": "Foley Paper Plastic Concrete Wood Metal Fire",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 166
+    "id": 143
   },
   {
     "word": "Fire",
@@ -2166,9 +1867,9 @@ window.WORDS = [
     "example": "例子：揉搓塑料袋发出的噼啪声可模拟篝火燃烧的声音。",
     "context": "Foley Paper Plastic Concrete Wood Metal Fire",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 167
+    "id": 144
   },
   {
     "word": "Household",
@@ -2179,9 +1880,9 @@ window.WORDS = [
     "example": "例子：household chores（家务活）、household items（家庭用品）。",
     "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 168
+    "id": 145
   },
   {
     "word": "Doors",
@@ -2192,9 +1893,9 @@ window.WORDS = [
     "example": "例子：Please close the doors.（请把门关上。）",
     "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 169
+    "id": 146
   },
   {
     "word": "Kitchen",
@@ -2205,9 +1906,9 @@ window.WORDS = [
     "example": "例子：She is cooking in the kitchen.（她正在厨房做饭。）",
     "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 170
+    "id": 147
   },
   {
     "word": "Cleaning",
@@ -2218,9 +1919,9 @@ window.WORDS = [
     "example": "例子：I do the cleaning every weekend.（我每个周末打扫卫生。）",
     "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 171
+    "id": 148
   },
   {
     "word": "Bathroom",
@@ -2231,9 +1932,9 @@ window.WORDS = [
     "example": "例子：The bathroom is down the hall.（卫生间在走廊尽头。）",
     "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 172
+    "id": 149
   },
   {
     "word": "Dining",
@@ -2244,9 +1945,9 @@ window.WORDS = [
     "example": "例子：The dining area seats six people.（用餐区可坐六个人。）",
     "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 173
+    "id": 150
   },
   {
     "word": "Leisure",
@@ -2257,9 +1958,9 @@ window.WORDS = [
     "example": "例子：She enjoys reading in her leisure time.（她闲暇时喜欢读书。）",
     "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 174
+    "id": 151
   },
   {
     "word": "Human",
@@ -2270,9 +1971,9 @@ window.WORDS = [
     "example": "例子：一个人在远处喊叫的声音。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 175
+    "id": 152
   },
   {
     "word": "Crowd",
@@ -2283,9 +1984,9 @@ window.WORDS = [
     "example": "例子：体育场里观众的欢呼声。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 176
+    "id": 153
   },
   {
     "word": "Fight",
@@ -2296,9 +1997,9 @@ window.WORDS = [
     "example": "例子：两个人拳拳到肉的打击声和喘息声。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 177
+    "id": 154
   },
   {
     "word": "Movement",
@@ -2309,9 +2010,9 @@ window.WORDS = [
     "example": "例子：角色转身时衣服摩擦的细微声响。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 178
+    "id": 155
   },
   {
     "word": "View all",
@@ -2322,9 +2023,9 @@ window.WORDS = [
     "example": "例子：点击「查看全部」以浏览完整音效列表。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 179
+    "id": 156
   },
   {
     "word": "Footsteps",
@@ -2335,9 +2036,9 @@ window.WORDS = [
     "example": "例子：皮鞋踩在木地板上的\"咚咚\"声。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 180
+    "id": 157
   },
   {
     "word": "Gore",
@@ -2348,9 +2049,9 @@ window.WORDS = [
     "example": "例子：液体飞溅和骨骼碎裂的声响。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 181
+    "id": 158
   },
   {
     "word": "Body Sounds",
@@ -2361,9 +2062,9 @@ window.WORDS = [
     "example": "例子：紧张场景中放大的心跳声。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 182
+    "id": 159
   },
   {
     "word": "Science Fiction",
@@ -2374,9 +2075,9 @@ window.WORDS = [
     "example": "例子：《星际穿越》《银翼杀手》都是经典的科幻作品。",
     "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "contextZh": "科幻小说",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 183
+    "id": 160
   },
   {
     "word": "Drones",
@@ -2387,9 +2088,9 @@ window.WORDS = [
     "example": "例子：科幻配乐中常用合成器制造低沉的持续音来营造紧张氛围。",
     "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "contextZh": "科幻小说",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 184
+    "id": 161
   },
   {
     "word": "Alien",
@@ -2400,9 +2101,9 @@ window.WORDS = [
     "example": "例子：电影《异形》中的外星生物是科幻作品的经典形象。",
     "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "contextZh": "科幻小说",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 185
+    "id": 162
   },
   {
     "word": "Voice",
@@ -2413,9 +2114,9 @@ window.WORDS = [
     "example": "例子：科幻电影中常对机器人角色进行人声处理，使其听起来机械而冰冷。",
     "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "contextZh": "科幻小说",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 186
+    "id": 163
   },
   {
     "word": "Lasers",
@@ -2426,9 +2127,9 @@ window.WORDS = [
     "example": "例子：科幻片中太空战舰互相发射激光束交战的场景非常常见。",
     "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "contextZh": "科幻小说",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 187
+    "id": 164
   },
   {
     "word": "Spaceship",
@@ -2439,9 +2140,9 @@ window.WORDS = [
     "example": "例子：《星球大战》中的“千年隼号”是一艘著名的宇宙飞船。",
     "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "contextZh": "科幻小说",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 188
+    "id": 165
   },
   {
     "word": "Data",
@@ -2452,9 +2153,9 @@ window.WORDS = [
     "example": "例子：《星际迷航》中的角色 Data 是一名人形机器人，名字本身就取自“数据”一词。",
     "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "contextZh": "科幻小说",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 189
+    "id": 166
   },
   {
     "word": "Machines and Devices",
@@ -2465,9 +2166,9 @@ window.WORDS = [
     "example": "例子：工厂里的发动机和家用洗衣机都属于机器与设备。",
     "context": "Machines and Devices Tools Switch Bells Phone Electronics",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 190
+    "id": 167
   },
   {
     "word": "Tools",
@@ -2478,9 +2179,9 @@ window.WORDS = [
     "example": "例子：锤子、螺丝刀、扳手都是常见工具。",
     "context": "Machines and Devices Tools Switch Bells Phone Electronics",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 191
+    "id": 168
   },
   {
     "word": "Switch",
@@ -2491,9 +2192,9 @@ window.WORDS = [
     "example": "例子：按一下墙上的开关，灯就亮了。",
     "context": "Machines and Devices Tools Switch Bells Phone Electronics",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 192
+    "id": 169
   },
   {
     "word": "Phone",
@@ -2504,9 +2205,9 @@ window.WORDS = [
     "example": "例子：他用手机给家人打了一个电话。",
     "context": "Machines and Devices Tools Switch Bells Phone Electronics",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 193
+    "id": 170
   },
   {
     "word": "Electronics",
@@ -2517,9 +2218,9 @@ window.WORDS = [
     "example": "例子：电视、电脑和手机都属于电子设备。",
     "context": "Machines and Devices Tools Switch Bells Phone Electronics",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 194
+    "id": 171
   },
   {
     "word": "Transportation",
@@ -2530,9 +2231,9 @@ window.WORDS = [
     "example": "例子：城市地铁系统每天运送数百万乘客。",
     "context": "Transportation Trains Watercraft Car Aircraft Traffic",
     "contextZh": "交通",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 195
+    "id": 172
   },
   {
     "word": "Trains",
@@ -2543,9 +2244,9 @@ window.WORDS = [
     "example": "例子：高铁以每小时300公里以上的速度连接两座城市。",
     "context": "Transportation Trains Watercraft Car Aircraft Traffic",
     "contextZh": "交通",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 196
+    "id": 173
   },
   {
     "word": "Watercraft",
@@ -2556,9 +2257,9 @@ window.WORDS = [
     "example": "例子：渡轮是岛屿与大陆之间最常见的客运水运工具。",
     "context": "Transportation Trains Watercraft Car Aircraft Traffic",
     "contextZh": "交通",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 197
+    "id": 174
   },
   {
     "word": "Car",
@@ -2569,9 +2270,9 @@ window.WORDS = [
     "example": "例子：她每天开汽车通勤上班。",
     "context": "Transportation Trains Watercraft Car Aircraft Traffic",
     "contextZh": "交通",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 198
+    "id": 175
   },
   {
     "word": "Aircraft",
@@ -2582,9 +2283,9 @@ window.WORDS = [
     "example": "例子：喷气式飞机跨越大西洋只需约七小时。",
     "context": "Transportation Trains Watercraft Car Aircraft Traffic",
     "contextZh": "交通",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 199
+    "id": 176
   },
   {
     "word": "Traffic",
@@ -2595,9 +2296,9 @@ window.WORDS = [
     "example": "例子：早高峰时段市中心交通非常拥堵。",
     "context": "Transportation Trains Watercraft Car Aircraft Traffic",
     "contextZh": "交通",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 200
+    "id": 177
   },
   {
     "word": "Warfare",
@@ -2608,9 +2309,9 @@ window.WORDS = [
     "example": "例子：两国因领土争端爆发了持续数年的战争。",
     "context": "Warfare Gun Sword Weapon Knife Military Bullet",
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 201
+    "id": 178
   },
   {
     "word": "Gun",
@@ -2621,9 +2322,9 @@ window.WORDS = [
     "example": "例子：士兵们举起枪向目标射击。",
     "context": "Warfare Gun Sword Weapon Knife Military Bullet",
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 202
+    "id": 179
   },
   {
     "word": "Sword",
@@ -2634,9 +2335,9 @@ window.WORDS = [
     "example": "例子：骑士拔出剑，准备迎战敌人。",
     "context": "Warfare Gun Sword Weapon Knife Military Bullet",
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 203
+    "id": 180
   },
   {
     "word": "Weapon",
@@ -2647,9 +2348,9 @@ window.WORDS = [
     "example": "例子：核武器是当今世界上最具破坏力的武器之一。",
     "context": "Warfare Gun Sword Weapon Knife Military Bullet",
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 204
+    "id": 181
   },
   {
     "word": "Knife",
@@ -2660,9 +2361,9 @@ window.WORDS = [
     "example": "例子：他用刀切开了绳子。",
     "context": "Warfare Gun Sword Weapon Knife Military Bullet",
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 205
+    "id": 182
   },
   {
     "word": "Military",
@@ -2673,9 +2374,9 @@ window.WORDS = [
     "example": "例子：该国进行了大规模的军事演习。",
     "context": "Warfare Gun Sword Weapon Knife Military Bullet",
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 206
+    "id": 183
   },
   {
     "word": "Bullet",
@@ -2686,9 +2387,9 @@ window.WORDS = [
     "example": "例子：子弹击中了靶心。",
     "context": "Warfare Gun Sword Weapon Knife Military Bullet",
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 207
+    "id": 184
   },
   {
     "word": "5.1 Surround",
@@ -2699,9 +2400,9 @@ window.WORDS = [
     "example": "例子：家庭影院系统中，子弹从后方飞过的声音通过后置声道播放。",
     "context": "5.1 Surround Synth Fantasy Electrical Ambience Environment",
     "contextZh": "5.1 环绕声 合成器 幻想 电的 环境氛围 环境",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 208
+    "id": 185
   },
   {
     "word": "Fantasy",
@@ -2712,9 +2413,9 @@ window.WORDS = [
     "example": "例子：《指环王》中的中土世界就是典型的奇幻设定。",
     "context": "5.1 Surround Synth Fantasy Electrical Ambience Environment",
     "contextZh": "5.1 环绕声 合成器 幻想 电的 环境氛围 环境",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 209
+    "id": 186
   },
   {
     "word": "Electrical",
@@ -2725,9 +2426,9 @@ window.WORDS = [
     "example": "例子：电气工程师负责设计和维护电力系统。",
     "context": "5.1 Surround Synth Fantasy Electrical Ambience Environment",
     "contextZh": "5.1 环绕声 合成器 幻想 电的 环境氛围 环境",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 210
+    "id": 187
   },
   {
     "word": "clean guitar",
@@ -2738,9 +2439,9 @@ window.WORDS = [
     "example": "例子：在流行或民谣编曲中，清音吉他常作为节奏铺底，如《Hotel California》前奏中的分解和弦。",
     "context": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
     "contextZh": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 211
+    "id": 188
   },
   {
     "word": "spacious",
@@ -2751,9 +2452,9 @@ window.WORDS = [
     "example": "例子：大量使用混响的清音吉他扫弦能产生\"空旷\"的听感。",
     "context": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
     "contextZh": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 212
+    "id": 189
   },
   {
     "word": "foundation",
@@ -2764,9 +2465,9 @@ window.WORDS = [
     "example": "例子：贝斯和鼓通常构成一首歌的节奏基础。",
     "context": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
     "contextZh": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 213
+    "id": 190
   },
   {
     "word": "arrangement",
@@ -2777,9 +2478,9 @@ window.WORDS = [
     "example": "例子：同一首旋律用钢琴独奏或管弦乐编制呈现，属于不同的编曲。",
     "context": "The clean guitar chords provide a spacious foundation for the entire arrangement.",
     "contextZh": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 214
+    "id": 191
   },
   {
     "word": "practiced",
@@ -2790,9 +2491,9 @@ window.WORDS = [
     "example": "例子：他每天练习钢琴两小时。",
     "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
     "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 215
+    "id": 192
   },
   {
     "word": "complex",
@@ -2803,9 +2504,9 @@ window.WORDS = [
     "example": "例子：这是一个复杂的数学问题。",
     "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
     "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 216
+    "id": 193
   },
   {
     "word": "jazz",
@@ -2816,9 +2517,9 @@ window.WORDS = [
     "example": "例子：路易斯·阿姆斯特朗是著名的爵士乐音乐家。",
     "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
     "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 217
+    "id": 194
   },
   {
     "word": "tone",
@@ -2829,9 +2530,9 @@ window.WORDS = [
     "example": "例子：这把小提琴的音色温暖而饱满。",
     "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
     "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 218
+    "id": 195
   },
   {
     "word": "nuance",
@@ -2842,9 +2543,9 @@ window.WORDS = [
     "example": "例子：她能够捕捉到音乐中每一个细微差别。",
     "context": "He practiced those complex jazz Chords on a clean guitar tone to hear every nuance.",
     "contextZh": "他用清音吉他音色练习那些复杂的爵士和弦，以便听清每一个细微差别。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 219
+    "id": 196
   },
   {
     "word": "tuning",
@@ -2855,9 +2556,9 @@ window.WORDS = [
     "example": "例子：吉他手在演奏前用调音器把六根弦调到标准音高。",
     "context": "To check the tuning, strum some basic chords with a clean guitar sound.",
     "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 220
+    "id": 197
   },
   {
     "word": "strum",
@@ -2868,9 +2569,9 @@ window.WORDS = [
     "example": "例子：用拨片快速扫过吉他的六根弦，弹出一个和弦。",
     "context": "To check the tuning, strum some basic chords with a clean guitar sound.",
     "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
-    "category": "吉他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 221
+    "id": 198
   },
   {
     "word": "basic chords",
@@ -2881,9 +2582,9 @@ window.WORDS = [
     "example": "例子：C 大调和弦、G 大调和弦、A 小调和弦。",
     "context": "To check the tuning, strum some basic chords with a clean guitar sound.",
     "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
-    "category": "键盘",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 222
+    "id": 199
   },
   {
     "word": "clean guitar sound",
@@ -2894,9 +2595,9 @@ window.WORDS = [
     "example": "例子：电吉他直接接入音箱，不加失真效果，发出的明亮清澈的声音。",
     "context": "To check the tuning, strum some basic chords with a clean guitar sound.",
     "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 223
+    "id": 200
   },
   {
     "word": "Lexicon",
@@ -2907,9 +2608,9 @@ window.WORDS = [
     "example": "例子：在语言学中，英语的 lexicon 包含数十万个词条；在音乐制作领域，Lexicon 也是一个著名的音频效果器品牌。",
     "context": "Lexicon",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 224
+    "id": 201
   },
   {
     "word": "Lexicon Pro",
@@ -2920,9 +2621,9 @@ window.WORDS = [
     "example": "例子：Lexicon Pro 系列中的 PCM 原生混响插件常用于人声和管弦乐的空间处理。",
     "context": "Lexicon Pro",
     "contextZh": "Lexicon Pro",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 225
+    "id": 202
   },
   {
     "word": "Vocab",
@@ -2933,9 +2634,9 @@ window.WORDS = [
     "example": "例子：英语学习者常说要\"背 vocab\"，即记忆英语单词。",
     "context": "Vocab",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 226
+    "id": 203
   },
   {
     "word": "Cissy",
@@ -2946,22 +2647,9 @@ window.WORDS = [
     "example": "例子：Cissy 是歌手 Priscilla 常用的昵称。",
     "context": "Cissy",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 227
-  },
-  {
-    "word": "But",
-    "ipa": "",
-    "translit": "",
-    "zh": "但是 / 却",
-    "def": "表示转折的连词，用于对比前后两个看似矛盾的描述。",
-    "example": "例子：简单却复杂。",
-    "context": "Clean But Nasty",
-    "contextZh": "干净却凶狠",
-    "category": "其他",
-    "source": "小赫转存",
-    "id": 228
+    "id": 204
   },
   {
     "word": "Nasty",
@@ -2972,9 +2660,9 @@ window.WORDS = [
     "example": "例子：失真吉他发出刺耳而充满攻击性的咆哮声。",
     "context": "Clean But Nasty",
     "contextZh": "干净却凶狠",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 229
+    "id": 205
   },
   {
     "word": "Chase The Sun",
@@ -2985,9 +2673,9 @@ window.WORDS = [
     "example": "例子：一首电子舞曲的曲名，传达在日出时分的狂欢氛围。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 230
+    "id": 206
   },
   {
     "word": "Clean as a Whistle",
@@ -2998,9 +2686,9 @@ window.WORDS = [
     "example": "例子：形容一段吉他录音没有任何底噪或失真，听起来清澈透亮。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 231
+    "id": 207
   },
   {
     "word": "Dirge Lead",
@@ -3011,9 +2699,9 @@ window.WORDS = [
     "example": "例子：在一首哥特金属歌曲中，主音吉他以缓慢低沉的旋律演奏挽歌式的乐句。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 232
+    "id": 208
   },
   {
     "word": "Dynamic Clean",
@@ -3024,9 +2712,9 @@ window.WORDS = [
     "example": "例子：吉他手轻拨时声音柔和，重拨时声音明亮有力，体现清音的高动态表现。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 233
+    "id": 209
   },
   {
     "word": "Expression Face",
@@ -3037,9 +2725,9 @@ window.WORDS = [
     "example": "例子：合成器上的表情面板包含调制轮和表情踏板接口，用于实时改变声音表现。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 234
+    "id": 210
   },
   {
     "word": "Frothy",
@@ -3050,9 +2738,9 @@ window.WORDS = [
     "example": "例子：一首流行歌曲中合成器铺底音色轻盈绵密，像泡沫一样漂浮在混音上层。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 235
+    "id": 211
   },
   {
     "word": "Harmonic Punch",
@@ -3063,9 +2751,9 @@ window.WORDS = [
     "example": "例子：失真吉他的强力和弦因丰富的谐波而产生强烈的冲击力，能穿透密集的混音。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 236
+    "id": 212
   },
   {
     "word": "Long Black",
@@ -3076,9 +2764,9 @@ window.WORDS = [
     "example": "例子：在咖啡馆点一杯长黑咖啡，即双份浓缩加热水，风味醇厚。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 237
+    "id": 213
   },
   {
     "word": "My Queen",
@@ -3089,9 +2777,9 @@ window.WORDS = [
     "example": "例子：一首情歌的标题，歌词中反复呼唤\"My Queen\"以表达深情。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 238
+    "id": 214
   },
   {
     "word": "Smooth With Cream",
@@ -3102,9 +2790,9 @@ window.WORDS = [
     "example": "例子：形容一段爵士萨克斯的音色温暖柔滑，像加了奶油的咖啡般令人陶醉。",
     "context": "Chase The Sun Clean as a Whistle Dirge Lead Dynamic Clean Expression Face Frothy Harmonic Punch Long Black My Queen Smooth With Cream",
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 239
+    "id": 215
   },
   {
     "word": "prompt",
@@ -3115,9 +2803,9 @@ window.WORDS = [
     "example": "例子：在聊天机器人中输入“帮我写一首关于春天的诗”，这就是一个 prompt。",
     "context": "prompt",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 240
+    "id": 216
   },
   {
     "word": "going camping",
@@ -3128,9 +2816,9 @@ window.WORDS = [
     "example": "例子：We are going camping by the lake this summer.",
     "context": "We are going camping in the mountains this weekend.",
     "contextZh": "这个周末我们要去山里露营。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 241
+    "id": 217
   },
   {
     "word": "in the mountains",
@@ -3141,9 +2829,9 @@ window.WORDS = [
     "example": "例子：They built a cabin in the mountains.",
     "context": "We are going camping in the mountains this weekend.",
     "contextZh": "这个周末我们要去山里露营。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 242
+    "id": 218
   },
   {
     "word": "this weekend",
@@ -3154,9 +2842,9 @@ window.WORDS = [
     "example": "例子：Let's meet up this weekend.",
     "context": "We are going camping in the mountains this weekend.",
     "contextZh": "这个周末我们要去山里露营。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 243
+    "id": 219
   },
   {
     "word": "camping gear",
@@ -3167,9 +2855,9 @@ window.WORDS = [
     "example": "例子：出发前检查帐篷、睡袋和炉具是否齐全。",
     "context": "Do you have all the camping gear ready?",
     "contextZh": "你的露营装备都准备好了吗？",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 244
+    "id": 220
   },
   {
     "word": "have ready",
@@ -3180,9 +2868,9 @@ window.WORDS = [
     "example": "例子：出发前把所有行李准备好放在门口。",
     "context": "Do you have all the camping gear ready?",
     "contextZh": "你的露营装备都准备好了吗？",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 245
+    "id": 221
   },
   {
     "word": "disconnect",
@@ -3193,9 +2881,9 @@ window.WORDS = [
     "example": "例子：关掉手机和电脑，一整天不看社交媒体。",
     "context": "I love camping because it helps me disconnect from technology.",
     "contextZh": "我喜欢露营，因为它帮助我脱离科技。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 246
+    "id": 222
   },
   {
     "word": "technology",
@@ -3206,9 +2894,9 @@ window.WORDS = [
     "example": "例子：智能手机、笔记本电脑、平板等日常电子设备。",
     "context": "I love camping because it helps me disconnect from technology.",
     "contextZh": "我喜欢露营，因为它帮助我脱离科技。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 247
+    "id": 223
   },
   {
     "word": "bug spray",
@@ -3219,9 +2907,9 @@ window.WORDS = [
     "example": "例子：露营前买一瓶驱虫喷雾，喷在皮肤和衣物上防蚊虫叮咬。",
     "context": "We need to buy some bug spray before we go camping.",
     "contextZh": "我们去露营之前需要买些驱虫喷雾。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 248
+    "id": 224
   },
   {
     "word": "go camping",
@@ -3232,9 +2920,9 @@ window.WORDS = [
     "example": "例子：周末我们打算去山里露营，晚上看星星。",
     "context": "We need to buy some bug spray before we go camping.",
     "contextZh": "我们去露营之前需要买些驱虫喷雾。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 249
+    "id": 225
   },
   {
     "word": "intricate process",
@@ -3245,9 +2933,9 @@ window.WORDS = [
     "example": "例子：混音中同时处理均衡、压缩和空间效果就是一个复杂过程。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 250
+    "id": 226
   },
   {
     "word": "modern music production",
@@ -3258,9 +2946,9 @@ window.WORDS = [
     "example": "例子：在 DAW 中编曲、录音、编辑和混音。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 251
+    "id": 227
   },
   {
     "word": "mixing",
@@ -3271,9 +2959,9 @@ window.WORDS = [
     "example": "例子：把人声、鼓组和贝斯调整到彼此平衡。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 252
+    "id": 228
   },
   {
     "word": "skillfully layering",
@@ -3284,9 +2972,9 @@ window.WORDS = [
     "example": "例子：在 pad 音色上再叠加弦乐和氛围声。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 253
+    "id": 229
   },
   {
     "word": "ambient textures",
@@ -3297,9 +2985,9 @@ window.WORDS = [
     "example": "听觉例子：缓慢起伏的合成器 pad 和远处混响噪声。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "音效",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 254
+    "id": 230
   },
   {
     "word": "aligning",
@@ -3310,9 +2998,9 @@ window.WORDS = [
     "example": "例子：把鼓点对齐到网格。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 255
+    "id": 231
   },
   {
     "word": "transient-rich impacts",
@@ -3323,9 +3011,9 @@ window.WORDS = [
     "example": "听觉例子：军鼓、拍手和电影打击乐的尖锐起音。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 256
+    "id": 232
   },
   {
     "word": "to the grid",
@@ -3336,9 +3024,9 @@ window.WORDS = [
     "example": "例子：把采样切片吸附到 1/16 音符网格。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 257
+    "id": 233
   },
   {
     "word": "automating",
@@ -3349,9 +3037,9 @@ window.WORDS = [
     "example": "例子：让滤波器截止频率在段落中逐渐下降。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 258
+    "id": 234
   },
   {
     "word": "frequency decay",
@@ -3362,9 +3050,9 @@ window.WORDS = [
     "example": "听觉例子：镲片敲击后高频迅速消退。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 259
+    "id": 235
   },
   {
     "word": "essential techniques",
@@ -3375,9 +3063,9 @@ window.WORDS = [
     "example": "例子：压缩和均衡是混音中的关键技术。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 260
+    "id": 236
   },
   {
     "word": "maintain sonic clarity",
@@ -3388,9 +3076,9 @@ window.WORDS = [
     "example": "例子：减少低频堆积以保持人声清晰。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 261
+    "id": 237
   },
   {
     "word": "emotional dynamics",
@@ -3401,9 +3089,9 @@ window.WORDS = [
     "example": "例子：主歌克制、副歌爆发形成情绪动态。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 262
+    "id": 238
   },
   {
     "word": "across the master bus",
@@ -3414,9 +3102,9 @@ window.WORDS = [
     "example": "例子：在 master bus 上做总线压缩和限幅。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 263
+    "id": 239
   },
   {
     "word": "lead singer",
@@ -3427,9 +3115,9 @@ window.WORDS = [
     "example": "例子：一支摇滚乐队中站在舞台中央、负责演唱大部分歌曲的那位歌手。",
     "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
     "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 264
+    "id": 240
   },
   {
     "word": "powerful",
@@ -3440,9 +3128,9 @@ window.WORDS = [
     "example": "例子：歌手在高潮段落用全力演唱，声音充满张力和冲击力。",
     "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
     "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 265
+    "id": 241
   },
   {
     "word": "distinct",
@@ -3453,9 +3141,9 @@ window.WORDS = [
     "example": "例子：某位歌手一开口就能被认出是谁，因为其音色和咬字方式与众不同。",
     "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
     "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 266
+    "id": 242
   },
   {
     "word": "cuts through",
@@ -3466,9 +3154,9 @@ window.WORDS = [
     "example": "例子：在一首编曲复杂的歌曲中，主唱的声音依然清晰浮在伴奏之上。",
     "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
     "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 267
+    "id": 243
   },
   {
     "word": "dense mix",
@@ -3479,9 +3167,9 @@ window.WORDS = [
     "example": "例子：一首同时包含多把吉他、合成器、鼓组和弦乐的歌曲，各声部叠加形成厚实的音响织体。",
     "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
     "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 268
+    "id": 244
   },
   {
     "word": "reverb effect",
@@ -3492,9 +3180,9 @@ window.WORDS = [
     "example": "例子：给鼓组加一点混响效果，让它听起来像是在大教堂里演奏。",
     "context": "We applied a Lexicon Pro reverb effect to give the backing voice a sense of infinite space.",
     "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 269
+    "id": 245
   },
   {
     "word": "backing voice",
@@ -3505,9 +3193,9 @@ window.WORDS = [
     "example": "例子：副歌部分加入伴唱人声，让整体听起来更饱满。",
     "context": "We applied a Lexicon Pro reverb effect to give the backing voice a sense of infinite space.",
     "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 270
+    "id": 246
   },
   {
     "word": "sense of infinite space",
@@ -3518,9 +3206,9 @@ window.WORDS = [
     "example": "例子：用长混响时间营造出无限空间感，像是站在空旷的山谷里。",
     "context": "We applied a Lexicon Pro reverb effect to give the backing voice a sense of infinite space.",
     "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 271
+    "id": 247
   },
   {
     "word": "vocal chops",
@@ -3531,9 +3219,9 @@ window.WORDS = [
     "example": "例子：把一段女声“ah”切成十六分音符的短促片段，排列成有节奏感的旋律。",
     "context": "You can find excellent vocal chops by searching for specific voice tags on Splice.",
     "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 272
+    "id": 248
   },
   {
     "word": "voice tags",
@@ -3544,9 +3232,9 @@ window.WORDS = [
     "example": "例子：在 Splice 上搜索“female vocal”或“chopped vocal”等标签来定位素材。",
     "context": "You can find excellent vocal chops by searching for specific voice tags on Splice.",
     "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 273
+    "id": 249
   },
   {
     "word": "Splice",
@@ -3557,9 +3245,9 @@ window.WORDS = [
     "example": "例子：制作人在 Splice 上试听并下载一段人声 loop 用于自己的工程。",
     "context": "You can find excellent vocal chops by searching for specific voice tags on Splice.",
     "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 274
+    "id": 250
   },
   {
     "word": "Adjusting",
@@ -3570,9 +3258,9 @@ window.WORDS = [
     "example": "例子：调节均衡器的增益，让高频更明亮。",
     "context": "Adjusting the formant control will alter the character of the synthetic voice without",
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 275
+    "id": 251
   },
   {
     "word": "formant control",
@@ -3583,9 +3271,9 @@ window.WORDS = [
     "example": "例子：在声码器上转动 Formant 旋钮，可让声音从低沉变得尖细。",
     "context": "Adjusting the formant control will alter the character of the synthetic voice without",
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 276
+    "id": 252
   },
   {
     "word": "alter",
@@ -3596,9 +3284,9 @@ window.WORDS = [
     "example": "例子：改变滤波器的截止频率会 alter 音色的明暗。",
     "context": "Adjusting the formant control will alter the character of the synthetic voice without",
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 277
+    "id": 253
   },
   {
     "word": "character",
@@ -3609,9 +3297,9 @@ window.WORDS = [
     "example": "例子：电子管前置放大器给声音增添温暖的 character。",
     "context": "Adjusting the formant control will alter the character of the synthetic voice without",
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 278
+    "id": 254
   },
   {
     "word": "synthetic voice",
@@ -3622,9 +3310,9 @@ window.WORDS = [
     "example": "例子：声码器输出的 synthetic voice 带有明显的机械感。",
     "context": "Adjusting the formant control will alter the character of the synthetic voice without",
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 279
+    "id": 255
   },
   {
     "word": "without",
@@ -3635,9 +3323,9 @@ window.WORDS = [
     "example": "例子：可以在不改变音高的前提下调整共振峰。",
     "context": "Adjusting the formant control will alter the character of the synthetic voice without",
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 280
+    "id": 256
   },
   {
     "word": "Layering",
@@ -3648,9 +3336,9 @@ window.WORDS = [
     "example": "例子：在电子底鼓上叠加一段原声鼓采样，让低频更有冲击力。",
     "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 281
+    "id": 257
   },
   {
     "word": "organic shakers",
@@ -3661,9 +3349,9 @@ window.WORDS = [
     "example": "例子：在拉丁音乐中，乐手手持原声沙锤为节奏增添细腻的高频律动。",
     "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 282
+    "id": 258
   },
   {
     "word": "electronic hi-hats",
@@ -3674,9 +3362,9 @@ window.WORDS = [
     "example": "例子：在电子舞曲中，电子踩镲常用于标记八分音符的节奏骨架。",
     "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 283
+    "id": 259
   },
   {
     "word": "human feel",
@@ -3687,9 +3375,9 @@ window.WORDS = [
     "example": "例子：鼓手略微提前或延后击打，让节奏听起来更生动自然。",
     "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 284
+    "id": 260
   },
   {
     "word": "rhythm section",
@@ -3700,9 +3388,9 @@ window.WORDS = [
     "example": "例子：爵士乐队中的节奏声部为独奏者提供稳定的律动与和声支撑。",
     "context": "Layering organic shakers with electronic hi-hats can introduce a human feel to the rhythm section.",
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 285
+    "id": 261
   },
   {
     "word": "sample libraries",
@@ -3713,9 +3401,9 @@ window.WORDS = [
     "example": "例子：在 Splice 或 Loopcloud 中搜索鼓组、贝斯、人声等素材。",
     "context": "When browsing sample libraries, typing \"shakers loop\" alongside specific groove keywords yields more precise results.",
     "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 286
+    "id": 262
   },
   {
     "word": "shakers loop",
@@ -3726,9 +3414,9 @@ window.WORDS = [
     "example": "听觉例子：连续均匀的\"嚓嚓\"声循环铺底，为歌曲提供细碎的节奏纹理。",
     "context": "When browsing sample libraries, typing \"shakers loop\" alongside specific groove keywords yields more precise results.",
     "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 287
+    "id": 263
   },
   {
     "word": "groove keywords",
@@ -3739,9 +3427,9 @@ window.WORDS = [
     "example": "例子：搜索时输入 \"funk groove\" 或 \"swing feel\" 来缩小结果范围。",
     "context": "When browsing sample libraries, typing \"shakers loop\" alongside specific groove keywords yields more precise results.",
     "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 288
+    "id": 264
   },
   {
     "word": "more precise results",
@@ -3752,9 +3440,9 @@ window.WORDS = [
     "example": "例子：同时输入 \"shakers loop\" 和 \"afrobeat\" 比只搜 \"shakers\" 得到的结果更准确。",
     "context": "When browsing sample libraries, typing \"shakers loop\" alongside specific groove keywords yields more precise results.",
     "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 289
+    "id": 265
   },
   {
     "word": "Panning",
@@ -3765,9 +3453,9 @@ window.WORDS = [
     "example": "例子：把吉他声像偏左 30%，让它听起来在左前方。",
     "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 290
+    "id": 266
   },
   {
     "word": "Slightly different",
@@ -3778,9 +3466,9 @@ window.WORDS = [
     "example": "例子：两个沙锤一个颗粒感稍粗，一个稍细。",
     "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 291
+    "id": 267
   },
   {
     "word": "Hard left",
@@ -3791,9 +3479,9 @@ window.WORDS = [
     "example": "例子：把沙锤 A 的声像旋钮拧到最左边。",
     "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 292
+    "id": 268
   },
   {
     "word": "Hard right",
@@ -3804,9 +3492,9 @@ window.WORDS = [
     "example": "例子：把沙锤 B 的声像旋钮拧到最右边。",
     "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 293
+    "id": 269
   },
   {
     "word": "Wider stereo image",
@@ -3817,9 +3505,9 @@ window.WORDS = [
     "example": "例子：左右各放一个沙锤后，整体声场比单声道时明显变宽。",
     "context": "Panning two slightly different shakers hard left and hard right creates a much wider stereo image.",
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 294
+    "id": 270
   },
   {
     "word": "multiple synthesizer leads",
@@ -3830,9 +3518,9 @@ window.WORDS = [
     "example": "例子：主歌用单层合成器，副歌加入三层合成器主音来提升能量。",
     "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 295
+    "id": 271
   },
   {
     "word": "massive",
@@ -3843,9 +3531,9 @@ window.WORDS = [
     "example": "例子：经过多层叠加和混响处理后，副歌听起来非常宏大。",
     "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 296
+    "id": 272
   },
   {
     "word": "anthemic",
@@ -3856,9 +3544,9 @@ window.WORDS = [
     "example": "例子：副歌旋律一响起，就有一种全场跟唱的颂歌感。",
     "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 297
+    "id": 273
   },
   {
     "word": "melody line",
@@ -3869,9 +3557,9 @@ window.WORDS = [
     "example": "例子：副歌的旋律线简单但非常抓耳。",
     "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 298
+    "id": 274
   },
   {
     "word": "for the chorus",
@@ -3882,9 +3570,9 @@ window.WORDS = [
     "example": "例子：这些合成器叠加主要是为了副歌服务。",
     "context": "Layering multiple synthesizer leads can create a massive, anthemic melody line for the chorus.",
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 299
+    "id": 275
   },
   {
     "word": "Riding",
@@ -3895,9 +3583,9 @@ window.WORDS = [
     "example": "例子：混音师在播放过程中手动推拉推子，让声音随段落起伏。",
     "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 300
+    "id": 276
   },
   {
     "word": "volume fader",
@@ -3908,9 +3596,9 @@ window.WORDS = [
     "example": "例子：把推子往上推，人声就变响；往下拉，人声就变轻。",
     "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 301
+    "id": 277
   },
   {
     "word": "SSL UF1",
@@ -3921,9 +3609,9 @@ window.WORDS = [
     "example": "例子：把 UF1 放在键盘旁，用它的推子实时控制人声音量。",
     "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 302
+    "id": 278
   },
   {
     "word": "vocal leads",
@@ -3934,9 +3622,9 @@ window.WORDS = [
     "example": "例子：副歌部分那条最清楚、最靠前的人声就是 vocal lead。",
     "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 303
+    "id": 279
   },
   {
     "word": "sit perfectly",
@@ -3947,9 +3635,9 @@ window.WORDS = [
     "example": "例子：人声响度刚好压过伴奏，又不会盖住鼓和贝斯。",
     "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 304
+    "id": 280
   },
   {
     "word": "on top of",
@@ -3960,9 +3648,9 @@ window.WORDS = [
     "example": "例子：人声听起来浮在伴奏织体之上，清晰可辨。",
     "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 305
+    "id": 281
   },
   {
     "word": "the instrumental mix",
@@ -3973,9 +3661,9 @@ window.WORDS = [
     "example": "例子：去掉人声后剩下的鼓、贝斯、吉他、键盘等混合声。",
     "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 306
+    "id": 282
   },
   {
     "word": "browsing Splice",
@@ -3986,9 +3674,9 @@ window.WORDS = [
     "example": "例子：打开 Splice 网站，逐个试听各类采样包。",
     "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 307
+    "id": 283
   },
   {
     "word": "melodic inspiration",
@@ -3999,9 +3687,9 @@ window.WORDS = [
     "example": "例子：听一段合成器 loop 后想到一段主旋律。",
     "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 308
+    "id": 284
   },
   {
     "word": "analog leads",
@@ -4012,9 +3700,9 @@ window.WORDS = [
     "example": "听觉例子：带轻微失真的温暖方波主音在混音前方演奏旋律。",
     "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 309
+    "id": 285
   },
   {
     "word": "warm",
@@ -4025,9 +3713,9 @@ window.WORDS = [
     "example": "听觉例子：模拟合成器经过轻微饱和后那种厚实柔和的音色。",
     "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 310
+    "id": 286
   },
   {
     "word": "character-rich",
@@ -4038,9 +3726,9 @@ window.WORDS = [
     "example": "听觉例子：带轻微音高漂移和噪声底的老式合成器音色。",
     "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 311
+    "id": 287
   },
   {
     "word": "synth loops",
@@ -4051,9 +3739,9 @@ window.WORDS = [
     "example": "例子：一段 4 小节的合成器琶音 loop，直接拖入 DAW 使用。",
     "context": "When browsing Splice for melodic inspiration, searching for \"analog leads\" can yield warm and character-rich synth loops.",
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 312
+    "id": 288
   },
   {
     "word": "Heavy saturation",
@@ -4064,9 +3752,9 @@ window.WORDS = [
     "example": "例子：在混音中对吉他音轨施加重度饱和，使其听起来更饱满、更有力。",
     "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
     "contextZh": "",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 313
+    "id": 289
   },
   {
     "word": "Electric guitar leads",
@@ -4077,9 +3765,9 @@ window.WORDS = [
     "example": "例子：摇滚歌曲中电吉他主音演奏的独奏段落。",
     "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
     "contextZh": "",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 314
+    "id": 290
   },
   {
     "word": "Cut through",
@@ -4090,9 +3778,9 @@ window.WORDS = [
     "example": "例子：通过均衡和饱和处理，让人声在密集的编曲中穿透出来。",
     "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
     "contextZh": "",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 315
+    "id": 291
   },
   {
     "word": "Dense midrange frequencies",
@@ -4103,9 +3791,9 @@ window.WORDS = [
     "example": "例子：现代摇滚或电子音乐中，吉他、合成器和人声都在中频段竞争空间。",
     "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
     "contextZh": "",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 316
+    "id": 292
   },
   {
     "word": "Modern rock",
@@ -4116,9 +3804,9 @@ window.WORDS = [
     "example": "例子：像 Foo Fighters 或 Royal Blood 这类乐队的音乐风格。",
     "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 317
+    "id": 293
   },
   {
     "word": "Electronic tracks",
@@ -4129,9 +3817,9 @@ window.WORDS = [
     "example": "例子：像 The Prodigy 或 Daft Punk 制作的电子音乐曲目。",
     "context": "Heavy saturation on electric guitar leads helps them cut through the dense midrange frequencies of modern rock or electronic tracks.",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 318
+    "id": 294
   },
   {
     "word": "sub bass",
@@ -4142,9 +3830,9 @@ window.WORDS = [
     "example": "听觉例子：舞曲里那种让胸口发闷、几乎听不出音高的低沉轰鸣。",
     "context": "A powerful sub bass is the foundation of any heavy electronic track, but it needs careful EQing to avoid muddying the low end.",
     "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 319
+    "id": 295
   },
   {
     "word": "heavy electronic track",
@@ -4155,9 +3843,9 @@ window.WORDS = [
     "example": "例子：硬核 Techno、Dubstep 等风格中低频密集的曲子。",
     "context": "A powerful sub bass is the foundation of any heavy electronic track, but it needs careful EQing to avoid muddying the low end.",
     "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 320
+    "id": 296
   },
   {
     "word": "careful EQing",
@@ -4168,9 +3856,9 @@ window.WORDS = [
     "example": "例子：把 200 Hz 附近略微衰减，让低频听起来更干净。",
     "context": "A powerful sub bass is the foundation of any heavy electronic track, but it needs careful EQing to avoid muddying the low end.",
     "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 321
+    "id": 297
   },
   {
     "word": "muddying the low end",
@@ -4181,9 +3869,9 @@ window.WORDS = [
     "example": "例子：底鼓和贝斯同时占据 60 Hz，听上去低音又闷又乱。",
     "context": "A powerful sub bass is the foundation of any heavy electronic track, but it needs careful EQing to avoid muddying the low end.",
     "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
-    "category": "合成器",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 322
+    "id": 298
   },
   {
     "word": "Cinematic",
@@ -4194,9 +3882,9 @@ window.WORDS = [
     "example": "例子：Hans Zimmer 风格的宏大弦乐与铜管铺底。",
     "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 323
+    "id": 299
   },
   {
     "word": "Ambient",
@@ -4207,9 +3895,9 @@ window.WORDS = [
     "example": "例子：Brian Eno 的《Music for Airports》。",
     "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
-    "category": "音效",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 324
+    "id": 300
   },
   {
     "word": "routing",
@@ -4220,9 +3908,9 @@ window.WORDS = [
     "example": "例子：把弦乐轨道的输出指定发送到弦乐编组总线。",
     "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 325
+    "id": 301
   },
   {
     "word": "orchestral elements",
@@ -4233,9 +3921,9 @@ window.WORDS = [
     "example": "例子：弦乐铺底、铜管齐奏、竖琴滑音等。",
     "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 326
+    "id": 302
   },
   {
     "word": "dedicated sub group",
@@ -4246,9 +3934,9 @@ window.WORDS = [
     "example": "例子：把所有弦乐轨道统一送入一个名为「Strings」的编组。",
     "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 327
+    "id": 303
   },
   {
     "word": "automation",
@@ -4259,9 +3947,9 @@ window.WORDS = [
     "example": "例子：让弦乐音量在副歌处自动渐强。",
     "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 328
+    "id": 304
   },
   {
     "word": "manageable",
@@ -4272,9 +3960,9 @@ window.WORDS = [
     "example": "例子：把轨道归入编组后，只需调整一条推子即可控制整体音量。",
     "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 329
+    "id": 305
   },
   {
     "word": "sine wave",
@@ -4285,9 +3973,9 @@ window.WORDS = [
     "example": "例子：低频正弦波常被用来做超低频（sub）层，几乎只感觉到震动而不易听出音高。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 330
+    "id": 306
   },
   {
     "word": "oscillator",
@@ -4298,9 +3986,9 @@ window.WORDS = [
     "example": "例子：把振荡器设为正弦波，就能得到没有谐波的纯音。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 331
+    "id": 307
   },
   {
     "word": "synthesizer",
@@ -4311,9 +3999,9 @@ window.WORDS = [
     "example": "例子：用合成器里的正弦波振荡器做低频层。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 332
+    "id": 308
   },
   {
     "word": "punchy",
@@ -4324,9 +4012,9 @@ window.WORDS = [
     "example": "例子：结实有力的低频让鼓组更有推动力。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 333
+    "id": 309
   },
   {
     "word": "sub frequency",
@@ -4337,9 +4025,9 @@ window.WORDS = [
     "example": "例子：超低频层给主贝斯增加下潜和重量感。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 334
+    "id": 310
   },
   {
     "word": "layer",
@@ -4350,9 +4038,9 @@ window.WORDS = [
     "example": "例子：在主贝斯下面再加一层超低频。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 335
+    "id": 311
   },
   {
     "word": "beneath",
@@ -4363,9 +4051,9 @@ window.WORDS = [
     "example": "例子：在主贝斯下方铺一层超低频。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 336
+    "id": 312
   },
   {
     "word": "main bass",
@@ -4376,9 +4064,9 @@ window.WORDS = [
     "example": "例子：主贝斯负责音高和律动，超低频层负责下潜。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 337
+    "id": 313
   },
   {
     "word": "generate",
@@ -4389,9 +4077,9 @@ window.WORDS = [
     "example": "例子：用振荡器生成一个正弦波。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 338
+    "id": 314
   },
   {
     "word": "sub frequencies",
@@ -4402,9 +4090,9 @@ window.WORDS = [
     "example": "例子：底鼓的基音和低音贝斯的基频大多落在这一频段。",
     "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 339
+    "id": 315
   },
   {
     "word": "GLM-calibrated",
@@ -4415,9 +4103,9 @@ window.WORDS = [
     "example": "例子：经过 GLM 校准的 8351 音箱能自动修正房间造成的低频驻波。",
     "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 340
+    "id": 316
   },
   {
     "word": "monitor system",
@@ -4428,9 +4116,9 @@ window.WORDS = [
     "example": "例子：一套完整的监听系统包括主监听音箱、低音炮和房间声学面板。",
     "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 341
+    "id": 317
   },
   {
     "word": "low end",
@@ -4441,9 +4129,9 @@ window.WORDS = [
     "example": "例子：如果低频段混得不好，在手机上播放时低音会完全消失。",
     "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 342
+    "id": 318
   },
   {
     "word": "translates perfectly",
@@ -4454,9 +4142,9 @@ window.WORDS = [
     "example": "例子：在监听音箱上听起来平衡的混音，在汽车音响上也能准确还原。",
     "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 343
+    "id": 319
   },
   {
     "word": "across different playback devices",
@@ -4467,9 +4155,9 @@ window.WORDS = [
     "example": "例子：混音需要在录音棚音箱、AirPods 和蓝牙音箱上都听起来不错。",
     "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 344
+    "id": 320
   },
   {
     "word": "Recording",
@@ -4480,9 +4168,9 @@ window.WORDS = [
     "example": "例子：在录音室里用麦克风录制吉他音箱的声音。",
     "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 345
+    "id": 321
   },
   {
     "word": "Fender Telecaster",
@@ -4493,9 +4181,9 @@ window.WORDS = [
     "example": "例子：用 Telecaster 弹奏出清脆的分解和弦。",
     "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 346
+    "id": 322
   },
   {
     "word": "directly through",
@@ -4506,9 +4194,9 @@ window.WORDS = [
     "example": "例子：把吉他直接插进音频接口，不经过任何效果器。",
     "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 347
+    "id": 323
   },
   {
     "word": "ISA One",
@@ -4519,9 +4207,9 @@ window.WORDS = [
     "example": "例子：把吉他接入 ISA One 的乐器输入口进行录制。",
     "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 348
+    "id": 324
   },
   {
     "word": "yields",
@@ -4532,9 +4220,9 @@ window.WORDS = [
     "example": "例子：这种接法能产生更饱满的声音。",
     "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 349
+    "id": 325
   },
   {
     "word": "articulate",
@@ -4545,9 +4233,9 @@ window.WORDS = [
     "example": "听觉例子：每个音符的拨弦声都清晰可辨，不糊成一团。",
     "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 350
+    "id": 326
   },
   {
     "word": "clean tone",
@@ -4558,9 +4246,9 @@ window.WORDS = [
     "example": "听觉例子：吉他原声般清澈、无破音的音色。",
     "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 351
+    "id": 327
   },
   {
     "word": "before hitting",
@@ -4571,9 +4259,9 @@ window.WORDS = [
     "example": "例子：在进入音箱模拟器之前先经过前置放大器。",
     "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 352
+    "id": 328
   },
   {
     "word": "amp sim",
@@ -4584,9 +4272,9 @@ window.WORDS = [
     "example": "例子：用插件模拟 Marshall 音箱的失真音色。",
     "context": "Recording Fender Telecaster riffs directly through the ISA One yields a warm and articulate clean tone before hitting the amp sim.",
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
-    "category": "合成器",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 353
+    "id": 329
   },
   {
     "word": "acoustic guitar",
@@ -4597,9 +4285,9 @@ window.WORDS = [
     "example": "例子：民谣弹唱中常用的钢弦木吉他。",
     "context": "Layering acoustic guitar riffs over heavy electronic beats creates a unique organic contrast in hybrid genres.",
     "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 354
+    "id": 330
   },
   {
     "word": "heavy electronic beats",
@@ -4610,9 +4298,9 @@ window.WORDS = [
     "example": "听觉例子：电子舞曲中低沉有力的鼓点。",
     "context": "Layering acoustic guitar riffs over heavy electronic beats creates a unique organic contrast in hybrid genres.",
     "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 355
+    "id": 331
   },
   {
     "word": "organic contrast",
@@ -4623,9 +4311,9 @@ window.WORDS = [
     "example": "例子：木吉他的温润音色与电子鼓的冰冷音色并置。",
     "context": "Layering acoustic guitar riffs over heavy electronic beats creates a unique organic contrast in hybrid genres.",
     "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
-    "category": "键盘",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 356
+    "id": 332
   },
   {
     "word": "hybrid genres",
@@ -4636,9 +4324,9 @@ window.WORDS = [
     "example": "例子：民谣与电子乐结合的“民谣电子”。",
     "context": "Layering acoustic guitar riffs over heavy electronic beats creates a unique organic contrast in hybrid genres.",
     "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 357
+    "id": 333
   },
   {
     "word": "searching Splice",
@@ -4649,9 +4337,9 @@ window.WORDS = [
     "example": "例子：制作人花了一下午在搜索 Splice，寻找合适的鼓组采样。",
     "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 358
+    "id": 334
   },
   {
     "word": "for inspiration",
@@ -4662,9 +4350,9 @@ window.WORDS = [
     "example": "例子：他翻看旧唱片，为的是寻找灵感。",
     "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 359
+    "id": 335
   },
   {
     "word": "keywords",
@@ -4675,9 +4363,9 @@ window.WORDS = [
     "example": "例子：输入 \"math rock riffs\" 作为关键词。",
     "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 360
+    "id": 336
   },
   {
     "word": "math rock riffs",
@@ -4688,9 +4376,9 @@ window.WORDS = [
     "example": "听觉例子：吉他以 7/8 拍快速切分、节奏不断变换的重复乐句。",
     "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
-    "category": "吉他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 361
+    "id": 337
   },
   {
     "word": "can spark",
@@ -4701,9 +4389,9 @@ window.WORDS = [
     "example": "例子：一个偶然听到的和弦进行能够激发全新的创作方向。",
     "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 362
+    "id": 338
   },
   {
     "word": "completely unexpected",
@@ -4714,9 +4402,9 @@ window.WORDS = [
     "example": "例子：一个简单的搜索词带来了完全出乎意料的编曲思路。",
     "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 363
+    "id": 339
   },
   {
     "word": "arrangement ideas",
@@ -4727,9 +4415,9 @@ window.WORDS = [
     "example": "例子：把数学摇滚的节奏型应用到流行歌曲中，产生新的编曲思路。",
     "context": "When searching Splice for inspiration, keywords like \"math rock riffs\" can spark completely unexpected arrangement ideas.",
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 364
+    "id": 340
   },
   {
     "word": "Processing complex riffs",
@@ -4740,9 +4428,9 @@ window.WORDS = [
     "example": "例子：把一段快速交替拨弦的金属连复段导入 DAW 进行降噪与均衡处理。",
     "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
-    "category": "吉他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 365
+    "id": 341
   },
   {
     "word": "Neural DSP plugins",
@@ -4753,9 +4441,9 @@ window.WORDS = [
     "example": "例子：在音轨上加载 Neural DSP 的 Archetype 系列插件来替代真实音箱拾音。",
     "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 366
+    "id": 342
   },
   {
     "word": "massive tonal shifts",
@@ -4766,9 +4454,9 @@ window.WORDS = [
     "example": "例子：把原本温暖清音的音轨改成高增益失真的音色。",
     "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 367
+    "id": 343
   },
   {
     "word": "during the mixing phase",
@@ -4779,9 +4467,9 @@ window.WORDS = [
     "example": "例子：混音阶段调整吉他轨的声像、动态与空间效果。",
     "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 368
+    "id": 344
   },
   {
     "word": "without re-recording",
@@ -4792,9 +4480,9 @@ window.WORDS = [
     "example": "例子：直接调用插件预设改变音色，省去重新拾音的时间和成本。",
     "context": "Processing complex riffs with Neural DSP plugins allows for massive tonal shifts during the mixing phase without re-recording.",
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 369
+    "id": 345
   },
   {
     "word": "dense electronic tracks",
@@ -4805,9 +4493,9 @@ window.WORDS = [
     "example": "例子：一首同时包含多层合成器、鼓机和采样音效的 EDM 曲目。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 370
+    "id": 346
   },
   {
     "word": "carving out space",
@@ -4818,9 +4506,9 @@ window.WORDS = [
     "example": "例子：用 EQ 在中频段衰减合成器的某些频率，让人声更清晰。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 371
+    "id": 347
   },
   {
     "word": "midrange",
@@ -4831,9 +4519,9 @@ window.WORDS = [
     "example": "例子：人声的温暖感和清晰度主要集中在中频段。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 372
+    "id": 348
   },
   {
     "word": "essential",
@@ -4844,9 +4532,9 @@ window.WORDS = [
     "example": "例子：在密集编曲中，中频处理是必不可少的步骤。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 373
+    "id": 349
   },
   {
     "word": "male vocals",
@@ -4857,9 +4545,9 @@ window.WORDS = [
     "example": "例子：流行歌曲中男歌手的主唱声部。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 374
+    "id": 350
   },
   {
     "word": "in the mix",
@@ -4870,9 +4558,9 @@ window.WORDS = [
     "example": "例子：检查人声在混音中是否清晰可辨。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 375
+    "id": 351
   },
   {
     "word": "without being masked",
@@ -4883,9 +4571,9 @@ window.WORDS = [
     "example": "例子：人声不被合成器的中频能量盖住，仍能听清歌词。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 376
+    "id": 352
   },
   {
     "word": "by synths",
@@ -4896,9 +4584,9 @@ window.WORDS = [
     "example": "例子：合成器铺底音色若中频过强，容易掩盖人声。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 377
+    "id": 353
   },
   {
     "word": "fast-attack compressor",
@@ -4909,9 +4597,9 @@ window.WORDS = [
     "example": "例子：给人声轨道插入启动时间设为 1ms 的压缩器，立刻压住第一个字的爆音。",
     "context": "Applying a fast-attack compressor to aggressive rock male vocals helps tame the harsh transients and maintain a consistent dynamic level.",
     "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 378
+    "id": 354
   },
   {
     "word": "aggressive rock male vocals",
@@ -4922,9 +4610,9 @@ window.WORDS = [
     "example": "例子：一首硬摇滚副歌中嘶吼式的高音男声演唱。",
     "context": "Applying a fast-attack compressor to aggressive rock male vocals helps tame the harsh transients and maintain a consistent dynamic level.",
     "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 379
+    "id": 355
   },
   {
     "word": "tame the harsh transients",
@@ -4935,9 +4623,9 @@ window.WORDS = [
     "example": "例子：压缩器把每句开头过冲的 6dB 峰值压回 2dB，听感不再扎耳。",
     "context": "Applying a fast-attack compressor to aggressive rock male vocals helps tame the harsh transients and maintain a consistent dynamic level.",
     "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 380
+    "id": 356
   },
   {
     "word": "thick",
@@ -4948,9 +4636,9 @@ window.WORDS = [
     "example": "例子：加了低频和声的合唱听起来很厚实。",
     "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 381
+    "id": 357
   },
   {
     "word": "wide",
@@ -4961,9 +4649,9 @@ window.WORDS = [
     "example": "例子：立体声混音中声场铺得很开的合唱。",
     "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 382
+    "id": 358
   },
   {
     "word": "choruses",
@@ -4974,9 +4662,9 @@ window.WORDS = [
     "example": "例子：流行歌曲高潮部分众人齐唱的段落。",
     "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 383
+    "id": 359
   },
   {
     "word": "double-tracking",
@@ -4987,9 +4675,9 @@ window.WORDS = [
     "example": "例子：主唱录两遍人声，叠在一起播放。",
     "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 384
+    "id": 360
   },
   {
     "word": "lead male vocals",
@@ -5000,9 +4688,9 @@ window.WORDS = [
     "example": "例子：乐队中男歌手演唱的主旋律声部。",
     "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 385
+    "id": 361
   },
   {
     "word": "slightly off-center",
@@ -5013,9 +4701,9 @@ window.WORDS = [
     "example": "例子：人声稍微偏左放置，避免与中央乐器重叠。",
     "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 386
+    "id": 362
   },
   {
     "word": "massive stereo image",
@@ -5026,9 +4714,9 @@ window.WORDS = [
     "example": "例子：多层人声叠加后形成的宽阔立体声效果。",
     "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 387
+    "id": 363
   },
   {
     "word": "de-esser",
@@ -5039,9 +4727,9 @@ window.WORDS = [
     "example": "例子：当歌手唱出“sunshine”时，齿音消除器会瞬间衰减该频段，避免刺耳。",
     "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 388
+    "id": 364
   },
   {
     "word": "ensures",
@@ -5052,9 +4740,9 @@ window.WORDS = [
     "example": "例子：使用自动化确保每个段落的人声电平一致。",
     "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 389
+    "id": 365
   },
   {
     "word": "sibilance",
@@ -5065,9 +4753,9 @@ window.WORDS = [
     "example": "听觉例子：歌手唱“s”时那种尖锐的“嘶嘶”声。",
     "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 390
+    "id": 366
   },
   {
     "word": "tightly controlled",
@@ -5078,9 +4766,9 @@ window.WORDS = [
     "example": "例子：将压缩器的阈值和比率设置得很紧，使动态几乎不变。",
     "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 391
+    "id": 367
   },
   {
     "word": "only when necessary",
@@ -5091,9 +4779,9 @@ window.WORDS = [
     "example": "例子：齿音消除器只在检测到齿音时工作，其他时间不衰减高频。",
     "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 392
+    "id": 368
   },
   {
     "word": "preserving",
@@ -5104,9 +4792,9 @@ window.WORDS = [
     "example": "例子：降噪时保留人声的温暖感。",
     "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 393
+    "id": 369
   },
   {
     "word": "natural high-frequency air",
@@ -5117,9 +4805,9 @@ window.WORDS = [
     "example": "听觉例子：歌手嗓音中像呼吸一样轻柔的“嘶嘶”空气声，使声音显得生动。",
     "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 394
+    "id": 370
   },
   {
     "word": "Blending",
@@ -5130,9 +4818,9 @@ window.WORDS = [
     "example": "例子：将人声轨与伴奏轨混合成一首完整的歌曲。",
     "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 395
+    "id": 371
   },
   {
     "word": "subtle",
@@ -5143,9 +4831,9 @@ window.WORDS = [
     "example": "例子：在主人声上做一点微妙的均衡调整，让声音更清晰但不突兀。",
     "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
-    "category": "合成器",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 396
+    "id": 372
   },
   {
     "word": "heavily distorted",
@@ -5156,9 +4844,9 @@ window.WORDS = [
     "example": "例子：吉他通过失真踏板后产生的厚重、咆哮般的声音。",
     "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 397
+    "id": 373
   },
   {
     "word": "parallel channel",
@@ -5169,9 +4857,9 @@ window.WORDS = [
     "example": "例子：将人声复制到一条并联通道上加重度失真，再与干净人声混合。",
     "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 398
+    "id": 374
   },
   {
     "word": "clean male vocals",
@@ -5182,9 +4870,9 @@ window.WORDS = [
     "example": "例子：流行歌曲主歌部分男歌手未经效果器修饰的原始嗓音。",
     "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 399
+    "id": 375
   },
   {
     "word": "aggressive harmonics",
@@ -5195,9 +4883,9 @@ window.WORDS = [
     "example": "例子：失真吉他中那些刺耳的高频泛音，使音色更具侵略性。",
     "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 400
+    "id": 376
   },
   {
     "word": "heavy guitar wall",
@@ -5208,9 +4896,9 @@ window.WORDS = [
     "example": "例子：金属乐队中节奏吉他与主音吉他叠加出的密不透风的声响。",
     "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
-    "category": "吉他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 401
+    "id": 377
   },
   {
     "word": "extreme vocal FX",
@@ -5221,9 +4909,9 @@ window.WORDS = [
     "example": "例子：把一段普通人声加上失真、变调和延迟，变成类似机械怪物的声音。",
     "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 402
+    "id": 378
   },
   {
     "word": "granular synthesis",
@@ -5234,9 +4922,9 @@ window.WORDS = [
     "example": "例子：把一段人声切成毫秒级碎片并随机重叠，得到闪烁、漂浮的声景。",
     "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 403
+    "id": 379
   },
   {
     "word": "transform",
@@ -5247,9 +4935,9 @@ window.WORDS = [
     "example": "例子：将一段干声通过效果器转变为完全不同的空间感音色。",
     "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 404
+    "id": 380
   },
   {
     "word": "simple hum",
@@ -5260,9 +4948,9 @@ window.WORDS = [
     "example": "例子：用手机录下一段“嗯——”的哼唱，再放进软件里做处理。",
     "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 405
+    "id": 381
   },
   {
     "word": "haunting cinematic texture",
@@ -5273,9 +4961,9 @@ window.WORDS = [
     "example": "例子：低沉人声铺底，叠加混响和颗粒化碎片，形成像恐怖片预告片一样的氛围。",
     "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
-    "category": "音效",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 406
+    "id": 382
   },
   {
     "word": "electronic music",
@@ -5286,9 +4974,9 @@ window.WORDS = [
     "example": "例子：用合成器制作鼓点与旋律，并通过电脑编排成舞曲。",
     "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 407
+    "id": 383
   },
   {
     "word": "heavily processed",
@@ -5299,9 +4987,9 @@ window.WORDS = [
     "example": "例子：把人声加上强烈失真和颗粒化效果，使其听起来像合成器音色。",
     "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
     "contextZh": "",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 408
+    "id": 384
   },
   {
     "word": "vocal FX",
@@ -5312,9 +5000,9 @@ window.WORDS = [
     "example": "例子：给人声加入延迟、滤波和切片效果，形成断续的电子质感。",
     "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 409
+    "id": 385
   },
   {
     "word": "rhythmic elements",
@@ -5325,9 +5013,9 @@ window.WORDS = [
     "example": "例子：用短促的人声切片当作鼓点一样重复出现，推动歌曲律动。",
     "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 410
+    "id": 386
   },
   {
     "word": "rather than",
@@ -5338,9 +5026,9 @@ window.WORDS = [
     "example": "例子：这段声音主要用来打节奏，而不是用来唱主旋律。",
     "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 411
+    "id": 387
   },
   {
     "word": "traditional melodies",
@@ -5351,9 +5039,9 @@ window.WORDS = [
     "example": "例子：一段完整、连贯、容易被记住的主歌或副歌旋律。",
     "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 412
+    "id": 388
   },
   {
     "word": "delay throws",
@@ -5364,9 +5052,9 @@ window.WORDS = [
     "example": "听觉例子：人声唱完最后一个字后，声音突然向后方弹射并反复衰减。",
     "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 413
+    "id": 389
   },
   {
     "word": "specific vocal FX",
@@ -5377,9 +5065,9 @@ window.WORDS = [
     "example": "例子：只给副歌最后一句人声加失真与延迟，主歌保持干净。",
     "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 414
+    "id": 390
   },
   {
     "word": "adds movement",
@@ -5390,9 +5078,9 @@ window.WORDS = [
     "example": "例子：滤波器缓慢扫频使 Pad 音色听起来像在呼吸。",
     "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 415
+    "id": 391
   },
   {
     "word": "width",
@@ -5403,9 +5091,9 @@ window.WORDS = [
     "example": "听觉例子：单声道人声与左右分开的双层人声对比，后者明显更开阔。",
     "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 416
+    "id": 392
   },
   {
     "word": "the transition",
@@ -5416,9 +5104,9 @@ window.WORDS = [
     "example": "例子：鼓组渐强加白噪声上升，把主歌推向副歌。",
     "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
-    "category": "音效",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 417
+    "id": 393
   },
   {
     "word": "before the drop",
@@ -5429,9 +5117,9 @@ window.WORDS = [
     "example": "例子：Build-up 阶段不断加速的军鼓滚奏，紧接着就是 drop。",
     "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 418
+    "id": 394
   },
   {
     "word": "glitchy ambient voice",
@@ -5442,9 +5130,9 @@ window.WORDS = [
     "example": "例子：人声被切成细碎片段并叠加长混响，形成断续飘忽的氛围效果。",
     "context": "You can find unique vocal FX on Splice by searching for terms like \"glitchy ambient voice\" instead of standard loops.",
     "contextZh": "你可以在 Splice 上通过搜索 \"glitchy ambient voice\" 这类词来找到独特的人声效果，而不是用标准的循环素材。",
-    "category": "人声",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 419
+    "id": 395
   },
   {
     "word": "standard loops",
@@ -5455,9 +5143,9 @@ window.WORDS = [
     "example": "例子：一段四小节的鼓循环或贝斯循环，可直接拖入工程反复使用。",
     "context": "You can find unique vocal FX on Splice by searching for terms like \"glitchy ambient voice\" instead of standard loops.",
     "contextZh": "你可以在 Splice 上通过搜索 \"glitchy ambient voice\" 这类词来找到独特的人声效果，而不是用标准的循环素材。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 420
+    "id": 396
   },
   {
     "word": "bitcrusher",
@@ -5468,9 +5156,9 @@ window.WORDS = [
     "example": "例子：在电子音乐中，用比特破碎器处理鼓组，产生粗糙的8位游戏机音色。",
     "context": "Applying a bitcrusher as a vocal FX gives the phrase a gritty, lo-fi character that cuts through the dense mix.",
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 421
+    "id": 397
   },
   {
     "word": "gritty",
@@ -5481,9 +5169,9 @@ window.WORDS = [
     "example": "听觉例子：摇滚乐中失真吉他发出的那种沙沙的、带毛刺的声音。",
     "context": "Applying a bitcrusher as a vocal FX gives the phrase a gritty, lo-fi character that cuts through the dense mix.",
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 422
+    "id": 398
   },
   {
     "word": "lo-fi",
@@ -5494,9 +5182,9 @@ window.WORDS = [
     "example": "听觉例子：老式磁带录音中那种温暖但模糊、带有嘶嘶底噪的声音。",
     "context": "Applying a bitcrusher as a vocal FX gives the phrase a gritty, lo-fi character that cuts through the dense mix.",
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 423
+    "id": 399
   },
   {
     "word": "live violin",
@@ -5507,9 +5195,9 @@ window.WORDS = [
     "example": "例子：录音棚里乐手边演奏边录制的小提琴声部。",
     "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 424
+    "id": 400
   },
   {
     "word": "Focusrite ISA One",
@@ -5520,9 +5208,9 @@ window.WORDS = [
     "example": "例子：人声或弦乐录音时用它来提升信号并染色。",
     "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 425
+    "id": 401
   },
   {
     "word": "adds",
@@ -5533,9 +5221,9 @@ window.WORDS = [
     "example": "例子：前置放大器为干声增添温暖感。",
     "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 426
+    "id": 402
   },
   {
     "word": "desirable",
@@ -5546,9 +5234,9 @@ window.WORDS = [
     "example": "例子：高频顺滑而不刺耳，是理想的高频表现。",
     "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 427
+    "id": 403
   },
   {
     "word": "analog warmth",
@@ -5559,9 +5247,9 @@ window.WORDS = [
     "example": "听觉例子：高频变得圆润顺滑，带有轻微的厚度与黏合感。",
     "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
-    "category": "合成器",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 428
+    "id": 404
   },
   {
     "word": "high frequencies",
@@ -5572,9 +5260,9 @@ window.WORDS = [
     "example": "听觉例子：镲片、齿音与小提琴泛音所在的明亮区域。",
     "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 429
+    "id": 405
   },
   {
     "word": "before hitting the converters",
@@ -5585,9 +5273,9 @@ window.WORDS = [
     "example": "例子：先经前置放大器染色，再被音频接口数字化。",
     "context": "Routing a live violin through the Focusrite ISA One adds a desirable analog warmth to the high frequencies before hitting the converters.",
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 430
+    "id": 406
   },
   {
     "word": "acoustic violin",
@@ -5598,9 +5286,9 @@ window.WORDS = [
     "example": "例子：在录音棚里用一支电容麦克风对着小提琴 f 孔前方拾取琴声。",
     "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
-    "category": "吉他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 431
+    "id": 407
   },
   {
     "word": "taming",
@@ -5611,9 +5299,9 @@ window.WORDS = [
     "example": "例子：把过于尖锐的高频压下去，让音色听起来更温暖。",
     "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 432
+    "id": 408
   },
   {
     "word": "harsh resonances",
@@ -5624,9 +5312,9 @@ window.WORDS = [
     "example": "例子：小提琴在 3kHz 附近出现的尖锐峰点，听起来像\"吱\"的一声。",
     "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 433
+    "id": 409
   },
   {
     "word": "2kHz to 4kHz",
@@ -5637,9 +5325,9 @@ window.WORDS = [
     "example": "例子：人声的齿音和小提琴的明亮感大多集中在这一频段。",
     "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 434
+    "id": 410
   },
   {
     "word": "dynamic EQ",
@@ -5650,9 +5338,9 @@ window.WORDS = [
     "example": "例子：小提琴拉高音时自动衰减 3kHz，轻奏时则不做处理。",
     "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 435
+    "id": 411
   },
   {
     "word": "ear fatigue",
@@ -5663,9 +5351,9 @@ window.WORDS = [
     "example": "例子：连续几小时听高频过亮的混音后，会觉得什么都听不清。",
     "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 436
+    "id": 412
   },
   {
     "word": "often necessary",
@@ -5676,9 +5364,9 @@ window.WORDS = [
     "example": "例子：处理中高频突出的弦乐时，这一步往往是必要的。",
     "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 437
+    "id": 413
   },
   {
     "word": "prevent",
@@ -5689,9 +5377,9 @@ window.WORDS = [
     "example": "例子：通过衰减刺耳频段来避免听众听久了感到不适。",
     "context": "When mixing an acoustic violin, taming the harsh resonances around 2kHz to 4kHz with a dynamic EQ is often necessary to prevent ear fatigue.",
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 438
+    "id": 414
   },
   {
     "word": "solo violin",
@@ -5702,9 +5390,9 @@ window.WORDS = [
     "example": "例子：一段只有一把小提琴演奏的旋律，没有其他弦乐伴奏。",
     "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 439
+    "id": 415
   },
   {
     "word": "over",
@@ -5715,9 +5403,9 @@ window.WORDS = [
     "example": "例子：把小提琴声部放在合成器铺底之上。",
     "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 440
+    "id": 416
   },
   {
     "word": "dense synthesizer pad",
@@ -5728,9 +5416,9 @@ window.WORDS = [
     "example": "例子：一大片缓慢铺开、充满空间的电子和声垫。",
     "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 441
+    "id": 417
   },
   {
     "word": "creates",
@@ -5741,9 +5429,9 @@ window.WORDS = [
     "example": "例子：这种搭配产生出强烈的听感反差。",
     "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 442
+    "id": 418
   },
   {
     "word": "striking contrast",
@@ -5754,9 +5442,9 @@ window.WORDS = [
     "example": "例子：温暖自然的琴声与冰冷电子音色之间的明显差别。",
     "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 443
+    "id": 419
   },
   {
     "word": "organic acoustic textures",
@@ -5767,9 +5455,9 @@ window.WORDS = [
     "example": "例子：小提琴运弓时细微的摩擦声与共鸣。",
     "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
-    "category": "键盘",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 444
+    "id": 420
   },
   {
     "word": "electronic soundscapes",
@@ -5780,9 +5468,9 @@ window.WORDS = [
     "example": "例子：合成器铺底形成的宽广、持续变化的电子声场。",
     "context": "Layering a solo violin over a dense synthesizer pad creates a striking contrast between organic acoustic textures and electronic soundscapes.",
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 445
+    "id": 421
   },
   {
     "word": "Programming",
@@ -5793,9 +5481,9 @@ window.WORDS = [
     "example": "例子：在钢琴卷帘窗里逐个音符地编写弦乐声部。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 446
+    "id": 422
   },
   {
     "word": "realistic",
@@ -5806,9 +5494,9 @@ window.WORDS = [
     "example": "例子：用采样库调出听起来像真小提琴的连奏。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 447
+    "id": 423
   },
   {
     "word": "legatos",
@@ -5819,9 +5507,9 @@ window.WORDS = [
     "example": "听觉例子：旋律线条如歌唱般连贯，音符之间没有停顿。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 448
+    "id": 424
   },
   {
     "word": "Logic Pro",
@@ -5832,9 +5520,9 @@ window.WORDS = [
     "example": "例子：在 Logic Pro 中加载弦乐音源并绘制控制器曲线。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 449
+    "id": 425
   },
   {
     "word": "requires",
@@ -5845,9 +5533,9 @@ window.WORDS = [
     "example": "例子：逼真的连奏需要精细的控制器调整。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 450
+    "id": 426
   },
   {
     "word": "careful",
@@ -5858,9 +5546,9 @@ window.WORDS = [
     "example": "例子：仔细地逐点绘制力度曲线。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 451
+    "id": 427
   },
   {
     "word": "manipulation",
@@ -5871,9 +5559,9 @@ window.WORDS = [
     "example": "例子：对控制器数值进行细致调整以改变音色表现。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 452
+    "id": 428
   },
   {
     "word": "MIDI",
@@ -5884,9 +5572,9 @@ window.WORDS = [
     "example": "例子：用 MIDI 数据控制虚拟乐器的演奏细节。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 453
+    "id": 429
   },
   {
     "word": "CC11",
@@ -5897,9 +5585,9 @@ window.WORDS = [
     "example": "例子：在长音上画 CC11 曲线，让音量随乐句渐强渐弱。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 454
+    "id": 430
   },
   {
     "word": "CC1",
@@ -5910,9 +5598,9 @@ window.WORDS = [
     "example": "例子：用 CC1 增加弦乐的颤音，使长音更富表情。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 455
+    "id": 431
   },
   {
     "word": "simulate",
@@ -5923,9 +5611,9 @@ window.WORDS = [
     "example": "例子：用控制器数据模拟弓压变化。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "合成器",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 456
+    "id": 432
   },
   {
     "word": "physical",
@@ -5936,9 +5624,9 @@ window.WORDS = [
     "example": "例子：模拟真实琴弓施加在琴弦上的物理压力。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 457
+    "id": 433
   },
   {
     "word": "bowing",
@@ -5949,9 +5637,9 @@ window.WORDS = [
     "example": "例子：上弓与下弓交替的运弓方式。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 458
+    "id": 434
   },
   {
     "word": "pressure",
@@ -5962,9 +5650,9 @@ window.WORDS = [
     "example": "例子：加大弓压使音色更饱满响亮。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 459
+    "id": 435
   },
   {
     "word": "bright",
@@ -5975,9 +5663,9 @@ window.WORDS = [
     "example": "听觉例子：钢琴高音区敲击时清脆、闪耀的音色。",
     "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
     "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 460
+    "id": 436
   },
   {
     "word": "compressed",
@@ -5988,9 +5676,9 @@ window.WORDS = [
     "example": "听觉例子：钢琴每个音符力度均匀、饱满，没有忽大忽小的动态。",
     "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
     "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 461
+    "id": 437
   },
   {
     "word": "piano",
@@ -6001,9 +5689,9 @@ window.WORDS = [
     "example": "听觉例子：House 曲目中反复出现的和弦钢琴音色。",
     "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
     "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 462
+    "id": 438
   },
   {
     "word": "driving force",
@@ -6014,9 +5702,9 @@ window.WORDS = [
     "example": "例子：鼓组和贝斯常被视为舞曲的驱动力。",
     "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
     "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 463
+    "id": 439
   },
   {
     "word": "main keys",
@@ -6027,9 +5715,9 @@ window.WORDS = [
     "example": "例子：House 曲目里贯穿全曲的钢琴和弦进行。",
     "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
     "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 464
+    "id": 440
   },
   {
     "word": "House track",
@@ -6040,9 +5728,9 @@ window.WORDS = [
     "example": "例子：一首 124 BPM、带四踩鼓的 House 舞曲。",
     "context": "A bright, compressed piano is often the driving force behind the main keys in a House track.",
     "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 465
+    "id": 441
   },
   {
     "word": "Modulating",
@@ -6053,9 +5741,9 @@ window.WORDS = [
     "example": "例子：用 LFO 缓慢改变振荡器的音高，产生颤音效果。",
     "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
     "contextZh": "",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 466
+    "id": 442
   },
   {
     "word": "filter cutoff",
@@ -6066,9 +5754,9 @@ window.WORDS = [
     "example": "例子：将低通滤波器的截止频率从 2000 Hz 降到 500 Hz，声音会变得更闷。",
     "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
     "contextZh": "",
-    "category": "合成器",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 467
+    "id": 443
   },
   {
     "word": "synthesizer keys",
@@ -6079,9 +5767,9 @@ window.WORDS = [
     "example": "例子：在 Moog 合成器键盘上弹奏一段旋律，同时用旋钮实时调整音色。",
     "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 468
+    "id": 444
   },
   {
     "word": "adds subtle movement",
@@ -6092,9 +5780,9 @@ window.WORDS = [
     "example": "例子：在长音 pad 上缓慢调制音量，使和弦听起来像在轻轻呼吸。",
     "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
     "contextZh": "",
-    "category": "合成器",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 469
+    "id": 445
   },
   {
     "word": "otherwise static",
@@ -6105,9 +5793,9 @@ window.WORDS = [
     "example": "例子：一段没有力度变化和表情的 MIDI 和弦，听起来就像“原本静止的”。",
     "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
     "contextZh": "",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 470
+    "id": 446
   },
   {
     "word": "chord progression",
@@ -6118,9 +5806,9 @@ window.WORDS = [
     "example": "例子：C–G–Am–F 是流行音乐中最常见的和弦进行之一。",
     "context": "Modulating the filter cutoff on the synthesizer keys adds subtle movement to an otherwise static chord progression.",
     "contextZh": "",
-    "category": "键盘",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 471
+    "id": 447
   },
   {
     "word": "acoustic piano",
@@ -6131,9 +5819,9 @@ window.WORDS = [
     "example": "例子：录音棚里用麦克风拾取的一架立式钢琴或三角钢琴的声音。",
     "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 472
+    "id": 448
   },
   {
     "word": "electric keys",
@@ -6144,9 +5832,9 @@ window.WORDS = [
     "example": "例子：Rhodes 电钢琴那种柔和、带轻微颤动的钟声般音色。",
     "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 473
+    "id": 449
   },
   {
     "word": "rich",
@@ -6157,9 +5845,9 @@ window.WORDS = [
     "example": "例子：低频温暖、中频充实、高频有光泽的整体听感。",
     "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 474
+    "id": 450
   },
   {
     "word": "hybrid texture",
@@ -6170,9 +5858,9 @@ window.WORDS = [
     "example": "例子：原声钢琴的木质共鸣叠加电钢琴的电子泛音，形成既自然又现代的织体。",
     "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
-    "category": "音效",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 475
+    "id": 451
   },
   {
     "word": "perfect for",
@@ -6183,9 +5871,9 @@ window.WORDS = [
     "example": "例子：这种音色非常适合用于特定音乐风格。",
     "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 476
+    "id": 452
   },
   {
     "word": "Neo-Soul",
@@ -6196,9 +5884,9 @@ window.WORDS = [
     "example": "例子：D'Angelo、Erykah Badu 等音乐人的作品。",
     "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 477
+    "id": 453
   },
   {
     "word": "Future Garage",
@@ -6209,9 +5897,9 @@ window.WORDS = [
     "example": "例子：Burial 风格中那种阴冷、碎片化的节奏与低音。",
     "context": "Layering an acoustic piano with electric keys creates a rich, hybrid texture perfect for Neo-Soul or Future Garage.",
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 478
+    "id": 454
   },
   {
     "word": "dedicated controller",
@@ -6222,9 +5910,9 @@ window.WORDS = [
     "example": "例子：为某款钢琴音源专门设计的键盘控制器。",
     "context": "Using a dedicated controller with fully weighted action provides a much more expressive performance for dynamic keys.",
     "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 479
+    "id": 455
   },
   {
     "word": "fully weighted action",
@@ -6235,9 +5923,9 @@ window.WORDS = [
     "example": "例子：弹奏时琴键有明显的下压力和回弹感，类似三角钢琴的手感。",
     "context": "Using a dedicated controller with fully weighted action provides a much more expressive performance for dynamic keys.",
     "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 480
+    "id": 456
   },
   {
     "word": "expressive performance",
@@ -6248,9 +5936,9 @@ window.WORDS = [
     "example": "例子：通过轻按与重击琴键产生从柔和到激昂的动态变化。",
     "context": "Using a dedicated controller with fully weighted action provides a much more expressive performance for dynamic keys.",
     "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 481
+    "id": 457
   },
   {
     "word": "dynamic keys",
@@ -6261,9 +5949,9 @@ window.WORDS = [
     "example": "例子：轻弹时声音柔和，重弹时声音响亮且有冲击力。",
     "context": "Using a dedicated controller with fully weighted action provides a much more expressive performance for dynamic keys.",
     "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 482
+    "id": 458
   },
   {
     "word": "digital synth",
@@ -6274,9 +5962,9 @@ window.WORDS = [
     "example": "例子：用软件合成器插件制作的锯齿波贝斯音色。",
     "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
     "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 483
+    "id": 459
   },
   {
     "word": "analog summing mixer",
@@ -6287,9 +5975,9 @@ window.WORDS = [
     "example": "例子：把 16 路分轨送入模拟求和器，再返回 DAW 录制立体声混音。",
     "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
     "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
-    "category": "合成器",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 484
+    "id": 460
   },
   {
     "word": "harmonic richness",
@@ -6300,9 +5988,9 @@ window.WORDS = [
     "example": "听觉例子：电子管话放录出来的人声比声卡直录的人声更\"厚\"、更有光泽。",
     "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
     "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 485
+    "id": 461
   },
   {
     "word": "depth",
@@ -6313,9 +6001,9 @@ window.WORDS = [
     "example": "听觉例子：混响尾巴较长的军鼓听起来比干声军鼓更靠后。",
     "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
     "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 486
+    "id": 462
   },
   {
     "word": "master bus",
@@ -6326,9 +6014,9 @@ window.WORDS = [
     "example": "例子：在 master bus 上挂一个总线压缩器，让整首歌更紧凑。",
     "context": "Running the digital synth through an analog summing mixer imparts a subtle harmonic richness and depth to the master bus.",
     "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 487
+    "id": 463
   },
   {
     "word": "Many producers",
@@ -6339,9 +6027,9 @@ window.WORDS = [
     "example": "例子：许多制作人在选择效果器时，会根据自己的审美偏好做出不同决定。",
     "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 488
+    "id": 464
   },
   {
     "word": "prefer",
@@ -6352,9 +6040,9 @@ window.WORDS = [
     "example": "例子：他更喜欢温暖的音色，而不是冷硬的数字声。",
     "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 489
+    "id": 465
   },
   {
     "word": "unpredictable",
@@ -6365,9 +6053,9 @@ window.WORDS = [
     "example": "例子：模拟延迟的每次回声都略有不同，呈现出不可预测的变化。",
     "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 490
+    "id": 466
   },
   {
     "word": "warm imperfections",
@@ -6378,9 +6066,9 @@ window.WORDS = [
     "example": "例子：磁带饱和带来的轻微失真就是一种温暖的瑕疵。",
     "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 491
+    "id": 467
   },
   {
     "word": "analog delays",
@@ -6391,9 +6079,9 @@ window.WORDS = [
     "example": "听觉例子：回声一次比一次更暗、更模糊，带有轻微的抖动感。",
     "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
-    "category": "合成器",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 492
+    "id": 468
   },
   {
     "word": "perfectly synchronized",
@@ -6404,9 +6092,9 @@ window.WORDS = [
     "example": "例子：数字延迟的重复声与节拍完全同步，精准无误。",
     "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 493
+    "id": 469
   },
   {
     "word": "digital echoes",
@@ -6417,9 +6105,9 @@ window.WORDS = [
     "example": "听觉例子：每一次回声都一模一样，干净利落，没有衰减变化。",
     "context": "Many producers prefer the unpredictable, warm imperfections of analog delays over perfectly synchronized digital echoes.",
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 494
+    "id": 470
   },
   {
     "word": "vintage textures",
@@ -6430,9 +6118,9 @@ window.WORDS = [
     "example": "例子：磁带饱和、老式合成器的轻微失谐都属于 vintage textures。",
     "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
-    "category": "音效",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 495
+    "id": 471
   },
   {
     "word": "analog synth brass",
@@ -6443,9 +6131,9 @@ window.WORDS = [
     "example": "听觉例子：80 年代流行音乐中那种温暖、饱满的合成铜管齐奏声。",
     "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 496
+    "id": 472
   },
   {
     "word": "detuned pads",
@@ -6456,9 +6144,9 @@ window.WORDS = [
     "example": "听觉例子：Synthwave 中那种宽广、微微晃动的背景和弦。",
     "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 497
+    "id": 473
   },
   {
     "word": "Synthwave",
@@ -6469,9 +6157,9 @@ window.WORDS = [
     "example": "例子：带有模拟合成器、鼓机和复古氛围的曲目。",
     "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
-    "category": "合成器",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 498
+    "id": 474
   },
   {
     "word": "Cyberpunk tracks",
@@ -6482,9 +6170,9 @@ window.WORDS = [
     "example": "例子：带有沉重低音、失真合成器和科技感的电子音乐作品。",
     "context": "When searching Splice for vintage textures, typing \"analog synth brass\" often yields thick, detuned pads suitable for Synthwave or Cyberpunk tracks.",
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 499
+    "id": 475
   },
   {
     "word": "unquantized drift",
@@ -6495,9 +6183,9 @@ window.WORDS = [
     "example": "例子：两台模拟振荡器同时运行，音高各自缓慢游走，形成自然的拍频。",
     "context": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
     "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 500
+    "id": 476
   },
   {
     "word": "analog oscillator",
@@ -6508,9 +6196,9 @@ window.WORDS = [
     "example": "例子：Moog Minimoog 上的振荡器就是典型的模拟振荡器。",
     "context": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
     "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 501
+    "id": 477
   },
   {
     "word": "thick chorus effect",
@@ -6521,9 +6209,9 @@ window.WORDS = [
     "example": "听觉例子：两把吉他演奏同一旋律但音准略有偏差时那种宽阔的\"嗡嗡\"感。",
     "context": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
     "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 502
+    "id": 478
   },
   {
     "word": "layered with another waveform",
@@ -6534,9 +6222,9 @@ window.WORDS = [
     "example": "例子：把锯齿波和方波叠加，得到比单一波形更饱满的音色。",
     "context": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
     "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
-    "category": "合成器",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 503
+    "id": 479
   },
   {
     "word": "warm analog pads",
@@ -6547,9 +6235,9 @@ window.WORDS = [
     "example": "例子：用 Juno-106 演奏的长音和弦铺在歌曲背景中。",
     "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
     "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 504
+    "id": 480
   },
   {
     "word": "beneath the main arrangement",
@@ -6560,9 +6248,9 @@ window.WORDS = [
     "example": "例子：把铺底音色放在鼓组和主旋律的下方，不抢主声部。",
     "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
     "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 505
+    "id": 481
   },
   {
     "word": "instantly glues",
@@ -6573,9 +6261,9 @@ window.WORDS = [
     "example": "例子：加入一段铺底后，原本散乱的各声部立刻听起来像一个整体。",
     "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
     "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 506
+    "id": 482
   },
   {
     "word": "the entire track",
@@ -6586,9 +6274,9 @@ window.WORDS = [
     "example": "例子：混音完成后，整首曲子从低频到高频都显得连贯统一。",
     "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
     "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 507
+    "id": 483
   },
   {
     "word": "together",
@@ -6599,9 +6287,9 @@ window.WORDS = [
     "example": "例子：各声部融合在一起，听不出明显的拼接痕迹。",
     "context": "Layering warm analog pads beneath the main arrangement instantly glues the entire track together.",
     "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 508
+    "id": 484
   },
   {
     "word": "synthesizer pads",
@@ -6612,9 +6300,9 @@ window.WORDS = [
     "example": "例子：歌曲主歌部分用一层温暖合成器铺底音色托住人声。",
     "context": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
     "contextZh": "",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 509
+    "id": 485
   },
   {
     "word": "adds a sweeping",
@@ -6625,9 +6313,9 @@ window.WORDS = [
     "example": "例子：白噪声经过带通滤波器扫频时产生“嗖”的扫掠感。",
     "context": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
     "contextZh": "",
-    "category": "音效",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 510
+    "id": 486
   },
   {
     "word": "evolving motion",
@@ -6638,9 +6326,9 @@ window.WORDS = [
     "example": "例子：长音铺底音色中音色缓慢变亮再变暗，形成渐变运动感。",
     "context": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 511
+    "id": 487
   },
   {
     "word": "ambient genres",
@@ -6651,9 +6339,9 @@ window.WORDS = [
     "example": "例子：Brian Eno 的《Music for Airports》是氛围音乐流派的代表作品。",
     "context": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
     "contextZh": "",
-    "category": "音效",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 512
+    "id": 488
   },
   {
     "word": "Searching for",
@@ -6664,9 +6352,9 @@ window.WORDS = [
     "example": "例子：在 Splice 上搜索音色包。",
     "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 513
+    "id": 489
   },
   {
     "word": "granular cinematic pads",
@@ -6677,9 +6365,9 @@ window.WORDS = [
     "example": "例子：在 Splice 上搜索 \"granular cinematic pads\" 可以找到这类音色。",
     "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 514
+    "id": 490
   },
   {
     "word": "on Splice",
@@ -6690,9 +6378,9 @@ window.WORDS = [
     "example": "例子：许多制作人在 Splice 上寻找灵感。",
     "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 515
+    "id": 491
   },
   {
     "word": "often uncovers",
@@ -6703,9 +6391,9 @@ window.WORDS = [
     "example": "例子：搜索这类关键词常常能发现意想不到的音色。",
     "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 516
+    "id": 492
   },
   {
     "word": "complex textures",
@@ -6716,9 +6404,9 @@ window.WORDS = [
     "example": "例子：颗粒合成产生的复杂纹理。",
     "context": "Searching for \"granular cinematic pads\" on Splice often uncovers complex textures that standard chords cannot provide.",
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
-    "category": "音效",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 517
+    "id": 493
   },
   {
     "word": "Cutting",
@@ -6729,9 +6417,9 @@ window.WORDS = [
     "example": "例子：用高通滤波器把 100 Hz 以下的低频切掉。",
     "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 518
+    "id": 494
   },
   {
     "word": "Extreme low frequencies",
@@ -6742,9 +6430,9 @@ window.WORDS = [
     "example": "例子：30 Hz 左右的隆隆声往往属于极低频。",
     "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
-    "category": "合成器",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 519
+    "id": 495
   },
   {
     "word": "Lush pads",
@@ -6755,9 +6443,9 @@ window.WORDS = [
     "example": "听觉例子：一大片温暖、缓慢起伏的合成器和弦长音。",
     "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
-    "category": "其他",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 520
+    "id": 496
   },
   {
     "word": "Prevents",
@@ -6768,9 +6456,9 @@ window.WORDS = [
     "example": "例子：提前衰减低频可以防止整体混音变得浑浊。",
     "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 521
+    "id": 497
   },
   {
     "word": "Clashing",
@@ -6781,9 +6469,9 @@ window.WORDS = [
     "example": "听觉例子：铺底音色与贝斯同时占据低频时产生的模糊、打架感。",
     "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 522
+    "id": 498
   },
   {
     "word": "Atmospheric pads",
@@ -6794,9 +6482,9 @@ window.WORDS = [
     "example": "例子：电影配乐中长时间铺在底层的柔和合成器和声。",
     "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
-    "category": "音效",
+    "category": "乐器们",
     "source": "小赫转存",
-    "id": 523
+    "id": 499
   },
   {
     "word": "Slow phaser",
@@ -6807,9 +6495,9 @@ window.WORDS = [
     "example": "听觉例子：声音像在缓慢地\"呼——\"来回移动，带有轻微的金属光泽感。",
     "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
-    "category": "其他",
+    "category": "插件操作",
     "source": "小赫转存",
-    "id": 524
+    "id": 500
   },
   {
     "word": "Gentle",
@@ -6820,9 +6508,9 @@ window.WORDS = [
     "example": "例子：柔和的滤波扫频不会让听者感到突兀。",
     "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
-    "category": "其他",
+    "category": "声音描述",
     "source": "小赫转存",
-    "id": 525
+    "id": 501
   },
   {
     "word": "Swirling",
@@ -6833,9 +6521,9 @@ window.WORDS = [
     "example": "听觉例子：声音在左右耳之间缓慢打转，形成环绕感。",
     "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
-    "category": "其他",
+    "category": "日常生活",
     "source": "小赫转存",
-    "id": 526
+    "id": 502
   },
   {
     "word": "Stereo movement",
@@ -6846,9 +6534,9 @@ window.WORDS = [
     "example": "例子：吉他声从左边慢慢漂移到右边，就是典型的立体声移动。",
     "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 527
+    "id": 503
   },
   {
     "word": "Introduces",
@@ -6859,9 +6547,9 @@ window.WORDS = [
     "example": "例子：加入混响为干涩的人声引入了空间深度。",
     "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 528
+    "id": 504
   },
   {
     "word": "Shakers",
@@ -6872,9 +6560,9 @@ window.WORDS = [
     "example": "听觉例子：拉丁或流行节奏里持续铺底的“沙沙沙”声，像细盐粒在木质或金属壳内跳动，给律动增加推动感。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 529
+    "id": 505
   },
   {
     "word": "Conga",
@@ -6885,9 +6573,9 @@ window.WORDS = [
     "example": "听觉例子：拉丁音乐中“咚—哒—啪”的节奏，低沉圆润的开放音配合清脆的掌击，既有身体感又有穿透力。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 530
+    "id": 506
   },
   {
     "word": "Percussion",
@@ -6898,9 +6586,9 @@ window.WORDS = [
     "example": "比如一首歌里那些“咚次哒次”的节奏部分，不负责旋律，但撑起整首歌的节奏感。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 531
+    "id": 507
   },
   {
     "word": "Grooves",
@@ -6911,9 +6599,9 @@ window.WORDS = [
     "example": "同样四个鼓点，有的听起来死板像节拍器，有的听起来让人忍不住点头抖腿——后者就是好律动。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 532
+    "id": 508
   },
   {
     "word": "Bongos",
@@ -6924,9 +6612,9 @@ window.WORDS = [
     "example": "听起来像“啪啪-咚咚”的清脆小鼓点，音头明亮，像雨点打在木桌上。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 533
+    "id": 509
   },
   {
     "word": "Woodblock",
@@ -6937,9 +6625,9 @@ window.WORDS = [
     "example": "听起来像“哒”的一声，干脆利落，像筷子敲在空心木头上。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 534
+    "id": 510
   },
   {
     "word": "Djembe",
@@ -6950,9 +6638,9 @@ window.WORDS = [
     "example": "低音像“咚”的胸腔共鸣，高音像“啪”的清脆拍击，一面鼓能打出好几种声音。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 535
+    "id": 511
   },
   {
     "word": "Tambourine",
@@ -6963,9 +6651,9 @@ window.WORDS = [
     "example": "听起来像“铃铃铃”的金属碰撞声，明亮清脆，像一串小铃铛在节奏中闪烁。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 536
+    "id": 512
   },
   {
     "word": "Cowbells",
@@ -6976,9 +6664,9 @@ window.WORDS = [
     "example": "听起来像“铛铛”的金属声，干硬而突出，像铁锤敲在铁砧上——你绝对忘不了这个声音。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 537
+    "id": 513
   },
   {
     "word": "Bells",
@@ -6989,9 +6677,9 @@ window.WORDS = [
     "example": "听起来像“叮——”的一声，清亮悠远，像教堂钟声或风铃在空气中回荡。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 538
+    "id": 514
   },
   {
     "word": "Timbales",
@@ -7002,9 +6690,9 @@ window.WORDS = [
     "example": "听起来像“叮啪-叮啪”的金属鼓声，比康加鼓更亮更脆，像铁皮鼓边被快速敲击。",
     "context": "",
     "contextZh": "",
-    "category": "打击乐",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 539
+    "id": 515
   },
   {
     "word": "Keys",
@@ -7015,9 +6703,9 @@ window.WORDS = [
     "example": "听觉例子：一首流行歌里铺在背景中那种\"弹出来的和声垫\"，不抢人声但撑起整首歌的骨架。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 540
+    "id": 516
   },
   {
     "word": "Wurlitzer",
@@ -7028,9 +6716,9 @@ window.WORDS = [
     "example": "听觉例子：像是一颗颗带电的糖果砸在耳朵上，温暖中带一点\"嗡嗡\"的毛刺感。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 541
+    "id": 517
   },
   {
     "word": "Electric Piano",
@@ -7041,9 +6729,9 @@ window.WORDS = [
     "example": "听觉例子：那种带一点\"叮\"的金属光泽、尾音微微颤动的温暖键盘声，像 Stevie Wonder 的经典音色。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 542
+    "id": 518
   },
   {
     "word": "Organ",
@@ -7054,9 +6742,9 @@ window.WORDS = [
     "example": "听觉例子：持续饱满的\"嗡嗡\"声墙，打开 Leslie 后声音像在空间中旋转，忽远忽近。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 543
+    "id": 519
   },
   {
     "word": "Clavinet",
@@ -7067,9 +6755,9 @@ window.WORDS = [
     "example": "听觉例子：像用拨片弹吉他一样\"咔咔\"作响的短促音符，节奏感极强，自带放克基因。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 544
+    "id": 520
   },
   {
     "word": "Keys Melody",
@@ -7080,9 +6768,9 @@ window.WORDS = [
     "example": "听觉例子：人声间隙中键盘\"唱\"出来的那条清晰旋律线，像在和歌手对话。",
     "context": "",
     "contextZh": "",
-    "category": "键盘",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 545
+    "id": 521
   },
   {
     "word": "Classical",
@@ -7093,9 +6781,9 @@ window.WORDS = [
     "example": "听觉例子：弦乐四重奏或独奏钢琴那种无电子处理、自然空间混响的纯净音响。",
     "context": "",
     "contextZh": "",
-    "category": "其他",
+    "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 546
+    "id": 522
   },
   {
     "word": "Female Vocals",
@@ -7106,9 +6794,9 @@ window.WORDS = [
     "example": "听觉例子：流行歌曲主歌中清亮、柔和的女声，带有自然的呼吸感和温暖的中频。",
     "context": "",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 547
+    "id": 523
   },
   {
     "word": "Vocoder",
@@ -7119,9 +6807,9 @@ window.WORDS = [
     "example": "听觉例子：Daft Punk 歌曲中那种金属感、合成器在\"说话\"的人声效果。",
     "context": "",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 548
+    "id": 524
   },
   {
     "word": "Screams",
@@ -7132,9 +6820,9 @@ window.WORDS = [
     "example": "听觉例子：金属核副歌前那种撕裂般的高频尖啸，带有强烈的攻击性和压迫感。",
     "context": "",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 549
+    "id": 525
   },
   {
     "word": "Whisper Vocals",
@@ -7145,9 +6833,9 @@ window.WORDS = [
     "example": "听觉例子：Billie Eilish 歌曲中贴近耳朵、几乎只有气流声的轻柔呢喃。",
     "context": "",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 550
+    "id": 526
   },
   {
     "word": "Spoken Word",
@@ -7158,9 +6846,9 @@ window.WORDS = [
     "example": "听觉例子：歌曲中间一段平静的独白，像在耳边讲故事一样自然。",
     "context": "",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 551
+    "id": 527
   },
   {
     "word": "Vocal Phrases",
@@ -7171,9 +6859,9 @@ window.WORDS = [
     "example": "听觉例子：House 音乐中反复出现的短促\"嘿！\"或\"哦耶\"人声切片。",
     "context": "",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 552
+    "id": 528
   },
   {
     "word": "Vocal Shouts",
@@ -7184,9 +6872,9 @@ window.WORDS = [
     "example": "听觉例子：副歌前一声\"Go!\"或\"Hey!\"，像拳头一样砸在节奏重拍上。",
     "context": "",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 553
+    "id": 529
   },
   {
     "word": "Dialogue",
@@ -7197,9 +6885,9 @@ window.WORDS = [
     "example": "听觉例子：电影场景中两人对话清晰突出，背景音乐自动\"让路\"降低音量。",
     "context": "",
     "contextZh": "",
-    "category": "人声",
+    "category": "乐器们",
     "source": "2026-09-19",
-    "id": 554
+    "id": 530
   }
 ];
 window.SOURCES = [
