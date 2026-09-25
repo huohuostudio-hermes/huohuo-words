@@ -75,7 +75,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 6
+    "id": 6,
+    "audioFile": "c311f231221682f9"
   },
   {
     "word": "Acoustic",
@@ -114,7 +115,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9
+    "id": 9,
+    "audioFile": "e4c78fb51106eadd"
   },
   {
     "word": "Guitar Melody",
@@ -311,7 +313,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 24
+    "id": 24,
+    "audioFile": "c727e8c88cf61b10"
   },
   {
     "word": "Atmospheres",
@@ -324,7 +327,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 25
+    "id": 25,
+    "audioFile": "0594401b5b006bb4"
   },
   {
     "word": "Reverse",
@@ -377,7 +381,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 29
+    "id": 29,
+    "audioFile": "a638cec0b479a5b7"
   },
   {
     "word": "Ensemble",
@@ -533,7 +538,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 41
+    "id": 41,
+    "audioFile": "03c8ed27dffc3fcf"
   },
   {
     "word": "Strings Melody",
@@ -794,7 +800,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 60
+    "id": 60,
+    "audioFile": "b8be9455817dcdab"
   },
   {
     "word": "Launcher",
@@ -1056,7 +1063,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 79
+    "id": 79,
+    "audioFile": "4930eb3f60df3a6a"
   },
   {
     "word": "Enter",
@@ -1238,7 +1246,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 93
+    "id": 93,
+    "audioFile": "a81f4df459f0c960"
   },
   {
     "word": "Rock",
@@ -1427,7 +1436,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 107
+    "id": 107,
+    "audioFile": "688f800d86c887b5"
   },
   {
     "word": "String Noise",
@@ -1510,7 +1520,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 113
+    "id": 113,
+    "audioFile": "b80b5a88fd6490d4"
   },
   {
     "word": "Slack",
@@ -2435,7 +2446,8 @@ window.WORDS = [
     "contextZh": "交通",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 183
+    "id": 183,
+    "audioFile": "f0ac1641d540bc5a"
   },
   {
     "word": "Car",
@@ -3556,7 +3568,8 @@ window.WORDS = [
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 266
+    "id": 266,
+    "audioFile": "52438e68a549a636"
   },
   {
     "word": "organic shakers",
@@ -3681,7 +3694,8 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 275
+    "id": 275,
+    "audioFile": "aaa41cee789a4f2a"
   },
   {
     "word": "Slightly different",
@@ -3970,7 +3984,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 296
+    "id": 296,
+    "audioFile": "b7dd7488405ecef2"
   },
   {
     "word": "synth loops",
@@ -4364,7 +4379,8 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 325
+    "id": 325,
+    "audioFile": "ed80db354e453a35"
   },
   {
     "word": "monitor system",
@@ -4970,7 +4986,8 @@ window.WORDS = [
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 369
+    "id": 369,
+    "audioFile": "83baaf9f1638b9e4"
   },
   {
     "word": "lead male vocals",
@@ -5479,7 +5496,8 @@ window.WORDS = [
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 406
+    "id": 406,
+    "audioFile": "e923174ef47b4c08"
   },
   {
     "word": "gritty",
@@ -5846,7 +5864,8 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 433
+    "id": 433,
+    "audioFile": "c973a2aef1c030af"
   },
   {
     "word": "Logic Pro",
@@ -5925,7 +5944,8 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 439
+    "id": 439,
+    "audioFile": "8f6cf282b7260f35"
   },
   {
     "word": "CC1",
@@ -5938,7 +5958,8 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 440
+    "id": 440,
+    "audioFile": "4a3a6312c1713eec"
   },
   {
     "word": "simulate",
@@ -6236,7 +6257,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 462
+    "id": 462,
+    "audioFile": "15e9c6a52c89aeae"
   },
   {
     "word": "Future Garage",
@@ -6845,7 +6867,8 @@ window.WORDS = [
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 506
+    "id": 506,
+    "audioFile": "caa56e68ed4be716"
   },
   {
     "word": "Clashing",
@@ -6912,7 +6935,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 511
+    "id": 511,
+    "audioFile": "bdc884ef7d46dad0"
   },
   {
     "word": "Stereo movement",
@@ -6939,7 +6963,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 513
+    "id": 513,
+    "audioFile": "fa32f507eb669f21"
   },
   {
     "word": "Your request",
@@ -7021,7 +7046,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 519
+    "id": 519,
+    "audioFile": "dbc61de6ca857443"
   },
   {
     "word": "Percussion",
@@ -7060,7 +7086,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 522
+    "id": 522,
+    "audioFile": "05b08cced2d60503"
   },
   {
     "word": "Woodblock",
@@ -7073,7 +7100,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 523
+    "id": 523,
+    "audioFile": "bcdf033e226f5292"
   },
   {
     "word": "Djembe",
@@ -7138,7 +7166,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 528
+    "id": 528,
+    "audioFile": "cafdb11b145b2ca8"
   },
   {
     "word": "Keys",
@@ -7164,7 +7193,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 530
+    "id": 530,
+    "audioFile": "aee7933146af04e2"
   },
   {
     "word": "Electric Piano",
@@ -7204,7 +7234,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 533
+    "id": 533,
+    "audioFile": "bf34769991153703"
   },
   {
     "word": "Keys Melody",
