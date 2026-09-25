@@ -6,10 +6,10 @@
 <meta name="theme-color" content="#000000">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="火火的英语库">
+<meta name="apple-mobile-web-app-title" content="Fly Studio的英语库">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-180.png">
-<title>火火的英语库</title>
+<title>Fly Studio的英语库</title>
 <style>
 :root{
   --bg:#000000; --bg2:#070708; --card:#0e0e10; --card2:#17171a;
@@ -253,6 +253,11 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .umodal-card .lock-logo{font-size:44px}
 .umodal-card .btn{margin-top:10px}
 .umodal-card .btn.ghost{background:transparent;border-color:var(--border2);color:var(--muted);box-shadow:none}
+.update-notes{background:var(--card2);border:1px solid var(--border2);border-radius:12px;padding:12px 14px;margin:10px 0 12px;text-align:left}
+.update-notes .un-title{font-size:11px;color:var(--accent2);font-weight:700;letter-spacing:.5px;margin-bottom:8px}
+.unote{font-size:13.5px;color:var(--muted);line-height:1.6;padding:3px 0}
+.unote b{color:var(--accent2);font-weight:700;margin-right:5px}
+.update-notes.modal-notes{margin:6px 0 4px;max-height:190px;overflow-y:auto}
 
 /* ===== 滑动删除 / 拖拽 ===== */
 .witem-wrap{position:relative;overflow:hidden;border-radius:14px}
@@ -346,7 +351,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 <div id="lock" class="lock" style="display:none">
   <div class="lock-card">
     <div class="lock-logo">🔥</div>
-    <div class="lock-title">火火的英语库</div>
+    <div class="lock-title">Fly Studio的英语库</div>
     <div class="lock-sub">输入密码解锁</div>
     <input id="lockInput" class="lock-input" type="password" inputmode="numeric" autocomplete="off" placeholder="••••••" onkeydown="if(event.key==='Enter')tryUnlock()">
     <button class="btn primary" onclick="tryUnlock()">解锁</button>
@@ -357,7 +362,8 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
   <div class="umodal-card">
     <div class="lock-logo">🆕</div>
     <div class="lock-title">发现新版本</div>
-    <div class="lock-sub">有新版本上线，去设置页点「同步」即可更新</div>
+    <div id="updateVer" class="lock-sub" style="margin-bottom:0">有新版本上线</div>
+    <div id="updateNotes" class="update-notes modal-notes"></div>
     <button class="btn primary" onclick="goSync()">去同步</button>
     <button class="btn ghost" onclick="dismissUpdate()">稍后再说</button>
   </div>
@@ -367,7 +373,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
     <div class="brand">
       <div class="logo" onclick="toggleLibrary()" title="单词本">🔥</div>
       <div>
-        <h1 id="brandTitle">火火的英语库</h1>
+        <h1 id="brandTitle">Fly Studio的英语库</h1>
         <div id="brandSubWrap" class="brandsub-wrap" onclick="onWordCountTap()"><div id="brandSub" class="brandsub">已收录 0 个单词</div></div>
       </div>
     </div>
@@ -403,7 +409,7 @@ function speakArg(w){return "speak('" + String(w.word).replace(/\\/g,"\\\\").rep
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
 /* ---------- 用户自定义（隐藏/移标签） ---------- */
-function isHidden(w){return (progress.hidden||[]).includes(w.word);}
+function isHidden(w){return (progress.hidden||[]).includes(w.word)||(progress.permaHidden||[]).includes(w.word);}
 function catOf(w){return catName((progress.catOverride||{})[w.word]||w.category);}
 function allWords(){return WORDS.filter(w=>!isHidden(w));}
 function hideWord(word){
@@ -414,6 +420,13 @@ function hideWord(word){
 }
 function unhideWord(word){
   if(progress.hidden)progress.hidden=progress.hidden.filter(x=>x!==word);
+  save();
+}
+function permaDelete(word){
+  if(progress.hidden)progress.hidden=progress.hidden.filter(x=>x!==word);
+  if(!progress.permaHidden)progress.permaHidden=[];
+  if(!progress.permaHidden.includes(word))progress.permaHidden.push(word);
+  if(progress.cards[word])delete progress.cards[word];
   save();
 }
 function setWordCat(word,cat){
@@ -1135,6 +1148,7 @@ function normalize(p){
   if(!p.settings.dailyNew) p.settings.dailyNew = 10;
   p.stats = p.stats || {};
   p.hidden = p.hidden || [];
+  p.permaHidden = p.permaHidden || [];
   p.catOverride = p.catOverride || {};
   p.favs = p.favs || [];
   p.catNames = p.catNames || {};
@@ -2078,12 +2092,17 @@ function renderMe(){
       <div class="wordlist">${progress.hidden.map(wd=>`<div class="worditem" style="cursor:default">
         <span class="w">${esc(wd)}</span>
         <button class="btn small" style="flex:0 0 auto;width:auto;padding:8px 12px" onclick="unhideWord('${esc(wd)}');renderMe()">恢复</button>
+        <button class="btn small warn" style="flex:0 0 auto;width:auto;padding:8px 12px" onclick="permaDelete('${esc(wd)}');renderMe()">彻底删除</button>
       </div>`).join("")}</div>
     </div>`:""}
     <div class="panel">
       <h3>更新</h3>
       <div class="setting"><span class="lbl">当前版本</span><span style="color:#ffd58a;font-weight:700">V${APP_VERSION}</span></div>
-      <button class="btn" onclick="updateApp(this)">同步</button>
+      <div class="update-notes">
+        <div class="un-title">V${APP_VERSION} 更新说明</div>
+        ${renderNotes(APP_NOTES)}
+      </div>
+      <button class="btn primary" onclick="updateApp(this)">同步</button>
       <div class="setting" style="padding-top:2px"><span style="font-size:12px;color:var(--faint)">新版本更新上线后 手动同步</span></div>
     </div>
     <div class="panel">
@@ -2148,7 +2167,17 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.6"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.7"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_NOTES=[
+  "设置页「已删除的单词」新增「彻底删除」，可永久移除单词",
+  "更新模块新增版本更新说明，按 1 2 3 4 概括本次功能",
+  "App 更名 Fly Studio 的英语库 / 单词本"
+];
+function renderNotes(notes){
+  const arr=(notes||[]).filter(n=>n);
+  if(!arr.length)return "";
+  return arr.map((n,i)=>`<div class="unote"><b>${i+1}.</b>${esc(n)}</div>`).join("");
+}
 function verCmp(a,b){
   const pa=String(a).split(".").map(x=>parseInt(x,10)||0);
   const pb=String(b).split(".").map(x=>parseInt(x,10)||0);
@@ -2158,8 +2187,12 @@ function verCmp(a,b){
   }
   return 0;
 }
-function showUpdateModal(){
+function showUpdateModal(ver, notes){
   const m=$("#updateModal"); if(m)m.style.display="flex";
+  const v=$("#updateVer");
+  if(v)v.textContent=ver?("新版本 V"+ver):"有新版本上线";
+  const n=$("#updateNotes");
+  if(n)n.innerHTML=renderNotes(notes);
 }
 function dismissUpdate(){
   const m=$("#updateModal"); if(m)m.style.display="none";
@@ -2178,7 +2211,7 @@ async function checkUpdate(){
     const j=await r.json();
     const latest=String(j.v||"0");
     if(verCmp(latest,APP_VERSION)>0){
-      showUpdateModal();
+      showUpdateModal(latest, j.notes);
     }
   }catch(e){}
 }
@@ -2249,7 +2282,7 @@ function updateNav(t){
 }
 function updateBrand(t){
   const b=$("#brandTitle");
-  if(b)b.textContent = (t==="list") ? "火火的单词本" : "火火的英语库";
+  if(b)b.textContent = (t==="list") ? "Fly Studio的单词本" : "Fly Studio的英语库";
   const g=$("#gearBtn");
   if(g)g.style.display = (t==="list") ? "grid" : "none";
   const s=$("#brandSubWrap");
