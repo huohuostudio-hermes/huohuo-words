@@ -275,6 +275,7 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .drag-handle{flex:0 0 auto;width:32px;height:32px;display:grid;place-items:center;color:var(--faint);
   cursor:grab;touch-action:none;font-size:16px;border-radius:8px;margin-left:4px}
 .drag-handle:active{color:var(--accent2);background:rgba(230,184,74,.14)}
+.dragbtn{touch-action:none;cursor:grab}
 .fsbtn{display:flex;align-items:center;gap:4px;background:var(--card);border:1px solid var(--border);
   color:var(--text);padding:7px 12px;border-radius:999px;font-size:12px;font-weight:700;cursor:pointer}
 .fsbtn:active{opacity:.7}
@@ -568,7 +569,6 @@ function renderCatManager(){
       <span class="catname">${esc(shown)}${renamed?`<span style="color:var(--faint);font-size:11px">（原名 ${esc(c)}）</span>`:""}</span>
       <button class="btn" onclick="renameCat('${esc(c)}')">改名</button>
       ${renamed?`<button class="btn" onclick="resetCatName('${esc(c)}')">还原</button>`:""}
-      <button class="btn warn" onclick="delBaseCat('${esc(c)}')">删除</button>
     </div>`;
   }).join("");
   const deletedRows=base.filter(c=>deleted.includes(c)).map(c=>`<div class="catrow" style="opacity:.55">
@@ -1592,7 +1592,7 @@ function renderList(){
     ${listSelectMode?`<div class="group-actions selbar">
       <span class="selcount">已选 ${listSelected.size} 个</span>
       <button class="btn small" onclick="listSelectAll()">全选</button>
-      <button class="btn small" title="把已选单词拖到目标单词本"
+      <button class="btn small dragbtn" title="把已选单词拖到目标单词本"
         onpointerdown="batchHandleDown(event)"
         onpointermove="handleMove(event)"
         onpointerup="handleUp(event)"
@@ -2167,11 +2167,10 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.7"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.8"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "设置页「已删除的单词」新增「彻底删除」，可永久移除单词",
-  "更新模块新增版本更新说明，按 1 2 3 4 概括本次功能",
-  "App 更名 Fly Studio 的英语库 / 单词本"
+  "修复：多选单词批量拖拽被页面滚动打断的问题",
+  "管理单词本页：自动生成的 5 个单词本不再显示「删除」按钮（防误触），自定义单词本仍可删除"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);
