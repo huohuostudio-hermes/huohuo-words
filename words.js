@@ -775,7 +775,7 @@ window.WORDS = [
     "example": "例子：Keychron M6 8K 是该品牌推出的一款支持 8K 回报率的无线鼠标。",
     "context": "",
     "contextZh": "",
-    "category": "音乐词汇",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 60
   },
@@ -1880,7 +1880,7 @@ window.WORDS = [
     "example": "例子：household chores（家务活）、household items（家庭用品）。",
     "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
-    "category": "音乐词汇",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 145
   },
@@ -1919,7 +1919,7 @@ window.WORDS = [
     "example": "例子：I do the cleaning every weekend.（我每个周末打扫卫生。）",
     "context": "Household Doors Kitchen Cleaning Bathroom Dining Leisure",
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
-    "category": "声音描述",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 148
   },
@@ -2894,7 +2894,7 @@ window.WORDS = [
     "example": "例子：智能手机、笔记本电脑、平板等日常电子设备。",
     "context": "I love camping because it helps me disconnect from technology.",
     "contextZh": "我喜欢露营，因为它帮助我脱离科技。",
-    "category": "音乐词汇",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 223
   },
@@ -4766,7 +4766,7 @@ window.WORDS = [
     "example": "例子：将压缩器的阈值和比率设置得很紧，使动态几乎不变。",
     "context": "Automating the de-esser on lead male vocals ensures that sibilance is tightly controlled only when necessary, preserving the natural high-frequency air.",
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
-    "category": "声音描述",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 367
   },
@@ -5533,7 +5533,7 @@ window.WORDS = [
     "example": "例子：逼真的连奏需要精细的控制器调整。",
     "context": "Programming realistic violin legatos in Logic Pro requires careful manipulation of MIDI CC11 and CC1 to simulate physical bowing pressure.",
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
-    "category": "插件操作",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 426
   },
@@ -6313,7 +6313,7 @@ window.WORDS = [
     "example": "例子：白噪声经过带通滤波器扫频时产生“嗖”的扫掠感。",
     "context": "Modulating the filter cutoff of synthesizer pads adds a sweeping, evolving motion to ambient genres.",
     "contextZh": "",
-    "category": "插件操作",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 486
   },
@@ -6547,7 +6547,7 @@ window.WORDS = [
     "example": "例子：加入混响为干涩的人声引入了空间深度。",
     "context": "Routing atmospheric pads through a slow phaser introduces a gentle, swirling stereo movement.",
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
-    "category": "音乐词汇",
+    "category": "日常生活",
     "source": "小赫转存",
     "id": 504
   },
