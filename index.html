@@ -1220,30 +1220,34 @@ let voices=[];
 function initVoices(){voices=speechSynthesis.getVoices().filter(v=>/^en/i.test(v.lang||""));}
 if("speechSynthesis" in window){initVoices();speechSynthesis.onvoiceschanged=initVoices;}
 let audioEl=null;
+function youdaoSay(s,type,fail){
+  try{
+    if(!audioEl)audioEl=new Audio();
+    audioEl.onerror=function(){audioEl.onerror=null; if(fail)fail();};
+    audioEl.src="https://dict.youdao.com/dictvoice?audio="+encodeURIComponent(s)+"&type="+type;
+    const p=audioEl.play();
+    if(p&&typeof p.catch==="function")p.catch(function(){ if(fail)fail(); });
+  }catch(e){ if(fail)fail(); }
+}
 function speak(word){
   const o=(word&&typeof word==="object")?word:(WORDS.find(x=>x.word===String(word||"").trim())||null);
   const s=o?o.word:String(word||"").trim();
   if(!s)return;
-  // 含空格词（有道发不出的短语/句子）用本地神经语音；单词走有道真人发音
+  // 含空格词（有道发不出的短语/句子）用本地神经语音；失败回退系统 TTS
   if(o&&o.audioFile){
-    if(navigator.onLine===false)return;
+    if(navigator.onLine===false){speakTTS(s);return;}
     try{
       if(!audioEl)audioEl=new Audio();
-      audioEl.onerror=function(){audioEl.onerror=null;};
+      audioEl.onerror=function(){audioEl.onerror=null;speakTTS(s);};
       audioEl.src="audio/"+o.audioFile+".mp3";
       const p=audioEl.play();
-      if(p&&typeof p.catch==="function")p.catch(function(){});
-    }catch(e){}
+      if(p&&typeof p.catch==="function")p.catch(function(){speakTTS(s);});
+    }catch(e){speakTTS(s);}
     return;
   }
   if(navigator.onLine===false){speakTTS(s);return;}
-  try{
-    if(!audioEl)audioEl=new Audio();
-    audioEl.onerror=function(){audioEl.onerror=null;speakTTS(s);};
-    audioEl.src="https://dict.youdao.com/dictvoice?audio="+encodeURIComponent(s)+"&type=1";
-    const p=audioEl.play();
-    if(p&&typeof p.catch==="function")p.catch(function(){speakTTS(s);});
-  }catch(e){speakTTS(s);}
+  // 有道真人发音：美音 type=1 → 英音 type=2 → 系统 TTS 本地渲染兜底
+  youdaoSay(s,1,function(){ youdaoSay(s,2,function(){ speakTTS(s); }); });
 }
 function speakTTS(word){
   if(!("speechSynthesis" in window))return;
@@ -1275,6 +1279,14 @@ function unlockAudio(){
     audioEl.src=URL.createObjectURL(new Blob([buf],{type:"audio/wav"}));
     const p=audioEl.play();
     if(p&&p.catch)p.catch(function(){});
+  }catch(e){}
+  // 同时解锁系统 TTS：iOS 非手势调用 speechSynthesis 会被静音，需在手势内 speak 一次
+  try{
+    if("speechSynthesis" in window){
+      const u=new SpeechSynthesisUtterance("a");
+      u.volume=0;
+      speechSynthesis.speak(u);
+    }
   }catch(e){}
 }
 
@@ -1911,6 +1923,7 @@ function openDetail(word, back){
         <button class="cardbtn warn" onclick="delWord('${esc(w.word)}','${backFn}')">🗑️ 删除</button>
       </div>
     </div>`;
+  speak(w);
 }
 function delWord(word, back){
   if(!confirm("删除这个单词？删除后可在「设置 → 已删除」中恢复"))return;
@@ -2201,10 +2214,10 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.9"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.10"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "学习新词 / 拼写复习：进入下一个单词时自动播放发音",
-  "长句无法发音时自动跳过，不打断学习"
+  "详情页进入时自动播放单词发音",
+  "发音兜底升级：美音失败自动试英音，再失败用系统语音本地渲染，确保每个词都出声"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);
