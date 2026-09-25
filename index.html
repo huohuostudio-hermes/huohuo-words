@@ -165,7 +165,7 @@ mark,.hl{background:rgba(230,184,74,.22);color:var(--accent2);padding:1px 3px;bo
 .worditem .w{font-size:16px;font-weight:700;flex:1;word-break:break-word}
 .worditem .z{font-size:12px;color:var(--muted);text-align:right;max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .worditem .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
-.dot.new{background:var(--faint)} .dot.learn{background:var(--warn)} .dot.master{background:var(--blue)}
+.dot.new{background:var(--faint)} .dot.learn{background:var(--blue)} .dot.master{background:var(--warn)}
 .empty{text-align:center;color:var(--faint);padding:40px 0;font-size:14px}
 .group-actions{display:flex;gap:10px;margin:2px 0 14px}
 .group-actions .btn{flex:1;width:auto}
@@ -767,7 +767,7 @@ function renderGraph(){
   for(const i of order){
     const w=gWords[i], p=P[i];
     const st=cardState(w);
-    const col=st==="mastered"?"#7fb4ff":st==="learning"?"#fcd34d":"#a9a396";
+    const col=st==="mastered"?"#fcd34d":st==="learning"?"#7fb4ff":"#a9a396";
     const sel=gSelWord===w.word;
     const alpha=0.35+0.65*p.depth;
     const r=(sel?8:(gWords.length>800?3.5:gWords.length>300?4.2:gWords.length>100?5:5.5))*p.factor;
@@ -1174,6 +1174,12 @@ function renderStudy(){renderMenu();}
 function exitSession(){ session=null; switchTab("study"); }
 function backToExplain(){ if(!session)return switchTab("study"); renderExplain(session.explainWrong); }
 function backToSpellExplain(){ if(!session)return switchTab("study"); renderSpellExplain(); }
+function retagInSession(cat){
+  const w=session.current;if(!w)return;
+  if(catOf(w)===cat)resetWordCat(w.word);else setWordCat(w.word,cat);
+  if(session.mcqQueue.length>0&&session.current===session.mcqQueue[0])renderMCQ();
+  else renderSpell();
+}
 function renderMenu(){
   if(chainCat!=="全部" && !catsList().includes(chainCat))chainCat="全部";
   const target=progress.settings.dailyNew||10;
@@ -1231,6 +1237,7 @@ function renderMCQ(){
   const w=session.mcqQueue[0];session.current=w;session.wordWrong=false;
   const opts=buildOptions(w);
   const keys="ABCD";
+  const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="retagInSession('${esc(x)}')">${esc(x)}</div>`).join("");
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="exitSession()">← 返回</button>
@@ -1245,6 +1252,7 @@ function renderMCQ(){
         <button class="option" data-i="${i}" onclick="answerMCQ(${i})">
           <span class="key">${keys[i]}</span><span class="val">${esc(o)}</span>
         </button>`).join("")}</div>
+      <div class="tagsec"><div class="chips">${tags}</div></div>
     </div>`;
 }
 function buildOptions(w){
@@ -1318,6 +1326,7 @@ function renderSpell(){
   const w=session.current;
   session.hintUsed=false;
   session.hintLevel=0;
+  const tags=catsList().map(x=>`<div class="chip ${catOf(w)===x?"on":""}" onclick="retagInSession('${esc(x)}')">${esc(x)}</div>`).join("");
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="exitSession()">← 返回</button>
@@ -1325,7 +1334,7 @@ function renderSpell(){
     </div>
     <div class="qcard">
       <div class="qzh">${esc(w.zh)}</div>
-      <div class="qipa" style="color:var(--muted)">${esc(catOf(w)||"")}</div>
+      <div class="qipa" style="color:var(--muted)">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="qhint">拼出这个单词的英文</div>
       <div class="spellbox">
@@ -1336,6 +1345,7 @@ function renderSpell(){
       <div class="feedback" id="fb"></div>
       <button class="hintbtn" id="hintBtn" onclick="toggleHint()">💡 提示</button>
       <div class="hintbox" id="hintBox" style="display:none"></div>
+      <div class="tagsec"><div class="chips">${tags}</div></div>
     </div>`;
   const inp=$("#spellInput");if(inp)inp.focus();
 }
@@ -1345,22 +1355,15 @@ function toggleHint(){
   const btn=$("#hintBtn");
   if(!b)return;
   session.hintUsed=true;
-  if(session.hintLevel===0){
-    session.hintLevel=1;
-    b.style.display="block";
-    b.innerHTML=`<div class="qipa" style="font-size:22px">${w.ipa?"/"+esc(w.ipa)+"/":"（无音标）"}</div>`;
-    if(btn)btn.textContent="继续提示";
-  }else{
-    session.hintLevel=2;
-    b.innerHTML=`
-      <div class="qipa" style="font-size:22px">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
-      <div class="qword" style="font-size:26px;margin-top:4px">${esc(w.word)}</div>
-      <div class="zh" style="font-size:18px">${esc(w.zh)}</div>
-      <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
-      ${contextBlock(w)}
-      ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}`;
-    if(btn)btn.textContent="提示";
-  }
+  session.hintLevel=1;
+  b.style.display="block";
+  b.innerHTML=`
+    <div class="qword" style="font-size:26px;margin-top:4px">${esc(w.word)}</div>
+    <div class="zh" style="font-size:18px">${esc(w.zh)}</div>
+    <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
+    ${contextBlock(w)}
+    ${w.example?`<div class="example"><span class="k" style="color:var(--muted);font-size:12px">🎧 例子</span>${esc(w.example)}</div>`:""}`;
+  if(btn)btn.textContent="提示";
 }
 function submitSpell(){
   const w=session.current;
@@ -1384,6 +1387,7 @@ function submitSpell(){
       fb.textContent=twoHints?"用了两次提示，请重新拼写":"用了提示，请重新拼写";
     }else{
       session.spellExplainNote="wrong";
+      session.spellWrongInput=val;
       fb.textContent="✗ 不对";
     }
     fb.className="feedback no";
@@ -1401,7 +1405,7 @@ function renderSpellExplain(){
   const w=session.current;
   const note=session.spellExplainNote==="hint1"||session.spellExplainNote==="hint2"
     ? `<div class="rightnote">✓ 正确　${session.spellExplainNote==="hint2"?"用了两次提示，请重新拼写":"用了提示，请重新拼写"}</div>`
-    : `<div class="wrongnote">✗ 正确答案：</div>`;
+    : `<div class="wrongnote">✗ 错误答案：${esc(session.spellWrongInput||"")}</div>`;
   $("main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="exitSession()">← 返回</button>
@@ -2026,7 +2030,7 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.0"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="1.1"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 function verCmp(a,b){
   const pa=String(a).split(".").map(x=>parseInt(x,10)||0);
   const pb=String(b).split(".").map(x=>parseInt(x,10)||0);

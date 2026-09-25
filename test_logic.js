@@ -128,15 +128,13 @@ ok(session.mcqQueue.length===0 && session.spellQueue.length===2, "review 模式�
 beginSessionOn([WORDS[2],WORDS[3]], "learn");
 ok(session.mcqQueue.length===2 && session.pendingSpell.length===2, "learn 模式：MCQ=2 且待拼写=2");
 
-// 12. 提示两级：先音标，再单词
+// 12. 提示一级：按一次直接显示单词（音标已常驻中文下方）
 session={mcqQueue:[],spellQueue:[WORDS[0]],pendingSpell:[],failQueue:[],current:WORDS[0],wordWrong:false,addedToFail:false};
 renderSpell();
 ok(session.hintUsed===false && session.hintLevel===0, "初始无提示");
+ok(mainEl.innerHTML.indexOf(WORDS[0].ipa)>=0, "音标常驻中文下方");
 toggleHint();
-ok(session.hintLevel===1 && session.hintUsed===true, "第1次提示显示音标");
-ok(hintEl.innerHTML.indexOf(WORDS[0].ipa)>=0, "音标已显示");
-toggleHint();
-ok(session.hintLevel===2, "第2次提示显示单词");
+ok(session.hintLevel===1 && session.hintUsed===true, "第1次提示直接显示单词");
 ok(hintEl.innerHTML.indexOf(WORDS[0].word)>=0, "单词已显示");
 
 // 13. 用了提示即使拼对也不算掌握，进 failQueue
@@ -144,7 +142,7 @@ progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
 markLearned(WORDS[0]);
 session={mcqQueue:[],spellQueue:[WORDS[0]],pendingSpell:[],failQueue:[],current:WORDS[0],wordWrong:false,addedToFail:false};
 renderSpell();
-toggleHint(); toggleHint();
+toggleHint();
 inputEl.value=WORDS[0].word; submitSpell();
 ok(cardState(WORDS[0])==="learning", "用了提示拼对仍 learning（未掌握）");
 ok(session.failQueue.length===1, "用了提示进 failQueue");
