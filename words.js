@@ -6942,6 +6942,62 @@ window.WORDS = [
     "id": 513
   },
   {
+    "word": "Your request",
+    "ipa": "",
+    "translit": "",
+    "zh": "你的请求",
+    "def": "指对方提出的要求或指令。",
+    "example": "例子：用户向系统提交了一个请求。",
+    "context": "Your request was not processed. Send it again if you still want me to carry it out.",
+    "contextZh": "你的请求未被处理。如果你仍然想让我执行它，请重新发送。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 514,
+    "audioFile": "c73041c6e1662db2"
+  },
+  {
+    "word": "was not processed",
+    "ipa": "",
+    "translit": "",
+    "zh": "未被处理",
+    "def": "表示该请求没有被系统执行或完成。",
+    "example": "例子：由于网络故障，订单未被处理。",
+    "context": "Your request was not processed. Send it again if you still want me to carry it out.",
+    "contextZh": "你的请求未被处理。如果你仍然想让我执行它，请重新发送。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 515,
+    "audioFile": "f7b52d4cd608f17e"
+  },
+  {
+    "word": "Send it again",
+    "ipa": "",
+    "translit": "",
+    "zh": "请重新发送",
+    "def": "要求对方再次提交相同的内容。",
+    "example": "例子：如果邮件未送达，请重新发送。",
+    "context": "Your request was not processed. Send it again if you still want me to carry it out.",
+    "contextZh": "你的请求未被处理。如果你仍然想让我执行它，请重新发送。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 516,
+    "audioFile": "f9b3e1f4600ebb7b"
+  },
+  {
+    "word": "if you still want",
+    "ipa": "",
+    "translit": "",
+    "zh": "如果你仍然想要",
+    "def": "表示条件，只有在对方仍有此意愿时才适用。",
+    "example": "例子：如果你仍然想要这个选项，请告知我。",
+    "context": "Your request was not processed. Send it again if you still want me to carry it out.",
+    "contextZh": "你的请求未被处理。如果你仍然想让我执行它，请重新发送。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 517,
+    "audioFile": "5f17a72f3d566aa4"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -6952,7 +7008,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 514
+    "id": 518
   },
   {
     "word": "Conga",
@@ -6965,7 +7021,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 515
+    "id": 519
   },
   {
     "word": "Percussion",
@@ -6978,7 +7034,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 516
+    "id": 520
   },
   {
     "word": "Grooves",
@@ -6991,7 +7047,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 517
+    "id": 521
   },
   {
     "word": "Bongos",
@@ -7004,7 +7060,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 518
+    "id": 522
   },
   {
     "word": "Woodblock",
@@ -7017,7 +7073,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 519
+    "id": 523
   },
   {
     "word": "Djembe",
@@ -7030,7 +7086,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 520
+    "id": 524
   },
   {
     "word": "Tambourine",
@@ -7043,7 +7099,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 521
+    "id": 525
   },
   {
     "word": "Cowbells",
@@ -7056,7 +7112,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 522
+    "id": 526
   },
   {
     "word": "Bells",
@@ -7069,7 +7125,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 523
+    "id": 527
   },
   {
     "word": "Timbales",
@@ -7082,7 +7138,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 524
+    "id": 528
   },
   {
     "word": "Keys",
@@ -7095,7 +7151,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 525
+    "id": 529
   },
   {
     "word": "Wurlitzer",
@@ -7108,7 +7164,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 526
+    "id": 530
   },
   {
     "word": "Electric Piano",
@@ -7121,7 +7177,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 527,
+    "id": 531,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7135,7 +7191,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 528
+    "id": 532
   },
   {
     "word": "Clavinet",
@@ -7148,7 +7204,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 529
+    "id": 533
   },
   {
     "word": "Keys Melody",
@@ -7161,7 +7217,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 530,
+    "id": 534,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7175,7 +7231,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 531
+    "id": 535
   },
   {
     "word": "Female Vocals",
@@ -7188,7 +7244,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 532,
+    "id": 536,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7202,7 +7258,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 533
+    "id": 537
   },
   {
     "word": "Screams",
@@ -7215,7 +7271,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 534
+    "id": 538
   },
   {
     "word": "Whisper Vocals",
@@ -7228,7 +7284,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 535,
+    "id": 539,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7242,7 +7298,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 536,
+    "id": 540,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -7256,7 +7312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 537,
+    "id": 541,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -7270,7 +7326,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 538,
+    "id": 542,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -7284,7 +7340,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 539
+    "id": 543
   }
 ];
 window.SOURCES = [
@@ -9777,6 +9833,34 @@ window.SOURCES = [
       {
         "word": "Introduces",
         "zh": "引入 / 带来"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "text": "Your request was not processed. Send it again if you still want me to carry it out.",
+    "translation": "你的请求未被处理。如果你仍然想让我执行它，请重新发送。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Your request",
+        "zh": "你的请求"
+      },
+      {
+        "word": "was not processed",
+        "zh": "未被处理"
+      },
+      {
+        "word": "Send it again",
+        "zh": "请重新发送"
+      },
+      {
+        "word": "if you still want",
+        "zh": "如果你仍然想要"
+      },
+      {
+        "word": "me to carry it out",
+        "zh": "让我执行它"
       }
     ]
   }
