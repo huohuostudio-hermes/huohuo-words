@@ -154,7 +154,7 @@ window.WORDS = [
     "example": "听觉例子：老式 Moog 合成器那种厚实、微微\"漂移\"的贝斯音，每个音符音高都有细微的自然波动。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 12
   },
@@ -167,7 +167,7 @@ window.WORDS = [
     "example": "听觉例子：像电锯般\"嗡嗡\"的明亮音色，超级锯（Supersaw）叠加多个失谐锯齿波后产生宽阔的 Trance 主音。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 13
   },
@@ -180,7 +180,7 @@ window.WORDS = [
     "example": "听觉例子：贝斯像被反复\"捏\"住又松开，发出\"哇呜—哇呜—\"的律动感，节奏感极强。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 14
   },
@@ -206,7 +206,7 @@ window.WORDS = [
     "example": "听觉例子：像液体在管道里被挤压的\"吱溜—吱溜\"高频扫频声，带强烈共振峰，听起来又酸又迷幻。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 16
   },
@@ -219,7 +219,7 @@ window.WORDS = [
     "example": "听觉例子：像老式电子游戏机里那种\"哔哔\"的空心音色，调节脉宽时音色会从单薄逐渐变得饱满。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 17
   },
@@ -232,7 +232,7 @@ window.WORDS = [
     "example": "例子：白噪声、粉红噪声常被用于合成器音色设计或混音参考。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 18
   },
@@ -245,7 +245,7 @@ window.WORDS = [
     "example": "例子：在一段高潮后加入下行音效，使音乐自然过渡到安静段落。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 19
   },
@@ -258,7 +258,7 @@ window.WORDS = [
     "example": "例子：电影预告片中画面切换时配合的沉重撞击声。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 20
   },
@@ -284,7 +284,7 @@ window.WORDS = [
     "example": "例子：在街头录制的车流声、人群嘈杂声用于纪录片配乐。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 22,
     "audioFile": "a776f8ee0e5fdb22"
@@ -298,7 +298,7 @@ window.WORDS = [
     "example": "例子：电子舞曲中在 Drop 之前持续上升的合成器音效。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 23
   },
@@ -325,7 +325,7 @@ window.WORDS = [
     "example": "例子：由混响处理后的合成器长音构成的背景氛围层。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 25,
     "audioFile": "0594401b5b006bb4"
@@ -339,7 +339,7 @@ window.WORDS = [
     "example": "例子：将镲片声反转后放在乐句开头，形成吸入感。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 26
   },
@@ -352,7 +352,7 @@ window.WORDS = [
     "example": "例子：将人声切片后加入混响和声码器处理，用作氛围铺垫。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 27,
     "audioFile": "28824cb9d193164d"
@@ -564,7 +564,7 @@ window.WORDS = [
     "example": "例子：在电子舞曲中，将303合成器的酸性线条通过失真延迟处理，产生带有\"吱吱\"共振扫频的重复回声。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 43,
     "audioFile": "55b9a5d3dad00848"
@@ -634,7 +634,7 @@ window.WORDS = [
     "example": "例子：在人声上使用Echo Band Dist，回声只出现在中频段并带有轻微破音，营造复古电话般的空间感。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 48,
     "audioFile": "237258d05c8fd9fb"
@@ -690,7 +690,7 @@ window.WORDS = [
     "example": "例子：数字音频工作站（DAW）将声音以 44.1kHz/24bit 的采样率和位深度记录为数字文件。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 52
   },
@@ -703,7 +703,7 @@ window.WORDS = [
     "example": "例子：在波表合成器（如 Serum）中加载 S2 Tables 波表，通过调制波表位置来产生从 /a/ 到 /i/ 的元音渐变效果。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 53,
     "audioFile": "d4aced6baff000cd"
@@ -1310,7 +1310,7 @@ window.WORDS = [
     "example": "例子：在吉他音箱模拟插件中，将 Neck Volume 调低，使琴颈拾音器的声音更柔和、靠后。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 98,
     "audioFile": "f2c2d7b67b79fe0e"
@@ -1324,7 +1324,7 @@ window.WORDS = [
     "example": "例子：将 Bridge Volume 调高，让琴桥拾音器的明亮音色在混音中更突出。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 99,
     "audioFile": "044a4cebcab1e377"
@@ -1801,7 +1801,7 @@ window.WORDS = [
     "example": "例子：咖啡馆里低声交谈、杯碟碰撞和背景音乐交织形成的整体声音氛围。",
     "context": "Ambience Indoor Industry Atmospheres Outdoor Environment Weather",
     "contextZh": "氛围",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 134
   },
@@ -1879,7 +1879,7 @@ window.WORDS = [
     "example": "例子：低频轰鸣（braam）、上升音效（riser）、冲击音（impact）等，用来增强画面的紧张感与史诗感。",
     "context": "Cinematic FX",
     "contextZh": "电影音效",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 140,
     "audioFile": "39761a32efc3b887"
@@ -1971,7 +1971,7 @@ window.WORDS = [
     "example": "例子：用椰子壳敲击地面来模拟马蹄声。",
     "context": "Foley Paper Plastic Concrete Wood Metal Fire",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 147
   },
@@ -2153,7 +2153,7 @@ window.WORDS = [
     "example": "例子：一个人在远处喊叫的声音。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 161
   },
@@ -2232,7 +2232,7 @@ window.WORDS = [
     "example": "例子：液体飞溅和骨骼碎裂的声响。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 167
   },
@@ -2245,7 +2245,7 @@ window.WORDS = [
     "example": "例子：紧张场景中放大的心跳声。",
     "context": "Human Crowd Fight Movement View all Footsteps Gore Cinematic FX Body Sounas",
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 168,
     "audioFile": "660d1313ecf4a605"
@@ -2273,7 +2273,7 @@ window.WORDS = [
     "example": "例子：科幻配乐中常用合成器制造低沉的持续音来营造紧张氛围。",
     "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "contextZh": "科幻小说",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 170
   },
@@ -2299,7 +2299,7 @@ window.WORDS = [
     "example": "例子：科幻电影中常对机器人角色进行人声处理，使其听起来机械而冰冷。",
     "context": "Science Fiction Drones Alien Voice Lasers Spaceship Data",
     "contextZh": "科幻小说",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 172
   },
@@ -3223,7 +3223,7 @@ window.WORDS = [
     "example": "听觉例子：军鼓、拍手和电影打击乐的尖锐起音。",
     "context": "\"In the intricate process of modern music production and mixing, skillfully layering ambient textures, aligning transient-rich impacts to the grid, and automating the frequency decay of downers are essential techniques to maintain sonic clarity and emotional dynamics across the master bus.\"",
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 241,
     "audioFile": "5a9fa53929eae080"
@@ -3334,7 +3334,7 @@ window.WORDS = [
     "example": "例子：一支摇滚乐队中站在舞台中央、负责演唱大部分歌曲的那位歌手。",
     "context": "The lead singer has a powerful and distinct voice that cuts through the dense mix.",
     "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 249,
     "audioFile": "20e86251e794c373"
@@ -3416,7 +3416,7 @@ window.WORDS = [
     "example": "例子：副歌部分加入伴唱人声，让整体听起来更饱满。",
     "context": "We applied a Lexicon Pro reverb effect to give the backing voice a sense of infinite space.",
     "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 255,
     "audioFile": "027e2d9afe6fe0af"
@@ -3444,7 +3444,7 @@ window.WORDS = [
     "example": "例子：把一段女声“ah”切成十六分音符的短促片段，排列成有节奏感的旋律。",
     "context": "You can find excellent vocal chops by searching for specific voice tags on Splice.",
     "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 257,
     "audioFile": "4d5c703843edf1a0"
@@ -3458,7 +3458,7 @@ window.WORDS = [
     "example": "例子：在 Splice 上搜索“female vocal”或“chopped vocal”等标签来定位素材。",
     "context": "You can find excellent vocal chops by searching for specific voice tags on Splice.",
     "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 258,
     "audioFile": "faae1239f3060339"
@@ -3538,7 +3538,7 @@ window.WORDS = [
     "example": "例子：声码器输出的 synthetic voice 带有明显的机械感。",
     "context": "Adjusting the formant control will alter the character of the synthetic voice without",
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 264,
     "audioFile": "6398d699a481d80a"
@@ -3870,7 +3870,7 @@ window.WORDS = [
     "example": "例子：副歌部分那条最清楚、最靠前的人声就是 vocal lead。",
     "context": "Riding the volume fader on the SSL UF1 for the vocal leads ensures they sit perfectly on top of the instrumental mix.",
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 288,
     "audioFile": "54fd0e1ea712268c"
@@ -4202,7 +4202,7 @@ window.WORDS = [
     "example": "例子：把所有弦乐轨道统一送入一个名为「Strings」的编组。",
     "context": "When mixing Cinematic or Ambient music, routing your orchestral elements to a dedicated sub group makes automation much more manageable.",
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
-    "category": "乐器们",
+    "category": "插件操作",
     "source": "小赫转存",
     "id": 312,
     "audioFile": "e813b5a5b78e2fa9"
@@ -4242,7 +4242,7 @@ window.WORDS = [
     "example": "例子：低频正弦波常被用来做超低频（sub）层，几乎只感觉到震动而不易听出音高。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 315,
     "audioFile": "e63da0eb82511666"
@@ -4256,7 +4256,7 @@ window.WORDS = [
     "example": "例子：把振荡器设为正弦波，就能得到没有谐波的纯音。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 316
   },
@@ -4295,7 +4295,7 @@ window.WORDS = [
     "example": "例子：超低频层给主贝斯增加下潜和重量感。",
     "context": "You can use a sine wave oscillator in a synthesizer to generate a clean, punchy sub frequency layer beneath your main bass.",
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
-    "category": "乐器们",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 319,
     "audioFile": "5f34ad068cad514b"
@@ -4362,7 +4362,7 @@ window.WORDS = [
     "example": "例子：底鼓的基音和低音贝斯的基频大多落在这一频段。",
     "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
-    "category": "乐器们",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 324,
     "audioFile": "d21af9777d1d41f5"
@@ -4404,7 +4404,7 @@ window.WORDS = [
     "example": "例子：如果低频段混得不好，在手机上播放时低音会完全消失。",
     "context": "Checking the sub frequencies on a GLM-calibrated monitor system ensures the low end translates perfectly across different playback devices.",
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
-    "category": "乐器们",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 327,
     "audioFile": "291c4c4d0f8270ae"
@@ -4846,7 +4846,7 @@ window.WORDS = [
     "example": "例子：流行歌曲中男歌手的主唱声部。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 359,
     "audioFile": "789f58485c9b03b6"
@@ -4888,7 +4888,7 @@ window.WORDS = [
     "example": "例子：合成器铺底音色若中频过强，容易掩盖人声。",
     "context": "When mixing dense electronic tracks, carving out space in the midrange is essential to ensure the male vocals sit perfectly in the mix without being masked by synths.",
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 362,
     "audioFile": "9c853cb86126ed29"
@@ -4916,7 +4916,7 @@ window.WORDS = [
     "example": "例子：一首硬摇滚副歌中嘶吼式的高音男声演唱。",
     "context": "Applying a fast-attack compressor to aggressive rock male vocals helps tame the harsh transients and maintain a consistent dynamic level.",
     "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 364,
     "audioFile": "fab6da984d8a486c"
@@ -4997,7 +4997,7 @@ window.WORDS = [
     "example": "例子：乐队中男歌手演唱的主旋律声部。",
     "context": "For thick, wide choruses, double-tracking the lead male vocals and panning them slightly off-center creates a massive stereo image.",
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 370,
     "audioFile": "6358f5df8bec168d"
@@ -5187,7 +5187,7 @@ window.WORDS = [
     "example": "例子：流行歌曲主歌部分男歌手未经效果器修饰的原始嗓音。",
     "context": "Blending a subtle, heavily distorted parallel channel with the clean male vocals can introduce aggressive harmonics that cut through a heavy guitar wall.",
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 384,
     "audioFile": "c1b04b5efd024342"
@@ -5229,7 +5229,7 @@ window.WORDS = [
     "example": "例子：把一段普通人声加上失真、变调和延迟，变成类似机械怪物的声音。",
     "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 387,
     "audioFile": "91987671b59fd9f4"
@@ -5243,7 +5243,7 @@ window.WORDS = [
     "example": "例子：把一段人声切成毫秒级碎片并随机重叠，得到闪烁、漂浮的声景。",
     "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 388,
     "audioFile": "a6ec86d54df7459a"
@@ -5270,7 +5270,7 @@ window.WORDS = [
     "example": "例子：用手机录下一段“嗯——”的哼唱，再放进软件里做处理。",
     "context": "Using extreme vocal FX like granular synthesis can transform a simple hum into a haunting cinematic texture.",
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 390,
     "audioFile": "dc7028b9772691b9"
@@ -5326,7 +5326,7 @@ window.WORDS = [
     "example": "例子：给人声加入延迟、滤波和切片效果，形成断续的电子质感。",
     "context": "When mixing electronic music, heavily processed vocal FX often serve as rhythmic elements rather than traditional melodies.",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 394,
     "audioFile": "aee49888b9092a49"
@@ -5396,7 +5396,7 @@ window.WORDS = [
     "example": "例子：只给副歌最后一句人声加失真与延迟，主歌保持干净。",
     "context": "Automating the delay throws on specific vocal FX adds movement and width to the transition before the drop.",
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 399,
     "audioFile": "a2b4668df173c508"
@@ -5465,7 +5465,7 @@ window.WORDS = [
     "example": "例子：人声被切成细碎片段并叠加长混响，形成断续飘忽的氛围效果。",
     "context": "You can find unique vocal FX on Splice by searching for terms like \"glitchy ambient voice\" instead of standard loops.",
     "contextZh": "你可以在 Splice 上通过搜索 \"glitchy ambient voice\" 这类词来找到独特的人声效果，而不是用标准的循环素材。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 404,
     "audioFile": "b55c1fb46ae165ab"
@@ -6586,7 +6586,7 @@ window.WORDS = [
     "example": "例子：Moog Minimoog 上的振荡器就是典型的模拟振荡器。",
     "context": "The slow, unquantized drift of an analog oscillator naturally creates a thick chorus effect when layered with another waveform.",
     "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "小赫转存",
     "id": 486,
     "audioFile": "3f3a2a4a869969ba"
@@ -6836,7 +6836,7 @@ window.WORDS = [
     "example": "例子：30 Hz 左右的隆隆声往往属于极低频。",
     "context": "Cutting the extreme low frequencies of lush pads prevents them from clashing with the sub bass.",
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
-    "category": "乐器们",
+    "category": "声音描述",
     "source": "小赫转存",
     "id": 504,
     "audioFile": "c41115a97cc3c51c"
@@ -7369,7 +7369,7 @@ window.WORDS = [
     "example": "听觉例子：流行歌曲主歌中清亮、柔和的女声，带有自然的呼吸感和温暖的中频。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "2026-09-19",
     "id": 543,
     "audioFile": "ae3e6290673d9a86"
@@ -7396,7 +7396,7 @@ window.WORDS = [
     "example": "听觉例子：金属核副歌前那种撕裂般的高频尖啸，带有强烈的攻击性和压迫感。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "2026-09-19",
     "id": 545
   },
@@ -7409,7 +7409,7 @@ window.WORDS = [
     "example": "听觉例子：Billie Eilish 歌曲中贴近耳朵、几乎只有气流声的轻柔呢喃。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "2026-09-19",
     "id": 546,
     "audioFile": "020a6a705f66079f"
@@ -7423,7 +7423,7 @@ window.WORDS = [
     "example": "听觉例子：歌曲中间一段平静的独白，像在耳边讲故事一样自然。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "2026-09-19",
     "id": 547,
     "audioFile": "d06e945f31459cd9"
@@ -7437,7 +7437,7 @@ window.WORDS = [
     "example": "听觉例子：House 音乐中反复出现的短促\"嘿！\"或\"哦耶\"人声切片。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "2026-09-19",
     "id": 548,
     "audioFile": "f2371a934c98d5a9"
@@ -7451,7 +7451,7 @@ window.WORDS = [
     "example": "听觉例子：副歌前一声\"Go!\"或\"Hey!\"，像拳头一样砸在节奏重拍上。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "2026-09-19",
     "id": 549,
     "audioFile": "2decc4db7588f4d0"
@@ -7465,7 +7465,7 @@ window.WORDS = [
     "example": "听觉例子：电影场景中两人对话清晰突出，背景音乐自动\"让路\"降低音量。",
     "context": "",
     "contextZh": "",
-    "category": "乐器们",
+    "category": "音乐词汇",
     "source": "2026-09-19",
     "id": 550
   }
