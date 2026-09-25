@@ -14,6 +14,10 @@ import hashlib
 import json
 import os
 import re
+import urllib.parse
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor
+from urllib.error import HTTPError
 
 VAULT = "/Users/xingyan/Library/Mobile Documents/iCloud~md~obsidian/Documents/火火知识库"
 WORD_DIR = os.path.join(VAULT, "英语学习")
@@ -649,6 +653,19 @@ def split_inline_translation(text):
     return text.strip(), ""
 
 
+def _youdao_ok(word: str) -> bool:
+    """有道 dictvoice 美音是否可用（返回有效 MP3）。500 = 词库没有 = 发不出。"""
+    url = "https://dict.youdao.com/dictvoice?audio=" + urllib.parse.quote(word) + "&type=1"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        data = urllib.request.urlopen(req, timeout=6).read()
+        return len(data) >= 500 and data[:1] not in (b"{", b"<")
+    except HTTPError:
+        return False
+    except Exception:
+        return True  # 网络异常：不确定，按「有道能发」处理，避免误预生成
+
+
 def main():
     all_words = []
     for root, dirs, files in os.walk(WORD_DIR):
@@ -684,11 +701,22 @@ def main():
         w["category"] = categorize(w["word"], w["zh"], w["def"])
         unique.append(w)
 
+    # 预判有道发不出的词：含空格短语直接判失败；不含空格的词并发探测美音是否 500
+    nospace = [w for w in unique if " " not in w["word"]]
+    if nospace:
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            nospace_ok = list(ex.map(lambda w: _youdao_ok(w["word"]), nospace))
+        nospace_ok_map = {w["word"].strip().lower(): ok for w, ok in zip(nospace, nospace_ok)}
+    else:
+        nospace_ok_map = {}
+
     for i, w in enumerate(unique):
         w["id"] = i + 1
-        # 含空格 = 有道 dictvoice 发不出的短语/句子 → 记本地神经语音文件名（gen_audio.py 据此生成）
-        if " " in w["word"]:
-            w["audioFile"] = hashlib.sha1(w["word"].strip().lower().encode("utf-8")).hexdigest()[:16]
+        word = w["word"].strip()
+        key = word.lower()
+        # 有道 dictvoice 发不出的词（含空格短语 + 美音 500 的专有名词/乐器名）→ 记本地神经语音文件名
+        if " " in word or not nospace_ok_map.get(key, True):
+            w["audioFile"] = hashlib.sha1(key.encode("utf-8")).hexdigest()[:16]
 
     # 给「源自」补译文：先拆内联括号中文，再匹配「原文语境」的整句翻译
     trans_map = {}
