@@ -127,7 +127,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 10
+    "id": 10,
+    "audioFile": "544bc6e47d297a03"
   },
   {
     "word": "Rhythm",
@@ -283,7 +284,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 22
+    "id": 22,
+    "audioFile": "a776f8ee0e5fdb22"
   },
   {
     "word": "Risers",
@@ -348,7 +350,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 27
+    "id": 27,
+    "audioFile": "28824cb9d193164d"
   },
   {
     "word": "Saxophone",
@@ -543,7 +546,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 42
+    "id": 42,
+    "audioFile": "49499b3919f4057d"
   },
   {
     "word": "Acid Dist Delay",
@@ -556,7 +560,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 43
+    "id": 43,
+    "audioFile": "55b9a5d3dad00848"
   },
   {
     "word": "Bode Warmer",
@@ -569,7 +574,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 44
+    "id": 44,
+    "audioFile": "548b58b5c70ef0a4"
   },
   {
     "word": "Dirty Cabinet",
@@ -582,7 +588,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 45
+    "id": 45,
+    "audioFile": "f7b4ec35f07c669d"
   },
   {
     "word": "Dirty Lows",
@@ -595,7 +602,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 46
+    "id": 46,
+    "audioFile": "3b8704e01cd8579f"
   },
   {
     "word": "Dirty Small",
@@ -608,7 +616,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 47
+    "id": 47,
+    "audioFile": "f67dae81a52b0f2d"
   },
   {
     "word": "Echo Band Dist",
@@ -621,7 +630,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 48
+    "id": 48,
+    "audioFile": "237258d05c8fd9fb"
   },
   {
     "word": "Lead Guitar",
@@ -634,7 +644,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 49
+    "id": 49,
+    "audioFile": "7ed16a80b9fbb237"
   },
   {
     "word": "M-S ProgBass",
@@ -647,7 +658,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 50
+    "id": 50,
+    "audioFile": "83a1c491884eb4df"
   },
   {
     "word": "Practice Amp in Room",
@@ -660,7 +672,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 51
+    "id": 51,
+    "audioFile": "cb094edaad465920"
   },
   {
     "word": "Digital",
@@ -686,7 +699,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 53
+    "id": 53,
+    "audioFile": "d4aced6baff000cd"
   },
   {
     "word": "respace",
@@ -712,7 +726,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 55
+    "id": 55,
+    "audioFile": "cdab3e6a2c117328"
   },
   {
     "word": "Mouse",
@@ -751,7 +766,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 58
+    "id": 58,
+    "audioFile": "37353b9c5fa315a4"
   },
   {
     "word": "Add Current Tab",
@@ -764,7 +780,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 59
+    "id": 59,
+    "audioFile": "4862e1c0eaf8d7b1"
   },
   {
     "word": "Keychron",
@@ -816,7 +833,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 63
+    "id": 63,
+    "audioFile": "8fd7efa81314213a"
   },
   {
     "word": "Macro",
@@ -842,7 +860,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 65
+    "id": 65,
+    "audioFile": "4b6b8ab56609165b"
   },
   {
     "word": "Side Button",
@@ -855,7 +874,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 66
+    "id": 66,
+    "audioFile": "fa3786dd99c47c9c"
   },
   {
     "word": "Middle Button",
@@ -868,7 +888,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 67
+    "id": 67,
+    "audioFile": "883a350541cbc3df"
   },
   {
     "word": "Scroll Enhancement",
@@ -881,7 +902,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 68
+    "id": 68,
+    "audioFile": "62d42ee97d88538a"
   },
   {
     "word": "Angle Adjustment",
@@ -894,7 +916,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 69
+    "id": 69,
+    "audioFile": "dc801f79127e276e"
   },
   {
     "word": "Receiver Update",
@@ -907,7 +930,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 70
+    "id": 70,
+    "audioFile": "633c0a0d6e3da473"
   },
   {
     "word": "2.4G Mode",
@@ -920,7 +944,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 71
+    "id": 71,
+    "audioFile": "2474d1ccddec506d"
   },
   {
     "word": "Multimedia Key",
@@ -933,7 +958,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 72
+    "id": 72,
+    "audioFile": "dbb14cee38724c6f"
   },
   {
     "word": "Game Enhancement Key",
@@ -946,7 +972,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 73
+    "id": 73,
+    "audioFile": "ac7b7cc6db08fb9b"
   },
   {
     "word": "Shortcut Key",
@@ -959,7 +986,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 74
+    "id": 74,
+    "audioFile": "cc177d183e1570d6"
   },
   {
     "word": "Keyboard Combination",
@@ -972,7 +1000,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 75
+    "id": 75,
+    "audioFile": "d623de9c3dcf89d5"
   },
   {
     "word": "Caps Lock",
@@ -985,7 +1014,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 76
+    "id": 76,
+    "audioFile": "a1c8e716c0ab20ef"
   },
   {
     "word": "Scroll Lock",
@@ -998,7 +1028,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 77
+    "id": 77,
+    "audioFile": "6c581467bd2610d2"
   },
   {
     "word": "Num Lock",
@@ -1011,7 +1042,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 78
+    "id": 78,
+    "audioFile": "f2cb1baa2f3e212a"
   },
   {
     "word": "Backspace",
@@ -1258,7 +1290,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 97
+    "id": 97,
+    "audioFile": "1ee60fff8613e3b1"
   },
   {
     "word": "Neck Volume",
@@ -1271,7 +1304,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 98
+    "id": 98,
+    "audioFile": "f2c2d7b67b79fe0e"
   },
   {
     "word": "Bridge Volume",
@@ -1284,7 +1318,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 99
+    "id": 99,
+    "audioFile": "044a4cebcab1e377"
   },
   {
     "word": "Neck Tone",
@@ -1297,7 +1332,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 100
+    "id": 100,
+    "audioFile": "8611e718f6c27052"
   },
   {
     "word": "Bridge Tone",
@@ -1310,7 +1346,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 101
+    "id": 101,
+    "audioFile": "ef19018a059355e9"
   },
   {
     "word": "Main Volume",
@@ -1323,7 +1360,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 102
+    "id": 102,
+    "audioFile": "71f59842ec2d1f62"
   },
   {
     "word": "Playing Style",
@@ -1336,7 +1374,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 103
+    "id": 103,
+    "audioFile": "64c2334c066546bc"
   },
   {
     "word": "Mute",
@@ -1401,7 +1440,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 108
+    "id": 108,
+    "audioFile": "f52c31df0cc442e9"
   },
   {
     "word": "Hum & Hiss",
@@ -1414,7 +1454,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 109
+    "id": 109,
+    "audioFile": "af93b3250b7b192a"
   },
   {
     "word": "Release Noise",
@@ -1427,7 +1468,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 110
+    "id": 110,
+    "audioFile": "90e01d0a7aecdfbf"
   },
   {
     "word": "Pitchbend Up",
@@ -1440,7 +1482,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 111
+    "id": 111,
+    "audioFile": "d363978cacf91688"
   },
   {
     "word": "Pitchbend Down",
@@ -1453,7 +1496,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 112
+    "id": 112,
+    "audioFile": "3f93f70728e8b417"
   },
   {
     "word": "Portamento",
@@ -1518,7 +1562,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 117
+    "id": 117,
+    "audioFile": "e3c93d7487cad4e9"
   },
   {
     "word": "sounds like",
@@ -1531,7 +1576,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 118
+    "id": 118,
+    "audioFile": "d14ded3fa6af7c52"
   },
   {
     "word": "an advertisement",
@@ -1544,7 +1590,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 119
+    "id": 119,
+    "audioFile": "de0b39306e0d3f93"
   },
   {
     "word": "forgot",
@@ -1570,7 +1617,8 @@ window.WORDS = [
     "contextZh": "我不知道他为什么忘了买牛奶。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 121
+    "id": 121,
+    "audioFile": "5358d052dc03a2f9"
   },
   {
     "word": "milk",
@@ -1596,7 +1644,8 @@ window.WORDS = [
     "contextZh": "我不知道他为什么忘了买牛奶。他为什么把钥匙留在桌子上？你知道他今天为什么这么累吗？",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 123
+    "id": 123,
+    "audioFile": "2d963827c6583c9d"
   },
   {
     "word": "An hour of focused practice",
@@ -1609,7 +1658,8 @@ window.WORDS = [
     "contextZh": "每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 124
+    "id": 124,
+    "audioFile": "693f5ab68332d48b"
   },
   {
     "word": "every day",
@@ -1622,7 +1672,8 @@ window.WORDS = [
     "contextZh": "每天一小时专注的练习,能让指板从一个谜题变成你的第二语言.",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 125
+    "id": 125,
+    "audioFile": "a3fd743ac14709d5"
   },
   {
     "word": "daily hour",
@@ -1635,7 +1686,8 @@ window.WORDS = [
     "contextZh": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 126
+    "id": 126,
+    "audioFile": "2d82b97f8d03b47a"
   },
   {
     "word": "guitar",
@@ -1674,7 +1726,8 @@ window.WORDS = [
     "contextZh": "每天与吉他相处一小时，能培养出轻松自如表达所需的肌肉记忆。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 129
+    "id": 129,
+    "audioFile": "fc95cb1c8f470b29"
   },
   {
     "word": "needed",
@@ -1726,7 +1779,8 @@ window.WORDS = [
     "contextZh": "铜管与木管乐器",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 133
+    "id": 133,
+    "audioFile": "be1bfc297c784826"
   },
   {
     "word": "Ambience",
@@ -1817,7 +1871,8 @@ window.WORDS = [
     "contextZh": "电影音效",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 140
+    "id": 140,
+    "audioFile": "39761a32efc3b887"
   },
   {
     "word": "Animals",
@@ -2142,7 +2197,8 @@ window.WORDS = [
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 165
+    "id": 165,
+    "audioFile": "3852397c1f0908c8"
   },
   {
     "word": "Footsteps",
@@ -2181,7 +2237,8 @@ window.WORDS = [
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 168
+    "id": 168,
+    "audioFile": "660d1313ecf4a605"
   },
   {
     "word": "Science Fiction",
@@ -2194,7 +2251,8 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 169
+    "id": 169,
+    "audioFile": "29a7ed2f68c3145e"
   },
   {
     "word": "Drones",
@@ -2285,7 +2343,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 176
+    "id": 176,
+    "audioFile": "f2ba639562ab48b2"
   },
   {
     "word": "Tools",
@@ -2519,7 +2578,8 @@ window.WORDS = [
     "contextZh": "5.1 环绕声 合成器 幻想 电的 环境氛围 环境",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 194
+    "id": 194,
+    "audioFile": "987b2f5e275596b2"
   },
   {
     "word": "Fantasy",
@@ -2558,7 +2618,8 @@ window.WORDS = [
     "contextZh": "清音吉他和弦为整个编曲提供了空间感十足的基础。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 197
+    "id": 197,
+    "audioFile": "1170f453264b67e1"
   },
   {
     "word": "spacious",
@@ -2701,7 +2762,8 @@ window.WORDS = [
     "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 208
+    "id": 208,
+    "audioFile": "6665bc3fe4f5e2ac"
   },
   {
     "word": "clean guitar sound",
@@ -2714,7 +2776,8 @@ window.WORDS = [
     "contextZh": "要检查调音是否准确，请用清音吉他音色扫几个基本和弦。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 209
+    "id": 209,
+    "audioFile": "a766439245b05c88"
   },
   {
     "word": "Lexicon",
@@ -2740,7 +2803,8 @@ window.WORDS = [
     "contextZh": "Lexicon Pro",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 211
+    "id": 211,
+    "audioFile": "332d2ddd1f570d15"
   },
   {
     "word": "Vocab",
@@ -2792,7 +2856,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 215
+    "id": 215,
+    "audioFile": "e5082233a8e13d62"
   },
   {
     "word": "Clean as a Whistle",
@@ -2805,7 +2870,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 216
+    "id": 216,
+    "audioFile": "c898f577713e2dc4"
   },
   {
     "word": "Dirge Lead",
@@ -2818,7 +2884,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 217
+    "id": 217,
+    "audioFile": "7ac55a1b7ae567dd"
   },
   {
     "word": "Dynamic Clean",
@@ -2831,7 +2898,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 218
+    "id": 218,
+    "audioFile": "c3146eb624f1a28e"
   },
   {
     "word": "Expression Face",
@@ -2844,7 +2912,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 219
+    "id": 219,
+    "audioFile": "c5768d734fd7493e"
   },
   {
     "word": "Frothy",
@@ -2870,7 +2939,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 221
+    "id": 221,
+    "audioFile": "226694cd8e1fbb46"
   },
   {
     "word": "Long Black",
@@ -2883,7 +2953,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 222
+    "id": 222,
+    "audioFile": "e44d8de8102bf2b4"
   },
   {
     "word": "My Queen",
@@ -2896,7 +2967,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 223
+    "id": 223,
+    "audioFile": "1011199f7976e305"
   },
   {
     "word": "Smooth With Cream",
@@ -2909,7 +2981,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 224
+    "id": 224,
+    "audioFile": "de0700e496d277e3"
   },
   {
     "word": "prompt",
@@ -2935,7 +3008,8 @@ window.WORDS = [
     "contextZh": "这个周末我们要去山里露营。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 226
+    "id": 226,
+    "audioFile": "dbc0adb54667c2f9"
   },
   {
     "word": "in the mountains",
@@ -2948,7 +3022,8 @@ window.WORDS = [
     "contextZh": "这个周末我们要去山里露营。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 227
+    "id": 227,
+    "audioFile": "77ac935a27fc8d4c"
   },
   {
     "word": "this weekend",
@@ -2961,7 +3036,8 @@ window.WORDS = [
     "contextZh": "这个周末我们要去山里露营。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 228
+    "id": 228,
+    "audioFile": "60ebdc71fda11af2"
   },
   {
     "word": "camping gear",
@@ -2974,7 +3050,8 @@ window.WORDS = [
     "contextZh": "你的露营装备都准备好了吗？",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 229
+    "id": 229,
+    "audioFile": "c09fdbd696d8eec3"
   },
   {
     "word": "have ready",
@@ -2987,7 +3064,8 @@ window.WORDS = [
     "contextZh": "你的露营装备都准备好了吗？",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 230
+    "id": 230,
+    "audioFile": "94c05fad90859fff"
   },
   {
     "word": "disconnect",
@@ -3026,7 +3104,8 @@ window.WORDS = [
     "contextZh": "我们去露营之前需要买些驱虫喷雾。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 233
+    "id": 233,
+    "audioFile": "616c6d83bfbf8620"
   },
   {
     "word": "go camping",
@@ -3039,7 +3118,8 @@ window.WORDS = [
     "contextZh": "我们去露营之前需要买些驱虫喷雾。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 234
+    "id": 234,
+    "audioFile": "b7503ec5123d6ce1"
   },
   {
     "word": "intricate process",
@@ -3052,7 +3132,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 235
+    "id": 235,
+    "audioFile": "6dba89d47d50d407"
   },
   {
     "word": "modern music production",
@@ -3065,7 +3146,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 236
+    "id": 236,
+    "audioFile": "0791c0d45058ecaa"
   },
   {
     "word": "mixing",
@@ -3091,7 +3173,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 238
+    "id": 238,
+    "audioFile": "e9bdc913d4d8799a"
   },
   {
     "word": "ambient textures",
@@ -3104,7 +3187,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 239
+    "id": 239,
+    "audioFile": "fa377592970ec094"
   },
   {
     "word": "aligning",
@@ -3130,7 +3214,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 241
+    "id": 241,
+    "audioFile": "5a9fa53929eae080"
   },
   {
     "word": "to the grid",
@@ -3143,7 +3228,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 242
+    "id": 242,
+    "audioFile": "f8bd5945d8f0b094"
   },
   {
     "word": "automating",
@@ -3169,7 +3255,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 244
+    "id": 244,
+    "audioFile": "536c4cbbba382e96"
   },
   {
     "word": "essential techniques",
@@ -3182,7 +3269,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 245
+    "id": 245,
+    "audioFile": "6693e3adf21c74f0"
   },
   {
     "word": "maintain sonic clarity",
@@ -3195,7 +3283,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 246
+    "id": 246,
+    "audioFile": "3848d8c1f5a878b2"
   },
   {
     "word": "emotional dynamics",
@@ -3208,7 +3297,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 247
+    "id": 247,
+    "audioFile": "bcfff89a44328ed0"
   },
   {
     "word": "across the master bus",
@@ -3221,7 +3311,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 248
+    "id": 248,
+    "audioFile": "268a2b322d70297c"
   },
   {
     "word": "lead singer",
@@ -3234,7 +3325,8 @@ window.WORDS = [
     "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 249
+    "id": 249,
+    "audioFile": "20e86251e794c373"
   },
   {
     "word": "powerful",
@@ -3273,7 +3365,8 @@ window.WORDS = [
     "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 252
+    "id": 252,
+    "audioFile": "78835fc9d465ca5c"
   },
   {
     "word": "dense mix",
@@ -3286,7 +3379,8 @@ window.WORDS = [
     "contextZh": "这位主唱拥有强有力且辨识度极高的嗓音，能够穿透密集的混音。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 253
+    "id": 253,
+    "audioFile": "4e816ee71987673f"
   },
   {
     "word": "reverb effect",
@@ -3299,7 +3393,8 @@ window.WORDS = [
     "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 254
+    "id": 254,
+    "audioFile": "3b271d7413be9701"
   },
   {
     "word": "backing voice",
@@ -3312,7 +3407,8 @@ window.WORDS = [
     "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 255
+    "id": 255,
+    "audioFile": "027e2d9afe6fe0af"
   },
   {
     "word": "sense of infinite space",
@@ -3325,7 +3421,8 @@ window.WORDS = [
     "contextZh": "我们应用了 Lexicon Pro 混响效果，让伴唱人声有一种无限空间感。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 256
+    "id": 256,
+    "audioFile": "f0c8a01d6380d661"
   },
   {
     "word": "vocal chops",
@@ -3338,7 +3435,8 @@ window.WORDS = [
     "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 257
+    "id": 257,
+    "audioFile": "4d5c703843edf1a0"
   },
   {
     "word": "voice tags",
@@ -3351,7 +3449,8 @@ window.WORDS = [
     "contextZh": "你可以在 Splice 上通过搜索特定的人声标签来找到出色的人声切片。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 258
+    "id": 258,
+    "audioFile": "faae1239f3060339"
   },
   {
     "word": "Splice",
@@ -3390,7 +3489,8 @@ window.WORDS = [
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 261
+    "id": 261,
+    "audioFile": "4a50ce34948c1c71"
   },
   {
     "word": "alter",
@@ -3429,7 +3529,8 @@ window.WORDS = [
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 264
+    "id": 264,
+    "audioFile": "6398d699a481d80a"
   },
   {
     "word": "without",
@@ -3468,7 +3569,8 @@ window.WORDS = [
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 267
+    "id": 267,
+    "audioFile": "3620b922ce4d3555"
   },
   {
     "word": "electronic hi-hats",
@@ -3481,7 +3583,8 @@ window.WORDS = [
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 268
+    "id": 268,
+    "audioFile": "90065a838e3fa88c"
   },
   {
     "word": "human feel",
@@ -3494,7 +3597,8 @@ window.WORDS = [
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 269
+    "id": 269,
+    "audioFile": "b799a6f5f2c93900"
   },
   {
     "word": "rhythm section",
@@ -3507,7 +3611,8 @@ window.WORDS = [
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 270
+    "id": 270,
+    "audioFile": "5d84cb40c0064dec"
   },
   {
     "word": "sample libraries",
@@ -3520,7 +3625,8 @@ window.WORDS = [
     "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 271
+    "id": 271,
+    "audioFile": "60629af783270f6d"
   },
   {
     "word": "shakers loop",
@@ -3533,7 +3639,8 @@ window.WORDS = [
     "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 272
+    "id": 272,
+    "audioFile": "2691d671c26eeada"
   },
   {
     "word": "groove keywords",
@@ -3546,7 +3653,8 @@ window.WORDS = [
     "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 273
+    "id": 273,
+    "audioFile": "0478b3de86e85734"
   },
   {
     "word": "more precise results",
@@ -3559,7 +3667,8 @@ window.WORDS = [
     "contextZh": "在浏览采样库时，将“shakers loop”与具体的律动关键词一起输入，能获得更精确的搜索结果。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 274
+    "id": 274,
+    "audioFile": "3cbf7854d8bd63a6"
   },
   {
     "word": "Panning",
@@ -3585,7 +3694,8 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 276
+    "id": 276,
+    "audioFile": "b9371ccc542634dc"
   },
   {
     "word": "Hard left",
@@ -3598,7 +3708,8 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 277
+    "id": 277,
+    "audioFile": "2ea83924745885de"
   },
   {
     "word": "Hard right",
@@ -3611,7 +3722,8 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 278
+    "id": 278,
+    "audioFile": "93390541922b33ee"
   },
   {
     "word": "Wider stereo image",
@@ -3624,7 +3736,8 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 279
+    "id": 279,
+    "audioFile": "d9ea74e202d15c49"
   },
   {
     "word": "multiple synthesizer leads",
@@ -3637,7 +3750,8 @@ window.WORDS = [
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 280
+    "id": 280,
+    "audioFile": "fae52a4bdfce7675"
   },
   {
     "word": "massive",
@@ -3676,7 +3790,8 @@ window.WORDS = [
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 283
+    "id": 283,
+    "audioFile": "717a2c5da297929b"
   },
   {
     "word": "for the chorus",
@@ -3689,7 +3804,8 @@ window.WORDS = [
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 284
+    "id": 284,
+    "audioFile": "a946b47a13463653"
   },
   {
     "word": "Riding",
@@ -3715,7 +3831,8 @@ window.WORDS = [
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 286
+    "id": 286,
+    "audioFile": "ecc847fe255cc62b"
   },
   {
     "word": "SSL UF1",
@@ -3728,7 +3845,8 @@ window.WORDS = [
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 287
+    "id": 287,
+    "audioFile": "a6467a6b1bdfddbb"
   },
   {
     "word": "vocal leads",
@@ -3741,7 +3859,8 @@ window.WORDS = [
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 288
+    "id": 288,
+    "audioFile": "54fd0e1ea712268c"
   },
   {
     "word": "sit perfectly",
@@ -3754,7 +3873,8 @@ window.WORDS = [
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 289
+    "id": 289,
+    "audioFile": "d2e0f6e9bfa3c85d"
   },
   {
     "word": "on top of",
@@ -3767,7 +3887,8 @@ window.WORDS = [
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 290
+    "id": 290,
+    "audioFile": "9bae6da75fb61c72"
   },
   {
     "word": "the instrumental mix",
@@ -3780,7 +3901,8 @@ window.WORDS = [
     "contextZh": "在 SSL UF1 上实时操控主唱人声的音量推子，能确保人声完美地浮在器乐混音之上。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 291
+    "id": 291,
+    "audioFile": "712cdb9f5930a9a5"
   },
   {
     "word": "browsing Splice",
@@ -3793,7 +3915,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 292
+    "id": 292,
+    "audioFile": "845b021e5a2c445f"
   },
   {
     "word": "melodic inspiration",
@@ -3806,7 +3929,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 293
+    "id": 293,
+    "audioFile": "a96f23682463b318"
   },
   {
     "word": "analog leads",
@@ -3819,7 +3943,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 294
+    "id": 294,
+    "audioFile": "75b1a155a8a0f011"
   },
   {
     "word": "warm",
@@ -3858,7 +3983,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 297
+    "id": 297,
+    "audioFile": "3b20aaecbbe4728e"
   },
   {
     "word": "Heavy saturation",
@@ -3871,7 +3997,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 298
+    "id": 298,
+    "audioFile": "46a2e263069466f9"
   },
   {
     "word": "Electric guitar leads",
@@ -3884,7 +4011,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 299
+    "id": 299,
+    "audioFile": "0ed26dd75de2772d"
   },
   {
     "word": "Cut through",
@@ -3897,7 +4025,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 300
+    "id": 300,
+    "audioFile": "072f28d40d508add"
   },
   {
     "word": "Dense midrange frequencies",
@@ -3910,7 +4039,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 301
+    "id": 301,
+    "audioFile": "4751916abf2fdc7c"
   },
   {
     "word": "Modern rock",
@@ -3923,7 +4053,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 302
+    "id": 302,
+    "audioFile": "c670bbfd94eb5298"
   },
   {
     "word": "Electronic tracks",
@@ -3936,7 +4067,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 303
+    "id": 303,
+    "audioFile": "ee13adffeaad1248"
   },
   {
     "word": "sub bass",
@@ -3949,7 +4081,8 @@ window.WORDS = [
     "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 304
+    "id": 304,
+    "audioFile": "193cb83ba1003092"
   },
   {
     "word": "heavy electronic track",
@@ -3962,7 +4095,8 @@ window.WORDS = [
     "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 305
+    "id": 305,
+    "audioFile": "ce76a40fe06987b6"
   },
   {
     "word": "careful EQing",
@@ -3975,7 +4109,8 @@ window.WORDS = [
     "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 306
+    "id": 306,
+    "audioFile": "adcb1e2f0b0dbda9"
   },
   {
     "word": "muddying the low end",
@@ -3988,7 +4123,8 @@ window.WORDS = [
     "contextZh": "强劲的超低频是任何重型电子曲目的根基，但它需要细致的均衡处理，才能避免把低频段弄得浑浊不清。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 307
+    "id": 307,
+    "audioFile": "7e5f3f638f8e3761"
   },
   {
     "word": "Cinematic",
@@ -4040,7 +4176,8 @@ window.WORDS = [
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 311
+    "id": 311,
+    "audioFile": "64b571812ba88f01"
   },
   {
     "word": "dedicated sub group",
@@ -4053,7 +4190,8 @@ window.WORDS = [
     "contextZh": "在混制电影感或氛围音乐时，把管弦乐元素发送到一个专用编组，会让自动化控制变得容易管理得多。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 312
+    "id": 312,
+    "audioFile": "e813b5a5b78e2fa9"
   },
   {
     "word": "automation",
@@ -4092,7 +4230,8 @@ window.WORDS = [
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 315
+    "id": 315,
+    "audioFile": "e63da0eb82511666"
   },
   {
     "word": "oscillator",
@@ -4144,7 +4283,8 @@ window.WORDS = [
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 319
+    "id": 319,
+    "audioFile": "5f34ad068cad514b"
   },
   {
     "word": "layer",
@@ -4183,7 +4323,8 @@ window.WORDS = [
     "contextZh": "你可以在合成器里使用正弦波振荡器，在主贝斯下面生成一层干净、结实有力的超低频。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 322
+    "id": 322,
+    "audioFile": "ebf29e99639d2e28"
   },
   {
     "word": "generate",
@@ -4209,7 +4350,8 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 324
+    "id": 324,
+    "audioFile": "d21af9777d1d41f5"
   },
   {
     "word": "GLM-calibrated",
@@ -4235,7 +4377,8 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 326
+    "id": 326,
+    "audioFile": "7eb51a6c60caa32f"
   },
   {
     "word": "low end",
@@ -4248,7 +4391,8 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 327
+    "id": 327,
+    "audioFile": "291c4c4d0f8270ae"
   },
   {
     "word": "translates perfectly",
@@ -4261,7 +4405,8 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 328
+    "id": 328,
+    "audioFile": "3fe90f2b96c1749c"
   },
   {
     "word": "across different playback devices",
@@ -4274,7 +4419,8 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 329
+    "id": 329,
+    "audioFile": "b691ae16d655580d"
   },
   {
     "word": "Recording",
@@ -4300,7 +4446,8 @@ window.WORDS = [
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 331
+    "id": 331,
+    "audioFile": "b3da3c2119ec5d81"
   },
   {
     "word": "directly through",
@@ -4313,7 +4460,8 @@ window.WORDS = [
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 332
+    "id": 332,
+    "audioFile": "8bae6e52ff7fd837"
   },
   {
     "word": "ISA One",
@@ -4326,7 +4474,8 @@ window.WORDS = [
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 333
+    "id": 333,
+    "audioFile": "3e63f06ad60c692e"
   },
   {
     "word": "yields",
@@ -4365,7 +4514,8 @@ window.WORDS = [
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 336
+    "id": 336,
+    "audioFile": "2f7de0980c0e967b"
   },
   {
     "word": "before hitting",
@@ -4378,7 +4528,8 @@ window.WORDS = [
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 337
+    "id": 337,
+    "audioFile": "ff27e12eac7e39f7"
   },
   {
     "word": "amp sim",
@@ -4391,7 +4542,8 @@ window.WORDS = [
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 338
+    "id": 338,
+    "audioFile": "e76e45d4c84f243b"
   },
   {
     "word": "acoustic guitar",
@@ -4404,7 +4556,8 @@ window.WORDS = [
     "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 339
+    "id": 339,
+    "audioFile": "089f19301eb23736"
   },
   {
     "word": "heavy electronic beats",
@@ -4417,7 +4570,8 @@ window.WORDS = [
     "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 340
+    "id": 340,
+    "audioFile": "477505eae765f185"
   },
   {
     "word": "organic contrast",
@@ -4430,7 +4584,8 @@ window.WORDS = [
     "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 341
+    "id": 341,
+    "audioFile": "94ce4a1c4d963caf"
   },
   {
     "word": "hybrid genres",
@@ -4443,7 +4598,8 @@ window.WORDS = [
     "contextZh": "在厚重的电子节拍上叠加原声吉他连复段，能在混合流派中营造出一种独特的有机对比。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 342
+    "id": 342,
+    "audioFile": "6b670c9732f5417f"
   },
   {
     "word": "searching Splice",
@@ -4456,7 +4612,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 343
+    "id": 343,
+    "audioFile": "bf143ed14b9a8278"
   },
   {
     "word": "for inspiration",
@@ -4469,7 +4626,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 344
+    "id": 344,
+    "audioFile": "17a5e5b9379a1ece"
   },
   {
     "word": "keywords",
@@ -4495,7 +4653,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 346
+    "id": 346,
+    "audioFile": "e559396bd3d64ae0"
   },
   {
     "word": "can spark",
@@ -4508,7 +4667,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 347
+    "id": 347,
+    "audioFile": "4b5039d17f430ba9"
   },
   {
     "word": "completely unexpected",
@@ -4521,7 +4681,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 348
+    "id": 348,
+    "audioFile": "23e0df055d1a017c"
   },
   {
     "word": "arrangement ideas",
@@ -4534,7 +4695,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索灵感时，像 \"math rock riffs\" 这样的关键词能够激发出完全出乎意料的编曲思路。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 349
+    "id": 349,
+    "audioFile": "327dbc0440f77f68"
   },
   {
     "word": "Processing complex riffs",
@@ -4547,7 +4709,8 @@ window.WORDS = [
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 350
+    "id": 350,
+    "audioFile": "1c38db774e0c08cb"
   },
   {
     "word": "Neural DSP plugins",
@@ -4560,7 +4723,8 @@ window.WORDS = [
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 351
+    "id": 351,
+    "audioFile": "5389436376c8be97"
   },
   {
     "word": "massive tonal shifts",
@@ -4573,7 +4737,8 @@ window.WORDS = [
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 352
+    "id": 352,
+    "audioFile": "84cb957b5e8d820c"
   },
   {
     "word": "during the mixing phase",
@@ -4586,7 +4751,8 @@ window.WORDS = [
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 353
+    "id": 353,
+    "audioFile": "99fc1025d8409caa"
   },
   {
     "word": "without re-recording",
@@ -4599,7 +4765,8 @@ window.WORDS = [
     "contextZh": "使用 Neural DSP 插件处理复杂的连复段，可以在混音阶段实现巨大的音色变化，而无需重新录制。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 354
+    "id": 354,
+    "audioFile": "a0e5dd4e7a551b3b"
   },
   {
     "word": "dense electronic tracks",
@@ -4612,7 +4779,8 @@ window.WORDS = [
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 355
+    "id": 355,
+    "audioFile": "9cbad10db64e9853"
   },
   {
     "word": "carving out space",
@@ -4625,7 +4793,8 @@ window.WORDS = [
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 356
+    "id": 356,
+    "audioFile": "2ca295f2022e64c3"
   },
   {
     "word": "midrange",
@@ -4664,7 +4833,8 @@ window.WORDS = [
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 359
+    "id": 359,
+    "audioFile": "789f58485c9b03b6"
   },
   {
     "word": "in the mix",
@@ -4677,7 +4847,8 @@ window.WORDS = [
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 360
+    "id": 360,
+    "audioFile": "73fcd247c96ceaca"
   },
   {
     "word": "without being masked",
@@ -4690,7 +4861,8 @@ window.WORDS = [
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 361
+    "id": 361,
+    "audioFile": "126070eb3056d1ba"
   },
   {
     "word": "by synths",
@@ -4703,7 +4875,8 @@ window.WORDS = [
     "contextZh": "在混音密集的电子乐曲时，在中频段腾出空间至关重要，以确保男声人声完美融入混音中，而不被合成器所掩盖。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 362
+    "id": 362,
+    "audioFile": "9c853cb86126ed29"
   },
   {
     "word": "fast-attack compressor",
@@ -4716,7 +4889,8 @@ window.WORDS = [
     "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 363
+    "id": 363,
+    "audioFile": "2595a3cae39d2d3e"
   },
   {
     "word": "aggressive rock male vocals",
@@ -4729,7 +4903,8 @@ window.WORDS = [
     "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 364
+    "id": 364,
+    "audioFile": "fab6da984d8a486c"
   },
   {
     "word": "tame the harsh transients",
@@ -4742,7 +4917,8 @@ window.WORDS = [
     "contextZh": "对激烈的摇滚男声使用快启动压缩器，有助于驯服刺耳的瞬态，并保持一致的动态电平。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 365
+    "id": 365,
+    "audioFile": "97135fafdf96e338"
   },
   {
     "word": "thick",
@@ -4807,7 +4983,8 @@ window.WORDS = [
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 370
+    "id": 370,
+    "audioFile": "6358f5df8bec168d"
   },
   {
     "word": "slightly off-center",
@@ -4820,7 +4997,8 @@ window.WORDS = [
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 371
+    "id": 371,
+    "audioFile": "458534708a4b26e5"
   },
   {
     "word": "massive stereo image",
@@ -4833,7 +5011,8 @@ window.WORDS = [
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 372
+    "id": 372,
+    "audioFile": "67449a1f7c8f0d3a"
   },
   {
     "word": "de-esser",
@@ -4885,7 +5064,8 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 376
+    "id": 376,
+    "audioFile": "9190c45ef87c971e"
   },
   {
     "word": "only when necessary",
@@ -4898,7 +5078,8 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 377
+    "id": 377,
+    "audioFile": "a293389ce2da7aae"
   },
   {
     "word": "preserving",
@@ -4924,7 +5105,8 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 379
+    "id": 379,
+    "audioFile": "e0a81abb463fc734"
   },
   {
     "word": "Blending",
@@ -4963,7 +5145,8 @@ window.WORDS = [
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 382
+    "id": 382,
+    "audioFile": "767c1aba3faf962d"
   },
   {
     "word": "parallel channel",
@@ -4976,7 +5159,8 @@ window.WORDS = [
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 383
+    "id": 383,
+    "audioFile": "1a0ba82c35311397"
   },
   {
     "word": "clean male vocals",
@@ -4989,7 +5173,8 @@ window.WORDS = [
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 384
+    "id": 384,
+    "audioFile": "c1b04b5efd024342"
   },
   {
     "word": "aggressive harmonics",
@@ -5002,7 +5187,8 @@ window.WORDS = [
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 385
+    "id": 385,
+    "audioFile": "c76cefcff2209dc9"
   },
   {
     "word": "heavy guitar wall",
@@ -5015,7 +5201,8 @@ window.WORDS = [
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 386
+    "id": 386,
+    "audioFile": "92939221185f2252"
   },
   {
     "word": "extreme vocal FX",
@@ -5028,7 +5215,8 @@ window.WORDS = [
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 387
+    "id": 387,
+    "audioFile": "91987671b59fd9f4"
   },
   {
     "word": "granular synthesis",
@@ -5041,7 +5229,8 @@ window.WORDS = [
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 388
+    "id": 388,
+    "audioFile": "a6ec86d54df7459a"
   },
   {
     "word": "transform",
@@ -5067,7 +5256,8 @@ window.WORDS = [
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 390
+    "id": 390,
+    "audioFile": "dc7028b9772691b9"
   },
   {
     "word": "haunting cinematic texture",
@@ -5080,7 +5270,8 @@ window.WORDS = [
     "contextZh": "使用像颗粒合成这样的极端人声效果，可以把一段简单的哼唱转变成为带有萦绕感的电影质感声音。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 391
+    "id": 391,
+    "audioFile": "0d38803947a17880"
   },
   {
     "word": "electronic music",
@@ -5093,7 +5284,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 392
+    "id": 392,
+    "audioFile": "544aa8c60d2f58ab"
   },
   {
     "word": "heavily processed",
@@ -5106,7 +5298,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 393
+    "id": 393,
+    "audioFile": "de4bc0e613cfc3d2"
   },
   {
     "word": "vocal FX",
@@ -5119,7 +5312,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 394
+    "id": 394,
+    "audioFile": "aee49888b9092a49"
   },
   {
     "word": "rhythmic elements",
@@ -5132,7 +5326,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 395
+    "id": 395,
+    "audioFile": "fd0c858c6ca641b8"
   },
   {
     "word": "rather than",
@@ -5145,7 +5340,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 396
+    "id": 396,
+    "audioFile": "37d5c49086004deb"
   },
   {
     "word": "traditional melodies",
@@ -5158,7 +5354,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 397
+    "id": 397,
+    "audioFile": "c661ccb0748e22f1"
   },
   {
     "word": "delay throws",
@@ -5171,7 +5368,8 @@ window.WORDS = [
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 398
+    "id": 398,
+    "audioFile": "87f315a7b1a047ab"
   },
   {
     "word": "specific vocal FX",
@@ -5184,7 +5382,8 @@ window.WORDS = [
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 399
+    "id": 399,
+    "audioFile": "a2b4668df173c508"
   },
   {
     "word": "adds movement",
@@ -5197,7 +5396,8 @@ window.WORDS = [
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 400
+    "id": 400,
+    "audioFile": "656c16b3b3a2a0e6"
   },
   {
     "word": "width",
@@ -5223,7 +5423,8 @@ window.WORDS = [
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 402
+    "id": 402,
+    "audioFile": "f8f4a5f619a993de"
   },
   {
     "word": "before the drop",
@@ -5236,7 +5437,8 @@ window.WORDS = [
     "contextZh": "在特定人声效果上自动化延迟抛出，能为 drop 之前的过渡段增添动感与声场宽度。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 403
+    "id": 403,
+    "audioFile": "7288f8c94583ac13"
   },
   {
     "word": "glitchy ambient voice",
@@ -5249,7 +5451,8 @@ window.WORDS = [
     "contextZh": "你可以在 Splice 上通过搜索 \"glitchy ambient voice\" 这类词来找到独特的人声效果，而不是用标准的循环素材。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 404
+    "id": 404,
+    "audioFile": "b55c1fb46ae165ab"
   },
   {
     "word": "standard loops",
@@ -5262,7 +5465,8 @@ window.WORDS = [
     "contextZh": "你可以在 Splice 上通过搜索 \"glitchy ambient voice\" 这类词来找到独特的人声效果，而不是用标准的循环素材。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 405
+    "id": 405,
+    "audioFile": "45499c960edbefda"
   },
   {
     "word": "bitcrusher",
@@ -5314,7 +5518,8 @@ window.WORDS = [
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 409
+    "id": 409,
+    "audioFile": "4914983b3e44f288"
   },
   {
     "word": "Focusrite ISA One",
@@ -5327,7 +5532,8 @@ window.WORDS = [
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 410
+    "id": 410,
+    "audioFile": "0cdb6f1037b5e292"
   },
   {
     "word": "adds",
@@ -5366,7 +5572,8 @@ window.WORDS = [
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 413
+    "id": 413,
+    "audioFile": "15045b91387d3e31"
   },
   {
     "word": "high frequencies",
@@ -5379,7 +5586,8 @@ window.WORDS = [
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 414
+    "id": 414,
+    "audioFile": "08063bf17720026a"
   },
   {
     "word": "before hitting the converters",
@@ -5392,7 +5600,8 @@ window.WORDS = [
     "contextZh": "将现场小提琴信号经由 Focusrite ISA One 前置放大器处理，能在信号进入转换器之前为高频增添理想的模拟温暖感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 415
+    "id": 415,
+    "audioFile": "85a6bf04d8f807ec"
   },
   {
     "word": "acoustic violin",
@@ -5405,7 +5614,8 @@ window.WORDS = [
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 416
+    "id": 416,
+    "audioFile": "bf3b482a92a414d7"
   },
   {
     "word": "taming",
@@ -5431,7 +5641,8 @@ window.WORDS = [
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 418
+    "id": 418,
+    "audioFile": "655561ea53321c35"
   },
   {
     "word": "2kHz to 4kHz",
@@ -5444,7 +5655,8 @@ window.WORDS = [
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 419
+    "id": 419,
+    "audioFile": "d03b50cdb7c19ee9"
   },
   {
     "word": "dynamic EQ",
@@ -5457,7 +5669,8 @@ window.WORDS = [
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 420
+    "id": 420,
+    "audioFile": "e6f899b7d02593ea"
   },
   {
     "word": "ear fatigue",
@@ -5470,7 +5683,8 @@ window.WORDS = [
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 421
+    "id": 421,
+    "audioFile": "0303377e54fe6310"
   },
   {
     "word": "often necessary",
@@ -5483,7 +5697,8 @@ window.WORDS = [
     "contextZh": "在混音原声小提琴时，通常需要用动态均衡器来抑制 2kHz 至 4kHz 附近刺耳的共振，以防止听觉疲劳。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 422
+    "id": 422,
+    "audioFile": "806b4a42f7a60746"
   },
   {
     "word": "prevent",
@@ -5509,7 +5724,8 @@ window.WORDS = [
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 424
+    "id": 424,
+    "audioFile": "451a0a2ed74541c7"
   },
   {
     "word": "over",
@@ -5535,7 +5751,8 @@ window.WORDS = [
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 426
+    "id": 426,
+    "audioFile": "4483fcbc7ce25a94"
   },
   {
     "word": "creates",
@@ -5561,7 +5778,8 @@ window.WORDS = [
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 428
+    "id": 428,
+    "audioFile": "0a5963a2ebc58760"
   },
   {
     "word": "organic acoustic textures",
@@ -5574,7 +5792,8 @@ window.WORDS = [
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 429
+    "id": 429,
+    "audioFile": "d5598c6b84c5886b"
   },
   {
     "word": "electronic soundscapes",
@@ -5587,7 +5806,8 @@ window.WORDS = [
     "contextZh": "在密集的合成器铺底之上叠加一把独奏小提琴，会在有机的声学织体与电子音景之间形成鲜明的对比。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 430
+    "id": 430,
+    "audioFile": "df7a54f9946d861d"
   },
   {
     "word": "Programming",
@@ -5639,7 +5859,8 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 434
+    "id": 434,
+    "audioFile": "1cb24d9ad064b206"
   },
   {
     "word": "requires",
@@ -5821,7 +6042,8 @@ window.WORDS = [
     "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 448
+    "id": 448,
+    "audioFile": "25bd0e064fe60bc0"
   },
   {
     "word": "main keys",
@@ -5834,7 +6056,8 @@ window.WORDS = [
     "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 449
+    "id": 449,
+    "audioFile": "632169c53a8b4055"
   },
   {
     "word": "House track",
@@ -5847,7 +6070,8 @@ window.WORDS = [
     "contextZh": "明亮且经过压缩的钢琴音色，往往是 House 曲目中主键盘声部背后的驱动力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 450
+    "id": 450,
+    "audioFile": "7edfb234c3764bdd"
   },
   {
     "word": "Modulating",
@@ -5873,7 +6097,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 452
+    "id": 452,
+    "audioFile": "091a1b0ba586ec65"
   },
   {
     "word": "synthesizer keys",
@@ -5886,7 +6111,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 453
+    "id": 453,
+    "audioFile": "2563caff98b9e118"
   },
   {
     "word": "adds subtle movement",
@@ -5899,7 +6125,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 454
+    "id": 454,
+    "audioFile": "ef12f3848c5b2c49"
   },
   {
     "word": "otherwise static",
@@ -5912,7 +6139,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 455
+    "id": 455,
+    "audioFile": "53e294f033cfde1b"
   },
   {
     "word": "chord progression",
@@ -5925,7 +6153,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 456
+    "id": 456,
+    "audioFile": "a04522e9a3f0b537"
   },
   {
     "word": "acoustic piano",
@@ -5938,7 +6167,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 457
+    "id": 457,
+    "audioFile": "1ea130931c383da5"
   },
   {
     "word": "electric keys",
@@ -5951,7 +6181,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 458
+    "id": 458,
+    "audioFile": "9261daa6bd39ad8a"
   },
   {
     "word": "rich",
@@ -5977,7 +6208,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 460
+    "id": 460,
+    "audioFile": "6a1be31f91fffab7"
   },
   {
     "word": "perfect for",
@@ -5990,7 +6222,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 461
+    "id": 461,
+    "audioFile": "c02746a5ee7c3996"
   },
   {
     "word": "Neo-Soul",
@@ -6016,7 +6249,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 463
+    "id": 463,
+    "audioFile": "0e200cfea32d0abf"
   },
   {
     "word": "dedicated controller",
@@ -6029,7 +6263,8 @@ window.WORDS = [
     "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 464
+    "id": 464,
+    "audioFile": "8a02e3e5902c60ac"
   },
   {
     "word": "fully weighted action",
@@ -6042,7 +6277,8 @@ window.WORDS = [
     "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 465
+    "id": 465,
+    "audioFile": "08e7183ec78e0e56"
   },
   {
     "word": "expressive performance",
@@ -6055,7 +6291,8 @@ window.WORDS = [
     "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 466
+    "id": 466,
+    "audioFile": "131d9fe497ba0a53"
   },
   {
     "word": "dynamic keys",
@@ -6068,7 +6305,8 @@ window.WORDS = [
     "contextZh": "使用带有全配重键盘的专用控制器，能为力度感应键盘带来更富表现力的演奏体验。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 467
+    "id": 467,
+    "audioFile": "3ffbccc13a84c5bf"
   },
   {
     "word": "digital synth",
@@ -6081,7 +6319,8 @@ window.WORDS = [
     "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 468
+    "id": 468,
+    "audioFile": "51036f1c4faebf68"
   },
   {
     "word": "analog summing mixer",
@@ -6094,7 +6333,8 @@ window.WORDS = [
     "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 469
+    "id": 469,
+    "audioFile": "2111e4811f9adfdd"
   },
   {
     "word": "harmonic richness",
@@ -6107,7 +6347,8 @@ window.WORDS = [
     "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 470
+    "id": 470,
+    "audioFile": "02d208ad31d969e7"
   },
   {
     "word": "depth",
@@ -6133,7 +6374,8 @@ window.WORDS = [
     "contextZh": "将数字合成器通过模拟求和混音器处理，会为主总线带来微妙的谐波丰富度与深度。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 472
+    "id": 472,
+    "audioFile": "fb3b24485e9c6537"
   },
   {
     "word": "Many producers",
@@ -6146,7 +6388,8 @@ window.WORDS = [
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 473
+    "id": 473,
+    "audioFile": "d1f5d534f292d185"
   },
   {
     "word": "prefer",
@@ -6185,7 +6428,8 @@ window.WORDS = [
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 476
+    "id": 476,
+    "audioFile": "bd6e48c6d85a8aae"
   },
   {
     "word": "analog delays",
@@ -6198,7 +6442,8 @@ window.WORDS = [
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 477
+    "id": 477,
+    "audioFile": "ca81ff1258d08d02"
   },
   {
     "word": "perfectly synchronized",
@@ -6211,7 +6456,8 @@ window.WORDS = [
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 478
+    "id": 478,
+    "audioFile": "931a0fe63bf0c4a8"
   },
   {
     "word": "digital echoes",
@@ -6224,7 +6470,8 @@ window.WORDS = [
     "contextZh": "许多制作人偏爱模拟延迟那种不可预测的、温暖的瑕疵，胜过完全同步的数字回声。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 479
+    "id": 479,
+    "audioFile": "738e98cfc2ac4cb9"
   },
   {
     "word": "vintage textures",
@@ -6237,7 +6484,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 480
+    "id": 480,
+    "audioFile": "94ca3725310da237"
   },
   {
     "word": "analog synth brass",
@@ -6250,7 +6498,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 481
+    "id": 481,
+    "audioFile": "fd20a5b16c685267"
   },
   {
     "word": "detuned pads",
@@ -6263,7 +6512,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 482
+    "id": 482,
+    "audioFile": "b2b228af6627e0e6"
   },
   {
     "word": "Synthwave",
@@ -6289,7 +6539,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 484
+    "id": 484,
+    "audioFile": "7c8b0532f461cb79"
   },
   {
     "word": "unquantized drift",
@@ -6302,7 +6553,8 @@ window.WORDS = [
     "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 485
+    "id": 485,
+    "audioFile": "fcba33cecf2a52c3"
   },
   {
     "word": "analog oscillator",
@@ -6315,7 +6567,8 @@ window.WORDS = [
     "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 486
+    "id": 486,
+    "audioFile": "3f3a2a4a869969ba"
   },
   {
     "word": "thick chorus effect",
@@ -6328,7 +6581,8 @@ window.WORDS = [
     "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 487
+    "id": 487,
+    "audioFile": "808f0812b0b11bd2"
   },
   {
     "word": "layered with another waveform",
@@ -6341,7 +6595,8 @@ window.WORDS = [
     "contextZh": "模拟振荡器那种缓慢、未量化的漂移，在与另一波形叠加时，会自然地产生厚实的合唱效果。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 488
+    "id": 488,
+    "audioFile": "ef507fb14246808f"
   },
   {
     "word": "warm analog pads",
@@ -6354,7 +6609,8 @@ window.WORDS = [
     "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 489
+    "id": 489,
+    "audioFile": "d7a66cf773adc74a"
   },
   {
     "word": "beneath the main arrangement",
@@ -6367,7 +6623,8 @@ window.WORDS = [
     "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 490
+    "id": 490,
+    "audioFile": "5ee3251fa8324a19"
   },
   {
     "word": "instantly glues",
@@ -6380,7 +6637,8 @@ window.WORDS = [
     "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 491
+    "id": 491,
+    "audioFile": "79a89663799c0ef3"
   },
   {
     "word": "the entire track",
@@ -6393,7 +6651,8 @@ window.WORDS = [
     "contextZh": "在主编排之下叠加温暖的模拟铺底音色，能瞬间把整首曲子粘合成一个整体。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 492
+    "id": 492,
+    "audioFile": "5509506ba4ba17bf"
   },
   {
     "word": "together",
@@ -6419,7 +6678,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 494
+    "id": 494,
+    "audioFile": "fc8a45a87b91ddeb"
   },
   {
     "word": "adds a sweeping",
@@ -6432,7 +6692,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 495
+    "id": 495,
+    "audioFile": "0fcace8ba6b6fe9a"
   },
   {
     "word": "evolving motion",
@@ -6445,7 +6706,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 496
+    "id": 496,
+    "audioFile": "bc3d587d2771697b"
   },
   {
     "word": "ambient genres",
@@ -6458,7 +6720,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 497
+    "id": 497,
+    "audioFile": "e12bcf13d74aaea6"
   },
   {
     "word": "Searching for",
@@ -6471,7 +6734,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 498
+    "id": 498,
+    "audioFile": "346df38a9152266a"
   },
   {
     "word": "granular cinematic pads",
@@ -6484,7 +6748,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 499
+    "id": 499,
+    "audioFile": "a25aa1579ec6cc04"
   },
   {
     "word": "on Splice",
@@ -6497,7 +6762,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 500
+    "id": 500,
+    "audioFile": "7aa888be305f685f"
   },
   {
     "word": "often uncovers",
@@ -6510,7 +6776,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 501
+    "id": 501,
+    "audioFile": "676ce0423c34f026"
   },
   {
     "word": "complex textures",
@@ -6523,7 +6790,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索 \"granular cinematic pads\" 常常能发现标准和弦无法提供的复杂织体。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 502
+    "id": 502,
+    "audioFile": "373e9a5772008c05"
   },
   {
     "word": "Cutting",
@@ -6549,7 +6817,8 @@ window.WORDS = [
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 504
+    "id": 504,
+    "audioFile": "c41115a97cc3c51c"
   },
   {
     "word": "Lush pads",
@@ -6562,7 +6831,8 @@ window.WORDS = [
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 505
+    "id": 505,
+    "audioFile": "6ae12aa812a43bb0"
   },
   {
     "word": "Prevents",
@@ -6601,7 +6871,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 508
+    "id": 508,
+    "audioFile": "d8f4156288f511d3"
   },
   {
     "word": "Slow phaser",
@@ -6614,7 +6885,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 509
+    "id": 509,
+    "audioFile": "d5493aadeaef26af"
   },
   {
     "word": "Gentle",
@@ -6653,7 +6925,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 512
+    "id": 512,
+    "audioFile": "789803b238db6ec1"
   },
   {
     "word": "Introduces",
@@ -6848,7 +7121,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 527
+    "id": 527,
+    "audioFile": "31e7d05109fe72e8"
   },
   {
     "word": "Organ",
@@ -6887,7 +7161,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 530
+    "id": 530,
+    "audioFile": "a0cb8c41f2f92095"
   },
   {
     "word": "Classical",
@@ -6913,7 +7188,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 532
+    "id": 532,
+    "audioFile": "ae3e6290673d9a86"
   },
   {
     "word": "Vocoder",
@@ -6952,7 +7228,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 535
+    "id": 535,
+    "audioFile": "020a6a705f66079f"
   },
   {
     "word": "Spoken Word",
@@ -6965,7 +7242,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 536
+    "id": 536,
+    "audioFile": "d06e945f31459cd9"
   },
   {
     "word": "Vocal Phrases",
@@ -6978,7 +7256,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 537
+    "id": 537,
+    "audioFile": "f2371a934c98d5a9"
   },
   {
     "word": "Vocal Shouts",
@@ -6991,7 +7270,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 538
+    "id": 538,
+    "audioFile": "2decc4db7588f4d0"
   },
   {
     "word": "Dialogue",
