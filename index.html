@@ -2150,13 +2150,11 @@ function renderMe(){
         ${renderNotes(APP_NOTES)}
       </div>
       <button class="btn primary" onclick="updateApp(this)">同步</button>
-      <div class="setting" style="padding-top:2px"><span style="font-size:12px;color:var(--faint)">新版本更新上线后 手动同步</span></div>
     </div>
     <div class="panel">
       <h3>学习进度备份</h3>
       <button class="btn" onclick="exportData()">导出进度（复制到剪贴板）</button>
       <button class="btn" onclick="importData()">导入进度</button>
-      <button class="btn warn" onclick="resetData()">重置全部进度</button>
     </div>
     <div style="color:var(--faint);font-size:12px;text-align:center;padding:10px 0 20px">单词来源：Obsidian 火火知识库 · 英语学习</div>`;
 }
@@ -2180,13 +2178,6 @@ function importData(){
     renderMe();
     alert("导入成功");
   }catch(e){alert("格式不对");}
-}
-function resetData(){
-  if(confirm("确定清空所有学习进度？单词数据不会丢。")){
-    progress=normalize({cards:{},settings:{dailyNew:10},stats:{}});
-    save();
-    switchTab("study");
-  }
 }
 async function updateApp(btn){
   if(btn){btn.disabled=true;btn.textContent="同步中…";}
@@ -2214,10 +2205,11 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="1.10"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="2"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
   "详情页进入时自动播放单词发音",
-  "发音兜底升级：美音失败自动试英音，再失败用系统语音本地渲染，确保每个词都出声"
+  "发音兜底升级：美音失败自动试英音，再失败用系统语音本地渲染，确保每个词都出声",
+  "更新模块与进度备份简化：移除手动同步提示和「重置全部进度」入口"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);
