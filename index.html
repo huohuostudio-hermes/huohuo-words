@@ -176,6 +176,8 @@ mark,.hl{background:rgba(230,184,74,.22);color:var(--accent2);padding:1px 3px;bo
 .selcount{flex:1;font-size:14px;font-weight:700;color:var(--accent2)}
 .chk{width:22px;height:22px;border-radius:7px;border:1.5px solid var(--border2);flex:0 0 auto;display:grid;place-items:center;font-size:14px;font-weight:800;color:#000}
 .chk.on{background:var(--accent);border-color:var(--accent)}
+.datehead{display:flex;align-items:center;gap:8px;margin:14px 2px 2px;font-size:13px;font-weight:800;color:var(--accent2);letter-spacing:.3px}
+.datehead .dcnt{margin-left:auto;font-size:12px;font-weight:700;color:var(--muted)}
 
 /* ===== 我的 ===== */
 .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;margin-bottom:12px}
@@ -1945,6 +1947,23 @@ let groupSelected=new Set();
 function groupWordsOf(kind){
   return kind==="mastered"?allWords().filter(isMastered):allWords().filter(w=>cardOf(w));
 }
+function groupDateOf(w){
+  const c=cardOf(w);
+  if(!c) return "";
+  return curGroupKind==="mastered" ? (c.masteredOn||"") : (c.learnedOn||"");
+}
+function fmtDate(d){
+  if(!d) return "更早";
+  const t=todayStr();
+  const y=new Date();
+  y.setDate(y.getDate()-1);
+  const yt=y.getFullYear()+"-"+String(y.getMonth()+1).padStart(2,"0")+"-"+String(y.getDate()).padStart(2,"0");
+  const p=d.split("-");
+  const mm=parseInt(p[1],10), dd=parseInt(p[2],10);
+  if(d===t) return "今天 · "+mm+"月"+dd+"号";
+  if(d===yt) return "昨天 · "+mm+"月"+dd+"号";
+  return mm+"月"+dd+"号";
+}
 function showGroup(kind){
   curGroupKind=kind;
   groupSelectMode=false;
@@ -1988,21 +2007,30 @@ function renderGroup(words){
 function renderGroupItems(words){
   const ul=$("#list");
   if(words.length===0){ul.innerHTML='<div class="empty">这里还没有单词</div>';return;}
-  ul.innerHTML=words.map(w=>{
+  const groups=new Map();
+  for(const w of words){
+    const d=groupDateOf(w);
+    if(!groups.has(d)) groups.set(d,[]);
+    groups.get(d).push(w);
+  }
+  const dates=[...groups.keys()].sort().reverse();
+  const item=w=>{
+    const st=cardState(w);
+    const dot={new:"new",learning:"learn",mastered:"master"}[st];
     if(groupSelectMode){
       const on=groupSelected.has(w.word);
       return `<li class="worditem" onclick="toggleSelectWord('${esc(w.word)}')">
         <span class="chk ${on?"on":""}">${on?"✓":""}</span>
+        <span class="dot ${dot}"></span>
         <span class="w">${esc(w.word)}</span>
         <span class="z">${esc(w.zh)}</span></li>`;
     }
-    const st=cardState(w);
-    const dot={new:"new",learning:"learn",mastered:"master"}[st];
     return `<li class="worditem" onclick="openDetail('${esc(w.word)}','renderGroupBack')">
       <span class="dot ${dot}"></span>
       <span class="w">${esc(w.word)}</span>
       <span class="z">${esc(w.zh)}</span></li>`;
-  }).join("");
+  };
+  ul.innerHTML=dates.map(d=>`<li class="datehead">${fmtDate(d)}<span class="dcnt">${groups.get(d).length} 个</span></li>`+groups.get(d).map(item).join("")).join("");
 }
 function renderGroupBack(){showGroup(curGroupKind);}
 function enterSelect(){groupSelectMode=true;groupSelected=new Set();renderGroup(groupWordsOf(curGroupKind));}
@@ -2205,11 +2233,10 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="2.1"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="2.2"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "乐器们重新归类：人声、音效、氛围、合成技术等移出，只留真正的乐器与乐器音色",
-  "词网选中标签后，点左上角图标进单词本，直接定位到同一标签",
-  "双击「已收录」翻牌：卡片翻到背面时自动朗读单词发音"
+  "已学习/已掌握按日期分组，每天学了几个单词一目了然",
+  "多选模式下也显示单词状态灯（蓝=已学习，金=已拼写）"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);

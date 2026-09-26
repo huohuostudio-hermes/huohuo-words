@@ -158,6 +158,15 @@ ok(groupSelected.size===2, "多选勾选 2 个");
 actSelected("review");
 ok(session.spellQueue.length===2, "复习所选 2 个进队列");
 
+// 14b. 分组页按日期分组 + 多选状态灯
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+markLearned(WORDS[0]); markMastered(WORDS[1]);
+showGroup("learned");
+ok(String(mainEl.innerHTML).indexOf("datehead")>=0, "已学习页按日期分组含日期头");
+ok(String(mainEl.innerHTML).indexOf("今天 · ")>=0, "日期头显示「今天」");
+enterSelect();
+ok(String(mainEl.innerHTML).indexOf('class="dot')>=0, "多选模式仍显示状态灯 dot");
+
 // 15. 词网渲染冒烟 + 边/布局
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
 chainCat="乐器们";
