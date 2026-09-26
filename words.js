@@ -2274,8 +2274,7 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 170,
-    "audioFile": "18e7501046bdbb52"
+    "id": 170
   },
   {
     "word": "Alien",
