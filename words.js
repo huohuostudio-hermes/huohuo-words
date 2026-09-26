@@ -7224,6 +7224,33 @@ window.WORDS = [
     "audioFile": "59dfa91c83094dfc"
   },
   {
+    "word": "Max Mode",
+    "ipa": "",
+    "translit": "",
+    "zh": "最大模式",
+    "def": "指将某个系统、效果或参数设置为最高强度或最大范围的运行状态。",
+    "example": "例子：在音频软件中开启 Max Mode 后，压缩器会以最强力度处理信号。",
+    "context": "Max Mode Max",
+    "contextZh": "最大模式 最大",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 533,
+    "audioFile": "d99f69d84b541263"
+  },
+  {
+    "word": "Max",
+    "ipa": "",
+    "translit": "",
+    "zh": "最大值 / 最大",
+    "def": "表示某个参数、数值或程度的上限。",
+    "example": "例子：把音量旋钮拧到 Max，即调到最大音量。",
+    "context": "Max Mode Max",
+    "contextZh": "最大模式 最大",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 534
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -7234,7 +7261,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 533
+    "id": 535
   },
   {
     "word": "Conga",
@@ -7247,7 +7274,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 534,
+    "id": 536,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -7261,7 +7288,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 535
+    "id": 537
   },
   {
     "word": "Grooves",
@@ -7274,7 +7301,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 536
+    "id": 538
   },
   {
     "word": "Bongos",
@@ -7287,7 +7314,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 537,
+    "id": 539,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -7301,7 +7328,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 538
+    "id": 540
   },
   {
     "word": "Djembe",
@@ -7314,7 +7341,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 539
+    "id": 541
   },
   {
     "word": "Tambourine",
@@ -7327,7 +7354,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 540
+    "id": 542
   },
   {
     "word": "Cowbells",
@@ -7340,7 +7367,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 541
+    "id": 543
   },
   {
     "word": "Bells",
@@ -7353,7 +7380,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 542,
+    "id": 544,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -7367,7 +7394,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 543,
+    "id": 545,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -7381,7 +7408,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 544
+    "id": 546
   },
   {
     "word": "Wurlitzer",
@@ -7394,7 +7421,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 545,
+    "id": 547,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -7408,7 +7435,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 546,
+    "id": 548,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7422,7 +7449,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 547
+    "id": 549
   },
   {
     "word": "Clavinet",
@@ -7435,7 +7462,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 548,
+    "id": 550,
     "audioFile": "bf34769991153703"
   },
   {
@@ -7449,7 +7476,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 549,
+    "id": 551,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7463,7 +7490,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 550
+    "id": 552
   },
   {
     "word": "Female Vocals",
@@ -7476,7 +7503,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 551,
+    "id": 553,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7490,7 +7517,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 552
+    "id": 554
   },
   {
     "word": "Screams",
@@ -7503,7 +7530,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 553
+    "id": 555
   },
   {
     "word": "Whisper Vocals",
@@ -7516,7 +7543,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 554,
+    "id": 556,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7530,7 +7557,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 555,
+    "id": 557,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -7544,7 +7571,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 556,
+    "id": 558,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -7558,7 +7585,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 557,
+    "id": 559,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -7572,7 +7599,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 558
+    "id": 560
   }
 ];
 window.SOURCES = [
@@ -10189,6 +10216,22 @@ window.SOURCES = [
       {
         "word": "3 credits",
         "zh": "3 个学分"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "text": "Max Mode Max",
+    "translation": "最大模式 最大",
+    "category": "",
+    "branches": [
+      {
+        "word": "Max Mode",
+        "zh": "最大模式"
+      },
+      {
+        "word": "Max",
+        "zh": "最大值 / 最大"
       }
     ]
   }
