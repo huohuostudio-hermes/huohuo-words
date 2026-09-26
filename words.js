@@ -7197,8 +7197,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 530,
-    "audioFile": "bcdf033e226f5292"
+    "id": 530
   },
   {
     "word": "Djembe",
@@ -7250,7 +7249,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 534
+    "id": 534,
+    "audioFile": "48b104cb965b3fe3"
   },
   {
     "word": "Timbales",
