@@ -183,6 +183,13 @@ cardDeck={cards:[{w:WORDS[0]},{w:WORDS[1]},{w:WORDS[2]}],idx:0,flipped:false};
 deckSpellAll();
 ok(session.spellQueue.length===3, "deckSpellAll 3 词进拼写队列");
 
+// 14d. 重复拼写不改 masteredOn（已掌握日期固定为首次拼写日）
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+markMastered(WORDS[0]);
+cardOf(WORDS[0]).masteredOn = "2026-09-25";
+markMastered(WORDS[0]);
+ok(cardOf(WORDS[0]).masteredOn === "2026-09-25", "再次拼写不改 masteredOn（保持首次日期）");
+
 // 15. 词网渲染冒烟 + 边/布局
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
 chainCat="乐器们";

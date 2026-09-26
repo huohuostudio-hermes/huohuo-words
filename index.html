@@ -1217,7 +1217,7 @@ function markMastered(w){
   const c = cardOf(w) || {state:"mastered"};
   c.state = "mastered";
   if(!c.learnedOn) c.learnedOn = t;
-  c.masteredOn = t;
+  if(!c.masteredOn) c.masteredOn = t;
   progress.cards[w.word] = c;
   bumpStreak();
   save();
@@ -2257,10 +2257,9 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="2.3"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="2.4"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "已学习/已掌握日期组可折叠/展开，折叠的日期不参与抽卡",
-  "翻牌页左上角新增「拼写」按钮，一键拼写抽出的卡片"
+  "已掌握页日期固定为首次拼写的日期，重复拼写不再改日期"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);
