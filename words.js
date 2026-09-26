@@ -7118,6 +7118,73 @@ window.WORDS = [
     "audioFile": "a6c3f0128c3bc76b"
   },
   {
+    "word": "parasite",
+    "ipa": "ˈpærəsaɪt",
+    "translit": "",
+    "zh": "寄生生物 / 寄生虫",
+    "def": "一种依附于宿主生物体、从其体内获取营养并对其造成损害的有机体，也引申指不劳而获、依赖他人供养的人。",
+    "example": "例子：蛔虫寄生在人体肠道内，靠吸收宿主的营养存活。",
+    "context": "parasite",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 525
+  },
+  {
+    "word": "Rare Finds",
+    "ipa": "",
+    "translit": "",
+    "zh": "稀有发现 / 罕见珍品",
+    "def": "指不常见、难以获得或偶然发现的物品、机会或人才，通常具有较高价值或吸引力。",
+    "example": "例子：二手唱片店里偶然翻到的一张绝版黑胶唱片，就可以称为 a rare find。",
+    "context": "• Rare Finds",
+    "contextZh": "稀有发现 / 罕见珍品",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 526,
+    "audioFile": "a7e7d862a503728f"
+  },
+  {
+    "word": "Instruments",
+    "ipa": "ˈɪnstrəmənts",
+    "translit": "",
+    "zh": "乐器",
+    "def": "指用于演奏音乐、产生声音的各种器具或装置。",
+    "example": "例子：钢琴、小提琴、吉他、鼓等都是常见的乐器。",
+    "context": "Instruments",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 527
+  },
+  {
+    "word": "Stacks",
+    "ipa": "stæks",
+    "translit": "",
+    "zh": "堆叠 / 叠层",
+    "def": "指将多个声音、音轨或效果器叠加在一起，形成更厚实或更复杂的音色。",
+    "example": "例子：在合成器中把多个振荡器堆叠（oscillator stacks）来获得更饱满的声音。",
+    "context": "Stacks",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 528
+  },
+  {
+    "word": "All Collections",
+    "ipa": "",
+    "translit": "",
+    "zh": "所有合集",
+    "def": "指某个平台或应用中将全部内容集合在一起的总入口，通常位于导航栏或侧边菜单中。",
+    "example": "例子：在音乐流媒体应用中，点击“All Collections”可查看所有已保存的歌单和专辑。",
+    "context": "All Collections",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 529,
+    "audioFile": "50a9852632e7f9e1"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -7128,7 +7195,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 525
+    "id": 530
   },
   {
     "word": "Conga",
@@ -7141,7 +7208,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 526,
+    "id": 531,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -7155,7 +7222,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 527
+    "id": 532
   },
   {
     "word": "Grooves",
@@ -7168,7 +7235,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 528
+    "id": 533
   },
   {
     "word": "Bongos",
@@ -7181,7 +7248,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 529,
+    "id": 534,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -7195,7 +7262,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 530
+    "id": 535
   },
   {
     "word": "Djembe",
@@ -7208,7 +7275,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 531
+    "id": 536
   },
   {
     "word": "Tambourine",
@@ -7221,7 +7288,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 532
+    "id": 537
   },
   {
     "word": "Cowbells",
@@ -7234,7 +7301,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 533
+    "id": 538
   },
   {
     "word": "Bells",
@@ -7247,7 +7314,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 534,
+    "id": 539,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -7261,7 +7328,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 535,
+    "id": 540,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -7275,7 +7342,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 536
+    "id": 541
   },
   {
     "word": "Wurlitzer",
@@ -7288,7 +7355,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 537,
+    "id": 542,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -7302,7 +7369,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 538,
+    "id": 543,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7316,7 +7383,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 539
+    "id": 544
   },
   {
     "word": "Clavinet",
@@ -7329,7 +7396,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 540,
+    "id": 545,
     "audioFile": "bf34769991153703"
   },
   {
@@ -7343,7 +7410,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 541,
+    "id": 546,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7357,7 +7424,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 542
+    "id": 547
   },
   {
     "word": "Female Vocals",
@@ -7370,7 +7437,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 543,
+    "id": 548,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7384,7 +7451,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 544
+    "id": 549
   },
   {
     "word": "Screams",
@@ -7397,7 +7464,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 545
+    "id": 550
   },
   {
     "word": "Whisper Vocals",
@@ -7410,7 +7477,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 546,
+    "id": 551,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7424,7 +7491,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 547,
+    "id": 552,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -7438,7 +7505,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 548,
+    "id": 553,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -7452,7 +7519,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 549,
+    "id": 554,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -7466,7 +7533,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 550
+    "id": 555
   }
 ];
 window.SOURCES = [
@@ -10031,6 +10098,30 @@ window.SOURCES = [
       {
         "word": "after an update",
         "zh": "在更新之后"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "text": "• Rare Finds",
+    "translation": "稀有发现 / 罕见珍品",
+    "category": "",
+    "branches": [
+      {
+        "word": "Rare Finds",
+        "zh": "稀有发现 / 罕见珍品"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "text": "All Collections",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "All Collections",
+        "zh": "所有合集"
       }
     ]
   }
