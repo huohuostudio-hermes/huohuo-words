@@ -7185,6 +7185,46 @@ window.WORDS = [
     "audioFile": "50a9852632e7f9e1"
   },
   {
+    "word": "Browse",
+    "ipa": "braʊz",
+    "translit": "",
+    "zh": "浏览 / 翻阅",
+    "def": "指随意地查看或翻阅内容，常用于网页、文件或商品列表的快速查看。",
+    "example": "例子：在应用商店里浏览新上架的应用。",
+    "context": "Browse Create",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 530
+  },
+  {
+    "word": "Create",
+    "ipa": "kriˈeɪt",
+    "translit": "",
+    "zh": "创建 / 创造",
+    "def": "指从无到有地建立或生成新的事物，常用于新建文件、项目或内容。",
+    "example": "例子：点击按钮创建一个新的文档。",
+    "context": "Browse Create",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 531
+  },
+  {
+    "word": "3 credits",
+    "ipa": "",
+    "translit": "",
+    "zh": "3 个学分",
+    "def": "指完成一门课程后获得的学业计量单位，通常用于大学和高等教育体系。",
+    "example": "例子：这门课每周上三小时，修完后可获得 3 个学分。",
+    "context": "3 credits",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 532,
+    "audioFile": "59dfa91c83094dfc"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -7195,7 +7235,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 530
+    "id": 533
   },
   {
     "word": "Conga",
@@ -7208,7 +7248,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 531,
+    "id": 534,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -7222,7 +7262,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 532
+    "id": 535
   },
   {
     "word": "Grooves",
@@ -7235,7 +7275,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 533
+    "id": 536
   },
   {
     "word": "Bongos",
@@ -7248,7 +7288,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 534,
+    "id": 537,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -7262,7 +7302,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 535
+    "id": 538
   },
   {
     "word": "Djembe",
@@ -7275,7 +7315,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 536
+    "id": 539
   },
   {
     "word": "Tambourine",
@@ -7288,7 +7328,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 537
+    "id": 540
   },
   {
     "word": "Cowbells",
@@ -7301,7 +7341,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 538
+    "id": 541
   },
   {
     "word": "Bells",
@@ -7314,7 +7354,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 539,
+    "id": 542,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -7328,7 +7368,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 540,
+    "id": 543,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -7342,7 +7382,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 541
+    "id": 544
   },
   {
     "word": "Wurlitzer",
@@ -7355,7 +7395,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 542,
+    "id": 545,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -7369,7 +7409,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 543,
+    "id": 546,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7383,7 +7423,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 544
+    "id": 547
   },
   {
     "word": "Clavinet",
@@ -7396,7 +7436,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 545,
+    "id": 548,
     "audioFile": "bf34769991153703"
   },
   {
@@ -7410,7 +7450,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 546,
+    "id": 549,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7424,7 +7464,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 547
+    "id": 550
   },
   {
     "word": "Female Vocals",
@@ -7437,7 +7477,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 548,
+    "id": 551,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7451,7 +7491,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 549
+    "id": 552
   },
   {
     "word": "Screams",
@@ -7464,7 +7504,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 550
+    "id": 553
   },
   {
     "word": "Whisper Vocals",
@@ -7477,7 +7517,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 551,
+    "id": 554,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7491,7 +7531,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 552,
+    "id": 555,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -7505,7 +7545,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 553,
+    "id": 556,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -7519,7 +7559,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 554,
+    "id": 557,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -7533,7 +7573,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 555
+    "id": 558
   }
 ];
 window.SOURCES = [
@@ -10122,6 +10162,34 @@ window.SOURCES = [
       {
         "word": "All Collections",
         "zh": "所有合集"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "text": "Browse Create",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Browse",
+        "zh": "浏览 / 翻阅"
+      },
+      {
+        "word": "Create",
+        "zh": "创建 / 创造"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "text": "3 credits",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "3 credits",
+        "zh": "3 个学分"
       }
     ]
   }
