@@ -2097,51 +2097,94 @@ function beginSessionOn(words, mode){
 let favBack="renderMenu";
 let favSelectMode=false;
 let favSelected=new Set();
+let favCollapsed=new Set();
+let favDeckTapTime=0;
 function favWords(){return allWords().filter(isFav);}
-function openFavs(back){favBack=back||"renderMenu";favSelectMode=false;favSelected=new Set();renderFavs();}
+function favDateOf(w){
+  const c=cardOf(w);
+  if(!c) return "";
+  return c.masteredOn || c.learnedOn || "";
+}
+function favVisibleWords(){
+  const words=favWords();
+  if(favCollapsed.size===0) return words;
+  return words.filter(w=>!favCollapsed.has(favDateOf(w)));
+}
+function toggleFavDate(d){
+  if(favCollapsed.has(d)) favCollapsed.delete(d);
+  else favCollapsed.add(d);
+  renderFavs();
+}
+function onFavCountTap(){
+  const now=Date.now();
+  if(now-favDeckTapTime<400){ favDeckTapTime=0; openFavDeck(); }
+  else favDeckTapTime=now;
+}
+function openFavDeck(){
+  const words=favVisibleWords();
+  openDeckFrom(words, words.length===0?"所有日期都已折叠，先展开一个日期再抽卡":"还没有收藏的单词");
+}
+function openFavs(back){favBack=back||"renderMenu";favSelectMode=false;favSelected=new Set();favCollapsed=new Set();renderFavs();}
 function renderFavs(){
   const words=favWords();
   const backFn=favBack;
+  let actions="";
+  if(favSelectMode){
+    actions=`
+      <div class="group-actions selbar">
+        <span class="selcount">已选 ${favSelected.size} 个</span>
+        <button class="btn small" onclick="favSelectAll()">全选</button>
+        <button class="btn small warn" onclick="cancelFavSelected()">取消收藏</button>
+      </div>
+      <div class="group-actions">
+        <button class="btn primary" onclick="actFavSelected('learn')">📖 学习所选</button>
+        <button class="btn" onclick="actFavSelected('review')">✏️ 拼写所选</button>
+      </div>`;
+  }else if(words.length>0){
+    actions=`
+      <div class="brandsub-wrap groupcount" onclick="onFavCountTap()"><div class="brandsub">已收藏 ${words.length} 个单词</div></div>
+      <div class="group-actions selbar"><button class="btn small" onclick="enterFavSelect()">☑ 多选</button></div>`;
+  }
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="${favSelectMode?"exitFavSelect()":backFn+"()"}">${favSelectMode?"完成":"← 返回"}</button>
       <div class="t">⭐ 收藏${favSelectMode?" · 已选 "+favSelected.size:""}</div>
     </div>
-    ${favSelectMode?`<div class="group-actions selbar">
-      <span class="selcount">已选 ${favSelected.size} 个</span>
-      <button class="btn small" onclick="favSelectAll()">全选</button>
-      <button class="btn small warn" onclick="cancelFavSelected()">取消收藏</button>
-    </div>
-    <div class="group-actions">
-      <button class="btn primary" onclick="actFavSelected('learn')">📖 学习所选</button>
-      <button class="btn" onclick="actFavSelected('review')">✏️ 拼写所选</button>
-    </div>`:`<div class="group-actions selbar"><button class="btn small" onclick="enterFavSelect()">☑ 多选</button></div>`}
+    ${actions}
     <div class="wordlist" id="list"></div>`;
   renderFavItems(words);
 }
 function renderFavItems(words){
   const box=$("#list");
   if(words.length===0){box.innerHTML='<div class="empty">还没有收藏的单词<br>去单词详情页点 ☆ 收藏</div>';return;}
-  if(favSelectMode){
-    box.innerHTML=words.map(w=>{
+  const groups=new Map();
+  for(const w of words){
+    const d=favDateOf(w);
+    if(!groups.has(d)) groups.set(d,[]);
+    groups.get(d).push(w);
+  }
+  const dates=[...groups.keys()].sort().reverse();
+  const item=w=>{
+    const st=cardState(w);
+    const dot={new:"new",learning:"learn",mastered:"master"}[st];
+    if(favSelectMode){
       const on=favSelected.has(w.word);
-      const st=cardState(w);
-      const dot={new:"new",learning:"learn",mastered:"master"}[st];
       return `<li class="worditem" onclick="toggleFavWord('${esc(w.word)}')">
         <span class="chk ${on?"on":""}">${on?"✓":""}</span>
         <span class="dot ${dot}"></span>
         <span class="w">${esc(w.word)}</span>
         <span class="z">${esc(w.zh)}</span></li>`;
-    }).join("");
-    return;
-  }
-  box.innerHTML=words.map(w=>{
-    const st=cardState(w);
-    const dot={new:"new",learning:"learn",mastered:"master"}[st];
+    }
     return `<li class="worditem" onclick="openDetail('${esc(w.word)}','renderFavs')">
       <span class="dot ${dot}"></span>
       <span class="w">${esc(w.word)}</span>
       <span class="z">${esc(w.zh)}</span></li>`;
+  };
+  box.innerHTML=dates.map(d=>{
+    const collapsed=favCollapsed.has(d);
+    const head=`<li class="datehead" onclick="toggleFavDate('${esc(d)}')"><span class="darrow">${collapsed?"▸":"▾"}</span>${fmtDate(d)}<span class="dcnt">${groups.get(d).length} 个</span></li>`;
+    if(collapsed) return head;
+    return head+groups.get(d).map(item).join("");
   }).join("");
 }
 function enterFavSelect(){favSelectMode=true;favSelected=new Set();renderFavs();}
@@ -2257,9 +2300,9 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="2.4"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="2.5"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "已掌握页日期固定为首次拼写的日期，重复拼写不再改日期"
+  "收藏页同步翻牌抽卡、日期分组与折叠，和已学习/已掌握逻辑一致"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);

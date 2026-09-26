@@ -292,6 +292,21 @@ actFavSelected("review");
 ok(session.spellQueue.length===1, "收藏复习所选1词");
 exitFavSelect();
 
+// 21b. 收藏页日期分组 + 折叠 + 抽卡只取展开
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+toggleFav(WORDS[0].word); toggleFav(WORDS[1].word); toggleFav(WORDS[2].word);
+markLearned(WORDS[0]); markMastered(WORDS[1]);
+openFavs("renderMenu");
+ok(String(mainEl.innerHTML).indexOf("datehead")>=0, "收藏页按日期分组含日期头");
+const fTotal=favWords().length;
+toggleFavDate(favDateOf(WORDS[0]));
+ok(favCollapsed.size>0 && favVisibleWords().length < fTotal, "收藏页折叠后可见词变少");
+toggleFavDate(favDateOf(WORDS[0]));
+ok(favVisibleWords().length===fTotal, "收藏页再点展开恢复全部可见");
+cardDeck=null;
+openFavDeck();
+ok(cardDeck!==null && cardDeck.cards.length===fTotal, "收藏页抽卡取全部展开词（<=5 时全抽）");
+
 // 22. 单词本（分类）管理：改名 / 新建 / 删除
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
 ok(catName("乐器们")==="乐器们", "未改名 catName 返回原名");
