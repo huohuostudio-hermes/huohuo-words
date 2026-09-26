@@ -7251,6 +7251,45 @@ window.WORDS = [
     "id": 534
   },
   {
+    "word": "Twinkly",
+    "ipa": "ˈtwɪŋkli",
+    "translit": "",
+    "zh": "闪烁的 / 晶莹的",
+    "def": "形容音色明亮、清脆、带有高频闪光感的形容词，常用于描述吉他或合成器的音色。",
+    "example": "听觉例子：高把位吉他泛音像星星一样一闪一闪的清脆音色。",
+    "context": "[Twinkly Guitar Riff] (Instrumental)",
+    "contextZh": "[晶莹闪烁的吉他连复段]",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 535
+  },
+  {
+    "word": "Riff",
+    "ipa": "rɪf",
+    "translit": "",
+    "zh": "连复段 / 反复段",
+    "def": "一段短小、重复演奏的乐器乐句，通常是歌曲的核心动机。",
+    "example": "听觉例子：摇滚歌曲中吉他反复弹奏的那段标志性旋律。",
+    "context": "[Twinkly Guitar Riff] (Instrumental)",
+    "contextZh": "[晶莹闪烁的吉他连复段]",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 536
+  },
+  {
+    "word": "Instrumental",
+    "ipa": "ˌɪnstrəˈmentl",
+    "translit": "",
+    "zh": "器乐的 / 纯器乐段落",
+    "def": "指没有人声演唱、仅由乐器演奏的音乐段落。",
+    "example": "例子：一首歌中吉他独奏、没有歌词的那一段。",
+    "context": "[Twinkly Guitar Riff] (Instrumental)",
+    "contextZh": "[晶莹闪烁的吉他连复段]",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 537
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -7261,7 +7300,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 535
+    "id": 538
   },
   {
     "word": "Conga",
@@ -7274,7 +7313,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 536,
+    "id": 539,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -7288,7 +7327,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 537
+    "id": 540
   },
   {
     "word": "Grooves",
@@ -7301,7 +7340,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 538
+    "id": 541
   },
   {
     "word": "Bongos",
@@ -7314,7 +7353,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 539,
+    "id": 542,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -7328,7 +7367,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 540
+    "id": 543
   },
   {
     "word": "Djembe",
@@ -7341,7 +7380,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 541
+    "id": 544
   },
   {
     "word": "Tambourine",
@@ -7354,7 +7393,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 542
+    "id": 545
   },
   {
     "word": "Cowbells",
@@ -7367,7 +7406,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 543
+    "id": 546
   },
   {
     "word": "Bells",
@@ -7380,7 +7419,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 544,
+    "id": 547,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -7394,7 +7433,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 545,
+    "id": 548,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -7408,7 +7447,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 546
+    "id": 549
   },
   {
     "word": "Wurlitzer",
@@ -7421,7 +7460,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 547,
+    "id": 550,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -7435,7 +7474,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 548,
+    "id": 551,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7449,7 +7488,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 549
+    "id": 552
   },
   {
     "word": "Clavinet",
@@ -7462,7 +7501,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 550,
+    "id": 553,
     "audioFile": "bf34769991153703"
   },
   {
@@ -7476,7 +7515,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 551,
+    "id": 554,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7490,7 +7529,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 552
+    "id": 555
   },
   {
     "word": "Female Vocals",
@@ -7503,7 +7542,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 553,
+    "id": 556,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7517,7 +7556,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 554
+    "id": 557
   },
   {
     "word": "Screams",
@@ -7530,7 +7569,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 555
+    "id": 558
   },
   {
     "word": "Whisper Vocals",
@@ -7543,7 +7582,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 556,
+    "id": 559,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7557,7 +7596,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 557,
+    "id": 560,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -7571,7 +7610,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 558,
+    "id": 561,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -7585,7 +7624,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 559,
+    "id": 562,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -7599,7 +7638,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 560
+    "id": 563
   }
 ];
 window.SOURCES = [
@@ -10232,6 +10271,42 @@ window.SOURCES = [
       {
         "word": "Max",
         "zh": "最大值 / 最大"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "text": "[Twinkly Guitar Riff] (Instrumental)",
+    "translation": "[晶莹闪烁的吉他连复段]",
+    "category": "",
+    "branches": [
+      {
+        "word": "Twinkly",
+        "zh": "闪烁的 / 晶莹的"
+      },
+      {
+        "word": "Guitar",
+        "zh": "吉他"
+      },
+      {
+        "word": "Riff",
+        "zh": "连复段 / 反复段"
+      },
+      {
+        "word": "Instrumental",
+        "zh": "器乐的 / 纯器乐段落"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "text": "• Create",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Create",
+        "zh": "创建"
       }
     ]
   }
