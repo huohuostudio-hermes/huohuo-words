@@ -176,7 +176,8 @@ mark,.hl{background:rgba(230,184,74,.22);color:var(--accent2);padding:1px 3px;bo
 .selcount{flex:1;font-size:14px;font-weight:700;color:var(--accent2)}
 .chk{width:22px;height:22px;border-radius:7px;border:1.5px solid var(--border2);flex:0 0 auto;display:grid;place-items:center;font-size:14px;font-weight:800;color:#000}
 .chk.on{background:var(--accent);border-color:var(--accent)}
-.datehead{display:flex;align-items:center;gap:8px;margin:14px 2px 2px;font-size:13px;font-weight:800;color:var(--accent2);letter-spacing:.3px}
+.datehead{display:flex;align-items:center;gap:8px;margin:14px 2px 2px;font-size:13px;font-weight:800;color:var(--accent2);letter-spacing:.3px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.datehead .darrow{font-size:11px;color:var(--accent);flex:0 0 auto;transition:transform .18s}
 .datehead .dcnt{margin-left:auto;font-size:12px;font-weight:700;color:var(--muted)}
 
 /* ===== 我的 ===== */
@@ -310,8 +311,11 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 .groupcount{display:block;margin:2px 0 14px}
 .groupcount .brandsub{display:block;text-align:center;letter-spacing:2px;padding:8px 16px}
 #cardDeck{position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.96);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px}
-.deck-head{position:absolute;top:calc(14px + env(safe-area-inset-top));left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:0 20px}
+.deck-head{position:absolute;top:calc(14px + env(safe-area-inset-top));left:0;right:0;display:flex;align-items:flex-start;justify-content:space-between;padding:0 20px}
+.deck-left{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
 .deck-count{font-size:13px;color:var(--muted);font-weight:600}
+.deck-spell{display:inline-flex;align-items:center;gap:5px;border:1.5px solid var(--accent);background:rgba(230,184,74,.1);color:var(--accent2);border-radius:999px;padding:7px 15px;font-size:13px;font-weight:700;cursor:pointer;box-shadow:0 0 12px rgba(230,184,74,.22)}
+.deck-spell:active{opacity:.75}
 .deck-close{width:36px;height:36px;border-radius:50%;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:16px;cursor:pointer;display:grid;place-items:center}
 .deck-stage{position:relative;width:100%;max-width:340px;height:560px;perspective:1200px;touch-action:none}
 .pcard{position:absolute;inset:0;cursor:pointer;touch-action:none;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}
@@ -391,7 +395,10 @@ nav button .badge{position:absolute;transform:translate(14px,-4px);background:va
 
 <div id="cardDeck" style="display:none">
   <div class="deck-head">
-    <span id="deckCount" class="deck-count">1 / 5</span>
+    <div class="deck-left">
+      <span id="deckCount" class="deck-count">1 / 5</span>
+      <button class="deck-spell" onclick="deckSpellAll()">✏️ 拼写</button>
+    </div>
     <button class="deck-close" onclick="closeDeck()">✕</button>
   </div>
   <div class="deck-stage" id="deckStage"></div>
@@ -1944,8 +1951,19 @@ function reviewThis(word){ const w=WORDS.find(x=>x.word===word); if(w) beginSess
 let curGroupKind=null;
 let groupSelectMode=false;
 let groupSelected=new Set();
+let groupCollapsed=new Set();
 function groupWordsOf(kind){
   return kind==="mastered"?allWords().filter(isMastered):allWords().filter(w=>cardOf(w));
+}
+function groupVisibleWords(kind){
+  const words=groupWordsOf(kind);
+  if(groupCollapsed.size===0) return words;
+  return words.filter(w=>!groupCollapsed.has(groupDateOf(w)));
+}
+function toggleGroupDate(d){
+  if(groupCollapsed.has(d)) groupCollapsed.delete(d);
+  else groupCollapsed.add(d);
+  renderGroup(groupWordsOf(curGroupKind));
 }
 function groupDateOf(w){
   const c=cardOf(w);
@@ -1968,6 +1986,7 @@ function showGroup(kind){
   curGroupKind=kind;
   groupSelectMode=false;
   groupSelected=new Set();
+  groupCollapsed=new Set();
   renderGroup(groupWordsOf(kind));
 }
 function renderGroup(words){
@@ -2030,7 +2049,12 @@ function renderGroupItems(words){
       <span class="w">${esc(w.word)}</span>
       <span class="z">${esc(w.zh)}</span></li>`;
   };
-  ul.innerHTML=dates.map(d=>`<li class="datehead">${fmtDate(d)}<span class="dcnt">${groups.get(d).length} 个</span></li>`+groups.get(d).map(item).join("")).join("");
+  ul.innerHTML=dates.map(d=>{
+    const collapsed=groupCollapsed.has(d);
+    const head=`<li class="datehead" onclick="toggleGroupDate('${esc(d)}')"><span class="darrow">${collapsed?"▸":"▾"}</span>${fmtDate(d)}<span class="dcnt">${groups.get(d).length} 个</span></li>`;
+    if(collapsed) return head;
+    return head+groups.get(d).map(item).join("");
+  }).join("");
 }
 function renderGroupBack(){showGroup(curGroupKind);}
 function enterSelect(){groupSelectMode=true;groupSelected=new Set();renderGroup(groupWordsOf(curGroupKind));}
@@ -2233,10 +2257,10 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="2.2"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="2.3"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "已学习/已掌握按日期分组，每天学了几个单词一目了然",
-  "多选模式下也显示单词状态灯（蓝=已学习，金=已拼写）"
+  "已学习/已掌握日期组可折叠/展开，折叠的日期不参与抽卡",
+  "翻牌页左上角新增「拼写」按钮，一键拼写抽出的卡片"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);
@@ -2394,7 +2418,8 @@ function onGroupCountTap(kind){
   else groupDeckTapTime=now;
 }
 function openGroupDeck(kind){
-  openDeckFrom(groupWordsOf(kind), kind==="mastered"?"还没有已掌握的单词":"还没有已学习的单词");
+  const words=groupVisibleWords(kind);
+  openDeckFrom(words, words.length===0?"所有日期都已折叠，先展开一个日期再抽卡":(kind==="mastered"?"还没有已掌握的单词":"还没有已学习的单词"));
 }
 function closeDeck(){
   cardDeck=null;
@@ -2460,6 +2485,12 @@ function deckLearn(word){ closeDeck(); learnThis(word); }
 function deckDetail(word){ closeDeck(); openDetail(word, "renderMenu"); }
 function deckFav(word){ toggleFav(word); if(cardDeck)renderDeckCard(false); }
 function deckReview(word){ closeDeck(); reviewThis(word); }
+function deckSpellAll(){
+  if(!cardDeck||cardDeck.cards.length===0){ closeDeck(); return; }
+  const words=cardDeck.cards.map(c=>c.w);
+  closeDeck();
+  beginSessionOn(words, "review");
+}
 function delWordDeck(word){
   if(!confirm("删除这个单词？删除后可在「设置 → 已删除」中恢复"))return;
   hideWord(word);

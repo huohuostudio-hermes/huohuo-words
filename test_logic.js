@@ -167,6 +167,22 @@ ok(String(mainEl.innerHTML).indexOf("今天 · ")>=0, "日期头显示「今天�
 enterSelect();
 ok(String(mainEl.innerHTML).indexOf('class="dot')>=0, "多选模式仍显示状态灯 dot");
 
+// 14c. 日期头折叠 + 抽卡只取展开组 + deck 拼写全部
+progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
+markLearned(WORDS[0]); markLearned(WORDS[1]); markMastered(WORDS[2]);
+showGroup("learned");
+ok(String(mainEl.innerHTML).indexOf("darrow")>=0, "日期头含折叠箭头");
+const gTotal=groupWordsOf("learned").length;
+toggleGroupDate(todayStr());
+ok(groupCollapsed.has(todayStr()), "折叠今天后 groupCollapsed 记录该日期");
+ok(groupVisibleWords("learned").length < gTotal, "折叠后可见词变少");
+toggleGroupDate(todayStr());
+ok(groupVisibleWords("learned").length===gTotal, "再点展开恢复全部可见");
+showGroup("learned");
+cardDeck={cards:[{w:WORDS[0]},{w:WORDS[1]},{w:WORDS[2]}],idx:0,flipped:false};
+deckSpellAll();
+ok(session.spellQueue.length===3, "deckSpellAll 3 词进拼写队列");
+
 // 15. 词网渲染冒烟 + 边/布局
 progress = normalize({cards:{},settings:{dailyNew:10},stats:{}});
 chainCat="乐器们";
