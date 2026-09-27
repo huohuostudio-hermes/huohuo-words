@@ -53,11 +53,13 @@ header{padding:calc(14px + env(safe-area-inset-top)) 20px 10px;display:flex;alig
 main{flex:1;padding:8px 20px calc(24px + env(safe-area-inset-bottom));display:flex;flex-direction:column}
 
 /* ===== 顶栏(返回) ===== */
-.topbar{display:flex;align-items:center;gap:10px;margin:2px 0 14px}
+.topbar{display:flex;align-items:center;gap:10px;margin:2px 0 14px;position:relative}
 .backbtn{display:flex;align-items:center;gap:4px;background:var(--card);border:1px solid var(--border);
   color:var(--text);padding:8px 14px;border-radius:999px;font-size:14px;font-weight:600;cursor:pointer}
 .backbtn:active{opacity:.7}
 .topbar .t{font-size:16px;font-weight:700;flex:1;text-align:center;margin-right:70px}
+.topbar .upper-toggle{position:absolute;right:0;top:50%;transform:translateY(-50%);background:var(--card);border:1px solid var(--border);color:var(--text);padding:7px 13px;border-radius:999px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;transition:.15s}
+.topbar .upper-toggle.on{background:linear-gradient(135deg,var(--accent2),var(--accent));border-color:var(--accent);color:#1a1206;box-shadow:0 2px 12px rgba(230,184,74,.35)}
 
 /* ===== 概览/菜单 ===== */
 .overview{display:flex;gap:10px;margin:6px 0 16px}
@@ -2000,6 +2002,7 @@ function showGroup(kind){
 }
 function renderGroup(words){
   const title=curGroupKind==="mastered"?"已掌握":"已学习";
+  const upperBtn=curGroupKind==="mastered"?`<button class="upper-toggle ${upperMode?"on":""}" onclick="toggleUpper('group')">切换</button>`:"";
   let actions="";
   if(groupSelectMode){
     actions=`
@@ -2013,10 +2016,8 @@ function renderGroup(words){
         <button class="btn primary" onclick="actSelected('review')">拼写所选</button>
       </div>`;
   }else if(words.length>0){
-    const upperBtn=curGroupKind==="mastered"?`<div class="group-actions"><button class="btn small ${upperMode?"primary":""}" onclick="toggleUpper('group')">🔠 切换</button></div>`:"";
     actions=`
       <div class="brandsub-wrap groupcount" onclick="onGroupCountTap('${curGroupKind}')"><div class="brandsub">已收录 ${words.length} 个单词</div></div>
-      ${upperBtn}
       <div class="group-actions">
         <button class="btn blue" onclick="beginSessionOnGroup('${curGroupKind}','learn')">再学一遍</button>
         <button class="btn primary" onclick="beginSessionOnGroup('${curGroupKind}','review')">再拼写一遍</button>
@@ -2029,6 +2030,7 @@ function renderGroup(words){
     <div class="topbar">
       <button class="backbtn" onclick="renderMenu()">← 返回</button>
       <div class="t">${title}</div>
+      ${upperBtn}
     </div>
     ${actions}
     <ul class="wordlist" id="list"></ul>`;
@@ -2154,13 +2156,13 @@ function renderFavs(){
   }else if(words.length>0){
     actions=`
       <div class="brandsub-wrap groupcount" onclick="onFavCountTap()"><div class="brandsub">已收藏 ${words.length} 个单词</div></div>
-      <div class="group-actions"><button class="btn small ${upperMode?"primary":""}" onclick="toggleUpper('fav')">🔠 切换</button></div>
       <div class="group-actions selbar"><button class="btn small" onclick="enterFavSelect()">☑ 多选</button></div>`;
   }
   $("#main").innerHTML=`
     <div class="topbar">
       <button class="backbtn" onclick="${favSelectMode?"exitFavSelect()":backFn+"()"}">${favSelectMode?"完成":"← 返回"}</button>
       <div class="t">⭐ 收藏${favSelectMode?" · 已选 "+favSelected.size:""}</div>
+      <button class="upper-toggle ${upperMode?"on":""}" onclick="toggleUpper('fav')">切换</button>
     </div>
     ${actions}
     <div class="wordlist" id="list"></div>`;
