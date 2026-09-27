@@ -8141,6 +8141,104 @@ window.WORDS = [
     "audioFile": "e7c87721582c7fb0"
   },
   {
+    "word": "Fixed Interval",
+    "ipa": "ˌfɪkst ˈɪntərvəl",
+    "translit": "",
+    "zh": "固定音程",
+    "def": "指在音乐理论或 MIDI 设置中，两个音高之间保持不变的音程距离。",
+    "example": "例子：将 C 到 E 的大三度固定音程复制到 D 到 F#，保持相同音程关系。",
+    "context": "Fixed Interval / Scale Interval Chord Degrees Chord Name Chord Via MIDI MIDI Omni MIDI Channels",
+    "contextZh": "固定音程 / 音阶音程 和弦音级 和弦名称 通过 MIDI 触发和弦 MIDI 全通道接收",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 601,
+    "audioFile": "567e3ef9bd1f5f16"
+  },
+  {
+    "word": "Scale Interval",
+    "ipa": "skeɪl ˈɪntərvəl",
+    "translit": "",
+    "zh": "音阶音程",
+    "def": "指音阶中相邻音级之间的音程关系，用来描述音阶结构。",
+    "example": "例子：大调音阶的音程结构为全音、全音、半音、全音、全音、全音、半音。",
+    "context": "Fixed Interval / Scale Interval Chord Degrees Chord Name Chord Via MIDI MIDI Omni MIDI Channels",
+    "contextZh": "固定音程 / 音阶音程 和弦音级 和弦名称 通过 MIDI 触发和弦 MIDI 全通道接收",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 602,
+    "audioFile": "a22da76bcef1c39b"
+  },
+  {
+    "word": "Chord Degrees",
+    "ipa": "kɔːrd dɪˈɡriːz",
+    "translit": "",
+    "zh": "和弦音级",
+    "def": "指构成和弦的各音在所属音阶中的级数位置。",
+    "example": "例子：C 大三和弦由 1 级、3 级、5 级音组成，即 C、E、G。",
+    "context": "Fixed Interval / Scale Interval Chord Degrees Chord Name Chord Via MIDI MIDI Omni MIDI Channels",
+    "contextZh": "固定音程 / 音阶音程 和弦音级 和弦名称 通过 MIDI 触发和弦 MIDI 全通道接收",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 603,
+    "audioFile": "ae20e43dfeb8e33d"
+  },
+  {
+    "word": "Chord Name",
+    "ipa": "kɔːrd neɪm",
+    "translit": "",
+    "zh": "和弦名称",
+    "def": "指用于标识和弦类型与根音的标准化名称。",
+    "example": "例子：Cmaj7 表示以 C 为根音的大七和弦。",
+    "context": "Fixed Interval / Scale Interval Chord Degrees Chord Name Chord Via MIDI MIDI Omni MIDI Channels",
+    "contextZh": "固定音程 / 音阶音程 和弦音级 和弦名称 通过 MIDI 触发和弦 MIDI 全通道接收",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 604,
+    "audioFile": "7efcec4ef38b74d5"
+  },
+  {
+    "word": "Chord Via MIDI",
+    "ipa": "",
+    "translit": "",
+    "zh": "通过 MIDI 触发和弦",
+    "def": "指通过 MIDI 信号发送或触发和弦演奏的方式。",
+    "example": "例子：在 DAW 中按下单个键，由插件根据设置自动输出完整和弦的 MIDI 音符。",
+    "context": "Fixed Interval / Scale Interval Chord Degrees Chord Name Chord Via MIDI MIDI Omni MIDI Channels",
+    "contextZh": "固定音程 / 音阶音程 和弦音级 和弦名称 通过 MIDI 触发和弦 MIDI 全通道接收",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 605,
+    "audioFile": "637b5769df8a42a7"
+  },
+  {
+    "word": "MIDI Omni",
+    "ipa": "ˈmɪdi ˈɑːmni",
+    "translit": "",
+    "zh": "MIDI 全通道接收",
+    "def": "指 MIDI 设备接收所有 MIDI 通道信息的模式，不限定单一通道。",
+    "example": "例子：合成器设为 Omni 模式后，会响应通道 1 至 16 上发送的所有音符。",
+    "context": "Fixed Interval / Scale Interval Chord Degrees Chord Name Chord Via MIDI MIDI Omni MIDI Channels",
+    "contextZh": "固定音程 / 音阶音程 和弦音级 和弦名称 通过 MIDI 触发和弦 MIDI 全通道接收",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 606,
+    "audioFile": "5bfd37a58aed59db"
+  },
+  {
+    "word": "MIDI Channels",
+    "ipa": "ˈmɪdi ˈtʃænəlz",
+    "translit": "",
+    "zh": "MIDI 通道",
+    "def": "指 MIDI 协议中用于区分不同设备或声部的 16 个独立通信通道。",
+    "example": "例子：将鼓组分配到通道 10，贝斯分配到通道 2，以便分别控制。",
+    "context": "Fixed Interval / Scale Interval Chord Degrees Chord Name Chord Via MIDI MIDI Omni MIDI Channels",
+    "contextZh": "固定音程 / 音阶音程 和弦音级 和弦名称 通过 MIDI 触发和弦 MIDI 全通道接收",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 607,
+    "audioFile": "d327432da2daa4ca"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8151,7 +8249,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 601
+    "id": 608
   },
   {
     "word": "Conga",
@@ -8164,7 +8262,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 602,
+    "id": 609,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8178,7 +8276,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 603
+    "id": 610
   },
   {
     "word": "Grooves",
@@ -8191,7 +8289,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 604
+    "id": 611
   },
   {
     "word": "Bongos",
@@ -8204,7 +8302,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 605,
+    "id": 612,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8218,7 +8316,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 606
+    "id": 613
   },
   {
     "word": "Djembe",
@@ -8231,7 +8329,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 607
+    "id": 614
   },
   {
     "word": "Tambourine",
@@ -8244,7 +8342,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 608
+    "id": 615
   },
   {
     "word": "Cowbells",
@@ -8257,7 +8355,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 609
+    "id": 616
   },
   {
     "word": "Bells",
@@ -8270,7 +8368,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 610,
+    "id": 617,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -8284,7 +8382,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 611,
+    "id": 618,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -8298,7 +8396,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 612
+    "id": 619
   },
   {
     "word": "Wurlitzer",
@@ -8311,7 +8409,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 613,
+    "id": 620,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -8325,7 +8423,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 614,
+    "id": 621,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -8339,7 +8437,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 615
+    "id": 622
   },
   {
     "word": "Clavinet",
@@ -8352,7 +8450,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 616,
+    "id": 623,
     "audioFile": "bf34769991153703"
   },
   {
@@ -8366,7 +8464,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 617,
+    "id": 624,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -8380,7 +8478,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 618
+    "id": 625
   },
   {
     "word": "Female Vocals",
@@ -8393,7 +8491,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 619,
+    "id": 626,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -8407,7 +8505,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 620
+    "id": 627
   },
   {
     "word": "Screams",
@@ -8420,7 +8518,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 621
+    "id": 628
   },
   {
     "word": "Whisper Vocals",
@@ -8433,7 +8531,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 622,
+    "id": 629,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -8447,7 +8545,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 623,
+    "id": 630,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -8461,7 +8559,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 624,
+    "id": 631,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -8475,7 +8573,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 625,
+    "id": 632,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -8489,7 +8587,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 626
+    "id": 633
   }
 ];
 window.SOURCES = [
@@ -11490,6 +11588,42 @@ window.SOURCES = [
       {
         "word": "Transition Rate",
         "zh": "过渡速率"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Fixed Interval / Scale Interval Chord Degrees Chord Name Chord Via MIDI MIDI Omni MIDI Channels",
+    "translation": "固定音程 / 音阶音程 和弦音级 和弦名称 通过 MIDI 触发和弦 MIDI 全通道接收",
+    "category": "",
+    "branches": [
+      {
+        "word": "Fixed Interval",
+        "zh": "固定音程"
+      },
+      {
+        "word": "Scale Interval",
+        "zh": "音阶音程"
+      },
+      {
+        "word": "Chord Degrees",
+        "zh": "和弦音级"
+      },
+      {
+        "word": "Chord Name",
+        "zh": "和弦名称"
+      },
+      {
+        "word": "Chord Via MIDI",
+        "zh": "通过 MIDI 触发和弦"
+      },
+      {
+        "word": "MIDI Omni",
+        "zh": "MIDI 全通道接收"
+      },
+      {
+        "word": "MIDI Channels",
+        "zh": "MIDI 通道"
       }
     ]
   }
