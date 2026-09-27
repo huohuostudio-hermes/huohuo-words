@@ -7533,6 +7533,154 @@ window.WORDS = [
     "id": 555
   },
   {
+    "word": "Local-only",
+    "ipa": "",
+    "translit": "",
+    "zh": "仅本地",
+    "def": "表示该功能只在本地运行，不依赖远程服务器或云端服务。",
+    "example": "例子：仅本地运行的软件不会把数据上传到互联网。",
+    "context": "Local-only web dashboard for browsing and visualising Mnemosyne memories, triples, stats, and consolidation history.",
+    "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 556,
+    "audioFile": "49f96cd47cf71ed2"
+  },
+  {
+    "word": "web dashboard",
+    "ipa": "",
+    "translit": "",
+    "zh": "网页仪表板",
+    "def": "指在浏览器中打开的图形化管理与数据展示界面。",
+    "example": "例子：用户通过网页仪表板查看系统运行状态和统计图表。",
+    "context": "Local-only web dashboard for browsing and visualising Mnemosyne memories, triples, stats, and consolidation history.",
+    "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 557,
+    "audioFile": "3074a7a0a7daf208"
+  },
+  {
+    "word": "browsing",
+    "ipa": "",
+    "translit": "",
+    "zh": "浏览",
+    "def": "指在界面中逐项查看、翻阅数据内容。",
+    "example": "例子：在列表中浏览所有记忆条目。",
+    "context": "Local-only web dashboard for browsing and visualising Mnemosyne memories, triples, stats, and consolidation history.",
+    "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 558
+  },
+  {
+    "word": "visualising",
+    "ipa": "",
+    "translit": "",
+    "zh": "可视化",
+    "def": "指把数据以图形、图表等直观形式呈现出来。",
+    "example": "例子：把统计数据画成折线图和柱状图。",
+    "context": "Local-only web dashboard for browsing and visualising Mnemosyne memories, triples, stats, and consolidation history.",
+    "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 559
+  },
+  {
+    "word": "Mnemosyne memories",
+    "ipa": "",
+    "translit": "",
+    "zh": "摩涅莫绪涅记忆 / Mnemosyne 记忆",
+    "def": "指 Mnemosyne 系统（或项目）中存储的记忆数据条目。",
+    "example": "例子：查看某条关于用户偏好的记忆记录。",
+    "context": "Local-only web dashboard for browsing and visualising Mnemosyne memories, triples, stats, and consolidation history.",
+    "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 560,
+    "audioFile": "38bd9c65e1a44af5"
+  },
+  {
+    "word": "triples",
+    "ipa": "",
+    "translit": "",
+    "zh": "三元组",
+    "def": "指由主语、谓语、宾语三个部分构成的知识表示结构。",
+    "example": "例子：（用户，喜欢，咖啡）就是一个三元组。",
+    "context": "Local-only web dashboard for browsing and visualising Mnemosyne memories, triples, stats, and consolidation history.",
+    "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 561
+  },
+  {
+    "word": "stats",
+    "ipa": "",
+    "translit": "",
+    "zh": "统计数据",
+    "def": "指对系统数据汇总计算后得到的数量指标。",
+    "example": "例子：记忆总数、三元组数量、每日新增条数。",
+    "context": "Local-only web dashboard for browsing and visualising Mnemosyne memories, triples, stats, and consolidation history.",
+    "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 562
+  },
+  {
+    "word": "consolidation history",
+    "ipa": "",
+    "translit": "",
+    "zh": "整合历史",
+    "def": "指记录记忆被合并、整理、归并的过程与时间线。",
+    "example": "例子：查看过去一周内记忆整合操作的记录。",
+    "context": "Local-only web dashboard for browsing and visualising Mnemosyne memories, triples, stats, and consolidation history.",
+    "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 563,
+    "audioFile": "2ebb1c7149c62365"
+  },
+  {
+    "word": "Maintainer",
+    "ipa": "meɪnˈteɪnər",
+    "translit": "",
+    "zh": "维护者 / 维护人员",
+    "def": "指负责保持系统、软件、设备或项目正常运行和持续更新的人。",
+    "example": "例子：开源项目的 maintainer 负责审核代码、修复漏洞并发布新版本。",
+    "context": "MAINTAINER",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 564,
+    "audioFile": "86416ef3eeb4cc90"
+  },
+  {
+    "word": "PINNED",
+    "ipa": "pɪnd",
+    "translit": "",
+    "zh": "固定的 / 置顶的",
+    "def": "指被固定在某个位置、状态或列表中，无法移动或取消；在社交媒体或论坛中常指“置顶”，即把某条内容固定在顶部以便优先展示。",
+    "example": "例子：这条公告被置顶在论坛首页，所有用户进入时都会最先看到它。",
+    "context": "PINNED",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 565
+  },
+  {
+    "word": "Page",
+    "ipa": "peɪdʒ",
+    "translit": "",
+    "zh": "页面",
+    "def": "软件或网站中一个独立的界面单元，通常包含特定功能或信息。",
+    "example": "例子：打开设置页面来调整软件的参数。",
+    "context": "Plugin page",
+    "contextZh": "插件页面",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 566
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -7543,7 +7691,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 556
+    "id": 567
   },
   {
     "word": "Conga",
@@ -7556,7 +7704,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 557,
+    "id": 568,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -7570,7 +7718,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 558
+    "id": 569
   },
   {
     "word": "Grooves",
@@ -7583,7 +7731,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 559
+    "id": 570
   },
   {
     "word": "Bongos",
@@ -7596,7 +7744,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 560,
+    "id": 571,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -7610,7 +7758,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 561
+    "id": 572
   },
   {
     "word": "Djembe",
@@ -7623,7 +7771,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 562
+    "id": 573
   },
   {
     "word": "Tambourine",
@@ -7636,7 +7784,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 563
+    "id": 574
   },
   {
     "word": "Cowbells",
@@ -7649,7 +7797,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 564
+    "id": 575
   },
   {
     "word": "Bells",
@@ -7662,7 +7810,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 565,
+    "id": 576,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -7676,7 +7824,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 566,
+    "id": 577,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -7690,7 +7838,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 567
+    "id": 578
   },
   {
     "word": "Wurlitzer",
@@ -7703,7 +7851,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 568,
+    "id": 579,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -7717,7 +7865,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 569,
+    "id": 580,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7731,7 +7879,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 570
+    "id": 581
   },
   {
     "word": "Clavinet",
@@ -7744,7 +7892,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 571,
+    "id": 582,
     "audioFile": "bf34769991153703"
   },
   {
@@ -7758,7 +7906,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 572,
+    "id": 583,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7772,7 +7920,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 573
+    "id": 584
   },
   {
     "word": "Female Vocals",
@@ -7785,7 +7933,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 574,
+    "id": 585,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7799,7 +7947,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 575
+    "id": 586
   },
   {
     "word": "Screams",
@@ -7812,7 +7960,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 576
+    "id": 587
   },
   {
     "word": "Whisper Vocals",
@@ -7825,7 +7973,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 577,
+    "id": 588,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7839,7 +7987,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 578,
+    "id": 589,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -7853,7 +8001,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 579,
+    "id": 590,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -7867,7 +8015,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 580,
+    "id": 591,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -7881,7 +8029,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 581
+    "id": 592
   }
 ];
 window.SOURCES = [
@@ -10650,6 +10798,62 @@ window.SOURCES = [
       {
         "word": "dashboard",
         "zh": "仪表盘 / 控制面板"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Local-only web dashboard for browsing and visualising Mnemosyne memories, triples, stats, and consolidation history.",
+    "translation": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Local-only",
+        "zh": "仅本地"
+      },
+      {
+        "word": "web dashboard",
+        "zh": "网页仪表板"
+      },
+      {
+        "word": "browsing",
+        "zh": "浏览"
+      },
+      {
+        "word": "visualising",
+        "zh": "可视化"
+      },
+      {
+        "word": "Mnemosyne memories",
+        "zh": "摩涅莫绪涅记忆 / Mnemosyne 记忆"
+      },
+      {
+        "word": "triples",
+        "zh": "三元组"
+      },
+      {
+        "word": "stats",
+        "zh": "统计数据"
+      },
+      {
+        "word": "consolidation history",
+        "zh": "整合历史"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Plugin page",
+    "translation": "插件页面",
+    "category": "",
+    "branches": [
+      {
+        "word": "Plugin",
+        "zh": "插件"
+      },
+      {
+        "word": "Page",
+        "zh": "页面"
       }
     ]
   }
