@@ -3249,7 +3249,8 @@ window.WORDS = [
     "contextZh": "在现代音乐制作与混音的复杂过程中，熟练地叠加氛围织体、将瞬态丰富的冲击声对齐到网格，以及自动化下坠音的频率衰减，是在主总线上保持声音清晰度与情绪动态的关键技术。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 243
+    "id": 243,
+    "audioFile": "11aa926dfa98d4e2"
   },
   {
     "word": "frequency decay",
