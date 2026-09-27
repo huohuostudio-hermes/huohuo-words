@@ -7426,6 +7426,113 @@ window.WORDS = [
     "id": 547
   },
   {
+    "word": "Managed apps",
+    "ipa": "",
+    "translit": "",
+    "zh": "受管理的应用",
+    "def": "指由组织或管理员统一配置、分发和控制的应用程序，通常用于企业或教育环境。",
+    "example": "例子：公司通过移动设备管理平台向员工手机推送的内部办公应用。",
+    "context": "Managed apps are not available for this account yet.",
+    "contextZh": "此账户尚无法使用受管理的应用。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 548,
+    "audioFile": "5ee6c6e7ee818a08"
+  },
+  {
+    "word": "not available",
+    "ipa": "",
+    "translit": "",
+    "zh": "不可用",
+    "def": "表示某项功能、内容或服务当前无法访问或使用。",
+    "example": "例子：某个应用在应用商店中显示“当前地区不可用”。",
+    "context": "Managed apps are not available for this account yet.",
+    "contextZh": "此账户尚无法使用受管理的应用。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 549,
+    "audioFile": "5f2391220833847e"
+  },
+  {
+    "word": "for this account",
+    "ipa": "",
+    "translit": "",
+    "zh": "对此账户",
+    "def": "表示某事物针对特定账户的状态或限制。",
+    "example": "例子：该优惠仅对此账户有效。",
+    "context": "Managed apps are not available for this account yet.",
+    "contextZh": "此账户尚无法使用受管理的应用。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 550,
+    "audioFile": "17748d0f9573107e"
+  },
+  {
+    "word": "yet",
+    "ipa": "",
+    "translit": "",
+    "zh": "尚未 / 还",
+    "def": "表示某事到目前为止还没有发生，但暗示将来可能会发生。",
+    "example": "例子：他还没有到达。",
+    "context": "Managed apps are not available for this account yet.",
+    "contextZh": "此账户尚无法使用受管理的应用。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 551
+  },
+  {
+    "word": "Plugin",
+    "ipa": "ˈplʌɡɪn",
+    "translit": "",
+    "zh": "插件",
+    "def": "指可添加到宿主软件中扩展功能的独立模块，常用于音频处理、效果器或乐器音源。",
+    "example": "例子：在数字音频工作站中加载一个混响插件来处理人声轨道。",
+    "context": "Plugin Catalog",
+    "contextZh": "插件目录",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 552
+  },
+  {
+    "word": "Catalog",
+    "ipa": "ˈkætəlɔːɡ",
+    "translit": "",
+    "zh": "目录 / 产品目录",
+    "def": "指按一定分类整理并列出的完整清单，通常用于展示可用的软件、音色库或产品系列。",
+    "example": "例子：某音频软件公司官网上的插件目录，列出了所有可购买和下载的效果器与虚拟乐器。",
+    "context": "Plugin Catalog",
+    "contextZh": "插件目录",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 553
+  },
+  {
+    "word": "Mnemosyne",
+    "ipa": "",
+    "translit": "",
+    "zh": "摩涅莫绪涅（记忆女神）",
+    "def": "希腊神话中的记忆女神，泰坦神之一，缪斯女神的母亲。在计算机领域，Mnemosyne 也常被用作软件或项目的名称，取“记忆”之意。",
+    "example": "例子：Mnemosyne 是希腊神话中掌管记忆的泰坦女神，宙斯与她结合生下了九位缪斯。",
+    "context": "mnemosyne dashboard",
+    "contextZh": "摩涅莫绪涅仪表盘",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 554
+  },
+  {
+    "word": "dashboard",
+    "ipa": "ˈdæʃbɔːrd",
+    "translit": "",
+    "zh": "仪表盘 / 控制面板",
+    "def": "原指汽车驾驶座前方的仪表板，后引申为软件或网站中集中展示关键信息和数据的可视化界面。",
+    "example": "例子：打开应用后，用户可以在 dashboard 上查看所有关键指标和实时数据。",
+    "context": "mnemosyne dashboard",
+    "contextZh": "摩涅莫绪涅仪表盘",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 555
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -7436,7 +7543,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 548
+    "id": 556
   },
   {
     "word": "Conga",
@@ -7449,7 +7556,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 549,
+    "id": 557,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -7463,7 +7570,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 550
+    "id": 558
   },
   {
     "word": "Grooves",
@@ -7476,7 +7583,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 551
+    "id": 559
   },
   {
     "word": "Bongos",
@@ -7489,7 +7596,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 552,
+    "id": 560,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -7503,7 +7610,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 553
+    "id": 561
   },
   {
     "word": "Djembe",
@@ -7516,7 +7623,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 554
+    "id": 562
   },
   {
     "word": "Tambourine",
@@ -7529,7 +7636,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 555
+    "id": 563
   },
   {
     "word": "Cowbells",
@@ -7542,7 +7649,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 556
+    "id": 564
   },
   {
     "word": "Bells",
@@ -7555,7 +7662,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 557,
+    "id": 565,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -7569,7 +7676,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 558,
+    "id": 566,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -7583,7 +7690,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 559
+    "id": 567
   },
   {
     "word": "Wurlitzer",
@@ -7596,7 +7703,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 560,
+    "id": 568,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -7610,7 +7717,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 561,
+    "id": 569,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7624,7 +7731,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 562
+    "id": 570
   },
   {
     "word": "Clavinet",
@@ -7637,7 +7744,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 563,
+    "id": 571,
     "audioFile": "bf34769991153703"
   },
   {
@@ -7651,7 +7758,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 564,
+    "id": 572,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7665,7 +7772,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 565
+    "id": 573
   },
   {
     "word": "Female Vocals",
@@ -7678,7 +7785,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 566,
+    "id": 574,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7692,7 +7799,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 567
+    "id": 575
   },
   {
     "word": "Screams",
@@ -7705,7 +7812,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 568
+    "id": 576
   },
   {
     "word": "Whisper Vocals",
@@ -7718,7 +7825,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 569,
+    "id": 577,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7732,7 +7839,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 570,
+    "id": 578,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -7746,7 +7853,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 571,
+    "id": 579,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -7760,7 +7867,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 572,
+    "id": 580,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -7774,7 +7881,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 573
+    "id": 581
   }
 ];
 window.SOURCES = [
@@ -10487,6 +10594,62 @@ window.SOURCES = [
       {
         "word": "no agent action required",
         "zh": "无需代理操作"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Managed apps are not available for this account yet.",
+    "translation": "此账户尚无法使用受管理的应用。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Managed apps",
+        "zh": "受管理的应用"
+      },
+      {
+        "word": "not available",
+        "zh": "不可用"
+      },
+      {
+        "word": "for this account",
+        "zh": "对此账户"
+      },
+      {
+        "word": "yet",
+        "zh": "尚未 / 还"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Plugin Catalog",
+    "translation": "插件目录",
+    "category": "",
+    "branches": [
+      {
+        "word": "Plugin",
+        "zh": "插件"
+      },
+      {
+        "word": "Catalog",
+        "zh": "目录 / 产品目录"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "mnemosyne dashboard",
+    "translation": "摩涅莫绪涅仪表盘",
+    "category": "",
+    "branches": [
+      {
+        "word": "Mnemosyne",
+        "zh": "摩涅莫绪涅（记忆女神）"
+      },
+      {
+        "word": "dashboard",
+        "zh": "仪表盘 / 控制面板"
       }
     ]
   }
