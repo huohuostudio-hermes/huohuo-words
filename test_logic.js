@@ -386,6 +386,26 @@ ok(contextBlock({context:"I don't know why he forgot to buy milk", contextZh:"�
 ok(contextBlock({context:"x", contextZh:""}).indexOf("译文")<0, "无 contextZh 时不显示译文");
 ok(contextBlock({context:""})==="", "无 context 时返回空");
 
+// 26. 学习页：略过补词 + 删除当前词
+progress = normalize({cards:{},settings:{dailyNew:5},stats:{}});
+beginSession(true);
+ok(session.mcqQueue.length===5, "初始 MCQ 队列=5");
+const skipWord=session.mcqQueue[0].word;
+const pendLen=session.pendingSpell.length;
+skipCurrentMCQ();
+ok(session.mcqQueue.length===5, "略过后队列仍=5（自动补1）");
+ok(!session.mcqQueue.some(w=>w.word===skipWord), "略过的词已移出队列");
+ok(session.skipped.includes(skipWord), "略过词记入 skipped");
+ok(session.pendingSpell.length===pendLen, "略过词从待拼写移除并补1，长度不变");
+ok(!session.pendingSpell.some(w=>w.word===skipWord), "略过的词不在待拼写队列");
+ok(cardState(WORDS.find(w=>w.word===skipWord))==="new", "略过词仍为未学习（未标 learned）");
+const delTarget=session.mcqQueue[0].word;
+deleteCurrentMCQ();
+ok(isHidden(WORDS.find(w=>w.word===delTarget)), "删除旋钮删除当前词 isHidden=true");
+ok(session.mcqQueue.length===5, "删除后队列仍=5（自动补1）");
+ok(!session.pendingSpell.some(w=>w.word===delTarget), "删除的词不在待拼写队列");
+unhideWord(delTarget);
+
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;
 `;

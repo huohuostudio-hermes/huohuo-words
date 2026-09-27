@@ -60,6 +60,8 @@ main{flex:1;padding:8px 20px calc(24px + env(safe-area-inset-bottom));display:fl
 .topbar .t{font-size:16px;font-weight:700;flex:1;text-align:center;margin-right:70px}
 .topbar .upper-toggle{position:absolute;right:0;top:50%;transform:translateY(-50%);background:var(--card);border:1px solid var(--border);color:var(--text);padding:7px 13px;border-radius:999px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;transition:.15s}
 .topbar .upper-toggle.on{background:linear-gradient(135deg,var(--accent2),var(--accent));border-color:var(--accent);color:#1a1206;box-shadow:0 2px 12px rgba(230,184,74,.35)}
+.topbar .knob-del{position:absolute;right:0;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;background:var(--card);border:1.5px solid var(--border2);color:var(--bad);font-size:15px;display:grid;place-items:center;cursor:pointer;transition:.15s}
+.topbar .knob-del:active{transform:translateY(-50%) scale(.88)}
 
 /* ===== 概览/菜单 ===== */
 .overview{display:flex;gap:10px;margin:6px 0 16px}
@@ -95,6 +97,13 @@ main{flex:1;padding:8px 20px calc(24px + env(safe-area-inset-bottom));display:fl
 .speak:active{transform:scale(.92)}
 .qhint{text-align:center;font-size:12px;color:var(--faint);margin-top:4px}
 .qphase{text-align:center;font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;margin-bottom:10px}
+.qcard.mcqcard{touch-action:pan-y;animation:mcqin .18s ease}
+@keyframes mcqin{from{opacity:.3;transform:translateX(26px)}to{opacity:1;transform:none}}
+.qcard.mcqcard.swipeout-l{animation:mcqoutl .16s ease forwards}
+.qcard.mcqcard.swipeout-r{animation:mcqoutr .16s ease forwards}
+@keyframes mcqoutl{to{opacity:.2;transform:translateX(-70px)}}
+@keyframes mcqoutr{to{opacity:.2;transform:translateX(70px)}}
+.swipehint{text-align:center;font-size:11px;color:var(--faint);margin-top:14px;letter-spacing:2px}
 
 /* ===== 选项 A/B/C/D ===== */
 .options{display:flex;flex-direction:column;gap:10px;margin-top:18px}
@@ -1400,6 +1409,7 @@ function beginSession(learnNew){
     spellQueue:[],
     pendingSpell:[...reviewWords,...newWords],
     failQueue:[],
+    skipped:[],
     current:null,wordWrong:false,addedToFail:false
   };
   if(newWords.length>0)renderMCQ();
@@ -1418,8 +1428,9 @@ function renderMCQ(){
     <div class="topbar">
       <button class="backbtn" onclick="exitSession()">← 返回</button>
       <div class="t">学习新词</div>
+      <button class="knob-del" onclick="deleteCurrentMCQ()" title="删除这个单词">🗑️</button>
     </div>
-    <div class="qcard">
+    <div class="qcard mcqcard" onpointerdown="mcqDown(event)" onpointerup="mcqUp(event)" onpointercancel="mcqCancel(event)">
       <div class="qword">${esc(dispWord(w.word))}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
@@ -1429,6 +1440,7 @@ function renderMCQ(){
           <span class="key">${keys[i]}</span><span class="val">${esc(o)}</span>
         </button>`).join("")}</div>
       <div class="tagsec"><div class="chips">${tags}</div></div>
+      <div class="swipehint">← 左右滑略过 →</div>
     </div>`;
   speak(w);
 }
@@ -1441,6 +1453,7 @@ function buildOptions(w){
   return shuffle([correct,...distractors]);
 }
 function answerMCQ(i){
+  if(Date.now()<suppressClickUntil)return;
   const w=session.current;
   const optsEl=document.querySelectorAll(".option");
   const correctText=w.zh;
@@ -1456,6 +1469,57 @@ function answerMCQ(i){
     optsEl[correctIdx].classList.add("correct");
     setTimeout(()=>{renderExplain(true);},950);
   }
+}
+
+/* ===== 学习页：略过 / 删除当前词 ===== */
+let mcqSwipeState=null;
+function mcqDown(e){
+  if(e.pointerType==="mouse"&&e.button!==0)return;
+  const el=e.currentTarget;
+  if(el&&el.setPointerCapture){try{el.setPointerCapture(e.pointerId);}catch(_){}}
+  mcqSwipeState={sx:e.clientX,sy:e.clientY};
+}
+function mcqUp(e){
+  const s=mcqSwipeState;mcqSwipeState=null;
+  if(!s)return;
+  const dx=e.clientX-s.sx,dy=e.clientY-s.sy;
+  if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.3){
+    suppressClickUntil=Date.now()+400;
+    const card=e.currentTarget;
+    if(card&&card.classList)card.classList.add(dx<0?"swipeout-l":"swipeout-r");
+    setTimeout(skipCurrentMCQ,160);
+  }
+}
+function mcqCancel(){mcqSwipeState=null;}
+function skipCurrentMCQ(){
+  if(!session||session.mcqQueue.length===0)return;
+  const w=session.mcqQueue.shift();
+  if(!session.skipped)session.skipped=[];
+  if(!session.skipped.includes(w.word))session.skipped.push(w.word);
+  session.pendingSpell=(session.pendingSpell||[]).filter(x=>x.word!==w.word);
+  refillMCQ();
+  renderMCQ();
+}
+function deleteCurrentMCQ(){
+  if(!session||session.mcqQueue.length===0)return;
+  const w=session.mcqQueue[0];
+  if(!confirm("删除「"+w.word+"」？删除后可在「设置 → 已删除」中恢复"))return;
+  session.mcqQueue.shift();
+  hideWord(w.word);
+  session.pendingSpell=(session.pendingSpell||[]).filter(x=>x.word!==w.word);
+  refillMCQ();
+  renderMCQ();
+}
+function refillMCQ(){
+  if(!session)return;
+  const skipped=new Set(session.skipped||[]);
+  const inQueue=new Set(session.mcqQueue.map(x=>x.word));
+  const cand=allWords().filter(w=>isNew(w)&&!inQueue.has(w.word)&&!skipped.has(w.word));
+  if(cand.length===0)return;
+  const pick=cand[Math.floor(Math.random()*cand.length)];
+  session.mcqQueue.push(pick);
+  if(!session.pendingSpell)session.pendingSpell=[];
+  session.pendingSpell.push(pick);
 }
 
 /* ===== 解释页 ===== */
@@ -2099,6 +2163,7 @@ function beginSessionOn(words, mode){
     spellQueue:[],
     pendingSpell:[...ws],
     failQueue:[],
+    skipped:[],
     current:null,wordWrong:false,addedToFail:false
   };
   if(mode==="learn" && ws.length>0)renderMCQ();
@@ -2314,9 +2379,10 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="2.5"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="2.6"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "收藏页同步翻牌抽卡、日期分组与折叠，和已学习/已掌握逻辑一致"
+  "学习页新增删除旋钮：右上角🗑️一键删掉没意义的单词",
+  "学习页卡片左右滑动即可略过当前词，并自动随机补一个，每日目标词数不变"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);
