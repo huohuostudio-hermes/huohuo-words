@@ -8267,6 +8267,150 @@ window.WORDS = [
     "audioFile": "8e9193de6db4a048"
   },
   {
+    "word": "Concise",
+    "ipa": "kənˈsaɪs",
+    "translit": "",
+    "zh": "简洁的",
+    "def": "形容表达简短、精炼，没有多余的话或细节。",
+    "example": "例子：一份简洁的会议纪要只列出关键决定和行动项。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 610
+  },
+  {
+    "word": "Technical",
+    "ipa": "ˈteknɪkəl",
+    "translit": "",
+    "zh": "技术的",
+    "def": "与某一专业领域的技术细节、方法或术语相关。",
+    "example": "例子：这份技术文档详细说明了服务器的配置参数。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 611
+  },
+  {
+    "word": "Creative",
+    "ipa": "kriˈeɪtɪv",
+    "translit": "",
+    "zh": "有创意的",
+    "def": "形容具有想象力、善于创造新颖想法或作品的特质。",
+    "example": "例子：她用废旧纸箱做了一个有创意的儿童玩具屋。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 612
+  },
+  {
+    "word": "Teacher",
+    "ipa": "ˈtiːtʃər",
+    "translit": "",
+    "zh": "教师",
+    "def": "从事教学工作、向学生传授知识和技能的人。",
+    "example": "例子：小学教师在课堂上教孩子们认字和算数。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 613
+  },
+  {
+    "word": "Kawaii",
+    "ipa": "kəˈwaɪi",
+    "translit": "",
+    "zh": "可爱的",
+    "def": "源自日语的词汇，形容事物萌、惹人喜爱，常用于描述日系可爱风格。",
+    "example": "例子：这只小猫挂件设计得非常可爱，眼睛又大又圆。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 614
+  },
+  {
+    "word": "Catgirl",
+    "ipa": "ˈkætɡɜːrl",
+    "translit": "",
+    "zh": "猫娘",
+    "def": "带有猫耳、猫尾等猫特征元素的女性角色形象，常见于动漫和二次元文化。",
+    "example": "例子：这个游戏角色是一个戴着猫耳、会喵喵叫的猫娘。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 615,
+    "audioFile": "3e4b9e1520cee4c0"
+  },
+  {
+    "word": "Pirate",
+    "ipa": "ˈpaɪrət",
+    "translit": "",
+    "zh": "海盗",
+    "def": "在海上抢劫船只或沿海地区的非法武装人员。",
+    "example": "例子：电影里的海盗船长带着船员寻找埋藏的宝藏。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 616
+  },
+  {
+    "word": "Shakespeare",
+    "ipa": "ˈʃeɪkspɪr",
+    "translit": "",
+    "zh": "莎士比亚",
+    "def": "英国文艺复兴时期的著名剧作家和诗人，代表作有《哈姆雷特》《罗密欧与朱丽叶》等。",
+    "example": "例子：英语课上老师让我们背诵莎士比亚的一段独白。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 617
+  },
+  {
+    "word": "Surfer",
+    "ipa": "ˈsɜːrfər",
+    "translit": "",
+    "zh": "冲浪者",
+    "def": "从事冲浪运动、在海浪上滑行的人。",
+    "example": "例子：那个冲浪者踩在浪尖上，动作非常流畅。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 618
+  },
+  {
+    "word": "Noir",
+    "ipa": "nwɑːr",
+    "translit": "",
+    "zh": "黑色 / 黑色风格",
+    "def": "源自法语，指一种阴暗、冷峻的影视或文学风格，常涉及犯罪与道德灰色地带。",
+    "example": "例子：这部黑色电影用昏暗的街灯和阴影营造出压抑的氛围。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 619
+  },
+  {
+    "word": "Uwu",
+    "ipa": "",
+    "translit": "",
+    "zh": "卖萌表情",
+    "def": "网络用语，用字母组合模拟可爱表情，表示卖萌、撒娇或开心。",
+    "example": "例子：她在聊天里发了个\"uwu\"来表达自己很开心。",
+    "context": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 620
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8277,7 +8421,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 610
+    "id": 621
   },
   {
     "word": "Conga",
@@ -8290,7 +8434,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 611,
+    "id": 622,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8304,7 +8448,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 612
+    "id": 623
   },
   {
     "word": "Grooves",
@@ -8317,7 +8461,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 613
+    "id": 624
   },
   {
     "word": "Bongos",
@@ -8330,7 +8474,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 614,
+    "id": 625,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8344,7 +8488,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 615
+    "id": 626
   },
   {
     "word": "Djembe",
@@ -8357,7 +8501,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 616
+    "id": 627
   },
   {
     "word": "Tambourine",
@@ -8370,7 +8514,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 617
+    "id": 628
   },
   {
     "word": "Cowbells",
@@ -8383,7 +8527,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 618
+    "id": 629
   },
   {
     "word": "Bells",
@@ -8396,7 +8540,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 619,
+    "id": 630,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -8410,7 +8554,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 620,
+    "id": 631,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -8424,7 +8568,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 621
+    "id": 632
   },
   {
     "word": "Wurlitzer",
@@ -8437,7 +8581,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 622
+    "id": 633
   },
   {
     "word": "Electric Piano",
@@ -8450,7 +8594,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 623,
+    "id": 634,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -8464,7 +8608,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 624
+    "id": 635
   },
   {
     "word": "Clavinet",
@@ -8477,7 +8621,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 625,
+    "id": 636,
     "audioFile": "bf34769991153703"
   },
   {
@@ -8491,7 +8635,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 626,
+    "id": 637,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -8505,7 +8649,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 627
+    "id": 638
   },
   {
     "word": "Female Vocals",
@@ -8518,7 +8662,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 628,
+    "id": 639,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -8532,7 +8676,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 629
+    "id": 640
   },
   {
     "word": "Screams",
@@ -8545,7 +8689,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 630
+    "id": 641
   },
   {
     "word": "Whisper Vocals",
@@ -8558,7 +8702,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 631,
+    "id": 642,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -8572,7 +8716,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 632,
+    "id": 643,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -8586,7 +8730,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 633,
+    "id": 644,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -8600,7 +8744,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 634,
+    "id": 645,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -8614,7 +8758,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 635
+    "id": 646
   }
 ];
 window.SOURCES = [
@@ -11667,6 +11811,58 @@ window.SOURCES = [
       {
         "word": "Update Firmware",
         "zh": "更新固件"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "text": "Concise Technical Creative Teacher Kawaii Catgirl Pirate Shakespeare Surfer Noir Uwu",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Concise",
+        "zh": "简洁的"
+      },
+      {
+        "word": "Technical",
+        "zh": "技术的"
+      },
+      {
+        "word": "Creative",
+        "zh": "有创意的"
+      },
+      {
+        "word": "Teacher",
+        "zh": "教师"
+      },
+      {
+        "word": "Kawaii",
+        "zh": "可爱的"
+      },
+      {
+        "word": "Catgirl",
+        "zh": "猫娘"
+      },
+      {
+        "word": "Pirate",
+        "zh": "海盗"
+      },
+      {
+        "word": "Shakespeare",
+        "zh": "莎士比亚"
+      },
+      {
+        "word": "Surfer",
+        "zh": "冲浪者"
+      },
+      {
+        "word": "Noir",
+        "zh": "黑色 / 黑色风格"
+      },
+      {
+        "word": "Uwu",
+        "zh": "卖萌表情"
       }
     ]
   }
