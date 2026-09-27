@@ -415,6 +415,15 @@ function todayStr(){const d=new Date();return d.getFullYear()+"-"+String(d.getMo
 function addDays(s,n){const d=new Date(s+"T00:00:00");d.setDate(d.getDate()+n);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
 function $(s){return document.querySelector(s);}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+let upperMode=false;
+try{upperMode=localStorage.getItem("huohuo-words-uppercase")==="1";}catch(e){}
+function dispWord(w){return upperMode?String(w).toUpperCase():String(w);}
+function toggleUpper(view){
+  upperMode=!upperMode;
+  try{localStorage.setItem("huohuo-words-uppercase",upperMode?"1":"0");}catch(e){}
+  if(view==="fav")renderFavs();
+  else renderGroup(groupWordsOf(curGroupKind));
+}
 function speakArg(w){return "speak('" + String(w.word).replace(/\\/g,"\\\\").replace(/'/g,"\\'") + "')";}
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
@@ -2004,8 +2013,10 @@ function renderGroup(words){
         <button class="btn primary" onclick="actSelected('review')">拼写所选</button>
       </div>`;
   }else if(words.length>0){
+    const upperBtn=curGroupKind==="mastered"?`<div class="group-actions"><button class="btn small" onclick="toggleUpper('group')">${upperMode?"🔠 切换到小写":"🔠 切换到大写"}</button></div>`:"";
     actions=`
       <div class="brandsub-wrap groupcount" onclick="onGroupCountTap('${curGroupKind}')"><div class="brandsub">已收录 ${words.length} 个单词</div></div>
+      ${upperBtn}
       <div class="group-actions">
         <button class="btn blue" onclick="beginSessionOnGroup('${curGroupKind}','learn')">再学一遍</button>
         <button class="btn primary" onclick="beginSessionOnGroup('${curGroupKind}','review')">再拼写一遍</button>
@@ -2041,12 +2052,12 @@ function renderGroupItems(words){
       return `<li class="worditem" onclick="toggleSelectWord('${esc(w.word)}')">
         <span class="chk ${on?"on":""}">${on?"✓":""}</span>
         <span class="dot ${dot}"></span>
-        <span class="w">${esc(w.word)}</span>
+        <span class="w">${esc(dispWord(w.word))}</span>
         <span class="z">${esc(w.zh)}</span></li>`;
     }
     return `<li class="worditem" onclick="openDetail('${esc(w.word)}','renderGroupBack')">
       <span class="dot ${dot}"></span>
-      <span class="w">${esc(w.word)}</span>
+      <span class="w">${esc(dispWord(w.word))}</span>
       <span class="z">${esc(w.zh)}</span></li>`;
   };
   ul.innerHTML=dates.map(d=>{
@@ -2143,6 +2154,7 @@ function renderFavs(){
   }else if(words.length>0){
     actions=`
       <div class="brandsub-wrap groupcount" onclick="onFavCountTap()"><div class="brandsub">已收藏 ${words.length} 个单词</div></div>
+      <div class="group-actions"><button class="btn small" onclick="toggleUpper('fav')">${upperMode?"🔠 切换到小写":"🔠 切换到大写"}</button></div>
       <div class="group-actions selbar"><button class="btn small" onclick="enterFavSelect()">☑ 多选</button></div>`;
   }
   $("#main").innerHTML=`
@@ -2172,12 +2184,12 @@ function renderFavItems(words){
       return `<li class="worditem" onclick="toggleFavWord('${esc(w.word)}')">
         <span class="chk ${on?"on":""}">${on?"✓":""}</span>
         <span class="dot ${dot}"></span>
-        <span class="w">${esc(w.word)}</span>
+        <span class="w">${esc(dispWord(w.word))}</span>
         <span class="z">${esc(w.zh)}</span></li>`;
     }
     return `<li class="worditem" onclick="openDetail('${esc(w.word)}','renderFavs')">
       <span class="dot ${dot}"></span>
-      <span class="w">${esc(w.word)}</span>
+      <span class="w">${esc(dispWord(w.word))}</span>
       <span class="z">${esc(w.zh)}</span></li>`;
   };
   box.innerHTML=dates.map(d=>{
