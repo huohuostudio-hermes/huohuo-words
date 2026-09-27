@@ -7287,6 +7287,145 @@ window.WORDS = [
     "id": 537
   },
   {
+    "word": "Auto-track",
+    "ipa": "",
+    "translit": "",
+    "zh": "自动追踪",
+    "def": "指系统自动记录和监控某些对象的状态或变化，无需人工干预。",
+    "example": "例子：软件自动记录每次会话中新建的文件路径。",
+    "context": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 538,
+    "audioFile": "5e509a8b02fc7d0b"
+  },
+  {
+    "word": "clean up",
+    "ipa": "",
+    "translit": "",
+    "zh": "清理",
+    "def": "指删除或整理不再需要的文件、数据或资源，以释放空间或保持整洁。",
+    "example": "例子：定期删除临时文件夹中的过期缓存。",
+    "context": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "声音描述",
+    "source": "小赫转存",
+    "id": 539,
+    "audioFile": "6a5b8322571e68c4"
+  },
+  {
+    "word": "ephemeral files",
+    "ipa": "",
+    "translit": "",
+    "zh": "临时文件",
+    "def": "指生命周期很短、用完即弃的文件，通常在任务结束后不再需要保留。",
+    "example": "例子：程序运行过程中生成的中间缓存文件。",
+    "context": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 540,
+    "audioFile": "d939b2664b602fc4"
+  },
+  {
+    "word": "test scripts",
+    "ipa": "",
+    "translit": "",
+    "zh": "测试脚本",
+    "def": "指为验证代码功能或行为而编写的自动化程序文件。",
+    "example": "例子：一个用 Python 编写的单元测试文件 test_login.py。",
+    "context": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 541,
+    "audioFile": "61b77829acc82296"
+  },
+  {
+    "word": "temp outputs",
+    "ipa": "",
+    "translit": "",
+    "zh": "临时输出",
+    "def": "指程序运行过程中产生的中间结果文件，通常不是最终交付物。",
+    "example": "例子：数据处理管道中生成的中间 CSV 文件。",
+    "context": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 542,
+    "audioFile": "deef2f2b42532217"
+  },
+  {
+    "word": "cron logs",
+    "ipa": "",
+    "translit": "",
+    "zh": "定时任务日志",
+    "def": "指由 cron 定时调度器执行任务时记录的输出信息文件。",
+    "example": "例子：每天凌晨备份任务写入的 /var/log/cron.log。",
+    "context": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 543,
+    "audioFile": "c72cba5a757d872a"
+  },
+  {
+    "word": "Hermes sessions",
+    "ipa": "",
+    "translit": "",
+    "zh": "Hermes 会话",
+    "def": "指在 Hermes 系统中一次完整的交互或运行周期。",
+    "example": "例子：用户启动 Hermes 后从开始到结束的一次操作过程。",
+    "context": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 544,
+    "audioFile": "915837f83b4ceb86"
+  },
+  {
+    "word": "plugin hooks",
+    "ipa": "",
+    "translit": "",
+    "zh": "插件钩子",
+    "def": "指插件系统中预定义的触发点，允许插件在特定时机自动执行代码。",
+    "example": "例子：在会话结束时触发清理钩子自动删除临时文件。",
+    "context": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 545,
+    "audioFile": "3ded2f1e8bfebcdc"
+  },
+  {
+    "word": "no agent action required",
+    "ipa": "",
+    "translit": "",
+    "zh": "无需代理操作",
+    "def": "指整个过程自动完成，不需要人工或智能代理额外执行任何步骤。",
+    "example": "例子：系统在后台自动清理文件，用户无需手动确认。",
+    "context": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 546,
+    "audioFile": "9b89c530c57703a5"
+  },
+  {
+    "word": "Connectors",
+    "ipa": "kəˈnɛktərz",
+    "translit": "",
+    "zh": "连接器 / 连接件",
+    "def": "用于连接两个或多个部件、线路或系统的装置或元件，常见于电子、机械和软件领域。",
+    "example": "例子：音频设备中用来连接话筒和调音台的 XLR 连接器。",
+    "context": "Connectors",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 547
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -7297,7 +7436,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 538
+    "id": 548
   },
   {
     "word": "Conga",
@@ -7310,7 +7449,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 539,
+    "id": 549,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -7324,7 +7463,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 540
+    "id": 550
   },
   {
     "word": "Grooves",
@@ -7337,7 +7476,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 541
+    "id": 551
   },
   {
     "word": "Bongos",
@@ -7350,7 +7489,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 542,
+    "id": 552,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -7364,7 +7503,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 543
+    "id": 553
   },
   {
     "word": "Djembe",
@@ -7377,7 +7516,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 544
+    "id": 554
   },
   {
     "word": "Tambourine",
@@ -7390,7 +7529,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 545
+    "id": 555
   },
   {
     "word": "Cowbells",
@@ -7403,7 +7542,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 546
+    "id": 556
   },
   {
     "word": "Bells",
@@ -7416,7 +7555,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 547,
+    "id": 557,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -7430,7 +7569,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 548,
+    "id": 558,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -7444,7 +7583,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 549
+    "id": 559
   },
   {
     "word": "Wurlitzer",
@@ -7457,7 +7596,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 550,
+    "id": 560,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -7471,7 +7610,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 551,
+    "id": 561,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7485,7 +7624,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 552
+    "id": 562
   },
   {
     "word": "Clavinet",
@@ -7498,7 +7637,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 553,
+    "id": 563,
     "audioFile": "bf34769991153703"
   },
   {
@@ -7512,7 +7651,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 554,
+    "id": 564,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7526,7 +7665,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 555
+    "id": 565
   },
   {
     "word": "Female Vocals",
@@ -7539,7 +7678,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 556,
+    "id": 566,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7553,7 +7692,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 557
+    "id": 567
   },
   {
     "word": "Screams",
@@ -7566,7 +7705,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 558
+    "id": 568
   },
   {
     "word": "Whisper Vocals",
@@ -7579,7 +7718,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 559,
+    "id": 569,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7593,7 +7732,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 560,
+    "id": 570,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -7607,7 +7746,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 561,
+    "id": 571,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -7621,7 +7760,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 562,
+    "id": 572,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -7635,7 +7774,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 563
+    "id": 573
   }
 ];
 window.SOURCES = [
@@ -10304,6 +10443,50 @@ window.SOURCES = [
       {
         "word": "Create",
         "zh": "创建"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Auto-track and clean up ephemeral files (test scripts, temp outputs, cron logs) created during Hermes sessions. Runs via plugin hooks — no agent action required.",
+    "translation": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Auto-track",
+        "zh": "自动追踪"
+      },
+      {
+        "word": "clean up",
+        "zh": "清理"
+      },
+      {
+        "word": "ephemeral files",
+        "zh": "临时文件"
+      },
+      {
+        "word": "test scripts",
+        "zh": "测试脚本"
+      },
+      {
+        "word": "temp outputs",
+        "zh": "临时输出"
+      },
+      {
+        "word": "cron logs",
+        "zh": "定时任务日志"
+      },
+      {
+        "word": "Hermes sessions",
+        "zh": "Hermes 会话"
+      },
+      {
+        "word": "plugin hooks",
+        "zh": "插件钩子"
+      },
+      {
+        "word": "no agent action required",
+        "zh": "无需代理操作"
       }
     ]
   }
