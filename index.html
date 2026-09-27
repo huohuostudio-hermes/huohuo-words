@@ -1418,7 +1418,7 @@ function renderMCQ(){
       <div class="t">学习新词</div>
     </div>
     <div class="qcard">
-      <div class="qword">${esc(w.word)}</div>
+      <div class="qword">${esc(dispWord(w.word))}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="qhint">选出正确的中文意思</div>
@@ -1467,7 +1467,7 @@ function renderExplain(wrong){
     </div>
     <div class="explain">
       ${wrong?'<div class="wrongnote">⚠️ 刚才选错了，记住它</div>':'<div class="rightnote">✓ 回答正确</div>'}
-      <div class="qword" style="font-size:28px">${esc(w.word)}</div>
+      <div class="qword" style="font-size:28px">${esc(dispWord(w.word))}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="zh">${esc(w.zh)}</div>
@@ -1534,7 +1534,7 @@ function toggleHint(){
   session.hintLevel=1;
   b.style.display="block";
   b.innerHTML=`
-    <div class="qword" style="font-size:26px;margin-top:4px">${esc(w.word)}</div>
+    <div class="qword" style="font-size:26px;margin-top:4px">${esc(dispWord(w.word))}</div>
     <div class="zh" style="font-size:18px">${esc(w.zh)}</div>
     <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
     ${contextBlock(w)}
@@ -1589,7 +1589,7 @@ function renderSpellExplain(){
     </div>
     <div class="explain">
       ${note}
-      <div class="answerline"><b>${esc(w.word)}</b>　${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
+      <div class="answerline"><b>${esc(dispWord(w.word))}</b>　${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="zh">${esc(w.zh)}</div>
       ${session.spellExplainNote==="wrong"?`<button class="detailbtn" onclick="openDetail('${esc(w.word)}','backToSpellExplain')">📖 详情</button>`:""}
       <div class="detail"><span class="k">定义</span>${esc(w.def||"")}</div>
@@ -1802,7 +1802,7 @@ function renderSources(word, back){
       <div class="t">其他源自</div>
     </div>
     <div class="qcard" style="padding-bottom:14px">
-      <div class="qword" style="font-size:24px">${esc(w.word)}</div>
+      <div class="qword" style="font-size:24px">${esc(dispWord(w.word))}</div>
       <div class="zh">${esc(w.zh)}</div>
       <div class="detail" style="margin-top:6px;margin-bottom:0"><span class="k">共 ${list.length} 处语境</span></div>
     </div>
@@ -1923,7 +1923,7 @@ function openDetail(word, back){
     </div>
     <div class="qcard detailcard" onpointerdown="detailDown(event)" onpointerup="detailUp(event)" onpointercancel="detailCancel(event)">
       <button class="card-fav ${fav?"on":""}" onclick="event.stopPropagation();toggleFav('${esc(w.word)}');openDetail('${esc(w.word)}','${backFn}')">${fav?"★":"☆"}</button>
-      <div class="qword" style="font-size:30px">${esc(w.word)}</div>
+      <div class="qword" style="font-size:30px">${esc(dispWord(w.word))}</div>
       <div class="qipa">${w.ipa?"/"+esc(w.ipa)+"/":""}</div>
       <div class="speakrow"><button class="speak" onclick="${speakArg(w)}">🔊</button></div>
       <div class="zh">${esc(w.zh)}</div>
@@ -2013,7 +2013,7 @@ function renderGroup(words){
         <button class="btn primary" onclick="actSelected('review')">拼写所选</button>
       </div>`;
   }else if(words.length>0){
-    const upperBtn=curGroupKind==="mastered"?`<div class="group-actions"><button class="btn small" onclick="toggleUpper('group')">${upperMode?"🔠 切换到小写":"🔠 切换到大写"}</button></div>`:"";
+    const upperBtn=curGroupKind==="mastered"?`<div class="group-actions"><button class="btn small ${upperMode?"primary":""}" onclick="toggleUpper('group')">🔠 切换</button></div>`:"";
     actions=`
       <div class="brandsub-wrap groupcount" onclick="onGroupCountTap('${curGroupKind}')"><div class="brandsub">已收录 ${words.length} 个单词</div></div>
       ${upperBtn}
@@ -2154,7 +2154,7 @@ function renderFavs(){
   }else if(words.length>0){
     actions=`
       <div class="brandsub-wrap groupcount" onclick="onFavCountTap()"><div class="brandsub">已收藏 ${words.length} 个单词</div></div>
-      <div class="group-actions"><button class="btn small" onclick="toggleUpper('fav')">${upperMode?"🔠 切换到小写":"🔠 切换到大写"}</button></div>
+      <div class="group-actions"><button class="btn small ${upperMode?"primary":""}" onclick="toggleUpper('fav')">🔠 切换</button></div>
       <div class="group-actions selbar"><button class="btn small" onclick="enterFavSelect()">☑ 多选</button></div>`;
   }
   $("#main").innerHTML=`
@@ -2489,14 +2489,14 @@ function renderDeckCard(animate){
       <div class="pc-corner tl"><span class="pc-fire">🔥</span><span class="pc-suit">${suit}</span></div>
       <div class="pc-corner br"><span class="pc-fire">🔥</span><span class="pc-suit">${suit}</span></div>
       <div class="pc-suit-bg">${suit}</div>
-      <div class="pc-word">${esc(w.word)}</div>
+      <div class="pc-word">${esc(dispWord(w.word))}</div>
       <div class="pc-ipa">${w.ipa?esc(w.ipa):""}</div>
     </div>`;
   const back=`<div class="pcard-face pcard-back">
       <div class="pc-corner tr"><span class="pc-fire">🔥</span><span class="pc-suit">${suit}</span></div>
       <div class="pc-corner bl"><span class="pc-fire">🔥</span><span class="pc-suit">${suit}</span></div>
       <div class="pc-suit-bg">${suit}</div>
-      <div class="pc-backword">${esc(w.word)}</div>
+      <div class="pc-backword">${esc(dispWord(w.word))}</div>
       <div class="pc-backipa">${w.ipa?esc(w.ipa):""}</div>
       <div class="speakrow" style="margin:8px 0 4px"><button class="speak" onclick="event.stopPropagation();${speakArg(w)}">🔊</button></div>
       <div class="pc-zh">${esc(w.zh||"")}</div>
