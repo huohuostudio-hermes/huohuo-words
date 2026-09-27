@@ -8048,6 +8048,45 @@ window.WORDS = [
     "id": 593
   },
   {
+    "word": "Optional",
+    "ipa": "ˈɒpʃənl",
+    "translit": "",
+    "zh": "可选的 / 非必需的",
+    "def": "表示某事物不是强制要求的，可以根据需要自行决定是否使用或参与。",
+    "example": "例子：软件安装时，某些附加组件是 optional，用户可以不勾选。",
+    "context": "Optional",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 594
+  },
+  {
+    "word": "Built-in",
+    "ipa": "ˌbɪlt ˈɪn",
+    "translit": "",
+    "zh": "内置的 / 内建的",
+    "def": "指某功能、组件或特性已经集成在设备或系统中，无需额外安装或外接即可使用。",
+    "example": "例子：这款笔记本有内置摄像头，开箱即可视频通话。",
+    "context": "• Built-in",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 595
+  },
+  {
+    "word": "DOCS",
+    "ipa": "dɑːks",
+    "translit": "",
+    "zh": "文档 / 文档资料",
+    "def": "指文件、资料或文档的复数形式，常用于计算机、办公或学术语境中。",
+    "example": "例子：Please review the docs before the meeting.（请在会议前查看这些文档。）",
+    "context": "DOCS",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 596
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8058,7 +8097,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 594
+    "id": 597
   },
   {
     "word": "Conga",
@@ -8071,7 +8110,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 595,
+    "id": 598,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8085,7 +8124,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 596
+    "id": 599
   },
   {
     "word": "Grooves",
@@ -8098,7 +8137,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 597
+    "id": 600
   },
   {
     "word": "Bongos",
@@ -8111,7 +8150,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 598,
+    "id": 601,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8125,7 +8164,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 599
+    "id": 602
   },
   {
     "word": "Djembe",
@@ -8138,7 +8177,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 600
+    "id": 603
   },
   {
     "word": "Tambourine",
@@ -8151,7 +8190,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 601
+    "id": 604
   },
   {
     "word": "Cowbells",
@@ -8164,7 +8203,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 602
+    "id": 605
   },
   {
     "word": "Bells",
@@ -8177,7 +8216,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 603,
+    "id": 606,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -8191,7 +8230,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 604,
+    "id": 607,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -8205,7 +8244,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 605
+    "id": 608
   },
   {
     "word": "Wurlitzer",
@@ -8218,7 +8257,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 606,
+    "id": 609,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -8232,7 +8271,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 607,
+    "id": 610,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -8246,7 +8285,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 608
+    "id": 611
   },
   {
     "word": "Clavinet",
@@ -8259,7 +8298,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 609,
+    "id": 612,
     "audioFile": "bf34769991153703"
   },
   {
@@ -8273,7 +8312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 610,
+    "id": 613,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -8287,7 +8326,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 611
+    "id": 614
   },
   {
     "word": "Female Vocals",
@@ -8300,7 +8339,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 612,
+    "id": 615,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -8314,7 +8353,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 613
+    "id": 616
   },
   {
     "word": "Screams",
@@ -8327,7 +8366,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 614
+    "id": 617
   },
   {
     "word": "Whisper Vocals",
@@ -8340,7 +8379,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 615,
+    "id": 618,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -8354,7 +8393,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 616,
+    "id": 619,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -8368,7 +8407,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 617,
+    "id": 620,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -8382,7 +8421,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 618,
+    "id": 621,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -8396,7 +8435,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 619
+    "id": 622
   }
 ];
 window.SOURCES = [
@@ -11361,6 +11400,18 @@ window.SOURCES = [
       {
         "word": "OpenRouter",
         "zh": "OpenRouter"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "• Built-in",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Built-in",
+        "zh": "内置的 / 内建的"
       }
     ]
   }
