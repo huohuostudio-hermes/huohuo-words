@@ -8240,6 +8240,33 @@ window.WORDS = [
     "audioFile": "d327432da2daa4ca"
   },
   {
+    "word": "Click",
+    "ipa": "",
+    "translit": "",
+    "zh": "点击",
+    "def": "指用鼠标或手指按下按钮或链接以执行操作。",
+    "example": "例子：点击屏幕上的“确定”按钮以继续。",
+    "context": "Click to Update Firmware Update Firmware",
+    "contextZh": "点击以更新固件。更新固件。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 608
+  },
+  {
+    "word": "Update Firmware",
+    "ipa": "",
+    "translit": "",
+    "zh": "更新固件",
+    "def": "指将设备的固件升级到新版本，以修复问题或增加功能。",
+    "example": "例子：在设置菜单中点击“更新固件”来安装最新系统。",
+    "context": "Click to Update Firmware Update Firmware",
+    "contextZh": "点击以更新固件。更新固件。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 609,
+    "audioFile": "8e9193de6db4a048"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8250,7 +8277,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 608
+    "id": 610
   },
   {
     "word": "Conga",
@@ -8263,7 +8290,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 609,
+    "id": 611,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8277,7 +8304,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 610
+    "id": 612
   },
   {
     "word": "Grooves",
@@ -8290,7 +8317,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 611
+    "id": 613
   },
   {
     "word": "Bongos",
@@ -8303,7 +8330,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 612,
+    "id": 614,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8317,7 +8344,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 613
+    "id": 615
   },
   {
     "word": "Djembe",
@@ -8330,7 +8357,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 614
+    "id": 616
   },
   {
     "word": "Tambourine",
@@ -8343,7 +8370,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 615
+    "id": 617
   },
   {
     "word": "Cowbells",
@@ -8356,7 +8383,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 616
+    "id": 618
   },
   {
     "word": "Bells",
@@ -8369,7 +8396,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 617,
+    "id": 619,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -8383,7 +8410,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 618,
+    "id": 620,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -8397,7 +8424,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 619
+    "id": 621
   },
   {
     "word": "Wurlitzer",
@@ -8410,7 +8437,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 620
+    "id": 622
   },
   {
     "word": "Electric Piano",
@@ -8423,7 +8450,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 621,
+    "id": 623,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -8437,7 +8464,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 622
+    "id": 624
   },
   {
     "word": "Clavinet",
@@ -8450,7 +8477,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 623,
+    "id": 625,
     "audioFile": "bf34769991153703"
   },
   {
@@ -8464,7 +8491,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 624,
+    "id": 626,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -8478,7 +8505,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 625
+    "id": 627
   },
   {
     "word": "Female Vocals",
@@ -8491,7 +8518,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 626,
+    "id": 628,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -8505,7 +8532,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 627
+    "id": 629
   },
   {
     "word": "Screams",
@@ -8518,7 +8545,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 628
+    "id": 630
   },
   {
     "word": "Whisper Vocals",
@@ -8531,7 +8558,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 629,
+    "id": 631,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -8545,7 +8572,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 630,
+    "id": 632,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -8559,7 +8586,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 631,
+    "id": 633,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -8573,7 +8600,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 632,
+    "id": 634,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -8587,7 +8614,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 633
+    "id": 635
   }
 ];
 window.SOURCES = [
@@ -11624,6 +11651,22 @@ window.SOURCES = [
       {
         "word": "MIDI Channels",
         "zh": "MIDI 通道"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Click to Update Firmware Update Firmware",
+    "translation": "点击以更新固件。更新固件。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Click",
+        "zh": "点击"
+      },
+      {
+        "word": "Update Firmware",
+        "zh": "更新固件"
       }
     ]
   }
