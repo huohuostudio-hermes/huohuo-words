@@ -7681,6 +7681,373 @@ window.WORDS = [
     "id": 566
   },
   {
+    "word": "Repository",
+    "ipa": "rɪˈpɒzətri",
+    "translit": "",
+    "zh": "仓库 / 存储库",
+    "def": "指集中存放和管理数据、文件或代码的地方，常见于软件开发中用于版本控制。",
+    "example": "例子：GitHub 上的一个 repository 可以存放一个项目的全部代码和修改历史。",
+    "context": "Repository",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 567
+  },
+  {
+    "word": "Documentation",
+    "ipa": "ˌdɒkjʊmɛnˈteɪʃən",
+    "translit": "",
+    "zh": "文档 / 文档资料",
+    "def": "指对软件、系统或流程进行说明的文字材料，通常包括使用说明、技术规范和参考信息。",
+    "example": "例子：开发者查阅 API documentation 来了解如何调用某个接口。",
+    "context": "Documentation",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 568
+  },
+  {
+    "word": "Hermes",
+    "ipa": "",
+    "translit": "",
+    "zh": "爱马仕",
+    "def": "法国奢侈品牌，以皮具、丝巾、香水等高端产品闻名。",
+    "example": "例子：Hermes Birkin 包是爱马仕最知名的产品之一。",
+    "context": "hermes resetwatch",
+    "contextZh": "爱马仕重置手表",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 569
+  },
+  {
+    "word": "resetwatch",
+    "ipa": "",
+    "translit": "",
+    "zh": "重置手表 / 复位手表",
+    "def": "指将手表进行重置或复位的操作，通常用于智能手表恢复出厂设置或重置计时功能。",
+    "example": "例子：在智能手表设置中选择 resetwatch 可将设备恢复到初始状态。",
+    "context": "hermes resetwatch",
+    "contextZh": "爱马仕重置手表",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 570,
+    "audioFile": "da1d77a0a4d591b1"
+  },
+  {
+    "word": "Track subscription quotas",
+    "ipa": "",
+    "translit": "",
+    "zh": "跟踪订阅配额",
+    "def": "指对订阅数量或使用额度进行监控和记录，以便了解剩余可用量。",
+    "example": "例子：软件显示“你本月还可创建 3 个订阅”。",
+    "context": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 571,
+    "audioFile": "0cc592046b47da79"
+  },
+  {
+    "word": "reset times",
+    "ipa": "",
+    "translit": "",
+    "zh": "重置时间",
+    "def": "指配额、计数或状态恢复到初始值的时间点。",
+    "example": "例子：系统在每月 1 日 00:00 重置下载次数。",
+    "context": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 572,
+    "audioFile": "2826502e38c64380"
+  },
+  {
+    "word": "Hermes Desktop",
+    "ipa": "",
+    "translit": "",
+    "zh": "Hermes 桌面版",
+    "def": "指名为 Hermes 的桌面应用程序。",
+    "example": "例子：用户在 Hermes Desktop 中查看账户配额。",
+    "context": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 573,
+    "audioFile": "1c47cba7c405544a"
+  },
+  {
+    "word": "Disclosure",
+    "ipa": "",
+    "translit": "",
+    "zh": "披露 / 说明",
+    "def": "指对某些行为、机制或潜在影响的公开说明。",
+    "example": "例子：文档中的“披露”部分说明脚本会重新执行自身。",
+    "context": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 574
+  },
+  {
+    "word": "probe.py",
+    "ipa": "",
+    "translit": "",
+    "zh": "probe.py 脚本",
+    "def": "指名为 probe.py 的 Python 脚本文件。",
+    "example": "例子：运行 probe.py 后，它会检查当前 Python 环境。",
+    "context": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 575,
+    "audioFile": "ab4a66c98e69c1ea"
+  },
+  {
+    "word": "re-executes itself",
+    "ipa": "",
+    "translit": "",
+    "zh": "重新执行自身",
+    "def": "指程序在运行过程中再次启动自己，通常是为了切换到特定解释器或环境。",
+    "example": "例子：脚本检测到解释器不对后，会重新执行自身。",
+    "context": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 576,
+    "audioFile": "cf0830da2ed49ed0"
+  },
+  {
+    "word": "located via HERMES_PYTHON",
+    "ipa": "",
+    "translit": "",
+    "zh": "通过 HERMES_PYTHON 定位",
+    "def": "指通过环境变量 HERMES_PYTHON 找到所需的 Python 解释器路径。",
+    "example": "例子：系统读取 HERMES_PYTHON 来定位解释器。",
+    "context": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 577,
+    "audioFile": "991990ee6069d138"
+  },
+  {
+    "word": "VIRTUAL_ENV",
+    "ipa": "",
+    "translit": "",
+    "zh": "虚拟环境变量",
+    "def": "指用于标识当前 Python 虚拟环境路径的环境变量。",
+    "example": "例子：VIRTUAL_ENV 指向项目使用的虚拟环境目录。",
+    "context": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 578,
+    "audioFile": "2619082f7d8194b1"
+  },
+  {
+    "word": "the parent process",
+    "ipa": "",
+    "translit": "",
+    "zh": "父进程",
+    "def": "指启动当前进程的那个进程。",
+    "example": "例子：子进程退出后，父进程继续运行。",
+    "context": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 579,
+    "audioFile": "546c10a6e5c20a26"
+  },
+  {
+    "word": "Quota",
+    "ipa": "ˈkwoʊtə",
+    "translit": "",
+    "zh": "配额 / 限额",
+    "def": "指规定的数量上限或分配额度，常用于贸易、生产或资源分配场景。",
+    "example": "例子：该国对进口汽车设定了年度配额。",
+    "context": "Hermes Quota",
+    "contextZh": "爱马仕配额",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 580
+  },
+  {
+    "word": "Per-provider quota",
+    "ipa": "",
+    "translit": "",
+    "zh": "按提供商配额",
+    "def": "指针对每一个服务提供商单独设定的使用额度上限，用于限制用户在该提供商处可消耗的资源总量。",
+    "example": "例子：某工具为 OpenAI 设置每月 100 万 token 的配额，为 Anthropic 单独设置 50 万 token 的配额。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 581,
+    "audioFile": "9567437662b7a6d9"
+  },
+  {
+    "word": "rate limits",
+    "ipa": "",
+    "translit": "",
+    "zh": "速率限制",
+    "def": "指在单位时间内允许发起的请求次数或数据量的上限，用于防止过度调用和保障服务稳定。",
+    "example": "例子：每分钟最多允许向某 API 发送 60 次请求。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 582,
+    "audioFile": "5ce567dc6c8bf1f2"
+  },
+  {
+    "word": "desktop pane",
+    "ipa": "",
+    "translit": "",
+    "zh": "桌面面板",
+    "def": "指桌面应用程序界面中的一个独立区域或窗格，用于展示特定信息或功能。",
+    "example": "例子：软件主窗口右侧显示配额使用情况的侧边面板。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 583,
+    "audioFile": "d7e5e9350388bfb2"
+  },
+  {
+    "word": "status bar",
+    "ipa": "",
+    "translit": "",
+    "zh": "状态栏",
+    "def": "指界面底部或顶部用于显示当前状态信息（如连接状态、配额余量）的横条区域。",
+    "example": "例子：窗口底部显示\"已连接 · 剩余配额 80%\"的横条。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 584,
+    "audioFile": "0f2e03621663b410"
+  },
+  {
+    "word": "Copilot",
+    "ipa": "",
+    "translit": "",
+    "zh": "副驾驶 / 智能助手",
+    "def": "指辅助用户完成任务的 AI 助手功能，通常集成在编辑器或应用内提供建议与自动化支持。",
+    "example": "例子：GitHub Copilot 在编写代码时自动补全建议。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 585
+  },
+  {
+    "word": "OpenAl Codex",
+    "ipa": "",
+    "translit": "",
+    "zh": "OpenAI Codex",
+    "def": "指 OpenAI 推出的代码生成模型，能够根据自然语言描述生成程序代码。",
+    "example": "例子：输入\"写一个快速排序函数\"，Codex 输出对应代码。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 586,
+    "audioFile": "9ccec594850d4356"
+  },
+  {
+    "word": "OpenCode Go",
+    "ipa": "",
+    "translit": "",
+    "zh": "OpenCode Go",
+    "def": "指一个名为 OpenCode Go 的编程辅助工具或服务。",
+    "example": "例子：在开发环境中调用 OpenCode Go 进行代码补全。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 587,
+    "audioFile": "f747242e1a5a98de"
+  },
+  {
+    "word": "Grok",
+    "ipa": "",
+    "translit": "",
+    "zh": "Grok",
+    "def": "指由 xAI 推出的对话式 AI 模型。",
+    "example": "例子：使用 Grok 进行问答或文本生成。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 588
+  },
+  {
+    "word": "Gemini",
+    "ipa": "",
+    "translit": "",
+    "zh": "Gemini",
+    "def": "指 Google 推出的多模态 AI 模型系列。",
+    "example": "例子：通过 Gemini 处理图像与文本混合任务。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 589
+  },
+  {
+    "word": "Anthropic",
+    "ipa": "",
+    "translit": "",
+    "zh": "Anthropic",
+    "def": "指开发 Claude 系列模型的 AI 公司。",
+    "example": "例子：Anthropic 提供的 Claude 模型用于对话与写作。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 590
+  },
+  {
+    "word": "Kimi",
+    "ipa": "",
+    "translit": "",
+    "zh": "Kimi",
+    "def": "指由月之暗面推出的对话式 AI 助手。",
+    "example": "例子：使用 Kimi 进行长文本阅读与总结。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 591
+  },
+  {
+    "word": "Nous Portal",
+    "ipa": "",
+    "translit": "",
+    "zh": "Nous Portal",
+    "def": "指名为 Nous 的门户平台或服务入口。",
+    "example": "例子：通过 Nous Portal 访问相关 AI 服务。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 592,
+    "audioFile": "a64b492c55a5505c"
+  },
+  {
+    "word": "OpenRouter",
+    "ipa": "",
+    "translit": "",
+    "zh": "OpenRouter",
+    "def": "指一个聚合多家 AI 模型 API 的路由平台，用户可通过统一接口调用不同模型。",
+    "example": "例子：通过 OpenRouter 一次接入 GPT、Claude、Gemini 等多个模型。",
+    "context": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 593
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -7691,7 +8058,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 567
+    "id": 594
   },
   {
     "word": "Conga",
@@ -7704,7 +8071,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 568,
+    "id": 595,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -7718,7 +8085,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 569
+    "id": 596
   },
   {
     "word": "Grooves",
@@ -7731,7 +8098,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 570
+    "id": 597
   },
   {
     "word": "Bongos",
@@ -7744,7 +8111,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 571,
+    "id": 598,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -7758,7 +8125,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 572
+    "id": 599
   },
   {
     "word": "Djembe",
@@ -7771,7 +8138,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 573
+    "id": 600
   },
   {
     "word": "Tambourine",
@@ -7784,7 +8151,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 574
+    "id": 601
   },
   {
     "word": "Cowbells",
@@ -7797,7 +8164,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 575
+    "id": 602
   },
   {
     "word": "Bells",
@@ -7810,7 +8177,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 576,
+    "id": 603,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -7824,7 +8191,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 577,
+    "id": 604,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -7838,7 +8205,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 578
+    "id": 605
   },
   {
     "word": "Wurlitzer",
@@ -7851,7 +8218,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 579,
+    "id": 606,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -7865,7 +8232,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 580,
+    "id": 607,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -7879,7 +8246,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 581
+    "id": 608
   },
   {
     "word": "Clavinet",
@@ -7892,7 +8259,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 582,
+    "id": 609,
     "audioFile": "bf34769991153703"
   },
   {
@@ -7906,7 +8273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 583,
+    "id": 610,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -7920,7 +8287,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 584
+    "id": 611
   },
   {
     "word": "Female Vocals",
@@ -7933,7 +8300,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 585,
+    "id": 612,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -7947,7 +8314,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 586
+    "id": 613
   },
   {
     "word": "Screams",
@@ -7960,7 +8327,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 587
+    "id": 614
   },
   {
     "word": "Whisper Vocals",
@@ -7973,7 +8340,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 588,
+    "id": 615,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -7987,7 +8354,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 589,
+    "id": 616,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -8001,7 +8368,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 590,
+    "id": 617,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -8015,7 +8382,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 591,
+    "id": 618,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -8029,7 +8396,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 592
+    "id": 619
   }
 ];
 window.SOURCES = [
@@ -10854,6 +11221,146 @@ window.SOURCES = [
       {
         "word": "Page",
         "zh": "页面"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "hermes resetwatch",
+    "translation": "爱马仕重置手表",
+    "category": "",
+    "branches": [
+      {
+        "word": "Hermes",
+        "zh": "爱马仕"
+      },
+      {
+        "word": "resetwatch",
+        "zh": "重置手表 / 复位手表"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Track subscription quotas and reset times in Hermes Desktop. Disclosure - probe.py re-executes itself under the Hermes Python interpreter located via HERMES_PYTHON / VIRTUAL_ENV / the parent process.",
+    "translation": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Track subscription quotas",
+        "zh": "跟踪订阅配额"
+      },
+      {
+        "word": "reset times",
+        "zh": "重置时间"
+      },
+      {
+        "word": "Hermes Desktop",
+        "zh": "Hermes 桌面版"
+      },
+      {
+        "word": "Disclosure",
+        "zh": "披露 / 说明"
+      },
+      {
+        "word": "probe.py",
+        "zh": "probe.py 脚本"
+      },
+      {
+        "word": "re-executes itself",
+        "zh": "重新执行自身"
+      },
+      {
+        "word": "under the Hermes Python interpreter",
+        "zh": "在 Hermes Python 解释器下"
+      },
+      {
+        "word": "located via HERMES_PYTHON",
+        "zh": "通过 HERMES_PYTHON 定位"
+      },
+      {
+        "word": "VIRTUAL_ENV",
+        "zh": "虚拟环境变量"
+      },
+      {
+        "word": "the parent process",
+        "zh": "父进程"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Hermes Quota",
+    "translation": "爱马仕配额",
+    "category": "",
+    "branches": [
+      {
+        "word": "Hermes",
+        "zh": "爱马仕"
+      },
+      {
+        "word": "Quota",
+        "zh": "配额 / 限额"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Per-provider quota and rate limits, in the desktop pane and the status bar. Copilot • OpenAl Codex • OpenCode Go • Grok • Gemini Anthropic • Kimi • Nous Portal • OpenRouter",
+    "translation": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Per-provider quota",
+        "zh": "按提供商配额"
+      },
+      {
+        "word": "rate limits",
+        "zh": "速率限制"
+      },
+      {
+        "word": "desktop pane",
+        "zh": "桌面面板"
+      },
+      {
+        "word": "status bar",
+        "zh": "状态栏"
+      },
+      {
+        "word": "Copilot",
+        "zh": "副驾驶 / 智能助手"
+      },
+      {
+        "word": "OpenAl Codex",
+        "zh": "OpenAI Codex"
+      },
+      {
+        "word": "OpenCode Go",
+        "zh": "OpenCode Go"
+      },
+      {
+        "word": "Grok",
+        "zh": "Grok"
+      },
+      {
+        "word": "Gemini",
+        "zh": "Gemini"
+      },
+      {
+        "word": "Anthropic",
+        "zh": "Anthropic"
+      },
+      {
+        "word": "Kimi",
+        "zh": "Kimi"
+      },
+      {
+        "word": "Nous Portal",
+        "zh": "Nous Portal"
+      },
+      {
+        "word": "OpenRouter",
+        "zh": "OpenRouter"
       }
     ]
   }
