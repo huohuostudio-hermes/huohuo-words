@@ -8086,6 +8086,61 @@ window.WORDS = [
     "id": 596
   },
   {
+    "word": "Naturalize",
+    "ipa": "ˈnætʃrəlaɪz",
+    "translit": "",
+    "zh": "自然化",
+    "def": "指让某种处理或效果听起来更自然、更接近真实演奏，减少机械感或人工痕迹。",
+    "example": "例子：把量化过的鼓点做自然化处理，让时值有轻微偏移，听起来更像真人演奏。",
+    "context": "Naturalize Pitch Variation Timing Variation Transition Rate",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 597
+  },
+  {
+    "word": "Pitch Variation",
+    "ipa": "pɪtʃ ˌveriˈeɪʃn",
+    "translit": "",
+    "zh": "音高变化",
+    "def": "指音高在时间上的波动或偏移，常用于让重复的音符或采样避免过于呆板。",
+    "example": "听觉例子：同一鼓采样每次触发时音高略有不同，听起来不会像复读机一样单调。",
+    "context": "Naturalize Pitch Variation Timing Variation Transition Rate",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 598,
+    "audioFile": "9ee0a20eaaea7df3"
+  },
+  {
+    "word": "Timing Variation",
+    "ipa": "ˈtaɪmɪŋ ˌveriˈeɪʃn",
+    "translit": "",
+    "zh": "时值变化",
+    "def": "指音符触发时间相对网格位置的细微偏移，用来制造人性化的节奏感。",
+    "example": "听觉例子：踩镲每次落点比节拍网格早一点或晚一点，产生\"摇摆\"的感觉。",
+    "context": "Naturalize Pitch Variation Timing Variation Transition Rate",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 599,
+    "audioFile": "8be331e6b571b7fc"
+  },
+  {
+    "word": "Transition Rate",
+    "ipa": "trænˈzɪʃn reɪt",
+    "translit": "",
+    "zh": "过渡速率",
+    "def": "指两个状态、音色或参数之间变化的速度，决定过渡是突变还是渐变。",
+    "example": "例子：滤波器扫频时过渡速率设得低，声音会缓慢滑向目标音色；设得高则瞬间切换。",
+    "context": "Naturalize Pitch Variation Timing Variation Transition Rate",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 600,
+    "audioFile": "e7c87721582c7fb0"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8096,7 +8151,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 597
+    "id": 601
   },
   {
     "word": "Conga",
@@ -8109,7 +8164,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 598,
+    "id": 602,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8123,7 +8178,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 599
+    "id": 603
   },
   {
     "word": "Grooves",
@@ -8136,7 +8191,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 600
+    "id": 604
   },
   {
     "word": "Bongos",
@@ -8149,7 +8204,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 601,
+    "id": 605,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8163,7 +8218,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 602
+    "id": 606
   },
   {
     "word": "Djembe",
@@ -8176,7 +8231,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 603
+    "id": 607
   },
   {
     "word": "Tambourine",
@@ -8189,7 +8244,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 604
+    "id": 608
   },
   {
     "word": "Cowbells",
@@ -8202,7 +8257,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 605
+    "id": 609
   },
   {
     "word": "Bells",
@@ -8215,7 +8270,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 606,
+    "id": 610,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -8229,7 +8284,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 607,
+    "id": 611,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -8243,7 +8298,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 608
+    "id": 612
   },
   {
     "word": "Wurlitzer",
@@ -8256,7 +8311,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 609,
+    "id": 613,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -8270,7 +8325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 610,
+    "id": 614,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -8284,7 +8339,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 611
+    "id": 615
   },
   {
     "word": "Clavinet",
@@ -8297,7 +8352,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 612,
+    "id": 616,
     "audioFile": "bf34769991153703"
   },
   {
@@ -8311,7 +8366,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 613,
+    "id": 617,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -8325,7 +8380,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 614
+    "id": 618
   },
   {
     "word": "Female Vocals",
@@ -8338,7 +8393,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 615,
+    "id": 619,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -8352,7 +8407,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 616
+    "id": 620
   },
   {
     "word": "Screams",
@@ -8365,7 +8420,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 617
+    "id": 621
   },
   {
     "word": "Whisper Vocals",
@@ -8378,7 +8433,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 618,
+    "id": 622,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -8392,7 +8447,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 619,
+    "id": 623,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -8406,7 +8461,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 620,
+    "id": 624,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -8420,7 +8475,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 621,
+    "id": 625,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -8434,7 +8489,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 622
+    "id": 626
   }
 ];
 window.SOURCES = [
@@ -11411,6 +11466,30 @@ window.SOURCES = [
       {
         "word": "Built-in",
         "zh": "内置的 / 内建的"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "text": "Naturalize Pitch Variation Timing Variation Transition Rate",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Naturalize",
+        "zh": "自然化"
+      },
+      {
+        "word": "Pitch Variation",
+        "zh": "音高变化"
+      },
+      {
+        "word": "Timing Variation",
+        "zh": "时值变化"
+      },
+      {
+        "word": "Transition Rate",
+        "zh": "过渡速率"
       }
     ]
   }
