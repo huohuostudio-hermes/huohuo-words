@@ -436,6 +436,15 @@ beginSession(true);
 ok(session.mcqQueue.every(w=>catOf(w)==="乐器们"), "beginSession 学习队列在标签内");
 chainCat = "全部";
 
+// 29. 多选滑动批量选择：selApply 更新 groupSelected
+groupSelectMode=true; groupSelected=new Set();
+selApply("w1", true, null);
+selApply("w2", true, null);
+ok(groupSelected.has("w1") && groupSelected.has("w2"), "selApply 选中词加入 groupSelected");
+selApply("w1", false, null);
+ok(!groupSelected.has("w1"), "selApply 取消选中从 groupSelected 移除");
+groupSelectMode=false; groupSelected=new Set();
+
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;
 `;

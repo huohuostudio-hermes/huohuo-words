@@ -2159,7 +2159,9 @@ function renderGroupItems(words){
     const dot={new:"new",learning:"learn",mastered:"master"}[st];
     if(groupSelectMode){
       const on=groupSelected.has(w.word);
-      return `<li class="worditem" onclick="toggleSelectWord('${esc(w.word)}')">
+      return `<li class="worditem" data-w="${esc(w.word)}" style="touch-action:none"
+        onpointerdown="selDown(event)" onpointermove="selMove(event)" onpointerup="selUp(event)" onpointercancel="selUp(event)"
+        onclick="toggleSelectWord('${esc(w.word)}')">
         <span class="chk ${on?"on":""}">${on?"✓":""}</span>
         <span class="dot ${dot}"></span>
         <span class="w">${esc(dispWord(w.word))}</span>
@@ -2181,8 +2183,46 @@ function renderGroupBack(){showGroup(curGroupKind);}
 function enterSelect(){groupSelectMode=true;groupSelected=new Set();renderGroup(groupWordsOf(curGroupKind));}
 function exitSelect(){groupSelectMode=false;groupSelected=new Set();renderGroup(groupWordsOf(curGroupKind));}
 function toggleSelectWord(word){
+  if(Date.now()<suppressClickUntil)return;
   if(groupSelected.has(word))groupSelected.delete(word);else groupSelected.add(word);
   renderGroup(groupWordsOf(curGroupKind));
+}
+/* ---------- 多选滑动批量选择（按住下滑=选、上滑=取消） ---------- */
+let selSwipeState=null;
+function selDown(e){
+  if(e.pointerType==="mouse"&&e.button!==0)return;
+  const li=e.currentTarget;
+  const w=li&&li.getAttribute("data-w");
+  if(!w)return;
+  selSwipeState={startWord:w,startLi:li,targetOn:!groupSelected.has(w),startX:e.clientX,startY:e.clientY,active:false,touched:new Set([w])};
+  if(li&&li.setPointerCapture){try{li.setPointerCapture(e.pointerId);}catch(_){}}
+}
+function selMove(e){
+  const s=selSwipeState; if(!s)return;
+  if(!s.active){
+    if(Math.abs(e.clientY-s.startY)<12 && Math.abs(e.clientX-s.startX)<12)return;
+    s.active=true;
+    selApply(s.startWord,s.targetOn,s.startLi);
+  }
+  const el=document.elementFromPoint(e.clientX,e.clientY);
+  const li=el&&el.closest?el.closest(".worditem"):null;
+  if(!li)return;
+  const w=li.getAttribute("data-w");
+  if(!w||s.touched.has(w))return;
+  s.touched.add(w);
+  selApply(w,s.targetOn,li);
+}
+function selUp(){
+  const s=selSwipeState; selSwipeState=null;
+  if(s&&s.active){ suppressClickUntil=Date.now()+300; updateSelCount(); }
+}
+function selApply(w,on,li){
+  if(on)groupSelected.add(w); else groupSelected.delete(w);
+  if(li){const chk=li.querySelector(".chk"); if(chk){ if(on){chk.classList.add("on");chk.textContent="✓";} else {chk.classList.remove("on");chk.textContent="";} } }
+}
+function updateSelCount(){
+  const el=document.querySelector(".selcount");
+  if(el)el.textContent="已选 "+groupSelected.size+" 个";
 }
 function selectAll(){
   const words=groupWordsOf(curGroupKind);
@@ -2423,9 +2463,9 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="2.8"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="2.9"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "学习、抽卡、略过补词都跟随词网当前选中的标签，按标签范围随机抽词"
+  "多选模式支持按住一个单词上下滑动批量选择（下滑选、上滑取消）"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);
