@@ -422,6 +422,20 @@ ok(isHidden(WORDS.find(w=>w.word===delSpellWord)), "拼写删除当前词 isHidd
 ok(session.spellQueue.length===1 && session.spellQueue[0].word===WORDS[1].word, "拼写删除后队列前进到下一词");
 unhideWord(delSpellWord);
 
+// 28. 词网标签贯穿：pickNew / refillMCQ / beginSession 都在当前标签内
+progress = normalize({cards:{},settings:{dailyNew:5},stats:{}});
+chainCat = "乐器们";
+const pn = pickNew(1000);
+const chainNewCount = chainWords().filter(isNew).length;
+ok(pn.every(w=>catOf(w)==="乐器们"), "pickNew 只抽当前标签的新词");
+ok(pn.length===chainNewCount, "pickNew 抽全当前标签新词（数量=标签新词数）");
+session = {mcqQueue:[], spellQueue:[], pendingSpell:[], failQueue:[], skipped:[], current:null, wordWrong:false, addedToFail:false};
+refillMCQ();
+ok(session.mcqQueue.length===0 || session.mcqQueue.every(w=>catOf(w)==="乐器们"), "refillMCQ 补词在当前标签内");
+beginSession(true);
+ok(session.mcqQueue.every(w=>catOf(w)==="乐器们"), "beginSession 学习队列在标签内");
+chainCat = "全部";
+
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;
 `;

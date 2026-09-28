@@ -1218,7 +1218,8 @@ function newCount(){return allWords().filter(isNew).length;}
 function studiedCount(){return allWords().filter(w=>cardOf(w)).length;}
 function todayLearned(){const t=todayStr();return allWords().filter(w=>{const c=cardOf(w);return c&&c.learnedOn===t;}).length;}
 function todayMastered(){const t=todayStr();return allWords().filter(w=>{const c=cardOf(w);return c&&c.masteredOn===t;}).length;}
-function pickNew(n){return allWords().filter(isNew).slice(0,n||0);}
+function chainWords(){return chainCat==="全部"?allWords():allWords().filter(w=>catOf(w)===chainCat);}
+function pickNew(n){return shuffle(chainWords().filter(isNew)).slice(0,n||0);}
 function pickLearning(){return allWords().filter(isLearning);}
 function cardState(w){const c=cardOf(w);if(!c)return "new";return c.state==="mastered"?"mastered":"learning";}
 
@@ -1515,7 +1516,7 @@ function refillMCQ(){
   if(!session)return;
   const skipped=new Set(session.skipped||[]);
   const inQueue=new Set(session.mcqQueue.map(x=>x.word));
-  const cand=allWords().filter(w=>isNew(w)&&!inQueue.has(w.word)&&!skipped.has(w.word));
+  const cand=chainWords().filter(w=>isNew(w)&&!inQueue.has(w.word)&&!skipped.has(w.word));
   if(cand.length===0)return;
   const pick=cand[Math.floor(Math.random()*cand.length)];
   session.mcqQueue.push(pick);
@@ -2422,10 +2423,9 @@ async function updateApp(btn){
   location.href=base+"?t="+Date.now();
 }
 /* ---------- 版本检测 / 更新弹窗 ---------- */
-const APP_VERSION="2.7"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
+const APP_VERSION="2.8"; // 当前版本号，改代码时同步 bump（与 version.json 一致）
 const APP_NOTES=[
-  "拼写复习页新增删除旋钮 + 左右滑略过，逻辑与学习页一致",
-  "英语库首页也显示「已收录 N 个单词」，双击抽随机卡片"
+  "学习、抽卡、略过补词都跟随词网当前选中的标签，按标签范围随机抽词"
 ];
 function renderNotes(notes){
   const arr=(notes||[]).filter(n=>n);
@@ -2564,8 +2564,8 @@ function onWordCountTap(){
   else deckTapTime=now;
 }
 function openDeck(){
-  const base=curCat==="全部"?allWords():allWords().filter(w=>catOf(w)===curCat);
-  openDeckFrom(base, curCat==="全部"?"还没有单词":"「"+curCat+"」还没有单词");
+  const base=chainWords();
+  openDeckFrom(base, chainCat==="全部"?"还没有单词":"「"+chainCat+"」还没有单词");
 }
 function openDeckFrom(base, emptyMsg){
   const pool=shuffle(base||[]);
