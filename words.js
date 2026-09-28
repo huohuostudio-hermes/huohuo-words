@@ -12396,5 +12396,17 @@ window.SOURCES = [
         "zh": "渐进"
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "text": "• Modern",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Modern",
+        "zh": "现代的 / 现代风格的"
+      }
+    ]
   }
 ];
