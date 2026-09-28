@@ -8409,6 +8409,407 @@ window.WORDS = [
     "id": 620
   },
   {
+    "word": "drums",
+    "ipa": "drʌmz",
+    "translit": "",
+    "zh": "鼓组 / 鼓",
+    "def": "打击乐器的统称，通常指架子鼓组，是节奏的核心骨架。",
+    "example": "听觉例子：底鼓的\"咚\"声与军鼓的\"啪\"声交织成的节奏律动。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 621
+  },
+  {
+    "word": "hats",
+    "ipa": "hæts",
+    "translit": "",
+    "zh": "踩镲 / 镲帽",
+    "def": "架子鼓中由两片镲片组成的部件，通过踏板控制开合，常用于维持节奏细分。",
+    "example": "听觉例子：闭合时发出短促的\"嗒\"声，打开时延音更长、带有\"嘶\"的尾音。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 622
+  },
+  {
+    "word": "open",
+    "ipa": "ˈoʊpən",
+    "translit": "",
+    "zh": "开放的 / 开镲",
+    "def": "描述踩镲处于踏板松开、两片镲分离的状态，声音延展且明亮。",
+    "example": "听觉例子：踩镲打开时发出持续的\"嘶嘶\"声，常用于段落转换处。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 623
+  },
+  {
+    "word": "hip hop",
+    "ipa": "ˈhɪp hɑːp",
+    "translit": "",
+    "zh": "嘻哈",
+    "def": "起源于1970年代美国街头的文化运动与音乐流派，以说唱和采样制作为核心。",
+    "example": "例子：经典嘻哈曲目以鼓机节拍搭配采样循环和说唱人声。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 624,
+    "audioFile": "1ab40b958922f40b"
+  },
+  {
+    "word": "trap",
+    "ipa": "træp",
+    "translit": "",
+    "zh": "陷阱音乐",
+    "def": "起源于美国南部的嘻哈子流派，以快速踩镲滚奏、808低音和暗黑氛围为特征。",
+    "example": "例子：曲中密集的踩镲三连音配合深沉的808滑音低音。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 625
+  },
+  {
+    "word": "house",
+    "ipa": "haʊs",
+    "translit": "",
+    "zh": "浩室",
+    "def": "起源于1980年代芝加哥的电子舞曲流派，以四拍一鼓的稳定节奏为标志。",
+    "example": "例子：每分钟120-130拍的四踩底鼓搭配钢琴和弦与灵魂唱腔。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 626
+  },
+  {
+    "word": "fx",
+    "ipa": "ɛf ɛks",
+    "translit": "",
+    "zh": "音效 / 效果",
+    "def": "音频制作中各类声音效果或效果器的统称，包括混响、延迟、失真等。",
+    "example": "例子：在过渡段加入上升音效（riser）来制造紧张感。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 627
+  },
+  {
+    "word": "percussion",
+    "ipa": "pərˈkʌʃən",
+    "translit": "",
+    "zh": "打击乐 / 打击乐器",
+    "def": "除架子鼓之外的辅助打击乐器，如沙锤、铃鼓、康加鼓等。",
+    "example": "听觉例子：铃鼓的\"叮铃\"声为节奏增添高频闪烁感。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 628
+  },
+  {
+    "word": "techno",
+    "ipa": "ˈteknoʊ",
+    "translit": "",
+    "zh": "科技舞曲",
+    "def": "起源于1980年代底特律的电子音乐流派，以机械化的节拍和合成器音色为特征。",
+    "example": "例子：重复的合成器琶音配合稳定的四拍底鼓营造未来感。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 629
+  },
+  {
+    "word": "snares",
+    "ipa": "snerz",
+    "translit": "",
+    "zh": "军鼓",
+    "def": "架子鼓中底部带有响弦的鼓，声音清脆响亮，通常落在第二、四拍。",
+    "example": "听觉例子：短促有力的\"啪\"声，是节奏的骨架支撑。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 630,
+    "audioFile": "455b11a16eb7a21a"
+  },
+  {
+    "word": "edm",
+    "ipa": "",
+    "translit": "",
+    "zh": "电子舞曲",
+    "def": "Electronic Dance Music 的缩写，泛指为舞池场景制作的各类电子音乐。",
+    "example": "例子：大型音乐节上以高潮迭起的drop和强劲节拍为特征的曲目。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 631
+  },
+  {
+    "word": "closed",
+    "ipa": "kloʊzd",
+    "translit": "",
+    "zh": "闭合的 / 闭镲",
+    "def": "描述踩镲处于踏板踩下、两片镲紧贴的状态，声音短促干脆。",
+    "example": "听觉例子：踩镲闭合时发出短促的\"嗒\"声，用于维持节奏的细密度。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 632
+  },
+  {
+    "word": "rnb",
+    "ipa": "",
+    "translit": "",
+    "zh": "节奏布鲁斯",
+    "def": "Rhythm and Blues 的缩写，融合灵魂乐、放克和流行元素的音乐流派。",
+    "example": "例子：流畅的人声旋律搭配柔和的鼓机节拍和温暖的和弦。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 633
+  },
+  {
+    "word": "pop",
+    "ipa": "pɑːp",
+    "translit": "",
+    "zh": "流行",
+    "def": "面向大众市场、旋律抓耳、结构简洁的音乐流派。",
+    "example": "例子：主歌-副歌结构配合朗朗上口的旋律和精炼的编曲。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 634
+  },
+  {
+    "word": "tech house",
+    "ipa": "",
+    "translit": "",
+    "zh": "科技浩室",
+    "def": "融合科技舞曲的机械感与浩室的律动感的电子舞曲子流派。",
+    "example": "例子：带有滚动低音线和切分音打击乐的律动曲目。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 635,
+    "audioFile": "5c2f2255cdea6cc7"
+  },
+  {
+    "word": "cymbals",
+    "ipa": "ˈsɪmbəlz",
+    "translit": "",
+    "zh": "镲片",
+    "def": "金属圆形打击乐器，包括踩镲、吊镲、叮叮镲等，提供高频和氛围感。",
+    "example": "听觉例子：吊镲被击打后发出明亮而绵长的\"镲——\"声。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 636
+  },
+  {
+    "word": "boom bap",
+    "ipa": "",
+    "translit": "",
+    "zh": "boom bap",
+    "def": "经典嘻哈制作风格，以有力的底鼓和清脆的军鼓组合为标志性节奏。",
+    "example": "例子：底鼓\"砰\"与军鼓\"啪\"交替形成的经典嘻哈节拍。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 637,
+    "audioFile": "b20cb670df7abd92"
+  },
+  {
+    "word": "live sounds",
+    "ipa": "",
+    "translit": "",
+    "zh": "现场声音",
+    "def": "指在真实空间中录制的乐器或环境声音，而非合成或采样音色。",
+    "example": "例子：录制真实鼓组演奏而非使用鼓机编程的节拍。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 638,
+    "audioFile": "c6fbea1d5e7dfaaf"
+  },
+  {
+    "word": "deep house",
+    "ipa": "",
+    "translit": "",
+    "zh": "深邃浩室",
+    "def": "浩室的子流派，以温暖的低音、柔和的和弦和舒缓的氛围为特征。",
+    "example": "例子：柔和的钢琴和弦配合深沉的贝斯线和轻柔的打击乐。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "声音描述",
+    "source": "小赫转存",
+    "id": 639,
+    "audioFile": "7982ffdc9f5e76da"
+  },
+  {
+    "word": "dubstep",
+    "ipa": "ˈdʌbstɛp",
+    "translit": "",
+    "zh": "回响贝斯",
+    "def": "起源于英国伦敦的电子音乐流派，以沉重的低音和半速节奏为特征。",
+    "example": "例子：低频的wobble贝斯配合稀疏的鼓点和大量空间感。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 640
+  },
+  {
+    "word": "soul",
+    "ipa": "soʊl",
+    "translit": "",
+    "zh": "灵魂乐",
+    "def": "起源于1950年代美国黑人社区的音乐流派，融合福音、节奏布鲁斯，强调情感表达。",
+    "example": "例子：充满激情的唱腔配合管乐组和温暖的节奏组。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 641
+  },
+  {
+    "word": "drum and bass",
+    "ipa": "",
+    "translit": "",
+    "zh": "鼓打贝斯",
+    "def": "起源于英国的电子音乐流派，以约170BPM的快速碎拍和深沉低音为特征。",
+    "example": "例子：快速的Amen碎拍配合厚重的低音线营造紧张律动。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 642,
+    "audioFile": "802699bbf63f145a"
+  },
+  {
+    "word": "tearout dubstep",
+    "ipa": "",
+    "translit": "",
+    "zh": "撕裂回响贝斯",
+    "def": "回响贝斯的激进子流派，以极具攻击性的失真低音和猛烈节奏为特征。",
+    "example": "例子：刺耳的重失真贝斯配合密集的鼓点形成暴力感。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 643,
+    "audioFile": "20a4c066b8e10127"
+  },
+  {
+    "word": "downtempo",
+    "ipa": "ˈdaʊntɛmpoʊ",
+    "translit": "",
+    "zh": "慢拍",
+    "def": "节奏较慢（通常90BPM以下）的电子音乐风格，注重氛围和放松感。",
+    "example": "例子：缓慢的鼓点配合温暖的合成器铺底营造慵懒氛围。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 644,
+    "audioFile": "f924b9625d1a3b05"
+  },
+  {
+    "word": "lo-fi hip hop",
+    "ipa": "",
+    "translit": "",
+    "zh": "低保真嘻哈",
+    "def": "以刻意保留噪音、失真和温暖质感为特征的嘻哈子流派，常用于放松场景。",
+    "example": "例子：带有黑胶唱片噼啪噪声的柔和节拍配合爵士和弦。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "声音描述",
+    "source": "小赫转存",
+    "id": 645,
+    "audioFile": "5682fffa2ecd6960"
+  },
+  {
+    "word": "experimental",
+    "ipa": "ɪkˌsperɪˈmentl",
+    "translit": "",
+    "zh": "实验性的",
+    "def": "形容突破传统结构和音色边界、探索新颖声音可能性的音乐风格。",
+    "example": "例子：使用非常规音源和非标准曲式结构创作的声音作品。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 646
+  },
+  {
+    "word": "trance",
+    "ipa": "træns",
+    "translit": "",
+    "zh": "迷幻舞曲",
+    "def": "起源于1990年代德国的电子舞曲流派，以旋律化的合成器、上升段落和催眠感为特征。",
+    "example": "例子：层层叠加的合成器琶音配合情绪递进的breakdown和爆发。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 647
+  },
+  {
+    "word": "vocals",
+    "ipa": "ˈvoʊkəlz",
+    "translit": "",
+    "zh": "人声",
+    "def": "歌曲中的人声部分，包括主唱、和声、人声采样等。",
+    "example": "例子：经过切片处理的人声片段作为节奏元素嵌入编曲。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 648
+  },
+  {
+    "word": "toms",
+    "ipa": "tɑːmz",
+    "translit": "",
+    "zh": "嗵鼓",
+    "def": "架子鼓中除底鼓和军鼓外的圆筒形鼓，音高介于两者之间。",
+    "example": "听觉例子：鼓手在过门中连续敲击嗵鼓产生的\"咚咚咚\"填充。",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 649
+  },
+  {
+    "word": "progressive house",
+    "ipa": "",
+    "translit": "",
+    "zh": "渐进",
+    "def": "",
+    "example": "",
+    "context": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 650,
+    "audioFile": "136dfa5b330e615d"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8419,7 +8820,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 621
+    "id": 651
   },
   {
     "word": "Conga",
@@ -8432,21 +8833,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 622,
+    "id": 652,
     "audioFile": "dbc61de6ca857443"
-  },
-  {
-    "word": "Percussion",
-    "ipa": "pərˈkʌʃən",
-    "translit": "",
-    "zh": "打击乐",
-    "def": "指通过敲击、摇动、刮擦等方式发声的乐器总称，在音频工程中通常作为独立音轨或采样组处理，用于构建节奏骨架和增加律动层次。",
-    "example": "比如一首歌里那些“咚次哒次”的节奏部分，不负责旋律，但撑起整首歌的节奏感。",
-    "context": "",
-    "contextZh": "",
-    "category": "乐器们",
-    "source": "2026-09-19",
-    "id": 623
   },
   {
     "word": "Grooves",
@@ -8459,7 +8847,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 624
+    "id": 653
   },
   {
     "word": "Bongos",
@@ -8472,7 +8860,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 625,
+    "id": 654,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8486,7 +8874,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 626
+    "id": 655
   },
   {
     "word": "Djembe",
@@ -8499,7 +8887,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 627
+    "id": 656
   },
   {
     "word": "Tambourine",
@@ -8512,7 +8900,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 628
+    "id": 657
   },
   {
     "word": "Cowbells",
@@ -8525,7 +8913,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 629
+    "id": 658
   },
   {
     "word": "Bells",
@@ -8538,7 +8926,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 630,
+    "id": 659,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -8552,7 +8940,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 631,
+    "id": 660,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -8566,7 +8954,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 632
+    "id": 661
   },
   {
     "word": "Wurlitzer",
@@ -8579,7 +8967,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 633
+    "id": 662
   },
   {
     "word": "Electric Piano",
@@ -8592,7 +8980,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 634,
+    "id": 663,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -8606,7 +8994,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 635
+    "id": 664
   },
   {
     "word": "Clavinet",
@@ -8619,7 +9007,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 636,
+    "id": 665,
     "audioFile": "bf34769991153703"
   },
   {
@@ -8633,7 +9021,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 637,
+    "id": 666,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -8647,7 +9035,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 638
+    "id": 667
   },
   {
     "word": "Female Vocals",
@@ -8660,7 +9048,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 639,
+    "id": 668,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -8674,7 +9062,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 640
+    "id": 669
   },
   {
     "word": "Screams",
@@ -8687,7 +9075,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 641
+    "id": 670
   },
   {
     "word": "Whisper Vocals",
@@ -8700,7 +9088,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 642,
+    "id": 671,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -8714,7 +9102,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 643,
+    "id": 672,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -8728,7 +9116,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 644,
+    "id": 673,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -8742,7 +9130,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 645,
+    "id": 674,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -8756,7 +9144,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 646
+    "id": 675
   }
 ];
 window.SOURCES = [
@@ -11861,6 +12249,150 @@ window.SOURCES = [
       {
         "word": "Uwu",
         "zh": "卖萌表情"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "text": "drums hats open hip hop trap house fx percussion techno cinematic snares synth edm closed rnb pop tech house cymbals boom bap live sounds deep house dubstep soul drum and bass tearout dubstep downtempo lo-fi hip hop experimental trance foley vocals bass toms progressive house ambient rides trap edm bass music synthwave game audio future bass uk garage leftfield bass",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "drums",
+        "zh": "鼓组 / 鼓"
+      },
+      {
+        "word": "hats",
+        "zh": "踩镲 / 镲帽"
+      },
+      {
+        "word": "open",
+        "zh": "开放的 / 开镲"
+      },
+      {
+        "word": "hip hop",
+        "zh": "嘻哈"
+      },
+      {
+        "word": "trap",
+        "zh": "陷阱音乐"
+      },
+      {
+        "word": "house",
+        "zh": "浩室"
+      },
+      {
+        "word": "fx",
+        "zh": "音效 / 效果"
+      },
+      {
+        "word": "percussion",
+        "zh": "打击乐 / 打击乐器"
+      },
+      {
+        "word": "techno",
+        "zh": "科技舞曲"
+      },
+      {
+        "word": "cinematic",
+        "zh": "电影感的 / 影视化的"
+      },
+      {
+        "word": "snares",
+        "zh": "军鼓"
+      },
+      {
+        "word": "synth",
+        "zh": "合成器"
+      },
+      {
+        "word": "edm",
+        "zh": "电子舞曲"
+      },
+      {
+        "word": "closed",
+        "zh": "闭合的 / 闭镲"
+      },
+      {
+        "word": "rnb",
+        "zh": "节奏布鲁斯"
+      },
+      {
+        "word": "pop",
+        "zh": "流行"
+      },
+      {
+        "word": "tech house",
+        "zh": "科技浩室"
+      },
+      {
+        "word": "cymbals",
+        "zh": "镲片"
+      },
+      {
+        "word": "boom bap",
+        "zh": "boom bap"
+      },
+      {
+        "word": "live sounds",
+        "zh": "现场声音"
+      },
+      {
+        "word": "deep house",
+        "zh": "深邃浩室"
+      },
+      {
+        "word": "dubstep",
+        "zh": "回响贝斯"
+      },
+      {
+        "word": "soul",
+        "zh": "灵魂乐"
+      },
+      {
+        "word": "drum and bass",
+        "zh": "鼓打贝斯"
+      },
+      {
+        "word": "tearout dubstep",
+        "zh": "撕裂回响贝斯"
+      },
+      {
+        "word": "downtempo",
+        "zh": "慢拍"
+      },
+      {
+        "word": "lo-fi hip hop",
+        "zh": "低保真嘻哈"
+      },
+      {
+        "word": "experimental",
+        "zh": "实验性的"
+      },
+      {
+        "word": "trance",
+        "zh": "迷幻舞曲"
+      },
+      {
+        "word": "foley",
+        "zh": "拟音"
+      },
+      {
+        "word": "vocals",
+        "zh": "人声"
+      },
+      {
+        "word": "bass",
+        "zh": "贝斯 / 低音"
+      },
+      {
+        "word": "toms",
+        "zh": "嗵鼓"
+      },
+      {
+        "word": "progressive house",
+        "zh": "渐进"
       }
     ]
   }
