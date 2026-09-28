@@ -8825,6 +8825,20 @@ window.WORDS = [
     "audioFile": "3d5d90f037a4981f"
   },
   {
+    "word": "hdivtil",
+    "ipa": "",
+    "translit": "",
+    "zh": "未识别的词项",
+    "def": "该词并非标准英语词汇，无法确定其确切含义，可能是拼写错误、专有名词或特定语境下的自造词。",
+    "example": "例子：无法提供具体例子，因为该词在通用英语中不存在。",
+    "context": "hdivtil create",
+    "contextZh": "hdivtil 创建",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 652,
+    "audioFile": "ff382efd63dcc79a"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8835,7 +8849,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 652
+    "id": 653
   },
   {
     "word": "Conga",
@@ -8848,7 +8862,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 653,
+    "id": 654,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8862,7 +8876,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 654
+    "id": 655
   },
   {
     "word": "Bongos",
@@ -8875,7 +8889,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 655,
+    "id": 656,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8889,7 +8903,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 656
+    "id": 657
   },
   {
     "word": "Djembe",
@@ -8902,7 +8916,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 657
+    "id": 658
   },
   {
     "word": "Tambourine",
@@ -8915,7 +8929,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 658
+    "id": 659
   },
   {
     "word": "Cowbells",
@@ -8928,7 +8942,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 659
+    "id": 660
   },
   {
     "word": "Bells",
@@ -8941,7 +8955,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 660,
+    "id": 661,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -8955,7 +8969,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 661,
+    "id": 662,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -8969,7 +8983,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 662
+    "id": 663
   },
   {
     "word": "Wurlitzer",
@@ -8982,7 +8996,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 663
+    "id": 664
   },
   {
     "word": "Electric Piano",
@@ -8995,7 +9009,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 664,
+    "id": 665,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9009,7 +9023,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 665
+    "id": 666
   },
   {
     "word": "Clavinet",
@@ -9022,7 +9036,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 666,
+    "id": 667,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9036,7 +9050,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 667,
+    "id": 668,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9050,7 +9064,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 668
+    "id": 669
   },
   {
     "word": "Female Vocals",
@@ -9063,7 +9077,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 669,
+    "id": 670,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9077,7 +9091,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 670
+    "id": 671
   },
   {
     "word": "Screams",
@@ -9090,7 +9104,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 671
+    "id": 672
   },
   {
     "word": "Whisper Vocals",
@@ -9103,7 +9117,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 672,
+    "id": 673,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9117,7 +9131,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 673,
+    "id": 674,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9131,7 +9145,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 674,
+    "id": 675,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9145,7 +9159,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 675,
+    "id": 676,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9159,7 +9173,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 676
+    "id": 677
   }
 ];
 window.SOURCES = [
@@ -12420,6 +12434,22 @@ window.SOURCES = [
       {
         "word": "Modern",
         "zh": "现代的 / 现代风格的"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "text": "hdivtil create",
+    "translation": "hdivtil 创建",
+    "category": "",
+    "branches": [
+      {
+        "word": "hdivtil",
+        "zh": "未识别的词项"
+      },
+      {
+        "word": "create",
+        "zh": "创造 / 创建"
       }
     ]
   }
