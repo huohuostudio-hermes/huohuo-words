@@ -406,6 +406,22 @@ ok(session.mcqQueue.length===5, "删除后队列仍=5（自动补1）");
 ok(!session.pendingSpell.some(w=>w.word===delTarget), "删除的词不在待拼写队列");
 unhideWord(delTarget);
 
+// 27. 拼写页：略过 / 删除当前词
+progress = normalize({cards:{},settings:{dailyNew:5},stats:{}});
+session={mcqQueue:[],spellQueue:[WORDS[0],WORDS[1]],pendingSpell:[],failQueue:[],skipped:[],current:WORDS[0],wordWrong:false,addedToFail:false};
+const skipSpellWord=session.spellQueue[0].word;
+skipCurrentSpell();
+ok(session.spellQueue.length===1, "拼写略过后队列减1");
+ok(session.spellQueue[0].word===WORDS[1].word, "拼写略过后当前=下一词");
+ok(session.skipped.includes(skipSpellWord), "拼写略过词记入 skipped");
+ok(!session.failQueue.some(w=>w.word===skipSpellWord), "拼写略过词不在 failQueue");
+session={mcqQueue:[],spellQueue:[WORDS[0],WORDS[1]],pendingSpell:[],failQueue:[],skipped:[],current:WORDS[0],wordWrong:false,addedToFail:false};
+const delSpellWord=session.spellQueue[0].word;
+deleteCurrentSpell();
+ok(isHidden(WORDS.find(w=>w.word===delSpellWord)), "拼写删除当前词 isHidden=true");
+ok(session.spellQueue.length===1 && session.spellQueue[0].word===WORDS[1].word, "拼写删除后队列前进到下一词");
+unhideWord(delSpellWord);
+
 console.log("===== 通过 "+passed+" / 失败 "+failed+" =====");
 if(failed>0) process.exitCode=1;
 `;
