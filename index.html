@@ -1333,6 +1333,7 @@ function retagInSession(cat){
 }
 function renderMenu(){
   if(chainCat!=="全部" && !catsList().includes(chainCat))chainCat="全部";
+  const bs=$("#brandSubWrap"); if(bs){ bs.style.display=""; updateWordCount(); }
   const target=progress.settings.dailyNew||10;
   const learnedToday=todayLearned();
   const studied=studiedCount();
@@ -2103,6 +2104,7 @@ function showGroup(kind){
   groupSelectMode=false;
   groupSelected=new Set();
   groupCollapsed=new Set();
+  const bs=$("#brandSubWrap"); if(bs)bs.style.display="none";
   renderGroup(groupWordsOf(kind));
 }
 function renderGroup(words){
