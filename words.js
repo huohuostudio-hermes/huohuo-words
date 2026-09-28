@@ -8016,8 +8016,7 @@ window.WORDS = [
     "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 591,
-    "audioFile": "0b3377404f22e868"
+    "id": 591
   },
   {
     "word": "Nous Portal",
