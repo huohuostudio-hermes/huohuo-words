@@ -8811,6 +8811,20 @@ window.WORDS = [
     "audioFile": "136dfa5b330e615d"
   },
   {
+    "word": "sparseimage",
+    "ipa": "",
+    "translit": "",
+    "zh": "稀疏磁盘映像",
+    "def": "macOS 系统中一种可扩展的磁盘映像文件格式，文件大小随实际存储的数据量动态增长，而非预先占用全部标称容量。",
+    "example": "例子：创建一个 100 GB 的 sparseimage，初始仅占用几 MB 磁盘空间，写入多少数据就增长多少。",
+    "context": "sparseimage",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 651,
+    "audioFile": "3d5d90f037a4981f"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8821,7 +8835,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 651
+    "id": 652
   },
   {
     "word": "Conga",
@@ -8834,7 +8848,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 652,
+    "id": 653,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8848,7 +8862,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 653
+    "id": 654
   },
   {
     "word": "Bongos",
@@ -8861,7 +8875,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 654,
+    "id": 655,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8875,7 +8889,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 655
+    "id": 656
   },
   {
     "word": "Djembe",
@@ -8888,7 +8902,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 656
+    "id": 657
   },
   {
     "word": "Tambourine",
@@ -8901,7 +8915,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 657
+    "id": 658
   },
   {
     "word": "Cowbells",
@@ -8914,7 +8928,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 658
+    "id": 659
   },
   {
     "word": "Bells",
@@ -8927,7 +8941,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 659,
+    "id": 660,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -8941,7 +8955,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 660,
+    "id": 661,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -8955,7 +8969,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 661
+    "id": 662
   },
   {
     "word": "Wurlitzer",
@@ -8968,7 +8982,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 662
+    "id": 663
   },
   {
     "word": "Electric Piano",
@@ -8981,7 +8995,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 663,
+    "id": 664,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -8995,7 +9009,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 664
+    "id": 665
   },
   {
     "word": "Clavinet",
@@ -9008,7 +9022,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 665,
+    "id": 666,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9022,7 +9036,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 666,
+    "id": 667,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9036,7 +9050,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 667
+    "id": 668
   },
   {
     "word": "Female Vocals",
@@ -9049,7 +9063,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 668,
+    "id": 669,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9063,7 +9077,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 669
+    "id": 670
   },
   {
     "word": "Screams",
@@ -9076,7 +9090,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 670
+    "id": 671
   },
   {
     "word": "Whisper Vocals",
@@ -9089,7 +9103,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 671,
+    "id": 672,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9103,7 +9117,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 672,
+    "id": 673,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9117,7 +9131,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 673,
+    "id": 674,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9131,7 +9145,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 674,
+    "id": 675,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9145,7 +9159,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 675
+    "id": 676
   }
 ];
 window.SOURCES = [
