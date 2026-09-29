@@ -404,7 +404,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 31
+    "id": 31,
+    "audioFile": "af48b81a5313eddc"
   },
   {
     "word": "Trumpet",
