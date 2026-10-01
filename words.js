@@ -8909,6 +8909,20 @@ window.WORDS = [
     "audioFile": "60f0bce011a38d71"
   },
   {
+    "word": "Ride Out",
+    "ipa": "",
+    "translit": "",
+    "zh": "安然渡过 / 挺过去",
+    "def": "指成功应对并度过困难、危险或动荡的局面，强调最终平安无事。",
+    "example": "例子：The team rode out the financial crisis without layoffs.（团队安然渡过了金融危机，没有裁员。）",
+    "context": "Ride Out",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 658,
+    "audioFile": "40bd0b61f2bb806b"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8919,7 +8933,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 658
+    "id": 659
   },
   {
     "word": "Conga",
@@ -8932,7 +8946,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 659,
+    "id": 660,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8946,7 +8960,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 660
+    "id": 661
   },
   {
     "word": "Bongos",
@@ -8959,7 +8973,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 661,
+    "id": 662,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8973,7 +8987,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 662
+    "id": 663
   },
   {
     "word": "Djembe",
@@ -8986,7 +9000,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 663
+    "id": 664
   },
   {
     "word": "Tambourine",
@@ -8999,7 +9013,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 664
+    "id": 665
   },
   {
     "word": "Cowbells",
@@ -9012,7 +9026,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 665
+    "id": 666
   },
   {
     "word": "Bells",
@@ -9025,7 +9039,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 666,
+    "id": 667,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -9039,7 +9053,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 667,
+    "id": 668,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -9053,7 +9067,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 668
+    "id": 669
   },
   {
     "word": "Wurlitzer",
@@ -9066,7 +9080,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 669
+    "id": 670
   },
   {
     "word": "Electric Piano",
@@ -9079,7 +9093,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 670,
+    "id": 671,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9093,7 +9107,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 671
+    "id": 672
   },
   {
     "word": "Clavinet",
@@ -9106,7 +9120,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 672,
+    "id": 673,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9120,7 +9134,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 673,
+    "id": 674,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9134,7 +9148,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 674
+    "id": 675
   },
   {
     "word": "Female Vocals",
@@ -9147,7 +9161,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 675,
+    "id": 676,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9161,7 +9175,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 676
+    "id": 677
   },
   {
     "word": "Screams",
@@ -9174,7 +9188,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 677
+    "id": 678
   },
   {
     "word": "Whisper Vocals",
@@ -9187,7 +9201,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 678,
+    "id": 679,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9201,7 +9215,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 679,
+    "id": 680,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9215,7 +9229,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 680,
+    "id": 681,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9229,7 +9243,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 681,
+    "id": 682,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9243,7 +9257,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 682
+    "id": 683
   }
 ];
 window.SOURCES = [
@@ -12552,6 +12566,30 @@ window.SOURCES = [
       {
         "word": "In",
         "zh": "进入 / 在……里"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "text": "Ride Edge",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Ride Edge",
+        "zh": "叮叮镲边缘"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "text": "Ride Out",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Ride Out",
+        "zh": "安然渡过 / 挺过去"
       }
     ]
   },
