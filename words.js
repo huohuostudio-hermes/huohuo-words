@@ -9187,8 +9187,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 678,
-    "audioFile": "48b104cb965b3fe3"
+    "id": 678
   },
   {
     "word": "Timbales",
