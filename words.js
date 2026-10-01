@@ -9058,6 +9058,20 @@ window.WORDS = [
     "id": 668
   },
   {
+    "word": "HMD",
+    "ipa": "",
+    "translit": "",
+    "zh": "头戴式显示器",
+    "def": "Head-Mounted Display 的缩写，指佩戴在头部的显示设备，常用于虚拟现实和增强现实。",
+    "example": "例子：VR 头显就是一种 HMD。",
+    "context": "HMD ride expression",
+    "contextZh": "头戴式显示器乘坐表情",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 669,
+    "audioFile": "dfee87b739e7ca9a"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9068,7 +9082,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 669
+    "id": 670
   },
   {
     "word": "Conga",
@@ -9081,7 +9095,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 670,
+    "id": 671,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9095,7 +9109,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 671
+    "id": 672
   },
   {
     "word": "Bongos",
@@ -9108,7 +9122,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 672,
+    "id": 673,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -9122,7 +9136,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 673
+    "id": 674
   },
   {
     "word": "Djembe",
@@ -9135,7 +9149,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 674
+    "id": 675
   },
   {
     "word": "Tambourine",
@@ -9148,7 +9162,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 675
+    "id": 676
   },
   {
     "word": "Cowbells",
@@ -9161,7 +9175,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 676
+    "id": 677
   },
   {
     "word": "Bells",
@@ -9174,7 +9188,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 677,
+    "id": 678,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -9188,7 +9202,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 678,
+    "id": 679,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -9202,7 +9216,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 679
+    "id": 680
   },
   {
     "word": "Wurlitzer",
@@ -9215,7 +9229,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 680
+    "id": 681
   },
   {
     "word": "Electric Piano",
@@ -9228,7 +9242,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 681,
+    "id": 682,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9242,7 +9256,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 682
+    "id": 683
   },
   {
     "word": "Clavinet",
@@ -9255,7 +9269,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 683,
+    "id": 684,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9269,7 +9283,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 684,
+    "id": 685,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9283,7 +9297,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 685
+    "id": 686
   },
   {
     "word": "Female Vocals",
@@ -9296,7 +9310,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 686,
+    "id": 687,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9310,7 +9324,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 687
+    "id": 688
   },
   {
     "word": "Screams",
@@ -9323,7 +9337,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 688
+    "id": 689
   },
   {
     "word": "Whisper Vocals",
@@ -9336,7 +9350,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 689,
+    "id": 690,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9350,7 +9364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 690,
+    "id": 691,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9364,7 +9378,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 691,
+    "id": 692,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9378,7 +9392,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 692,
+    "id": 693,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9392,7 +9406,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 693
+    "id": 694
   }
 ];
 window.SOURCES = [
@@ -12793,6 +12807,26 @@ window.SOURCES = [
       {
         "word": "s",
         "zh": "立体声"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "text": "HMD ride expression",
+    "translation": "头戴式显示器乘坐表情",
+    "category": "",
+    "branches": [
+      {
+        "word": "HMD",
+        "zh": "头戴式显示器"
+      },
+      {
+        "word": "ride",
+        "zh": "乘坐 / 骑行"
+      },
+      {
+        "word": "expression",
+        "zh": "表情 / 表达"
       }
     ]
   }
