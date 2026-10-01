@@ -8964,6 +8964,100 @@ window.WORDS = [
     "audioFile": "1f4d620200628fd6"
   },
   {
+    "word": "TS",
+    "ipa": "",
+    "translit": "",
+    "zh": "TS",
+    "def": "品牌或系列缩写，通常指代镲片产品线或型号前缀。",
+    "example": "例子：TS 系列镲片。",
+    "context": "TS PAUL MABURY cymbal one shot 22 ride nat s 1",
+    "contextZh": "TS 保罗·马伯里 镲片 单次采样 22 英寸叮叮镲 自然音色 立体声 1",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 662
+  },
+  {
+    "word": "PAUL MABURY",
+    "ipa": "",
+    "translit": "",
+    "zh": "保罗·马伯里",
+    "def": "人名，可能是该镲片的签名艺术家或合作鼓手。",
+    "example": "例子：Paul Mabury 是一位鼓手兼制作人。",
+    "context": "TS PAUL MABURY cymbal one shot 22 ride nat s 1",
+    "contextZh": "TS 保罗·马伯里 镲片 单次采样 22 英寸叮叮镲 自然音色 立体声 1",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 663,
+    "audioFile": "b78e54c2bad0b57c"
+  },
+  {
+    "word": "cymbal",
+    "ipa": "",
+    "translit": "",
+    "zh": "镲片",
+    "def": "打击乐器，通常由青铜合金制成，用于爵士鼓组中提供节奏和音色。",
+    "example": "例子：鼓组中常见的镲片包括踩镲、吊镲和叮叮镲。",
+    "context": "TS PAUL MABURY cymbal one shot 22 ride nat s 1",
+    "contextZh": "TS 保罗·马伯里 镲片 单次采样 22 英寸叮叮镲 自然音色 立体声 1",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 664
+  },
+  {
+    "word": "one shot",
+    "ipa": "",
+    "translit": "",
+    "zh": "单次采样 / 一次性采样",
+    "def": "指采样库中单独录制的一次击打音色，不包含循环或延音尾部的多次击打。",
+    "example": "例子：在音乐制作软件中加载一个军鼓 one shot 来编曲。",
+    "context": "TS PAUL MABURY cymbal one shot 22 ride nat s 1",
+    "contextZh": "TS 保罗·马伯里 镲片 单次采样 22 英寸叮叮镲 自然音色 立体声 1",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 665,
+    "audioFile": "da9d6be3ff214c80"
+  },
+  {
+    "word": "22 ride",
+    "ipa": "",
+    "translit": "",
+    "zh": "22 英寸叮叮镲",
+    "def": "直径为 22 英寸的 ride 镲片，ride 镲用于保持节奏律动，音色清亮且延音较长。",
+    "example": "例子：爵士鼓手常用 22 英寸 ride 镲演奏摇摆节奏。",
+    "context": "TS PAUL MABURY cymbal one shot 22 ride nat s 1",
+    "contextZh": "TS 保罗·马伯里 镲片 单次采样 22 英寸叮叮镲 自然音色 立体声 1",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 666,
+    "audioFile": "e9024c563e9b0143"
+  },
+  {
+    "word": "nat",
+    "ipa": "",
+    "translit": "",
+    "zh": "自然音色 / 原声",
+    "def": "natural 的缩写，表示未经额外效果处理或音色修饰的原始录音。",
+    "example": "例子：采样包中标注 nat 的镲片音色保留了原始录音的质感。",
+    "context": "TS PAUL MABURY cymbal one shot 22 ride nat s 1",
+    "contextZh": "TS 保罗·马伯里 镲片 单次采样 22 英寸叮叮镲 自然音色 立体声 1",
+    "category": "声音描述",
+    "source": "小赫转存",
+    "id": 667
+  },
+  {
+    "word": "s",
+    "ipa": "",
+    "translit": "",
+    "zh": "立体声",
+    "def": "stereo 的缩写，表示该采样以立体声格式录制。",
+    "example": "例子：标注 s 的采样文件为立体声，标注 m 的为单声道。",
+    "context": "TS PAUL MABURY cymbal one shot 22 ride nat s 1",
+    "contextZh": "TS 保罗·马伯里 镲片 单次采样 22 英寸叮叮镲 自然音色 立体声 1",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 668
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8974,7 +9068,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 662
+    "id": 669
   },
   {
     "word": "Conga",
@@ -8987,7 +9081,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 663,
+    "id": 670,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9001,7 +9095,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 664
+    "id": 671
   },
   {
     "word": "Bongos",
@@ -9014,7 +9108,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 665,
+    "id": 672,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -9028,7 +9122,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 666
+    "id": 673
   },
   {
     "word": "Djembe",
@@ -9041,7 +9135,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 667
+    "id": 674
   },
   {
     "word": "Tambourine",
@@ -9054,7 +9148,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 668
+    "id": 675
   },
   {
     "word": "Cowbells",
@@ -9067,7 +9161,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 669
+    "id": 676
   },
   {
     "word": "Bells",
@@ -9080,7 +9174,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 670,
+    "id": 677,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -9094,7 +9188,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 671,
+    "id": 678,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -9108,7 +9202,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 672
+    "id": 679
   },
   {
     "word": "Wurlitzer",
@@ -9121,7 +9215,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 673
+    "id": 680
   },
   {
     "word": "Electric Piano",
@@ -9134,7 +9228,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 674,
+    "id": 681,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9148,7 +9242,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 675
+    "id": 682
   },
   {
     "word": "Clavinet",
@@ -9161,7 +9255,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 676,
+    "id": 683,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9175,7 +9269,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 677,
+    "id": 684,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9189,7 +9283,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 678
+    "id": 685
   },
   {
     "word": "Female Vocals",
@@ -9202,7 +9296,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 679,
+    "id": 686,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9216,7 +9310,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 680
+    "id": 687
   },
   {
     "word": "Screams",
@@ -9229,7 +9323,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 681
+    "id": 688
   },
   {
     "word": "Whisper Vocals",
@@ -9242,7 +9336,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 682,
+    "id": 689,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9256,7 +9350,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 683,
+    "id": 690,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9270,7 +9364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 684,
+    "id": 691,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9284,7 +9378,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 685,
+    "id": 692,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9298,7 +9392,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 686
+    "id": 693
   }
 ];
 window.SOURCES = [
@@ -12663,6 +12757,42 @@ window.SOURCES = [
       {
         "word": "Subtle & Gentle",
         "zh": "微妙与柔和"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "text": "TS PAUL MABURY cymbal one shot 22 ride nat s 1",
+    "translation": "TS 保罗·马伯里 镲片 单次采样 22 英寸叮叮镲 自然音色 立体声 1",
+    "category": "",
+    "branches": [
+      {
+        "word": "TS",
+        "zh": "TS"
+      },
+      {
+        "word": "PAUL MABURY",
+        "zh": "保罗·马伯里"
+      },
+      {
+        "word": "cymbal",
+        "zh": "镲片"
+      },
+      {
+        "word": "one shot",
+        "zh": "单次采样 / 一次性采样"
+      },
+      {
+        "word": "22 ride",
+        "zh": "22 英寸叮叮镲"
+      },
+      {
+        "word": "nat",
+        "zh": "自然音色 / 原声"
+      },
+      {
+        "word": "s",
+        "zh": "立体声"
       }
     ]
   }
