@@ -2099,8 +2099,7 @@ window.WORDS = [
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 157,
-    "audioFile": "0bca885fd17ea4e5"
+    "id": 157
   },
   {
     "word": "Bathroom",
