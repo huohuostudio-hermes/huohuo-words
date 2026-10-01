@@ -8923,6 +8923,47 @@ window.WORDS = [
     "audioFile": "40bd0b61f2bb806b"
   },
   {
+    "word": "Dynamics",
+    "ipa": "daɪˈnæmɪks",
+    "translit": "",
+    "zh": "动态",
+    "def": "指音乐或声音中音量强弱变化的范围与程度，是表达情绪和层次感的重要手段。",
+    "example": "例子：一段音乐从极弱逐渐增强到极强，形成强烈的情绪推进。",
+    "context": "Dynamics Excite & Enhance Subtle & Gentle",
+    "contextZh": "动态。激励与增强。微妙与柔和。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 659
+  },
+  {
+    "word": "Excite & Enhance",
+    "ipa": "",
+    "translit": "",
+    "zh": "激励与增强",
+    "def": "指对声音或音乐进行提升处理，使其更有活力和冲击力，同时强化已有的优点。",
+    "example": "例子：在混音中提升高频和瞬态，让鼓组听起来更有精神和穿透力。",
+    "context": "Dynamics Excite & Enhance Subtle & Gentle",
+    "contextZh": "动态。激励与增强。微妙与柔和。",
+    "category": "插件操作",
+    "source": "小赫转存",
+    "id": 660,
+    "audioFile": "04fdf0e1cc403331"
+  },
+  {
+    "word": "Subtle & Gentle",
+    "ipa": "",
+    "translit": "",
+    "zh": "微妙与柔和",
+    "def": "指处理方式轻缓、细腻，不产生强烈的变化或刺激感，强调自然与温和。",
+    "example": "例子：用轻微的压缩和均衡调整人声，使其更顺滑但几乎听不出处理痕迹。",
+    "context": "Dynamics Excite & Enhance Subtle & Gentle",
+    "contextZh": "动态。激励与增强。微妙与柔和。",
+    "category": "声音描述",
+    "source": "小赫转存",
+    "id": 661,
+    "audioFile": "1f4d620200628fd6"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8933,7 +8974,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 659
+    "id": 662
   },
   {
     "word": "Conga",
@@ -8946,7 +8987,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 660,
+    "id": 663,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8960,7 +9001,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 661
+    "id": 664
   },
   {
     "word": "Bongos",
@@ -8973,7 +9014,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 662,
+    "id": 665,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8987,7 +9028,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 663
+    "id": 666
   },
   {
     "word": "Djembe",
@@ -9000,7 +9041,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 664
+    "id": 667
   },
   {
     "word": "Tambourine",
@@ -9013,7 +9054,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 665
+    "id": 668
   },
   {
     "word": "Cowbells",
@@ -9026,7 +9067,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 666
+    "id": 669
   },
   {
     "word": "Bells",
@@ -9039,7 +9080,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 667,
+    "id": 670,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -9053,7 +9094,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 668,
+    "id": 671,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -9067,7 +9108,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 669
+    "id": 672
   },
   {
     "word": "Wurlitzer",
@@ -9080,7 +9121,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 670
+    "id": 673
   },
   {
     "word": "Electric Piano",
@@ -9093,7 +9134,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 671,
+    "id": 674,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9107,7 +9148,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 672
+    "id": 675
   },
   {
     "word": "Clavinet",
@@ -9120,7 +9161,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 673,
+    "id": 676,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9134,7 +9175,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 674,
+    "id": 677,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9148,7 +9189,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 675
+    "id": 678
   },
   {
     "word": "Female Vocals",
@@ -9161,7 +9202,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 676,
+    "id": 679,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9175,7 +9216,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 677
+    "id": 680
   },
   {
     "word": "Screams",
@@ -9188,7 +9229,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 678
+    "id": 681
   },
   {
     "word": "Whisper Vocals",
@@ -9201,7 +9242,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 679,
+    "id": 682,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9215,7 +9256,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 680,
+    "id": 683,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9229,7 +9270,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 681,
+    "id": 684,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9243,7 +9284,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 682,
+    "id": 685,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9257,7 +9298,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 683
+    "id": 686
   }
 ];
 window.SOURCES = [
@@ -12602,6 +12643,26 @@ window.SOURCES = [
       {
         "word": "Ride Edge",
         "zh": "叮叮镲边缘"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "text": "Dynamics Excite & Enhance Subtle & Gentle",
+    "translation": "动态。激励与增强。微妙与柔和。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Dynamics",
+        "zh": "动态"
+      },
+      {
+        "word": "Excite & Enhance",
+        "zh": "激励与增强"
+      },
+      {
+        "word": "Subtle & Gentle",
+        "zh": "微妙与柔和"
       }
     ]
   }
