@@ -8843,6 +8843,72 @@ window.WORDS = [
     "audioFile": "ff382efd63dcc79a"
   },
   {
+    "word": "Crash",
+    "ipa": "kræʃ",
+    "translit": "",
+    "zh": "强音镲 / 碎音镲",
+    "def": "一种打击乐器，属于镲片类，用于制造强烈、爆发性的音响效果，常见于架子鼓组中。",
+    "example": "听觉例子：用力敲击后发出明亮、延展的\"锵——\"声，常用于强调重音或乐段转折。",
+    "context": "Crash Right",
+    "contextZh": "右侧强音镲",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 653
+  },
+  {
+    "word": "Right",
+    "ipa": "raɪt",
+    "translit": "",
+    "zh": "右 / 右侧",
+    "def": "表示方向或位置的词，指右边或右侧。",
+    "example": "例子：在立体声混音中，\"Right\" 表示声像偏右的声道。",
+    "context": "Crash Right",
+    "contextZh": "右侧强音镲",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 654
+  },
+  {
+    "word": "Ride",
+    "ipa": "raɪd",
+    "translit": "",
+    "zh": "骑行 / 乘坐",
+    "def": "指骑乘交通工具或动物，也可指搭乘车马等。",
+    "example": "例子：ride a bike（骑自行车）。",
+    "context": "Ride In",
+    "contextZh": "骑行进入 / 乘车进入",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 655
+  },
+  {
+    "word": "In",
+    "ipa": "ɪn",
+    "translit": "",
+    "zh": "进入 / 在……里",
+    "def": "表示位置、方向或状态的介词，也可作副词表示进入。",
+    "example": "例子：come in（进来）。",
+    "context": "Ride In",
+    "contextZh": "骑行进入 / 乘车进入",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 656
+  },
+  {
+    "word": "Ride Edge",
+    "ipa": "",
+    "translit": "",
+    "zh": "叮叮镲边缘",
+    "def": "指叮叮镲（ride cymbal）的边缘区域，敲击此处可产生明亮、延展的镲音。",
+    "example": "听觉例子：鼓棒敲在镲片外沿时发出的清脆\"叮——\"声，泛音丰富且衰减较慢。",
+    "context": "Ride Edge",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 657,
+    "audioFile": "60f0bce011a38d71"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -8853,7 +8919,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 653
+    "id": 658
   },
   {
     "word": "Conga",
@@ -8866,7 +8932,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 654,
+    "id": 659,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -8880,7 +8946,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 655
+    "id": 660
   },
   {
     "word": "Bongos",
@@ -8893,7 +8959,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 656,
+    "id": 661,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -8907,7 +8973,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 657
+    "id": 662
   },
   {
     "word": "Djembe",
@@ -8920,7 +8986,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 658
+    "id": 663
   },
   {
     "word": "Tambourine",
@@ -8933,7 +8999,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 659
+    "id": 664
   },
   {
     "word": "Cowbells",
@@ -8946,7 +9012,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 660
+    "id": 665
   },
   {
     "word": "Bells",
@@ -8959,7 +9025,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 661,
+    "id": 666,
     "audioFile": "48b104cb965b3fe3"
   },
   {
@@ -8973,7 +9039,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 662,
+    "id": 667,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -8987,7 +9053,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 663
+    "id": 668
   },
   {
     "word": "Wurlitzer",
@@ -9000,7 +9066,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 664
+    "id": 669
   },
   {
     "word": "Electric Piano",
@@ -9013,7 +9079,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 665,
+    "id": 670,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9027,7 +9093,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 666
+    "id": 671
   },
   {
     "word": "Clavinet",
@@ -9040,7 +9106,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 667,
+    "id": 672,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9054,7 +9120,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 668,
+    "id": 673,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9068,7 +9134,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 669
+    "id": 674
   },
   {
     "word": "Female Vocals",
@@ -9081,7 +9147,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 670,
+    "id": 675,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9095,7 +9161,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 671
+    "id": 676
   },
   {
     "word": "Screams",
@@ -9108,7 +9174,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 672
+    "id": 677
   },
   {
     "word": "Whisper Vocals",
@@ -9121,7 +9187,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 673,
+    "id": 678,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9135,7 +9201,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 674,
+    "id": 679,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9149,7 +9215,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 675,
+    "id": 680,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9163,7 +9229,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 676,
+    "id": 681,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9177,7 +9243,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 677
+    "id": 682
   }
 ];
 window.SOURCES = [
@@ -12454,6 +12520,50 @@ window.SOURCES = [
       {
         "word": "create",
         "zh": "创造 / 创建"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "text": "Crash Right",
+    "translation": "右侧强音镲",
+    "category": "",
+    "branches": [
+      {
+        "word": "Crash",
+        "zh": "强音镲 / 碎音镲"
+      },
+      {
+        "word": "Right",
+        "zh": "右 / 右侧"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "text": "Ride In",
+    "translation": "骑行进入 / 乘车进入",
+    "category": "",
+    "branches": [
+      {
+        "word": "Ride",
+        "zh": "骑行 / 乘坐"
+      },
+      {
+        "word": "In",
+        "zh": "进入 / 在……里"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "text": "Ride Edge",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Ride Edge",
+        "zh": "叮叮镲边缘"
       }
     ]
   }
