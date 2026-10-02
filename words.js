@@ -6959,8 +6959,7 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 513,
-    "audioFile": "fa32f507eb669f21"
+    "id": 513
   },
   {
     "word": "Your request",
