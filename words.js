@@ -446,7 +446,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 34
+    "id": 34,
+    "audioFile": "7bbb5dae0e3a2d49"
   },
   {
     "word": "Harmonica",
@@ -2075,7 +2076,8 @@ window.WORDS = [
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 155
+    "id": 155,
+    "audioFile": "0183ec9633de1666"
   },
   {
     "word": "Kitchen",
@@ -2219,7 +2221,8 @@ window.WORDS = [
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 166
+    "id": 166,
+    "audioFile": "8e9376ff69a57c9d"
   },
   {
     "word": "Gore",
@@ -2312,7 +2315,8 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 173
+    "id": 173,
+    "audioFile": "103429847edcdb9f"
   },
   {
     "word": "Spaceship",
@@ -9185,7 +9189,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 678
+    "id": 678,
+    "audioFile": "f14633f686c6bcb7"
   },
   {
     "word": "Bells",
