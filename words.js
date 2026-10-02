@@ -8540,8 +8540,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 630,
-    "audioFile": "455b11a16eb7a21a"
+    "id": 630
   },
   {
     "word": "edm",
