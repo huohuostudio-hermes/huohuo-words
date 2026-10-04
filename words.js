@@ -2221,8 +2221,7 @@ window.WORDS = [
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 166,
-    "audioFile": "8e9376ff69a57c9d"
+    "id": 166
   },
   {
     "word": "Gore",
