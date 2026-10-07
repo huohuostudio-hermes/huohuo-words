@@ -9344,7 +9344,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 689
+    "id": 689,
+    "audioFile": "861dec5c44928ea8"
   },
   {
     "word": "Screams",
