@@ -49,7 +49,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 4
+    "id": 4,
+    "audioFile": "959db8be3f214537"
   },
   {
     "word": "Leads",
@@ -406,8 +407,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 31,
-    "audioFile": "af48b81a5313eddc"
+    "id": 31
   },
   {
     "word": "Trumpet",
@@ -499,7 +499,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 38
+    "id": 38,
+    "audioFile": "d789c065d18bca54"
   },
   {
     "word": "Cello",
@@ -2076,8 +2077,7 @@ window.WORDS = [
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 155,
-    "audioFile": "0183ec9633de1666"
+    "id": 155
   },
   {
     "word": "Kitchen",
@@ -5138,7 +5138,8 @@ window.WORDS = [
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 380
+    "id": 380,
+    "audioFile": "ac954cd33a815a42"
   },
   {
     "word": "subtle",
@@ -6882,7 +6883,8 @@ window.WORDS = [
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 507
+    "id": 507,
+    "audioFile": "19c109a55e36ce1a"
   },
   {
     "word": "Atmospheric pads",
@@ -7591,7 +7593,8 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 559
+    "id": 559,
+    "audioFile": "23392001dec39d46"
   },
   {
     "word": "Mnemosyne memories",
@@ -8051,8 +8054,7 @@ window.WORDS = [
     "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 593,
-    "audioFile": "0c3f3289bb966755"
+    "id": 593
   },
   {
     "word": "Optional",
@@ -8078,7 +8080,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 595
+    "id": 595,
+    "audioFile": "20338f4396d53223"
   },
   {
     "word": "DOCS",
@@ -8389,7 +8392,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 618
+    "id": 618,
+    "audioFile": "ce560bb434fe8158"
   },
   {
     "word": "Noir",
@@ -9125,7 +9129,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 673
+    "id": 673,
+    "audioFile": "67a7983a298a079e"
   },
   {
     "word": "Bongos",
@@ -9138,8 +9143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 674,
-    "audioFile": "05b08cced2d60503"
+    "id": 674
   },
   {
     "word": "Woodblock",
