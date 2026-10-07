@@ -7429,8 +7429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 547,
-    "audioFile": "d8428953fdd7537c"
+    "id": 547
   },
   {
     "word": "Managed apps",
