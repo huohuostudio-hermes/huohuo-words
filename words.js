@@ -102,7 +102,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 8
+    "id": 8,
+    "audioFile": "4d30056add07fc53"
   },
   {
     "word": "Chords",
