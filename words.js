@@ -4448,8 +4448,7 @@ window.WORDS = [
     "contextZh": "将 Fender Telecaster 的连复段直接通过 ISA One 录制，在进入音箱模拟器之前就能得到温暖而清晰干净的音色。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 330,
-    "audioFile": "5d7c6eae5b5bc575"
+    "id": 330
   },
   {
     "word": "Fender Telecaster",
