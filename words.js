@@ -5138,8 +5138,7 @@ window.WORDS = [
     "contextZh": "将一个微妙的、严重失真的并联通道与干净的男声人声混合，可以引入具有攻击性的谐波，从而穿透厚重的吉他音墙。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 380,
-    "audioFile": "ac954cd33a815a42"
+    "id": 380
   },
   {
     "word": "subtle",
