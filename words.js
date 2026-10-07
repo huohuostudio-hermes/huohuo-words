@@ -368,7 +368,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 28
+    "id": 28,
+    "audioFile": "c2c36709b36e3b25"
   },
   {
     "word": "Trombone",
