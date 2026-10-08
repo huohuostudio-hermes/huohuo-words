@@ -9571,6 +9571,20 @@ window.WORDS = [
     "id": 706
   },
   {
+    "word": "Pre-delay",
+    "ipa": "ˌpriː ˈdiːleɪ",
+    "translit": "",
+    "zh": "预延迟",
+    "def": "在混响效果中，指干声信号发出后到混响尾音开始之间的时间间隔。它能让原始声音保持清晰，同时增加空间感。",
+    "example": "听觉例子：人声发出后短暂停顿，混响尾音才随之响起，人声不会被混响淹没。",
+    "context": "PRE- DELAY",
+    "contextZh": "",
+    "category": "插件操作",
+    "source": "小赫转存",
+    "id": 707,
+    "audioFile": "440c2dff456aa005"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9581,7 +9595,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 707
+    "id": 708
   },
   {
     "word": "Conga",
@@ -9594,7 +9608,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 708,
+    "id": 709,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9608,7 +9622,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 709,
+    "id": 710,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9622,7 +9636,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 710
+    "id": 711
   },
   {
     "word": "Woodblock",
@@ -9635,7 +9649,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 711
+    "id": 712
   },
   {
     "word": "Djembe",
@@ -9648,7 +9662,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 712
+    "id": 713
   },
   {
     "word": "Tambourine",
@@ -9661,7 +9675,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 713
+    "id": 714
   },
   {
     "word": "Cowbells",
@@ -9674,7 +9688,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 714,
+    "id": 715,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9688,7 +9702,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 715
+    "id": 716
   },
   {
     "word": "Timbales",
@@ -9701,7 +9715,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 716
+    "id": 717
   },
   {
     "word": "Keys",
@@ -9714,7 +9728,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 717
+    "id": 718
   },
   {
     "word": "Wurlitzer",
@@ -9727,7 +9741,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 718
+    "id": 719
   },
   {
     "word": "Electric Piano",
@@ -9740,7 +9754,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 719,
+    "id": 720,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9754,7 +9768,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 720
+    "id": 721
   },
   {
     "word": "Clavinet",
@@ -9767,7 +9781,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 721,
+    "id": 722,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9781,7 +9795,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 722,
+    "id": 723,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9795,7 +9809,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 723
+    "id": 724
   },
   {
     "word": "Female Vocals",
@@ -9808,7 +9822,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 724,
+    "id": 725,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9822,7 +9836,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 725,
+    "id": 726,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9836,7 +9850,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 726
+    "id": 727
   },
   {
     "word": "Whisper Vocals",
@@ -9849,7 +9863,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 727,
+    "id": 728,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9863,7 +9877,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 728,
+    "id": 729,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9877,7 +9891,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 729,
+    "id": 730,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9891,7 +9905,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 730,
+    "id": 731,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9905,7 +9919,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 731
+    "id": 732
   }
 ];
 window.SOURCES = [
@@ -13602,6 +13616,18 @@ window.SOURCES = [
       {
         "word": "Bypass",
         "zh": "旁通 / 直通"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "PRE- DELAY",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Pre-delay",
+        "zh": "预延迟"
       }
     ]
   }
