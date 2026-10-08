@@ -9084,6 +9084,32 @@ window.WORDS = [
     "id": 670
   },
   {
+    "word": "Hum",
+    "ipa": "hʌm",
+    "translit": "",
+    "zh": "嗡声 / 交流声",
+    "def": "由电源干扰或接地问题引起的低频持续噪音，通常为 50Hz 或 60Hz 及其谐波。",
+    "example": "听觉例子：音箱未接好地线时发出的低沉\"嗡嗡\"声。",
+    "context": "Scrapes String Noise Hum & Hiss Release Noise",
+    "contextZh": "刮擦声、弦噪、嗡声与嘶声、释放噪音。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 671
+  },
+  {
+    "word": "Hiss",
+    "ipa": "hɪs",
+    "translit": "",
+    "zh": "嘶声",
+    "def": "高频段持续性的\"嘶嘶\"噪音，常见于磁带底噪、增益过高或压缩失真。",
+    "example": "听觉例子：老式磁带播放时背景中持续的\"嘶——\"声。",
+    "context": "Scrapes String Noise Hum & Hiss Release Noise",
+    "contextZh": "刮擦声、弦噪、嗡声与嘶声、释放噪音。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 672
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9094,7 +9120,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 671
+    "id": 673
   },
   {
     "word": "Conga",
@@ -9107,7 +9133,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 672,
+    "id": 674,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9121,7 +9147,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 673,
+    "id": 675,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9135,7 +9161,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 674
+    "id": 676
   },
   {
     "word": "Woodblock",
@@ -9148,7 +9174,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 675
+    "id": 677
   },
   {
     "word": "Djembe",
@@ -9161,7 +9187,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 676
+    "id": 678
   },
   {
     "word": "Tambourine",
@@ -9174,7 +9200,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 677
+    "id": 679
   },
   {
     "word": "Cowbells",
@@ -9187,7 +9213,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 678,
+    "id": 680,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9201,7 +9227,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 679
+    "id": 681
   },
   {
     "word": "Timbales",
@@ -9214,7 +9240,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 680
+    "id": 682
   },
   {
     "word": "Keys",
@@ -9227,7 +9253,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 681
+    "id": 683
   },
   {
     "word": "Wurlitzer",
@@ -9240,7 +9266,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 682
+    "id": 684
   },
   {
     "word": "Electric Piano",
@@ -9253,7 +9279,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 683,
+    "id": 685,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9267,7 +9293,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 684
+    "id": 686
   },
   {
     "word": "Clavinet",
@@ -9280,7 +9306,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 685,
+    "id": 687,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9294,7 +9320,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 686,
+    "id": 688,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9308,7 +9334,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 687
+    "id": 689
   },
   {
     "word": "Female Vocals",
@@ -9321,7 +9347,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 688,
+    "id": 690,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9335,7 +9361,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 689,
+    "id": 691,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9349,7 +9375,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 690
+    "id": 692
   },
   {
     "word": "Whisper Vocals",
@@ -9362,7 +9388,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 691,
+    "id": 693,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9376,7 +9402,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 692,
+    "id": 694,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9390,7 +9416,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 693,
+    "id": 695,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9404,7 +9430,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 694,
+    "id": 696,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9418,7 +9444,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 695
+    "id": 697
   }
 ];
 window.SOURCES = [
@@ -12839,6 +12865,34 @@ window.SOURCES = [
       {
         "word": "expression",
         "zh": "表情 / 表达"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "Scrapes String Noise Hum & Hiss Release Noise",
+    "translation": "刮擦声、弦噪、嗡声与嘶声、释放噪音。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Scrapes",
+        "zh": "刮擦声"
+      },
+      {
+        "word": "String Noise",
+        "zh": "弦噪"
+      },
+      {
+        "word": "Hum",
+        "zh": "嗡声 / 交流声"
+      },
+      {
+        "word": "Hiss",
+        "zh": "嘶声"
+      },
+      {
+        "word": "Release Noise",
+        "zh": "释放噪音"
       }
     ]
   }
