@@ -12985,5 +12985,29 @@ window.SOURCES = [
         "zh": "每弦单音"
       }
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "Sustained Bass",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Sustained Bass",
+        "zh": "持续低音"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "Sustained Bass",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Sustained Bass",
+        "zh": "持续低音"
+      }
+    ]
   }
 ];
