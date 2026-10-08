@@ -9585,6 +9585,19 @@ window.WORDS = [
     "audioFile": "440c2dff456aa005"
   },
   {
+    "word": "HAM",
+    "ipa": "",
+    "translit": "",
+    "zh": "火腿",
+    "def": "指经过腌制、烟熏或风干处理的猪后腿肉，常作为食材或直接食用。",
+    "example": "例子：早餐三明治里夹的那片咸香猪肉片就是 ham。",
+    "context": "HAM",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 708
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9595,7 +9608,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 708
+    "id": 709
   },
   {
     "word": "Conga",
@@ -9608,7 +9621,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 709,
+    "id": 710,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9622,7 +9635,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 710,
+    "id": 711,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9636,7 +9649,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 711
+    "id": 712
   },
   {
     "word": "Woodblock",
@@ -9649,7 +9662,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 712
+    "id": 713
   },
   {
     "word": "Djembe",
@@ -9662,7 +9675,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 713
+    "id": 714
   },
   {
     "word": "Tambourine",
@@ -9675,7 +9688,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 714
+    "id": 715
   },
   {
     "word": "Cowbells",
@@ -9688,7 +9701,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 715,
+    "id": 716,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9702,7 +9715,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 716
+    "id": 717
   },
   {
     "word": "Timbales",
@@ -9715,7 +9728,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 717
+    "id": 718
   },
   {
     "word": "Keys",
@@ -9728,7 +9741,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 718
+    "id": 719
   },
   {
     "word": "Wurlitzer",
@@ -9741,7 +9754,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 719
+    "id": 720
   },
   {
     "word": "Electric Piano",
@@ -9754,7 +9767,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 720,
+    "id": 721,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9768,7 +9781,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 721
+    "id": 722
   },
   {
     "word": "Clavinet",
@@ -9781,7 +9794,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 722,
+    "id": 723,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9795,7 +9808,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 723,
+    "id": 724,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9809,7 +9822,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 724
+    "id": 725
   },
   {
     "word": "Female Vocals",
@@ -9822,7 +9835,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 725,
+    "id": 726,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9836,7 +9849,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 726,
+    "id": 727,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9850,7 +9863,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 727
+    "id": 728
   },
   {
     "word": "Whisper Vocals",
@@ -9863,7 +9876,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 728,
+    "id": 729,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9877,7 +9890,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 729,
+    "id": 730,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9891,7 +9904,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 730,
+    "id": 731,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9905,7 +9918,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 731,
+    "id": 732,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9919,7 +9932,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 732
+    "id": 733
   }
 ];
 window.SOURCES = [
