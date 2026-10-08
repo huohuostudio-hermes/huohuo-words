@@ -9490,6 +9490,87 @@ window.WORDS = [
     "id": 700
   },
   {
+    "word": "Smooth Operator",
+    "ipa": "",
+    "translit": "",
+    "zh": "平滑操作器",
+    "def": "指操作流畅、手法圆滑的人或设备，在音频领域常形容处理过程自然无痕。",
+    "example": "例子：一位混音师用自动化曲线让音量过渡如丝般顺滑，被称为“Smooth Operator”。",
+    "context": "SMOOTH OPERATOR HEADROOM HERO SIGNATURE 83 OUTPUT ROOM SEND BYPASS",
+    "contextZh": "",
+    "category": "声音描述",
+    "source": "小赫转存",
+    "id": 701,
+    "audioFile": "5c10e57dbcfd7017"
+  },
+  {
+    "word": "Headroom",
+    "ipa": "ˈhɛdruːm",
+    "translit": "",
+    "zh": "动态余量 / 峰值余量",
+    "def": "音频信号在出现削波失真之前，还能提升的最大电平空间。",
+    "example": "例子：混音总线峰值在 -6 dBFS，说明还有 6 dB 的动态余量。",
+    "context": "SMOOTH OPERATOR HEADROOM HERO SIGNATURE 83 OUTPUT ROOM SEND BYPASS",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 702,
+    "audioFile": "fc5d344772d312e2"
+  },
+  {
+    "word": "Hero",
+    "ipa": "ˈhɪəroʊ",
+    "translit": "",
+    "zh": "主角 / 英雄",
+    "def": "在音乐制作或游戏中指核心人物、主音色或主打作品。",
+    "example": "例子：专辑中的“Hero”一曲被定为主打歌，代表整张唱片的核心风格。",
+    "context": "SMOOTH OPERATOR HEADROOM HERO SIGNATURE 83 OUTPUT ROOM SEND BYPASS",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 703
+  },
+  {
+    "word": "Signature",
+    "ipa": "ˈsɪɡnətʃər",
+    "translit": "",
+    "zh": "签名 / 标志性特征",
+    "def": "指某个品牌、艺术家或设备独有的、可被识别的标志性声音或风格。",
+    "example": "例子：这款压缩器以温暖的“签名音色”著称，一听便知是它。",
+    "context": "SMOOTH OPERATOR HEADROOM HERO SIGNATURE 83 OUTPUT ROOM SEND BYPASS",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 704
+  },
+  {
+    "word": "Room Send",
+    "ipa": "",
+    "translit": "",
+    "zh": "房间发送",
+    "def": "将信号发送到混响或房间模拟效果器的辅助输出通道。",
+    "example": "例子：把人声的 Room Send 调大，可营造出在房间中演唱的空间感。",
+    "context": "SMOOTH OPERATOR HEADROOM HERO SIGNATURE 83 OUTPUT ROOM SEND BYPASS",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 705,
+    "audioFile": "d99618e4874b2b3c"
+  },
+  {
+    "word": "Bypass",
+    "ipa": "ˈbaɪpæs",
+    "translit": "",
+    "zh": "旁通 / 直通",
+    "def": "使信号跳过某个处理环节，直接通过，用于对比处理前后的效果。",
+    "example": "例子：按下压缩器的 Bypass 键，即可听到未经压缩的原始声音。",
+    "context": "SMOOTH OPERATOR HEADROOM HERO SIGNATURE 83 OUTPUT ROOM SEND BYPASS",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 706
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9500,7 +9581,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 701
+    "id": 707
   },
   {
     "word": "Conga",
@@ -9513,7 +9594,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 702,
+    "id": 708,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9527,7 +9608,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 703,
+    "id": 709,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9541,7 +9622,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 704
+    "id": 710
   },
   {
     "word": "Woodblock",
@@ -9554,7 +9635,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 705
+    "id": 711
   },
   {
     "word": "Djembe",
@@ -9567,7 +9648,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 706
+    "id": 712
   },
   {
     "word": "Tambourine",
@@ -9580,7 +9661,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 707
+    "id": 713
   },
   {
     "word": "Cowbells",
@@ -9593,7 +9674,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 708,
+    "id": 714,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9607,7 +9688,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 709
+    "id": 715
   },
   {
     "word": "Timbales",
@@ -9620,7 +9701,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 710
+    "id": 716
   },
   {
     "word": "Keys",
@@ -9633,7 +9714,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 711
+    "id": 717
   },
   {
     "word": "Wurlitzer",
@@ -9646,7 +9727,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 712
+    "id": 718
   },
   {
     "word": "Electric Piano",
@@ -9659,7 +9740,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 713,
+    "id": 719,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9673,7 +9754,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 714
+    "id": 720
   },
   {
     "word": "Clavinet",
@@ -9686,7 +9767,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 715,
+    "id": 721,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9700,7 +9781,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 716,
+    "id": 722,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9714,7 +9795,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 717
+    "id": 723
   },
   {
     "word": "Female Vocals",
@@ -9727,7 +9808,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 718,
+    "id": 724,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9741,7 +9822,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 719,
+    "id": 725,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9755,7 +9836,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 720
+    "id": 726
   },
   {
     "word": "Whisper Vocals",
@@ -9768,7 +9849,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 721,
+    "id": 727,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9782,7 +9863,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 722,
+    "id": 728,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9796,7 +9877,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 723,
+    "id": 729,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9810,7 +9891,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 724,
+    "id": 730,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9824,7 +9905,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 725
+    "id": 731
   }
 ];
 window.SOURCES = [
@@ -13485,6 +13566,42 @@ window.SOURCES = [
       {
         "word": "SOAR",
         "zh": "翱翔 / 飙升"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "SMOOTH OPERATOR HEADROOM HERO SIGNATURE 83 OUTPUT ROOM SEND BYPASS",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Smooth Operator",
+        "zh": "平滑操作器"
+      },
+      {
+        "word": "Headroom",
+        "zh": "动态余量 / 峰值余量"
+      },
+      {
+        "word": "Hero",
+        "zh": "主角 / 英雄"
+      },
+      {
+        "word": "Signature",
+        "zh": "签名 / 标志性特征"
+      },
+      {
+        "word": "Output",
+        "zh": "输出"
+      },
+      {
+        "word": "Room Send",
+        "zh": "房间发送"
+      },
+      {
+        "word": "Bypass",
+        "zh": "旁通 / 直通"
       }
     ]
   }
