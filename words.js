@@ -9345,6 +9345,98 @@ window.WORDS = [
     "audioFile": "caf62c89bd282ccc"
   },
   {
+    "word": "GAIN",
+    "ipa": "ɡeɪn",
+    "translit": "",
+    "zh": "增益",
+    "def": "指音频信号电平的放大量，控制输入信号进入电路或效果器时的强度。",
+    "example": "例子：将吉他音箱的 Gain 调高，使声音产生失真效果。",
+    "context": "GAIN BASS MIDDLE TREBLE PRESENCE MASTER OUTPUT SOAR",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 690
+  },
+  {
+    "word": "MIDDLE",
+    "ipa": "ˈmɪdl",
+    "translit": "",
+    "zh": "中频 / 中音",
+    "def": "指音频频谱中位于低频和高频之间的频段，影响声音的清晰度和存在感。",
+    "example": "例子：适当提升 Middle 频段，使吉他独奏在混音中更加突出。",
+    "context": "GAIN BASS MIDDLE TREBLE PRESENCE MASTER OUTPUT SOAR",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 691
+  },
+  {
+    "word": "TREBLE",
+    "ipa": "ˈtrebl",
+    "translit": "",
+    "zh": "高频 / 高音",
+    "def": "指音频频谱中频率较高的频段，影响声音的明亮度和细节表现。",
+    "example": "例子：增加 Treble 使镲片的声音更加清脆明亮。",
+    "context": "GAIN BASS MIDDLE TREBLE PRESENCE MASTER OUTPUT SOAR",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 692,
+    "audioFile": "213758f71c3b4199"
+  },
+  {
+    "word": "PRESENCE",
+    "ipa": "ˈprezns",
+    "translit": "",
+    "zh": "临场感 / 存在感",
+    "def": "指音频中影响声音清晰度和前倾感的频段，通常位于中高频区域。",
+    "example": "例子：提升 Presence 旋钮，使吉他音色更加锐利、靠前。",
+    "context": "GAIN BASS MIDDLE TREBLE PRESENCE MASTER OUTPUT SOAR",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 693
+  },
+  {
+    "word": "MASTER",
+    "ipa": "ˈmæstər",
+    "translit": "",
+    "zh": "总音量 / 主控",
+    "def": "指设备或混音系统中控制最终输出信号电平的总控旋钮。",
+    "example": "例子：调整 Master 旋钮来控制整个混音的整体响度。",
+    "context": "GAIN BASS MIDDLE TREBLE PRESENCE MASTER OUTPUT SOAR",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 694
+  },
+  {
+    "word": "OUTPUT",
+    "ipa": "ˈaʊtpʊt",
+    "translit": "",
+    "zh": "输出",
+    "def": "指音频信号从设备送出的端口或电平，用于连接下一级设备或扬声器。",
+    "example": "例子：将 Output 电平调至合适位置，避免信号过载或过弱。",
+    "context": "GAIN BASS MIDDLE TREBLE PRESENCE MASTER OUTPUT SOAR",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 695
+  },
+  {
+    "word": "SOAR",
+    "ipa": "sɔːr",
+    "translit": "",
+    "zh": "翱翔 / 飙升",
+    "def": "指声音或音乐情绪上扬、高飞的表达，常用于描述音色或旋律的激昂感。",
+    "example": "例子：吉他独奏在高潮段落中 Soar，带来强烈的情绪冲击。",
+    "context": "GAIN BASS MIDDLE TREBLE PRESENCE MASTER OUTPUT SOAR",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 696
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9355,7 +9447,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 690
+    "id": 697
   },
   {
     "word": "Conga",
@@ -9368,7 +9460,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 691,
+    "id": 698,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9382,7 +9474,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 692,
+    "id": 699,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9396,7 +9488,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 693
+    "id": 700
   },
   {
     "word": "Woodblock",
@@ -9409,7 +9501,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 694
+    "id": 701
   },
   {
     "word": "Djembe",
@@ -9422,7 +9514,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 695
+    "id": 702
   },
   {
     "word": "Tambourine",
@@ -9435,7 +9527,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 696
+    "id": 703
   },
   {
     "word": "Cowbells",
@@ -9448,7 +9540,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 697,
+    "id": 704,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9462,7 +9554,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 698
+    "id": 705
   },
   {
     "word": "Timbales",
@@ -9475,7 +9567,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 699
+    "id": 706
   },
   {
     "word": "Keys",
@@ -9488,7 +9580,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 700
+    "id": 707
   },
   {
     "word": "Wurlitzer",
@@ -9501,7 +9593,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 701
+    "id": 708
   },
   {
     "word": "Electric Piano",
@@ -9514,7 +9606,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 702,
+    "id": 709,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9528,7 +9620,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 703
+    "id": 710
   },
   {
     "word": "Clavinet",
@@ -9541,7 +9633,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 704,
+    "id": 711,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9555,7 +9647,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 705,
+    "id": 712,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9569,7 +9661,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 706
+    "id": 713
   },
   {
     "word": "Female Vocals",
@@ -9582,7 +9674,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 707,
+    "id": 714,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9596,7 +9688,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 708,
+    "id": 715,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9610,7 +9702,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 709
+    "id": 716
   },
   {
     "word": "Whisper Vocals",
@@ -9623,7 +9715,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 710,
+    "id": 717,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9637,7 +9729,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 711,
+    "id": 718,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9651,7 +9743,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 712,
+    "id": 719,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9665,7 +9757,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 713,
+    "id": 720,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9679,7 +9771,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 714
+    "id": 721
   }
 ];
 window.SOURCES = [
@@ -13300,6 +13392,46 @@ window.SOURCES = [
       {
         "word": "HIGH PEAK",
         "zh": "高频峰值"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "GAIN BASS MIDDLE TREBLE PRESENCE MASTER OUTPUT SOAR",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "GAIN",
+        "zh": "增益"
+      },
+      {
+        "word": "BASS",
+        "zh": "低频 / 低音"
+      },
+      {
+        "word": "MIDDLE",
+        "zh": "中频 / 中音"
+      },
+      {
+        "word": "TREBLE",
+        "zh": "高频 / 高音"
+      },
+      {
+        "word": "PRESENCE",
+        "zh": "临场感 / 存在感"
+      },
+      {
+        "word": "MASTER",
+        "zh": "总音量 / 主控"
+      },
+      {
+        "word": "OUTPUT",
+        "zh": "输出"
+      },
+      {
+        "word": "SOAR",
+        "zh": "翱翔 / 飙升"
       }
     ]
   }
