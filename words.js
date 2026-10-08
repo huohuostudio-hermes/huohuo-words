@@ -2446,8 +2446,7 @@ window.WORDS = [
     "contextZh": "交通",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 183,
-    "audioFile": "f0ac1641d540bc5a"
+    "id": 183
   },
   {
     "word": "Car",
