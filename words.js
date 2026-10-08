@@ -9178,6 +9178,62 @@ window.WORDS = [
     "audioFile": "6e6c583768a7d56e"
   },
   {
+    "word": "Low Boost",
+    "ipa": "loʊ buːst",
+    "translit": "",
+    "zh": "低频提升",
+    "def": "提升低频段的增益，使声音更加浑厚有力。",
+    "example": "例子：在均衡器上将 100Hz 附近提升 3dB，让鼓声更有冲击力。",
+    "context": "LOW BOOST LOW ATTEN HIGH BOOST HIGH ATTEN",
+    "contextZh": "低频提升、低频衰减、高频提升、高频衰减。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 678,
+    "audioFile": "a7e7c2129f45db28"
+  },
+  {
+    "word": "Low Atten",
+    "ipa": "loʊ əˈten",
+    "translit": "",
+    "zh": "低频衰减",
+    "def": "衰减低频段的增益，减少声音中的低沉成分。",
+    "example": "例子：在均衡器上将 100Hz 附近衰减 3dB，减少房间驻波导致的浑浊感。",
+    "context": "LOW BOOST LOW ATTEN HIGH BOOST HIGH ATTEN",
+    "contextZh": "低频提升、低频衰减、高频提升、高频衰减。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 679,
+    "audioFile": "82afa3933f103d10"
+  },
+  {
+    "word": "High Boost",
+    "ipa": "haɪ buːst",
+    "translit": "",
+    "zh": "高频提升",
+    "def": "提升高频段的增益，使声音更加明亮清晰。",
+    "example": "例子：在均衡器上将 8kHz 附近提升 3dB，让人声更有空气感和细节。",
+    "context": "LOW BOOST LOW ATTEN HIGH BOOST HIGH ATTEN",
+    "contextZh": "低频提升、低频衰减、高频提升、高频衰减。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 680,
+    "audioFile": "4a8a413c49c31c5d"
+  },
+  {
+    "word": "High Atten",
+    "ipa": "haɪ əˈten",
+    "translit": "",
+    "zh": "高频衰减",
+    "def": "衰减高频段的增益，减少声音中的明亮或刺耳成分。",
+    "example": "例子：在均衡器上将 8kHz 附近衰减 3dB，减少齿音或镲片的刺耳感。",
+    "context": "LOW BOOST LOW ATTEN HIGH BOOST HIGH ATTEN",
+    "contextZh": "低频提升、低频衰减、高频提升、高频衰减。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 681,
+    "audioFile": "d47d60c5370317b3"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9188,7 +9244,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 678
+    "id": 682
   },
   {
     "word": "Conga",
@@ -9201,7 +9257,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 679,
+    "id": 683,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9215,7 +9271,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 680,
+    "id": 684,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9229,7 +9285,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 681
+    "id": 685
   },
   {
     "word": "Woodblock",
@@ -9242,7 +9298,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 682
+    "id": 686
   },
   {
     "word": "Djembe",
@@ -9255,7 +9311,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 683
+    "id": 687
   },
   {
     "word": "Tambourine",
@@ -9268,7 +9324,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 684
+    "id": 688
   },
   {
     "word": "Cowbells",
@@ -9281,7 +9337,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 685,
+    "id": 689,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9295,7 +9351,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 686
+    "id": 690
   },
   {
     "word": "Timbales",
@@ -9308,7 +9364,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 687
+    "id": 691
   },
   {
     "word": "Keys",
@@ -9321,7 +9377,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 688
+    "id": 692
   },
   {
     "word": "Wurlitzer",
@@ -9334,7 +9390,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 689
+    "id": 693
   },
   {
     "word": "Electric Piano",
@@ -9347,7 +9403,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 690,
+    "id": 694,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9361,7 +9417,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 691
+    "id": 695
   },
   {
     "word": "Clavinet",
@@ -9374,7 +9430,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 692,
+    "id": 696,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9388,7 +9444,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 693,
+    "id": 697,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9402,7 +9458,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 694
+    "id": 698
   },
   {
     "word": "Female Vocals",
@@ -9415,7 +9471,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 695,
+    "id": 699,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9429,7 +9485,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 696,
+    "id": 700,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9443,7 +9499,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 697
+    "id": 701
   },
   {
     "word": "Whisper Vocals",
@@ -9456,7 +9512,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 698,
+    "id": 702,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9470,7 +9526,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 699,
+    "id": 703,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9484,7 +9540,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 700,
+    "id": 704,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9498,7 +9554,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 701,
+    "id": 705,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9512,7 +9568,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 702
+    "id": 706
   }
 ];
 window.SOURCES = [
@@ -13037,6 +13093,50 @@ window.SOURCES = [
       {
         "word": "Bass",
         "zh": "低音 / 贝斯"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "LOW BOOST LOW ATTEN HIGH BOOST HIGH ATTEN",
+    "translation": "低频提升、低频衰减、高频提升、高频衰减。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Low Boost",
+        "zh": "低频提升"
+      },
+      {
+        "word": "Low Atten",
+        "zh": "低频衰减"
+      },
+      {
+        "word": "High Boost",
+        "zh": "高频提升"
+      },
+      {
+        "word": "High Atten",
+        "zh": "高频衰减"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "LOW BOOST LOW ATTEN HIGH BOOST",
+    "translation": "低频提升",
+    "category": "",
+    "branches": [
+      {
+        "word": "LOW BOOST",
+        "zh": "低频提升"
+      },
+      {
+        "word": "LOW ATTEN",
+        "zh": "低频衰减"
+      },
+      {
+        "word": "HIGH BOOST",
+        "zh": "高频提升"
       }
     ]
   }
