@@ -9164,6 +9164,20 @@ window.WORDS = [
     "audioFile": "9a3cc644edba3670"
   },
   {
+    "word": "Pulsing",
+    "ipa": "ˈpʌlsɪŋ",
+    "translit": "",
+    "zh": "脉动的 / 脉冲式的",
+    "def": "形容声音或节奏以规律的间隔反复出现，产生一种有规律的强弱交替感。",
+    "example": "例子：合成器发出的音量周期性起伏的低频声。",
+    "context": "Pulsing Bass",
+    "contextZh": "脉动低音",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 677,
+    "audioFile": "6e6c583768a7d56e"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9174,7 +9188,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 677
+    "id": 678
   },
   {
     "word": "Conga",
@@ -9187,7 +9201,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 678,
+    "id": 679,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9201,7 +9215,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 679,
+    "id": 680,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9215,7 +9229,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 680
+    "id": 681
   },
   {
     "word": "Woodblock",
@@ -9228,7 +9242,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 681
+    "id": 682
   },
   {
     "word": "Djembe",
@@ -9241,7 +9255,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 682
+    "id": 683
   },
   {
     "word": "Tambourine",
@@ -9254,7 +9268,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 683
+    "id": 684
   },
   {
     "word": "Cowbells",
@@ -9267,7 +9281,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 684,
+    "id": 685,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9281,7 +9295,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 685
+    "id": 686
   },
   {
     "word": "Timbales",
@@ -9294,7 +9308,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 686
+    "id": 687
   },
   {
     "word": "Keys",
@@ -9307,7 +9321,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 687
+    "id": 688
   },
   {
     "word": "Wurlitzer",
@@ -9320,7 +9334,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 688
+    "id": 689
   },
   {
     "word": "Electric Piano",
@@ -9333,7 +9347,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 689,
+    "id": 690,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9347,7 +9361,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 690
+    "id": 691
   },
   {
     "word": "Clavinet",
@@ -9360,7 +9374,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 691,
+    "id": 692,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9374,7 +9388,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 692,
+    "id": 693,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9388,7 +9402,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 693
+    "id": 694
   },
   {
     "word": "Female Vocals",
@@ -9401,7 +9415,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 694,
+    "id": 695,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9415,7 +9429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 695,
+    "id": 696,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9429,7 +9443,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 696
+    "id": 697
   },
   {
     "word": "Whisper Vocals",
@@ -9442,7 +9456,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 697,
+    "id": 698,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9456,7 +9470,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 698,
+    "id": 699,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9470,7 +9484,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 699,
+    "id": 700,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9484,7 +9498,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 700,
+    "id": 701,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9498,7 +9512,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 701
+    "id": 702
   }
 ];
 window.SOURCES = [
@@ -13007,6 +13021,22 @@ window.SOURCES = [
       {
         "word": "Sustained Bass",
         "zh": "持续低音"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "Pulsing Bass",
+    "translation": "脉动低音",
+    "category": "",
+    "branches": [
+      {
+        "word": "Pulsing",
+        "zh": "脉动的 / 脉冲式的"
+      },
+      {
+        "word": "Bass",
+        "zh": "低音 / 贝斯"
       }
     ]
   }
