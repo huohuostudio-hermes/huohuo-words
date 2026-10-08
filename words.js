@@ -9234,6 +9234,117 @@ window.WORDS = [
     "audioFile": "d47d60c5370317b3"
   },
   {
+    "word": "High Bandwidth",
+    "ipa": "",
+    "translit": "",
+    "zh": "高带宽",
+    "def": "指系统或设备能够传输或处理的频率范围较宽，可容纳更多信号成分。",
+    "example": "例子：宽带音频设备能还原更丰富的高频细节。",
+    "context": "HIGH BANDWIDTH HIGH FREQ HIGH ATTEN SEL",
+    "contextZh": "高带宽 高频 高衰减选择",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 682,
+    "audioFile": "b3423ccedee43d6b"
+  },
+  {
+    "word": "High Freq",
+    "ipa": "",
+    "translit": "",
+    "zh": "高频",
+    "def": "指音频频谱中频率较高的部分，通常影响声音的明亮度和清晰度。",
+    "example": "听觉例子：镲片敲击时尖锐明亮的\"叮\"声。",
+    "context": "HIGH BANDWIDTH HIGH FREQ HIGH ATTEN SEL",
+    "contextZh": "高带宽 高频 高衰减选择",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 683,
+    "audioFile": "973f894f5008a831"
+  },
+  {
+    "word": "High Atten Sel",
+    "ipa": "",
+    "translit": "",
+    "zh": "高衰减选择",
+    "def": "指设备上选择高频衰减功能的选项，用于降低高频信号的强度。",
+    "example": "例子：在嘈杂环境中开启高衰减选择可减少刺耳的高频噪声。",
+    "context": "HIGH BANDWIDTH HIGH FREQ HIGH ATTEN SEL",
+    "contextZh": "高带宽 高频 高衰减选择",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 684,
+    "audioFile": "5c17c0e3f18b117f"
+  },
+  {
+    "word": "LOW FREQ",
+    "ipa": "",
+    "translit": "",
+    "zh": "低频",
+    "def": "指音频频谱中较低的频率范围，通常约 20 Hz 到 250 Hz。它决定声音的厚度和重量感。",
+    "example": "例子：底鼓和贝斯的主要能量集中在低频。",
+    "context": "LOW FREQ LOW PEAK DIP FREQ DIP HIGH FREQ HIGH PEAK",
+    "contextZh": "低频 / 低频峰值 / 衰减频率 / 衰减 / 高频 / 高频峰值",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 685,
+    "audioFile": "5fe7269a1da51629"
+  },
+  {
+    "word": "LOW PEAK",
+    "ipa": "",
+    "translit": "",
+    "zh": "低频峰值",
+    "def": "指低频段中某个频率点出现能量突出的最高点。通常需要用均衡器衰减来控制。",
+    "example": "例子：在 100 Hz 附近出现明显凸起，就是低频峰值。",
+    "context": "LOW FREQ LOW PEAK DIP FREQ DIP HIGH FREQ HIGH PEAK",
+    "contextZh": "低频 / 低频峰值 / 衰减频率 / 衰减 / 高频 / 高频峰值",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 686,
+    "audioFile": "287b763a98b1ac56"
+  },
+  {
+    "word": "DIP FREQ",
+    "ipa": "",
+    "translit": "",
+    "zh": "衰减频率",
+    "def": "指均衡器中设定要降低音量的目标频率。用于削减不需要的频段。",
+    "example": "例子：把衰减频率设在 300 Hz 可减少浑浊感。",
+    "context": "LOW FREQ LOW PEAK DIP FREQ DIP HIGH FREQ HIGH PEAK",
+    "contextZh": "低频 / 低频峰值 / 衰减频率 / 衰减 / 高频 / 高频峰值",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 687,
+    "audioFile": "f374c919b83e30aa"
+  },
+  {
+    "word": "DIP",
+    "ipa": "",
+    "translit": "",
+    "zh": "衰减 / 下切",
+    "def": "指在均衡器上对某个频段进行音量降低的操作。与 Boost（提升）相对。",
+    "example": "例子：在 500 Hz 处做 3 dB 的衰减。",
+    "context": "LOW FREQ LOW PEAK DIP FREQ DIP HIGH FREQ HIGH PEAK",
+    "contextZh": "低频 / 低频峰值 / 衰减频率 / 衰减 / 高频 / 高频峰值",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 688
+  },
+  {
+    "word": "HIGH PEAK",
+    "ipa": "",
+    "translit": "",
+    "zh": "高频峰值",
+    "def": "指高频段中某个频率点出现能量突出的最高点。过多会导致刺耳。",
+    "example": "例子：在 8 kHz 附近出现尖峰，就是高频峰值。",
+    "context": "LOW FREQ LOW PEAK DIP FREQ DIP HIGH FREQ HIGH PEAK",
+    "contextZh": "低频 / 低频峰值 / 衰减频率 / 衰减 / 高频 / 高频峰值",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 689,
+    "audioFile": "caf62c89bd282ccc"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9244,7 +9355,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 682
+    "id": 690
   },
   {
     "word": "Conga",
@@ -9257,7 +9368,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 683,
+    "id": 691,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9271,7 +9382,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 684,
+    "id": 692,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9285,7 +9396,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 685
+    "id": 693
   },
   {
     "word": "Woodblock",
@@ -9298,7 +9409,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 686
+    "id": 694
   },
   {
     "word": "Djembe",
@@ -9311,7 +9422,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 687
+    "id": 695
   },
   {
     "word": "Tambourine",
@@ -9324,7 +9435,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 688
+    "id": 696
   },
   {
     "word": "Cowbells",
@@ -9337,7 +9448,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 689,
+    "id": 697,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9351,7 +9462,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 690
+    "id": 698
   },
   {
     "word": "Timbales",
@@ -9364,7 +9475,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 691
+    "id": 699
   },
   {
     "word": "Keys",
@@ -9377,7 +9488,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 692
+    "id": 700
   },
   {
     "word": "Wurlitzer",
@@ -9390,7 +9501,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 693
+    "id": 701
   },
   {
     "word": "Electric Piano",
@@ -9403,7 +9514,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 694,
+    "id": 702,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9417,7 +9528,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 695
+    "id": 703
   },
   {
     "word": "Clavinet",
@@ -9430,7 +9541,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 696,
+    "id": 704,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9444,7 +9555,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 697,
+    "id": 705,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9458,7 +9569,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 698
+    "id": 706
   },
   {
     "word": "Female Vocals",
@@ -9471,7 +9582,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 699,
+    "id": 707,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9485,7 +9596,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 700,
+    "id": 708,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9499,7 +9610,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 701
+    "id": 709
   },
   {
     "word": "Whisper Vocals",
@@ -9512,7 +9623,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 702,
+    "id": 710,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9526,7 +9637,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 703,
+    "id": 711,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9540,7 +9651,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 704,
+    "id": 712,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9554,7 +9665,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 705,
+    "id": 713,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9568,7 +9679,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 706
+    "id": 714
   }
 ];
 window.SOURCES = [
@@ -13137,6 +13248,58 @@ window.SOURCES = [
       {
         "word": "HIGH BOOST",
         "zh": "高频提升"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "HIGH BANDWIDTH HIGH FREQ HIGH ATTEN SEL",
+    "translation": "高带宽 高频 高衰减选择",
+    "category": "",
+    "branches": [
+      {
+        "word": "High Bandwidth",
+        "zh": "高带宽"
+      },
+      {
+        "word": "High Freq",
+        "zh": "高频"
+      },
+      {
+        "word": "High Atten Sel",
+        "zh": "高衰减选择"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "text": "LOW FREQ LOW PEAK DIP FREQ DIP HIGH FREQ HIGH PEAK",
+    "translation": "低频 / 低频峰值 / 衰减频率 / 衰减 / 高频 / 高频峰值",
+    "category": "",
+    "branches": [
+      {
+        "word": "LOW FREQ",
+        "zh": "低频"
+      },
+      {
+        "word": "LOW PEAK",
+        "zh": "低频峰值"
+      },
+      {
+        "word": "DIP FREQ",
+        "zh": "衰减频率"
+      },
+      {
+        "word": "DIP",
+        "zh": "衰减 / 下切"
+      },
+      {
+        "word": "HIGH FREQ",
+        "zh": "高频"
+      },
+      {
+        "word": "HIGH PEAK",
+        "zh": "高频峰值"
       }
     ]
   }
