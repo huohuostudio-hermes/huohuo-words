@@ -301,7 +301,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 23
+    "id": 23,
+    "audioFile": "98463f4f3ff2c4e3"
   },
   {
     "word": "Sweeps",
