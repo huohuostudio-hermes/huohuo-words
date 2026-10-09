@@ -7656,8 +7656,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 564,
-    "audioFile": "86416ef3eeb4cc90"
+    "id": 564
   },
   {
     "word": "PINNED",
