@@ -9596,6 +9596,59 @@ window.WORDS = [
     "id": 708
   },
   {
+    "word": "Purge Mode",
+    "ipa": "",
+    "translit": "",
+    "zh": "清除模式",
+    "def": "指一种用于清空、删除或重置数据与状态的工作模式，常见于软件、设备或系统设置中。",
+    "example": "例子：在数据采集软件中开启 Purge Mode 后，系统会删除缓存中的临时记录并恢复到初始状态。",
+    "context": "Purge Mode",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 709,
+    "audioFile": "06a714a6a093411a"
+  },
+  {
+    "word": "Eco",
+    "ipa": "ˈiːkoʊ",
+    "translit": "",
+    "zh": "回声 / 环保",
+    "def": "在音乐制作中，指延迟效果的一种简易形式，产生短促的回声；在日常语境中，也常作“生态 / 环保”的缩写。",
+    "example": "听觉例子：声音发出后紧跟一个快速衰减的重复声。",
+    "context": "Eco Standard Ultimate",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 710
+  },
+  {
+    "word": "Standard",
+    "ipa": "ˈstændərd",
+    "translit": "",
+    "zh": "标准 / 标准版",
+    "def": "指某一产品、格式或规格的通用基准版本，区别于豪华版、专业版或定制版。",
+    "example": "例子：软件通常分为 Standard（标准版）和 Pro（专业版）两种授权。",
+    "context": "Eco Standard Ultimate",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 711
+  },
+  {
+    "word": "Ultimate",
+    "ipa": "ˈʌltɪmət",
+    "translit": "",
+    "zh": "终极 / 旗舰版",
+    "def": "表示某一系列中最高级别、最完整的版本，通常包含全部功能与内容。",
+    "example": "例子：游戏常推出 Standard、Deluxe 和 Ultimate 三档版本，Ultimate 含全部 DLC。",
+    "context": "Eco Standard Ultimate",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 712
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9606,7 +9659,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 709,
+    "id": 713,
     "audioFile": "b83c35ab61159149"
   },
   {
@@ -9620,7 +9673,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 710,
+    "id": 714,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9634,7 +9687,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 711,
+    "id": 715,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9648,7 +9701,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 712
+    "id": 716
   },
   {
     "word": "Woodblock",
@@ -9661,7 +9714,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 713
+    "id": 717
   },
   {
     "word": "Djembe",
@@ -9674,7 +9727,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 714
+    "id": 718
   },
   {
     "word": "Tambourine",
@@ -9687,7 +9740,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 715
+    "id": 719
   },
   {
     "word": "Cowbells",
@@ -9700,7 +9753,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 716,
+    "id": 720,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9714,7 +9767,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 717
+    "id": 721
   },
   {
     "word": "Timbales",
@@ -9727,7 +9780,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 718
+    "id": 722
   },
   {
     "word": "Keys",
@@ -9740,7 +9793,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 719
+    "id": 723
   },
   {
     "word": "Wurlitzer",
@@ -9753,7 +9806,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 720
+    "id": 724
   },
   {
     "word": "Electric Piano",
@@ -9766,7 +9819,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 721,
+    "id": 725,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9780,7 +9833,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 722
+    "id": 726
   },
   {
     "word": "Clavinet",
@@ -9793,7 +9846,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 723,
+    "id": 727,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9807,7 +9860,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 724,
+    "id": 728,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9821,7 +9874,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 725
+    "id": 729
   },
   {
     "word": "Female Vocals",
@@ -9834,7 +9887,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 726,
+    "id": 730,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9848,7 +9901,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 727,
+    "id": 731,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9862,7 +9915,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 728
+    "id": 732
   },
   {
     "word": "Whisper Vocals",
@@ -9875,7 +9928,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 729,
+    "id": 733,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9889,7 +9942,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 730,
+    "id": 734,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9903,7 +9956,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 731,
+    "id": 735,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9917,7 +9970,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 732,
+    "id": 736,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9931,7 +9984,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 733
+    "id": 737
   }
 ];
 window.SOURCES = [
@@ -13640,6 +13693,38 @@ window.SOURCES = [
       {
         "word": "Pre-delay",
         "zh": "预延迟"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "text": "Purge Mode",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Purge Mode",
+        "zh": "清除模式"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "text": "Eco Standard Ultimate",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Eco",
+        "zh": "回声 / 环保"
+      },
+      {
+        "word": "Standard",
+        "zh": "标准 / 标准版"
+      },
+      {
+        "word": "Ultimate",
+        "zh": "终极 / 旗舰版"
       }
     ]
   }
