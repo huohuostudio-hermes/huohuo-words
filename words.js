@@ -800,7 +800,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 60
+    "id": 60,
+    "audioFile": "b8be9455817dcdab"
   },
   {
     "word": "Launcher",
