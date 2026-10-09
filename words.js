@@ -9649,6 +9649,32 @@ window.WORDS = [
     "id": 712
   },
   {
+    "word": "Lush",
+    "ipa": "lʌʃ",
+    "translit": "",
+    "zh": "繁茂的 / 浓郁的",
+    "def": "形容声音或音色丰满、华丽、层次丰富，常用于描述混响、和声或整体听感。",
+    "example": "例子：一段带有大量混响的弦乐，听起来饱满而富有空间感。",
+    "context": "Lush Flow",
+    "contextZh": "繁茂流动 / 浓郁律动",
+    "category": "声音描述",
+    "source": "小赫转存",
+    "id": 713
+  },
+  {
+    "word": "Flow",
+    "ipa": "floʊ",
+    "translit": "",
+    "zh": "流动 / 律动",
+    "def": "指音乐中节奏与旋律自然连贯的推进感，也可指说唱中流畅的节奏表达。",
+    "example": "例子：一段鼓组和贝斯配合紧密、节奏行云流水的段落。",
+    "context": "Lush Flow",
+    "contextZh": "繁茂流动 / 浓郁律动",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 714
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9659,7 +9685,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 713,
+    "id": 715,
     "audioFile": "b83c35ab61159149"
   },
   {
@@ -9673,7 +9699,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 714,
+    "id": 716,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9687,7 +9713,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 715,
+    "id": 717,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9701,7 +9727,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 716
+    "id": 718
   },
   {
     "word": "Woodblock",
@@ -9714,7 +9740,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 717
+    "id": 719
   },
   {
     "word": "Djembe",
@@ -9727,7 +9753,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 718
+    "id": 720
   },
   {
     "word": "Tambourine",
@@ -9740,7 +9766,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 719
+    "id": 721
   },
   {
     "word": "Cowbells",
@@ -9753,7 +9779,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 720,
+    "id": 722,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9767,7 +9793,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 721
+    "id": 723
   },
   {
     "word": "Timbales",
@@ -9780,7 +9806,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 722
+    "id": 724
   },
   {
     "word": "Keys",
@@ -9793,7 +9819,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 723
+    "id": 725
   },
   {
     "word": "Wurlitzer",
@@ -9806,7 +9832,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 724
+    "id": 726
   },
   {
     "word": "Electric Piano",
@@ -9819,7 +9845,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 725,
+    "id": 727,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9833,7 +9859,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 726
+    "id": 728
   },
   {
     "word": "Clavinet",
@@ -9846,7 +9872,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 727,
+    "id": 729,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9860,7 +9886,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 728,
+    "id": 730,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9874,7 +9900,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 729
+    "id": 731
   },
   {
     "word": "Female Vocals",
@@ -9887,7 +9913,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 730,
+    "id": 732,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9901,7 +9927,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 731,
+    "id": 733,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9915,7 +9941,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 732
+    "id": 734
   },
   {
     "word": "Whisper Vocals",
@@ -9928,7 +9954,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 733,
+    "id": 735,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9942,7 +9968,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 734,
+    "id": 736,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -9956,7 +9982,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 735,
+    "id": 737,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -9970,7 +9996,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 736,
+    "id": 738,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -9984,7 +10010,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 737
+    "id": 739
   }
 ];
 window.SOURCES = [
@@ -13725,6 +13751,22 @@ window.SOURCES = [
       {
         "word": "Ultimate",
         "zh": "终极 / 旗舰版"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "text": "Lush Flow",
+    "translation": "繁茂流动 / 浓郁律动",
+    "category": "",
+    "branches": [
+      {
+        "word": "Lush",
+        "zh": "繁茂的 / 浓郁的"
+      },
+      {
+        "word": "Flow",
+        "zh": "流动 / 律动"
       }
     ]
   }
