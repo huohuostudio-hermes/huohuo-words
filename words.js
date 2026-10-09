@@ -852,8 +852,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 64,
-    "audioFile": "78f3a3d9d6e4d907"
+    "id": 64
   },
   {
     "word": "Scroll Wheel",
