@@ -2936,7 +2936,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 220
+    "id": 220,
+    "audioFile": "c39fed3cd317cde8"
   },
   {
     "word": "Harmonic Punch",
