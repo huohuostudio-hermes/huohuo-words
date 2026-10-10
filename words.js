@@ -1062,7 +1062,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 79
+    "id": 79,
+    "audioFile": "4930eb3f60df3a6a"
   },
   {
     "word": "Enter",
