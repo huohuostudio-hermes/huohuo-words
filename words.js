@@ -6258,7 +6258,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 462
+    "id": 462,
+    "audioFile": "15e9c6a52c89aeae"
   },
   {
     "word": "Future Garage",
