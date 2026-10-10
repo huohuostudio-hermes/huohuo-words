@@ -718,8 +718,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 54,
-    "audioFile": "1e8fa319e92cd83d"
+    "id": 54
   },
   {
     "word": "sustained bass",
