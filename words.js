@@ -6826,8 +6826,7 @@ window.WORDS = [
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 503,
-    "audioFile": "2fa40299ce89696c"
+    "id": 503
   },
   {
     "word": "Extreme low frequencies",
