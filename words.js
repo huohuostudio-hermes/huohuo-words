@@ -9693,6 +9693,33 @@ window.WORDS = [
     "id": 715
   },
   {
+    "word": "Failed",
+    "ipa": "feɪld",
+    "translit": "",
+    "zh": "失败的",
+    "def": "表示某个操作或尝试没有成功完成。",
+    "example": "例子：程序尝试连接服务器但未能成功。",
+    "context": ": Failed to fetch",
+    "contextZh": "获取失败。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 716
+  },
+  {
+    "word": "to fetch",
+    "ipa": "",
+    "translit": "",
+    "zh": "获取 / 拉取",
+    "def": "表示从某处取得数据或资源的过程。",
+    "example": "例子：浏览器向服务器请求获取网页数据。",
+    "context": ": Failed to fetch",
+    "contextZh": "获取失败。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 717,
+    "audioFile": "0e3efc80f65a513f"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9703,7 +9730,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 716,
+    "id": 718,
     "audioFile": "b83c35ab61159149"
   },
   {
@@ -9717,7 +9744,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 717,
+    "id": 719,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9731,7 +9758,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 718,
+    "id": 720,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9745,7 +9772,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 719
+    "id": 721
   },
   {
     "word": "Woodblock",
@@ -9758,7 +9785,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 720
+    "id": 722
   },
   {
     "word": "Djembe",
@@ -9771,7 +9798,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 721
+    "id": 723
   },
   {
     "word": "Tambourine",
@@ -9784,7 +9811,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 722
+    "id": 724
   },
   {
     "word": "Cowbells",
@@ -9797,7 +9824,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 723,
+    "id": 725,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9811,7 +9838,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 724
+    "id": 726
   },
   {
     "word": "Timbales",
@@ -9824,7 +9851,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 725
+    "id": 727
   },
   {
     "word": "Keys",
@@ -9837,7 +9864,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 726
+    "id": 728
   },
   {
     "word": "Wurlitzer",
@@ -9850,7 +9877,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 727
+    "id": 729
   },
   {
     "word": "Electric Piano",
@@ -9863,7 +9890,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 728,
+    "id": 730,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9877,7 +9904,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 729
+    "id": 731
   },
   {
     "word": "Clavinet",
@@ -9890,7 +9917,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 730,
+    "id": 732,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9904,7 +9931,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 731,
+    "id": 733,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9918,7 +9945,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 732
+    "id": 734
   },
   {
     "word": "Female Vocals",
@@ -9931,7 +9958,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 733,
+    "id": 735,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9945,7 +9972,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 734,
+    "id": 736,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9959,7 +9986,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 735
+    "id": 737
   },
   {
     "word": "Whisper Vocals",
@@ -9972,7 +9999,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 736,
+    "id": 738,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -9986,7 +10013,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 737,
+    "id": 739,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10000,7 +10027,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 738,
+    "id": 740,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10014,7 +10041,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 739,
+    "id": 741,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10028,7 +10055,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 740
+    "id": 742
   }
 ];
 window.SOURCES = [
@@ -13785,6 +13812,22 @@ window.SOURCES = [
       {
         "word": "Flow",
         "zh": "流动 / 律动"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "text": ": Failed to fetch",
+    "translation": "获取失败。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Failed",
+        "zh": "失败的"
+      },
+      {
+        "word": "to fetch",
+        "zh": "获取 / 拉取"
       }
     ]
   }
