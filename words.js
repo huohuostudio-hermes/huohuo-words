@@ -9720,6 +9720,20 @@ window.WORDS = [
     "audioFile": "0e3efc80f65a513f"
   },
   {
+    "word": "Flex Tune",
+    "ipa": "",
+    "translit": "",
+    "zh": "弹性调音 / 灵活调音",
+    "def": "指对音高或音色进行灵活、可变的调整，通常用于说唱或电子音乐中的人声处理。",
+    "example": "例子：在 Auto-Tune 中设置 Flex Tune 模式，使人声在保持自然颤音的同时修正音高。",
+    "context": "Flex Tune",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 718,
+    "audioFile": "a54aa8de2e8d6328"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9730,7 +9744,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 718,
+    "id": 719,
     "audioFile": "b83c35ab61159149"
   },
   {
@@ -9744,7 +9758,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 719,
+    "id": 720,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9758,7 +9772,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 720,
+    "id": 721,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9772,7 +9786,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 721
+    "id": 722
   },
   {
     "word": "Woodblock",
@@ -9785,7 +9799,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 722
+    "id": 723
   },
   {
     "word": "Djembe",
@@ -9798,7 +9812,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 723
+    "id": 724
   },
   {
     "word": "Tambourine",
@@ -9811,7 +9825,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 724
+    "id": 725
   },
   {
     "word": "Cowbells",
@@ -9824,7 +9838,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 725,
+    "id": 726,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9838,7 +9852,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 726
+    "id": 727
   },
   {
     "word": "Timbales",
@@ -9851,7 +9865,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 727
+    "id": 728
   },
   {
     "word": "Keys",
@@ -9864,7 +9878,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 728
+    "id": 729
   },
   {
     "word": "Wurlitzer",
@@ -9877,7 +9891,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 729
+    "id": 730
   },
   {
     "word": "Electric Piano",
@@ -9890,7 +9904,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 730,
+    "id": 731,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9904,7 +9918,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 731
+    "id": 732
   },
   {
     "word": "Clavinet",
@@ -9917,7 +9931,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 732,
+    "id": 733,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9931,7 +9945,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 733,
+    "id": 734,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9945,7 +9959,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 734
+    "id": 735
   },
   {
     "word": "Female Vocals",
@@ -9958,7 +9972,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 735,
+    "id": 736,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9972,7 +9986,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 736,
+    "id": 737,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -9986,7 +10000,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 737
+    "id": 738
   },
   {
     "word": "Whisper Vocals",
@@ -9999,7 +10013,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 738,
+    "id": 739,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10013,7 +10027,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 739,
+    "id": 740,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10027,7 +10041,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 740,
+    "id": 741,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10041,7 +10055,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 741,
+    "id": 742,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10055,7 +10069,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 742
+    "id": 743
   }
 ];
 window.SOURCES = [
@@ -13828,6 +13842,18 @@ window.SOURCES = [
       {
         "word": "to fetch",
         "zh": "获取 / 拉取"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "text": "Flex Tune",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Flex Tune",
+        "zh": "弹性调音 / 灵活调音"
       }
     ]
   }
