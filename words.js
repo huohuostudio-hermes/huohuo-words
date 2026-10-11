@@ -9734,6 +9734,226 @@ window.WORDS = [
     "audioFile": "a54aa8de2e8d6328"
   },
   {
+    "word": "Pro-Q 4",
+    "ipa": "",
+    "translit": "",
+    "zh": "Pro-Q 4",
+    "def": "一款专业数字均衡器插件，用于精确调整音频频段。",
+    "example": "例子：在混音中用它削减 200Hz 附近的浑浊感。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 719,
+    "audioFile": "5cee2d896c2c459e"
+  },
+  {
+    "word": "Pro-DS",
+    "ipa": "",
+    "translit": "",
+    "zh": "Pro-DS",
+    "def": "一款齿音消除插件，用于抑制人声中的齿音。",
+    "example": "例子：在 vocals 轨道上加载 Pro-DS 来减少“嘶”声。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 720,
+    "audioFile": "15221dffef3b20ec"
+  },
+  {
+    "word": "Pro-C 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "Pro-C 2",
+    "def": "一款专业压缩器插件，用于控制动态范围。",
+    "example": "例子：用 Pro-C 2 给鼓组增加冲击力。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 721,
+    "audioFile": "29fee4defb9be5ee"
+  },
+  {
+    "word": "OTT",
+    "ipa": "",
+    "translit": "",
+    "zh": "OTT",
+    "def": "一种多段向上/向下压缩效果，常用于电子音乐中增强响度和动态。",
+    "example": "例子：在合成器轨道上使用 OTT 让声音更饱满。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 722
+  },
+  {
+    "word": "soothe2",
+    "ipa": "",
+    "translit": "",
+    "zh": "soothe2",
+    "def": "一款动态共振抑制插件，能自动衰减刺耳的共振频率。",
+    "example": "例子：用 soothe2 处理人声中的刺耳高频。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 723,
+    "audioFile": "3cbd738fb5b6542f"
+  },
+  {
+    "word": "dB",
+    "ipa": "",
+    "translit": "",
+    "zh": "分贝",
+    "def": "音频电平的单位，用于表示增益或衰减。",
+    "example": "例子：将推子降低 3dB 来减少音量。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 724
+  },
+  {
+    "word": "Pro-R 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "Pro-R 2",
+    "def": "一款专业混响插件，用于模拟空间声学效果。",
+    "example": "例子：用 Pro-R 2 给人声添加大厅混响。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 725,
+    "audioFile": "0b0cf6fd225d38d8"
+  },
+  {
+    "word": "ValhallaRo",
+    "ipa": "",
+    "translit": "",
+    "zh": "ValhallaRo",
+    "def": "可能指 ValhallaRoom 混响插件，用于创建空间感。",
+    "example": "例子：用 ValhallaRo 给合成器添加房间混响。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 726,
+    "audioFile": "10b1062bbf42822e"
+  },
+  {
+    "word": "ValhallaVi",
+    "ipa": "",
+    "translit": "",
+    "zh": "ValhallaVi",
+    "def": "可能指 ValhallaVintageVerb 混响插件。",
+    "example": "例子：用 ValhallaVi 给鼓组添加复古混响。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 727,
+    "audioFile": "0673904a81f6c3e3"
+  },
+  {
+    "word": "Insight 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "Insight 2",
+    "def": "一款音频分析插件，用于监测电平、频谱等。",
+    "example": "例子：用 Insight 2 检查混音的响度。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 728,
+    "audioFile": "47739bbeae5e0528"
+  },
+  {
+    "word": "Mastering",
+    "ipa": "",
+    "translit": "",
+    "zh": "母带处理",
+    "def": "对混音进行最终优化和电平提升的过程。",
+    "example": "例子：在“Mastering”阶段使用限制器提升响度。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "插件操作",
+    "source": "小赫转存",
+    "id": 729
+  },
+  {
+    "word": "Read",
+    "ipa": "",
+    "translit": "",
+    "zh": "读取",
+    "def": "自动化模式之一，表示读取已记录的自动化数据。",
+    "example": "例子：将自动化模式设为“Read”以回放音量变化。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 730
+  },
+  {
+    "word": "Symphony E",
+    "ipa": "",
+    "translit": "",
+    "zh": "Symphony E",
+    "def": "可能指 Apogee Symphony 音频接口或相关设备。",
+    "example": "例子：通过 Symphony E 连接监听音箱。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 731,
+    "audioFile": "0c4f3b954b178479"
+  },
+  {
+    "word": "无法呼。。。.1_bip",
+    "ipa": "",
+    "translit": "",
+    "zh": "无法呼。。。.1_bip",
+    "def": "可能是一个错误提示或文件名，含义不明确。",
+    "example": "例子：界面显示“无法呼。。。.1_bip”错误。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 732,
+    "audioFile": "64f3da4f3e3da5f3"
+  },
+  {
+    "word": "VO短混响",
+    "ipa": "",
+    "translit": "",
+    "zh": "VO短混响",
+    "def": "用于人声的短混响效果，通常用于对白或旁白。",
+    "example": "例子：在 VO 轨道上使用“VO短混响”增加空间感。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "插件操作",
+    "source": "小赫转存",
+    "id": 733,
+    "audioFile": "49e180fce7f7bf1c"
+  },
+  {
+    "word": "Stereo Out",
+    "ipa": "",
+    "translit": "",
+    "zh": "立体声输出",
+    "def": "最终的立体声混音输出通道。",
+    "example": "例子：将“Stereo Out”连接到主输出。",
+    "context": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 734,
+    "audioFile": "54aacb70c7c8e559"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9744,7 +9964,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 719,
+    "id": 735,
     "audioFile": "b83c35ab61159149"
   },
   {
@@ -9758,7 +9978,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 720,
+    "id": 736,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9772,7 +9992,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 721,
+    "id": 737,
     "audioFile": "67a7983a298a079e"
   },
   {
@@ -9786,7 +10006,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 722
+    "id": 738
   },
   {
     "word": "Woodblock",
@@ -9799,7 +10019,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 723
+    "id": 739
   },
   {
     "word": "Djembe",
@@ -9812,7 +10032,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 724
+    "id": 740
   },
   {
     "word": "Tambourine",
@@ -9825,7 +10045,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 725
+    "id": 741
   },
   {
     "word": "Cowbells",
@@ -9838,7 +10058,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 726,
+    "id": 742,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -9852,7 +10072,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 727
+    "id": 743
   },
   {
     "word": "Timbales",
@@ -9865,7 +10085,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 728
+    "id": 744
   },
   {
     "word": "Keys",
@@ -9878,7 +10098,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 729
+    "id": 745
   },
   {
     "word": "Wurlitzer",
@@ -9891,7 +10111,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 730
+    "id": 746
   },
   {
     "word": "Electric Piano",
@@ -9904,7 +10124,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 731,
+    "id": 747,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -9918,7 +10138,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 732
+    "id": 748
   },
   {
     "word": "Clavinet",
@@ -9931,7 +10151,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 733,
+    "id": 749,
     "audioFile": "bf34769991153703"
   },
   {
@@ -9945,7 +10165,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 734,
+    "id": 750,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -9959,7 +10179,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 735
+    "id": 751
   },
   {
     "word": "Female Vocals",
@@ -9972,7 +10192,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 736,
+    "id": 752,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -9986,7 +10206,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 737,
+    "id": 753,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10000,7 +10220,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 738
+    "id": 754
   },
   {
     "word": "Whisper Vocals",
@@ -10013,7 +10233,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 739,
+    "id": 755,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10027,7 +10247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 740,
+    "id": 756,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10041,7 +10261,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 741,
+    "id": 757,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10055,7 +10275,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 742,
+    "id": 758,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10069,7 +10289,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 743
+    "id": 759
   }
 ];
 window.SOURCES = [
@@ -13854,6 +14074,82 @@ window.SOURCES = [
       {
         "word": "Flex Tune",
         "zh": "弹性调音 / 灵活调音"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "text": "编辑< 设置 输入 Pro-Q 4 Pro-DS Pro-C 2 OTT Pro-Q 4 soothe2 选项v 显示 く 推子上的发送： U 关 设置 增益降低 均衡器 输入 音频效果 发送 输出 组 自动化 声像 dB 3 0 -3 -6 -10 -15 -20 =38： 0o 设置 怠銭1 Pro-R 2 ValhallaRo Pro-Q 4 设置 总线 26 ValhallaVi 设置 Insight 2 Mastering Read Symphony E 总线 1 怠銭 26 立体声输出 Read 立体声输出 Read 立体声输出 Read Read 言 0.0 -2.4 M -9.5 12 15 18 24- 30- 35- 40 - 45 50- 60 R S 0.0 M -27.6 0- 12 15 18 21 24÷ 30÷ 35 50÷ 60÷ S 0.0 M -24.1 9 15 21 24 30 35 40 45 50 60 S 0.0 M -4.5 0 3 12 15 18 21 24元 30= 35- ٠١٠٠٠١ 40 - 45- 50₴ 60÷ Bnc S M D 无法呼。。。.1_bip VO短混响 辅助 26 Stereo Out Master",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Pro-Q 4",
+        "zh": "Pro-Q 4"
+      },
+      {
+        "word": "Pro-DS",
+        "zh": "Pro-DS"
+      },
+      {
+        "word": "Pro-C 2",
+        "zh": "Pro-C 2"
+      },
+      {
+        "word": "OTT",
+        "zh": "OTT"
+      },
+      {
+        "word": "soothe2",
+        "zh": "soothe2"
+      },
+      {
+        "word": "dB",
+        "zh": "分贝"
+      },
+      {
+        "word": "Pro-R 2",
+        "zh": "Pro-R 2"
+      },
+      {
+        "word": "ValhallaRo",
+        "zh": "ValhallaRo"
+      },
+      {
+        "word": "ValhallaVi",
+        "zh": "ValhallaVi"
+      },
+      {
+        "word": "Insight 2",
+        "zh": "Insight 2"
+      },
+      {
+        "word": "Mastering",
+        "zh": "母带处理"
+      },
+      {
+        "word": "Read",
+        "zh": "读取"
+      },
+      {
+        "word": "Symphony E",
+        "zh": "Symphony E"
+      },
+      {
+        "word": "无法呼。。。.1_bip",
+        "zh": "无法呼。。。.1_bip"
+      },
+      {
+        "word": "VO短混响",
+        "zh": "VO短混响"
+      },
+      {
+        "word": "Stereo Out",
+        "zh": "立体声输出"
+      },
+      {
+        "word": "Master",
+        "zh": "主输出"
       }
     ]
   }
