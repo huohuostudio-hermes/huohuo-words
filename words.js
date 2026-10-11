@@ -9758,8 +9758,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 720,
-    "audioFile": "bcdf033e226f5292"
+    "id": 720
   },
   {
     "word": "Djembe",
