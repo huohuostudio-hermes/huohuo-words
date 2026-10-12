@@ -9963,6 +9963,60 @@ window.WORDS = [
     "id": 735
   },
   {
+    "word": "No variation",
+    "ipa": "",
+    "translit": "",
+    "zh": "无变化",
+    "def": "表示不进行任何改变或随机化，保持固定、一致的状态。",
+    "example": "例子：播放列表设置为「无变化」时，每次播放顺序完全相同。",
+    "context": "No variation Random Random full cycle v Sequential",
+    "contextZh": "无变化",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 736,
+    "audioFile": "870ec249f6eb8bae"
+  },
+  {
+    "word": "Random",
+    "ipa": "",
+    "translit": "",
+    "zh": "随机",
+    "def": "表示以无规律、不可预测的方式进行选择或排列。",
+    "example": "例子：随机播放模式下，歌曲顺序每次都可能不同。",
+    "context": "No variation Random Random full cycle v Sequential",
+    "contextZh": "无变化",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 737
+  },
+  {
+    "word": "Random full cycle",
+    "ipa": "",
+    "translit": "",
+    "zh": "随机完整循环",
+    "def": "表示在随机播放时，确保所有项目都被播放一遍后才重新开始，不重复直到全部轮完。",
+    "example": "例子：随机完整循环播放专辑时，每首歌都会播放一次，但顺序随机。",
+    "context": "No variation Random Random full cycle v Sequential",
+    "contextZh": "无变化",
+    "category": "声音描述",
+    "source": "小赫转存",
+    "id": 738,
+    "audioFile": "f58efb41c1c2dbac"
+  },
+  {
+    "word": "Sequential",
+    "ipa": "",
+    "translit": "",
+    "zh": "顺序的",
+    "def": "表示按照固定次序依次进行，而非随机跳转。",
+    "example": "例子：顺序播放模式下，歌曲按专辑曲目顺序依次播放。",
+    "context": "No variation Random Random full cycle v Sequential",
+    "contextZh": "无变化",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 739
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9973,7 +10027,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 736,
+    "id": 740,
     "audioFile": "b83c35ab61159149"
   },
   {
@@ -9987,7 +10041,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 737,
+    "id": 741,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10001,7 +10055,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 738
+    "id": 742
   },
   {
     "word": "Bongos",
@@ -10014,7 +10068,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 739
+    "id": 743
   },
   {
     "word": "Woodblock",
@@ -10027,7 +10081,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 740
+    "id": 744
   },
   {
     "word": "Djembe",
@@ -10040,7 +10094,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 741
+    "id": 745
   },
   {
     "word": "Tambourine",
@@ -10053,7 +10107,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 742
+    "id": 746
   },
   {
     "word": "Cowbells",
@@ -10066,7 +10120,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 743,
+    "id": 747,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10080,7 +10134,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 744
+    "id": 748
   },
   {
     "word": "Timbales",
@@ -10093,7 +10147,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 745
+    "id": 749
   },
   {
     "word": "Keys",
@@ -10106,7 +10160,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 746
+    "id": 750
   },
   {
     "word": "Wurlitzer",
@@ -10119,7 +10173,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 747
+    "id": 751
   },
   {
     "word": "Electric Piano",
@@ -10132,7 +10186,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 748,
+    "id": 752,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10146,7 +10200,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 749
+    "id": 753
   },
   {
     "word": "Clavinet",
@@ -10159,7 +10213,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 750,
+    "id": 754,
     "audioFile": "bf34769991153703"
   },
   {
@@ -10173,7 +10227,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 751,
+    "id": 755,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10187,7 +10241,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 752
+    "id": 756
   },
   {
     "word": "Female Vocals",
@@ -10200,7 +10254,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 753,
+    "id": 757,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10214,7 +10268,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 754,
+    "id": 758,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10228,7 +10282,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 755
+    "id": 759
   },
   {
     "word": "Whisper Vocals",
@@ -10241,7 +10295,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 756,
+    "id": 760,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10255,7 +10309,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 757,
+    "id": 761,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10269,7 +10323,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 758,
+    "id": 762,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10283,7 +10337,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 759,
+    "id": 763,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10297,7 +10351,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 760
+    "id": 764
   }
 ];
 window.SOURCES = [
@@ -14170,6 +14224,30 @@ window.SOURCES = [
       {
         "word": "MODULATION",
         "zh": "调制"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "text": "No variation Random Random full cycle v Sequential",
+    "translation": "无变化",
+    "category": "",
+    "branches": [
+      {
+        "word": "No variation",
+        "zh": "无变化"
+      },
+      {
+        "word": "Random",
+        "zh": "随机"
+      },
+      {
+        "word": "Random full cycle",
+        "zh": "随机完整循环"
+      },
+      {
+        "word": "Sequential",
+        "zh": "顺序的"
       }
     ]
   }
