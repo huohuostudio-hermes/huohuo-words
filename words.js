@@ -9952,6 +9952,19 @@ window.WORDS = [
     "audioFile": "54aacb70c7c8e559"
   },
   {
+    "word": "MODULATION",
+    "ipa": "ˌmɒdjʊˈleɪʃən",
+    "translit": "",
+    "zh": "调制",
+    "def": "指改变声音的某个参数（如频率、振幅、相位等）以产生音色或音高变化的过程，是合成器与效果器中的核心概念。",
+    "example": "例子：用 LFO 调制振荡器的音高，产生颤音效果。",
+    "context": "- MODULATION →",
+    "contextZh": "调制",
+    "category": "插件操作",
+    "source": "小赫转存",
+    "id": 735
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -9962,7 +9975,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 735,
+    "id": 736,
     "audioFile": "b83c35ab61159149"
   },
   {
@@ -9976,7 +9989,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 736,
+    "id": 737,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -9990,7 +10003,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 737
+    "id": 738
   },
   {
     "word": "Bongos",
@@ -10003,7 +10016,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 738
+    "id": 739
   },
   {
     "word": "Woodblock",
@@ -10016,7 +10029,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 739
+    "id": 740
   },
   {
     "word": "Djembe",
@@ -10029,7 +10042,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 740
+    "id": 741
   },
   {
     "word": "Tambourine",
@@ -10042,7 +10055,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 741
+    "id": 742
   },
   {
     "word": "Cowbells",
@@ -10055,7 +10068,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 742,
+    "id": 743,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10069,7 +10082,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 743
+    "id": 744
   },
   {
     "word": "Timbales",
@@ -10082,7 +10095,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 744
+    "id": 745
   },
   {
     "word": "Keys",
@@ -10095,7 +10108,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 745
+    "id": 746
   },
   {
     "word": "Wurlitzer",
@@ -10108,7 +10121,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 746
+    "id": 747
   },
   {
     "word": "Electric Piano",
@@ -10121,7 +10134,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 747,
+    "id": 748,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10135,7 +10148,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 748
+    "id": 749
   },
   {
     "word": "Clavinet",
@@ -10148,7 +10161,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 749,
+    "id": 750,
     "audioFile": "bf34769991153703"
   },
   {
@@ -10162,7 +10175,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 750,
+    "id": 751,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10176,7 +10189,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 751
+    "id": 752
   },
   {
     "word": "Female Vocals",
@@ -10189,7 +10202,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 752,
+    "id": 753,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10203,7 +10216,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 753,
+    "id": 754,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10217,7 +10230,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 754
+    "id": 755
   },
   {
     "word": "Whisper Vocals",
@@ -10230,7 +10243,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 755,
+    "id": 756,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10244,7 +10257,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 756,
+    "id": 757,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10258,7 +10271,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 757,
+    "id": 758,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10272,7 +10285,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 758,
+    "id": 759,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10286,7 +10299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 759
+    "id": 760
   }
 ];
 window.SOURCES = [
@@ -14147,6 +14160,18 @@ window.SOURCES = [
       {
         "word": "Master",
         "zh": "主输出"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "text": "- MODULATION →",
+    "translation": "调制",
+    "category": "",
+    "branches": [
+      {
+        "word": "MODULATION",
+        "zh": "调制"
       }
     ]
   }
