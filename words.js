@@ -6103,8 +6103,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 451,
-    "audioFile": "584950b32f600296"
+    "id": 451
   },
   {
     "word": "filter cutoff",
