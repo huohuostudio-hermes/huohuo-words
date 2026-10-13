@@ -259,8 +259,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 20,
-    "audioFile": "fae2b8ba3f65e257"
+    "id": 20
   },
   {
     "word": "Textures",
