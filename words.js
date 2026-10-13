@@ -9875,7 +9875,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 729
+    "id": 729,
+    "audioFile": "69c935d79bc16fe3"
   },
   {
     "word": "Read",
