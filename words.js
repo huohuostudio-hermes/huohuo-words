@@ -2312,8 +2312,7 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 173,
-    "audioFile": "103429847edcdb9f"
+    "id": 173
   },
   {
     "word": "Spaceship",
@@ -10028,6 +10027,19 @@ window.WORDS = [
     "audioFile": "e9543a0726e53197"
   },
   {
+    "word": "GLOBAL",
+    "ipa": "ˈɡloʊbl",
+    "translit": "",
+    "zh": "全球的 / 全局的",
+    "def": "表示涵盖整个世界范围，或指涉及整体而非局部的。",
+    "example": "例子：global market（全球市场）、global variable（全局变量）。",
+    "context": "GLOBAL",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 741
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10038,7 +10050,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 741,
+    "id": 742,
     "audioFile": "b83c35ab61159149"
   },
   {
@@ -10052,7 +10064,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 742,
+    "id": 743,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10066,7 +10078,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 743
+    "id": 744
   },
   {
     "word": "Bongos",
@@ -10079,7 +10091,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 744
+    "id": 745
   },
   {
     "word": "Woodblock",
@@ -10092,7 +10104,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 745
+    "id": 746
   },
   {
     "word": "Djembe",
@@ -10105,7 +10117,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 746
+    "id": 747
   },
   {
     "word": "Tambourine",
@@ -10118,7 +10130,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 747
+    "id": 748
   },
   {
     "word": "Cowbells",
@@ -10131,7 +10143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 748,
+    "id": 749,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10145,7 +10157,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 749
+    "id": 750
   },
   {
     "word": "Timbales",
@@ -10158,7 +10170,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 750
+    "id": 751
   },
   {
     "word": "Keys",
@@ -10171,7 +10183,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 751
+    "id": 752
   },
   {
     "word": "Wurlitzer",
@@ -10184,7 +10196,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 752
+    "id": 753
   },
   {
     "word": "Electric Piano",
@@ -10197,7 +10209,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 753,
+    "id": 754,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10211,7 +10223,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 754
+    "id": 755
   },
   {
     "word": "Clavinet",
@@ -10224,7 +10236,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 755
+    "id": 756
   },
   {
     "word": "Keys Melody",
@@ -10237,7 +10249,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 756,
+    "id": 757,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10251,7 +10263,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 757
+    "id": 758
   },
   {
     "word": "Female Vocals",
@@ -10264,7 +10276,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 758,
+    "id": 759,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10278,7 +10290,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 759,
+    "id": 760,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10292,7 +10304,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 760
+    "id": 761
   },
   {
     "word": "Whisper Vocals",
@@ -10305,7 +10317,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 761,
+    "id": 762,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10319,7 +10331,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 762,
+    "id": 763,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10333,7 +10345,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 763,
+    "id": 764,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10347,7 +10359,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 764,
+    "id": 765,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10361,7 +10373,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 765
+    "id": 766
   }
 ];
 window.SOURCES = [
