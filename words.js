@@ -114,7 +114,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9
+    "id": 9,
+    "audioFile": "e4c78fb51106eadd"
   },
   {
     "word": "Guitar Melody",
@@ -3484,7 +3485,8 @@ window.WORDS = [
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 260
+    "id": 260,
+    "audioFile": "22a7567030ecc5fb"
   },
   {
     "word": "formant control",
@@ -7653,7 +7655,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 564
+    "id": 564,
+    "audioFile": "86416ef3eeb4cc90"
   },
   {
     "word": "PINNED",
@@ -10181,7 +10184,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 752
+    "id": 752,
+    "audioFile": "aee7933146af04e2"
   },
   {
     "word": "Electric Piano",
