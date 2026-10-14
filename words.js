@@ -3484,8 +3484,7 @@ window.WORDS = [
     "contextZh": "调节共振峰控制会改变合成语音的特性，而不会……",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 260,
-    "audioFile": "22a7567030ecc5fb"
+    "id": 260
   },
   {
     "word": "formant control",
