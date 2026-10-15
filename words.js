@@ -3564,8 +3564,7 @@ window.WORDS = [
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 266,
-    "audioFile": "52438e68a549a636"
+    "id": 266
   },
   {
     "word": "organic shakers",
