@@ -246,7 +246,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 19
+    "id": 19,
+    "audioFile": "1421c12f858c68e7"
   },
   {
     "word": "Impacts",
@@ -5037,8 +5038,7 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 373,
-    "audioFile": "6858a1d795580215"
+    "id": 373
   },
   {
     "word": "ensures",
