@@ -1243,8 +1243,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 93,
-    "audioFile": "a81f4df459f0c960"
+    "id": 93
   },
   {
     "word": "Rock",
