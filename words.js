@@ -10058,8 +10058,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 743,
-    "audioFile": "b83c35ab61159149"
+    "id": 743
   },
   {
     "word": "Conga",
