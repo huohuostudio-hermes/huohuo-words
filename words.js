@@ -10051,6 +10051,20 @@ window.WORDS = [
     "id": 742
   },
   {
+    "word": "vibecodina",
+    "ipa": "",
+    "translit": "",
+    "zh": "氛围编程",
+    "def": "由“vibe”（氛围、感觉）和“codina”（编程的变体拼写）组合而成的网络造词，指凭感觉、随性地写代码，强调轻松、直觉式的编程状态。",
+    "example": "例子：深夜放着音乐，随手敲几行代码，不追求完美架构，纯粹享受写代码的感觉，这就是 vibecodina。",
+    "context": "#vibecodina",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 743,
+    "audioFile": "f639c4b46bedfc3d"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10061,7 +10075,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 743
+    "id": 744
   },
   {
     "word": "Conga",
@@ -10074,7 +10088,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 744,
+    "id": 745,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10088,7 +10102,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 745
+    "id": 746
   },
   {
     "word": "Bongos",
@@ -10101,7 +10115,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 746
+    "id": 747
   },
   {
     "word": "Woodblock",
@@ -10114,7 +10128,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 747
+    "id": 748
   },
   {
     "word": "Djembe",
@@ -10127,7 +10141,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 748
+    "id": 749
   },
   {
     "word": "Tambourine",
@@ -10140,7 +10154,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 749
+    "id": 750
   },
   {
     "word": "Cowbells",
@@ -10153,7 +10167,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 750,
+    "id": 751,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10167,7 +10181,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 751
+    "id": 752
   },
   {
     "word": "Timbales",
@@ -10180,7 +10194,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 752
+    "id": 753
   },
   {
     "word": "Keys",
@@ -10193,7 +10207,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 753
+    "id": 754
   },
   {
     "word": "Wurlitzer",
@@ -10206,7 +10220,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 754
+    "id": 755
   },
   {
     "word": "Electric Piano",
@@ -10219,7 +10233,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 755,
+    "id": 756,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10233,7 +10247,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 756
+    "id": 757
   },
   {
     "word": "Clavinet",
@@ -10246,7 +10260,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 757
+    "id": 758
   },
   {
     "word": "Keys Melody",
@@ -10259,7 +10273,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 758,
+    "id": 759,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10273,7 +10287,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 759
+    "id": 760
   },
   {
     "word": "Female Vocals",
@@ -10286,7 +10300,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 760,
+    "id": 761,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10300,7 +10314,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 761,
+    "id": 762,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10314,7 +10328,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 762
+    "id": 763
   },
   {
     "word": "Whisper Vocals",
@@ -10327,7 +10341,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 763,
+    "id": 764,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10341,7 +10355,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 764,
+    "id": 765,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10355,7 +10369,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 765,
+    "id": 766,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10369,7 +10383,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 766,
+    "id": 767,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10383,7 +10397,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 767
+    "id": 768
   }
 ];
 window.SOURCES = [
