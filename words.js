@@ -7069,8 +7069,7 @@ window.WORDS = [
     "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 521,
-    "audioFile": "d1263df1dba7172d"
+    "id": 521
   },
   {
     "word": "dead backend",
