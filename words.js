@@ -10065,6 +10065,90 @@ window.WORDS = [
     "audioFile": "f639c4b46bedfc3d"
   },
   {
+    "word": "Launch Hammerspoon at login",
+    "ipa": "",
+    "translit": "",
+    "zh": "登录时启动 Hammerspoon",
+    "def": "设置 Hammerspoon 在用户登录系统时自动启动，无需手动打开。",
+    "example": "例子：勾选该选项后，每次开机登录 macOS 时 Hammerspoon 会自动运行。",
+    "context": "Launch Hammerspoon at login Check for updates Show dock icon Show menu icon Keep Console window on top Send crash data (requires restart)",
+    "contextZh": "登录时启动 Hammerspoon；检查更新；显示程序坞图标；显示菜单栏图标；保持控制台窗口置顶；发送崩溃数据（需要重启）。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 744,
+    "audioFile": "3d104430c5bf5072"
+  },
+  {
+    "word": "Check for updates",
+    "ipa": "",
+    "translit": "",
+    "zh": "检查更新",
+    "def": "让软件主动查询是否有新版本可供下载和安装。",
+    "example": "例子：点击该按钮后，Hammerspoon 会联网检查并提示是否有新版本。",
+    "context": "Launch Hammerspoon at login Check for updates Show dock icon Show menu icon Keep Console window on top Send crash data (requires restart)",
+    "contextZh": "登录时启动 Hammerspoon；检查更新；显示程序坞图标；显示菜单栏图标；保持控制台窗口置顶；发送崩溃数据（需要重启）。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 745,
+    "audioFile": "4ae8c3a688581203"
+  },
+  {
+    "word": "Show dock icon",
+    "ipa": "",
+    "translit": "",
+    "zh": "显示程序坞图标",
+    "def": "控制是否在 macOS 程序坞（Dock）中显示 Hammerspoon 的图标。",
+    "example": "例子：取消勾选后，Hammerspoon 图标将从程序坞中消失，仅在菜单栏中可见。",
+    "context": "Launch Hammerspoon at login Check for updates Show dock icon Show menu icon Keep Console window on top Send crash data (requires restart)",
+    "contextZh": "登录时启动 Hammerspoon；检查更新；显示程序坞图标；显示菜单栏图标；保持控制台窗口置顶；发送崩溃数据（需要重启）。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 746,
+    "audioFile": "8817d3025d9f64dc"
+  },
+  {
+    "word": "Show menu icon",
+    "ipa": "",
+    "translit": "",
+    "zh": "显示菜单栏图标",
+    "def": "控制是否在 macOS 顶部菜单栏中显示 Hammerspoon 的图标。",
+    "example": "例子：勾选后，菜单栏右侧会出现 Hammerspoon 的小锤子图标，方便快速访问。",
+    "context": "Launch Hammerspoon at login Check for updates Show dock icon Show menu icon Keep Console window on top Send crash data (requires restart)",
+    "contextZh": "登录时启动 Hammerspoon；检查更新；显示程序坞图标；显示菜单栏图标；保持控制台窗口置顶；发送崩溃数据（需要重启）。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 747,
+    "audioFile": "16a7a8f6106752c7"
+  },
+  {
+    "word": "Send crash data",
+    "ipa": "",
+    "translit": "",
+    "zh": "发送崩溃数据",
+    "def": "允许 Hammerspoon 在发生崩溃时自动向开发者发送诊断信息，以帮助修复问题。",
+    "example": "例子：启用后，程序意外退出时会匿名上传崩溃日志。",
+    "context": "Launch Hammerspoon at login Check for updates Show dock icon Show menu icon Keep Console window on top Send crash data (requires restart)",
+    "contextZh": "登录时启动 Hammerspoon；检查更新；显示程序坞图标；显示菜单栏图标；保持控制台窗口置顶；发送崩溃数据（需要重启）。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 748,
+    "audioFile": "9ffd321672c5ec19"
+  },
+  {
+    "word": "requires restart",
+    "ipa": "",
+    "translit": "",
+    "zh": "需要重启",
+    "def": "提示该设置的更改必须重启软件后才能生效。",
+    "example": "例子：修改「发送崩溃数据」选项后，需重启 Hammerspoon 才能应用新设置。",
+    "context": "Launch Hammerspoon at login Check for updates Show dock icon Show menu icon Keep Console window on top Send crash data (requires restart)",
+    "contextZh": "登录时启动 Hammerspoon；检查更新；显示程序坞图标；显示菜单栏图标；保持控制台窗口置顶；发送崩溃数据（需要重启）。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 749,
+    "audioFile": "e7fb6b4b4080daed"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10075,7 +10159,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 744
+    "id": 750
   },
   {
     "word": "Conga",
@@ -10088,7 +10172,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 745,
+    "id": 751,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10102,7 +10186,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 746
+    "id": 752
   },
   {
     "word": "Bongos",
@@ -10115,7 +10199,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 747
+    "id": 753
   },
   {
     "word": "Woodblock",
@@ -10128,7 +10212,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 748
+    "id": 754
   },
   {
     "word": "Djembe",
@@ -10141,7 +10225,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 749
+    "id": 755
   },
   {
     "word": "Tambourine",
@@ -10154,7 +10238,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 750
+    "id": 756
   },
   {
     "word": "Cowbells",
@@ -10167,7 +10251,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 751,
+    "id": 757,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10181,7 +10265,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 752
+    "id": 758
   },
   {
     "word": "Timbales",
@@ -10194,7 +10278,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 753
+    "id": 759
   },
   {
     "word": "Keys",
@@ -10207,7 +10291,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 754
+    "id": 760
   },
   {
     "word": "Wurlitzer",
@@ -10220,7 +10304,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 755
+    "id": 761
   },
   {
     "word": "Electric Piano",
@@ -10233,7 +10317,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 756,
+    "id": 762,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10247,7 +10331,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 757
+    "id": 763
   },
   {
     "word": "Clavinet",
@@ -10260,7 +10344,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 758
+    "id": 764
   },
   {
     "word": "Keys Melody",
@@ -10273,7 +10357,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 759,
+    "id": 765,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10287,7 +10371,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 760
+    "id": 766
   },
   {
     "word": "Female Vocals",
@@ -10300,7 +10384,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 761,
+    "id": 767,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10314,7 +10398,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 762,
+    "id": 768,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10328,7 +10412,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 763
+    "id": 769
   },
   {
     "word": "Whisper Vocals",
@@ -10341,7 +10425,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 764,
+    "id": 770,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10355,7 +10439,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 765,
+    "id": 771,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10369,7 +10453,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 766,
+    "id": 772,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10383,7 +10467,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 767,
+    "id": 773,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10397,7 +10481,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 768
+    "id": 774
   }
 ];
 window.SOURCES = [
@@ -14294,6 +14378,42 @@ window.SOURCES = [
       {
         "word": "Sequential",
         "zh": "顺序的"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "text": "Launch Hammerspoon at login Check for updates Show dock icon Show menu icon Keep Console window on top Send crash data (requires restart)",
+    "translation": "登录时启动 Hammerspoon；检查更新；显示程序坞图标；显示菜单栏图标；保持控制台窗口置顶；发送崩溃数据（需要重启）。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Launch Hammerspoon at login",
+        "zh": "登录时启动 Hammerspoon"
+      },
+      {
+        "word": "Check for updates",
+        "zh": "检查更新"
+      },
+      {
+        "word": "Show dock icon",
+        "zh": "显示程序坞图标"
+      },
+      {
+        "word": "Show menu icon",
+        "zh": "显示菜单栏图标"
+      },
+      {
+        "word": "Keep Console window on top",
+        "zh": "保持控制台窗口置顶"
+      },
+      {
+        "word": "Send crash data",
+        "zh": "发送崩溃数据"
+      },
+      {
+        "word": "requires restart",
+        "zh": "需要重启"
       }
     ]
   }
