@@ -10149,6 +10149,60 @@ window.WORDS = [
     "audioFile": "e7fb6b4b4080daed"
   },
   {
+    "word": "WARNING",
+    "ipa": "",
+    "translit": "",
+    "zh": "警告",
+    "def": "表示提醒用户注意潜在问题或重要信息的提示用语。",
+    "example": "例子：软件弹窗顶部显示“WARNING”，提醒用户当前存在风险。",
+    "context": "WARNING! Accessibility is not enabled! Enable Accessibility",
+    "contextZh": "警告！辅助功能未启用！请启用辅助功能。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 750
+  },
+  {
+    "word": "Accessibility",
+    "ipa": "",
+    "translit": "",
+    "zh": "辅助功能 / 无障碍功能",
+    "def": "指为方便残障用户或有特殊需求用户使用软件、设备而提供的功能设置。",
+    "example": "例子：手机中的“辅助功能”可开启屏幕朗读、放大文字等选项。",
+    "context": "WARNING! Accessibility is not enabled! Enable Accessibility",
+    "contextZh": "警告！辅助功能未启用！请启用辅助功能。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 751
+  },
+  {
+    "word": "is not enabled",
+    "ipa": "",
+    "translit": "",
+    "zh": "未启用",
+    "def": "表示某项功能当前处于关闭状态，尚未被激活。",
+    "example": "例子：系统提示“定位服务未启用”，说明该功能目前不可用。",
+    "context": "WARNING! Accessibility is not enabled! Enable Accessibility",
+    "contextZh": "警告！辅助功能未启用！请启用辅助功能。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 752,
+    "audioFile": "90fbfa51b737c9ff"
+  },
+  {
+    "word": "Enable Accessibility",
+    "ipa": "",
+    "translit": "",
+    "zh": "启用辅助功能",
+    "def": "表示要求用户打开或激活辅助功能选项。",
+    "example": "例子：点击“启用辅助功能”按钮后，系统会开启无障碍相关服务。",
+    "context": "WARNING! Accessibility is not enabled! Enable Accessibility",
+    "contextZh": "警告！辅助功能未启用！请启用辅助功能。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 753,
+    "audioFile": "3866321bed278e4f"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10159,7 +10213,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 750
+    "id": 754
   },
   {
     "word": "Conga",
@@ -10172,7 +10226,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 751,
+    "id": 755,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10186,7 +10240,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 752
+    "id": 756
   },
   {
     "word": "Bongos",
@@ -10199,7 +10253,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 753
+    "id": 757
   },
   {
     "word": "Woodblock",
@@ -10212,7 +10266,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 754
+    "id": 758
   },
   {
     "word": "Djembe",
@@ -10225,7 +10279,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 755
+    "id": 759
   },
   {
     "word": "Tambourine",
@@ -10238,7 +10292,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 756
+    "id": 760
   },
   {
     "word": "Cowbells",
@@ -10251,7 +10305,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 757,
+    "id": 761,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10265,7 +10319,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 758
+    "id": 762
   },
   {
     "word": "Timbales",
@@ -10278,7 +10332,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 759
+    "id": 763
   },
   {
     "word": "Keys",
@@ -10291,7 +10345,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 760
+    "id": 764
   },
   {
     "word": "Wurlitzer",
@@ -10304,7 +10358,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 761
+    "id": 765
   },
   {
     "word": "Electric Piano",
@@ -10317,7 +10371,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 762,
+    "id": 766,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10331,7 +10385,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 763
+    "id": 767
   },
   {
     "word": "Clavinet",
@@ -10344,7 +10398,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 764
+    "id": 768
   },
   {
     "word": "Keys Melody",
@@ -10357,7 +10411,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 765,
+    "id": 769,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10371,7 +10425,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 766
+    "id": 770
   },
   {
     "word": "Female Vocals",
@@ -10384,7 +10438,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 767,
+    "id": 771,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10398,7 +10452,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 768,
+    "id": 772,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10412,7 +10466,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 769
+    "id": 773
   },
   {
     "word": "Whisper Vocals",
@@ -10425,7 +10479,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 770,
+    "id": 774,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10439,7 +10493,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 771,
+    "id": 775,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10453,7 +10507,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 772,
+    "id": 776,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10467,7 +10521,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 773,
+    "id": 777,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10481,7 +10535,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 774
+    "id": 778
   }
 ];
 window.SOURCES = [
@@ -14414,6 +14468,30 @@ window.SOURCES = [
       {
         "word": "requires restart",
         "zh": "需要重启"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "text": "WARNING! Accessibility is not enabled! Enable Accessibility",
+    "translation": "警告！辅助功能未启用！请启用辅助功能。",
+    "category": "",
+    "branches": [
+      {
+        "word": "WARNING",
+        "zh": "警告"
+      },
+      {
+        "word": "Accessibility",
+        "zh": "辅助功能 / 无障碍功能"
+      },
+      {
+        "word": "is not enabled",
+        "zh": "未启用"
+      },
+      {
+        "word": "Enable Accessibility",
+        "zh": "启用辅助功能"
       }
     ]
   }
