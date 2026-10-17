@@ -10201,6 +10201,193 @@ window.WORDS = [
     "audioFile": "3866321bed278e4f"
   },
   {
+    "word": "Finder",
+    "ipa": "ˈfaɪndər",
+    "translit": "",
+    "zh": "访达",
+    "def": "macOS 系统的文件管理器，用于浏览、组织和管理文件与文件夹。",
+    "example": "例子：点击 Dock 栏上的笑脸图标即可打开访达。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 754
+  },
+  {
+    "word": "Files",
+    "ipa": "",
+    "translit": "",
+    "zh": "文件",
+    "def": "计算机中存储数据的基本单位，可以是文档、图片、音频等。",
+    "example": "例子：772.JPG 和 773.JPG 都是图像文件。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 755
+  },
+  {
+    "word": "View",
+    "ipa": "",
+    "translit": "",
+    "zh": "显示",
+    "def": "菜单选项，用于调整界面内容的呈现方式。",
+    "example": "例子：在访达中切换图标视图或列表视图。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 756
+  },
+  {
+    "word": "Go",
+    "ipa": "",
+    "translit": "",
+    "zh": "前往",
+    "def": "菜单选项，用于快速跳转到指定文件夹或路径。",
+    "example": "例子：通过「前往」菜单直接打开「下载」文件夹。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 757
+  },
+  {
+    "word": "Notes",
+    "ipa": "noʊts",
+    "translit": "",
+    "zh": "备忘录",
+    "def": "macOS 自带的记录应用，用于创建和管理文字笔记。",
+    "example": "例子：在备忘录中记录待办事项或灵感。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 758
+  },
+  {
+    "word": "Help",
+    "ipa": "help",
+    "translit": "",
+    "zh": "帮助",
+    "def": "菜单选项，提供软件使用说明和支持信息。",
+    "example": "例子：点击「帮助」菜单搜索操作指南。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 759
+  },
+  {
+    "word": "Fly studio",
+    "ipa": "",
+    "translit": "",
+    "zh": "Fly 工作室",
+    "def": "一个工作室或项目名称，可能用于音频制作或创意工作。",
+    "example": "例子：文件夹名为「Fly studio」，存放相关项目文件。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 760,
+    "audioFile": "e7042d130e49ea08"
+  },
+  {
+    "word": "Image",
+    "ipa": "ˈɪmɪdʒ",
+    "translit": "",
+    "zh": "图像",
+    "def": "计算机中的图片文件类别，包含照片、截图等视觉内容。",
+    "example": "例子：772.JPG 和 773.JPG 属于图像文件。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 761
+  },
+  {
+    "word": "Verse 1",
+    "ipa": "vɜːrs",
+    "translit": "",
+    "zh": "主歌第一段",
+    "def": "歌曲结构中开场叙述性的段落，通常位于副歌之前。",
+    "example": "听觉例子：歌曲开头人声进入的第一段歌词部分。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 762,
+    "audioFile": "63b1831bf2af0bdc"
+  },
+  {
+    "word": "All the noise fades",
+    "ipa": "",
+    "translit": "",
+    "zh": "所有噪音渐渐消退",
+    "def": "描述声音逐渐减弱消失的状态，常见于音乐或音频场景。",
+    "example": "例子：歌曲中段歌词「All the noise fades」表达环境归于安静。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 763,
+    "audioFile": "16644e43253e0afa"
+  },
+  {
+    "word": "Disconnect laziness",
+    "ipa": "",
+    "translit": "",
+    "zh": "断开慵懒",
+    "def": "一种表达性短语，意为摆脱懒散状态、进入专注节奏。",
+    "example": "例子：歌词「断开慵懒，顿挫」传达切换状态的意象。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 764,
+    "audioFile": "b504398f26a79965"
+  },
+  {
+    "word": "October 17 Saturday",
+    "ipa": "",
+    "translit": "",
+    "zh": "10月17日 星期六",
+    "def": "日期与星期信息，表示具体时间。",
+    "example": "例子：系统状态栏显示「10月17日周六 17:45:07」。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 765,
+    "audioFile": "a41b9d1fb53419ad"
+  },
+  {
+    "word": "JPG",
+    "ipa": "ˌdʒeɪ piː ˈdʒiː",
+    "translit": "",
+    "zh": "JPEG 图像格式",
+    "def": "一种常见的压缩图片文件格式，广泛用于照片存储。",
+    "example": "例子：772.JPG 和 773.JPG 均为 JPG 格式图片。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 766
+  },
+  {
+    "word": "Calendar",
+    "ipa": "ˈkælɪndər",
+    "translit": "",
+    "zh": "日历",
+    "def": "显示日期、星期和月份的界面组件，用于查看和安排时间。",
+    "example": "例子：界面中显示10月日历，标注了各日期与星期。",
+    "context": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 767
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10211,7 +10398,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 754
+    "id": 768
   },
   {
     "word": "Conga",
@@ -10224,7 +10411,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 755,
+    "id": 769,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10238,7 +10425,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 756
+    "id": 770
   },
   {
     "word": "Bongos",
@@ -10251,7 +10438,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 757
+    "id": 771
   },
   {
     "word": "Woodblock",
@@ -10264,7 +10451,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 758
+    "id": 772
   },
   {
     "word": "Djembe",
@@ -10277,7 +10464,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 759
+    "id": 773
   },
   {
     "word": "Tambourine",
@@ -10290,7 +10477,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 760
+    "id": 774
   },
   {
     "word": "Cowbells",
@@ -10303,7 +10490,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 761,
+    "id": 775,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10317,7 +10504,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 762
+    "id": 776
   },
   {
     "word": "Timbales",
@@ -10330,7 +10517,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 763,
+    "id": 777,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -10344,7 +10531,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 764
+    "id": 778
   },
   {
     "word": "Wurlitzer",
@@ -10357,7 +10544,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 765
+    "id": 779
   },
   {
     "word": "Electric Piano",
@@ -10370,7 +10557,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 766,
+    "id": 780,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10384,7 +10571,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 767
+    "id": 781
   },
   {
     "word": "Clavinet",
@@ -10397,7 +10584,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 768
+    "id": 782
   },
   {
     "word": "Keys Melody",
@@ -10410,7 +10597,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 769,
+    "id": 783,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10424,7 +10611,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 770
+    "id": 784
   },
   {
     "word": "Female Vocals",
@@ -10437,7 +10624,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 771,
+    "id": 785,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10451,7 +10638,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 772,
+    "id": 786,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10465,7 +10652,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 773
+    "id": 787
   },
   {
     "word": "Whisper Vocals",
@@ -10478,7 +10665,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 774,
+    "id": 788,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10492,7 +10679,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 775,
+    "id": 789,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10506,7 +10693,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 776,
+    "id": 790,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10520,7 +10707,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 777,
+    "id": 791,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10534,7 +10721,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 778
+    "id": 792
   }
 ];
 window.SOURCES = [
@@ -14491,6 +14678,78 @@ window.SOURCES = [
       {
         "word": "Enable Accessibility",
         "zh": "启用辅助功能"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "text": "访达 10 文件 2-4E 显示 口 前往 备忘录 帮助 •色 张震岳-破吉他 O 0.0M/s 8 * 8 10月17日周六 17：45：07 Fly studio Gemini 1.131.4.1198 图像 772.JPG 773.JPG Verse 1 断开慵懒，顿挫 All the noise fades。。。 00：26 10月九日初八 =1m 11 12 13 14 15 五六 2 3 18 19 20 21 22 26 27 28 29 23 24 30 31 응",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Finder",
+        "zh": "访达"
+      },
+      {
+        "word": "Files",
+        "zh": "文件"
+      },
+      {
+        "word": "View",
+        "zh": "显示"
+      },
+      {
+        "word": "Go",
+        "zh": "前往"
+      },
+      {
+        "word": "Notes",
+        "zh": "备忘录"
+      },
+      {
+        "word": "Help",
+        "zh": "帮助"
+      },
+      {
+        "word": "Fly studio",
+        "zh": "Fly 工作室"
+      },
+      {
+        "word": "Gemini",
+        "zh": "双子星 / Gemini"
+      },
+      {
+        "word": "Image",
+        "zh": "图像"
+      },
+      {
+        "word": "Verse 1",
+        "zh": "主歌第一段"
+      },
+      {
+        "word": "All the noise fades",
+        "zh": "所有噪音渐渐消退"
+      },
+      {
+        "word": "Disconnect laziness",
+        "zh": "断开慵懒"
+      },
+      {
+        "word": "Staccato",
+        "zh": "顿挫 / 断奏"
+      },
+      {
+        "word": "October 17 Saturday",
+        "zh": "10月17日 星期六"
+      },
+      {
+        "word": "JPG",
+        "zh": "JPEG 图像格式"
+      },
+      {
+        "word": "Calendar",
+        "zh": "日历"
       }
     ]
   }
