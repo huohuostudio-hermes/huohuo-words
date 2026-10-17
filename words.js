@@ -811,8 +811,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 61,
-    "audioFile": "5b4cc0d40c32fe7b"
+    "id": 61
   },
   {
     "word": "DPI",
