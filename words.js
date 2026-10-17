@@ -10331,7 +10331,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 763
+    "id": 763,
+    "audioFile": "cafdb11b145b2ca8"
   },
   {
     "word": "Keys",
