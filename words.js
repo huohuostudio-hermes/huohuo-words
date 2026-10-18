@@ -14754,5 +14754,12 @@ window.SOURCES = [
         "zh": "日历"
       }
     ]
+  },
+  {
+    "date": "2026-10-18",
+    "text": "局图 0“。",
+    "translation": "局部图。",
+    "category": "",
+    "branches": []
   }
 ];
