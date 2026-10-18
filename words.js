@@ -10390,6 +10390,172 @@ window.WORDS = [
     "id": 767
   },
   {
+    "word": "REBIND MAC SHORTCUTS ON",
+    "ipa": "",
+    "translit": "",
+    "zh": "开启 Mac 快捷键重新绑定",
+    "def": "指在键盘配置中启用对 Mac 快捷键的重新映射功能，使按键在 Mac 模式下按用户自定义方式工作。",
+    "example": "例子：在键盘设置中打开该选项后，可将 Mac 快捷键改为自定义按键。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 768,
+    "audioFile": "517d46683fd620e8"
+  },
+  {
+    "word": "5a3",
+    "ipa": "",
+    "translit": "",
+    "zh": "5a3",
+    "def": "一个标识符或文件名片段，通常为系统生成的编号。",
+    "example": "例子：文件名中出现「5a3」作为唯一标识。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 769,
+    "audioFile": "237c34d5516dcd8d"
+  },
+  {
+    "word": "Show Design tab",
+    "ipa": "",
+    "translit": "",
+    "zh": "显示设计标签页",
+    "def": "指在界面中显示名为 Design 的选项卡，用于文件布局或设计操作。",
+    "example": "例子：点击「Show Design tab」后出现设计页面。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 770,
+    "audioFile": "dbd2759f18adc822"
+  },
+  {
+    "word": "Rainy 75",
+    "ipa": "",
+    "translit": "",
+    "zh": "Rainy 75",
+    "def": "指键盘型号名称，用于在系统中识别该设备。",
+    "example": "例子：在授权列表中选择「Rainy 75」键盘。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 771,
+    "audioFile": "c9869898cd28a636"
+  },
+  {
+    "word": "DESIGN",
+    "ipa": "",
+    "translit": "",
+    "zh": "设计",
+    "def": "指界面中的设计页面或设计模式，用于拖放文件进行布局。",
+    "example": "例子：把 JSON 文件拖到 DESIGN 页面中。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 772
+  },
+  {
+    "word": "拖JSON",
+    "ipa": "",
+    "translit": "",
+    "zh": "拖动 JSON 文件",
+    "def": "指将 JSON 格式文件拖放到指定区域以导入或应用配置。",
+    "example": "例子：把 JSON 文件拖进设计框完成导入。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 773,
+    "audioFile": "79ccacac1729d209"
+  },
+  {
+    "word": "键盘切换成Windows",
+    "ipa": "",
+    "translit": "",
+    "zh": "键盘切换到 Windows 模式",
+    "def": "指将键盘的工作模式从 Mac 切换为 Windows。",
+    "example": "例子：把键盘切换成 Windows 后按键映射会变化。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 774,
+    "audioFile": "f1df3d28062c2dbe"
+  },
+  {
+    "word": "VIA",
+    "ipa": "",
+    "translit": "",
+    "zh": "VIA",
+    "def": "指一种在线键盘配置工具，用于修改键位和灯光等。",
+    "example": "例子：之前绕 VIA 是为了处理媒体键问题。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 775
+  },
+  {
+    "word": "退出Mac模式",
+    "ipa": "",
+    "translit": "",
+    "zh": "退出 Mac 模式",
+    "def": "指将键盘从 Mac 专用模式切换回普通模式。",
+    "example": "例子：退出 Mac 模式后功能键恢复为 F 键。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 776,
+    "audioFile": "f0518bc62ce3418b"
+  },
+  {
+    "word": "优化LOL信号快速功能响应",
+    "ipa": "",
+    "translit": "",
+    "zh": "优化 LOL 信号快速功能响应",
+    "def": "指提升英雄联盟中信号功能的响应速度。",
+    "example": "例子：优化后信号发送更及时。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 777,
+    "audioFile": "1c3ebe8153662f5d"
+  },
+  {
+    "word": "重做LOL Ping反向信号",
+    "ipa": "",
+    "translit": "",
+    "zh": "重做 LOL Ping 反向信号",
+    "def": "指重新制作英雄联盟中反向信号提示功能。",
+    "example": "例子：重做反向信号以改善提示效果。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 778,
+    "audioFile": "c729eac3b604b178"
+  },
+  {
+    "word": "评估LOL反向信号对话功能",
+    "ipa": "",
+    "translit": "",
+    "zh": "评估 LOL 反向信号对话功能",
+    "def": "指对英雄联盟反向信号与对话相关功能进行评估。",
+    "example": "例子：评估该功能是否满足使用需求。",
+    "context": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 779,
+    "audioFile": "5e97e3690913afbc"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10400,7 +10566,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 768
+    "id": 780
   },
   {
     "word": "Conga",
@@ -10413,7 +10579,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 769,
+    "id": 781,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10427,7 +10593,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 770
+    "id": 782
   },
   {
     "word": "Bongos",
@@ -10440,7 +10606,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 771
+    "id": 783
   },
   {
     "word": "Woodblock",
@@ -10453,7 +10619,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 772
+    "id": 784
   },
   {
     "word": "Djembe",
@@ -10466,7 +10632,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 773
+    "id": 785
   },
   {
     "word": "Tambourine",
@@ -10479,7 +10645,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 774
+    "id": 786
   },
   {
     "word": "Cowbells",
@@ -10492,7 +10658,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 775,
+    "id": 787,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10506,7 +10672,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 776
+    "id": 788
   },
   {
     "word": "Timbales",
@@ -10519,7 +10685,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 777,
+    "id": 789,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -10533,7 +10699,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 778
+    "id": 790
   },
   {
     "word": "Wurlitzer",
@@ -10546,7 +10712,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 779
+    "id": 791
   },
   {
     "word": "Electric Piano",
@@ -10559,7 +10725,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 780,
+    "id": 792,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10573,7 +10739,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 781
+    "id": 793
   },
   {
     "word": "Clavinet",
@@ -10586,7 +10752,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 782
+    "id": 794
   },
   {
     "word": "Keys Melody",
@@ -10599,7 +10765,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 783,
+    "id": 795,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10613,7 +10779,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 784
+    "id": 796
   },
   {
     "word": "Female Vocals",
@@ -10626,7 +10792,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 785,
+    "id": 797,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10640,7 +10806,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 786,
+    "id": 798,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10654,7 +10820,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 787
+    "id": 799
   },
   {
     "word": "Whisper Vocals",
@@ -10667,7 +10833,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 788,
+    "id": 800,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10681,7 +10847,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 789,
+    "id": 801,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10695,7 +10861,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 790,
+    "id": 802,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10709,7 +10875,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 791,
+    "id": 803,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10723,7 +10889,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 792
+    "id": 804
   }
 ];
 window.SOURCES = [
@@ -14761,5 +14927,61 @@ window.SOURCES = [
     "translation": "局部图。",
     "category": "",
     "branches": []
+  },
+  {
+    "date": "2026-10-18",
+    "text": "• REBIND MAC SHORTCUTS ON 文件十 5a3 唱 会话 机器人 终端 Show Design tab 什么意思？我已经打开这个了，然后接下来该怎么做？ 它，选「Rainy 75」授权，再回 DESIGN 拖文件。 •拖JSON后布局没出现：多试一次，把文件图标正好拖到 DESIGN 页面的空白框里松手。 到第4步哪一步卡住了，截个图发我，我帮你看。 ● 新建会活 名技能与工具 ⑦ 消息平台 G 产物 定时任务 Q 捜索会活。。。 缀已置顶 我把键盘切换成Windows之后。直接在Mac在设置里找到键盘，然后找快捷键。我直接把截图更改成了F9和F10，不需要这样操作啊，我已经做好了。 己思考＞ 对，直接绑就是最快的。我之前绕 VIA 是担心F10/F11/F12 在Windows 层还是媒体键—你实测F9/F10能直接绑，说明退出Mac 模式后它们就是 F键了，VIA 那步直接作废，不用管。 就一件事别忘了：退出Mac 模式后和弋位置反了（现在左下角是 Control/3/，Mac 习惯是 Control//8）。去： 系统设置-键盘-键盘快捷键-修饰键-选 Rainy 75 把和互换。 不然你按 £C 会落到錯淏的位置上。 再确认两个： F11/F12 现在也是原生键、能直接绑吗？ Bob 截图翻译（原来 F19）要迁到哪个键—PgDn 还是 F11/F12 里挑一个？ 2。 凸 Shift+ 单击对话以置顶•拖动以重新排序 会话 Rebind Mac shortcuts o。。。 • 优化LOL信号快速功能响应 • 连接雨75键盘 • Improve LOLPing revers。。。 6分 1肘 1时 7时 7时 7时 8时 8时 • 重做LOL Pin反向信号发。。。 • 部署信号轮盘双窗口功能 今天早些时候 ・平估 LOL反向号対活功能。。。 • 信号轮盘窗口拖动与缩放。 • 信号轮舟后问号增加快速 《 定时任务 + + **/ DeepSeek V4 Pro v Med v 关闭 人后端就绪 • xingyan",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "REBIND MAC SHORTCUTS ON",
+        "zh": "开启 Mac 快捷键重新绑定"
+      },
+      {
+        "word": "5a3",
+        "zh": "5a3"
+      },
+      {
+        "word": "Show Design tab",
+        "zh": "显示设计标签页"
+      },
+      {
+        "word": "Rainy 75",
+        "zh": "Rainy 75"
+      },
+      {
+        "word": "DESIGN",
+        "zh": "设计"
+      },
+      {
+        "word": "拖JSON",
+        "zh": "拖动 JSON 文件"
+      },
+      {
+        "word": "键盘切换成Windows",
+        "zh": "键盘切换到 Windows 模式"
+      },
+      {
+        "word": "VIA",
+        "zh": "VIA"
+      },
+      {
+        "word": "退出Mac模式",
+        "zh": "退出 Mac 模式"
+      },
+      {
+        "word": "优化LOL信号快速功能响应",
+        "zh": "优化 LOL 信号快速功能响应"
+      },
+      {
+        "word": "重做LOL Ping反向信号",
+        "zh": "重做 LOL Ping 反向信号"
+      },
+      {
+        "word": "评估LOL反向信号对话功能",
+        "zh": "评估 LOL 反向信号对话功能"
+      }
+    ]
   }
 ];
