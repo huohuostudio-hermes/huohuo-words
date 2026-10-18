@@ -1176,7 +1176,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 88
+    "id": 88,
+    "audioFile": "91ef0c1608b20c9c"
   },
   {
     "word": "Configuration",
@@ -1955,7 +1956,8 @@ window.WORDS = [
     "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 146
+    "id": 146,
+    "audioFile": "cc90fda9b1a7483d"
   },
   {
     "word": "Foley",
@@ -1968,7 +1970,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 147
+    "id": 147,
+    "audioFile": "0425ff3f8f7ff824"
   },
   {
     "word": "Paper",
@@ -8925,7 +8928,8 @@ window.WORDS = [
     "contextZh": "动态。激励与增强。微妙与柔和。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 659
+    "id": 659,
+    "audioFile": "eaa8b03f78e40a0d"
   },
   {
     "word": "Excite & Enhance",
