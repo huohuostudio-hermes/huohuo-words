@@ -9503,8 +9503,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 702,
-    "audioFile": "fc5d344772d312e2"
+    "id": 702
   },
   {
     "word": "Hero",
