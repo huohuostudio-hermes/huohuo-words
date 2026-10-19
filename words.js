@@ -9745,8 +9745,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 720,
-    "audioFile": "15221dffef3b20ec"
+    "id": 720
   },
   {
     "word": "Pro-C 2",
