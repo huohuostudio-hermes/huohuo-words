@@ -10554,6 +10554,19 @@ window.WORDS = [
     "audioFile": "5e97e3690913afbc"
   },
   {
+    "word": "created",
+    "ipa": "kriˈeɪtɪd",
+    "translit": "",
+    "zh": "创造的 / 创建的",
+    "def": "动词 create 的过去式和过去分词，表示使某事物从无到有地产生或形成。",
+    "example": "例子：The file was created yesterday.（这个文件是昨天创建的。）",
+    "context": "created",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 780
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10564,7 +10577,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 780
+    "id": 781
   },
   {
     "word": "Conga",
@@ -10577,7 +10590,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 781,
+    "id": 782,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10591,7 +10604,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 782
+    "id": 783
   },
   {
     "word": "Bongos",
@@ -10604,7 +10617,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 783
+    "id": 784
   },
   {
     "word": "Woodblock",
@@ -10617,7 +10630,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 784
+    "id": 785
   },
   {
     "word": "Djembe",
@@ -10630,7 +10643,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 785
+    "id": 786
   },
   {
     "word": "Tambourine",
@@ -10643,7 +10656,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 786
+    "id": 787
   },
   {
     "word": "Cowbells",
@@ -10656,7 +10669,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 787,
+    "id": 788,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10670,7 +10683,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 788
+    "id": 789
   },
   {
     "word": "Timbales",
@@ -10683,7 +10696,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 789,
+    "id": 790,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -10697,7 +10710,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 790
+    "id": 791
   },
   {
     "word": "Wurlitzer",
@@ -10710,7 +10723,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 791
+    "id": 792
   },
   {
     "word": "Electric Piano",
@@ -10723,7 +10736,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 792,
+    "id": 793,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10737,7 +10750,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 793
+    "id": 794
   },
   {
     "word": "Clavinet",
@@ -10750,7 +10763,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 794
+    "id": 795
   },
   {
     "word": "Keys Melody",
@@ -10763,7 +10776,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 795,
+    "id": 796,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10777,7 +10790,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 796
+    "id": 797
   },
   {
     "word": "Female Vocals",
@@ -10790,7 +10803,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 797,
+    "id": 798,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10804,7 +10817,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 798,
+    "id": 799,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10818,7 +10831,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 799
+    "id": 800
   },
   {
     "word": "Whisper Vocals",
@@ -10831,7 +10844,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 800,
+    "id": 801,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10845,7 +10858,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 801,
+    "id": 802,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10859,7 +10872,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 802,
+    "id": 803,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10873,7 +10886,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 803,
+    "id": 804,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10887,7 +10900,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 804
+    "id": 805
   }
 ];
 window.SOURCES = [
