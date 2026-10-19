@@ -7794,7 +7794,8 @@ window.WORDS = [
     "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 575
+    "id": 575,
+    "audioFile": "ab4a66c98e69c1ea"
   },
   {
     "word": "re-executes itself",
