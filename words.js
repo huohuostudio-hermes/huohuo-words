@@ -9786,8 +9786,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 723,
-    "audioFile": "3cbd738fb5b6542f"
+    "id": 723
   },
   {
     "word": "dB",
@@ -9827,8 +9826,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 726,
-    "audioFile": "10b1062bbf42822e"
+    "id": 726
   },
   {
     "word": "ValhallaVi",
