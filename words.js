@@ -7295,7 +7295,8 @@ window.WORDS = [
     "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 538
+    "id": 538,
+    "audioFile": "5e509a8b02fc7d0b"
   },
   {
     "word": "clean up",
@@ -7540,7 +7541,8 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 556
+    "id": 556,
+    "audioFile": "49f96cd47cf71ed2"
   },
   {
     "word": "web dashboard",
@@ -9165,7 +9167,8 @@ window.WORDS = [
     "contextZh": "脉动低音",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 677
+    "id": 677,
+    "audioFile": "6e6c583768a7d56e"
   },
   {
     "word": "Low Boost",
@@ -10409,7 +10412,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769
+    "id": 769,
+    "audioFile": "237c34d5516dcd8d"
   },
   {
     "word": "Show Design tab",
