@@ -142,8 +142,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 11,
-    "audioFile": "da06f0d7b6a05032"
+    "id": 11
   },
   {
     "word": "Analog",
