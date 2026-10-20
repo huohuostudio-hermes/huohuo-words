@@ -1970,8 +1970,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 147,
-    "audioFile": "0425ff3f8f7ff824"
+    "id": 147
   },
   {
     "word": "Paper",
