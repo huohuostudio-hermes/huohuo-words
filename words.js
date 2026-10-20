@@ -10619,6 +10619,128 @@ window.WORDS = [
     "audioFile": "c94b5b2fdfb275dd"
   },
   {
+    "word": "B",
+    "ipa": "",
+    "translit": "",
+    "zh": "B",
+    "def": "表示 B 路、B 通道或 B 选项的标识。",
+    "example": "例子：A/B 对比中切换到 B 版本进行试听。",
+    "context": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 785
+  },
+  {
+    "word": "DRIVE",
+    "ipa": "draɪv",
+    "translit": "",
+    "zh": "驱动 / 过载驱动",
+    "def": "控制信号或增益进入失真/饱和级的程度，常用于增加谐波与厚度。",
+    "example": "例子：提高 Drive 旋钮使音色更饱和、更有侵略性。",
+    "context": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 786
+  },
+  {
+    "word": "N/C",
+    "ipa": "",
+    "translit": "",
+    "zh": "未连接 / 无连接",
+    "def": "No Connection 的缩写，表示该端口或参数未接入信号。",
+    "example": "例子：侧链输入显示 N/C 表示当前无外部信号触发。",
+    "context": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 787
+  },
+  {
+    "word": "Blend",
+    "ipa": "blɛnd",
+    "translit": "",
+    "zh": "混合 / 混合量",
+    "def": "控制干声与处理声之间比例的参数。",
+    "example": "例子：Blend 设为 50% 时干湿各占一半。",
+    "context": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 788
+  },
+  {
+    "word": "HF-ADJUST",
+    "ipa": "",
+    "translit": "",
+    "zh": "高频调整",
+    "def": "用于调节高频段响应或高频驱动量的控制项。",
+    "example": "例子：HF-ADJUST 提升后音色更明亮、齿音更突出。",
+    "context": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 789,
+    "audioFile": "bb6f7ea4996eae63"
+  },
+  {
+    "word": "O/S: None",
+    "ipa": "",
+    "translit": "",
+    "zh": "过采样：无",
+    "def": "O/S 为 Oversampling 的缩写，表示未启用过采样处理。",
+    "example": "例子：O/S: None 时插件以原始采样率运行。",
+    "context": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 790,
+    "audioFile": "052400ca67739024"
+  },
+  {
+    "word": "SG - The One",
+    "ipa": "",
+    "translit": "",
+    "zh": "SG - The One",
+    "def": "插件或设备的名称标识，SG 为产品系列名。",
+    "example": "例子：加载名为 SG - The One 的处理器进行音色塑形。",
+    "context": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 791,
+    "audioFile": "e9cac2dfce2cd5a3"
+  },
+  {
+    "word": "INPUT GAIN",
+    "ipa": "",
+    "translit": "",
+    "zh": "输入增益",
+    "def": "控制进入处理链之前的信号电平大小。",
+    "example": "例子：提高 INPUT GAIN 使信号更充分地驱动失真级。",
+    "context": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 792,
+    "audioFile": "47707f4b13fc9fd2"
+  },
+  {
+    "word": "OUTPUT GAIN",
+    "ipa": "",
+    "translit": "",
+    "zh": "输出增益",
+    "def": "控制处理链输出端的信号电平。",
+    "example": "例子：用 OUTPUT GAIN 补偿驱动带来的音量提升。",
+    "context": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 793,
+    "audioFile": "112ed9c1c6fbd052"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10629,7 +10751,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 785
+    "id": 794
   },
   {
     "word": "Conga",
@@ -10642,7 +10764,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 786,
+    "id": 795,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10656,7 +10778,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 787
+    "id": 796
   },
   {
     "word": "Bongos",
@@ -10669,7 +10791,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 788
+    "id": 797
   },
   {
     "word": "Woodblock",
@@ -10682,7 +10804,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 789
+    "id": 798
   },
   {
     "word": "Djembe",
@@ -10695,7 +10817,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 790
+    "id": 799
   },
   {
     "word": "Tambourine",
@@ -10708,7 +10830,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 791
+    "id": 800
   },
   {
     "word": "Cowbells",
@@ -10721,7 +10843,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 792,
+    "id": 801,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10735,7 +10857,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 793
+    "id": 802
   },
   {
     "word": "Timbales",
@@ -10748,7 +10870,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 794,
+    "id": 803,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -10762,7 +10884,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 795
+    "id": 804
   },
   {
     "word": "Wurlitzer",
@@ -10775,7 +10897,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 796
+    "id": 805
   },
   {
     "word": "Electric Piano",
@@ -10788,7 +10910,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797,
+    "id": 806,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10802,7 +10924,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 798
+    "id": 807
   },
   {
     "word": "Clavinet",
@@ -10815,7 +10937,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 799
+    "id": 808
   },
   {
     "word": "Keys Melody",
@@ -10828,7 +10950,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 800,
+    "id": 809,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10842,7 +10964,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 801
+    "id": 810
   },
   {
     "word": "Female Vocals",
@@ -10855,7 +10977,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 802,
+    "id": 811,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10869,7 +10991,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 803,
+    "id": 812,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10883,7 +11005,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 804
+    "id": 813
   },
   {
     "word": "Whisper Vocals",
@@ -10896,7 +11018,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 805,
+    "id": 814,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10910,7 +11032,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 806,
+    "id": 815,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10924,7 +11046,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 807,
+    "id": 816,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10938,7 +11060,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 808,
+    "id": 817,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10952,7 +11074,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 809
+    "id": 818
   }
 ];
 window.SOURCES = [
@@ -15084,6 +15206,66 @@ window.SOURCES = [
       {
         "word": "Natural Phase",
         "zh": "自然相位"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "text": "Stereo Out 手动 B 比较 拷贝 粘贴 DRIVE 撤销 重做 N/C Blend 100% HF-ADJUST O/S: None SG - The One INPUT GAIN INPUT GAIN DRIVE HF-ADJUST OUTPUT GAIN",
+    "translation": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Stereo Out",
+        "zh": "立体声输出"
+      },
+      {
+        "word": "B",
+        "zh": "B"
+      },
+      {
+        "word": "DRIVE",
+        "zh": "驱动 / 过载驱动"
+      },
+      {
+        "word": "N/C",
+        "zh": "未连接 / 无连接"
+      },
+      {
+        "word": "Blend",
+        "zh": "混合 / 混合量"
+      },
+      {
+        "word": "HF-ADJUST",
+        "zh": "高频调整"
+      },
+      {
+        "word": "O/S: None",
+        "zh": "过采样：无"
+      },
+      {
+        "word": "SG - The One",
+        "zh": "SG - The One"
+      },
+      {
+        "word": "INPUT GAIN",
+        "zh": "输入增益"
+      },
+      {
+        "word": "INPUT GAIN",
+        "zh": "输入增益"
+      },
+      {
+        "word": "DRIVE",
+        "zh": "驱动 / 过载驱动"
+      },
+      {
+        "word": "HF-ADJUST",
+        "zh": "高频调整"
+      },
+      {
+        "word": "OUTPUT GAIN",
+        "zh": "输出增益"
       }
     ]
   }
