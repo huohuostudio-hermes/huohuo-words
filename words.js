@@ -3688,7 +3688,8 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 275
+    "id": 275,
+    "audioFile": "aaa41cee789a4f2a"
   },
   {
     "word": "Slightly different",
@@ -4979,7 +4980,8 @@ window.WORDS = [
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 369
+    "id": 369,
+    "audioFile": "83baaf9f1638b9e4"
   },
   {
     "word": "lead male vocals",
@@ -8829,7 +8831,8 @@ window.WORDS = [
     "contextZh": "hdivtil 创建",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 652
+    "id": 652,
+    "audioFile": "ff382efd63dcc79a"
   },
   {
     "word": "Crash",
