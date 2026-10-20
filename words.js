@@ -9098,7 +9098,8 @@ window.WORDS = [
     "contextZh": "刮擦声、弦噪、嗡声与嘶声、释放噪音。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 672
+    "id": 672,
+    "audioFile": "eec293de72e7c6e8"
   },
   {
     "word": "Mode",
