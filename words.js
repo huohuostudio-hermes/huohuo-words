@@ -10605,6 +10605,20 @@ window.WORDS = [
     "id": 783
   },
   {
+    "word": "Natural Phase",
+    "ipa": "",
+    "translit": "",
+    "zh": "自然相位",
+    "def": "指滤波器或均衡器在处理信号时保持相位响应自然、平缓的特性，避免相位失真对音色造成明显影响。",
+    "example": "例子：均衡器插件中的“Natural Phase”模式，在调整频段时让相位变化更接近模拟设备的平顺表现。",
+    "context": "Natural Phase",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 784,
+    "audioFile": "c94b5b2fdfb275dd"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10615,7 +10629,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 784
+    "id": 785
   },
   {
     "word": "Conga",
@@ -10628,7 +10642,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 785,
+    "id": 786,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10642,7 +10656,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 786
+    "id": 787
   },
   {
     "word": "Bongos",
@@ -10655,7 +10669,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 787
+    "id": 788
   },
   {
     "word": "Woodblock",
@@ -10668,7 +10682,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 788
+    "id": 789
   },
   {
     "word": "Djembe",
@@ -10681,7 +10695,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 789
+    "id": 790
   },
   {
     "word": "Tambourine",
@@ -10694,7 +10708,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 790
+    "id": 791
   },
   {
     "word": "Cowbells",
@@ -10707,7 +10721,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 791,
+    "id": 792,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10721,7 +10735,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 792
+    "id": 793
   },
   {
     "word": "Timbales",
@@ -10734,7 +10748,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 793,
+    "id": 794,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -10748,7 +10762,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 794
+    "id": 795
   },
   {
     "word": "Wurlitzer",
@@ -10761,7 +10775,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 795
+    "id": 796
   },
   {
     "word": "Electric Piano",
@@ -10774,7 +10788,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 796,
+    "id": 797,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10788,7 +10802,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797
+    "id": 798
   },
   {
     "word": "Clavinet",
@@ -10801,7 +10815,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 798
+    "id": 799
   },
   {
     "word": "Keys Melody",
@@ -10814,7 +10828,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 799,
+    "id": 800,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10828,7 +10842,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 800
+    "id": 801
   },
   {
     "word": "Female Vocals",
@@ -10841,7 +10855,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 801,
+    "id": 802,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10855,7 +10869,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 802,
+    "id": 803,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10869,7 +10883,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 803
+    "id": 804
   },
   {
     "word": "Whisper Vocals",
@@ -10882,7 +10896,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 804,
+    "id": 805,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10896,7 +10910,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 805,
+    "id": 806,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10910,7 +10924,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 806,
+    "id": 807,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10924,7 +10938,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 807,
+    "id": 808,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10938,7 +10952,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 808
+    "id": 809
   }
 ];
 window.SOURCES = [
@@ -15058,6 +15072,18 @@ window.SOURCES = [
       {
         "word": "Gaming",
         "zh": "游戏 / 电竞"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "text": "Natural Phase",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Natural Phase",
+        "zh": "自然相位"
       }
     ]
   }
