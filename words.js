@@ -10580,6 +10580,32 @@ window.WORDS = [
     "id": 781
   },
   {
+    "word": "Wireless",
+    "ipa": "ˈwaɪərləs",
+    "translit": "",
+    "zh": "无线的",
+    "def": "指通过无线电波、红外线等方式传输信号，无需物理线缆连接。",
+    "example": "例子：无线鼠标通过 2.4GHz 信号与电脑通信，摆脱了线缆束缚。",
+    "context": "Wireless Gaming",
+    "contextZh": "无线游戏",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 782
+  },
+  {
+    "word": "Gaming",
+    "ipa": "ˈɡeɪmɪŋ",
+    "translit": "",
+    "zh": "游戏 / 电竞",
+    "def": "指电子游戏活动，也常作定语表示“为游戏设计的、适合游戏的”。",
+    "example": "例子：游戏耳机强调低延迟和定位音效，帮助玩家辨别脚步声方向。",
+    "context": "Wireless Gaming",
+    "contextZh": "无线游戏",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 783
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10590,7 +10616,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 782
+    "id": 784
   },
   {
     "word": "Conga",
@@ -10603,7 +10629,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 783,
+    "id": 785,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -10617,7 +10643,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 784
+    "id": 786
   },
   {
     "word": "Bongos",
@@ -10630,7 +10656,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 785
+    "id": 787
   },
   {
     "word": "Woodblock",
@@ -10643,7 +10669,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 786
+    "id": 788
   },
   {
     "word": "Djembe",
@@ -10656,7 +10682,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 787
+    "id": 789
   },
   {
     "word": "Tambourine",
@@ -10669,7 +10695,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 788
+    "id": 790
   },
   {
     "word": "Cowbells",
@@ -10682,7 +10708,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 789,
+    "id": 791,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10696,7 +10722,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 790
+    "id": 792
   },
   {
     "word": "Timbales",
@@ -10709,7 +10735,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 791,
+    "id": 793,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -10723,7 +10749,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 792
+    "id": 794
   },
   {
     "word": "Wurlitzer",
@@ -10736,7 +10762,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 793
+    "id": 795
   },
   {
     "word": "Electric Piano",
@@ -10749,7 +10775,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 794,
+    "id": 796,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10763,7 +10789,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 795
+    "id": 797
   },
   {
     "word": "Clavinet",
@@ -10776,7 +10802,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 796
+    "id": 798
   },
   {
     "word": "Keys Melody",
@@ -10789,7 +10815,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797,
+    "id": 799,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10803,7 +10829,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 798
+    "id": 800
   },
   {
     "word": "Female Vocals",
@@ -10816,7 +10842,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 799,
+    "id": 801,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -10830,7 +10856,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 800,
+    "id": 802,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -10844,7 +10870,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 801
+    "id": 803
   },
   {
     "word": "Whisper Vocals",
@@ -10857,7 +10883,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 802,
+    "id": 804,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -10871,7 +10897,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 803,
+    "id": 805,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -10885,7 +10911,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 804,
+    "id": 806,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -10899,7 +10925,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 805,
+    "id": 807,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -10913,7 +10939,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 806
+    "id": 808
   }
 ];
 window.SOURCES = [
@@ -15017,6 +15043,22 @@ window.SOURCES = [
       {
         "word": "authoring",
         "zh": "创作 / 编写"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "text": "Wireless Gaming",
+    "translation": "无线游戏",
+    "category": "",
+    "branches": [
+      {
+        "word": "Wireless",
+        "zh": "无线的"
+      },
+      {
+        "word": "Gaming",
+        "zh": "游戏 / 电竞"
       }
     ]
   }
