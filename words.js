@@ -9979,7 +9979,8 @@ window.WORDS = [
     "contextZh": "无变化",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 737
+    "id": 737,
+    "audioFile": "a415ab5cc17c8c09"
   },
   {
     "word": "Random full cycle",
