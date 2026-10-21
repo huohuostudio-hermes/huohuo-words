@@ -10484,8 +10484,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 774,
-    "audioFile": "f1df3d28062c2dbe"
+    "id": 774
   },
   {
     "word": "VIA",
