@@ -8722,8 +8722,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 644,
-    "audioFile": "f924b9625d1a3b05"
+    "id": 644
   },
   {
     "word": "lo-fi hip hop",
