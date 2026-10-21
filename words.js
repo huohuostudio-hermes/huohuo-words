@@ -8926,8 +8926,7 @@ window.WORDS = [
     "contextZh": "动态。激励与增强。微妙与柔和。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 659,
-    "audioFile": "eaa8b03f78e40a0d"
+    "id": 659
   },
   {
     "word": "Excite & Enhance",
