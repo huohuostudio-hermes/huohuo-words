@@ -1202,8 +1202,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 90,
-    "audioFile": "9bcf18e4b22c0710"
+    "id": 90
   },
   {
     "word": "Spark",
@@ -9953,8 +9952,7 @@ window.WORDS = [
     "contextZh": "调制",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 735,
-    "audioFile": "c8e8d5a5e66521d4"
+    "id": 735
   },
   {
     "word": "No variation",
