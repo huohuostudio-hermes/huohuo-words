@@ -7541,7 +7541,8 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 556
+    "id": 556,
+    "audioFile": "49f96cd47cf71ed2"
   },
   {
     "word": "web dashboard",
