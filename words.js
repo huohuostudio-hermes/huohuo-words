@@ -444,7 +444,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 34
+    "id": 34,
+    "audioFile": "7bbb5dae0e3a2d49"
   },
   {
     "word": "Harmonica",
@@ -10765,8 +10766,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 795,
-    "audioFile": "dbc61de6ca857443"
+    "id": 795
   },
   {
     "word": "Grooves",
@@ -10792,8 +10792,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797,
-    "audioFile": "05b08cced2d60503"
+    "id": 797
   },
   {
     "word": "Woodblock",
