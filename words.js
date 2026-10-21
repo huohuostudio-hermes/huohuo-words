@@ -114,7 +114,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9
+    "id": 9,
+    "audioFile": "e4c78fb51106eadd"
   },
   {
     "word": "Guitar Melody",
@@ -245,7 +246,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 19
+    "id": 19,
+    "audioFile": "1421c12f858c68e7"
   },
   {
     "word": "Impacts",
@@ -5937,8 +5939,7 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 439,
-    "audioFile": "8f6cf282b7260f35"
+    "id": 439
   },
   {
     "word": "CC1",
@@ -10412,8 +10413,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769,
-    "audioFile": "237c34d5516dcd8d"
+    "id": 769
   },
   {
     "word": "Show Design tab",
@@ -10791,8 +10791,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797,
-    "audioFile": "05b08cced2d60503"
+    "id": 797
   },
   {
     "word": "Woodblock",
@@ -10844,8 +10843,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 801,
-    "audioFile": "f14633f686c6bcb7"
+    "id": 801
   },
   {
     "word": "Bells",
@@ -10871,8 +10869,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 803,
-    "audioFile": "cafdb11b145b2ca8"
+    "id": 803
   },
   {
     "word": "Keys",
@@ -10992,8 +10989,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 812,
-    "audioFile": "861dec5c44928ea8"
+    "id": 812
   },
   {
     "word": "Screams",
