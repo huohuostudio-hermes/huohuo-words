@@ -246,7 +246,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 19
+    "id": 19,
+    "audioFile": "1421c12f858c68e7"
   },
   {
     "word": "Impacts",
@@ -1201,8 +1202,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 90,
-    "audioFile": "9bcf18e4b22c0710"
+    "id": 90
   },
   {
     "word": "Spark",
@@ -9925,8 +9925,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 733,
-    "audioFile": "49e180fce7f7bf1c"
+    "id": 733
   },
   {
     "word": "Stereo Out",
@@ -10413,8 +10412,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769,
-    "audioFile": "237c34d5516dcd8d"
+    "id": 769
   },
   {
     "word": "Show Design tab",
@@ -10468,8 +10466,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 773,
-    "audioFile": "79ccacac1729d209"
+    "id": 773
   },
   {
     "word": "键盘切换成Windows",
@@ -10482,8 +10479,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 774,
-    "audioFile": "f1df3d28062c2dbe"
+    "id": 774
   },
   {
     "word": "VIA",
@@ -10509,8 +10505,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 776,
-    "audioFile": "f0518bc62ce3418b"
+    "id": 776
   },
   {
     "word": "优化LOL信号快速功能响应",
@@ -10523,8 +10518,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 777,
-    "audioFile": "1c3ebe8153662f5d"
+    "id": 777
   },
   {
     "word": "重做LOL Ping反向信号",
@@ -10551,8 +10545,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 779,
-    "audioFile": "5e97e3690913afbc"
+    "id": 779
   },
   {
     "word": "created",
