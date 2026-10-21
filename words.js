@@ -10846,7 +10846,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 801
+    "id": 801,
+    "audioFile": "f14633f686c6bcb7"
   },
   {
     "word": "Bells",
@@ -10872,7 +10873,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 803
+    "id": 803,
+    "audioFile": "cafdb11b145b2ca8"
   },
   {
     "word": "Keys",
