@@ -246,8 +246,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 19,
-    "audioFile": "1421c12f858c68e7"
+    "id": 19
   },
   {
     "word": "Impacts",
