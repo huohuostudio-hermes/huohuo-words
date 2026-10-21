@@ -8832,7 +8832,8 @@ window.WORDS = [
     "contextZh": "hdivtil 创建",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 652
+    "id": 652,
+    "audioFile": "ff382efd63dcc79a"
   },
   {
     "word": "Crash",
@@ -10508,8 +10509,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 776,
-    "audioFile": "f0518bc62ce3418b"
+    "id": 776
   },
   {
     "word": "优化LOL信号快速功能响应",
