@@ -1516,8 +1516,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 113,
-    "audioFile": "b80b5a88fd6490d4"
+    "id": 113
   },
   {
     "word": "Slack",
