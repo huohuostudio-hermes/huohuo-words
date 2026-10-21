@@ -114,7 +114,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9
+    "id": 9,
+    "audioFile": "e4c78fb51106eadd"
   },
   {
     "word": "Guitar Melody",
@@ -8724,8 +8725,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 644,
-    "audioFile": "f924b9625d1a3b05"
+    "id": 644
   },
   {
     "word": "lo-fi hip hop",
@@ -8818,8 +8818,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 651,
-    "audioFile": "3d5d90f037a4981f"
+    "id": 651
   },
   {
     "word": "hdivtil",
@@ -8832,8 +8831,7 @@ window.WORDS = [
     "contextZh": "hdivtil 创建",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 652,
-    "audioFile": "ff382efd63dcc79a"
+    "id": 652
   },
   {
     "word": "Crash",
