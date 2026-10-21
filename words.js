@@ -9061,7 +9061,8 @@ window.WORDS = [
     "contextZh": "头戴式显示器乘坐表情",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 669
+    "id": 669,
+    "audioFile": "dfee87b739e7ca9a"
   },
   {
     "word": "Knee",
@@ -9140,8 +9141,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675,
-    "audioFile": "81c67591d68b8e7b"
+    "id": 675
   },
   {
     "word": "Mono per String",
@@ -10551,8 +10551,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 779,
-    "audioFile": "5e97e3690913afbc"
+    "id": 779
   },
   {
     "word": "created",
