@@ -75,7 +75,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 6
+    "id": 6,
+    "audioFile": "c311f231221682f9"
   },
   {
     "word": "Acoustic",
@@ -10791,7 +10792,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797
+    "id": 797,
+    "audioFile": "05b08cced2d60503"
   },
   {
     "word": "Woodblock",
