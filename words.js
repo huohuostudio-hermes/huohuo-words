@@ -7730,8 +7730,7 @@ window.WORDS = [
     "contextZh": "爱马仕重置手表",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 570,
-    "audioFile": "da1d77a0a4d591b1"
+    "id": 570
   },
   {
     "word": "Track subscription quotas",
@@ -9063,7 +9062,8 @@ window.WORDS = [
     "contextZh": "头戴式显示器乘坐表情",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 669
+    "id": 669,
+    "audioFile": "dfee87b739e7ca9a"
   },
   {
     "word": "Knee",
