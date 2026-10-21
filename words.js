@@ -9840,8 +9840,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 727,
-    "audioFile": "0673904a81f6c3e3"
+    "id": 727
   },
   {
     "word": "Insight 2",
