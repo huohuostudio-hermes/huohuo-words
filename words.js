@@ -114,8 +114,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9,
-    "audioFile": "e4c78fb51106eadd"
+    "id": 9
   },
   {
     "word": "Guitar Melody",
@@ -4981,7 +4980,8 @@ window.WORDS = [
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 369
+    "id": 369,
+    "audioFile": "83baaf9f1638b9e4"
   },
   {
     "word": "lead male vocals",
