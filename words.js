@@ -8832,8 +8832,7 @@ window.WORDS = [
     "contextZh": "hdivtil 创建",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 652,
-    "audioFile": "ff382efd63dcc79a"
+    "id": 652
   },
   {
     "word": "Crash",
