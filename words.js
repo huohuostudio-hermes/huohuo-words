@@ -10766,7 +10766,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 795
+    "id": 795,
+    "audioFile": "dbc61de6ca857443"
   },
   {
     "word": "Grooves",
@@ -10792,7 +10793,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797
+    "id": 797,
+    "audioFile": "05b08cced2d60503"
   },
   {
     "word": "Woodblock",
