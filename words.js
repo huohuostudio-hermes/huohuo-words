@@ -3979,8 +3979,7 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 296,
-    "audioFile": "b7dd7488405ecef2"
+    "id": 296
   },
   {
     "word": "synth loops",
@@ -8725,7 +8724,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 644
+    "id": 644,
+    "audioFile": "f924b9625d1a3b05"
   },
   {
     "word": "lo-fi hip hop",
@@ -8818,7 +8818,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 651
+    "id": 651,
+    "audioFile": "3d5d90f037a4981f"
   },
   {
     "word": "hdivtil",
@@ -8831,7 +8832,8 @@ window.WORDS = [
     "contextZh": "hdivtil 创建",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 652
+    "id": 652,
+    "audioFile": "ff382efd63dcc79a"
   },
   {
     "word": "Crash",
