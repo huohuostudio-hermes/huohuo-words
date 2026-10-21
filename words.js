@@ -10466,7 +10466,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 773
+    "id": 773,
+    "audioFile": "79ccacac1729d209"
   },
   {
     "word": "键盘切换成Windows",
