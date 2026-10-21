@@ -2310,7 +2310,8 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 173
+    "id": 173,
+    "audioFile": "103429847edcdb9f"
   },
   {
     "word": "Spaceship",
@@ -9062,7 +9063,8 @@ window.WORDS = [
     "contextZh": "头戴式显示器乘坐表情",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 669
+    "id": 669,
+    "audioFile": "dfee87b739e7ca9a"
   },
   {
     "word": "Knee",
@@ -10020,8 +10022,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 740,
-    "audioFile": "e9543a0726e53197"
+    "id": 740
   },
   {
     "word": "GLOBAL",
