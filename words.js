@@ -9062,7 +9062,8 @@ window.WORDS = [
     "contextZh": "头戴式显示器乘坐表情",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 669
+    "id": 669,
+    "audioFile": "dfee87b739e7ca9a"
   },
   {
     "word": "Knee",
@@ -9127,7 +9128,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 674
+    "id": 674,
+    "audioFile": "fc458d436ca189c7"
   },
   {
     "word": "Monophonic",
@@ -9140,7 +9142,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675
+    "id": 675,
+    "audioFile": "81c67591d68b8e7b"
   },
   {
     "word": "Mono per String",
@@ -9167,7 +9170,8 @@ window.WORDS = [
     "contextZh": "脉动低音",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 677
+    "id": 677,
+    "audioFile": "6e6c583768a7d56e"
   },
   {
     "word": "Low Boost",
