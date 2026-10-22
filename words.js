@@ -5834,8 +5834,7 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 431,
-    "audioFile": "5b07397be4f36b2f"
+    "id": 431
   },
   {
     "word": "realistic",
