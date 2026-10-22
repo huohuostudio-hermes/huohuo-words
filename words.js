@@ -8004,8 +8004,7 @@ window.WORDS = [
     "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 590,
-    "audioFile": "c03a8d10174dd7eb"
+    "id": 590
   },
   {
     "word": "Kimi",
