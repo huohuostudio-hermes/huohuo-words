@@ -10772,6 +10772,19 @@ window.WORDS = [
     "id": 795
   },
   {
+    "word": "sula",
+    "ipa": "",
+    "translit": "",
+    "zh": "苏拉",
+    "def": "可作人名或地名使用，具体含义取决于语境。",
+    "example": "例子：Sula 是尼日利亚作家钦努阿·阿契贝小说中的人物名。",
+    "context": "sula 1他 2她 3它 4塔 5踏6塌 7榻 8祂 9沓 ~ 加到「混音」下×",
+    "contextZh": "sula 1他 2她 3它 4塔 5踏 6塌 7榻 8祂 9沓 ~ 加到「混音」下×",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 796
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10782,7 +10795,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 796
+    "id": 797
   },
   {
     "word": "Conga",
@@ -10795,7 +10808,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797
+    "id": 798
   },
   {
     "word": "Grooves",
@@ -10808,7 +10821,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 798
+    "id": 799
   },
   {
     "word": "Bongos",
@@ -10821,7 +10834,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 799,
+    "id": 800,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -10835,7 +10848,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 800
+    "id": 801
   },
   {
     "word": "Djembe",
@@ -10848,7 +10861,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 801
+    "id": 802
   },
   {
     "word": "Tambourine",
@@ -10861,7 +10874,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 802
+    "id": 803
   },
   {
     "word": "Cowbells",
@@ -10874,7 +10887,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 803,
+    "id": 804,
     "audioFile": "f14633f686c6bcb7"
   },
   {
@@ -10888,7 +10901,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 804
+    "id": 805
   },
   {
     "word": "Timbales",
@@ -10901,7 +10914,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 805,
+    "id": 806,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -10915,7 +10928,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 806
+    "id": 807
   },
   {
     "word": "Wurlitzer",
@@ -10928,7 +10941,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 807
+    "id": 808
   },
   {
     "word": "Electric Piano",
@@ -10941,7 +10954,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 808,
+    "id": 809,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10955,7 +10968,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 809
+    "id": 810
   },
   {
     "word": "Clavinet",
@@ -10968,7 +10981,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 810
+    "id": 811
   },
   {
     "word": "Keys Melody",
@@ -10981,7 +10994,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 811,
+    "id": 812,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -10995,7 +11008,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 812
+    "id": 813
   },
   {
     "word": "Female Vocals",
@@ -11008,7 +11021,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 813,
+    "id": 814,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -11022,7 +11035,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 814,
+    "id": 815,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -11036,7 +11049,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 815
+    "id": 816
   },
   {
     "word": "Whisper Vocals",
@@ -11049,7 +11062,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 816,
+    "id": 817,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -11063,7 +11076,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 817,
+    "id": 818,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -11077,7 +11090,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 818,
+    "id": 819,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -11091,7 +11104,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 819,
+    "id": 820,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -11105,7 +11118,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 820
+    "id": 821
   }
 ];
 window.SOURCES = [
@@ -15313,6 +15326,18 @@ window.SOURCES = [
       {
         "word": "md",
         "zh": "Markdown 格式"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "text": "sula 1他 2她 3它 4塔 5踏6塌 7榻 8祂 9沓 ~ 加到「混音」下×",
+    "translation": "sula 1他 2她 3它 4塔 5踏 6塌 7榻 8祂 9沓 ~ 加到「混音」下×",
+    "category": "",
+    "branches": [
+      {
+        "word": "sula",
+        "zh": "苏拉"
       }
     ]
   }
