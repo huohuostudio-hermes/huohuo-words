@@ -7500,8 +7500,7 @@ window.WORDS = [
     "contextZh": "插件目录",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 552,
-    "audioFile": "fd8c7c8edae3b4c5"
+    "id": 552
   },
   {
     "word": "Catalog",
