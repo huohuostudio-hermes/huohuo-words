@@ -62,8 +62,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 5,
-    "audioFile": "68c165671716772b"
+    "id": 5
   },
   {
     "word": "Riffs",
@@ -261,7 +260,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 20
+    "id": 20,
+    "audioFile": "fae2b8ba3f65e257"
   },
   {
     "word": "Textures",
@@ -301,7 +301,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 23
+    "id": 23,
+    "audioFile": "98463f4f3ff2c4e3"
   },
   {
     "word": "Sweeps",
@@ -380,7 +381,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 29
+    "id": 29,
+    "audioFile": "a638cec0b479a5b7"
   },
   {
     "word": "Ensemble",
@@ -445,8 +447,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 34,
-    "audioFile": "7bbb5dae0e3a2d49"
+    "id": 34
   },
   {
     "word": "Harmonica",
@@ -1060,7 +1061,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 79
+    "id": 79,
+    "audioFile": "4930eb3f60df3a6a"
   },
   {
     "word": "Enter",
@@ -1151,7 +1153,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 86
+    "id": 86,
+    "audioFile": "abac36149cf8b0e1"
   },
   {
     "word": "Option",
@@ -1242,7 +1245,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 93
+    "id": 93,
+    "audioFile": "a81f4df459f0c960"
   },
   {
     "word": "Rock",
@@ -1431,8 +1435,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 107,
-    "audioFile": "688f800d86c887b5"
+    "id": 107
   },
   {
     "word": "String Noise",
@@ -1515,8 +1518,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 113,
-    "audioFile": "b80b5a88fd6490d4"
+    "id": 113
   },
   {
     "word": "Slack",
@@ -2442,7 +2444,8 @@ window.WORDS = [
     "contextZh": "交通",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 183
+    "id": 183,
+    "audioFile": "f0ac1641d540bc5a"
   },
   {
     "word": "Car",
@@ -3564,7 +3567,8 @@ window.WORDS = [
     "contextZh": "将原声沙锤与电子踩镲叠加，可以为节奏声部引入一种人性化的感觉。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 266
+    "id": 266,
+    "audioFile": "52438e68a549a636"
   },
   {
     "word": "organic shakers",
@@ -3786,8 +3790,7 @@ window.WORDS = [
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 282,
-    "audioFile": "a455e490416a641a"
+    "id": 282
   },
   {
     "word": "melody line",
@@ -5038,7 +5041,8 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 373
+    "id": 373,
+    "audioFile": "6858a1d795580215"
   },
   {
     "word": "ensures",
@@ -6101,7 +6105,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 451
+    "id": 451,
+    "audioFile": "584950b32f600296"
   },
   {
     "word": "filter cutoff",
@@ -6253,7 +6258,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 462
+    "id": 462,
+    "audioFile": "15e9c6a52c89aeae"
   },
   {
     "word": "Future Garage",
@@ -6876,7 +6882,8 @@ window.WORDS = [
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 507
+    "id": 507,
+    "audioFile": "19c109a55e36ce1a"
   },
   {
     "word": "Atmospheric pads",
@@ -7069,7 +7076,8 @@ window.WORDS = [
     "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 521
+    "id": 521,
+    "audioFile": "d1263df1dba7172d"
   },
   {
     "word": "dead backend",
@@ -7163,7 +7171,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 528
+    "id": 528,
+    "audioFile": "9ae5b78aeb6c0385"
   },
   {
     "word": "All Collections",
@@ -7584,8 +7593,7 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 559,
-    "audioFile": "23392001dec39d46"
+    "id": 559
   },
   {
     "word": "Mnemosyne memories",
@@ -7652,7 +7660,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 564
+    "id": 564,
+    "audioFile": "86416ef3eeb4cc90"
   },
   {
     "word": "PINNED",
@@ -7665,7 +7674,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 565
+    "id": 565,
+    "audioFile": "33469d3faaaa5d68"
   },
   {
     "word": "Page",
@@ -8071,7 +8081,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 595
+    "id": 595,
+    "audioFile": "20338f4396d53223"
   },
   {
     "word": "DOCS",
@@ -8084,7 +8095,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 596
+    "id": 596,
+    "audioFile": "71ab8b6afb1bae3d"
   },
   {
     "word": "Naturalize",
@@ -8726,8 +8738,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 644,
-    "audioFile": "f924b9625d1a3b05"
+    "id": 644
   },
   {
     "word": "lo-fi hip hop",
@@ -9063,8 +9074,7 @@ window.WORDS = [
     "contextZh": "头戴式显示器乘坐表情",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 669,
-    "audioFile": "dfee87b739e7ca9a"
+    "id": 669
   },
   {
     "word": "Knee",
@@ -9171,8 +9181,7 @@ window.WORDS = [
     "contextZh": "脉动低音",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 677,
-    "audioFile": "6e6c583768a7d56e"
+    "id": 677
   },
   {
     "word": "Low Boost",
@@ -9509,8 +9518,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 702,
-    "audioFile": "fc5d344772d312e2"
+    "id": 702
   },
   {
     "word": "Hero",
@@ -9576,7 +9584,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 707
+    "id": 707,
+    "audioFile": "440c2dff456aa005"
   },
   {
     "word": "HAM",
@@ -9873,7 +9882,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 729
+    "id": 729,
+    "audioFile": "69c935d79bc16fe3"
   },
   {
     "word": "Read",
@@ -10659,7 +10669,8 @@ window.WORDS = [
     "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 787
+    "id": 787,
+    "audioFile": "2541a8919968bbcf"
   },
   {
     "word": "Blend",
@@ -10755,8 +10766,7 @@ window.WORDS = [
     "contextZh": "自述文件（Markdown 格式）",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 794,
-    "audioFile": "f78a71af8bbf8cc2"
+    "id": 794
   },
   {
     "word": "md",
@@ -10795,7 +10805,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797
+    "id": 797,
+    "audioFile": "b83c35ab61159149"
   },
   {
     "word": "Conga",
@@ -10821,7 +10832,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 799
+    "id": 799,
+    "audioFile": "67a7983a298a079e"
   },
   {
     "word": "Bongos",
@@ -10887,8 +10899,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 804,
-    "audioFile": "f14633f686c6bcb7"
+    "id": 804
   },
   {
     "word": "Bells",
@@ -10914,8 +10925,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 806,
-    "audioFile": "cafdb11b145b2ca8"
+    "id": 806
   },
   {
     "word": "Keys",
@@ -10981,7 +10991,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 811
+    "id": 811,
+    "audioFile": "bf34769991153703"
   },
   {
     "word": "Keys Melody",
@@ -11049,7 +11060,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 816
+    "id": 816,
+    "audioFile": "b7e489ac0085f1fa"
   },
   {
     "word": "Whisper Vocals",
