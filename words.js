@@ -498,7 +498,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 38
+    "id": 38,
+    "audioFile": "d789c065d18bca54"
   },
   {
     "word": "Cello",
