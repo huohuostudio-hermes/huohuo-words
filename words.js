@@ -10932,8 +10932,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 807,
-    "audioFile": "5944ae25418ceabc"
+    "id": 807
   },
   {
     "word": "Wurlitzer",
