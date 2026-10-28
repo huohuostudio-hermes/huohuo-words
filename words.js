@@ -6881,8 +6881,7 @@ window.WORDS = [
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 507,
-    "audioFile": "19c109a55e36ce1a"
+    "id": 507
   },
   {
     "word": "Atmospheric pads",
