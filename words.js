@@ -6868,8 +6868,7 @@ window.WORDS = [
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 506,
-    "audioFile": "caa56e68ed4be716"
+    "id": 506
   },
   {
     "word": "Clashing",
