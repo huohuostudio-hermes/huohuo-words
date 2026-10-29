@@ -10790,6 +10790,32 @@ window.WORDS = [
     "id": 796
   },
   {
+    "word": "REVERT",
+    "ipa": "rɪˈvɜːrt",
+    "translit": "",
+    "zh": "还原 / 恢复原状",
+    "def": "指将某物恢复到先前的状态或版本，常用于软件、文件或设置中撤销更改。",
+    "example": "例子：将配置文件还原到修改前的版本。",
+    "context": "REVERT",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 797
+  },
+  {
+    "word": "LOAD",
+    "ipa": "loʊd",
+    "translit": "",
+    "zh": "负载 / 加载",
+    "def": "指系统、电路或软件所承受的工作量或数据载入过程；在音频领域常指加载音色、采样或插件。",
+    "example": "例子：在 DAW 中 LOAD 一个采样器插件并载入鼓组音色。",
+    "context": "LOAD",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 798
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10800,7 +10826,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 797
+    "id": 799
   },
   {
     "word": "Conga",
@@ -10813,7 +10839,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 798
+    "id": 800
   },
   {
     "word": "Grooves",
@@ -10826,7 +10852,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 799
+    "id": 801
   },
   {
     "word": "Bongos",
@@ -10839,7 +10865,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 800,
+    "id": 802,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -10853,7 +10879,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 801
+    "id": 803
   },
   {
     "word": "Djembe",
@@ -10866,7 +10892,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 802
+    "id": 804
   },
   {
     "word": "Tambourine",
@@ -10879,7 +10905,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 803
+    "id": 805
   },
   {
     "word": "Cowbells",
@@ -10892,7 +10918,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 804
+    "id": 806
   },
   {
     "word": "Bells",
@@ -10905,7 +10931,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 805
+    "id": 807
   },
   {
     "word": "Timbales",
@@ -10918,7 +10944,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 806
+    "id": 808
   },
   {
     "word": "Keys",
@@ -10931,7 +10957,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 807
+    "id": 809
   },
   {
     "word": "Wurlitzer",
@@ -10944,7 +10970,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 808,
+    "id": 810,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -10958,7 +10984,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 809,
+    "id": 811,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10972,7 +10998,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 810
+    "id": 812
   },
   {
     "word": "Clavinet",
@@ -10985,7 +11011,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 811,
+    "id": 813,
     "audioFile": "bf34769991153703"
   },
   {
@@ -10999,7 +11025,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 812,
+    "id": 814,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -11013,7 +11039,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 813
+    "id": 815
   },
   {
     "word": "Female Vocals",
@@ -11026,7 +11052,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 814,
+    "id": 816,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -11040,7 +11066,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 815,
+    "id": 817,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -11054,7 +11080,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 816,
+    "id": 818,
     "audioFile": "b7e489ac0085f1fa"
   },
   {
@@ -11068,7 +11094,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 817,
+    "id": 819,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -11082,7 +11108,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 818,
+    "id": 820,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -11096,7 +11122,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 819,
+    "id": 821,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -11110,7 +11136,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 820,
+    "id": 822,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -11124,7 +11150,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 821
+    "id": 823
   }
 ];
 window.SOURCES = [
