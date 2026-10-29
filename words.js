@@ -10913,6 +10913,140 @@ window.WORDS = [
     "id": 805
   },
   {
+    "word": "Loop",
+    "ipa": "luːp",
+    "translit": "",
+    "zh": "循环 / 循环段",
+    "def": "指一段可反复播放的音频或 MIDI 片段，常用于编曲与现场演出中构建重复结构。",
+    "example": "例子：把一段四小节鼓组设为循环，整首歌反复播放。",
+    "context": "Loop/Cycle Metronome Quick Key 1 Quick Key 2",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 806
+  },
+  {
+    "word": "Cycle",
+    "ipa": "ˈsaɪkəl",
+    "translit": "",
+    "zh": "循环 / 周期循环",
+    "def": "指按固定顺序反复播放一组内容，或指一个完整的重复周期。",
+    "example": "例子：让播放列表在几段素材间周期循环。",
+    "context": "Loop/Cycle Metronome Quick Key 1 Quick Key 2",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 807
+  },
+  {
+    "word": "Metronome",
+    "ipa": "ˈmetrənoʊm",
+    "translit": "",
+    "zh": "节拍器",
+    "def": "按设定速度发出稳定节拍声的工具，用于练习和录音时保持节奏准确。",
+    "example": "例子：把节拍器设为 120 BPM，跟着咔哒声练习。",
+    "context": "Loop/Cycle Metronome Quick Key 1 Quick Key 2",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 808,
+    "audioFile": "fde5d8713007bb9f"
+  },
+  {
+    "word": "Quick Key 1",
+    "ipa": "",
+    "translit": "",
+    "zh": "快捷按键 1",
+    "def": "指软件或设备上预设的第一个快捷功能键，用于快速调用常用操作。",
+    "example": "例子：按下快捷按键 1 立即开始录音。",
+    "context": "Loop/Cycle Metronome Quick Key 1 Quick Key 2",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 809,
+    "audioFile": "9dad3f80a3e3eaf3"
+  },
+  {
+    "word": "Quick Key 2",
+    "ipa": "",
+    "translit": "",
+    "zh": "快捷按键 2",
+    "def": "指预设的第二个快捷功能键，与快捷按键 1 配合实现快速操作。",
+    "example": "例子：按下快捷按键 2 快速切换循环播放。",
+    "context": "Loop/Cycle Metronome Quick Key 1 Quick Key 2",
+    "contextZh": "",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 810,
+    "audioFile": "66792bd8e9b3b22f"
+  },
+  {
+    "word": "Scrub",
+    "ipa": "skrʌb",
+    "translit": "",
+    "zh": "擦洗；清除",
+    "def": "指用力擦洗以去除污垢，在音频/软件领域常指拖动播放头快速浏览或擦除数据。",
+    "example": "例子：在音频软件中拖动播放头快速试听片段。",
+    "context": "SCRUB",
+    "contextZh": "",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 811
+  },
+  {
+    "word": "DAW",
+    "ipa": "",
+    "translit": "",
+    "zh": "数字音频工作站",
+    "def": "用于录音、编曲、混音和母带处理的软件平台，是现代音乐制作的核心工具。",
+    "example": "例子：在 DAW 中加载虚拟乐器并录制一段 MIDI 旋律。",
+    "context": "DAW COMMAND / KEYBOARD MACRO LABEL",
+    "contextZh": "DAW 命令 / 键盘宏 标签",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 812,
+    "audioFile": "c5dd76f326bdb69b"
+  },
+  {
+    "word": "Command",
+    "ipa": "kəˈmænd",
+    "translit": "",
+    "zh": "命令",
+    "def": "由用户触发、让软件执行特定操作的一条指令。",
+    "example": "例子：按下快捷键执行“保存工程”命令。",
+    "context": "DAW COMMAND / KEYBOARD MACRO LABEL",
+    "contextZh": "DAW 命令 / 键盘宏 标签",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 813
+  },
+  {
+    "word": "Keyboard",
+    "ipa": "ˈkiːbɔːrd",
+    "translit": "",
+    "zh": "键盘",
+    "def": "用于输入字符或触发快捷键的硬件设备，也指软件中的虚拟键盘。",
+    "example": "例子：用键盘上的组合键快速切换工具。",
+    "context": "DAW COMMAND / KEYBOARD MACRO LABEL",
+    "contextZh": "DAW 命令 / 键盘宏 标签",
+    "category": "乐器们",
+    "source": "小赫转存",
+    "id": 814
+  },
+  {
+    "word": "Label",
+    "ipa": "ˈleɪbl",
+    "translit": "",
+    "zh": "标签",
+    "def": "用于标识、分类或命名某条命令、宏或界面元素的名称标记。",
+    "example": "例子：给这个键盘宏设置一个易识别的标签，方便在菜单中查找。",
+    "context": "DAW COMMAND / KEYBOARD MACRO LABEL",
+    "contextZh": "DAW 命令 / 键盘宏 标签",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 815
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10923,7 +11057,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 806
+    "id": 816
   },
   {
     "word": "Conga",
@@ -10936,7 +11070,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 807
+    "id": 817
   },
   {
     "word": "Grooves",
@@ -10949,7 +11083,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 808
+    "id": 818
   },
   {
     "word": "Bongos",
@@ -10962,7 +11096,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 809,
+    "id": 819,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -10976,7 +11110,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 810
+    "id": 820
   },
   {
     "word": "Djembe",
@@ -10989,7 +11123,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 811
+    "id": 821
   },
   {
     "word": "Tambourine",
@@ -11002,7 +11136,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 812
+    "id": 822
   },
   {
     "word": "Cowbells",
@@ -11015,7 +11149,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 813
+    "id": 823
   },
   {
     "word": "Bells",
@@ -11028,7 +11162,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 814
+    "id": 824
   },
   {
     "word": "Timbales",
@@ -11041,7 +11175,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 815
+    "id": 825
   },
   {
     "word": "Keys",
@@ -11054,7 +11188,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 816
+    "id": 826
   },
   {
     "word": "Wurlitzer",
@@ -11067,7 +11201,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 817,
+    "id": 827,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -11081,7 +11215,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 818,
+    "id": 828,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -11095,7 +11229,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 819
+    "id": 829
   },
   {
     "word": "Clavinet",
@@ -11108,7 +11242,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 820,
+    "id": 830,
     "audioFile": "bf34769991153703"
   },
   {
@@ -11122,7 +11256,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 821,
+    "id": 831,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -11136,7 +11270,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 822
+    "id": 832
   },
   {
     "word": "Female Vocals",
@@ -11149,7 +11283,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 823,
+    "id": 833,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -11163,7 +11297,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 824,
+    "id": 834,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -11177,7 +11311,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 825,
+    "id": 835,
     "audioFile": "b7e489ac0085f1fa"
   },
   {
@@ -11191,7 +11325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 826,
+    "id": 836,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -11205,7 +11339,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 827,
+    "id": 837,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -11219,7 +11353,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 828,
+    "id": 838,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -11233,7 +11367,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 829,
+    "id": 839,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -11247,7 +11381,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 830
+    "id": 840
   }
 ];
 window.SOURCES = [
@@ -15527,6 +15661,62 @@ window.SOURCES = [
       {
         "word": "Transport",
         "zh": "运输 / 传输"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "text": "Loop/Cycle Metronome Quick Key 1 Quick Key 2",
+    "translation": "",
+    "category": "",
+    "branches": [
+      {
+        "word": "Loop",
+        "zh": "循环 / 循环段"
+      },
+      {
+        "word": "Cycle",
+        "zh": "循环 / 周期循环"
+      },
+      {
+        "word": "Metronome",
+        "zh": "节拍器"
+      },
+      {
+        "word": "Quick Key 1",
+        "zh": "快捷按键 1"
+      },
+      {
+        "word": "Quick Key 2",
+        "zh": "快捷按键 2"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "text": "DAW COMMAND / KEYBOARD MACRO LABEL",
+    "translation": "DAW 命令 / 键盘宏 标签",
+    "category": "",
+    "branches": [
+      {
+        "word": "DAW",
+        "zh": "数字音频工作站"
+      },
+      {
+        "word": "Command",
+        "zh": "命令"
+      },
+      {
+        "word": "Keyboard",
+        "zh": "键盘"
+      },
+      {
+        "word": "Macro",
+        "zh": "宏"
+      },
+      {
+        "word": "Label",
+        "zh": "标签"
       }
     ]
   }
