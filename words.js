@@ -10816,6 +10816,76 @@ window.WORDS = [
     "id": 798
   },
   {
+    "word": "Latest videos",
+    "ipa": "",
+    "translit": "",
+    "zh": "最新视频",
+    "def": "指按发布时间排序、最近上传的视频列表。",
+    "example": "例子：网站首页显示“Latest videos”栏目，列出今天刚上传的片段。",
+    "context": "Latest videos Most viewed videos Longest videos Popular videos Random videos",
+    "contextZh": "最新视频、观看最多视频、时长最长视频、热门视频、随机视频。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 799,
+    "audioFile": "a6cf3835e41ab824"
+  },
+  {
+    "word": "Most viewed videos",
+    "ipa": "",
+    "translit": "",
+    "zh": "观看最多视频",
+    "def": "指按播放量从高到低排序的视频列表。",
+    "example": "例子：频道页面展示“Most viewed videos”，第一条是播放量破百万的热门片段。",
+    "context": "Latest videos Most viewed videos Longest videos Popular videos Random videos",
+    "contextZh": "最新视频、观看最多视频、时长最长视频、热门视频、随机视频。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 800,
+    "audioFile": "5da7641d949154bf"
+  },
+  {
+    "word": "Longest videos",
+    "ipa": "",
+    "translit": "",
+    "zh": "时长最长视频",
+    "def": "指按视频时长从长到短排序的列表。",
+    "example": "例子：在筛选菜单选择“Longest videos”，排在最前的是两小时的完整纪录片。",
+    "context": "Latest videos Most viewed videos Longest videos Popular videos Random videos",
+    "contextZh": "最新视频、观看最多视频、时长最长视频、热门视频、随机视频。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 801,
+    "audioFile": "4bb29acad5a241cc"
+  },
+  {
+    "word": "Popular videos",
+    "ipa": "",
+    "translit": "",
+    "zh": "热门视频",
+    "def": "指综合热度较高、近期受欢迎的视频集合。",
+    "example": "例子：首页“Popular videos”区域推荐了本周点击和互动量最高的内容。",
+    "context": "Latest videos Most viewed videos Longest videos Popular videos Random videos",
+    "contextZh": "最新视频、观看最多视频、时长最长视频、热门视频、随机视频。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 802,
+    "audioFile": "2dee861c30a0be21"
+  },
+  {
+    "word": "Random videos",
+    "ipa": "",
+    "translit": "",
+    "zh": "随机视频",
+    "def": "指系统随机抽取、无固定排序的视频列表。",
+    "example": "例子：点击“Random videos”按钮，页面跳转到一条与当前浏览无关的随机片段。",
+    "context": "Latest videos Most viewed videos Longest videos Popular videos Random videos",
+    "contextZh": "最新视频、观看最多视频、时长最长视频、热门视频、随机视频。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 803,
+    "audioFile": "8e9920a4d07b6ed9"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -10826,7 +10896,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 799
+    "id": 804
   },
   {
     "word": "Conga",
@@ -10839,7 +10909,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 800
+    "id": 805
   },
   {
     "word": "Grooves",
@@ -10852,7 +10922,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 801
+    "id": 806
   },
   {
     "word": "Bongos",
@@ -10865,7 +10935,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 802,
+    "id": 807,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -10879,7 +10949,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 803
+    "id": 808
   },
   {
     "word": "Djembe",
@@ -10892,7 +10962,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 804
+    "id": 809
   },
   {
     "word": "Tambourine",
@@ -10905,7 +10975,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 805
+    "id": 810
   },
   {
     "word": "Cowbells",
@@ -10918,7 +10988,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 806
+    "id": 811
   },
   {
     "word": "Bells",
@@ -10931,7 +11001,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 807
+    "id": 812
   },
   {
     "word": "Timbales",
@@ -10944,7 +11014,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 808
+    "id": 813
   },
   {
     "word": "Keys",
@@ -10957,7 +11027,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 809
+    "id": 814
   },
   {
     "word": "Wurlitzer",
@@ -10970,7 +11040,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 810,
+    "id": 815,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -10984,7 +11054,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 811,
+    "id": 816,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -10998,7 +11068,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 812
+    "id": 817
   },
   {
     "word": "Clavinet",
@@ -11011,7 +11081,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 813,
+    "id": 818,
     "audioFile": "bf34769991153703"
   },
   {
@@ -11025,7 +11095,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 814,
+    "id": 819,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -11039,7 +11109,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 815
+    "id": 820
   },
   {
     "word": "Female Vocals",
@@ -11052,7 +11122,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 816,
+    "id": 821,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -11066,7 +11136,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 817,
+    "id": 822,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -11080,7 +11150,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 818,
+    "id": 823,
     "audioFile": "b7e489ac0085f1fa"
   },
   {
@@ -11094,7 +11164,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 819,
+    "id": 824,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -11108,7 +11178,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 820,
+    "id": 825,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -11122,7 +11192,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 821,
+    "id": 826,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -11136,7 +11206,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 822,
+    "id": 827,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -11150,7 +11220,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 823
+    "id": 828
   }
 ];
 window.SOURCES = [
@@ -15370,6 +15440,34 @@ window.SOURCES = [
       {
         "word": "sula",
         "zh": "苏拉"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "text": "Latest videos Most viewed videos Longest videos Popular videos Random videos",
+    "translation": "最新视频、观看最多视频、时长最长视频、热门视频、随机视频。",
+    "category": "",
+    "branches": [
+      {
+        "word": "Latest videos",
+        "zh": "最新视频"
+      },
+      {
+        "word": "Most viewed videos",
+        "zh": "观看最多视频"
+      },
+      {
+        "word": "Longest videos",
+        "zh": "时长最长视频"
+      },
+      {
+        "word": "Popular videos",
+        "zh": "热门视频"
+      },
+      {
+        "word": "Random videos",
+        "zh": "随机视频"
       }
     ]
   }
