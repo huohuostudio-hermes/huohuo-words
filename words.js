@@ -11047,6 +11047,34 @@ window.WORDS = [
     "id": 815
   },
   {
+    "word": "This layer",
+    "ipa": "",
+    "translit": "",
+    "zh": "这一层",
+    "def": "指代当前讨论的特定层或层级，在上下文中特指某个结构中的一层。",
+    "example": "例子：在分层架构中，这一层负责特定的功能。",
+    "context": "This layer is the transport master",
+    "contextZh": "这一层是传输主控。",
+    "category": "插件操作",
+    "source": "小赫转存",
+    "id": 816,
+    "audioFile": "4438adaec0999104"
+  },
+  {
+    "word": "transport master",
+    "ipa": "",
+    "translit": "",
+    "zh": "传输主控 / 传输主",
+    "def": "指负责传输控制的主要组件或主控层，通常用于网络或音频传输系统中。",
+    "example": "例子：在音频系统中，传输主控负责同步各设备的传输时序。",
+    "context": "This layer is the transport master",
+    "contextZh": "这一层是传输主控。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 817,
+    "audioFile": "8e02f039ce0d6849"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -11057,7 +11085,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 816
+    "id": 818
   },
   {
     "word": "Conga",
@@ -11070,7 +11098,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 817
+    "id": 819
   },
   {
     "word": "Grooves",
@@ -11083,7 +11111,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 818
+    "id": 820
   },
   {
     "word": "Bongos",
@@ -11096,7 +11124,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 819,
+    "id": 821,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -11110,7 +11138,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 820
+    "id": 822
   },
   {
     "word": "Djembe",
@@ -11123,7 +11151,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 821
+    "id": 823
   },
   {
     "word": "Tambourine",
@@ -11136,7 +11164,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 822
+    "id": 824
   },
   {
     "word": "Cowbells",
@@ -11149,7 +11177,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 823
+    "id": 825
   },
   {
     "word": "Bells",
@@ -11162,7 +11190,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 824
+    "id": 826
   },
   {
     "word": "Timbales",
@@ -11175,7 +11203,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 825
+    "id": 827
   },
   {
     "word": "Keys",
@@ -11188,7 +11216,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 826
+    "id": 828
   },
   {
     "word": "Wurlitzer",
@@ -11201,7 +11229,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 827,
+    "id": 829,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -11215,7 +11243,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 828,
+    "id": 830,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -11229,7 +11257,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 829
+    "id": 831
   },
   {
     "word": "Clavinet",
@@ -11242,7 +11270,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 830,
+    "id": 832,
     "audioFile": "bf34769991153703"
   },
   {
@@ -11256,7 +11284,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 831,
+    "id": 833,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -11270,7 +11298,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 832
+    "id": 834
   },
   {
     "word": "Female Vocals",
@@ -11283,7 +11311,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 833,
+    "id": 835,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -11297,7 +11325,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 834,
+    "id": 836,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -11311,7 +11339,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 835,
+    "id": 837,
     "audioFile": "b7e489ac0085f1fa"
   },
   {
@@ -11325,7 +11353,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 836,
+    "id": 838,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -11339,7 +11367,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 837,
+    "id": 839,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -11353,7 +11381,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 838,
+    "id": 840,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -11367,7 +11395,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 839,
+    "id": 841,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -11381,7 +11409,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 840
+    "id": 842
   }
 ];
 window.SOURCES = [
@@ -15717,6 +15745,22 @@ window.SOURCES = [
       {
         "word": "Label",
         "zh": "标签"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "text": "This layer is the transport master",
+    "translation": "这一层是传输主控。",
+    "category": "",
+    "branches": [
+      {
+        "word": "This layer",
+        "zh": "这一层"
+      },
+      {
+        "word": "transport master",
+        "zh": "传输主控 / 传输主"
       }
     ]
   }
