@@ -11070,6 +11070,45 @@ window.WORDS = [
     "audioFile": "8e02f039ce0d6849"
   },
   {
+    "word": "FADER",
+    "ipa": "ˈfeɪdər",
+    "translit": "",
+    "zh": "推子 / 音量推子",
+    "def": "调音台或控制器上用于调节音量、参数的可滑动控件，上下推动改变数值。",
+    "example": "例子：混音时把通道推子往下拉来降低人声电平。",
+    "context": "FADER SEL RANGE",
+    "contextZh": "推子选择范围",
+    "category": "插件操作",
+    "source": "小赫转存",
+    "id": 818
+  },
+  {
+    "word": "SEL",
+    "ipa": "sel",
+    "translit": "",
+    "zh": "选择 / 选定",
+    "def": "英文 select 的缩写，表示选中某个通道、参数或对象以便进一步操作。",
+    "example": "例子：按下通道上的 SEL 键选中该通道，再调节其参数。",
+    "context": "FADER SEL RANGE",
+    "contextZh": "推子选择范围",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 819
+  },
+  {
+    "word": "RANGE",
+    "ipa": "reɪndʒ",
+    "translit": "",
+    "zh": "范围 / 量程",
+    "def": "参数可调节的区间或幅度，常指推子、旋钮所覆盖的数值跨度。",
+    "example": "例子：把推子范围设为 0–127，使滑动对应完整的 MIDI 数值区间。",
+    "context": "FADER SEL RANGE",
+    "contextZh": "推子选择范围",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 820
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -11080,7 +11119,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 818
+    "id": 821
   },
   {
     "word": "Conga",
@@ -11093,7 +11132,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 819
+    "id": 822
   },
   {
     "word": "Grooves",
@@ -11106,7 +11145,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 820
+    "id": 823
   },
   {
     "word": "Bongos",
@@ -11119,7 +11158,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 821,
+    "id": 824,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -11133,7 +11172,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 822
+    "id": 825
   },
   {
     "word": "Djembe",
@@ -11146,7 +11185,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 823
+    "id": 826
   },
   {
     "word": "Tambourine",
@@ -11159,7 +11198,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 824
+    "id": 827
   },
   {
     "word": "Cowbells",
@@ -11172,7 +11211,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 825
+    "id": 828
   },
   {
     "word": "Bells",
@@ -11185,7 +11224,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 826
+    "id": 829
   },
   {
     "word": "Timbales",
@@ -11198,7 +11237,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 827
+    "id": 830
   },
   {
     "word": "Keys",
@@ -11211,7 +11250,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 828
+    "id": 831
   },
   {
     "word": "Wurlitzer",
@@ -11224,7 +11263,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 829,
+    "id": 832,
     "audioFile": "aee7933146af04e2"
   },
   {
@@ -11238,7 +11277,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 830,
+    "id": 833,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -11252,7 +11291,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 831
+    "id": 834
   },
   {
     "word": "Clavinet",
@@ -11265,7 +11304,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 832,
+    "id": 835,
     "audioFile": "bf34769991153703"
   },
   {
@@ -11279,7 +11318,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 833,
+    "id": 836,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -11293,7 +11332,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 834
+    "id": 837
   },
   {
     "word": "Female Vocals",
@@ -11306,7 +11345,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 835,
+    "id": 838,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -11320,7 +11359,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 836,
+    "id": 839,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -11334,7 +11373,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 837,
+    "id": 840,
     "audioFile": "b7e489ac0085f1fa"
   },
   {
@@ -11348,7 +11387,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 838,
+    "id": 841,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -11362,7 +11401,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 839,
+    "id": 842,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -11376,7 +11415,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 840,
+    "id": 843,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -11390,7 +11429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 841,
+    "id": 844,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -11404,7 +11443,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 842
+    "id": 845
   }
 ];
 window.SOURCES = [
@@ -15756,6 +15795,26 @@ window.SOURCES = [
       {
         "word": "transport master",
         "zh": "传输主控 / 传输主"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "text": "FADER SEL RANGE",
+    "translation": "推子选择范围",
+    "category": "",
+    "branches": [
+      {
+        "word": "FADER",
+        "zh": "推子 / 音量推子"
+      },
+      {
+        "word": "SEL",
+        "zh": "选择 / 选定"
+      },
+      {
+        "word": "RANGE",
+        "zh": "范围 / 量程"
       }
     ]
   }
