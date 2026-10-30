@@ -456,7 +456,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 35
+    "id": 35,
+    "audioFile": "95991043db7b5407"
   },
   {
     "word": "Violin",
@@ -809,7 +810,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 61
+    "id": 61,
+    "audioFile": "5b4cc0d40c32fe7b"
   },
   {
     "word": "DPI",
