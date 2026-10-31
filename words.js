@@ -2428,8 +2428,7 @@ window.WORDS = [
     "contextZh": "交通",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 182,
-    "audioFile": "d9e7dc7f09854cc2"
+    "id": 182
   },
   {
     "word": "Watercraft",
