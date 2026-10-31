@@ -5954,7 +5954,8 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 440
+    "id": 440,
+    "audioFile": "4a3a6312c1713eec"
   },
   {
     "word": "simulate",
@@ -7732,8 +7733,7 @@ window.WORDS = [
     "contextZh": "爱马仕重置手表",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 570,
-    "audioFile": "da1d77a0a4d591b1"
+    "id": 570
   },
   {
     "word": "Track subscription quotas",
@@ -9143,7 +9143,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675
+    "id": 675,
+    "audioFile": "81c67591d68b8e7b"
   },
   {
     "word": "Mono per String",
@@ -9747,8 +9748,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 720,
-    "audioFile": "15221dffef3b20ec"
+    "id": 720
   },
   {
     "word": "Pro-C 2",
@@ -10060,8 +10060,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743,
-    "audioFile": "f639c4b46bedfc3d"
+    "id": 743
   },
   {
     "word": "Launch Hammerspoon at login",
@@ -10413,8 +10412,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769,
-    "audioFile": "237c34d5516dcd8d"
+    "id": 769
   },
   {
     "word": "Show Design tab",
@@ -11153,7 +11151,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 824
+    "id": 824,
+    "audioFile": "05b08cced2d60503"
   },
   {
     "word": "Woodblock",
@@ -11257,7 +11256,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 832
+    "id": 832,
+    "audioFile": "aee7933146af04e2"
   },
   {
     "word": "Electric Piano",
@@ -11366,8 +11366,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 840,
-    "audioFile": "b7e489ac0085f1fa"
+    "id": 840
   },
   {
     "word": "Whisper Vocals",
