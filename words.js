@@ -3979,7 +3979,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 296
+    "id": 296,
+    "audioFile": "b7dd7488405ecef2"
   },
   {
     "word": "synth loops",
@@ -6253,8 +6254,7 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 462,
-    "audioFile": "15e9c6a52c89aeae"
+    "id": 462
   },
   {
     "word": "Future Garage",
@@ -7070,8 +7070,7 @@ window.WORDS = [
     "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 521,
-    "audioFile": "d1263df1dba7172d"
+    "id": 521
   },
   {
     "word": "dead backend",
@@ -9143,7 +9142,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675
+    "id": 675,
+    "audioFile": "81c67591d68b8e7b"
   },
   {
     "word": "Mono per String",
@@ -9843,8 +9843,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 727,
-    "audioFile": "0673904a81f6c3e3"
+    "id": 727
   },
   {
     "word": "Insight 2",
@@ -9925,8 +9924,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 733,
-    "audioFile": "49e180fce7f7bf1c"
+    "id": 733
   },
   {
     "word": "Stereo Out",
