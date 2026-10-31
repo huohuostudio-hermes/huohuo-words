@@ -5037,8 +5037,7 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 373,
-    "audioFile": "6858a1d795580215"
+    "id": 373
   },
   {
     "word": "ensures",
@@ -5492,8 +5491,7 @@ window.WORDS = [
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 406,
-    "audioFile": "e923174ef47b4c08"
+    "id": 406
   },
   {
     "word": "gritty",
@@ -6932,7 +6930,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 511
+    "id": 511,
+    "audioFile": "bdc884ef7d46dad0"
   },
   {
     "word": "Stereo movement",
@@ -7070,7 +7069,8 @@ window.WORDS = [
     "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 521
+    "id": 521,
+    "audioFile": "d1263df1dba7172d"
   },
   {
     "word": "dead backend",
@@ -7258,8 +7258,7 @@ window.WORDS = [
     "contextZh": "[晶莹闪烁的吉他连复段]",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 535,
-    "audioFile": "eb3b6d8303c7d429"
+    "id": 535
   },
   {
     "word": "Riff",
@@ -7544,8 +7543,7 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 556,
-    "audioFile": "49f96cd47cf71ed2"
+    "id": 556
   },
   {
     "word": "web dashboard",
@@ -7665,8 +7663,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 565,
-    "audioFile": "33469d3faaaa5d68"
+    "id": 565
   },
   {
     "word": "Page",
@@ -11299,7 +11296,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 835
+    "id": 835,
+    "audioFile": "bf34769991153703"
   },
   {
     "word": "Keys Melody",
