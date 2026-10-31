@@ -9575,7 +9575,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 707
+    "id": 707,
+    "audioFile": "440c2dff456aa005"
   },
   {
     "word": "HAM",
@@ -9926,8 +9927,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 733,
-    "audioFile": "49e180fce7f7bf1c"
+    "id": 733
   },
   {
     "word": "Stereo Out",
@@ -10469,7 +10469,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 773
+    "id": 773,
+    "audioFile": "79ccacac1729d209"
   },
   {
     "word": "键盘切换成Windows",
