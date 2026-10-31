@@ -6254,7 +6254,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 462
+    "id": 462,
+    "audioFile": "15e9c6a52c89aeae"
   },
   {
     "word": "Future Garage",
@@ -7545,7 +7546,8 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 556
+    "id": 556,
+    "audioFile": "49f96cd47cf71ed2"
   },
   {
     "word": "web dashboard",
@@ -7731,7 +7733,8 @@ window.WORDS = [
     "contextZh": "爱马仕重置手表",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 570
+    "id": 570,
+    "audioFile": "da1d77a0a4d591b1"
   },
   {
     "word": "Track subscription quotas",
@@ -9572,8 +9575,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 707,
-    "audioFile": "440c2dff456aa005"
+    "id": 707
   },
   {
     "word": "HAM",
@@ -10467,8 +10469,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 773,
-    "audioFile": "79ccacac1729d209"
+    "id": 773
   },
   {
     "word": "键盘切换成Windows",
