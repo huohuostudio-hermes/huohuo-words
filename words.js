@@ -2822,8 +2822,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 212,
-    "audioFile": "0751273beb9b8350"
+    "id": 212
   },
   {
     "word": "Cissy",
@@ -6931,8 +6930,7 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 511,
-    "audioFile": "bdc884ef7d46dad0"
+    "id": 511
   },
   {
     "word": "Stereo movement",
@@ -7259,7 +7257,8 @@ window.WORDS = [
     "contextZh": "[晶莹闪烁的吉他连复段]",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 535
+    "id": 535,
+    "audioFile": "eb3b6d8303c7d429"
   },
   {
     "word": "Riff",
@@ -7731,7 +7730,8 @@ window.WORDS = [
     "contextZh": "爱马仕重置手表",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 570
+    "id": 570,
+    "audioFile": "da1d77a0a4d591b1"
   },
   {
     "word": "Track subscription quotas",
@@ -11367,7 +11367,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 840
+    "id": 840,
+    "audioFile": "b7e489ac0085f1fa"
   },
   {
     "word": "Whisper Vocals",
