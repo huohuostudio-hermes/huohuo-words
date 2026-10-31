@@ -365,8 +365,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 28,
-    "audioFile": "c2c36709b36e3b25"
+    "id": 28
   },
   {
     "word": "Trombone",
@@ -1149,8 +1148,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 86,
-    "audioFile": "abac36149cf8b0e1"
+    "id": 86
   },
   {
     "word": "Option",
@@ -3979,7 +3977,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 296
+    "id": 296,
+    "audioFile": "b7dd7488405ecef2"
   },
   {
     "word": "synth loops",
@@ -7843,7 +7842,8 @@ window.WORDS = [
     "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 578
+    "id": 578,
+    "audioFile": "2619082f7d8194b1"
   },
   {
     "word": "the parent process",
@@ -10060,8 +10060,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743,
-    "audioFile": "f639c4b46bedfc3d"
+    "id": 743
   },
   {
     "word": "Launch Hammerspoon at login",
@@ -10482,7 +10481,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 774
+    "id": 774,
+    "audioFile": "f1df3d28062c2dbe"
   },
   {
     "word": "VIA",
