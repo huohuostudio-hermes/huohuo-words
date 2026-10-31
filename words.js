@@ -365,7 +365,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 28
+    "id": 28,
+    "audioFile": "c2c36709b36e3b25"
   },
   {
     "word": "Trombone",
@@ -4373,7 +4374,8 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 325
+    "id": 325,
+    "audioFile": "ed80db354e453a35"
   },
   {
     "word": "monitor system",
@@ -8821,8 +8823,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 651,
-    "audioFile": "3d5d90f037a4981f"
+    "id": 651
   },
   {
     "word": "hdivtil",
@@ -10682,7 +10683,8 @@ window.WORDS = [
     "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 789
+    "id": 789,
+    "audioFile": "bb6f7ea4996eae63"
   },
   {
     "word": "O/S: None",
