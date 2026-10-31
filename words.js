@@ -1241,7 +1241,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 93
+    "id": 93,
+    "audioFile": "a81f4df459f0c960"
   },
   {
     "word": "Rock",
@@ -2307,8 +2308,7 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 173,
-    "audioFile": "103429847edcdb9f"
+    "id": 173
   },
   {
     "word": "Spaceship",
@@ -3688,8 +3688,7 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 275,
-    "audioFile": "aaa41cee789a4f2a"
+    "id": 275
   },
   {
     "word": "Slightly different",
@@ -5036,8 +5035,7 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 373,
-    "audioFile": "6858a1d795580215"
+    "id": 373
   },
   {
     "word": "ensures",
@@ -7665,8 +7663,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 565,
-    "audioFile": "33469d3faaaa5d68"
+    "id": 565
   },
   {
     "word": "Page",
@@ -9142,7 +9139,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675
+    "id": 675,
+    "audioFile": "81c67591d68b8e7b"
   },
   {
     "word": "Mono per String",
@@ -10059,8 +10057,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743,
-    "audioFile": "f639c4b46bedfc3d"
+    "id": 743
   },
   {
     "word": "Launch Hammerspoon at login",
