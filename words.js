@@ -809,7 +809,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 61
+    "id": 61,
+    "audioFile": "5b4cc0d40c32fe7b"
   },
   {
     "word": "DPI",
@@ -1123,7 +1124,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 84
+    "id": 84,
+    "audioFile": "325562c769da3f80"
   },
   {
     "word": "Win",
