@@ -365,7 +365,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 28
+    "id": 28,
+    "audioFile": "c2c36709b36e3b25"
   },
   {
     "word": "Trombone",
@@ -1240,8 +1241,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 93,
-    "audioFile": "a81f4df459f0c960"
+    "id": 93
   },
   {
     "word": "Rock",
@@ -7259,8 +7259,7 @@ window.WORDS = [
     "contextZh": "[晶莹闪烁的吉他连复段]",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 535,
-    "audioFile": "eb3b6d8303c7d429"
+    "id": 535
   },
   {
     "word": "Riff",
@@ -7732,8 +7731,7 @@ window.WORDS = [
     "contextZh": "爱马仕重置手表",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 570,
-    "audioFile": "da1d77a0a4d591b1"
+    "id": 570
   },
   {
     "word": "Track subscription quotas",
@@ -11369,8 +11367,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 840,
-    "audioFile": "b7e489ac0085f1fa"
+    "id": 840
   },
   {
     "word": "Whisper Vocals",
