@@ -2933,7 +2933,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 220
+    "id": 220,
+    "audioFile": "c39fed3cd317cde8"
   },
   {
     "word": "Harmonic Punch",
@@ -6253,7 +6254,8 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 462
+    "id": 462,
+    "audioFile": "15e9c6a52c89aeae"
   },
   {
     "word": "Future Garage",
@@ -7842,8 +7844,7 @@ window.WORDS = [
     "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 578,
-    "audioFile": "2619082f7d8194b1"
+    "id": 578
   },
   {
     "word": "the parent process",
@@ -9142,7 +9143,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675
+    "id": 675,
+    "audioFile": "81c67591d68b8e7b"
   },
   {
     "word": "Mono per String",
@@ -10522,8 +10524,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 777,
-    "audioFile": "1c3ebe8153662f5d"
+    "id": 777
   },
   {
     "word": "重做LOL Ping反向信号",
