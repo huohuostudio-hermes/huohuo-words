@@ -114,8 +114,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9,
-    "audioFile": "e4c78fb51106eadd"
+    "id": 9
   },
   {
     "word": "Guitar Melody",
@@ -2933,8 +2932,7 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 220,
-    "audioFile": "c39fed3cd317cde8"
+    "id": 220
   },
   {
     "word": "Harmonic Punch",
@@ -10510,7 +10508,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 776
+    "id": 776,
+    "audioFile": "f0518bc62ce3418b"
   },
   {
     "word": "优化LOL信号快速功能响应",
@@ -10523,8 +10522,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 777,
-    "audioFile": "1c3ebe8153662f5d"
+    "id": 777
   },
   {
     "word": "重做LOL Ping反向信号",
@@ -11258,8 +11256,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 832,
-    "audioFile": "aee7933146af04e2"
+    "id": 832
   },
   {
     "word": "Electric Piano",
