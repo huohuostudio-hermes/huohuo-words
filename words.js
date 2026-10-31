@@ -6932,8 +6932,7 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 511,
-    "audioFile": "bdc884ef7d46dad0"
+    "id": 511
   },
   {
     "word": "Stereo movement",
@@ -7071,8 +7070,7 @@ window.WORDS = [
     "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 521,
-    "audioFile": "d1263df1dba7172d"
+    "id": 521
   },
   {
     "word": "dead backend",
@@ -7733,7 +7731,8 @@ window.WORDS = [
     "contextZh": "爱马仕重置手表",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 570
+    "id": 570,
+    "audioFile": "da1d77a0a4d591b1"
   },
   {
     "word": "Track subscription quotas",
@@ -9748,7 +9747,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 720
+    "id": 720,
+    "audioFile": "15221dffef3b20ec"
   },
   {
     "word": "Pro-C 2",
@@ -10060,7 +10060,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743
+    "id": 743,
+    "audioFile": "f639c4b46bedfc3d"
   },
   {
     "word": "Launch Hammerspoon at login",
@@ -10412,7 +10413,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769
+    "id": 769,
+    "audioFile": "237c34d5516dcd8d"
   },
   {
     "word": "Show Design tab",
@@ -11297,8 +11299,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 835,
-    "audioFile": "bf34769991153703"
+    "id": 835
   },
   {
     "word": "Keys Melody",
@@ -11366,7 +11367,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 840
+    "id": 840,
+    "audioFile": "b7e489ac0085f1fa"
   },
   {
     "word": "Whisper Vocals",
