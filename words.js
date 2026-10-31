@@ -7844,7 +7844,8 @@ window.WORDS = [
     "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 578
+    "id": 578,
+    "audioFile": "2619082f7d8194b1"
   },
   {
     "word": "the parent process",
@@ -10414,8 +10415,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769,
-    "audioFile": "237c34d5516dcd8d"
+    "id": 769
   },
   {
     "word": "Show Design tab",
@@ -10524,7 +10524,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 777
+    "id": 777,
+    "audioFile": "1c3ebe8153662f5d"
   },
   {
     "word": "重做LOL Ping反向信号",
