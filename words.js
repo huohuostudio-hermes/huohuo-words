@@ -1241,8 +1241,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 93,
-    "audioFile": "a81f4df459f0c960"
+    "id": 93
   },
   {
     "word": "Rock",
@@ -6254,8 +6253,7 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 462,
-    "audioFile": "15e9c6a52c89aeae"
+    "id": 462
   },
   {
     "word": "Future Garage",
@@ -7546,8 +7544,7 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 556,
-    "audioFile": "49f96cd47cf71ed2"
+    "id": 556
   },
   {
     "word": "web dashboard",
@@ -9927,7 +9924,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 733
+    "id": 733,
+    "audioFile": "49e180fce7f7bf1c"
   },
   {
     "word": "Stereo Out",
