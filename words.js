@@ -5037,7 +5037,8 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 373
+    "id": 373,
+    "audioFile": "6858a1d795580215"
   },
   {
     "word": "ensures",
@@ -5491,7 +5492,8 @@ window.WORDS = [
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 406
+    "id": 406,
+    "audioFile": "e923174ef47b4c08"
   },
   {
     "word": "gritty",
@@ -7258,7 +7260,8 @@ window.WORDS = [
     "contextZh": "[晶莹闪烁的吉他连复段]",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 535
+    "id": 535,
+    "audioFile": "eb3b6d8303c7d429"
   },
   {
     "word": "Riff",
@@ -7663,7 +7666,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 565
+    "id": 565,
+    "audioFile": "33469d3faaaa5d68"
   },
   {
     "word": "Page",
@@ -9139,8 +9143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675,
-    "audioFile": "81c67591d68b8e7b"
+    "id": 675
   },
   {
     "word": "Mono per String",
@@ -10479,8 +10482,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 774,
-    "audioFile": "f1df3d28062c2dbe"
+    "id": 774
   },
   {
     "word": "VIA",
@@ -11255,8 +11257,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 832,
-    "audioFile": "aee7933146af04e2"
+    "id": 832
   },
   {
     "word": "Electric Piano",
