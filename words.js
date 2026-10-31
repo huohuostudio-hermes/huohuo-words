@@ -2308,7 +2308,8 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 173
+    "id": 173,
+    "audioFile": "103429847edcdb9f"
   },
   {
     "word": "Spaceship",
@@ -3688,7 +3689,8 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 275
+    "id": 275,
+    "audioFile": "aaa41cee789a4f2a"
   },
   {
     "word": "Slightly different",
@@ -5035,7 +5037,8 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 373
+    "id": 373,
+    "audioFile": "6858a1d795580215"
   },
   {
     "word": "ensures",
@@ -5951,7 +5954,8 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 440
+    "id": 440,
+    "audioFile": "4a3a6312c1713eec"
   },
   {
     "word": "simulate",
@@ -7542,8 +7546,7 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 556,
-    "audioFile": "49f96cd47cf71ed2"
+    "id": 556
   },
   {
     "word": "web dashboard",
@@ -7663,7 +7666,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 565
+    "id": 565,
+    "audioFile": "33469d3faaaa5d68"
   },
   {
     "word": "Page",
@@ -7797,8 +7801,7 @@ window.WORDS = [
     "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 575,
-    "audioFile": "ab4a66c98e69c1ea"
+    "id": 575
   },
   {
     "word": "re-executes itself",
@@ -9785,8 +9788,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 723,
-    "audioFile": "3cbd738fb5b6542f"
+    "id": 723
   },
   {
     "word": "dB",
@@ -10057,7 +10059,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743
+    "id": 743,
+    "audioFile": "f639c4b46bedfc3d"
   },
   {
     "word": "Launch Hammerspoon at login",
@@ -10990,7 +10993,8 @@ window.WORDS = [
     "contextZh": "DAW 命令 / 键盘宏 标签",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 812
+    "id": 812,
+    "audioFile": "c5dd76f326bdb69b"
   },
   {
     "word": "Command",
