@@ -5954,8 +5954,7 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 440,
-    "audioFile": "4a3a6312c1713eec"
+    "id": 440
   },
   {
     "word": "simulate",
@@ -9144,8 +9143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675,
-    "audioFile": "81c67591d68b8e7b"
+    "id": 675
   },
   {
     "word": "Mono per String",
@@ -10415,7 +10413,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769
+    "id": 769,
+    "audioFile": "237c34d5516dcd8d"
   },
   {
     "word": "Show Design tab",
@@ -11154,8 +11153,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 824,
-    "audioFile": "05b08cced2d60503"
+    "id": 824
   },
   {
     "word": "Woodblock",
@@ -11259,8 +11257,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 832,
-    "audioFile": "aee7933146af04e2"
+    "id": 832
   },
   {
     "word": "Electric Piano",
