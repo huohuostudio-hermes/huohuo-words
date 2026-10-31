@@ -1241,7 +1241,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 93
+    "id": 93,
+    "audioFile": "a81f4df459f0c960"
   },
   {
     "word": "Rock",
@@ -2932,8 +2933,7 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 220,
-    "audioFile": "c39fed3cd317cde8"
+    "id": 220
   },
   {
     "word": "Harmonic Punch",
@@ -7544,7 +7544,8 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 556
+    "id": 556,
+    "audioFile": "49f96cd47cf71ed2"
   },
   {
     "word": "web dashboard",
@@ -9141,8 +9142,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675,
-    "audioFile": "81c67591d68b8e7b"
+    "id": 675
   },
   {
     "word": "Mono per String",
