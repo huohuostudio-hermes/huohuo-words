@@ -2440,8 +2440,7 @@ window.WORDS = [
     "contextZh": "交通",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 183,
-    "audioFile": "f0ac1641d540bc5a"
+    "id": 183
   },
   {
     "word": "Car",
@@ -6932,8 +6931,7 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 511,
-    "audioFile": "bdc884ef7d46dad0"
+    "id": 511
   },
   {
     "word": "Stereo movement",
@@ -7071,8 +7069,7 @@ window.WORDS = [
     "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 521,
-    "audioFile": "d1263df1dba7172d"
+    "id": 521
   },
   {
     "word": "dead backend",
@@ -9144,7 +9141,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675
+    "id": 675,
+    "audioFile": "81c67591d68b8e7b"
   },
   {
     "word": "Mono per String",
@@ -10482,7 +10480,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 774
+    "id": 774,
+    "audioFile": "f1df3d28062c2dbe"
   },
   {
     "word": "VIA",
@@ -11152,8 +11151,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 824,
-    "audioFile": "05b08cced2d60503"
+    "id": 824
   },
   {
     "word": "Woodblock",
@@ -11257,8 +11255,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 832,
-    "audioFile": "aee7933146af04e2"
+    "id": 832
   },
   {
     "word": "Electric Piano",
