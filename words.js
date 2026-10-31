@@ -365,8 +365,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 28,
-    "audioFile": "c2c36709b36e3b25"
+    "id": 28
   },
   {
     "word": "Trombone",
@@ -2440,7 +2439,8 @@ window.WORDS = [
     "contextZh": "交通",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 183
+    "id": 183,
+    "audioFile": "f0ac1641d540bc5a"
   },
   {
     "word": "Car",
@@ -5491,8 +5491,7 @@ window.WORDS = [
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 406,
-    "audioFile": "e923174ef47b4c08"
+    "id": 406
   },
   {
     "word": "gritty",
@@ -7069,7 +7068,8 @@ window.WORDS = [
     "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 521
+    "id": 521,
+    "audioFile": "d1263df1dba7172d"
   },
   {
     "word": "dead backend",
@@ -9828,7 +9828,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 726
+    "id": 726,
+    "audioFile": "10b1062bbf42822e"
   },
   {
     "word": "ValhallaVi",
@@ -10411,8 +10412,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769,
-    "audioFile": "237c34d5516dcd8d"
+    "id": 769
   },
   {
     "word": "Show Design tab",
@@ -10507,8 +10507,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 776,
-    "audioFile": "f0518bc62ce3418b"
+    "id": 776
   },
   {
     "word": "优化LOL信号快速功能响应",
@@ -11151,7 +11150,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 824
+    "id": 824,
+    "audioFile": "05b08cced2d60503"
   },
   {
     "word": "Woodblock",
@@ -11255,7 +11255,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 832
+    "id": 832,
+    "audioFile": "aee7933146af04e2"
   },
   {
     "word": "Electric Piano",
