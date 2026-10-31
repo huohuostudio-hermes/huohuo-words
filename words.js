@@ -1941,8 +1941,7 @@ window.WORDS = [
     "contextZh": "动物 农场 昆虫 大的 鸟类 狗",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 145,
-    "audioFile": "abe7e510fcad31b6"
+    "id": 145
   },
   {
     "word": "Dogs",
