@@ -365,7 +365,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 28
+    "id": 28,
+    "audioFile": "c2c36709b36e3b25"
   },
   {
     "word": "Trombone",
@@ -1148,7 +1149,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 86
+    "id": 86,
+    "audioFile": "abac36149cf8b0e1"
   },
   {
     "word": "Option",
@@ -9142,8 +9144,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675,
-    "audioFile": "81c67591d68b8e7b"
+    "id": 675
   },
   {
     "word": "Mono per String",
@@ -9829,8 +9830,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 726,
-    "audioFile": "10b1062bbf42822e"
+    "id": 726
   },
   {
     "word": "ValhallaVi",
@@ -10060,7 +10060,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743
+    "id": 743,
+    "audioFile": "f639c4b46bedfc3d"
   },
   {
     "word": "Launch Hammerspoon at login",
@@ -10481,8 +10482,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 774,
-    "audioFile": "f1df3d28062c2dbe"
+    "id": 774
   },
   {
     "word": "VIA",
@@ -10550,7 +10550,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 779
+    "id": 779,
+    "audioFile": "5e97e3690913afbc"
   },
   {
     "word": "created",
