@@ -2822,7 +2822,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 212
+    "id": 212,
+    "audioFile": "0751273beb9b8350"
   },
   {
     "word": "Cissy",
@@ -5952,8 +5953,7 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 440,
-    "audioFile": "4a3a6312c1713eec"
+    "id": 440
   },
   {
     "word": "simulate",
@@ -6930,7 +6930,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 511
+    "id": 511,
+    "audioFile": "bdc884ef7d46dad0"
   },
   {
     "word": "Stereo movement",
@@ -9141,8 +9142,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675,
-    "audioFile": "81c67591d68b8e7b"
+    "id": 675
   },
   {
     "word": "Mono per String",
@@ -10993,8 +10993,7 @@ window.WORDS = [
     "contextZh": "DAW 命令 / 键盘宏 标签",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 812,
-    "audioFile": "c5dd76f326bdb69b"
+    "id": 812
   },
   {
     "word": "Command",
