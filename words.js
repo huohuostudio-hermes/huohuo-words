@@ -365,7 +365,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 28
+    "id": 28,
+    "audioFile": "c2c36709b36e3b25"
   },
   {
     "word": "Trombone",
@@ -5491,7 +5492,8 @@ window.WORDS = [
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 406
+    "id": 406,
+    "audioFile": "e923174ef47b4c08"
   },
   {
     "word": "gritty",
@@ -6930,7 +6932,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 511
+    "id": 511,
+    "audioFile": "bdc884ef7d46dad0"
   },
   {
     "word": "Stereo movement",
@@ -10412,7 +10415,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769
+    "id": 769,
+    "audioFile": "237c34d5516dcd8d"
   },
   {
     "word": "Show Design tab",
@@ -10507,7 +10511,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 776
+    "id": 776,
+    "audioFile": "f0518bc62ce3418b"
   },
   {
     "word": "优化LOL信号快速功能响应",
