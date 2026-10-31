@@ -114,7 +114,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9
+    "id": 9,
+    "audioFile": "e4c78fb51106eadd"
   },
   {
     "word": "Guitar Melody",
@@ -2932,7 +2933,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 220
+    "id": 220,
+    "audioFile": "c39fed3cd317cde8"
   },
   {
     "word": "Harmonic Punch",
@@ -3977,8 +3979,7 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 296,
-    "audioFile": "b7dd7488405ecef2"
+    "id": 296
   },
   {
     "word": "synth loops",
@@ -8821,7 +8822,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 651
+    "id": 651,
+    "audioFile": "3d5d90f037a4981f"
   },
   {
     "word": "hdivtil",
@@ -9141,8 +9143,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675,
-    "audioFile": "81c67591d68b8e7b"
+    "id": 675
   },
   {
     "word": "Mono per String",
@@ -10522,7 +10523,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 777
+    "id": 777,
+    "audioFile": "1c3ebe8153662f5d"
   },
   {
     "word": "重做LOL Ping反向信号",
@@ -11256,7 +11258,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 832
+    "id": 832,
+    "audioFile": "aee7933146af04e2"
   },
   {
     "word": "Electric Piano",
