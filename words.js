@@ -6544,8 +6544,7 @@ window.WORDS = [
     "contextZh": "在 Splice 上搜索复古质感音色时，输入 \"analog synth brass\" 往往会得到厚实、失谐的铺底音色，适合用于合成器浪潮或赛博朋克风格的曲目。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 483,
-    "audioFile": "23e9b4efe1fb9c37"
+    "id": 483
   },
   {
     "word": "Cyberpunk tracks",
