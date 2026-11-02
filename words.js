@@ -7260,8 +7260,7 @@ window.WORDS = [
     "contextZh": "[晶莹闪烁的吉他连复段]",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 535,
-    "audioFile": "eb3b6d8303c7d429"
+    "id": 535
   },
   {
     "word": "Riff",
