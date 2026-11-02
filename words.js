@@ -181,7 +181,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 14
+    "id": 14,
+    "audioFile": "25879169b1cd447a"
   },
   {
     "word": "Sub",
