@@ -75,7 +75,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 6
+    "id": 6,
+    "audioFile": "c311f231221682f9"
   },
   {
     "word": "Acoustic",
@@ -101,7 +102,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 8
+    "id": 8,
+    "audioFile": "4d30056add07fc53"
   },
   {
     "word": "Chords",
@@ -443,7 +445,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 34
+    "id": 34,
+    "audioFile": "7bbb5dae0e3a2d49"
   },
   {
     "word": "Harmonica",
@@ -534,7 +537,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 41
+    "id": 41,
+    "audioFile": "03c8ed27dffc3fcf"
   },
   {
     "word": "Strings Melody",
@@ -1429,7 +1433,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 107
+    "id": 107,
+    "audioFile": "688f800d86c887b5"
   },
   {
     "word": "String Noise",
@@ -1512,7 +1517,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 113
+    "id": 113,
+    "audioFile": "b80b5a88fd6490d4"
   },
   {
     "word": "Slack",
@@ -6957,7 +6963,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 513
+    "id": 513,
+    "audioFile": "fa32f507eb669f21"
   },
   {
     "word": "Your request",
@@ -9679,7 +9686,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 715
+    "id": 715,
+    "audioFile": "986641af5eabfb40"
   },
   {
     "word": "Failed",
@@ -11127,7 +11135,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 822
+    "id": 822,
+    "audioFile": "dbc61de6ca857443"
   },
   {
     "word": "Grooves",
@@ -11232,7 +11241,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 830
+    "id": 830,
+    "audioFile": "cafdb11b145b2ca8"
   },
   {
     "word": "Keys",
