@@ -3784,7 +3784,8 @@ window.WORDS = [
     "contextZh": "将多个合成器主音叠加在一起，可以为副歌创造出宏大、颂歌般的旋律线。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 282
+    "id": 282,
+    "audioFile": "a455e490416a641a"
   },
   {
     "word": "melody line",
