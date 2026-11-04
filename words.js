@@ -11281,8 +11281,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 833,
-    "audioFile": "44ec526e71018427"
+    "id": 833
   },
   {
     "word": "Tambourine",
