@@ -8973,7 +8973,8 @@ window.WORDS = [
     "contextZh": "TS 保罗·马伯里 镲片 单次采样 22 英寸叮叮镲 自然音色 立体声 1",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 662
+    "id": 662,
+    "audioFile": "4402abb98f9559cb"
   },
   {
     "word": "PAUL MABURY",
