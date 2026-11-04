@@ -3692,8 +3692,7 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 275,
-    "audioFile": "aaa41cee789a4f2a"
+    "id": 275
   },
   {
     "word": "Slightly different",
