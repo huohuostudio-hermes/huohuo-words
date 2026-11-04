@@ -11107,6 +11107,104 @@ window.WORDS = [
     "id": 820
   },
   {
+    "word": "This session is cached",
+    "ipa": "",
+    "translit": "",
+    "zh": "本次会话已缓存",
+    "def": "表示当前对话内容已被缓存保存，以便后续快速读取。",
+    "example": "例子：系统提示“本次会话已缓存”，下次打开可更快加载。",
+    "context": "This session is cached for DeepSeek Flash. Switching to DeepSeek V4 Pro means Claude re-reads the whole session on your next message, which uses more of your usage.",
+    "contextZh": "本次会话已为 DeepSeek Flash 缓存。切换到 DeepSeek V4 Pro 意味着 Claude 会在你下一条消息时重新读取整个会话，这会消耗更多你的用量。",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 821,
+    "audioFile": "d68e60af670e6c10"
+  },
+  {
+    "word": "DeepSeek Flash",
+    "ipa": "",
+    "translit": "",
+    "zh": "DeepSeek Flash",
+    "def": "指一个名为 DeepSeek Flash 的模型或服务版本。",
+    "example": "例子：当前会话缓存是为 DeepSeek Flash 准备的。",
+    "context": "This session is cached for DeepSeek Flash. Switching to DeepSeek V4 Pro means Claude re-reads the whole session on your next message, which uses more of your usage.",
+    "contextZh": "本次会话已为 DeepSeek Flash 缓存。切换到 DeepSeek V4 Pro 意味着 Claude 会在你下一条消息时重新读取整个会话，这会消耗更多你的用量。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 822,
+    "audioFile": "8952a27c62d1ec95"
+  },
+  {
+    "word": "Switching to",
+    "ipa": "",
+    "translit": "",
+    "zh": "切换到",
+    "def": "表示从当前对象更换为另一个对象。",
+    "example": "例子：从 Flash 切换到 Pro 版本。",
+    "context": "This session is cached for DeepSeek Flash. Switching to DeepSeek V4 Pro means Claude re-reads the whole session on your next message, which uses more of your usage.",
+    "contextZh": "本次会话已为 DeepSeek Flash 缓存。切换到 DeepSeek V4 Pro 意味着 Claude 会在你下一条消息时重新读取整个会话，这会消耗更多你的用量。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 823,
+    "audioFile": "2384dc3f5dafed3a"
+  },
+  {
+    "word": "DeepSeek V4 Pro",
+    "ipa": "",
+    "translit": "",
+    "zh": "DeepSeek V4 Pro",
+    "def": "指另一个名为 DeepSeek V4 Pro 的模型或服务版本。",
+    "example": "例子：切换到 DeepSeek V4 Pro 后处理方式会不同。",
+    "context": "This session is cached for DeepSeek Flash. Switching to DeepSeek V4 Pro means Claude re-reads the whole session on your next message, which uses more of your usage.",
+    "contextZh": "本次会话已为 DeepSeek Flash 缓存。切换到 DeepSeek V4 Pro 意味着 Claude 会在你下一条消息时重新读取整个会话，这会消耗更多你的用量。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 824,
+    "audioFile": "e2f60373bc698592"
+  },
+  {
+    "word": "Claude re-reads",
+    "ipa": "",
+    "translit": "",
+    "zh": "Claude 重新读取",
+    "def": "表示 Claude 会再次完整读取内容。",
+    "example": "例子：切换模型后，Claude 需要重新读取整个会话。",
+    "context": "This session is cached for DeepSeek Flash. Switching to DeepSeek V4 Pro means Claude re-reads the whole session on your next message, which uses more of your usage.",
+    "contextZh": "本次会话已为 DeepSeek Flash 缓存。切换到 DeepSeek V4 Pro 意味着 Claude 会在你下一条消息时重新读取整个会话，这会消耗更多你的用量。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 825,
+    "audioFile": "32e1b91445883e46"
+  },
+  {
+    "word": "the whole session",
+    "ipa": "",
+    "translit": "",
+    "zh": "整个会话",
+    "def": "指当前对话的全部内容。",
+    "example": "例子：Claude 会重新读取整个会话内容。",
+    "context": "This session is cached for DeepSeek Flash. Switching to DeepSeek V4 Pro means Claude re-reads the whole session on your next message, which uses more of your usage.",
+    "contextZh": "本次会话已为 DeepSeek Flash 缓存。切换到 DeepSeek V4 Pro 意味着 Claude 会在你下一条消息时重新读取整个会话，这会消耗更多你的用量。",
+    "category": "音乐词汇",
+    "source": "小赫转存",
+    "id": 826,
+    "audioFile": "250cdc2945c4c4ae"
+  },
+  {
+    "word": "on your next message",
+    "ipa": "",
+    "translit": "",
+    "zh": "在你下一条消息时",
+    "def": "表示该动作会在用户发送下一条消息时发生。",
+    "example": "例子：你下次发消息时，系统会重新读取会话。",
+    "context": "This session is cached for DeepSeek Flash. Switching to DeepSeek V4 Pro means Claude re-reads the whole session on your next message, which uses more of your usage.",
+    "contextZh": "本次会话已为 DeepSeek Flash 缓存。切换到 DeepSeek V4 Pro 意味着 Claude 会在你下一条消息时重新读取整个会话，这会消耗更多你的用量。",
+    "category": "日常生活",
+    "source": "小赫转存",
+    "id": 827,
+    "audioFile": "d25688bcd6892883"
+  },
+  {
     "word": "Shakers",
     "ipa": "ˈʃeɪkərz",
     "translit": "",
@@ -11117,7 +11215,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 821
+    "id": 828
   },
   {
     "word": "Conga",
@@ -11130,7 +11228,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 822,
+    "id": 829,
     "audioFile": "dbc61de6ca857443"
   },
   {
@@ -11144,7 +11242,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 823
+    "id": 830
   },
   {
     "word": "Bongos",
@@ -11157,7 +11255,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 824,
+    "id": 831,
     "audioFile": "05b08cced2d60503"
   },
   {
@@ -11171,7 +11269,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 825
+    "id": 832
   },
   {
     "word": "Djembe",
@@ -11184,7 +11282,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 826
+    "id": 833
   },
   {
     "word": "Tambourine",
@@ -11197,7 +11295,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 827
+    "id": 834
   },
   {
     "word": "Cowbells",
@@ -11210,7 +11308,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 828
+    "id": 835
   },
   {
     "word": "Bells",
@@ -11223,7 +11321,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 829
+    "id": 836
   },
   {
     "word": "Timbales",
@@ -11236,7 +11334,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 830,
+    "id": 837,
     "audioFile": "cafdb11b145b2ca8"
   },
   {
@@ -11250,7 +11348,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 831
+    "id": 838
   },
   {
     "word": "Wurlitzer",
@@ -11263,7 +11361,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 832
+    "id": 839
   },
   {
     "word": "Electric Piano",
@@ -11276,7 +11374,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 833,
+    "id": 840,
     "audioFile": "31e7d05109fe72e8"
   },
   {
@@ -11290,7 +11388,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 834
+    "id": 841
   },
   {
     "word": "Clavinet",
@@ -11303,7 +11401,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 835,
+    "id": 842,
     "audioFile": "bf34769991153703"
   },
   {
@@ -11317,7 +11415,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 836,
+    "id": 843,
     "audioFile": "a0cb8c41f2f92095"
   },
   {
@@ -11331,7 +11429,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 837
+    "id": 844
   },
   {
     "word": "Female Vocals",
@@ -11344,7 +11442,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 838,
+    "id": 845,
     "audioFile": "ae3e6290673d9a86"
   },
   {
@@ -11358,7 +11456,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 839,
+    "id": 846,
     "audioFile": "861dec5c44928ea8"
   },
   {
@@ -11372,7 +11470,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 840,
+    "id": 847,
     "audioFile": "b7e489ac0085f1fa"
   },
   {
@@ -11386,7 +11484,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 841,
+    "id": 848,
     "audioFile": "020a6a705f66079f"
   },
   {
@@ -11400,7 +11498,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 842,
+    "id": 849,
     "audioFile": "d06e945f31459cd9"
   },
   {
@@ -11414,7 +11512,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 843,
+    "id": 850,
     "audioFile": "f2371a934c98d5a9"
   },
   {
@@ -11428,7 +11526,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 844,
+    "id": 851,
     "audioFile": "2decc4db7588f4d0"
   },
   {
@@ -11442,7 +11540,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 845
+    "id": 852
   }
 ];
 window.SOURCES = [
@@ -15814,6 +15912,46 @@ window.SOURCES = [
       {
         "word": "RANGE",
         "zh": "范围 / 量程"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "text": "This session is cached for DeepSeek Flash. Switching to DeepSeek V4 Pro means Claude re-reads the whole session on your next message, which uses more of your usage.",
+    "translation": "本次会话已为 DeepSeek Flash 缓存。切换到 DeepSeek V4 Pro 意味着 Claude 会在你下一条消息时重新读取整个会话，这会消耗更多你的用量。",
+    "category": "",
+    "branches": [
+      {
+        "word": "This session is cached",
+        "zh": "本次会话已缓存"
+      },
+      {
+        "word": "DeepSeek Flash",
+        "zh": "DeepSeek Flash"
+      },
+      {
+        "word": "Switching to",
+        "zh": "切换到"
+      },
+      {
+        "word": "DeepSeek V4 Pro",
+        "zh": "DeepSeek V4 Pro"
+      },
+      {
+        "word": "Claude re-reads",
+        "zh": "Claude 重新读取"
+      },
+      {
+        "word": "the whole session",
+        "zh": "整个会话"
+      },
+      {
+        "word": "on your next message",
+        "zh": "在你下一条消息时"
+      },
+      {
+        "word": "uses more of your usage",
+        "zh": "消耗更多你的用量"
       }
     ]
   }
