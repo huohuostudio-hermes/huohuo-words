@@ -756,8 +756,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 57,
-    "audioFile": "20032083a17999e8"
+    "id": 57
   },
   {
     "word": "Bookmark Bar",
