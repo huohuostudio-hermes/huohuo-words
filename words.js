@@ -2311,8 +2311,7 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 173,
-    "audioFile": "103429847edcdb9f"
+    "id": 173
   },
   {
     "word": "Spaceship",
@@ -9776,8 +9775,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 722,
-    "audioFile": "326ed324dd4422d2"
+    "id": 722
   },
   {
     "word": "soothe2",
