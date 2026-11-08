@@ -9086,8 +9086,7 @@ window.WORDS = [
     "contextZh": "刮擦声、弦噪、嗡声与嘶声、释放噪音。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 671,
-    "audioFile": "39c9940833ee06ca"
+    "id": 671
   },
   {
     "word": "Hiss",
