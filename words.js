@@ -114,8 +114,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9,
-    "audioFile": "e4c78fb51106eadd"
+    "id": 9
   },
   {
     "word": "Guitar Melody",
