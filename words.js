@@ -273,7 +273,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 21
+    "id": 21,
+    "audioFile": "d8e8a81bfaaf1d19"
   },
   {
     "word": "Field Recordings",
