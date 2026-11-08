@@ -1430,8 +1430,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 107,
-    "audioFile": "688f800d86c887b5"
+    "id": 107
   },
   {
     "word": "String Noise",
