@@ -10751,7 +10751,8 @@ window.WORDS = [
     "contextZh": "自述文件（Markdown 格式）",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 794
+    "id": 794,
+    "audioFile": "f78a71af8bbf8cc2"
   },
   {
     "word": "md",
