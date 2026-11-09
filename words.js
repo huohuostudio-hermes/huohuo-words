@@ -62,7 +62,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 5
+    "id": 5,
+    "audioFile": "68c165671716772b"
   },
   {
     "word": "Riffs",
