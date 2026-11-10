@@ -9746,8 +9746,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 720,
-    "audioFile": "15221dffef3b20ec"
+    "id": 720
   },
   {
     "word": "Pro-C 2",
@@ -9787,8 +9786,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 723,
-    "audioFile": "3cbd738fb5b6542f"
+    "id": 723
   },
   {
     "word": "dB",
@@ -9828,8 +9826,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 726,
-    "audioFile": "10b1062bbf42822e"
+    "id": 726
   },
   {
     "word": "ValhallaVi",
@@ -9842,8 +9839,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 727,
-    "audioFile": "0673904a81f6c3e3"
+    "id": 727
   },
   {
     "word": "Insight 2",
@@ -9910,8 +9906,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 732,
-    "audioFile": "64f3da4f3e3da5f3"
+    "id": 732
   },
   {
     "word": "VO短混响",
@@ -9924,8 +9919,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 733,
-    "audioFile": "49e180fce7f7bf1c"
+    "id": 733
   },
   {
     "word": "Stereo Out",
@@ -10019,8 +10013,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 740,
-    "audioFile": "e9543a0726e53197"
+    "id": 740
   },
   {
     "word": "GLOBAL",
@@ -10059,8 +10052,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743,
-    "audioFile": "f639c4b46bedfc3d"
+    "id": 743
   },
   {
     "word": "Launch Hammerspoon at login",
@@ -10412,8 +10404,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769,
-    "audioFile": "237c34d5516dcd8d"
+    "id": 769
   },
   {
     "word": "Show Design tab",
@@ -10467,8 +10458,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 773,
-    "audioFile": "79ccacac1729d209"
+    "id": 773
   },
   {
     "word": "键盘切换成Windows",
@@ -10481,8 +10471,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 774,
-    "audioFile": "f1df3d28062c2dbe"
+    "id": 774
   },
   {
     "word": "VIA",
@@ -10508,8 +10497,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 776,
-    "audioFile": "f0518bc62ce3418b"
+    "id": 776
   },
   {
     "word": "优化LOL信号快速功能响应",
@@ -10522,8 +10510,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 777,
-    "audioFile": "1c3ebe8153662f5d"
+    "id": 777
   },
   {
     "word": "重做LOL Ping反向信号",
@@ -10550,8 +10537,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 779,
-    "audioFile": "5e97e3690913afbc"
+    "id": 779
   },
   {
     "word": "created",
@@ -10682,8 +10668,7 @@ window.WORDS = [
     "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 789,
-    "audioFile": "bb6f7ea4996eae63"
+    "id": 789
   },
   {
     "word": "O/S: None",
@@ -10752,8 +10737,7 @@ window.WORDS = [
     "contextZh": "自述文件（Markdown 格式）",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 794,
-    "audioFile": "f78a71af8bbf8cc2"
+    "id": 794
   },
   {
     "word": "md",
@@ -11250,8 +11234,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 831,
-    "audioFile": "05b08cced2d60503"
+    "id": 831
   },
   {
     "word": "Woodblock",
@@ -11329,8 +11312,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 837,
-    "audioFile": "cafdb11b145b2ca8"
+    "id": 837
   },
   {
     "word": "Keys",
@@ -11396,8 +11378,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 842,
-    "audioFile": "bf34769991153703"
+    "id": 842
   },
   {
     "word": "Keys Melody",
@@ -11451,8 +11432,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 846,
-    "audioFile": "861dec5c44928ea8"
+    "id": 846
   },
   {
     "word": "Screams",
