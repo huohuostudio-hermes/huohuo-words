@@ -49,8 +49,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 4,
-    "audioFile": "959db8be3f214537"
+    "id": 4
   },
   {
     "word": "Leads",
@@ -63,8 +62,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 5,
-    "audioFile": "68c165671716772b"
+    "id": 5
   },
   {
     "word": "Riffs",
@@ -116,8 +114,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9,
-    "audioFile": "e4c78fb51106eadd"
+    "id": 9
   },
   {
     "word": "Guitar Melody",
@@ -327,8 +324,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 25,
-    "audioFile": "0594401b5b006bb4"
+    "id": 25
   },
   {
     "word": "Reverse",
@@ -1431,8 +1427,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 107,
-    "audioFile": "688f800d86c887b5"
+    "id": 107
   },
   {
     "word": "String Noise",
@@ -1515,8 +1510,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 113,
-    "audioFile": "b80b5a88fd6490d4"
+    "id": 113
   },
   {
     "word": "Slack",
@@ -2441,8 +2435,7 @@ window.WORDS = [
     "contextZh": "交通",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 183,
-    "audioFile": "f0ac1641d540bc5a"
+    "id": 183
   },
   {
     "word": "Car",
@@ -2933,8 +2926,7 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 220,
-    "audioFile": "c39fed3cd317cde8"
+    "id": 220
   },
   {
     "word": "Harmonic Punch",
@@ -3978,8 +3970,7 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 296,
-    "audioFile": "b7dd7488405ecef2"
+    "id": 296
   },
   {
     "word": "synth loops",
@@ -4373,8 +4364,7 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 325,
-    "audioFile": "ed80db354e453a35"
+    "id": 325
   },
   {
     "word": "monitor system",
@@ -4980,8 +4970,7 @@ window.WORDS = [
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 369,
-    "audioFile": "83baaf9f1638b9e4"
+    "id": 369
   },
   {
     "word": "lead male vocals",
@@ -5036,8 +5025,7 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 373,
-    "audioFile": "6858a1d795580215"
+    "id": 373
   },
   {
     "word": "ensures",
@@ -5491,8 +5479,7 @@ window.WORDS = [
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 406,
-    "audioFile": "e923174ef47b4c08"
+    "id": 406
   },
   {
     "word": "gritty",
@@ -5859,8 +5846,7 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 433,
-    "audioFile": "c973a2aef1c030af"
+    "id": 433
   },
   {
     "word": "Logic Pro",
@@ -5939,8 +5925,7 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 439,
-    "audioFile": "8f6cf282b7260f35"
+    "id": 439
   },
   {
     "word": "CC1",
@@ -5953,8 +5938,7 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 440,
-    "audioFile": "4a3a6312c1713eec"
+    "id": 440
   },
   {
     "word": "simulate",
@@ -6100,8 +6084,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 451,
-    "audioFile": "584950b32f600296"
+    "id": 451
   },
   {
     "word": "filter cutoff",
@@ -6253,8 +6236,7 @@ window.WORDS = [
     "contextZh": "将原声钢琴与电键盘音色叠加，能创造出一种丰满的混合质感，非常适合新灵魂乐或未来车库风格。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 462,
-    "audioFile": "15e9c6a52c89aeae"
+    "id": 462
   },
   {
     "word": "Future Garage",
@@ -6957,8 +6939,7 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 513,
-    "audioFile": "fa32f507eb669f21"
+    "id": 513
   },
   {
     "word": "Your request",
@@ -7069,8 +7050,7 @@ window.WORDS = [
     "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 521,
-    "audioFile": "d1263df1dba7172d"
+    "id": 521
   },
   {
     "word": "dead backend",
@@ -7297,8 +7277,7 @@ window.WORDS = [
     "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 538,
-    "audioFile": "5e509a8b02fc7d0b"
+    "id": 538
   },
   {
     "word": "clean up",
@@ -7543,8 +7522,7 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 556,
-    "audioFile": "49f96cd47cf71ed2"
+    "id": 556
   },
   {
     "word": "web dashboard",
@@ -7729,8 +7707,7 @@ window.WORDS = [
     "contextZh": "爱马仕重置手表",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 570,
-    "audioFile": "da1d77a0a4d591b1"
+    "id": 570
   },
   {
     "word": "Track subscription quotas",
@@ -7798,8 +7775,7 @@ window.WORDS = [
     "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 575,
-    "audioFile": "ab4a66c98e69c1ea"
+    "id": 575
   },
   {
     "word": "re-executes itself",
@@ -7840,8 +7816,7 @@ window.WORDS = [
     "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 578,
-    "audioFile": "2619082f7d8194b1"
+    "id": 578
   },
   {
     "word": "the parent process",
@@ -8083,8 +8058,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 596,
-    "audioFile": "71ab8b6afb1bae3d"
+    "id": 596
   },
   {
     "word": "Naturalize",
@@ -8381,8 +8355,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 618,
-    "audioFile": "ce560bb434fe8158"
+    "id": 618
   },
   {
     "word": "Noir",
@@ -8820,8 +8793,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 651,
-    "audioFile": "3d5d90f037a4981f"
+    "id": 651
   },
   {
     "word": "hdivtil",
@@ -8834,8 +8806,7 @@ window.WORDS = [
     "contextZh": "hdivtil 创建",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 652,
-    "audioFile": "ff382efd63dcc79a"
+    "id": 652
   },
   {
     "word": "Crash",
@@ -9141,8 +9112,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 675,
-    "audioFile": "81c67591d68b8e7b"
+    "id": 675
   },
   {
     "word": "Mono per String",
@@ -9572,8 +9542,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 707,
-    "audioFile": "440c2dff456aa005"
+    "id": 707
   },
   {
     "word": "HAM",
