@@ -49,7 +49,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 4
+    "id": 4,
+    "audioFile": "959db8be3f214537"
   },
   {
     "word": "Leads",
@@ -114,7 +115,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 9
+    "id": 9,
+    "audioFile": "e4c78fb51106eadd"
   },
   {
     "word": "Guitar Melody",
@@ -324,7 +326,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 25
+    "id": 25,
+    "audioFile": "0594401b5b006bb4"
   },
   {
     "word": "Reverse",
@@ -1427,7 +1430,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 107
+    "id": 107,
+    "audioFile": "688f800d86c887b5"
   },
   {
     "word": "String Noise",
@@ -1510,7 +1514,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 113
+    "id": 113,
+    "audioFile": "b80b5a88fd6490d4"
   },
   {
     "word": "Slack",
@@ -2435,7 +2440,8 @@ window.WORDS = [
     "contextZh": "交通",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 183
+    "id": 183,
+    "audioFile": "f0ac1641d540bc5a"
   },
   {
     "word": "Car",
@@ -2926,7 +2932,8 @@ window.WORDS = [
     "contextZh": "追逐太阳。一尘不染。挽歌主音。动态清音。表情面板。泡沫般的。谐波冲击力。长黑咖啡。我的女王。丝滑加奶油。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 220
+    "id": 220,
+    "audioFile": "c39fed3cd317cde8"
   },
   {
     "word": "Harmonic Punch",
@@ -3970,7 +3977,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 296
+    "id": 296,
+    "audioFile": "b7dd7488405ecef2"
   },
   {
     "word": "synth loops",
@@ -4364,7 +4372,8 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 325
+    "id": 325,
+    "audioFile": "ed80db354e453a35"
   },
   {
     "word": "monitor system",
@@ -4970,7 +4979,8 @@ window.WORDS = [
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 369
+    "id": 369,
+    "audioFile": "83baaf9f1638b9e4"
   },
   {
     "word": "lead male vocals",
@@ -5025,7 +5035,8 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 373
+    "id": 373,
+    "audioFile": "6858a1d795580215"
   },
   {
     "word": "ensures",
@@ -11239,7 +11250,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 831
+    "id": 831,
+    "audioFile": "05b08cced2d60503"
   },
   {
     "word": "Woodblock",
