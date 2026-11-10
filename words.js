@@ -313,7 +313,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 24
+    "id": 24,
+    "audioFile": "c727e8c88cf61b10"
   },
   {
     "word": "Atmospheres",
@@ -716,7 +717,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 54
+    "id": 54,
+    "audioFile": "1e8fa319e92cd83d"
   },
   {
     "word": "sustained bass",
@@ -8725,7 +8727,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 644
+    "id": 644,
+    "audioFile": "f924b9625d1a3b05"
   },
   {
     "word": "lo-fi hip hop",
@@ -9061,7 +9064,8 @@ window.WORDS = [
     "contextZh": "头戴式显示器乘坐表情",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 669
+    "id": 669,
+    "audioFile": "dfee87b739e7ca9a"
   },
   {
     "word": "Knee",
@@ -9167,7 +9171,8 @@ window.WORDS = [
     "contextZh": "脉动低音",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 677
+    "id": 677,
+    "audioFile": "6e6c583768a7d56e"
   },
   {
     "word": "Low Boost",
@@ -9373,7 +9378,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 692
+    "id": 692,
+    "audioFile": "213758f71c3b4199"
   },
   {
     "word": "PRESENCE",
@@ -9504,7 +9510,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 702
+    "id": 702,
+    "audioFile": "fc5d344772d312e2"
   },
   {
     "word": "Hero",
@@ -11300,7 +11307,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 835
+    "id": 835,
+    "audioFile": "f14633f686c6bcb7"
   },
   {
     "word": "Bells",
