@@ -11241,7 +11241,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 830
+    "id": 830,
+    "audioFile": "67a7983a298a079e"
   },
   {
     "word": "Bongos",
