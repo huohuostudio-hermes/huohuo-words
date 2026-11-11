@@ -2230,7 +2230,8 @@ window.WORDS = [
     "contextZh": "人类 人群 打斗 动作 查看全部 脚步声 血腥 电影级特效音 身体音效",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 167
+    "id": 167,
+    "audioFile": "cb19c571932ec5e2"
   },
   {
     "word": "Body Sounds",
