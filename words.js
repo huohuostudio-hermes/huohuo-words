@@ -326,8 +326,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 25,
-    "audioFile": "0594401b5b006bb4"
+    "id": 25
   },
   {
     "word": "Reverse",
