@@ -313,8 +313,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 24,
-    "audioFile": "c727e8c88cf61b10"
+    "id": 24
   },
   {
     "word": "Atmospheres",
