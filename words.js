@@ -10610,7 +10610,8 @@ window.WORDS = [
     "contextZh": "无线游戏",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 783
+    "id": 783,
+    "audioFile": "47618c808d0dbc18"
   },
   {
     "word": "Natural Phase",
