@@ -11081,7 +11081,8 @@ window.WORDS = [
     "contextZh": "推子选择范围",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 818
+    "id": 818,
+    "audioFile": "c6f4524354ac56f1"
   },
   {
     "word": "SEL",
