@@ -10945,8 +10945,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 808,
-    "audioFile": "fde5d8713007bb9f"
+    "id": 808
   },
   {
     "word": "Quick Key 1",
