@@ -10021,8 +10021,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 740,
-    "audioFile": "e9543a0726e53197"
+    "id": 740
   },
   {
     "word": "GLOBAL",
