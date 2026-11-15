@@ -8084,8 +8084,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 596,
-    "audioFile": "71ab8b6afb1bae3d"
+    "id": 596
   },
   {
     "word": "Naturalize",
