@@ -456,8 +456,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 35,
-    "audioFile": "95991043db7b5407"
+    "id": 35
   },
   {
     "word": "Violin",
@@ -2084,8 +2083,7 @@ window.WORDS = [
     "contextZh": "家庭 / 门 / 厨房 / 清洁 / 浴室 / 用餐 / 休闲",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 156,
-    "audioFile": "2f56c0ac09ef740a"
+    "id": 156
   },
   {
     "word": "Cleaning",
