@@ -8044,7 +8044,8 @@ window.WORDS = [
     "contextZh": "按提供商配额与速率限制，显示在桌面面板和状态栏中。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 593
+    "id": 593,
+    "audioFile": "0c3f3289bb966755"
   },
   {
     "word": "Optional",
@@ -8394,7 +8395,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 619
+    "id": 619,
+    "audioFile": "31be9f98c543174b"
   },
   {
     "word": "Uwu",
@@ -8407,7 +8409,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 620
+    "id": 620,
+    "audioFile": "f46fab9f9f91073a"
   },
   {
     "word": "drums",
