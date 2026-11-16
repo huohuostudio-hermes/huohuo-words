@@ -101,8 +101,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 8,
-    "audioFile": "4d30056add07fc53"
+    "id": 8
   },
   {
     "word": "Chords",
@@ -325,8 +324,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 25,
-    "audioFile": "0594401b5b006bb4"
+    "id": 25
   },
   {
     "word": "Reverse",
@@ -8822,8 +8820,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 651,
-    "audioFile": "3d5d90f037a4981f"
+    "id": 651
   },
   {
     "word": "hdivtil",
@@ -8836,8 +8833,7 @@ window.WORDS = [
     "contextZh": "hdivtil 创建",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 652,
-    "audioFile": "ff382efd63dcc79a"
+    "id": 652
   },
   {
     "word": "Crash",
@@ -9065,8 +9061,7 @@ window.WORDS = [
     "contextZh": "头戴式显示器乘坐表情",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 669,
-    "audioFile": "dfee87b739e7ca9a"
+    "id": 669
   },
   {
     "word": "Knee",
@@ -9171,8 +9166,7 @@ window.WORDS = [
     "contextZh": "脉动低音",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 677,
-    "audioFile": "6e6c583768a7d56e"
+    "id": 677
   },
   {
     "word": "Low Boost",
@@ -9509,8 +9503,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 702,
-    "audioFile": "fc5d344772d312e2"
+    "id": 702
   },
   {
     "word": "Hero",
@@ -9749,8 +9742,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 720,
-    "audioFile": "15221dffef3b20ec"
+    "id": 720
   },
   {
     "word": "Pro-C 2",
@@ -9790,8 +9782,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 723,
-    "audioFile": "3cbd738fb5b6542f"
+    "id": 723
   },
   {
     "word": "dB",
@@ -9831,8 +9822,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 726,
-    "audioFile": "10b1062bbf42822e"
+    "id": 726
   },
   {
     "word": "ValhallaVi",
@@ -9845,8 +9835,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 727,
-    "audioFile": "0673904a81f6c3e3"
+    "id": 727
   },
   {
     "word": "Insight 2",
@@ -9913,8 +9902,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 732,
-    "audioFile": "64f3da4f3e3da5f3"
+    "id": 732
   },
   {
     "word": "VO短混响",
@@ -9927,8 +9915,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 733,
-    "audioFile": "49e180fce7f7bf1c"
+    "id": 733
   },
   {
     "word": "Stereo Out",
@@ -10061,8 +10048,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743,
-    "audioFile": "f639c4b46bedfc3d"
+    "id": 743
   },
   {
     "word": "Launch Hammerspoon at login",
@@ -10414,8 +10400,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769,
-    "audioFile": "237c34d5516dcd8d"
+    "id": 769
   },
   {
     "word": "Show Design tab",
@@ -10469,8 +10454,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 773,
-    "audioFile": "79ccacac1729d209"
+    "id": 773
   },
   {
     "word": "键盘切换成Windows",
@@ -10483,8 +10467,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 774,
-    "audioFile": "f1df3d28062c2dbe"
+    "id": 774
   },
   {
     "word": "VIA",
@@ -10510,8 +10493,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 776,
-    "audioFile": "f0518bc62ce3418b"
+    "id": 776
   },
   {
     "word": "优化LOL信号快速功能响应",
@@ -10524,8 +10506,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 777,
-    "audioFile": "1c3ebe8153662f5d"
+    "id": 777
   },
   {
     "word": "重做LOL Ping反向信号",
@@ -10552,8 +10533,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 779,
-    "audioFile": "5e97e3690913afbc"
+    "id": 779
   },
   {
     "word": "created",
@@ -10605,8 +10585,7 @@ window.WORDS = [
     "contextZh": "无线游戏",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 783,
-    "audioFile": "47618c808d0dbc18"
+    "id": 783
   },
   {
     "word": "Natural Phase",
@@ -10659,8 +10638,7 @@ window.WORDS = [
     "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 787,
-    "audioFile": "2541a8919968bbcf"
+    "id": 787
   },
   {
     "word": "Blend",
@@ -10686,8 +10664,7 @@ window.WORDS = [
     "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 789,
-    "audioFile": "bb6f7ea4996eae63"
+    "id": 789
   },
   {
     "word": "O/S: None",
