@@ -9170,8 +9170,7 @@ window.WORDS = [
     "contextZh": "脉动低音",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 677,
-    "audioFile": "6e6c583768a7d56e"
+    "id": 677
   },
   {
     "word": "Low Boost",
