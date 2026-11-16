@@ -11360,8 +11360,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 839,
-    "audioFile": "aee7933146af04e2"
+    "id": 839
   },
   {
     "word": "Electric Piano",
