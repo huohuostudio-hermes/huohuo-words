@@ -8394,8 +8394,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 619,
-    "audioFile": "31be9f98c543174b"
+    "id": 619
   },
   {
     "word": "Uwu",
