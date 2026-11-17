@@ -11090,7 +11090,8 @@ window.WORDS = [
     "contextZh": "推子选择范围",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 819
+    "id": 819,
+    "audioFile": "c7c752379a2f5bcc"
   },
   {
     "word": "RANGE",
