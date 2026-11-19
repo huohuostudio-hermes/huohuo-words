@@ -10998,7 +10998,8 @@ window.WORDS = [
     "contextZh": "DAW 命令 / 键盘宏 标签",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 812
+    "id": 812,
+    "audioFile": "c5dd76f326bdb69b"
   },
   {
     "word": "Command",
