@@ -444,7 +444,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 34
+    "id": 34,
+    "audioFile": "7bbb5dae0e3a2d49"
   },
   {
     "word": "Harmonica",
