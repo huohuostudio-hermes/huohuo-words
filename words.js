@@ -10777,8 +10777,7 @@ window.WORDS = [
     "contextZh": "sula 1他 2她 3它 4塔 5踏 6塌 7榻 8祂 9沓 ~ 加到「混音」下×",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 796,
-    "audioFile": "49fff476c7868c87"
+    "id": 796
   },
   {
     "word": "REVERT",
