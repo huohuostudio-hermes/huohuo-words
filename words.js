@@ -324,8 +324,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 25,
-    "audioFile": "0594401b5b006bb4"
+    "id": 25
   },
   {
     "word": "Reverse",
@@ -1148,8 +1147,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 86,
-    "audioFile": "abac36149cf8b0e1"
+    "id": 86
   },
   {
     "word": "Option",
@@ -1240,8 +1238,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 93,
-    "audioFile": "a81f4df459f0c960"
+    "id": 93
   },
   {
     "word": "Rock",
@@ -1430,8 +1427,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 107,
-    "audioFile": "688f800d86c887b5"
+    "id": 107
   },
   {
     "word": "String Noise",
@@ -1514,8 +1510,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 113,
-    "audioFile": "b80b5a88fd6490d4"
+    "id": 113
   },
   {
     "word": "Slack",
