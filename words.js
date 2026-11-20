@@ -193,8 +193,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 15,
-    "audioFile": "5d85613a56c124e3"
+    "id": 15
   },
   {
     "word": "Acid",
