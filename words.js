@@ -4374,8 +4374,7 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 325,
-    "audioFile": "ed80db354e453a35"
+    "id": 325
   },
   {
     "word": "monitor system",
