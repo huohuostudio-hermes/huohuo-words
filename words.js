@@ -10679,7 +10679,8 @@ window.WORDS = [
     "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 789
+    "id": 789,
+    "audioFile": "bb6f7ea4996eae63"
   },
   {
     "word": "O/S: None",
