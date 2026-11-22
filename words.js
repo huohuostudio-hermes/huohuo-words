@@ -324,7 +324,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 25
+    "id": 25,
+    "audioFile": "0594401b5b006bb4"
   },
   {
     "word": "Reverse",
@@ -533,7 +534,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 41
+    "id": 41,
+    "audioFile": "03c8ed27dffc3fcf"
   },
   {
     "word": "Strings Melody",
@@ -1238,7 +1240,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 93
+    "id": 93,
+    "audioFile": "a81f4df459f0c960"
   },
   {
     "word": "Rock",
@@ -1427,7 +1430,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 107
+    "id": 107,
+    "audioFile": "688f800d86c887b5"
   },
   {
     "word": "String Noise",
@@ -1510,7 +1514,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 113
+    "id": 113,
+    "audioFile": "b80b5a88fd6490d4"
   },
   {
     "word": "Slack",
@@ -2304,7 +2309,8 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 173
+    "id": 173,
+    "audioFile": "103429847edcdb9f"
   },
   {
     "word": "Spaceship",
@@ -2435,7 +2441,8 @@ window.WORDS = [
     "contextZh": "交通",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 183
+    "id": 183,
+    "audioFile": "f0ac1641d540bc5a"
   },
   {
     "word": "Car",
@@ -2817,7 +2824,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 212
+    "id": 212,
+    "audioFile": "0751273beb9b8350"
   },
   {
     "word": "Cissy",
@@ -3681,7 +3689,8 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 275
+    "id": 275,
+    "audioFile": "aaa41cee789a4f2a"
   },
   {
     "word": "Slightly different",
@@ -3970,7 +3979,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 296
+    "id": 296,
+    "audioFile": "b7dd7488405ecef2"
   },
   {
     "word": "synth loops",
@@ -4364,7 +4374,8 @@ window.WORDS = [
     "contextZh": "在经 GLM 校准的监听系统上检查低频，能确保低音部分在不同播放设备上都能完美转换。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 325
+    "id": 325,
+    "audioFile": "ed80db354e453a35"
   },
   {
     "word": "monitor system",
@@ -4970,7 +4981,8 @@ window.WORDS = [
     "contextZh": "对于厚实、宽广的副歌，将主唱男声进行双轨录制，并把它们稍微偏离中央放置，可以营造出宏大的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 369
+    "id": 369,
+    "audioFile": "83baaf9f1638b9e4"
   },
   {
     "word": "lead male vocals",
@@ -5025,7 +5037,8 @@ window.WORDS = [
     "contextZh": "对主唱男声的齿音消除器进行自动化处理，可以确保齿音仅在必要时被严格控制，同时保留自然的高频空气感。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 373
+    "id": 373,
+    "audioFile": "6858a1d795580215"
   },
   {
     "word": "ensures",
@@ -5479,7 +5492,8 @@ window.WORDS = [
     "contextZh": "给人声加一点比特破碎效果，会让乐句带有粗粝的低保真质感，从而在密集的混音中脱颖而出。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 406
+    "id": 406,
+    "audioFile": "e923174ef47b4c08"
   },
   {
     "word": "gritty",
@@ -5925,7 +5939,8 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 439
+    "id": 439,
+    "audioFile": "8f6cf282b7260f35"
   },
   {
     "word": "CC1",
@@ -5938,7 +5953,8 @@ window.WORDS = [
     "contextZh": "在 Logic Pro 中编写逼真的小提琴连奏，需要仔细操控 MIDI CC11 和 CC1，以模拟真实的运弓压力。",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 440
+    "id": 440,
+    "audioFile": "4a3a6312c1713eec"
   },
   {
     "word": "simulate",
@@ -6084,7 +6100,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 451
+    "id": 451,
+    "audioFile": "584950b32f600296"
   },
   {
     "word": "filter cutoff",
@@ -6845,7 +6862,8 @@ window.WORDS = [
     "contextZh": "削减丰满铺底音色的极低频，可以防止它们与超低音发生冲突。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 506
+    "id": 506,
+    "audioFile": "caa56e68ed4be716"
   },
   {
     "word": "Clashing",
@@ -6912,7 +6930,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 511
+    "id": 511,
+    "audioFile": "bdc884ef7d46dad0"
   },
   {
     "word": "Stereo movement",
@@ -6939,7 +6958,8 @@ window.WORDS = [
     "contextZh": "将氛围铺底音色经过慢速移相器处理，会带来一种柔和、回旋的立体声移动感。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 513
+    "id": 513,
+    "audioFile": "fa32f507eb669f21"
   },
   {
     "word": "Your request",
@@ -7050,7 +7070,8 @@ window.WORDS = [
     "contextZh": "在一次更新之后，不要再为一个失效后端上的记录等待 45 秒。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 521
+    "id": 521,
+    "audioFile": "d1263df1dba7172d"
   },
   {
     "word": "dead backend",
@@ -7238,7 +7259,8 @@ window.WORDS = [
     "contextZh": "[晶莹闪烁的吉他连复段]",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 535
+    "id": 535,
+    "audioFile": "eb3b6d8303c7d429"
   },
   {
     "word": "Riff",
@@ -7277,7 +7299,8 @@ window.WORDS = [
     "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 538
+    "id": 538,
+    "audioFile": "5e509a8b02fc7d0b"
   },
   {
     "word": "clean up",
@@ -7522,7 +7545,8 @@ window.WORDS = [
     "contextZh": "仅本地运行的网页仪表板，用于浏览和可视化 Mnemosyne 记忆、三元组、统计数据以及整合历史。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 556
+    "id": 556,
+    "audioFile": "49f96cd47cf71ed2"
   },
   {
     "word": "web dashboard",
@@ -7707,7 +7731,8 @@ window.WORDS = [
     "contextZh": "爱马仕重置手表",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 570
+    "id": 570,
+    "audioFile": "da1d77a0a4d591b1"
   },
   {
     "word": "Track subscription quotas",
@@ -7775,7 +7800,8 @@ window.WORDS = [
     "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 575
+    "id": 575,
+    "audioFile": "ab4a66c98e69c1ea"
   },
   {
     "word": "re-executes itself",
@@ -7816,7 +7842,8 @@ window.WORDS = [
     "contextZh": "在 Hermes 桌面版中跟踪订阅配额和重置时间。披露——probe.py 会在通过 HERMES_PYTHON / VIRTUAL_ENV / 父进程定位到的 Hermes Python 解释器下重新执行自身。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 578
+    "id": 578,
+    "audioFile": "2619082f7d8194b1"
   },
   {
     "word": "the parent process",
@@ -8793,7 +8820,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 651
+    "id": 651,
+    "audioFile": "3d5d90f037a4981f"
   },
   {
     "word": "hdivtil",
@@ -8806,7 +8834,8 @@ window.WORDS = [
     "contextZh": "hdivtil 创建",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 652
+    "id": 652,
+    "audioFile": "ff382efd63dcc79a"
   },
   {
     "word": "Crash",
@@ -9476,7 +9505,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 702
+    "id": 702,
+    "audioFile": "fc5d344772d312e2"
   },
   {
     "word": "Hero",
@@ -9715,7 +9745,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 720
+    "id": 720,
+    "audioFile": "15221dffef3b20ec"
   },
   {
     "word": "Pro-C 2",
@@ -9755,7 +9786,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 723
+    "id": 723,
+    "audioFile": "3cbd738fb5b6542f"
   },
   {
     "word": "dB",
@@ -9795,7 +9827,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 726
+    "id": 726,
+    "audioFile": "10b1062bbf42822e"
   },
   {
     "word": "ValhallaVi",
@@ -9808,7 +9841,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 727
+    "id": 727,
+    "audioFile": "0673904a81f6c3e3"
   },
   {
     "word": "Insight 2",
@@ -9875,7 +9909,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 732
+    "id": 732,
+    "audioFile": "64f3da4f3e3da5f3"
   },
   {
     "word": "VO短混响",
@@ -9888,7 +9923,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 733
+    "id": 733,
+    "audioFile": "49e180fce7f7bf1c"
   },
   {
     "word": "Stereo Out",
@@ -10021,7 +10057,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743
+    "id": 743,
+    "audioFile": "f639c4b46bedfc3d"
   },
   {
     "word": "Launch Hammerspoon at login",
@@ -10373,7 +10410,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 769
+    "id": 769,
+    "audioFile": "237c34d5516dcd8d"
   },
   {
     "word": "Show Design tab",
@@ -10427,7 +10465,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 773
+    "id": 773,
+    "audioFile": "79ccacac1729d209"
   },
   {
     "word": "键盘切换成Windows",
@@ -10440,7 +10479,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "小赫转存",
-    "id": 774
+    "id": 774,
+    "audioFile": "f1df3d28062c2dbe"
   },
   {
     "word": "VIA",
@@ -10466,7 +10506,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 776
+    "id": 776,
+    "audioFile": "f0518bc62ce3418b"
   },
   {
     "word": "优化LOL信号快速功能响应",
@@ -10479,7 +10520,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 777
+    "id": 777,
+    "audioFile": "1c3ebe8153662f5d"
   },
   {
     "word": "重做LOL Ping反向信号",
@@ -10506,7 +10548,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 779
+    "id": 779,
+    "audioFile": "5e97e3690913afbc"
   },
   {
     "word": "created",
@@ -10637,7 +10680,8 @@ window.WORDS = [
     "contextZh": "立体声输出；手动；B；比较；拷贝；粘贴；驱动；撤销；重做；未连接；混合 100%；高频调整；过采样：无；SG - The One；输入增益；输入增益；驱动；高频调整；输出增益。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 789
+    "id": 789,
+    "audioFile": "bb6f7ea4996eae63"
   },
   {
     "word": "O/S: None",
@@ -10947,7 +10991,8 @@ window.WORDS = [
     "contextZh": "DAW 命令 / 键盘宏 标签",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 812
+    "id": 812,
+    "audioFile": "c5dd76f326bdb69b"
   },
   {
     "word": "Command",
@@ -11027,7 +11072,8 @@ window.WORDS = [
     "contextZh": "推子选择范围",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 818
+    "id": 818,
+    "audioFile": "c6f4524354ac56f1"
   },
   {
     "word": "SEL",
@@ -11177,7 +11223,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 829
+    "id": 829,
+    "audioFile": "dbc61de6ca857443"
   },
   {
     "word": "Grooves",
@@ -11203,7 +11250,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 831
+    "id": 831,
+    "audioFile": "05b08cced2d60503"
   },
   {
     "word": "Woodblock",
@@ -11255,7 +11303,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 835
+    "id": 835,
+    "audioFile": "f14633f686c6bcb7"
   },
   {
     "word": "Bells",
@@ -11401,7 +11450,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 846
+    "id": 846,
+    "audioFile": "861dec5c44928ea8"
   },
   {
     "word": "Screams",
@@ -11414,7 +11464,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 847
+    "id": 847,
+    "audioFile": "b7e489ac0085f1fa"
   },
   {
     "word": "Whisper Vocals",
