@@ -11465,7 +11465,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "2026-09-19",
-    "id": 847
+    "id": 847,
+    "audioFile": "b7e489ac0085f1fa"
   },
   {
     "word": "Whisper Vocals",
