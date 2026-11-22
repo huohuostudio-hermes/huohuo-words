@@ -9925,8 +9925,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 733,
-    "audioFile": "49e180fce7f7bf1c"
+    "id": 733
   },
   {
     "word": "Stereo Out",
