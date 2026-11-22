@@ -3691,7 +3691,8 @@ window.WORDS = [
     "contextZh": "将两个略有不同的沙锤分别完全偏左和完全偏右做声像定位，可以营造出宽得多的立体声像。",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 275
+    "id": 275,
+    "audioFile": "aaa41cee789a4f2a"
   },
   {
     "word": "Slightly different",
@@ -3980,7 +3981,8 @@ window.WORDS = [
     "contextZh": "在 Splice 上寻找旋律灵感时，搜索“analog leads”可以得到温暖且富有个性的合成器循环片段。",
     "category": "声音描述",
     "source": "小赫转存",
-    "id": 296
+    "id": 296,
+    "audioFile": "b7dd7488405ecef2"
   },
   {
     "word": "synth loops",
