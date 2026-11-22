@@ -75,8 +75,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "音乐词汇",
     "source": "小赫转存",
-    "id": 6,
-    "audioFile": "c311f231221682f9"
+    "id": 6
   },
   {
     "word": "Acoustic",
