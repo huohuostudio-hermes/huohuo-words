@@ -11252,7 +11252,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "乐器们",
     "source": "2026-09-19",
-    "id": 831
+    "id": 831,
+    "audioFile": "05b08cced2d60503"
   },
   {
     "word": "Woodblock",
