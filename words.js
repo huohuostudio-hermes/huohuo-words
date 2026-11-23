@@ -7302,8 +7302,7 @@ window.WORDS = [
     "contextZh": "自动追踪并清理 Hermes 会话期间产生的临时文件（测试脚本、临时输出、定时任务日志）。通过插件钩子运行——无需代理操作。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 538,
-    "audioFile": "5e509a8b02fc7d0b"
+    "id": 538
   },
   {
     "word": "clean up",
