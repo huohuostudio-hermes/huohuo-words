@@ -2325,7 +2325,8 @@ window.WORDS = [
     "contextZh": "科幻小说",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 174
+    "id": 174,
+    "audioFile": "6900a064deb17648"
   },
   {
     "word": "Data",
