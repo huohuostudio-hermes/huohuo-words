@@ -10059,8 +10059,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 743,
-    "audioFile": "f639c4b46bedfc3d"
+    "id": 743
   },
   {
     "word": "Launch Hammerspoon at login",
