@@ -9576,8 +9576,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 707,
-    "audioFile": "440c2dff456aa005"
+    "id": 707
   },
   {
     "word": "HAM",
