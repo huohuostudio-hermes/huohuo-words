@@ -10468,8 +10468,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 773,
-    "audioFile": "79ccacac1729d209"
+    "id": 773
   },
   {
     "word": "键盘切换成Windows",
@@ -10509,7 +10508,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 776
+    "id": 776,
+    "audioFile": "f0518bc62ce3418b"
   },
   {
     "word": "优化LOL信号快速功能响应",
