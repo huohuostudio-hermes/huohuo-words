@@ -10766,7 +10766,8 @@ window.WORDS = [
     "contextZh": "自述文件（Markdown 格式）",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 795
+    "id": 795,
+    "audioFile": "240c4df7250227ef"
   },
   {
     "word": "sula",
