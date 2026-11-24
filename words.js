@@ -2509,7 +2509,8 @@ window.WORDS = [
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 188
+    "id": 188,
+    "audioFile": "ebebee19b34c4c0c"
   },
   {
     "word": "Sword",
