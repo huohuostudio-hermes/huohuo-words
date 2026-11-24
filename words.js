@@ -2509,8 +2509,7 @@ window.WORDS = [
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 188,
-    "audioFile": "ebebee19b34c4c0c"
+    "id": 188
   },
   {
     "word": "Sword",
@@ -9576,8 +9575,7 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 707,
-    "audioFile": "440c2dff456aa005"
+    "id": 707
   },
   {
     "word": "HAM",
