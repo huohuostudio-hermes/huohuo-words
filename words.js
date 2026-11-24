@@ -2509,7 +2509,8 @@ window.WORDS = [
     "contextZh": "战争、枪、剑、武器、刀、军事、子弹",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 188
+    "id": 188,
+    "audioFile": "ebebee19b34c4c0c"
   },
   {
     "word": "Sword",
@@ -8931,7 +8932,8 @@ window.WORDS = [
     "contextZh": "动态。激励与增强。微妙与柔和。",
     "category": "日常生活",
     "source": "小赫转存",
-    "id": 659
+    "id": 659,
+    "audioFile": "eaa8b03f78e40a0d"
   },
   {
     "word": "Excite & Enhance",
@@ -9575,7 +9577,8 @@ window.WORDS = [
     "contextZh": "",
     "category": "插件操作",
     "source": "小赫转存",
-    "id": 707
+    "id": 707,
+    "audioFile": "440c2dff456aa005"
   },
   {
     "word": "HAM",
